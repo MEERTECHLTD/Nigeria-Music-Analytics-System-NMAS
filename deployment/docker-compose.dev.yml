@@ -1,32 +1,20 @@
-# Docker Compose for local development
-# Note: Not for production deployment (per user requirements)
+# Docker Compose for local development (PostgreSQL only)
 version: '3.8'
 
 services:
   postgres:
-    image: postgres:15-alpine
-    container_name: afrobeats-db-dev
+    image: postgres:16-alpine
+    container_name: nmas-db-dev
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: afrobeats_dev
+      POSTGRES_USER: nmas
+      POSTGRES_PASSWORD: nmas_dev
+      POSTGRES_DB: nmas_delivery
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
-  redis:
-    image: redis:7-alpine
-    container_name: afrobeats-redis-dev
-    ports:
-      - "6379:6379"
-    healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
+      test: ["CMD-SHELL", "pg_isready -U nmas"]
       interval: 10s
       timeout: 5s
       retries: 5

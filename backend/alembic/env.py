@@ -1,15 +1,20 @@
 """Alembic environment configuration."""
 
+import sys
 from logging.config import fileConfig
+from pathlib import Path
 
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 
 from alembic import context
 
-# Import your models
-from backend.storage import PlatformSnapshot, Track
-from backend.config import get_settings
+# Ensure the backend directory is on sys.path so nmas is importable
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+# Import application settings and ORM models
+from nmas.config import get_settings
+from nmas import models as nmas_models  # noqa: F401
 
 # This is the Alembic Config object
 config = context.config

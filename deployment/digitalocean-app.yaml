@@ -1,0 +1,68 @@
+# DigitalOcean App Platform specification for NMAS NBS Delivery Platform
+# Deploy via: doctl apps create --spec deployment/digitalocean-app.yaml
+
+name: nmas-nbs-delivery
+
+region: lon1
+
+services:
+  - name: nmas-backend
+    github:
+      repo: MeertechLTD/Nigeria-Music-Analytics-System--NMAS-
+      branch: main
+      deploy_on_push: true
+    source_dir: backend
+    build_command: pip install -r requirements.txt
+    run_command: uvicorn run_nmas:app --host 0.0.0.0 --port 8080
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    envs:
+      - key: ENV
+        value: production
+      - key: DEBUG
+        value: "false"
+      - key: HOST
+        value: "0.0.0.0"
+      - key: PORT
+        value: "8080"
+      - key: DATABASE_URL
+        value: "${db-nmas.DATABASE_URL}"
+      - key: CHARTMETRIC_AUTH_MODE
+        value: refresh
+        type: GENERAL
+      - key: CHARTMETRIC_REFRESH_TOKEN
+        type: SECRET
+      - key: CHARTMETRIC_THROTTLE_SECONDS
+        value: "1.0"
+      - key: CHARTMETRIC_MAX_RETRIES
+        value: "3"
+      - key: EXPORT_ROOT
+        value: /tmp/nmas_exports
+      - key: RAW_PAYLOAD_ROOT
+        value: /tmp/nmas_raw_payloads
+      - key: CORS_ORIGINS
+        value: "${nmas-frontend.PUBLIC_URL}"
+      - key: LOG_LEVEL
+        value: INFO
+
+  - name: nmas-frontend
+    github:
+      repo: MeertechLTD/Nigeria-Music-Analytics-System--NMAS-
+      branch: main
+      deploy_on_push: true
+    source_dir: frontend
+    build_command: npm install && npm run build
+    environment_slug: node-js
+    routes:
+      - path: /
+    envs:
+      - key: VITE_API_BASE
+        value: "${nmas-backend.PUBLIC_URL}"
+
+databases:
+  - name: db-nmas
+    engine: PG
+    version: "16"
+    size: db-s-dev-database
+    num_nodes: 1
