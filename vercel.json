@@ -4,14 +4,6 @@
     "installCommand": "cd frontend && npm install",
     "framework": "vite",
     "rewrites": [
-        { "source": "/api/(.*)", "destination": "/api/index.py" },
-        { "source": "/health", "destination": "/api/index.py" },
         { "source": "/(.*)", "destination": "/index.html" }
-    ],
-    "functions": {
-        "api/index.py": {
-            "runtime": "@vercel/python@4.3.1",
-            "maxDuration": 60
-        }
-    }
+    ]
 }
