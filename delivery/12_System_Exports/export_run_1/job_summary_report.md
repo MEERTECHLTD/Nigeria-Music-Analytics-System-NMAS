@@ -1,0 +1,65 @@
+# NMAS Job Summary
+
+- Job: All Nigerian Artists (131) - Full Extraction Q1_2024 to Q4_2025
+- Provider: chartmetric
+- Started: 2026-04-04T02:09:55.388058
+- Finished: 2026-04-04T22:00:37.072145
+- Status: completed_with_errors
+- Total units: 13624
+- Completed units: 13410
+- Skipped units: 0
+- Failed units: 214
+
+## Quarterly Aggregates Generated
+
+- 9ice | Bandsintown_followers_daily | Q1_2024 | 43.0 followers
+- 9ice | Bandsintown_followers_daily | Q1_2025 | 64.0 followers
+- 9ice | Bandsintown_followers_daily | Q2_2024 | 47.0 followers
+- 9ice | Bandsintown_followers_daily | Q2_2025 | 92.0 followers
+- 9ice | Bandsintown_followers_daily | Q3_2024 | 40.0 followers
+- 9ice | Bandsintown_followers_daily | Q3_2025 | 131.0 followers
+- 9ice | Bandsintown_followers_daily | Q4_2024 | 112.0 followers
+- 9ice | Bandsintown_followers_daily | Q4_2025 | 61.0 followers
+- 9ice | Instagram_followers_daily | Q1_2024 | -1414.0 followers
+- 9ice | Instagram_followers_daily | Q1_2025 | -1939.0 followers
+- 9ice | Instagram_followers_daily | Q2_2024 | -29033.0 followers
+- 9ice | Instagram_followers_daily | Q2_2025 | -32593.0 followers
+- 9ice | Instagram_followers_daily | Q3_2024 | -45218.0 followers
+- 9ice | Instagram_followers_daily | Q3_2025 | -40317.0 followers
+- 9ice | Instagram_followers_daily | Q4_2024 | -9470.0 followers
+- 9ice | Instagram_followers_daily | Q4_2025 | -7596.0 followers
+- 9ice | Spotify_followers_daily | Q1_2024 | 10353.0 followers
+- 9ice | Spotify_followers_daily | Q1_2025 | 8308.0 followers
+- 9ice | Spotify_followers_daily | Q2_2024 | 13036.0 followers
+- 9ice | Spotify_followers_daily | Q2_2025 | 9931.0 followers
+- 9ice | Spotify_followers_daily | Q3_2024 | 10180.0 followers
+- 9ice | Spotify_followers_daily | Q3_2025 | 10757.0 followers
+- 9ice | Spotify_followers_daily | Q4_2024 | 9891.0 followers
+- 9ice | Spotify_followers_daily | Q4_2025 | 9431.0 followers
+- 9ice | Spotify_monthly_listeners_daily | Q1_2024 | 54493.0 listeners
+- 9ice | Spotify_monthly_listeners_daily | Q1_2025 | -38087.0 listeners
+- 9ice | Spotify_monthly_listeners_daily | Q2_2024 | 15929.0 listeners
+- 9ice | Spotify_monthly_listeners_daily | Q2_2025 | 70607.0 listeners
+- 9ice | Spotify_monthly_listeners_daily | Q3_2024 | 31925.0 listeners
+- 9ice | Spotify_monthly_listeners_daily | Q4_2024 | -6480.0 listeners
+- 9ice | Spotify_monthly_listeners_daily | Q4_2025 | 44336.0 listeners
+- 9ice | Wikipedia_views_daily | Q1_2024 | 9080.0 views
+- 9ice | Wikipedia_views_daily | Q1_2025 | 6133.0 views
+- 9ice | Wikipedia_views_daily | Q2_2024 | 10664.0 views
+- 9ice | Wikipedia_views_daily | Q2_2025 | 8237.0 views
+- 9ice | Wikipedia_views_daily | Q3_2024 | 6348.0 views
+- 9ice | Wikipedia_views_daily | Q3_2025 | 12483.0 views
+- 9ice | Wikipedia_views_daily | Q4_2024 | 5314.0 views
+- 9ice | Wikipedia_views_daily | Q4_2025 | 5782.0 views
+- 9ice | YouTube_subscribers_daily | Q1_2024 | -10.0 subscribers
+- 9ice | YouTube_subscribers_daily | Q1_2025 | -10.0 subscribers
+- 9ice | YouTube_subscribers_daily | Q2_2024 | -5.0 subscribers
+- 9ice | YouTube_subscribers_daily | Q2_2025 | -4.0 subscribers
+- 9ice | YouTube_subscribers_daily | Q3_2024 | 0.0 subscribers
+- 9ice | YouTube_subscribers_daily | Q3_2025 | -3.0 subscribers
+- 9ice | YouTube_subscribers_daily | Q4_2024 | 2.0 subscribers
+- 9ice | YouTube_subscribers_daily | Q4_2025 | -1.0 subscribers
+- Ajebutter22 | Bandsintown_followers_daily | Q1_2024 | 39.0 followers
+- Ajebutter22 | Bandsintown_followers_daily | Q1_2025 | 91.0 followers
+- Ajebutter22 | Bandsintown_followers_daily | Q2_2024 | 56.0 followers
+- Additional rows omitted from summary: 3234

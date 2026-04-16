@@ -47,3 +47,50 @@ textarea {
   color: var(--nmas-muted);
   font-size: 1rem;
 }
+
+/* NBS Dashboard Cards */
+.nbs-card {
+  background: var(--nmas-card);
+  border: 1px solid var(--nmas-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: var(--nmas-shadow);
+  transition: box-shadow 0.2s;
+}
+
+.nbs-card:hover {
+  box-shadow: 0 20px 48px rgba(32, 22, 15, 0.12);
+}
+
+/* NBS Tables */
+.nbs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+}
+
+.nbs-table th {
+  padding: 0.625rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--nmas-muted);
+  border-bottom: 2px solid var(--nmas-border);
+  white-space: nowrap;
+}
+
+.nbs-table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--nmas-border);
+  white-space: nowrap;
+}
+
+.nbs-table tbody tr:hover {
+  background: rgba(15, 118, 110, 0.04);
+}
+
+.nbs-table .tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

@@ -492,6 +492,148 @@ def create_app() -> FastAPI:
                 media_type="application/octet-stream",
             )
 
+    # ── NBS Dashboard (read-only from CSV deliverables) ──────
+
+    NBS_DATA_DIR = Path(settings.export_root).parent / "nbs_deliverables"
+
+    def _read_csv_safe(filename: str) -> list[dict]:
+        """Read a CSV from the nbs_deliverables folder. Read-only, never writes."""
+        path = NBS_DATA_DIR / filename
+        if not path.exists():
+            return []
+        import csv
+        with open(path, "r") as f:
+            return list(csv.DictReader(f))
+
+    @app.get("/api/v1/nbs/summary")
+    def nbs_summary():
+        """NBS dashboard summary — period totals for all 4 deliverables."""
+        rev = _read_csv_safe("1_gross_streaming_revenue.csv")
+        exp = _read_csv_safe("2_gross_export_revenue.csv")
+        emp = _read_csv_safe("3_employment_male_female.csv")
+        costs = _read_csv_safe("4_hosting_production_costs.csv")
+
+        rev_totals = []
+        for r in rev:
+            if r.get("artist_name") == "=== PERIOD TOTAL ===":
+                rev_totals.append({
+                    "period": r["period"],
+                    "gross_streaming_revenue_usd": float(r.get("gross_streaming_revenue_usd") or 0),
+                    "gross_streaming_revenue_ngn": float(r.get("gross_streaming_revenue_ngn") or 0),
+                })
+
+        exp_totals = []
+        for r in exp:
+            if r.get("artist_name") == "=== PERIOD TOTAL ===":
+                exp_totals.append({
+                    "period": r["period"],
+                    "domestic_revenue_usd": float(r.get("domestic_revenue_usd") or 0),
+                    "gross_export_revenue_usd": float(r.get("gross_export_revenue_usd") or 0),
+                    "gross_export_revenue_ngn": float(r.get("gross_export_revenue_ngn") or 0),
+                })
+
+        emp_totals = []
+        for r in emp:
+            if "TOTAL" in r.get("category", ""):
+                emp_totals.append({
+                    "period": r["period"],
+                    "total_employment": int(r.get("total_employment") or 0),
+                    "male": int(r.get("male") or 0),
+                    "female": int(r.get("female") or 0),
+                })
+
+        cost_totals = []
+        for r in costs:
+            if "TOTAL" in r.get("cost_category", ""):
+                cost_totals.append({
+                    "period": r["period"],
+                    "total_cost_ngn": float(r.get("total_cost_ngn") or 0),
+                    "total_cost_usd": float(r.get("total_cost_usd") or 0),
+                })
+
+        return {
+            "streaming_revenue": rev_totals,
+            "export_revenue": exp_totals,
+            "employment": emp_totals,
+            "costs": cost_totals,
+            "artist_count": sum(1 for r in rev if r.get("artist_name") not in ("=== PERIOD TOTAL ===", "") and r.get("period") == "Q1_2026"),
+            "periods": sorted(set(r["period"] for r in rev_totals),
+                              key=lambda p: (int(p.split("_")[1]), int(p.split("_")[0][1:]))),
+        }
+
+    @app.get("/api/v1/nbs/streaming-revenue")
+    def nbs_streaming_revenue(period: str | None = None):
+        """Per-artist streaming revenue. Optional period filter."""
+        rows = _read_csv_safe("1_gross_streaming_revenue.csv")
+        result = []
+        for r in rows:
+            if r.get("artist_name") == "=== PERIOD TOTAL ===":
+                continue
+            if period and r.get("period") != period:
+                continue
+            result.append({
+                "period": r["period"],
+                "artist_name": r["artist_name"],
+                "spotify_monthly_listeners": int(float(r.get("spotify_monthly_listeners") or 0)),
+                "youtube_subscribers": int(float(r.get("youtube_subscribers") or 0)),
+                "youtube_actual_views": int(float(r.get("youtube_actual_views") or 0)),
+                "youtube_views_source": r.get("youtube_views_source", ""),
+                "deezer_fans": int(float(r.get("deezer_fans") or 0)),
+                "est_spotify_quarterly_streams": int(float(r.get("est_spotify_quarterly_streams") or 0)),
+                "spotify_revenue_usd": float(r.get("spotify_revenue_usd") or 0),
+                "youtube_revenue_usd": float(r.get("youtube_revenue_usd") or 0),
+                "deezer_revenue_usd": float(r.get("deezer_revenue_usd") or 0),
+                "other_platforms_revenue_usd": float(r.get("other_platforms_revenue_usd") or 0),
+                "gross_streaming_revenue_usd": float(r.get("gross_streaming_revenue_usd") or 0),
+                "gross_streaming_revenue_ngn": float(r.get("gross_streaming_revenue_ngn") or 0),
+            })
+        result.sort(key=lambda x: -x["gross_streaming_revenue_usd"])
+        return result
+
+    @app.get("/api/v1/nbs/export-revenue")
+    def nbs_export_revenue(period: str | None = None):
+        rows = _read_csv_safe("2_gross_export_revenue.csv")
+        result = []
+        for r in rows:
+            if r.get("artist_name") == "=== PERIOD TOTAL ===":
+                continue
+            if period and r.get("period") != period:
+                continue
+            result.append({
+                "period": r["period"],
+                "artist_name": r["artist_name"],
+                "total_streaming_revenue_usd": float(r.get("total_streaming_revenue_usd") or 0),
+                "domestic_revenue_usd": float(r.get("domestic_revenue_usd") or 0),
+                "gross_export_revenue_usd": float(r.get("gross_export_revenue_usd") or 0),
+                "gross_export_revenue_ngn": float(r.get("gross_export_revenue_ngn") or 0),
+            })
+        result.sort(key=lambda x: -x["gross_export_revenue_usd"])
+        return result
+
+    @app.get("/api/v1/nbs/employment")
+    def nbs_employment():
+        return _read_csv_safe("3_employment_male_female.csv")
+
+    @app.get("/api/v1/nbs/costs")
+    def nbs_costs():
+        return _read_csv_safe("4_hosting_production_costs.csv")
+
+    @app.get("/api/v1/nbs/top-artists")
+    def nbs_top_artists(period: str = "Q1_2026", limit: int = 20):
+        rows = _read_csv_safe("1_gross_streaming_revenue.csv")
+        filtered = [
+            {
+                "artist_name": r["artist_name"],
+                "gross_streaming_revenue_usd": float(r.get("gross_streaming_revenue_usd") or 0),
+                "spotify_monthly_listeners": int(float(r.get("spotify_monthly_listeners") or 0)),
+                "youtube_actual_views": int(float(r.get("youtube_actual_views") or 0)),
+            }
+            for r in rows
+            if r.get("period") == period and r.get("artist_name") != "=== PERIOD TOTAL ==="
+        ]
+        filtered.sort(key=lambda x: -x["gross_streaming_revenue_usd"])
+        return filtered[:limit]
+
     return app
 
 

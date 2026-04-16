@@ -10,7 +10,7 @@ from typing import Any
 import requests
 
 from ..config import Settings, get_settings
-from ..metrics import MetricDefinition, get_metric_definition
+from ..metrics import MetricDefinition, get_metric_definition, unique_stat_endpoints
 
 
 logger = logging.getLogger(__name__)
@@ -283,6 +283,42 @@ class ChartmetricClient:
         )
         return last_response, merged_result
 
+    def extract_endpoint_all_metrics(
+        self,
+        endpoint_template: str,
+        metrics: list[MetricDefinition],
+        chartmetric_id: int,
+        period_label: str,
+        start_date: date,
+        end_date: date,
+    ) -> tuple[ProviderResponse | None, list[ExtractionResult]]:
+        """Make ONE API call and extract ALL metrics from the same endpoint response.
+
+        E.g. /stat/spotify returns {obj: {followers: [...], listeners: [...], popularity: [...]}}
+        and we extract Spotify_followers_daily, Spotify_monthly_listeners_daily, Spotify_popularity_daily
+        from a single request instead of three.
+        """
+        endpoint = endpoint_template.format(chartmetric_id=chartmetric_id)
+        max_window_days = 365
+        windows = self._split_date_range(start_date, end_date, max_window_days)
+
+        all_results: list[ExtractionResult] = []
+        last_response: ProviderResponse | None = None
+
+        for window_start, window_end in windows:
+            params = {
+                "since": window_start.isoformat(),
+                "until": window_end.isoformat(),
+            }
+            provider_response = self.request_json(endpoint, params)
+            last_response = provider_response
+
+            for metric in metrics:
+                result = self._normalize(metric, provider_response.payload, period_label)
+                all_results.append(result)
+
+        return last_response, all_results
+
     @staticmethod
     def _split_date_range(start: date, end: date, max_days: int) -> list[tuple[date, date]]:
         from datetime import timedelta
@@ -304,7 +340,7 @@ class ChartmetricClient:
         if metric.name == "Where_People_Listen":
             return self._normalize_where_people_listen(metric, payload)
 
-        records = self._extract_records(payload)
+        records = self._extract_stat_records(payload, metric) if metric.stat_data_key else self._extract_records(payload)
         if not records:
             return ExtractionResult(
                 requested_metric=metric.name,
@@ -511,6 +547,20 @@ class ChartmetricClient:
             observations=observations,
             limitations=limitations,
         )
+
+    @staticmethod
+    def _extract_stat_records(payload: dict[str, Any] | list[Any] | None, metric: MetricDefinition) -> list[dict[str, Any]]:
+        """Extract records from Chartmetric /stat/ endpoints which nest data as obj.<key>: [{value, timestp}, ...]."""
+        if not isinstance(payload, dict):
+            return []
+        obj = payload.get("obj", payload)
+        if not isinstance(obj, dict):
+            return []
+        data_key = metric.stat_data_key
+        series = obj.get(data_key)
+        if isinstance(series, list):
+            return [record for record in series if isinstance(record, dict)]
+        return []
 
     @staticmethod
     def _extract_records(payload: dict[str, Any] | list[Any] | None) -> list[dict[str, Any]]:

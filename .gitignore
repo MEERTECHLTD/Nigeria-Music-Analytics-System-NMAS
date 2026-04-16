@@ -24,6 +24,7 @@ MANIFEST
 
 # Virtual Environment
 venv/
+venv_mac/
 ENV/
 env/
 .venv
@@ -60,8 +61,19 @@ frontend/.next/
 *.db
 *.sqlite
 *.sqlite3
-data/*.db
-data/*.sqlite
+
+# Large data files (runtime generated, not for version control)
+backend/data/nbs_deliverables/
+backend/data/exports/
+backend/data/*.json
+backend/data/*.csv
+backend/data/*.db
+
+# Delivery - large files excluded from Git (shared separately)
+delivery/13_Database/
+delivery/11_Raw_Extractions/nmas_chartmetric_full_metrics.csv
+delivery/11_Raw_Extractions/nmas_q2q3_2025_raw.csv
+delivery/04_Datasets/Daily_Metric_Observations.csv
 
 # Logs
 logs/
@@ -88,9 +100,10 @@ desktop.ini
 
 # Archived materials (keep directory, ignore contents)
 archived/pitch-materials/*
-*.pptx
-*.ppt
 
 # Deployment
 .vercel
 .render
+
+# Pytest cache
+.pytest_cache/
