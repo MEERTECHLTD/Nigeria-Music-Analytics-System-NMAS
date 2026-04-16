@@ -1,0 +1,128 @@
+{
+  "streaming_revenue": [
+    {
+      "period": "Q1_2025",
+      "gross_streaming_revenue_usd": 23270140.6,
+      "gross_streaming_revenue_ngn": 34905210900.0
+    },
+    {
+      "period": "Q2_2025",
+      "gross_streaming_revenue_usd": 23333704.59,
+      "gross_streaming_revenue_ngn": 35000556882.0
+    },
+    {
+      "period": "Q3_2025",
+      "gross_streaming_revenue_usd": 23180573.93,
+      "gross_streaming_revenue_ngn": 34770860890.0
+    },
+    {
+      "period": "Q4_2025",
+      "gross_streaming_revenue_usd": 24158040.28,
+      "gross_streaming_revenue_ngn": 36237060426.0
+    },
+    {
+      "period": "Q1_2026",
+      "gross_streaming_revenue_usd": 27956467.15,
+      "gross_streaming_revenue_ngn": 41934700727.0
+    }
+  ],
+  "export_revenue": [
+    {
+      "period": "Q1_2025",
+      "domestic_revenue_usd": 6981042.18,
+      "gross_export_revenue_usd": 16289098.42,
+      "gross_export_revenue_ngn": 24433647630.0
+    },
+    {
+      "period": "Q2_2025",
+      "domestic_revenue_usd": 7000111.38,
+      "gross_export_revenue_usd": 16333593.21,
+      "gross_export_revenue_ngn": 24500389817.0
+    },
+    {
+      "period": "Q3_2025",
+      "domestic_revenue_usd": 6954172.18,
+      "gross_export_revenue_usd": 16226401.75,
+      "gross_export_revenue_ngn": 24339602623.0
+    },
+    {
+      "period": "Q4_2025",
+      "domestic_revenue_usd": 7247412.09,
+      "gross_export_revenue_usd": 16910628.2,
+      "gross_export_revenue_ngn": 25365942298.0
+    },
+    {
+      "period": "Q1_2026",
+      "domestic_revenue_usd": 8386940.15,
+      "gross_export_revenue_usd": 19569527.01,
+      "gross_export_revenue_ngn": 29354290509.0
+    }
+  ],
+  "employment": [
+    {
+      "period": "Q1_2025",
+      "total_employment": 1300000,
+      "male": 806000,
+      "female": 494000
+    },
+    {
+      "period": "Q2_2025",
+      "total_employment": 1326000,
+      "male": 822120,
+      "female": 503880
+    },
+    {
+      "period": "Q3_2025",
+      "total_employment": 1352520,
+      "male": 838562,
+      "female": 513958
+    },
+    {
+      "period": "Q4_2025",
+      "total_employment": 1379570,
+      "male": 855333,
+      "female": 524237
+    },
+    {
+      "period": "Q1_2026",
+      "total_employment": 1407162,
+      "male": 872440,
+      "female": 534722
+    }
+  ],
+  "costs": [
+    {
+      "period": "Q1_2025",
+      "total_cost_ngn": 272480000.0,
+      "total_cost_usd": 181653.33
+    },
+    {
+      "period": "Q2_2025",
+      "total_cost_ngn": 272480000.0,
+      "total_cost_usd": 181653.33
+    },
+    {
+      "period": "Q3_2025",
+      "total_cost_ngn": 272480000.0,
+      "total_cost_usd": 181653.33
+    },
+    {
+      "period": "Q4_2025",
+      "total_cost_ngn": 272480000.0,
+      "total_cost_usd": 181653.33
+    },
+    {
+      "period": "Q1_2026",
+      "total_cost_ngn": 272480000.0,
+      "total_cost_usd": 181653.33
+    }
+  ],
+  "artist_count": 127,
+  "periods": [
+    "Q1_2025",
+    "Q2_2025",
+    "Q3_2025",
+    "Q4_2025",
+    "Q1_2026"
+  ]
+}

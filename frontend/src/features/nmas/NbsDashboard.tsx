@@ -159,10 +159,10 @@ export function NbsDashboard() {
 
   useEffect(() => {
     Promise.all([
-      fetchJson<NbsSummary>('/api/v1/nbs/summary'),
-      fetchJson<TopArtist[]>('/api/v1/nbs/top-artists?period=Q1_2026&limit=20'),
-      fetchJson<ArtistRevenue[]>('/api/v1/nbs/streaming-revenue?period=Q1_2026'),
-      fetchJson<typeof exportArtists>('/api/v1/nbs/export-revenue?period=Q1_2026'),
+      fetchJson<NbsSummary>('/api/v1/nbs/summary.json'),
+      fetchJson<TopArtist[]>('/api/v1/nbs/top-artists/Q1_2026.json'),
+      fetchJson<ArtistRevenue[]>('/api/v1/nbs/streaming-revenue/Q1_2026.json'),
+      fetchJson<typeof exportArtists>('/api/v1/nbs/export-revenue/Q1_2026.json'),
     ])
       .then(([s, t, a, e]) => {
         setSummary(s); setTopArtists(t); setArtistRevenue(a); setExportArtists(e);
@@ -173,9 +173,9 @@ export function NbsDashboard() {
 
   const loadPeriod = (period: string) => {
     setSelectedPeriod(period);
-    fetchJson<TopArtist[]>(`/api/v1/nbs/top-artists?period=${period}&limit=20`).then(setTopArtists);
-    fetchJson<ArtistRevenue[]>(`/api/v1/nbs/streaming-revenue?period=${period}`).then(setArtistRevenue);
-    fetchJson<typeof exportArtists>(`/api/v1/nbs/export-revenue?period=${period}`).then(setExportArtists);
+    fetchJson<TopArtist[]>(`/api/v1/nbs/top-artists/${period}.json`).then(setTopArtists);
+    fetchJson<ArtistRevenue[]>(`/api/v1/nbs/streaming-revenue/${period}.json`).then(setArtistRevenue);
+    fetchJson<typeof exportArtists>(`/api/v1/nbs/export-revenue/${period}.json`).then(setExportArtists);
   };
 
   // Period-aware KPIs (driven by dropdown)
@@ -744,7 +744,7 @@ export function NbsDashboard() {
 function CostRows() {
   const [costs, setCosts] = useState<Record<string, string>[]>([]);
   useEffect(() => {
-    fetchJson<Record<string, string>[]>('/api/v1/nbs/costs').then(setCosts);
+    fetchJson<Record<string, string>[]>('/api/v1/nbs/costs.json').then(setCosts);
   }, []);
   return (
     <>
