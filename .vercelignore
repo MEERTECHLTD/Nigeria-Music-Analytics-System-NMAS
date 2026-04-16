@@ -1,0 +1,17 @@
+delivery/
+docs/
+backend/data/
+backend/scripts/
+backend/tests/
+backend/alembic/
+backend/venv_mac/
+backend/.venv/
+backend/.pytest_cache/
+deployment/
+*.xlsx
+*.csv
+*.db
+*.mp4
+*.pptx
+*.pdf
+*.docx
