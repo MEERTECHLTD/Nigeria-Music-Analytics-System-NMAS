@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo } from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell, Legend, CartesianGrid,
-  AreaChart, Area, LineChart, Line, ComposedChart,
+  AreaChart, Area, Line, ComposedChart,
 } from 'recharts';
 import {
   TrendingUp, Users, DollarSign, Globe,
@@ -78,7 +78,7 @@ const fmtNum = (n: number) =>
 const PIE_COLORS = ['#0f766e', '#b45309', '#1d4ed8', '#9333ea', '#dc2626', '#059669', '#d97706', '#6366f1'];
 const GENDER_COLORS = ['#1d4ed8', '#ec4899'];
 
-const periodLabel = (p: string) => p.replace('_', ' ');
+const periodLabel = (p: unknown) => String(p).replace('_', ' ');
 
 const pctChange = (curr: number, prev: number) => {
   if (!prev) return null;
@@ -380,7 +380,7 @@ export function NbsDashboard() {
                     <XAxis dataKey="period" tickFormatter={periodLabel} tick={{ fontSize: 12 }} />
                     <YAxis tickFormatter={v => fmtUsd(v)} tick={{ fontSize: 11 }} width={80} />
                     <Tooltip
-                      formatter={(v: number) => [fmtUsd(v), 'Revenue']}
+                      formatter={(v: unknown) => [fmtUsd(Number(v)), 'Revenue']}
                       labelFormatter={periodLabel}
                       contentStyle={{ borderRadius: 8, border: '1px solid var(--nmas-border)' }}
                     />
@@ -401,13 +401,13 @@ export function NbsDashboard() {
                       cx="50%" cy="50%"
                       innerRadius={55} outerRadius={95}
                       dataKey="value"
-                      label={({ name, percent }: Record<string, unknown>) => `${name} ${(Number(percent) * 100).toFixed(0)}%`}
+                      label={(props: { name?: string; percent?: number }) => `${props.name ?? ''} ${((props.percent ?? 0) * 100).toFixed(0)}%`}
                     >
                       {revBreakdown.map((_, i) => (
                         <Cell key={i} fill={PIE_COLORS[i % PIE_COLORS.length]} />
                       ))}
                     </Pie>
-                    <Tooltip formatter={(v: number) => fmtUsd(v)} />
+                    <Tooltip formatter={(v: unknown) => fmtUsd(Number(v))} />
                   </PieChart>
                 </ResponsiveContainer>
               </div>
@@ -419,7 +419,7 @@ export function NbsDashboard() {
                     <CartesianGrid strokeDasharray="3 3" stroke="var(--nmas-border)" />
                     <XAxis type="number" tickFormatter={v => fmtUsd(v)} tick={{ fontSize: 10 }} />
                     <YAxis type="category" dataKey="artist_name" tick={{ fontSize: 11 }} width={80} />
-                    <Tooltip formatter={(v: number) => fmtUsd(v)} />
+                    <Tooltip formatter={(v: unknown) => fmtUsd(Number(v))} />
                     <Bar dataKey="gross_streaming_revenue_usd" fill="#0f766e" radius={[0, 4, 4, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
@@ -434,7 +434,7 @@ export function NbsDashboard() {
                     <CartesianGrid strokeDasharray="3 3" stroke="var(--nmas-border)" />
                     <XAxis dataKey="period" tickFormatter={periodLabel} tick={{ fontSize: 12 }} />
                     <YAxis tickFormatter={v => fmtNum(v)} tick={{ fontSize: 11 }} width={70} />
-                    <Tooltip formatter={(v: number) => v.toLocaleString()} labelFormatter={periodLabel} />
+                    <Tooltip formatter={(v: unknown) => Number(v).toLocaleString()} labelFormatter={periodLabel} />
                     <Legend />
                     <Bar dataKey="male" name="Male" fill={GENDER_COLORS[0]} stackId="emp" radius={[0, 0, 0, 0]} />
                     <Bar dataKey="female" name="Female" fill={GENDER_COLORS[1]} stackId="emp" radius={[4, 4, 0, 0]} />
@@ -514,7 +514,7 @@ export function NbsDashboard() {
                     <XAxis dataKey="period" tickFormatter={periodLabel} tick={{ fontSize: 12 }} />
                     <YAxis yAxisId="L" tickFormatter={v => fmtUsd(v)} tick={{ fontSize: 11 }} width={80} />
                     <YAxis yAxisId="R" orientation="right" tickFormatter={v => `${v}%`} tick={{ fontSize: 11 }} width={45} domain={[0, 100]} />
-                    <Tooltip formatter={(v: number) => fmtUsd(v)} labelFormatter={periodLabel} />
+                    <Tooltip formatter={(v: unknown) => fmtUsd(Number(v))} labelFormatter={periodLabel} />
                     <Legend />
                     <Bar yAxisId="L" dataKey="domestic_revenue_usd" name="Domestic (30%)" fill="#b45309" stackId="rev" />
                     <Bar yAxisId="L" dataKey="gross_export_revenue_usd" name="Export (70%)" fill="#0f766e" stackId="rev" radius={[4, 4, 0, 0]} />
@@ -532,7 +532,7 @@ export function NbsDashboard() {
                     <CartesianGrid strokeDasharray="3 3" stroke="var(--nmas-border)" />
                     <XAxis type="number" tickFormatter={v => fmtUsd(v)} tick={{ fontSize: 10 }} />
                     <YAxis type="category" dataKey="artist_name" tick={{ fontSize: 11 }} width={90} />
-                    <Tooltip formatter={(v: number) => fmtUsd(v)} />
+                    <Tooltip formatter={(v: unknown) => fmtUsd(Number(v))} />
                     <Bar dataKey="gross_export_revenue_usd" fill="#0f766e" radius={[0, 4, 4, 0]} name="Export (USD)" />
                   </BarChart>
                 </ResponsiveContainer>
@@ -620,7 +620,7 @@ export function NbsDashboard() {
                       <CartesianGrid strokeDasharray="3 3" stroke="var(--nmas-border)" />
                       <XAxis dataKey="period" tickFormatter={periodLabel} tick={{ fontSize: 12 }} />
                       <YAxis tickFormatter={v => fmtNum(v)} tick={{ fontSize: 11 }} width={70} />
-                      <Tooltip formatter={(v: number) => v.toLocaleString()} labelFormatter={periodLabel} />
+                      <Tooltip formatter={(v: unknown) => Number(v).toLocaleString()} labelFormatter={periodLabel} />
                       <Legend />
                       <Bar dataKey="male" name="Male" fill={GENDER_COLORS[0]} />
                       <Bar dataKey="female" name="Female" fill={GENDER_COLORS[1]} />
@@ -632,8 +632,8 @@ export function NbsDashboard() {
                     <PieChart>
                       <Pie
                         data={[
-                          { name: 'Male (62%)', value: latestEmp?.male || 0 },
-                          { name: 'Female (38%)', value: latestEmp?.female || 0 },
+                          { name: 'Male (62%)', value: curEmp?.male || 0 },
+                          { name: 'Female (38%)', value: curEmp?.female || 0 },
                         ]}
                         cx="50%" cy="50%"
                         innerRadius={60} outerRadius={100}
@@ -643,7 +643,7 @@ export function NbsDashboard() {
                         <Cell fill={GENDER_COLORS[0]} />
                         <Cell fill={GENDER_COLORS[1]} />
                       </Pie>
-                      <Tooltip formatter={(v: number) => v.toLocaleString()} />
+                      <Tooltip formatter={(v: unknown) => Number(v).toLocaleString()} />
                     </PieChart>
                   </ResponsiveContainer>
                 </div>
@@ -690,9 +690,9 @@ export function NbsDashboard() {
                     <XAxis type="number" tickFormatter={v => fmtUsd(v)} tick={{ fontSize: 10 }} />
                     <YAxis type="category" dataKey="artist_name" tick={{ fontSize: 11 }} width={100} />
                     <Tooltip
-                      formatter={(v: number, name: string) => [
-                        name === 'gross_streaming_revenue_usd' ? fmtUsd(v) : fmtNum(v),
-                        name === 'gross_streaming_revenue_usd' ? 'Revenue' : name
+                      formatter={(v: unknown, name: unknown) => [
+                        String(name) === 'gross_streaming_revenue_usd' ? fmtUsd(Number(v)) : fmtNum(Number(v)),
+                        String(name) === 'gross_streaming_revenue_usd' ? 'Revenue' : String(name)
                       ]}
                     />
                     <Bar dataKey="gross_streaming_revenue_usd" fill="#0f766e" radius={[0, 4, 4, 0]} name="Revenue (USD)" />
