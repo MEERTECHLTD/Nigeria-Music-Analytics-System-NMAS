@@ -10,7 +10,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# lib/  — removed: conflicts with frontend/src/lib/
 lib64/
 parts/
 sdist/
