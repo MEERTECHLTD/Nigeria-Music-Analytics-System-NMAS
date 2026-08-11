@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useRef } from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell, Legend, CartesianGrid,
@@ -10,6 +10,7 @@ import {
   Music, Award, BarChart3,
 } from 'lucide-react';
 import { API_BASE } from '../../lib/api';
+import { nbsFetch, nbsJson, NBS_POLL_MS } from '../../lib/nbsTransport';
 
 // ─── Types ───────────────────────────────────────────────
 
@@ -86,12 +87,14 @@ const pctChange = (curr: number, prev: number) => {
 };
 
 // ─── Fetch helper ────────────────────────────────────────
+//
+// Transport-aware: prefers the live API when it is up and answering with data,
+// otherwise reads the generated projection. Keeps the dashboard working through
+// endpoint activation without any change here.
 
-async function fetchJson<T>(path: string): Promise<T> {
-  const res = await fetch(`${API_BASE}${path}`);
-  if (!res.ok) throw new Error(`API error ${res.status}`);
-  return res.json();
-}
+// All reads go through nbsFetch/nbsJson, which resolve live-vs-projection and
+// keep polling. API_BASE is still exported for the console's own transport.
+void API_BASE;
 
 // ─── Stat Card ───────────────────────────────────────────
 
@@ -157,25 +160,70 @@ export function NbsDashboard() {
     gross_export_revenue_ngn: number;
   }>>([]);
 
+  const [transportMode, setTransportMode] = useState<'live' | 'static'>('static');
+  const [lastFetched, setLastFetched] = useState<Date | null>(null);
+
+  // Keeps the poll pointed at whatever period the user has selected, without
+  // making the interval depend on it (which would restart it on every change).
+  const selectedPeriodRef = useRef(selectedPeriod);
   useEffect(() => {
-    Promise.all([
-      fetchJson<NbsSummary>('/api/v1/nbs/summary.json'),
-      fetchJson<TopArtist[]>('/api/v1/nbs/top-artists/Q1_2026.json'),
-      fetchJson<ArtistRevenue[]>('/api/v1/nbs/streaming-revenue/Q1_2026.json'),
-      fetchJson<typeof exportArtists>('/api/v1/nbs/export-revenue/Q1_2026.json'),
-    ])
-      .then(([s, t, a, e]) => {
-        setSummary(s); setTopArtists(t); setArtistRevenue(a); setExportArtists(e);
-        setLoading(false);
-      })
-      .catch(e => { setError(e.message); setLoading(false); });
+    selectedPeriodRef.current = selectedPeriod;
+  }, [selectedPeriod]);
+
+  // Auto-fetch. Reloads on an interval so quarters ingested after page load
+  // appear on their own; the selected period is respected across refreshes.
+  useEffect(() => {
+    let cancelled = false;
+
+    const load = async (period: string | null) => {
+      try {
+        const summaryRes = await nbsFetch<NbsSummary>('summary');
+        if (cancelled) return;
+        setSummary(summaryRes.data);
+        setTransportMode(summaryRes.mode);
+
+        // Default to the newest quarter the data actually contains rather than
+        // a hardcoded one, so a newly ingested quarter becomes the default.
+        const periods = summaryRes.data?.periods ?? [];
+        const target = period ?? periods[periods.length - 1] ?? 'Q1_2026';
+        if (!period) setSelectedPeriod(target);
+
+        const [t, a, e] = await Promise.all([
+          nbsJson<TopArtist[]>('top-artists', target),
+          nbsJson<ArtistRevenue[]>('streaming-revenue', target),
+          nbsJson<typeof exportArtists>('export-revenue', target),
+        ]);
+        if (cancelled) return;
+        setTopArtists(t);
+        setArtistRevenue(a);
+        setExportArtists(e);
+        setLastFetched(new Date());
+        setError(null);
+      } catch (err) {
+        if (!cancelled) setError(err instanceof Error ? err.message : String(err));
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    };
+
+    void load(null);
+    const timer = window.setInterval(() => {
+      void load(selectedPeriodRef.current);
+    }, NBS_POLL_MS);
+
+    return () => {
+      cancelled = true;
+      window.clearInterval(timer);
+    };
+    // Mount-only: the poll reads the selected period from a ref, so it must not
+    // be torn down and rebuilt whenever that selection changes.
   }, []);
 
   const loadPeriod = (period: string) => {
     setSelectedPeriod(period);
-    fetchJson<TopArtist[]>(`/api/v1/nbs/top-artists/${period}.json`).then(setTopArtists);
-    fetchJson<ArtistRevenue[]>(`/api/v1/nbs/streaming-revenue/${period}.json`).then(setArtistRevenue);
-    fetchJson<typeof exportArtists>(`/api/v1/nbs/export-revenue/${period}.json`).then(setExportArtists);
+    void nbsJson<TopArtist[]>('top-artists', period).then(setTopArtists);
+    void nbsJson<ArtistRevenue[]>('streaming-revenue', period).then(setArtistRevenue);
+    void nbsJson<typeof exportArtists>('export-revenue', period).then(setExportArtists);
   };
 
   // Period-aware KPIs (driven by dropdown)
@@ -262,6 +310,31 @@ export function NbsDashboard() {
               </p>
             </div>
             <div className="flex items-center gap-3">
+              {/* Transport and freshness. A reader must know whether this is the
+                  live API or the generated projection, and how stale it is. */}
+              <span
+                className="text-xs px-2 py-1 rounded-md font-medium border border-[var(--nmas-border)] flex items-center gap-1.5"
+                title={
+                  transportMode === 'live'
+                    ? 'Reading the live API. Refreshing automatically.'
+                    : 'Reading the generated projection. Refreshing automatically.'
+                }
+              >
+                <span
+                  className={`inline-block w-1.5 h-1.5 rounded-full ${
+                    transportMode === 'live' ? 'bg-emerald-500' : 'bg-[var(--nmas-muted)]'
+                  }`}
+                />
+                {transportMode === 'live' ? 'Live' : 'Projection'}
+                {lastFetched && (
+                  <span className="text-[var(--nmas-muted)] tabular-nums">
+                    {lastFetched.toLocaleTimeString('en-GB', {
+                      hour: '2-digit',
+                      minute: '2-digit',
+                    })}
+                  </span>
+                )}
+              </span>
               <div className="relative">
                 <select
                   value={selectedPeriod}
@@ -744,7 +817,7 @@ export function NbsDashboard() {
 function CostRows() {
   const [costs, setCosts] = useState<Record<string, string>[]>([]);
   useEffect(() => {
-    fetchJson<Record<string, string>[]>('/api/v1/nbs/costs.json').then(setCosts);
+    void nbsJson<Record<string, string>[]>('costs').then(setCosts);
   }, []);
   return (
     <>

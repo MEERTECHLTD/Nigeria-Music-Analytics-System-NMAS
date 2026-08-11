@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "api:generate": "python3 ../backend/scripts/generate_console_api.py",
     "build": "tsc && vite build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

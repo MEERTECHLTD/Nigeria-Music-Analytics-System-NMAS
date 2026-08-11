@@ -1,0 +1,435 @@
+/* ==========================================================================
+   NMAS Statistical Production Console — design tokens
+
+   Grounded in statistical publication, not dashboard software: paper stock,
+   hairline rules, editorial serif headings, tabular lining numerals on every
+   figure. No cards, no shadows, no gradients, no accent colour for decoration.
+
+   Colour is reserved entirely for EPISTEMIC STATUS. If a hue appears on this
+   interface it is making a claim about how a number came to exist. Five states,
+   used identically on every surface:
+
+     observed     a value a source returned
+     estimated    a conversion factor applied to an observed input
+     assumed      a constant imposed from outside the data
+     allocated    a total apportioned across units, not measured per unit
+     unavailable  never collected, or collected and empty
+     rejected     a call or record that failed
+
+   ========================================================================== */
+
+:root {
+  /* ---- paper and ink ---- */
+  --paper:        #faf9f6;
+  --paper-sunk:   #f2f0ea;
+  --paper-raised: #ffffff;
+  --ink:          #16150f;
+  --ink-2:        #46433c;
+  --ink-3:        #736e64;
+  --ink-4:        #9c968b;
+
+  /* ---- rules: the primary structural device ---- */
+  --rule-hair:    #e0dcd2;
+  --rule:         #cdc8bb;
+  --rule-strong:  #8d877a;
+  --rule-heavy:   #16150f;
+
+  /* ---- epistemic status: the only semantic colour ---- */
+  --obs:          #1b4f7a;
+  --obs-bg:       #e7eef5;
+  --obs-edge:     #a9c2d7;
+
+  --est:          #9a6212;
+  --est-bg:       #f7efdf;
+  --est-edge:     #dfc596;
+
+  --asm:          #6f4189;
+  --asm-bg:       #f0eaf5;
+  --asm-edge:     #c9b3d8;
+
+  --alc:          #1f6b58;
+  --alc-bg:       #e4f0ec;
+  --alc-edge:     #a7ccc0;
+
+  --una:          #8b867c;
+  --una-bg:       #eeece7;
+  --una-edge:     #cdc8bb;
+
+  --rej:          #9c2a26;
+  --rej-bg:       #f7e8e7;
+  --rej-edge:     #dfb0ae;
+
+  /* ---- focus ---- */
+  --focus:        #1b4f7a;
+
+  /* ---- type ---- */
+  --font-serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype",
+                Palatino, Georgia, "Times New Roman", serif;
+  --font-sans:  ui-sans-serif, -apple-system, "Segoe UI", "Helvetica Neue",
+                Arial, sans-serif;
+  --font-mono:  ui-monospace, "SF Mono", SFMono-Regular, "IBM Plex Mono",
+                Menlo, Consolas, "Liberation Mono", monospace;
+
+  /* ---- type scale: restrained, publication-like ---- */
+  --t-display: 1.75rem;
+  --t-title:   1.25rem;
+  --t-section: 0.9375rem;
+  --t-body:    0.8125rem;
+  --t-fig:     0.8125rem;
+  --t-small:   0.75rem;
+  --t-micro:   0.6875rem;
+
+  /* ---- spacing: 4px base ---- */
+  --s1: 0.25rem;
+  --s2: 0.5rem;
+  --s3: 0.75rem;
+  --s4: 1rem;
+  --s5: 1.5rem;
+  --s6: 2rem;
+  --s7: 3rem;
+  --s8: 4rem;
+
+  /* ---- table density ---- */
+  --row-h:       1.625rem;
+  --row-h-dense: 1.375rem;
+  --cell-x:      0.625rem;
+  --cell-y:      0.25rem;
+
+  --shell-max: 1600px;
+  --rail-w:    15rem;
+}
+
+:root[data-theme="dark"],
+html.dark {
+  --paper:        #131311;
+  --paper-sunk:   #0d0d0c;
+  --paper-raised: #1c1b19;
+  --ink:          #eceae4;
+  --ink-2:        #b7b3aa;
+  --ink-3:        #8b867c;
+  --ink-4:        #6a655d;
+
+  --rule-hair:    #2a2926;
+  --rule:         #3a3833;
+  --rule-strong:  #5f5b53;
+  --rule-heavy:   #eceae4;
+
+  --obs:          #7fb2da;  --obs-bg: #14232f;  --obs-edge: #2d4d68;
+  --est:          #d9a656;  --est-bg: #2a2113;  --est-edge: #5c4826;
+  --asm:          #bd97d6;  --asm-bg: #221a29;  --asm-edge: #4a3a57;
+  --alc:          #6cbfa6;  --alc-bg: #12241f;  --alc-edge: #2b5045;
+  --una:          #8b867c;  --una-bg: #1e1d1b;  --una-edge: #3a3833;
+  --rej:          #e08582;  --rej-bg: #2b1614;  --rej-edge: #5e2f2c;
+
+  --focus:        #7fb2da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:        #131311;
+    --paper-sunk:   #0d0d0c;
+    --paper-raised: #1c1b19;
+    --ink:          #eceae4;
+    --ink-2:        #b7b3aa;
+    --ink-3:        #8b867c;
+    --ink-4:        #6a655d;
+
+    --rule-hair:    #2a2926;
+    --rule:         #3a3833;
+    --rule-strong:  #5f5b53;
+    --rule-heavy:   #eceae4;
+
+    --obs: #7fb2da;  --obs-bg: #14232f;  --obs-edge: #2d4d68;
+    --est: #d9a656;  --est-bg: #2a2113;  --est-edge: #5c4826;
+    --asm: #bd97d6;  --asm-bg: #221a29;  --asm-edge: #4a3a57;
+    --alc: #6cbfa6;  --alc-bg: #12241f;  --alc-edge: #2b5045;
+    --una: #8b867c;  --una-bg: #1e1d1b;  --una-edge: #3a3833;
+    --rej: #e08582;  --rej-bg: #2b1614;  --rej-edge: #5e2f2c;
+
+    --focus: #7fb2da;
+  }
+}
+
+/* ==========================================================================
+   base
+   ========================================================================== */
+
+.nmas-console {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: var(--t-body);
+  line-height: 1.45;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nmas-console *,
+.nmas-console *::before,
+.nmas-console *::after { box-sizing: border-box; }
+
+/* Every figure in the interface. Tabular lining numerals, always. */
+.fig {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+  letter-spacing: -0.01em;
+}
+
+.num-col { text-align: right; }
+
+/* ---- editorial headings ---- */
+.h-display {
+  font-family: var(--font-serif);
+  font-size: var(--t-display);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  margin: 0;
+}
+.h-title {
+  font-family: var(--font-serif);
+  font-size: var(--t-title);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.h-section {
+  font-family: var(--font-sans);
+  font-size: var(--t-micro);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-3);
+  margin: 0;
+}
+
+.lede {
+  font-family: var(--font-serif);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 68ch;
+}
+
+/* ==========================================================================
+   epistemic status
+   ========================================================================== */
+
+[data-epi="observed"]    { --epi: var(--obs); --epi-bg: var(--obs-bg); --epi-edge: var(--obs-edge); }
+[data-epi="estimated"]   { --epi: var(--est); --epi-bg: var(--est-bg); --epi-edge: var(--est-edge); }
+[data-epi="assumed"]     { --epi: var(--asm); --epi-bg: var(--asm-bg); --epi-edge: var(--asm-edge); }
+[data-epi="allocated"]   { --epi: var(--alc); --epi-bg: var(--alc-bg); --epi-edge: var(--alc-edge); }
+[data-epi="unavailable"] { --epi: var(--una); --epi-bg: var(--una-bg); --epi-edge: var(--una-edge); }
+[data-epi="rejected"]    { --epi: var(--rej); --epi-bg: var(--rej-bg); --epi-edge: var(--rej-edge); }
+[data-epi="derived"]     { --epi: var(--ink-3); --epi-bg: var(--paper-sunk); --epi-edge: var(--rule); }
+
+.epi-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  font-family: var(--font-sans);
+  font-size: var(--t-micro);
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.055em;
+  color: var(--epi, var(--ink-3));
+  background: var(--epi-bg, transparent);
+  border: 1px solid var(--epi-edge, var(--rule));
+  padding: 0.0625rem 0.3125rem;
+  border-radius: 2px;
+  white-space: nowrap;
+  line-height: 1.35;
+}
+
+.epi-chip--bare {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* A 2px keyline under a figure carrying its epistemic status. Lets a reader
+   scan a whole column and see the observed/estimated balance without labels. */
+.epi-rule {
+  box-shadow: inset 0 -2px 0 0 var(--epi, transparent);
+}
+
+.epi-dot {
+  display: inline-block;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-radius: 50%;
+  background: var(--epi, var(--ink-4));
+  flex: none;
+}
+
+/* Unavailable data is hatched, never blank — absence must look deliberate. */
+.hatch {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent, transparent 3px,
+    var(--una-edge) 3px, var(--una-edge) 4px
+  );
+}
+
+.not-collected {
+  font-family: var(--font-sans);
+  font-size: var(--t-micro);
+  font-weight: 650;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--una);
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   rules and layout
+   ========================================================================== */
+
+.rule-t  { border-top: 1px solid var(--rule); }
+.rule-b  { border-bottom: 1px solid var(--rule); }
+.rule-bh { border-bottom: 1px solid var(--rule-hair); }
+.rule-heavy-b { border-bottom: 2px solid var(--rule-heavy); }
+
+.section {
+  padding: var(--s6) 0;
+  border-bottom: 1px solid var(--rule);
+}
+.section:last-child { border-bottom: none; }
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s4);
+  margin-bottom: var(--s4);
+  padding-bottom: var(--s2);
+  border-bottom: 2px solid var(--rule-heavy);
+}
+
+/* ==========================================================================
+   tables — dense, ruled, right-aligned numerics
+   ========================================================================== */
+
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--t-body);
+}
+
+.tbl th {
+  font-family: var(--font-sans);
+  font-size: var(--t-micro);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-3);
+  text-align: left;
+  padding: var(--cell-y) var(--cell-x);
+  border-bottom: 1.5px solid var(--rule-strong);
+  white-space: nowrap;
+  vertical-align: bottom;
+  background: var(--paper);
+}
+
+.tbl thead th { position: sticky; top: 0; z-index: 2; }
+
+.tbl td {
+  padding: var(--cell-y) var(--cell-x);
+  border-bottom: 1px solid var(--rule-hair);
+  height: var(--row-h);
+  vertical-align: middle;
+}
+
+.tbl--dense td { height: var(--row-h-dense); font-size: var(--t-small); }
+
+.tbl tbody tr:hover { background: var(--paper-sunk); }
+
+.tbl th.num-col, .tbl td.num-col { text-align: right; }
+
+.tbl tfoot td {
+  border-top: 1.5px solid var(--rule-strong);
+  border-bottom: none;
+  font-weight: 650;
+}
+
+.tbl caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--font-sans);
+  font-size: var(--t-micro);
+  color: var(--ink-3);
+  padding-bottom: var(--s2);
+}
+
+/* horizontal scroll containers must scroll themselves, never the page */
+.scroll-x { overflow-x: auto; max-width: 100%; }
+
+/* ==========================================================================
+   controls
+   ========================================================================== */
+
+.btn {
+  font-family: var(--font-sans);
+  font-size: var(--t-small);
+  color: var(--ink-2);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: 0.1875rem 0.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn:hover { border-color: var(--rule-strong); color: var(--ink); }
+.btn[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
+.inp {
+  font-family: var(--font-sans);
+  font-size: var(--t-small);
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: 0.1875rem 0.375rem;
+  border-radius: 2px;
+}
+.inp::placeholder { color: var(--ink-4); }
+
+/* visible focus everywhere, never removed */
+.nmas-console :focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+
+/* ==========================================================================
+   motion — only where it encodes pipeline state change
+   ========================================================================== */
+
+@keyframes pulse-running {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.35; }
+}
+.is-running .epi-dot { animation: pulse-running 1.6s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .nmas-console *,
+  .nmas-console *::before,
+  .nmas-console *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ==========================================================================
+   print — the console should survive being handed over as paper
+   ========================================================================== */
+
+@media print {
+  .no-print { display: none !important; }
+  .nmas-console { background: #fff; color: #000; }
+  .tbl thead th { position: static; }
+}

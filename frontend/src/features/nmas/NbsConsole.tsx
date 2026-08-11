@@ -309,12 +309,12 @@ export function NbsConsole() {
 
             <Panel title="Provider Health" subtitle="Extraction guardrails">
               <dl className="grid gap-3 text-sm text-[var(--nmas-muted)]">
-                <KeyValue label="Provider" value={dashboard?.provider.provider ?? 'chartmetric'} />
-                <KeyValue label="Auth Mode" value={dashboard?.provider.auth_mode ?? 'static'} />
-                <KeyValue label="Access Token" value={dashboard?.provider.access_token_configured ? 'Configured' : 'Missing'} />
-                <KeyValue label="Refresh Token" value={dashboard?.provider.refresh_token_configured ? 'Configured' : 'Missing'} />
-                <KeyValue label="Throttle" value={`${dashboard?.provider.throttle_seconds ?? 1}s/request`} />
-                <KeyValue label="Retries" value={dashboard?.provider.max_retries ?? 0} />
+                <KeyValue label="Provider" value={dashboard?.provider?.provider ?? 'chartmetric'} />
+                <KeyValue label="Auth Mode" value={dashboard?.provider?.auth_mode ?? 'static'} />
+                <KeyValue label="Access Token" value={dashboard?.provider?.access_token_configured ? 'Configured' : 'Missing'} />
+                <KeyValue label="Refresh Token" value={dashboard?.provider?.refresh_token_configured ? 'Configured' : 'Missing'} />
+                <KeyValue label="Throttle" value={`${dashboard?.provider?.throttle_seconds ?? 1}s/request`} />
+                <KeyValue label="Retries" value={dashboard?.provider?.max_retries ?? 0} />
               </dl>
             </Panel>
 

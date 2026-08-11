@@ -2,16 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Shared theme foundation.
+ *
+ * Loaded globally, so every surface has a palette before any lazy chunk
+ * arrives. The console's full design system lives in src/console/tokens.css and
+ * extends this; the NBS dashboard and operations console consume the --nmas-*
+ * aliases below.
+ *
+ * Both layers key off the SAME two signals, so one toggle drives everything:
+ *   :root[data-theme="dark"]              explicit choice, set by the toggle
+ *   @media (prefers-color-scheme: dark)   the default when no choice is stored
+ *
+ * The explicit attribute must win in both directions, which is why the light
+ * override is spelled out rather than left to fall through.
+ */
+
 :root {
-  --nmas-bg: #f4efe6;
-  --nmas-card: rgba(255, 252, 247, 0.88);
-  --nmas-panel: #efe6d7;
-  --nmas-border: rgba(62, 45, 31, 0.12);
-  --nmas-ink: #20160f;
-  --nmas-muted: #6c5848;
-  --nmas-accent: #0f766e;
-  --nmas-chip: rgba(15, 118, 110, 0.12);
-  --nmas-shadow: 0 18px 40px rgba(32, 22, 15, 0.08);
+  color-scheme: light;
+
+  /* paper and ink — mirrors tokens.css so the surfaces agree */
+  --nmas-bg: #faf9f6;
+  --nmas-panel: #f2f0ea;
+  --nmas-card: #ffffff;
+  --nmas-border: #cdc8bb;
+  --nmas-ink: #16150f;
+  --nmas-muted: #736e64;
+  --nmas-accent: #1b4f7a;
+  --nmas-chip: rgba(27, 79, 122, 0.10);
+  --nmas-shadow: none;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --nmas-bg: #131311;
+  --nmas-panel: #0d0d0c;
+  --nmas-card: #1c1b19;
+  --nmas-border: #3a3833;
+  --nmas-ink: #eceae4;
+  --nmas-muted: #8b867c;
+  --nmas-accent: #7fb2da;
+  --nmas-chip: rgba(127, 178, 218, 0.14);
+  --nmas-shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+
+    --nmas-bg: #131311;
+    --nmas-panel: #0d0d0c;
+    --nmas-card: #1c1b19;
+    --nmas-border: #3a3833;
+    --nmas-ink: #eceae4;
+    --nmas-muted: #8b867c;
+    --nmas-accent: #7fb2da;
+    --nmas-chip: rgba(127, 178, 218, 0.14);
+    --nmas-shadow: none;
+  }
 }
 
 html,
@@ -22,12 +71,10 @@ body,
 
 body {
   margin: 0;
-  background:
-    radial-gradient(circle at top left, rgba(15, 118, 110, 0.18), transparent 28%),
-    radial-gradient(circle at top right, rgba(180, 83, 9, 0.16), transparent 22%),
-    linear-gradient(180deg, #f7f1e7 0%, #efe6d8 100%);
+  background: var(--nmas-bg);
   color: var(--nmas-ink);
-  font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+  font-family: "IBM Plex Sans", ui-sans-serif, -apple-system, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 * {
@@ -36,33 +83,29 @@ body {
 
 button,
 input,
+select,
 textarea {
   font: inherit;
+  color: inherit;
 }
+
+/* ── shared components used by the dashboard and operations console ──────── */
 
 .nmas-loading {
   display: grid;
   min-height: 100vh;
   place-items: center;
   color: var(--nmas-muted);
-  font-size: 1rem;
+  font-size: 0.9375rem;
 }
 
-/* NBS Dashboard Cards */
 .nbs-card {
   background: var(--nmas-card);
   border: 1px solid var(--nmas-border);
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 1.25rem;
-  box-shadow: var(--nmas-shadow);
-  transition: box-shadow 0.2s;
 }
 
-.nbs-card:hover {
-  box-shadow: 0 20px 48px rgba(32, 22, 15, 0.12);
-}
-
-/* NBS Tables */
 .nbs-table {
   width: 100%;
   border-collapse: collapse;
@@ -70,27 +113,39 @@ textarea {
 }
 
 .nbs-table th {
-  padding: 0.625rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   text-align: left;
   font-weight: 600;
   font-size: 0.6875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--nmas-muted);
-  border-bottom: 2px solid var(--nmas-border);
+  border-bottom: 1.5px solid var(--nmas-border);
   white-space: nowrap;
 }
 
 .nbs-table td {
-  padding: 0.5rem 0.75rem;
+  padding: 0.4rem 0.75rem;
   border-bottom: 1px solid var(--nmas-border);
   white-space: nowrap;
 }
 
 .nbs-table tbody tr:hover {
-  background: rgba(15, 118, 110, 0.04);
+  background: var(--nmas-panel);
 }
 
-.nbs-table .tabular-nums {
-  font-variant-numeric: tabular-nums;
+/* Figures align in columns on every surface, not only in the console. */
+.nbs-table .tabular-nums,
+.tabular-nums {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }
