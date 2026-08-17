@@ -789,7 +789,9 @@ function RevenueSection({ rev }: { rev: Revenue }) {
         <code style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--t-small)' }}>
           Chartmetric + SoundCharts API + per-stream rates
         </code>
-        . No SoundCharts client, URL or credential exists anywhere in the repository. The only HTTP
+        . At the first delivery no SoundCharts client, URL or credential existed anywhere in the
+        repository — a claim since superseded: the Soundcharts integration now exists
+        (backend/nmas/services/soundcharts.py) and feeds the extended series. At that time the only HTTP
         client that exists targets Chartmetric. One source is integrated, not two.
       </Callout>
     </Section>

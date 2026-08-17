@@ -1006,7 +1006,7 @@ const REVENUE_COLUMNS: Column<RevenueRow>[] = [
     key: 'streaming_source',
     header: 'Source string',
     optional: true,
-    note: 'Credits SoundCharts. No SoundCharts client, URL or credential exists in the repository (GAP-036).',
+    note: 'Credited SoundCharts when no client existed (GAP-036, first delivery). Superseded: the Soundcharts integration now exists and supplies the extended series.',
     value: (r) => r.streaming_source,
     render: (r) =>
       r.streaming_source === null ? (
@@ -1015,7 +1015,7 @@ const REVENUE_COLUMNS: Column<RevenueRow>[] = [
         <span
           data-epi="rejected"
           style={{ color: 'var(--epi)', fontSize: 'var(--t-micro)' }}
-          title="GAP-036 — the credited SoundCharts integration does not exist."
+          title="GAP-036 (historical) — at the first delivery, the credited SoundCharts integration did not exist. It does now."
         >
           {r.streaming_source}
         </span>

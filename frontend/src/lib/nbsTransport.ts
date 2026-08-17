@@ -23,11 +23,12 @@ export type NbsResource =
   | 'streaming-revenue'
   | 'export-revenue'
   | 'top-artists'
+  | 'export-markets'
   | 'employment'
   | 'costs';
 
 /** Resources that are period-scoped in the static projection. */
-const PERIOD_SCOPED: NbsResource[] = ['streaming-revenue', 'export-revenue', 'top-artists'];
+const PERIOD_SCOPED: NbsResource[] = ['streaming-revenue', 'export-revenue', 'top-artists', 'export-markets'];
 
 function isEmpty(v: unknown): boolean {
   if (v === null || v === undefined) return true;

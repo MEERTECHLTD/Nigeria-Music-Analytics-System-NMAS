@@ -119,7 +119,7 @@ const SHIPPED_SURFACES: Array<{ where: string; quote: string; note: string }> = 
     quote:
       'Destination countries from Chartmetric + SoundCharts “Where People Listen” data.',
     note:
-      'The current dashboard restates the claim and adds a second false credit: no SoundCharts client, URL or credential exists anywhere in the repository (GAP-036).',
+      'The first-delivery dashboard restated the claim and added a second false credit: at that time no SoundCharts client, URL or credential existed in the repository (GAP-036). Superseded — the integration now exists and the dashboard shows observed markets.',
   },
 ];
 
