@@ -1,0 +1,9 @@
+LIVE vs VALIDATED SOURCE
+  periods: live=31 source=31
+  artist_count: live=734
+  gross streaming, all quarters: live artifacts sum to source $646,312,667
+  Q1_2019 export: None (UNK -> null, not zero: True)
+  extended-history: 59 variables, 31 periods, floor Q1_2019
+  Burna Boy Q2_2025 listeners live: 21,923,917 (guard applied: True)
+  Q2_2025 rows with OBS split live: 610
+DEPLOYMENT PARITY: PASS

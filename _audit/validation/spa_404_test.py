@@ -2,10 +2,12 @@
 """Deployment test: a nonexistent API artifact must return 404, not the SPA shell.
 Run against the live deployment after deploy (verification pass 10)."""
 import sys, urllib.request, urllib.error
+import ssl, certifi
+_CTX = ssl.create_default_context(cafile=certifi.where())
 BASE = sys.argv[1] if len(sys.argv) > 1 else "https://nigeria-music-analytics-system-nmas.vercel.app"
 def status(path):
     try:
-        with urllib.request.urlopen(BASE + path, timeout=30) as r:
+        with urllib.request.urlopen(BASE + path, timeout=30, context=_CTX) as r:
             return r.status, r.headers.get("content-type", "")
     except urllib.error.HTTPError as e:
         return e.code, e.headers.get("content-type", "")

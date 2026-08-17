@@ -72,3 +72,16 @@ https://nigeria-music-analytics-system-nmas.vercel.app
   Old delivery carried ZEROS for this variable (581 cells, total 0) — the defect
   never produced a shipped number; it only became visible when the new pipeline
   populated the series. Live site predates all of this. Nothing wrong reached NBS.
+
+## 2026-08-17 — v3 run complete, shipped
+- Guard wired and applied: 15,863 rows excluded across 35 ruled series; decomposition residual $0
+- D-15 fixed as a rule; stock-flow audit clean (exit 0); 580 non-computable deltas UNK
+- Per-artist geography live: OBS coverage 76.6–88.6%/quarter from 2021; ASM fallback; pre-2021 UNK
+- Frontend constants generated from assumptions.py; drift test PASS
+- Independent recomputation residual $0 gross / $1 export on $470M; old file reproduces ($1.60/638 rows)
+- Cumulative impact decomposed, components sum: gross 670.37M -34.32M +10.26M = 646.31M (residual $0)
+- Workbook audit 98 findings -> 0; cross-artifact PASS; classification PASS; 404 test PASS
+- Tests: 30/33 pass; 3 PRE-EXISTING failures in dormant FastAPI service tests (stash-proven
+  independent of this run; stale YouTube_views_daily expectations from April catalogue change)
+- Commits d3ccea7, ee57530, 28397ad, bc59d48 pushed; deployment Ready; live parity PASS
+- D-02 and D-09 RESOLVED on the live site
