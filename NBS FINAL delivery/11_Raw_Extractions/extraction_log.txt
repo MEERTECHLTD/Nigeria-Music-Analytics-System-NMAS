@@ -1,0 +1,65 @@
+======================================================================
+NMAS — Extract NEW artists + Merge + Regenerate NBS CSVs
+======================================================================
+Total artists in updated list: 131
+Existing data: 208795 observations for 66 artists
+New artists to extract: 65
+
+[1] Extracting: 65 artists × 11 endpoints × 3 periods = 2145 calls
+
+--- Q1_2025 ---
+  [100/2145] Cruel Santino | obs=8546 err=0
+  [200/2145] Eldee | obs=15057 err=0
+  [300/2145] Lyta | obs=23650 err=0
+  [400/2145] Odunsi (The Engine) | obs=31199 err=0
+  [500/2145] Reekado Banks | obs=38494 err=0
+  [600/2145] Small Doctor | obs=46695 err=0
+  [700/2145] WurlD | obs=53590 err=0
+
+--- Q4_2025 ---
+  [800/2145] Brymo | obs=61465 err=0
+  [900/2145] Dremo | obs=67551 err=0
+  [1000/2145] Lady Donli | obs=74367 err=0
+  [1100/2145] ODUMODUBLVCK | obs=82615 err=0
+  [1200/2145] Qing Madi | obs=87990 err=0
+  [1300/2145] Skiibii | obs=96238 err=0
+  [1400/2145] Waje | obs=102287 err=0
+
+--- Q1_2026 ---
+  [1500/2145] Bracket | obs=109927 err=0
+  [1600/2145] Darkoo | obs=115746 err=0
+  [1700/2145] Korede Bello | obs=122326 err=0
+  [1800/2145] Nonso Amadi | obs=130678 err=0
+  [1900/2145] Praiz | obs=135882 err=0
+  [2000/2145] Seyi Shay | obs=143765 err=0
+  [2100/2145] Terry Apala | obs=149905 err=0
+
+New extraction: 152925 observations, 0 errors
+
+[2] Merged: 361720 total observations (208795 old + 152925 new)
+  Saved nmas_chartmetric_full_metrics.csv (361720 rows)
+
+[3] Regenerating NBS deliverables for 131 artists...
+  5035 last-value entries
+  [OK] 1_gross_streaming_revenue.csv — 385 rows
+  [OK] 2_gross_export_revenue.csv — 385 rows
+  [OK] 3_employment_male_female.csv — 9 rows
+  [OK] 4_hosting_production_costs.csv — 15 rows
+  [OK] quarterly_aggregates_full.csv — 5035 rows
+  [OK] NBS_METHODOLOGY_AND_SOURCES.md
+
+======================================================================
+DONE — 131 artists, 361720 observations
+  Q1_2025: Streaming $23,270,140.60 | Export $16,289,098.42
+  Q4_2025: Streaming $24,158,040.28 | Export $16,910,628.20
+  Q1_2026: Streaming $27,956,467.15 | Export $19,569,527.01
+
+Output: /Users/meertech/Documents/0x0/MUSIC AI/Nigeria Music Analytics System (NMAS)/backend/data/nbs_deliverables
+  1_gross_streaming_revenue.csv (63,131 bytes)
+  2_gross_export_revenue.csv (54,431 bytes)
+  3_employment_male_female.csv (1,130 bytes)
+  4_hosting_production_costs.csv (1,076 bytes)
+  NBS_METHODOLOGY_AND_SOURCES.md (1,476 bytes)
+  extraction_log.txt (2,480 bytes)
+  nmas_chartmetric_full_metrics.csv (66,490,815 bytes)
+  quarterly_aggregates_full.csv (399,194 bytes)

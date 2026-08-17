@@ -1,0 +1,2457 @@
+period_label,platform,metric,city_name,region,value,artists
+Q1_2019,YouTube,streaming_listeners,Lagos,Lagos,57636.0,24
+Q1_2019,YouTube,streaming_listeners,Abuja,Federal Capital Territory,10645.0,21
+Q1_2019,YouTube,streaming_listeners,Benin City,Edo,3636.0,13
+Q1_2019,YouTube,streaming_listeners,Ibadan,Oyo,3448.0,15
+Q1_2019,YouTube,streaming_listeners,Ebute-Lekki,Lagos,1964.0,7
+Q1_2019,YouTube,streaming_listeners,Port Harcourt,Rivers,61.0,1
+Q2_2019,YouTube,streaming_listeners,Lagos,Lagos,35429.0,32
+Q2_2019,YouTube,streaming_listeners,Abuja,Federal Capital Territory,8757.0,30
+Q2_2019,YouTube,streaming_listeners,Benin City,Edo,4190.0,13
+Q2_2019,YouTube,streaming_listeners,Asaba,Delta,2282.0,1
+Q2_2019,YouTube,streaming_listeners,Ebute-Lekki,Lagos,1901.0,9
+Q2_2019,YouTube,streaming_listeners,Port Harcourt,Rivers,133.0,2
+Q2_2019,YouTube,streaming_listeners,Ibadan,Oyo,51.0,1
+Q3_2019,YouTube,streaming_listeners,Lagos,Lagos,59689.0,32
+Q3_2019,YouTube,streaming_listeners,Abuja,Federal Capital Territory,17773.0,30
+Q3_2019,YouTube,streaming_listeners,Benin City,Edo,7688.0,16
+Q3_2019,YouTube,streaming_listeners,Ado Ekiti,Ekiti,3911.0,1
+Q3_2019,YouTube,streaming_listeners,Ebute-Lekki,Lagos,2922.0,13
+Q3_2019,YouTube,streaming_listeners,Enugu,Enugu,639.0,6
+Q3_2019,YouTube,streaming_listeners,Warri,Delta,285.0,4
+Q3_2019,YouTube,streaming_listeners,Port Harcourt,Rivers,269.0,3
+Q4_2019,YouTube,streaming_listeners,Lagos,Lagos,94931.0,33
+Q4_2019,YouTube,streaming_listeners,Abuja,Federal Capital Territory,29005.0,30
+Q4_2019,YouTube,streaming_listeners,Ebute-Lekki,Lagos,4690.0,19
+Q4_2019,YouTube,streaming_listeners,Osogbo,Osun,4545.0,22
+Q4_2019,YouTube,streaming_listeners,Benin City,Edo,3738.0,22
+Q4_2019,YouTube,streaming_listeners,Ibadan,Oyo,2440.0,14
+Q4_2019,YouTube,streaming_listeners,Yenagoa,Bayelsa,2241.0,15
+Q4_2019,YouTube,streaming_listeners,Agbor,Delta,1807.0,12
+Q4_2019,YouTube,streaming_listeners,Nnewi,Anambra,1756.0,7
+Q4_2019,YouTube,streaming_listeners,Biogbolo,Bayelsa,1354.0,9
+Q4_2019,YouTube,streaming_listeners,Port Harcourt,Rivers,597.0,7
+Q4_2019,YouTube,streaming_listeners,Enugu,Enugu,526.0,6
+Q4_2019,YouTube,streaming_listeners,Onitsha,Anambra,499.0,8
+Q4_2019,YouTube,streaming_listeners,Warri,Delta,299.0,5
+Q4_2019,YouTube,streaming_listeners,Kaduna,Kaduna,96.0,3
+Q4_2019,YouTube,streaming_listeners,Zaria,Kaduna,28.0,1
+Q4_2019,YouTube,streaming_listeners,Bonny,Rivers,26.0,1
+Q4_2019,YouTube,streaming_listeners,Jos,Plateau,26.0,1
+Q4_2019,YouTube,streaming_listeners,Yola,Adamawa,25.0,1
+Q1_2020,Instagram,social_followers,Lagos,Lagos,11383104.0,18
+Q1_2020,Instagram,social_followers,Abuja,Federal Capital Territory,2278248.0,17
+Q1_2020,Instagram,social_followers,Port Harcourt,Rivers,639305.0,14
+Q1_2020,Instagram,social_followers,Uyo,Akwa Ibom,268215.0,7
+Q1_2020,Instagram,social_followers,Ado Ekiti,Ekiti,17139.0,3
+Q1_2020,Instagram,social_followers,Osogbo,Osun,1599.0,1
+Q1_2020,YouTube,streaming_listeners,Lagos,Lagos,114430.0,32
+Q1_2020,YouTube,streaming_listeners,Abuja,Federal Capital Territory,43509.0,30
+Q1_2020,YouTube,streaming_listeners,Benin City,Edo,7978.0,26
+Q1_2020,YouTube,streaming_listeners,Ibadan,Oyo,3305.0,11
+Q1_2020,YouTube,streaming_listeners,Ebute-Lekki,Lagos,2405.0,17
+Q1_2020,YouTube,streaming_listeners,Onitsha,Anambra,1567.0,16
+Q1_2020,YouTube,streaming_listeners,Nnewi,Anambra,313.0,6
+Q1_2020,YouTube,streaming_listeners,Port Harcourt,Rivers,283.0,3
+Q1_2020,YouTube,streaming_listeners,Asaba,Delta,180.0,2
+Q2_2020,Instagram,social_followers,Lagos,Lagos,16410400.0,25
+Q2_2020,Instagram,social_followers,Abuja,Federal Capital Territory,3130652.0,24
+Q2_2020,Instagram,social_followers,Port Harcourt,Rivers,938220.0,21
+Q2_2020,Instagram,social_followers,Uyo,Akwa Ibom,203563.0,10
+Q2_2020,Instagram,social_followers,Ado Ekiti,Ekiti,90874.0,10
+Q2_2020,Instagram,social_followers,Osogbo,Osun,3810.0,2
+Q2_2020,YouTube,streaming_listeners,Lagos,Lagos,132356.0,34
+Q2_2020,YouTube,streaming_listeners,Abuja,Federal Capital Territory,51001.0,31
+Q2_2020,YouTube,streaming_listeners,Port Harcourt,Rivers,17272.0,29
+Q2_2020,YouTube,streaming_listeners,Benin City,Edo,4444.0,26
+Q2_2020,YouTube,streaming_listeners,Magboro,Ogun State,3929.0,21
+Q2_2020,YouTube,streaming_listeners,Ebute-Lekki,Lagos,3071.0,19
+Q2_2020,YouTube,streaming_listeners,Onitsha,Anambra,398.0,6
+Q2_2020,YouTube,streaming_listeners,Warri,Delta,77.0,1
+Q2_2020,YouTube,streaming_listeners,Ibadan,Oyo,51.0,1
+Q2_2020,YouTube,streaming_listeners,Bauchi,Bauchi,36.0,1
+Q2_2020,YouTube,streaming_listeners,Agbara,Ogun State,32.0,1
+Q2_2020,YouTube,streaming_listeners,Jos,Plateau,31.0,1
+Q3_2020,Instagram,social_followers,Lagos,Lagos,24798840.0,36
+Q3_2020,Instagram,social_followers,Abuja,Federal Capital Territory,4615140.0,35
+Q3_2020,Instagram,social_followers,Port Harcourt,Rivers,1275689.0,32
+Q3_2020,Instagram,social_followers,Uyo,Akwa Ibom,347283.0,17
+Q3_2020,Instagram,social_followers,Ado Ekiti,Ekiti,167831.0,12
+Q3_2020,Instagram,social_followers,Osogbo,Osun,12027.0,3
+Q3_2020,Instagram,social_followers,Yenagoa,Bayelsa,2026.0,1
+Q3_2020,YouTube,streaming_listeners,Lagos,Lagos,166922.0,34
+Q3_2020,YouTube,streaming_listeners,Abuja,Federal Capital Territory,52370.0,33
+Q3_2020,YouTube,streaming_listeners,Port Harcourt,Rivers,23616.0,31
+Q3_2020,YouTube,streaming_listeners,Ebute-Lekki,Lagos,7558.0,25
+Q3_2020,YouTube,streaming_listeners,Ibadan,Oyo,195.0,6
+Q3_2020,YouTube,streaming_listeners,Benin City,Edo,124.0,6
+Q3_2020,YouTube,streaming_listeners,Bonny,Rivers,99.0,3
+Q3_2020,YouTube,streaming_listeners,Owerri,Imo,97.0,4
+Q3_2020,YouTube,streaming_listeners,Magboro,Ogun State,92.0,4
+Q3_2020,YouTube,streaming_listeners,Abeokuta,Ogun State,66.0,3
+Q3_2020,YouTube,streaming_listeners,Enugu,Enugu,58.0,2
+Q3_2020,YouTube,streaming_listeners,Kano,Kano,56.0,1
+Q3_2020,YouTube,streaming_listeners,Uyo,Akwa Ibom,42.0,2
+Q3_2020,YouTube,streaming_listeners,Onitsha,Anambra,41.0,2
+Q3_2020,YouTube,streaming_listeners,Jos,Plateau,32.0,2
+Q3_2020,YouTube,streaming_listeners,Maiduguri,Borno,28.0,2
+Q3_2020,YouTube,streaming_listeners,Awka,Anambra,22.0,1
+Q3_2020,YouTube,streaming_listeners,Yola,Adamawa,19.0,1
+Q3_2020,YouTube,streaming_listeners,Nsukka,Enugu,17.0,2
+Q3_2020,YouTube,streaming_listeners,Zaria,Kaduna,16.0,1
+Q3_2020,YouTube,streaming_listeners,Calabar,Cross River,14.0,1
+Q3_2020,YouTube,streaming_listeners,Makurdi,Benue,13.0,2
+Q3_2020,YouTube,streaming_listeners,Agege,,13.0,1
+Q3_2020,YouTube,streaming_listeners,Kaduna,Kaduna,12.0,1
+Q3_2020,YouTube,streaming_listeners,Loburo,Ogun State,11.0,1
+Q3_2020,YouTube,streaming_listeners,Agbara,Ogun State,9.0,1
+Q3_2020,YouTube,streaming_listeners,Asaba,Delta,9.0,1
+Q3_2020,YouTube,streaming_listeners,Sokoto,Sokoto,8.0,1
+Q3_2020,YouTube,streaming_listeners,Ikorodu,Lagos,7.0,1
+Q3_2020,YouTube,streaming_listeners,Ado Ekiti,Ekiti,6.0,1
+Q3_2020,YouTube,streaming_listeners,Katsina,Katsina,5.0,1
+Q4_2020,Instagram,social_followers,Lagos,Lagos,28804623.0,48
+Q4_2020,Instagram,social_followers,Abuja,Federal Capital Territory,5248168.0,47
+Q4_2020,Instagram,social_followers,Port Harcourt,Rivers,1534977.0,43
+Q4_2020,Instagram,social_followers,Uyo,Akwa Ibom,588062.0,30
+Q4_2020,Instagram,social_followers,Ado Ekiti,Ekiti,409092.0,27
+Q4_2020,Instagram,social_followers,Osogbo,Osun,56257.0,7
+Q4_2020,Instagram,social_followers,Makurdi,Benue,24952.0,5
+Q4_2020,Instagram,social_followers,Maiduguri,Borno,22247.0,1
+Q4_2020,Instagram,social_followers,Yenagoa,Bayelsa,13949.0,2
+Q4_2020,YouTube,streaming_listeners,Lagos,Lagos,221594.0,35
+Q4_2020,YouTube,streaming_listeners,Abuja,Federal Capital Territory,74197.0,33
+Q4_2020,YouTube,streaming_listeners,Port Harcourt,Rivers,47761.0,31
+Q4_2020,YouTube,streaming_listeners,Ebute-Lekki,Lagos,14381.0,27
+Q4_2020,YouTube,streaming_listeners,Benin City,Edo,518.0,6
+Q4_2020,YouTube,streaming_listeners,Ibadan,Oyo,466.0,9
+Q4_2020,YouTube,streaming_listeners,Abeokuta,Ogun State,360.0,4
+Q4_2020,YouTube,streaming_listeners,Jos,Plateau,39.0,4
+Q4_2020,YouTube,streaming_listeners,Ado Ekiti,Ekiti,36.0,3
+Q4_2020,YouTube,streaming_listeners,Uyo,Akwa Ibom,26.0,3
+Q4_2020,YouTube,streaming_listeners,Ilorin,Kwara,25.0,2
+Q4_2020,YouTube,streaming_listeners,Zaria,Kaduna,22.0,2
+Q4_2020,YouTube,streaming_listeners,Yola,Adamawa,22.0,2
+Q4_2020,YouTube,streaming_listeners,Asaba,Delta,20.0,1
+Q4_2020,YouTube,streaming_listeners,Kano,Kano,17.0,2
+Q4_2020,YouTube,streaming_listeners,Akure,Ondo,15.0,2
+Q4_2020,YouTube,streaming_listeners,Owerri,Imo,15.0,2
+Q4_2020,YouTube,streaming_listeners,Magboro,Ogun State,15.0,2
+Q4_2020,YouTube,streaming_listeners,Awka,Anambra,15.0,1
+Q4_2020,YouTube,streaming_listeners,Loburo,Ogun State,13.0,2
+Q4_2020,YouTube,streaming_listeners,Bonny,Rivers,13.0,2
+Q4_2020,YouTube,streaming_listeners,Yenagoa,Bayelsa,12.0,1
+Q4_2020,YouTube,streaming_listeners,Ado,Nasarawa,12.0,1
+Q4_2020,YouTube,streaming_listeners,Maiduguri,Borno,8.0,1
+Q4_2020,YouTube,streaming_listeners,Umuahia,Abia,8.0,1
+Q4_2020,YouTube,streaming_listeners,Minna,Niger,7.0,1
+Q4_2020,YouTube,streaming_listeners,Ikorodu,Lagos,7.0,1
+Q4_2020,YouTube,streaming_listeners,Ogbomoso,Oyo,6.0,1
+Q4_2020,YouTube,streaming_listeners,Enugu,Enugu,5.0,1
+Q4_2020,YouTube,streaming_listeners,Keffi,Nasarawa,5.0,1
+Q4_2020,YouTube,streaming_listeners,Calabar,Cross River,5.0,1
+Q4_2020,YouTube,streaming_listeners,Sagamu,Ogun State,5.0,1
+Q1_2021,Instagram,social_followers,Lagos,Lagos,38085767.0,61
+Q1_2021,Instagram,social_followers,Abuja,Federal Capital Territory,6947261.0,60
+Q1_2021,Instagram,social_followers,Port Harcourt,Rivers,1989686.0,55
+Q1_2021,Instagram,social_followers,Uyo,Akwa Ibom,600591.0,36
+Q1_2021,Instagram,social_followers,Ado Ekiti,Ekiti,373334.0,29
+Q1_2021,Instagram,social_followers,Yenagoa,Bayelsa,51140.0,3
+Q1_2021,Instagram,social_followers,Osogbo,Osun,22560.0,6
+Q1_2021,Instagram,social_followers,Makurdi,Benue,4810.0,3
+Q1_2021,Spotify,streaming_listeners,Lagos,Lagos,1988672.0,471
+Q1_2021,Spotify,streaming_listeners,Suleja,Niger,189572.0,351
+Q1_2021,Spotify,streaming_listeners,Abuja,Federal Capital Territory,138116.0,324
+Q1_2021,Spotify,streaming_listeners,Port Harcourt,Rivers,113872.0,284
+Q1_2021,Spotify,streaming_listeners,Benin City,Edo,12222.0,97
+Q1_2021,Spotify,streaming_listeners,Onitsha,Anambra,3975.0,46
+Q1_2021,Spotify,streaming_listeners,Kaduna,Kaduna,776.0,36
+Q1_2021,Spotify,streaming_listeners,Asaba,Delta,480.0,19
+Q1_2021,Spotify,streaming_listeners,Awka,Anambra,48.0,8
+Q1_2021,Spotify,streaming_listeners,Ibadan,Oyo,12.0,10
+Q1_2021,Spotify,streaming_listeners,Enugu,Enugu,8.0,6
+Q1_2021,Spotify,streaming_listeners,Abeokuta,Ogun State,7.0,6
+Q1_2021,Spotify,streaming_listeners,Uyo,Akwa Ibom,5.0,2
+Q1_2021,Spotify,streaming_listeners,Kano,Kano,4.0,3
+Q1_2021,Spotify,streaming_listeners,Warri,Delta,3.0,3
+Q1_2021,Spotify,streaming_listeners,ife,Osun,3.0,2
+Q1_2021,Spotify,streaming_listeners,Akure,Ondo,3.0,1
+Q1_2021,Spotify,streaming_listeners,Maiduguri,Borno,2.0,2
+Q1_2021,Spotify,streaming_listeners,Ebute-Lekki,Lagos,2.0,2
+Q1_2021,Spotify,streaming_listeners,Aba,Abia,2.0,2
+Q1_2021,Spotify,streaming_listeners,Ikeja,Lagos,2.0,2
+Q1_2021,Spotify,streaming_listeners,Osogbo,Osun,2.0,2
+Q1_2021,Spotify,streaming_listeners,Nsukka,Enugu,2.0,1
+Q1_2021,Spotify,streaming_listeners,Gwarinpa,Federal Capital Territory,1.0,1
+Q1_2021,Spotify,streaming_listeners,Katsina,Katsina,1.0,1
+Q1_2021,Spotify,streaming_listeners,Langtang,Plateau,1.0,1
+Q1_2021,Spotify,streaming_listeners,Ejigbo,Osun,1.0,1
+Q1_2021,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q1_2021,Spotify,streaming_listeners,Yola,Adamawa,1.0,1
+Q1_2021,Spotify,streaming_listeners,Zaria,Kaduna,1.0,1
+Q1_2021,YouTube,streaming_listeners,Lagos,Lagos,246489.0,34
+Q1_2021,YouTube,streaming_listeners,Abuja,Federal Capital Territory,76614.0,33
+Q1_2021,YouTube,streaming_listeners,Port Harcourt,Rivers,53264.0,31
+Q1_2021,YouTube,streaming_listeners,Ebute-Lekki,Lagos,11335.0,29
+Q1_2021,YouTube,streaming_listeners,Benin City,Edo,582.0,12
+Q1_2021,YouTube,streaming_listeners,Ibadan,Oyo,137.0,7
+Q1_2021,YouTube,streaming_listeners,Owerri,Imo,66.0,2
+Q1_2021,YouTube,streaming_listeners,Enugu,Enugu,42.0,3
+Q1_2021,YouTube,streaming_listeners,Bonny,Rivers,40.0,2
+Q1_2021,YouTube,streaming_listeners,Magboro,Ogun State,32.0,4
+Q1_2021,YouTube,streaming_listeners,Biogbolo,Bayelsa,26.0,1
+Q1_2021,YouTube,streaming_listeners,Kano,Kano,23.0,3
+Q1_2021,YouTube,streaming_listeners,Abeokuta,Ogun State,22.0,3
+Q1_2021,YouTube,streaming_listeners,Jos,Plateau,21.0,2
+Q1_2021,YouTube,streaming_listeners,Akure,Ondo,19.0,2
+Q1_2021,YouTube,streaming_listeners,Yola,Adamawa,18.0,2
+Q1_2021,YouTube,streaming_listeners,Nsukka,Enugu,17.0,2
+Q1_2021,YouTube,streaming_listeners,Ilishan-Remo,Ogun State,16.0,1
+Q1_2021,YouTube,streaming_listeners,Uyo,Akwa Ibom,16.0,2
+Q1_2021,YouTube,streaming_listeners,jimeta,adamawa,16.0,2
+Q1_2021,YouTube,streaming_listeners,Makurdi,Benue,16.0,1
+Q1_2021,YouTube,streaming_listeners,Ikorodu,Lagos,15.0,2
+Q1_2021,YouTube,streaming_listeners,Sagamu,Ogun State,15.0,2
+Q1_2021,YouTube,streaming_listeners,Loburo,Ogun State,13.0,2
+Q1_2021,YouTube,streaming_listeners,Zaria,Kaduna,10.0,2
+Q1_2021,YouTube,streaming_listeners,Ado Ekiti,Ekiti,10.0,1
+Q1_2021,YouTube,streaming_listeners,Asaba,Delta,9.0,1
+Q1_2021,YouTube,streaming_listeners,Ilorin,Kwara,7.0,1
+Q1_2021,YouTube,streaming_listeners,Maiduguri,Borno,7.0,1
+Q1_2021,YouTube,streaming_listeners,Calabar,Cross River,6.0,1
+Q2_2021,Instagram,social_followers,Lagos,Lagos,42661617.0,72
+Q2_2021,Instagram,social_followers,Abuja,Federal Capital Territory,7886908.0,71
+Q2_2021,Instagram,social_followers,Port Harcourt,Rivers,2066375.0,66
+Q2_2021,Instagram,social_followers,Uyo,Akwa Ibom,681912.0,40
+Q2_2021,Instagram,social_followers,Ado Ekiti,Ekiti,321229.0,29
+Q2_2021,Instagram,social_followers,Osogbo,Osun,59995.0,7
+Q2_2021,Instagram,social_followers,Yenagoa,Bayelsa,50351.0,4
+Q2_2021,Instagram,social_followers,Makurdi,Benue,354.0,1
+Q2_2021,Spotify,streaming_listeners,Lagos,Lagos,2187034.0,494
+Q2_2021,Spotify,streaming_listeners,Suleja,Niger,230366.0,402
+Q2_2021,Spotify,streaming_listeners,Abuja,Federal Capital Territory,171726.0,372
+Q2_2021,Spotify,streaming_listeners,Port Harcourt,Rivers,126498.0,343
+Q2_2021,Spotify,streaming_listeners,Benin City,Edo,24431.0,189
+Q2_2021,Spotify,streaming_listeners,Onitsha,Anambra,9200.0,106
+Q2_2021,Spotify,streaming_listeners,Asaba,Delta,6146.0,94
+Q2_2021,Spotify,streaming_listeners,Kaduna,Kaduna,124.0,32
+Q2_2021,Spotify,streaming_listeners,Enugu,Enugu,66.0,12
+Q2_2021,Spotify,streaming_listeners,Ibadan,Oyo,53.0,22
+Q2_2021,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,46.0,7
+Q2_2021,Spotify,streaming_listeners,Maiduguri,Borno,35.0,14
+Q2_2021,Spotify,streaming_listeners,Abeokuta,Ogun State,27.0,16
+Q2_2021,Spotify,streaming_listeners,Ebute-Lekki,Lagos,22.0,3
+Q2_2021,Spotify,streaming_listeners,Yola,Adamawa,15.0,7
+Q2_2021,Spotify,streaming_listeners,Nnewi,Anambra,13.0,5
+Q2_2021,Spotify,streaming_listeners,Ikeja,Lagos,10.0,5
+Q2_2021,Spotify,streaming_listeners,Ilorin,Kwara,6.0,5
+Q2_2021,Spotify,streaming_listeners,Gwarinpa,Federal Capital Territory,6.0,2
+Q2_2021,Spotify,streaming_listeners,Ado Ekiti,Ekiti,6.0,4
+Q2_2021,Spotify,streaming_listeners,Uyo,Akwa Ibom,5.0,2
+Q2_2021,Spotify,streaming_listeners,Egbeda,Rivers,5.0,1
+Q2_2021,Spotify,streaming_listeners,Ogbomoso,Oyo,4.0,3
+Q2_2021,Spotify,streaming_listeners,Kano,Kano,4.0,3
+Q2_2021,Spotify,streaming_listeners,Akure,Ondo,4.0,1
+Q2_2021,Spotify,streaming_listeners,ife,Osun,3.0,3
+Q2_2021,Spotify,streaming_listeners,Ikorodu,Lagos,2.0,2
+Q2_2021,Spotify,streaming_listeners,Zaria,Kaduna,2.0,2
+Q2_2021,Spotify,streaming_listeners,Oko Anala,Delta,2.0,1
+Q2_2021,Spotify,streaming_listeners,Oworonshoki,Lagos,2.0,2
+Q2_2021,Spotify,streaming_listeners,Nsukka,Enugu,2.0,2
+Q2_2021,Spotify,streaming_listeners,Ikoyi,Osun,1.0,1
+Q2_2021,Spotify,streaming_listeners,Langtang,Plateau,1.0,1
+Q2_2021,Spotify,streaming_listeners,Alagbado,Ogun State,1.0,1
+Q2_2021,Spotify,streaming_listeners,Sangotedo,Lagos,1.0,1
+Q2_2021,Spotify,streaming_listeners,Calabar,Cross River,1.0,1
+Q2_2021,Spotify,streaming_listeners,Omu-Aran,Kwara,1.0,1
+Q2_2021,Spotify,streaming_listeners,Okome,Edo,1.0,1
+Q2_2021,Spotify,streaming_listeners,Owerri,Imo,1.0,1
+Q2_2021,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q2_2021,Spotify,streaming_listeners,Warri,Delta,1.0,1
+Q2_2021,Spotify,streaming_listeners,Agege,,1.0,1
+Q2_2021,Spotify,streaming_listeners,Osogbo,Osun,1.0,1
+Q2_2021,Spotify,streaming_listeners,Lekki,Lagos,1.0,1
+Q2_2021,YouTube,streaming_listeners,Lagos,Lagos,217728.0,35
+Q2_2021,YouTube,streaming_listeners,Abuja,Federal Capital Territory,68239.0,34
+Q2_2021,YouTube,streaming_listeners,Port Harcourt,Rivers,46463.0,32
+Q2_2021,YouTube,streaming_listeners,Ebute-Lekki,Lagos,9796.0,28
+Q2_2021,YouTube,streaming_listeners,Benin City,Edo,1122.0,12
+Q2_2021,YouTube,streaming_listeners,Ado,Nasarawa,696.0,17
+Q2_2021,YouTube,streaming_listeners,Kaduna,Kaduna,127.0,6
+Q2_2021,YouTube,streaming_listeners,Ibadan,Oyo,110.0,6
+Q2_2021,YouTube,streaming_listeners,Enugu,Enugu,102.0,4
+Q2_2021,YouTube,streaming_listeners,Uyo,Akwa Ibom,74.0,3
+Q2_2021,YouTube,streaming_listeners,Bonny,Rivers,58.0,4
+Q2_2021,YouTube,streaming_listeners,Onitsha,Anambra,50.0,2
+Q2_2021,YouTube,streaming_listeners,Magboro,Ogun State,45.0,5
+Q2_2021,YouTube,streaming_listeners,Owerri,Imo,45.0,3
+Q2_2021,YouTube,streaming_listeners,Ado Ekiti,Ekiti,43.0,1
+Q2_2021,YouTube,streaming_listeners,Zaria,Kaduna,38.0,2
+Q2_2021,YouTube,streaming_listeners,Sapele,Delta,27.0,1
+Q2_2021,YouTube,streaming_listeners,Abeokuta,Ogun State,23.0,2
+Q2_2021,YouTube,streaming_listeners,Ilorin,Kwara,23.0,2
+Q2_2021,YouTube,streaming_listeners,Akure,Ondo,16.0,2
+Q2_2021,YouTube,streaming_listeners,Agbara,Ogun State,15.0,2
+Q2_2021,YouTube,streaming_listeners,jimeta,adamawa,15.0,1
+Q2_2021,YouTube,streaming_listeners,Jos,Plateau,13.0,1
+Q2_2021,YouTube,streaming_listeners,Bauchi,Bauchi,13.0,1
+Q2_2021,YouTube,streaming_listeners,Ilishan-Remo,Ogun State,12.0,1
+Q2_2021,YouTube,streaming_listeners,Ogbomoso,Oyo,10.0,1
+Q2_2021,YouTube,streaming_listeners,Katsina,Katsina,10.0,1
+Q2_2021,YouTube,streaming_listeners,Ikorodu,Lagos,9.0,1
+Q2_2021,YouTube,streaming_listeners,Yola,Adamawa,9.0,1
+Q2_2021,YouTube,streaming_listeners,Awka,Anambra,9.0,1
+Q2_2021,YouTube,streaming_listeners,Kano,Kano,9.0,1
+Q2_2021,YouTube,streaming_listeners,Nsukka,Enugu,7.0,1
+Q2_2021,YouTube,streaming_listeners,Umudike,Abia,7.0,1
+Q2_2021,YouTube,streaming_listeners,Maiduguri,Borno,6.0,1
+Q2_2021,YouTube,streaming_listeners,Sagamu,Ogun State,6.0,1
+Q2_2021,YouTube,streaming_listeners,Iwo,Osun,5.0,1
+Q2_2021,YouTube,streaming_listeners,Sokoto,Sokoto,5.0,1
+Q3_2021,Instagram,social_followers,Lagos,Lagos,47595261.0,82
+Q3_2021,Instagram,social_followers,Abuja,Federal Capital Territory,9031539.0,80
+Q3_2021,Instagram,social_followers,Port Harcourt,Rivers,2409649.0,73
+Q3_2021,Instagram,social_followers,Uyo,Akwa Ibom,644549.0,40
+Q3_2021,Instagram,social_followers,Ado Ekiti,Ekiti,470825.0,33
+Q3_2021,Instagram,social_followers,Osogbo,Osun,49658.0,9
+Q3_2021,Instagram,social_followers,Yenagoa,Bayelsa,6080.0,1
+Q3_2021,Instagram,social_followers,Makurdi,Benue,3416.0,3
+Q3_2021,Spotify,streaming_listeners,Lagos,Lagos,3158041.0,500
+Q3_2021,Spotify,streaming_listeners,Suleja,Niger,394632.0,423
+Q3_2021,Spotify,streaming_listeners,Abuja,Federal Capital Territory,350701.0,418
+Q3_2021,Spotify,streaming_listeners,Port Harcourt,Rivers,166648.0,377
+Q3_2021,Spotify,streaming_listeners,Benin City,Edo,25620.0,187
+Q3_2021,Spotify,streaming_listeners,Enugu,Enugu,8956.0,110
+Q3_2021,Spotify,streaming_listeners,Kano,Kano,4529.0,66
+Q3_2021,Spotify,streaming_listeners,Onitsha,Anambra,3506.0,97
+Q3_2021,Spotify,streaming_listeners,Owerri,Imo,2693.0,48
+Q3_2021,Spotify,streaming_listeners,Asaba,Delta,168.0,30
+Q3_2021,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,117.0,20
+Q3_2021,Spotify,streaming_listeners,Nnewi,Anambra,108.0,16
+Q3_2021,Spotify,streaming_listeners,Ibadan,Oyo,58.0,27
+Q3_2021,Spotify,streaming_listeners,Abeokuta,Ogun State,43.0,17
+Q3_2021,Spotify,streaming_listeners,Maiduguri,Borno,40.0,15
+Q3_2021,Spotify,streaming_listeners,Ebute-Lekki,Lagos,28.0,6
+Q3_2021,Spotify,streaming_listeners,Ikeja,Lagos,27.0,18
+Q3_2021,Spotify,streaming_listeners,Kaduna,Kaduna,19.0,8
+Q3_2021,Spotify,streaming_listeners,Warri,Delta,16.0,7
+Q3_2021,Spotify,streaming_listeners,Yola,Adamawa,11.0,4
+Q3_2021,Spotify,streaming_listeners,Jos,Plateau,9.0,6
+Q3_2021,Spotify,streaming_listeners,Aba,Abia,9.0,7
+Q3_2021,Spotify,streaming_listeners,Akure,Ondo,7.0,2
+Q3_2021,Spotify,streaming_listeners,Ilorin,Kwara,6.0,5
+Q3_2021,Spotify,streaming_listeners,ife,Osun,5.0,4
+Q3_2021,Spotify,streaming_listeners,Ado Ekiti,Ekiti,5.0,4
+Q3_2021,Spotify,streaming_listeners,Langtang,Plateau,3.0,2
+Q3_2021,Spotify,streaming_listeners,Minna,Niger,3.0,3
+Q3_2021,Spotify,streaming_listeners,Ikorodu,Lagos,3.0,2
+Q3_2021,Spotify,streaming_listeners,Ikoyi,Osun,2.0,2
+Q3_2021,Spotify,streaming_listeners,Calabar,Cross River,2.0,2
+Q3_2021,Spotify,streaming_listeners,Sokoto,Sokoto,2.0,2
+Q3_2021,Spotify,streaming_listeners,Pindiga,Gombe,2.0,2
+Q3_2021,Spotify,streaming_listeners,Ilesa,Osun,2.0,2
+Q3_2021,Spotify,streaming_listeners,Katsina,Katsina,2.0,2
+Q3_2021,Spotify,streaming_listeners,Oko Anala,Delta,2.0,2
+Q3_2021,Spotify,streaming_listeners,Zaria,Kaduna,1.0,1
+Q3_2021,Spotify,streaming_listeners,Nkpor,Anambra,1.0,1
+Q3_2021,Spotify,streaming_listeners,Bonny,Rivers,1.0,1
+Q3_2021,Spotify,streaming_listeners,Lekki,Lagos,1.0,1
+Q3_2021,Spotify,streaming_listeners,Pakuro,Ogun State,1.0,1
+Q3_2021,Spotify,streaming_listeners,Agango,OG,1.0,1
+Q3_2021,Spotify,streaming_listeners,Magboro,Ogun State,1.0,1
+Q3_2021,Spotify,streaming_listeners,Uyo,Akwa Ibom,1.0,1
+Q3_2021,Spotify,streaming_listeners,Oworonshoki,Lagos,1.0,1
+Q3_2021,Spotify,streaming_listeners,Gembu,Taraba,1.0,1
+Q3_2021,Spotify,streaming_listeners,Kokani North,Kebbi State,1.0,1
+Q3_2021,Spotify,streaming_listeners,Damaturu,Yobe,1.0,1
+Q3_2021,Spotify,streaming_listeners,Gusau,Zamfara,1.0,1
+Q3_2021,Spotify,streaming_listeners,Eket,Akwa Ibom,1.0,1
+Q3_2021,Spotify,streaming_listeners,Omu-Aran,Kwara,1.0,1
+Q3_2021,Spotify,streaming_listeners,Adewole,Oyo,1.0,1
+Q3_2021,Spotify,streaming_listeners,Nsukka,Enugu,1.0,1
+Q3_2021,Spotify,streaming_listeners,Yenagoa,Bayelsa,1.0,1
+Q3_2021,YouTube,streaming_listeners,Lagos,Lagos,270210.0,34
+Q3_2021,YouTube,streaming_listeners,Abuja,Federal Capital Territory,107937.0,34
+Q3_2021,YouTube,streaming_listeners,Port Harcourt,Rivers,73974.0,34
+Q3_2021,YouTube,streaming_listeners,Ebute-Lekki,Lagos,13055.0,28
+Q3_2021,YouTube,streaming_listeners,Uyo,Akwa Ibom,11272.0,26
+Q3_2021,YouTube,streaming_listeners,Benin City,Edo,939.0,12
+Q3_2021,YouTube,streaming_listeners,Ibadan,Oyo,148.0,5
+Q3_2021,YouTube,streaming_listeners,Magboro,Ogun State,70.0,3
+Q3_2021,YouTube,streaming_listeners,Abeokuta,Ogun State,67.0,3
+Q3_2021,YouTube,streaming_listeners,Bonny,Rivers,65.0,3
+Q3_2021,YouTube,streaming_listeners,Kano,Kano,43.0,2
+Q3_2021,YouTube,streaming_listeners,Epe,Lagos,29.0,1
+Q3_2021,YouTube,streaming_listeners,Keffi,Nasarawa,25.0,1
+Q3_2021,YouTube,streaming_listeners,Akure,Ondo,19.0,1
+Q3_2021,YouTube,streaming_listeners,Ikorodu,Lagos,18.0,2
+Q3_2021,YouTube,streaming_listeners,jimeta,adamawa,17.0,2
+Q3_2021,YouTube,streaming_listeners,Osogbo,Osun,15.0,1
+Q3_2021,YouTube,streaming_listeners,Owerri,Imo,14.0,2
+Q3_2021,YouTube,streaming_listeners,Aloa,Rivers State,14.0,1
+Q3_2021,YouTube,streaming_listeners,Yenagoa,Bayelsa,14.0,1
+Q3_2021,YouTube,streaming_listeners,Enugu,Enugu,13.0,1
+Q3_2021,YouTube,streaming_listeners,Agbara,Ogun State,12.0,1
+Q3_2021,YouTube,streaming_listeners,Maiduguri,Borno,12.0,1
+Q3_2021,YouTube,streaming_listeners,Eket,Akwa Ibom,11.0,1
+Q3_2021,YouTube,streaming_listeners,Jos,Plateau,9.0,1
+Q3_2021,YouTube,streaming_listeners,Kaduna,Kaduna,9.0,1
+Q3_2021,YouTube,streaming_listeners,Nsukka,Enugu,8.0,1
+Q3_2021,YouTube,streaming_listeners,Kanshio,Benue,7.0,1
+Q3_2021,YouTube,streaming_listeners,Zaria,Kaduna,7.0,1
+Q3_2021,YouTube,streaming_listeners,Asaba,Delta,7.0,1
+Q3_2021,YouTube,streaming_listeners,Ogbomoso,Oyo,6.0,1
+Q4_2021,Instagram,social_followers,Lagos,Lagos,52336661.0,86
+Q4_2021,Instagram,social_followers,Abuja,Federal Capital Territory,9132497.0,85
+Q4_2021,Instagram,social_followers,Port Harcourt,Rivers,2851594.0,78
+Q4_2021,Instagram,social_followers,Uyo,Akwa Ibom,816472.0,38
+Q4_2021,Instagram,social_followers,Ado Ekiti,Ekiti,384257.0,33
+Q4_2021,Instagram,social_followers,Osogbo,Osun,67449.0,9
+Q4_2021,Instagram,social_followers,Maiduguri,Borno,8596.0,1
+Q4_2021,Instagram,social_followers,Gombe,Gombe,7874.0,1
+Q4_2021,Instagram,social_followers,Zaria,Kaduna,6790.0,1
+Q4_2021,Instagram,social_followers,Bauchi,Bauchi,6068.0,1
+Q4_2021,Instagram,social_followers,Katsina,Katsina,4334.0,1
+Q4_2021,Instagram,social_followers,Birnin Kebbi,Kebbi,4262.0,1
+Q4_2021,Instagram,social_followers,Damaturu,Yobe,3756.0,1
+Q4_2021,Instagram,social_followers,Gusau,Zamfara,3106.0,1
+Q4_2021,Instagram,social_followers,Jalingo,Taraba,2022.0,1
+Q4_2021,Instagram,social_followers,Lafia,Nasarawa,1878.0,1
+Q4_2021,Instagram,social_followers,Makurdi,Benue,463.0,1
+Q4_2021,Spotify,streaming_listeners,Lagos,Lagos,4155765.0,521
+Q4_2021,Spotify,streaming_listeners,Kano,Kano,1656925.0,467
+Q4_2021,Spotify,streaming_listeners,Abuja,Federal Capital Territory,324071.0,406
+Q4_2021,Spotify,streaming_listeners,Suleja,Niger,221311.0,416
+Q4_2021,Spotify,streaming_listeners,Port Harcourt,Rivers,127339.0,362
+Q4_2021,Spotify,streaming_listeners,Ilorin,Kwara,57719.0,190
+Q4_2021,Spotify,streaming_listeners,Benin City,Edo,40344.0,242
+Q4_2021,Spotify,streaming_listeners,Kaduna,Kaduna,8363.0,90
+Q4_2021,Spotify,streaming_listeners,Ikeja,Lagos,3750.0,69
+Q4_2021,Spotify,streaming_listeners,Ibadan,Oyo,3660.0,60
+Q4_2021,Spotify,streaming_listeners,Owerri,Imo,363.0,37
+Q4_2021,Spotify,streaming_listeners,Onitsha,Anambra,191.0,22
+Q4_2021,Spotify,streaming_listeners,Abeokuta,Ogun State,86.0,25
+Q4_2021,Spotify,streaming_listeners,Warri,Delta,43.0,10
+Q4_2021,Spotify,streaming_listeners,Enugu,Enugu,34.0,7
+Q4_2021,Spotify,streaming_listeners,Yola,Adamawa,30.0,10
+Q4_2021,Spotify,streaming_listeners,Ebute-Lekki,Lagos,24.0,16
+Q4_2021,Spotify,streaming_listeners,Uyo,Akwa Ibom,20.0,7
+Q4_2021,Spotify,streaming_listeners,Oju Ota,Ogun State,18.0,4
+Q4_2021,Spotify,streaming_listeners,Pakuro,Ogun State,12.0,5
+Q4_2021,Spotify,streaming_listeners,Ikorodu,Lagos,7.0,7
+Q4_2021,Spotify,streaming_listeners,Omu-Aran,Kwara,7.0,3
+Q4_2021,Spotify,streaming_listeners,Calabar,Cross River,4.0,4
+Q4_2021,Spotify,streaming_listeners,Minna,Niger,4.0,4
+Q4_2021,Spotify,streaming_listeners,Sokoto,Sokoto,3.0,3
+Q4_2021,Spotify,streaming_listeners,Pindiga,Gombe,3.0,3
+Q4_2021,Spotify,streaming_listeners,Sagamu,Ogun State,3.0,3
+Q4_2021,Spotify,streaming_listeners,Ikoyi,Osun,2.0,2
+Q4_2021,Spotify,streaming_listeners,Zaria,Kaduna,2.0,2
+Q4_2021,Spotify,streaming_listeners,Osogbo,Osun,2.0,2
+Q4_2021,Spotify,streaming_listeners,ife,Osun,2.0,2
+Q4_2021,Spotify,streaming_listeners,Maboshi I,KD,2.0,2
+Q4_2021,Spotify,streaming_listeners,Jos,Plateau,2.0,2
+Q4_2021,Spotify,streaming_listeners,Ibafo,Ogun State,2.0,2
+Q4_2021,Spotify,streaming_listeners,Bwari,Federal Capital Territory,2.0,2
+Q4_2021,Spotify,streaming_listeners,Ado Ekiti,Ekiti,1.0,1
+Q4_2021,Spotify,streaming_listeners,Ijebu Ode,Ogun State,1.0,1
+Q4_2021,Spotify,streaming_listeners,Awka,Anambra,1.0,1
+Q4_2021,Spotify,streaming_listeners,Bonny,Rivers,1.0,1
+Q4_2021,Spotify,streaming_listeners,Akure,Ondo,1.0,1
+Q4_2021,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,1.0,1
+Q4_2021,Spotify,streaming_listeners,Damaturu,Yobe,1.0,1
+Q4_2021,Spotify,streaming_listeners,Gembu,Taraba,1.0,1
+Q4_2021,Spotify,streaming_listeners,Gusau,Zamfara,1.0,1
+Q4_2021,Spotify,streaming_listeners,Kokani North,Kebbi State,1.0,1
+Q4_2021,Spotify,streaming_listeners,Nsukka,Enugu,1.0,1
+Q4_2021,Spotify,streaming_listeners,Adewole,Oyo,1.0,1
+Q4_2021,Spotify,streaming_listeners,Iwo,Osun,1.0,1
+Q4_2021,Spotify,streaming_listeners,Egbeda,Rivers,1.0,1
+Q4_2021,Spotify,streaming_listeners,Katsina,Katsina,1.0,1
+Q4_2021,Spotify,streaming_listeners,Ilishan-Remo,Ogun State,1.0,1
+Q4_2021,Spotify,streaming_listeners,Abakaliki,Ebonyi,1.0,1
+Q4_2021,Spotify,streaming_listeners,jimeta,adamawa,1.0,1
+Q4_2021,Spotify,streaming_listeners,Magboro,Ogun State,1.0,1
+Q4_2021,Spotify,streaming_listeners,Ilesa,Osun,1.0,1
+Q4_2021,Spotify,streaming_listeners,Agbor,Delta,1.0,1
+Q4_2021,Spotify,streaming_listeners,Osun,OG,1.0,1
+Q4_2021,YouTube,streaming_listeners,Lagos,Lagos,337272.0,33
+Q4_2021,YouTube,streaming_listeners,Abuja,Federal Capital Territory,102661.0,32
+Q4_2021,YouTube,streaming_listeners,Ebute-Lekki,Lagos,13316.0,29
+Q4_2021,YouTube,streaming_listeners,Port Harcourt,Rivers,10244.0,31
+Q4_2021,YouTube,streaming_listeners,Benin City,Edo,931.0,15
+Q4_2021,YouTube,streaming_listeners,Apia,NI,360.0,2
+Q4_2021,YouTube,streaming_listeners,Abeokuta,Ogun State,110.0,5
+Q4_2021,YouTube,streaming_listeners,Ibadan,Oyo,103.0,6
+Q4_2021,YouTube,streaming_listeners,Calabar,Cross River,34.0,2
+Q4_2021,YouTube,streaming_listeners,Bauchi,Bauchi,28.0,2
+Q4_2021,YouTube,streaming_listeners,Ado Ekiti,Ekiti,27.0,3
+Q4_2021,YouTube,streaming_listeners,Kaduna,Kaduna,27.0,2
+Q4_2021,YouTube,streaming_listeners,Kano,Kano,25.0,3
+Q4_2021,YouTube,streaming_listeners,Bonny,Rivers,25.0,3
+Q4_2021,YouTube,streaming_listeners,Uyo,Akwa Ibom,18.0,3
+Q4_2021,YouTube,streaming_listeners,Enugu,Enugu,18.0,2
+Q4_2021,YouTube,streaming_listeners,Yola,Adamawa,17.0,1
+Q4_2021,YouTube,streaming_listeners,Oju Ota,Ogun State,15.0,3
+Q4_2021,YouTube,streaming_listeners,Owerri,Imo,15.0,1
+Q4_2021,YouTube,streaming_listeners,Zaria,Kaduna,13.0,2
+Q4_2021,YouTube,streaming_listeners,Oyigbo,Rivers,12.0,1
+Q4_2021,YouTube,streaming_listeners,Awka,Anambra,10.0,1
+Q4_2021,YouTube,streaming_listeners,Nsukka,Enugu,8.0,1
+Q4_2021,YouTube,streaming_listeners,Ilishan-Remo,Ogun State,8.0,1
+Q4_2021,YouTube,streaming_listeners,Maiduguri,Borno,7.0,1
+Q4_2021,YouTube,streaming_listeners,jimeta,adamawa,7.0,1
+Q4_2021,YouTube,streaming_listeners,Jos,Plateau,7.0,1
+Q4_2021,YouTube,streaming_listeners,Ilorin,Kwara,6.0,1
+Q4_2021,YouTube,streaming_listeners,Asaba,Delta,6.0,1
+Q4_2021,YouTube,streaming_listeners,Akure,Ondo,6.0,1
+Q4_2021,YouTube,streaming_listeners,Sokoto,Sokoto,5.0,1
+Q4_2021,YouTube,streaming_listeners,Ikorodu,Lagos,5.0,1
+Q1_2022,Instagram,social_followers,Lagos,Lagos,55798368.0,95
+Q1_2022,Instagram,social_followers,Abuja,Federal Capital Territory,10405183.0,93
+Q1_2022,Instagram,social_followers,Port Harcourt,Rivers,2665980.0,86
+Q1_2022,Instagram,social_followers,Uyo,Akwa Ibom,874084.0,58
+Q1_2022,Instagram,social_followers,Ado Ekiti,Ekiti,334999.0,31
+Q1_2022,Instagram,social_followers,Osogbo,Osun,71910.0,9
+Q1_2022,Instagram,social_followers,Yenagoa,Bayelsa,22295.0,3
+Q1_2022,Instagram,social_followers,Makurdi,Benue,15106.0,3
+Q1_2022,Instagram,social_followers,Gombe,Gombe,7112.0,1
+Q1_2022,Instagram,social_followers,Bauchi,Bauchi,7039.0,1
+Q1_2022,Instagram,social_followers,Zaria,Kaduna,6894.0,1
+Q1_2022,Instagram,social_followers,Maiduguri,Borno,6822.0,1
+Q1_2022,Instagram,social_followers,Katsina,Katsina,6459.0,1
+Q1_2022,Instagram,social_followers,Gusau,Zamfara,3556.0,1
+Q1_2022,Instagram,social_followers,Birnin Kebbi,Kebbi,3483.0,1
+Q1_2022,Instagram,social_followers,Damaturu,Yobe,3193.0,1
+Q1_2022,Instagram,social_followers,Jalingo,Taraba,2757.0,1
+Q1_2022,Instagram,social_followers,Lafia,Nasarawa,1814.0,1
+Q1_2022,Spotify,streaming_listeners,Lagos,Lagos,6014967.0,527
+Q1_2022,Spotify,streaming_listeners,Suleja,Niger,641150.0,407
+Q1_2022,Spotify,streaming_listeners,Abuja,Federal Capital Territory,604770.0,409
+Q1_2022,Spotify,streaming_listeners,Kano,Kano,564618.0,491
+Q1_2022,Spotify,streaming_listeners,Port Harcourt,Rivers,531101.0,388
+Q1_2022,Spotify,streaming_listeners,Benin City,Edo,215197.0,337
+Q1_2022,Spotify,streaming_listeners,Ilorin,Kwara,61431.0,215
+Q1_2022,Spotify,streaming_listeners,Kaduna,Kaduna,32510.0,217
+Q1_2022,Spotify,streaming_listeners,Ibadan,Oyo,6226.0,97
+Q1_2022,Spotify,streaming_listeners,Ikeja,Lagos,1371.0,57
+Q1_2022,Spotify,streaming_listeners,Zazzagawa,Kebbi,1112.0,21
+Q1_2022,Spotify,streaming_listeners,Ebute-Lekki,Lagos,140.0,21
+Q1_2022,Spotify,streaming_listeners,Uyo,Akwa Ibom,99.0,22
+Q1_2022,Spotify,streaming_listeners,Abeokuta,Ogun State,55.0,22
+Q1_2022,Spotify,streaming_listeners,Owerri,Imo,54.0,13
+Q1_2022,Spotify,streaming_listeners,Yola,Adamawa,44.0,15
+Q1_2022,Spotify,streaming_listeners,Warri,Delta,39.0,7
+Q1_2022,Spotify,streaming_listeners,Akure,Ondo,11.0,5
+Q1_2022,Spotify,streaming_listeners,Omu-Aran,Kwara,10.0,2
+Q1_2022,Spotify,streaming_listeners,Zaria,Kaduna,8.0,6
+Q1_2022,Spotify,streaming_listeners,Ughoru,Delta,6.0,4
+Q1_2022,Spotify,streaming_listeners,ife,Osun,6.0,3
+Q1_2022,Spotify,streaming_listeners,New Karu,Federal Capital Territory,4.0,4
+Q1_2022,Spotify,streaming_listeners,Ikorodu,Lagos,3.0,3
+Q1_2022,Spotify,streaming_listeners,Ogudu,Kwara,3.0,2
+Q1_2022,Spotify,streaming_listeners,Onitsha,Anambra,3.0,2
+Q1_2022,Spotify,streaming_listeners,Iwo,Osun,3.0,1
+Q1_2022,Spotify,streaming_listeners,Enugu,Enugu,3.0,2
+Q1_2022,Spotify,streaming_listeners,Sokoto,Sokoto,2.0,2
+Q1_2022,Spotify,streaming_listeners,Umuahia,Abia,2.0,2
+Q1_2022,Spotify,streaming_listeners,Aba,Abia,2.0,2
+Q1_2022,Spotify,streaming_listeners,Ijagun,Ogun State,2.0,2
+Q1_2022,Spotify,streaming_listeners,Osogbo,Osun,2.0,2
+Q1_2022,Spotify,streaming_listeners,Calabar,Cross River,2.0,2
+Q1_2022,Spotify,streaming_listeners,Ikoyi,Osun,2.0,2
+Q1_2022,Spotify,streaming_listeners,Asaba,Delta,2.0,2
+Q1_2022,Spotify,streaming_listeners,Bwari,Federal Capital Territory,2.0,2
+Q1_2022,Spotify,streaming_listeners,Gwagwalada,Federal Capital Territory,1.0,1
+Q1_2022,Spotify,streaming_listeners,ikere,Ekiti,1.0,1
+Q1_2022,Spotify,streaming_listeners,Oworonshoki,Lagos,1.0,1
+Q1_2022,Spotify,streaming_listeners,Lekki,Lagos,1.0,1
+Q1_2022,Spotify,streaming_listeners,Ketu Adieowe,OG,1.0,1
+Q1_2022,Spotify,streaming_listeners,Magboro,Ogun State,1.0,1
+Q1_2022,Spotify,streaming_listeners,Gembu,Taraba,1.0,1
+Q1_2022,Spotify,streaming_listeners,Nnewi,Anambra,1.0,1
+Q1_2022,Spotify,streaming_listeners,Awka,Anambra,1.0,1
+Q1_2022,Spotify,streaming_listeners,Egbeda,Rivers,1.0,1
+Q1_2022,Spotify,streaming_listeners,Ikotun,Lagos,1.0,1
+Q1_2022,Spotify,streaming_listeners,Ilishan-Remo,Ogun State,1.0,1
+Q1_2022,Spotify,streaming_listeners,Abraka,Delta,1.0,1
+Q1_2022,Spotify,streaming_listeners,Jikwoyi,Federal Capital Territory,1.0,1
+Q1_2022,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q1_2022,Spotify,streaming_listeners,jimeta,adamawa,1.0,1
+Q1_2022,Spotify,streaming_listeners,Yenagoa,Bayelsa,1.0,1
+Q1_2022,YouTube,streaming_listeners,Lagos,Lagos,138853.0,31
+Q1_2022,YouTube,streaming_listeners,Abuja,Federal Capital Territory,40152.0,31
+Q1_2022,YouTube,streaming_listeners,Port Harcourt,Rivers,34572.0,29
+Q1_2022,YouTube,streaming_listeners,Uyo,Akwa Ibom,13933.0,22
+Q1_2022,YouTube,streaming_listeners,Ebute-Lekki,Lagos,6142.0,26
+Q1_2022,YouTube,streaming_listeners,Benin City,Edo,635.0,13
+Q1_2022,YouTube,streaming_listeners,Apia,NI,291.0,3
+Q1_2022,YouTube,streaming_listeners,Ikorodu,Lagos,84.0,6
+Q1_2022,YouTube,streaming_listeners,Ibadan,Oyo,64.0,5
+Q1_2022,YouTube,streaming_listeners,Enugu,Enugu,45.0,2
+Q1_2022,YouTube,streaming_listeners,Magboro,Ogun State,37.0,2
+Q1_2022,YouTube,streaming_listeners,Kano,Kano,34.0,2
+Q1_2022,YouTube,streaming_listeners,Pakuro,Ogun State,22.0,3
+Q1_2022,YouTube,streaming_listeners,Ilorin,Kwara,21.0,1
+Q1_2022,YouTube,streaming_listeners,Oju Ota,Ogun State,18.0,3
+Q1_2022,YouTube,streaming_listeners,Abeokuta,Ogun State,18.0,2
+Q1_2022,YouTube,streaming_listeners,Owerri,Imo,15.0,1
+Q1_2022,YouTube,streaming_listeners,Loburo,Ogun State,8.0,1
+Q1_2022,YouTube,streaming_listeners,Ado Ekiti,Ekiti,8.0,1
+Q1_2022,YouTube,streaming_listeners,Agege,,7.0,1
+Q1_2022,YouTube,streaming_listeners,Oteri,Delta,7.0,1
+Q1_2022,YouTube,streaming_listeners,Nsukka,Enugu,7.0,1
+Q2_2022,Instagram,social_followers,Lagos,Lagos,58947579.0,97
+Q2_2022,Instagram,social_followers,Abuja,Federal Capital Territory,11154356.0,96
+Q2_2022,Instagram,social_followers,Port Harcourt,Rivers,3318705.0,87
+Q2_2022,Instagram,social_followers,Uyo,Akwa Ibom,683922.0,49
+Q2_2022,Instagram,social_followers,Ado Ekiti,Ekiti,605121.0,40
+Q2_2022,Instagram,social_followers,Yenagoa,Bayelsa,125445.0,5
+Q2_2022,Instagram,social_followers,Osogbo,Osun,51293.0,8
+Q2_2022,Instagram,social_followers,Makurdi,Benue,11329.0,1
+Q2_2022,Instagram,social_followers,Gombe,Gombe,6841.0,1
+Q2_2022,Instagram,social_followers,Zaria,Kaduna,6841.0,1
+Q2_2022,Instagram,social_followers,Maiduguri,Borno,6624.0,1
+Q2_2022,Instagram,social_followers,Bauchi,Bauchi,6336.0,1
+Q2_2022,Instagram,social_followers,Katsina,Katsina,5400.0,1
+Q2_2022,Instagram,social_followers,Birnin Kebbi,Kebbi,4392.0,1
+Q2_2022,Instagram,social_followers,Damaturu,Yobe,3240.0,1
+Q2_2022,Instagram,social_followers,Gusau,Zamfara,2952.0,1
+Q2_2022,Instagram,social_followers,Lafia,Nasarawa,1827.0,1
+Q2_2022,Instagram,social_followers,Jalingo,Taraba,1728.0,1
+Q2_2022,Spotify,streaming_listeners,Lagos,Lagos,6590376.0,540
+Q2_2022,Spotify,streaming_listeners,Abuja,Federal Capital Territory,1600997.0,480
+Q2_2022,Spotify,streaming_listeners,Port Harcourt,Rivers,905781.0,454
+Q2_2022,Spotify,streaming_listeners,Benin City,Edo,332892.0,396
+Q2_2022,Spotify,streaming_listeners,Kano,Kano,254740.0,330
+Q2_2022,Spotify,streaming_listeners,Suleja,Niger,229580.0,374
+Q2_2022,Spotify,streaming_listeners,Kaduna,Kaduna,15259.0,155
+Q2_2022,Spotify,streaming_listeners,Ibadan,Oyo,3000.0,91
+Q2_2022,Spotify,streaming_listeners,Ikeja,Lagos,226.0,45
+Q2_2022,Spotify,streaming_listeners,Awka,Anambra,154.0,10
+Q2_2022,Spotify,streaming_listeners,Ebute-Lekki,Lagos,120.0,24
+Q2_2022,Spotify,streaming_listeners,Otan Ayegbaju,Osun,102.0,8
+Q2_2022,Spotify,streaming_listeners,Onitsha,Anambra,95.0,14
+Q2_2022,Spotify,streaming_listeners,Ilorin,Kwara,78.0,13
+Q2_2022,Spotify,streaming_listeners,Owerri,Imo,46.0,5
+Q2_2022,Spotify,streaming_listeners,Aba,Abia,44.0,8
+Q2_2022,Spotify,streaming_listeners,Abeokuta,Ogun State,43.0,21
+Q2_2022,Spotify,streaming_listeners,Warri,Delta,41.0,5
+Q2_2022,Spotify,streaming_listeners,Akure,Ondo,41.0,8
+Q2_2022,Spotify,streaming_listeners,Oju Ota,Ogun State,39.0,2
+Q2_2022,Spotify,streaming_listeners,Uyo,Akwa Ibom,27.0,20
+Q2_2022,Spotify,streaming_listeners,Lekki,Lagos,23.0,3
+Q2_2022,Spotify,streaming_listeners,Yola,Adamawa,15.0,8
+Q2_2022,Spotify,streaming_listeners,Awoyaya,Lagos,12.0,2
+Q2_2022,Spotify,streaming_listeners,Abraka,Delta,10.0,7
+Q2_2022,Spotify,streaming_listeners,Ado Ekiti,Ekiti,8.0,4
+Q2_2022,Spotify,streaming_listeners,Ketu Adieowe,OG,7.0,3
+Q2_2022,Spotify,streaming_listeners,Iwo,Osun,7.0,1
+Q2_2022,Spotify,streaming_listeners,Sagamu,Ogun State,6.0,4
+Q2_2022,Spotify,streaming_listeners,Asaba,Delta,5.0,4
+Q2_2022,Spotify,streaming_listeners,Enugu,Enugu,5.0,4
+Q2_2022,Spotify,streaming_listeners,Ughoru,Delta,5.0,4
+Q2_2022,Spotify,streaming_listeners,Ede,Osun,5.0,3
+Q2_2022,Spotify,streaming_listeners,Ikoyi,Osun,5.0,3
+Q2_2022,Spotify,streaming_listeners,Zaria,Kaduna,4.0,4
+Q2_2022,Spotify,streaming_listeners,Osogbo,Osun,3.0,3
+Q2_2022,Spotify,streaming_listeners,Bonny,Rivers,2.0,2
+Q2_2022,Spotify,streaming_listeners,Sokoto,Sokoto,2.0,2
+Q2_2022,Spotify,streaming_listeners,Ikorodu,Lagos,2.0,2
+Q2_2022,Spotify,streaming_listeners,Ogudu,Kwara,2.0,2
+Q2_2022,Spotify,streaming_listeners,Shaki,Oyo,2.0,2
+Q2_2022,Spotify,streaming_listeners,Jos,Plateau,2.0,2
+Q2_2022,Spotify,streaming_listeners,Yenagoa,Bayelsa,2.0,2
+Q2_2022,Spotify,streaming_listeners,Aguata,Anambra,2.0,1
+Q2_2022,Spotify,streaming_listeners,ife,Osun,2.0,2
+Q2_2022,Spotify,streaming_listeners,Umuahia,Abia,2.0,2
+Q2_2022,Spotify,streaming_listeners,Omu-Aran,Kwara,2.0,2
+Q2_2022,Spotify,streaming_listeners,Idiomo,Ogun State,2.0,2
+Q2_2022,Spotify,streaming_listeners,Gwagwalada,Federal Capital Territory,1.0,1
+Q2_2022,Spotify,streaming_listeners,Magboro,Ogun State,1.0,1
+Q2_2022,Spotify,streaming_listeners,Adamakiri,Rivers,1.0,1
+Q2_2022,Spotify,streaming_listeners,Oworonshoki,Lagos,1.0,1
+Q2_2022,Spotify,streaming_listeners,Maboshi I,KD,1.0,1
+Q2_2022,Spotify,streaming_listeners,Obosi,Anambra,1.0,1
+Q2_2022,Spotify,streaming_listeners,Calabar,Cross River,1.0,1
+Q2_2022,Spotify,streaming_listeners,Bwari,Federal Capital Territory,1.0,1
+Q2_2022,Spotify,streaming_listeners,Ogbomoso,Oyo,1.0,1
+Q2_2022,Spotify,streaming_listeners,Offa,Kwara,1.0,1
+Q2_2022,Spotify,streaming_listeners,Ado,Nasarawa,1.0,1
+Q2_2022,Spotify,streaming_listeners,Ikotun,Lagos,1.0,1
+Q2_2022,Spotify,streaming_listeners,Ikot Ekpene,Akwa Ibom,1.0,1
+Q2_2022,Spotify,streaming_listeners,Agege,,1.0,1
+Q2_2022,Spotify,streaming_listeners,Lafia,Nasarawa,1.0,1
+Q2_2022,Spotify,streaming_listeners,Ijesha-Ijebu,Ogun State,1.0,1
+Q2_2022,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q2_2022,Spotify,streaming_listeners,Ipaja,Ogun State,1.0,1
+Q2_2022,Spotify,streaming_listeners,Nasarawa,Niger,1.0,1
+Q2_2022,Spotify,streaming_listeners,Pakuro,Ogun State,1.0,1
+Q2_2022,Spotify,streaming_listeners,London,DE,1.0,1
+Q2_2022,YouTube,streaming_listeners,Lagos,Lagos,111448.0,31
+Q2_2022,YouTube,streaming_listeners,Abuja,Federal Capital Territory,34333.0,29
+Q2_2022,YouTube,streaming_listeners,Port Harcourt,Rivers,30991.0,29
+Q2_2022,YouTube,streaming_listeners,Ebute-Lekki,Lagos,5484.0,27
+Q2_2022,YouTube,streaming_listeners,Benin City,Edo,134.0,6
+Q2_2022,YouTube,streaming_listeners,Ikorodu,Lagos,94.0,7
+Q2_2022,YouTube,streaming_listeners,Ozuaha,Rivers,82.0,4
+Q2_2022,YouTube,streaming_listeners,Ihiagwa,Imo,75.0,4
+Q2_2022,YouTube,streaming_listeners,Ogbomoso,Oyo,52.0,3
+Q2_2022,YouTube,streaming_listeners,Owerri,Imo,22.0,2
+Q2_2022,YouTube,streaming_listeners,Apia,NI,21.0,2
+Q2_2022,YouTube,streaming_listeners,Pakuro,Ogun State,13.0,1
+Q2_2022,YouTube,streaming_listeners,Ilishan-Remo,Ogun State,13.0,1
+Q2_2022,YouTube,streaming_listeners,Agege,,11.0,2
+Q2_2022,YouTube,streaming_listeners,Uyo,Akwa Ibom,7.0,1
+Q2_2022,YouTube,streaming_listeners,Enugu,Enugu,7.0,1
+Q2_2022,YouTube,streaming_listeners,Elelenwa,Rivers,5.0,1
+Q2_2022,YouTube,streaming_listeners,Onitsha,Anambra,5.0,1
+Q2_2022,YouTube,streaming_listeners,Awka,Anambra,5.0,1
+Q2_2022,YouTube,streaming_listeners,Yola,Adamawa,5.0,1
+Q2_2022,YouTube,streaming_listeners,Abeokuta,Ogun State,5.0,1
+Q3_2022,Instagram,social_followers,Lagos,Lagos,65839798.0,106
+Q3_2022,Instagram,social_followers,Abuja,Federal Capital Territory,12566502.0,104
+Q3_2022,Instagram,social_followers,Port Harcourt,Rivers,3605056.0,94
+Q3_2022,Instagram,social_followers,Uyo,Akwa Ibom,1374533.0,58
+Q3_2022,Instagram,social_followers,Ado Ekiti,Ekiti,576141.0,42
+Q3_2022,Instagram,social_followers,Osogbo,Osun,84316.0,8
+Q3_2022,Instagram,social_followers,Yenagoa,Bayelsa,22804.0,3
+Q3_2022,Instagram,social_followers,Bauchi,Bauchi,8042.0,1
+Q3_2022,Instagram,social_followers,Zaria,Kaduna,7746.0,1
+Q3_2022,Instagram,social_followers,Maiduguri,Borno,7673.0,1
+Q3_2022,Instagram,social_followers,Gombe,Gombe,6935.0,1
+Q3_2022,Instagram,social_followers,Katsina,Katsina,6566.0,1
+Q3_2022,Instagram,social_followers,Makurdi,Benue,4448.0,2
+Q3_2022,Instagram,social_followers,Birnin Kebbi,Kebbi,3762.0,1
+Q3_2022,Instagram,social_followers,Gusau,Zamfara,2729.0,1
+Q3_2022,Instagram,social_followers,Damaturu,Yobe,2656.0,1
+Q3_2022,Instagram,social_followers,Jalingo,Taraba,2146.0,1
+Q3_2022,Instagram,social_followers,Lafia,Nasarawa,1775.0,1
+Q3_2022,Spotify,streaming_listeners,Lagos,Lagos,6889907.0,551
+Q3_2022,Spotify,streaming_listeners,Abuja,Federal Capital Territory,2329856.0,517
+Q3_2022,Spotify,streaming_listeners,Port Harcourt,Rivers,665351.0,439
+Q3_2022,Spotify,streaming_listeners,Benin City,Edo,259472.0,388
+Q3_2022,Spotify,streaming_listeners,Kano,Kano,134411.0,278
+Q3_2022,Spotify,streaming_listeners,Ibadan,Oyo,129098.0,302
+Q3_2022,Spotify,streaming_listeners,Aba,Abia,6666.0,71
+Q3_2022,Spotify,streaming_listeners,Onitsha,Anambra,3503.0,64
+Q3_2022,Spotify,streaming_listeners,Kaduna,Kaduna,1936.0,86
+Q3_2022,Spotify,streaming_listeners,Enugu,Enugu,1862.0,51
+Q3_2022,Spotify,streaming_listeners,Kwarabe,Kaduna,1169.0,20
+Q3_2022,Spotify,streaming_listeners,Uyo,Akwa Ibom,471.0,27
+Q3_2022,Spotify,streaming_listeners,Azare,Bauchi,429.0,8
+Q3_2022,Spotify,streaming_listeners,Owerri,Imo,397.0,18
+Q3_2022,Spotify,streaming_listeners,Awka,Anambra,227.0,22
+Q3_2022,Spotify,streaming_listeners,Ikeja,Lagos,182.0,35
+Q3_2022,Spotify,streaming_listeners,Yenagoa,Bayelsa,134.0,13
+Q3_2022,Spotify,streaming_listeners,Obosi,Anambra,101.0,10
+Q3_2022,Spotify,streaming_listeners,Abeokuta,Ogun State,81.0,28
+Q3_2022,Spotify,streaming_listeners,Otan Ayegbaju,Osun,73.0,5
+Q3_2022,Spotify,streaming_listeners,Warri,Delta,52.0,7
+Q3_2022,Spotify,streaming_listeners,Oju Ota,Ogun State,37.0,2
+Q3_2022,Spotify,streaming_listeners,Ebute-Lekki,Lagos,24.0,17
+Q3_2022,Spotify,streaming_listeners,Chikun,Kaduna,20.0,6
+Q3_2022,Spotify,streaming_listeners,Yola,Adamawa,17.0,12
+Q3_2022,Spotify,streaming_listeners,Iwo,Osun,12.0,5
+Q3_2022,Spotify,streaming_listeners,Ilorin,Kwara,10.0,7
+Q3_2022,Spotify,streaming_listeners,Ede,Osun,9.0,6
+Q3_2022,Spotify,streaming_listeners,Oworonshoki,Lagos,8.0,8
+Q3_2022,Spotify,streaming_listeners,Ikorodu,Lagos,7.0,6
+Q3_2022,Spotify,streaming_listeners,Nnewi,Anambra,6.0,5
+Q3_2022,Spotify,streaming_listeners,Eleko,Lagos,5.0,4
+Q3_2022,Spotify,streaming_listeners,Ikoyi,Osun,5.0,4
+Q3_2022,Spotify,streaming_listeners,Ungwan Masaka,KD,5.0,4
+Q3_2022,Spotify,streaming_listeners,Osogbo,Osun,4.0,4
+Q3_2022,Spotify,streaming_listeners,Lekki,Lagos,4.0,3
+Q3_2022,Spotify,streaming_listeners,Jos,Plateau,3.0,3
+Q3_2022,Spotify,streaming_listeners,Agege,,3.0,3
+Q3_2022,Spotify,streaming_listeners,Pakuro,Ogun State,3.0,3
+Q3_2022,Spotify,streaming_listeners,Oyo,Oyo,3.0,3
+Q3_2022,Spotify,streaming_listeners,Ughoru,Delta,2.0,2
+Q3_2022,Spotify,streaming_listeners,Ikot Ekpene,Akwa Ibom,2.0,2
+Q3_2022,Spotify,streaming_listeners,Karsana,Federal Capital Territory,2.0,2
+Q3_2022,Spotify,streaming_listeners,Ogudu,Kwara,2.0,2
+Q3_2022,Spotify,streaming_listeners,ife,Osun,2.0,2
+Q3_2022,Spotify,streaming_listeners,Asaba,Delta,2.0,2
+Q3_2022,Spotify,streaming_listeners,Umueze Anam,Anambra,2.0,2
+Q3_2022,Spotify,streaming_listeners,Ughelli,Delta,2.0,2
+Q3_2022,Spotify,streaming_listeners,Akure,Ondo,2.0,2
+Q3_2022,Spotify,streaming_listeners,Zaria,Kaduna,2.0,2
+Q3_2022,Spotify,streaming_listeners,Lokoja,Kogi,1.0,1
+Q3_2022,Spotify,streaming_listeners,Kumbotso,Kano,1.0,1
+Q3_2022,Spotify,streaming_listeners,Ewekoro,Ogun State,1.0,1
+Q3_2022,Spotify,streaming_listeners,Ipaja,Ogun State,1.0,1
+Q3_2022,Spotify,streaming_listeners,Akaragbene,Bayelsa,1.0,1
+Q3_2022,Spotify,streaming_listeners,Calabar,Cross River,1.0,1
+Q3_2022,Spotify,streaming_listeners,Kajola-Letosha,OG,1.0,1
+Q3_2022,Spotify,streaming_listeners,Sagamu,Ogun State,1.0,1
+Q3_2022,Spotify,streaming_listeners,Ijebu Ode,Ogun State,1.0,1
+Q3_2022,Spotify,streaming_listeners,Sabon Wuse,Kaduna,1.0,1
+Q3_2022,Spotify,streaming_listeners,ikere,Ekiti,1.0,1
+Q3_2022,Spotify,streaming_listeners,Maiduguri,Borno,1.0,1
+Q3_2022,Spotify,streaming_listeners,Badagry,Lagos,1.0,1
+Q3_2022,Spotify,streaming_listeners,Omoku,Rivers,1.0,1
+Q3_2022,Spotify,streaming_listeners,Ahoada,Rivers,1.0,1
+Q3_2022,Spotify,streaming_listeners,Bonny,Rivers,1.0,1
+Q3_2022,Spotify,streaming_listeners,Adamakiri,Rivers,1.0,1
+Q3_2022,Spotify,streaming_listeners,Shaki,Oyo,1.0,1
+Q3_2022,Spotify,streaming_listeners,EgbedaKetu,OY,1.0,1
+Q3_2022,Spotify,streaming_listeners,Abraka,Delta,1.0,1
+Q3_2022,Spotify,streaming_listeners,Ondo,Ondo,1.0,1
+Q3_2022,Spotify,streaming_listeners,London,DE,1.0,1
+Q3_2022,YouTube,streaming_listeners,Lagos,Lagos,335124.0,33
+Q3_2022,YouTube,streaming_listeners,Abuja,Federal Capital Territory,99568.0,32
+Q3_2022,YouTube,streaming_listeners,Port Harcourt,Rivers,90857.0,32
+Q3_2022,YouTube,streaming_listeners,Ebute-Lekki,Lagos,13380.0,26
+Q3_2022,YouTube,streaming_listeners,Benin City,Edo,360.0,10
+Q3_2022,YouTube,streaming_listeners,Ikorodu,Lagos,346.0,10
+Q3_2022,YouTube,streaming_listeners,Abeokuta,Ogun State,107.0,3
+Q3_2022,YouTube,streaming_listeners,Madalla,Federal Capital Territory,79.0,5
+Q3_2022,YouTube,streaming_listeners,Nassarawa,Adamawa,20.0,3
+Q3_2022,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,19.0,2
+Q3_2022,YouTube,streaming_listeners,Apia,NI,18.0,1
+Q3_2022,YouTube,streaming_listeners,Pakuro,Ogun State,17.0,3
+Q3_2022,YouTube,streaming_listeners,Agege,,16.0,2
+Q3_2022,YouTube,streaming_listeners,Uyo,Akwa Ibom,12.0,2
+Q3_2022,YouTube,streaming_listeners,Rumu-Osi,Rivers,11.0,1
+Q3_2022,YouTube,streaming_listeners,Ibadan,Oyo,10.0,2
+Q3_2022,YouTube,streaming_listeners,Onitsha,Anambra,10.0,1
+Q3_2022,YouTube,streaming_listeners,Ikot Ekpene,Akwa Ibom,7.0,1
+Q3_2022,YouTube,streaming_listeners,Enugu,Enugu,6.0,1
+Q3_2022,YouTube,streaming_listeners,Awka,Anambra,6.0,1
+Q3_2022,YouTube,streaming_listeners,Iddo Tudunwada,Federal Capital Territory,5.0,1
+Q3_2022,YouTube,streaming_listeners,Gwarinpa,Federal Capital Territory,5.0,1
+Q3_2022,YouTube,streaming_listeners,Nasarawa,Niger,5.0,1
+Q4_2022,Instagram,social_followers,Lagos,Lagos,70178983.0,111
+Q4_2022,Instagram,social_followers,Abuja,Federal Capital Territory,13037735.0,109
+Q4_2022,Instagram,social_followers,Port Harcourt,Rivers,3504519.0,99
+Q4_2022,Instagram,social_followers,Uyo,Akwa Ibom,808208.0,48
+Q4_2022,Instagram,social_followers,Ado Ekiti,Ekiti,621945.0,47
+Q4_2022,Instagram,social_followers,Osogbo,Osun,129032.0,12
+Q4_2022,Instagram,social_followers,Makurdi,Benue,17613.0,2
+Q4_2022,Instagram,social_followers,Bauchi,Bauchi,8843.0,1
+Q4_2022,Instagram,social_followers,Maiduguri,Borno,7861.0,1
+Q4_2022,Instagram,social_followers,Gombe,Gombe,7407.0,1
+Q4_2022,Instagram,social_followers,Zaria,Kaduna,6576.0,1
+Q4_2022,Instagram,social_followers,Katsina,Katsina,4913.0,1
+Q4_2022,Instagram,social_followers,Birnin Kebbi,Kebbi,3930.0,1
+Q4_2022,Instagram,social_followers,Gusau,Zamfara,2796.0,1
+Q4_2022,Instagram,social_followers,Jalingo,Taraba,2418.0,1
+Q4_2022,Instagram,social_followers,Damaturu,Yobe,2267.0,1
+Q4_2022,Instagram,social_followers,Lafia,Nasarawa,2040.0,1
+Q4_2022,Spotify,streaming_listeners,Lagos,Lagos,9815128.0,565
+Q4_2022,Spotify,streaming_listeners,Abuja,Federal Capital Territory,2645798.0,530
+Q4_2022,Spotify,streaming_listeners,Port Harcourt,Rivers,1644568.0,493
+Q4_2022,Spotify,streaming_listeners,Benin City,Edo,352979.0,400
+Q4_2022,Spotify,streaming_listeners,Ibadan,Oyo,327824.0,386
+Q4_2022,Spotify,streaming_listeners,Kaduna,Kaduna,258647.0,365
+Q4_2022,Spotify,streaming_listeners,Azare,Bauchi,118948.0,278
+Q4_2022,Spotify,streaming_listeners,Enugu,Enugu,59284.0,258
+Q4_2022,Spotify,streaming_listeners,Awka,Anambra,38925.0,190
+Q4_2022,Spotify,streaming_listeners,Kano,Kano,35338.0,190
+Q4_2022,Spotify,streaming_listeners,Onitsha,Anambra,6556.0,82
+Q4_2022,Spotify,streaming_listeners,Ogbomoso,Oyo,5368.0,86
+Q4_2022,Spotify,streaming_listeners,ife,Osun,2387.0,53
+Q4_2022,Spotify,streaming_listeners,Ikeja,Lagos,1898.0,85
+Q4_2022,Spotify,streaming_listeners,Ilorin,Kwara,1527.0,42
+Q4_2022,Spotify,streaming_listeners,Oju Ota,Ogun State,1183.0,22
+Q4_2022,Spotify,streaming_listeners,Otan Ayegbaju,Osun,979.0,16
+Q4_2022,Spotify,streaming_listeners,Aba,Abia,693.0,33
+Q4_2022,Spotify,streaming_listeners,Akure,Ondo,604.0,21
+Q4_2022,Spotify,streaming_listeners,Osogbo,Osun,506.0,8
+Q4_2022,Spotify,streaming_listeners,Umuahia,Abia,347.0,21
+Q4_2022,Spotify,streaming_listeners,Ikole,Ekiti,293.0,12
+Q4_2022,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,256.0,10
+Q4_2022,Spotify,streaming_listeners,Uyo,Akwa Ibom,205.0,23
+Q4_2022,Spotify,streaming_listeners,Abeokuta,Ogun State,159.0,31
+Q4_2022,Spotify,streaming_listeners,Owerri,Imo,116.0,20
+Q4_2022,Spotify,streaming_listeners,Warri,Delta,93.0,10
+Q4_2022,Spotify,streaming_listeners,Eleko,Lagos,51.0,10
+Q4_2022,Spotify,streaming_listeners,Ebute-Lekki,Lagos,48.0,25
+Q4_2022,Spotify,streaming_listeners,Yola,Adamawa,32.0,17
+Q4_2022,Spotify,streaming_listeners,Offa,Kwara,24.0,16
+Q4_2022,Spotify,streaming_listeners,Ijegun,Lagos,14.0,2
+Q4_2022,Spotify,streaming_listeners,Ikorodu,Lagos,10.0,8
+Q4_2022,Spotify,streaming_listeners,Ikoyi,Osun,6.0,6
+Q4_2022,Spotify,streaming_listeners,Ifo,Ogun State,5.0,4
+Q4_2022,Spotify,streaming_listeners,Lekki,Lagos,5.0,5
+Q4_2022,Spotify,streaming_listeners,Bonny,Rivers,5.0,4
+Q4_2022,Spotify,streaming_listeners,Omu-Aran,Kwara,5.0,5
+Q4_2022,Spotify,streaming_listeners,Ungwan Masaka,KD,5.0,5
+Q4_2022,Spotify,streaming_listeners,Asaba,Delta,5.0,4
+Q4_2022,Spotify,streaming_listeners,Nnewi,Anambra,4.0,4
+Q4_2022,Spotify,streaming_listeners,Sagamu,Ogun State,4.0,4
+Q4_2022,Spotify,streaming_listeners,Sokoto,Sokoto,3.0,3
+Q4_2022,Spotify,streaming_listeners,EgbedaKetu,OY,3.0,2
+Q4_2022,Spotify,streaming_listeners,Oworonshoki,Lagos,3.0,3
+Q4_2022,Spotify,streaming_listeners,Agbara,Ogun State,3.0,3
+Q4_2022,Spotify,streaming_listeners,Eket,Akwa Ibom,3.0,1
+Q4_2022,Spotify,streaming_listeners,Lokoja,Kogi,2.0,2
+Q4_2022,Spotify,streaming_listeners,Minna,Niger,2.0,2
+Q4_2022,Spotify,streaming_listeners,Oyo,Oyo,2.0,2
+Q4_2022,Spotify,streaming_listeners,Epe,Lagos,2.0,2
+Q4_2022,Spotify,streaming_listeners,Ikotun,Lagos,2.0,2
+Q4_2022,Spotify,streaming_listeners,Iwo,Osun,2.0,2
+Q4_2022,Spotify,streaming_listeners,Pakuro,Ogun State,2.0,2
+Q4_2022,Spotify,streaming_listeners,Yenagoa,Bayelsa,2.0,2
+Q4_2022,Spotify,streaming_listeners,Ughoru,Delta,2.0,2
+Q4_2022,Spotify,streaming_listeners,Ikenne,Ogun State,2.0,2
+Q4_2022,Spotify,streaming_listeners,Abia,AB,2.0,2
+Q4_2022,Spotify,streaming_listeners,Bakori,Katsina,2.0,1
+Q4_2022,Spotify,streaming_listeners,Pindiga,Gombe,2.0,1
+Q4_2022,Spotify,streaming_listeners,Abraka,Delta,2.0,2
+Q4_2022,Spotify,streaming_listeners,Zaria,Kaduna,1.0,1
+Q4_2022,Spotify,streaming_listeners,Ewekoro,Ogun State,1.0,1
+Q4_2022,Spotify,streaming_listeners,Alakuko,Ogun State,1.0,1
+Q4_2022,Spotify,streaming_listeners,Idiomo,Ogun State,1.0,1
+Q4_2022,Spotify,streaming_listeners,New Karu,Federal Capital Territory,1.0,1
+Q4_2022,Spotify,streaming_listeners,Nkpor,Anambra,1.0,1
+Q4_2022,Spotify,streaming_listeners,Agege,,1.0,1
+Q4_2022,Spotify,streaming_listeners,Ogoja,Cross River,1.0,1
+Q4_2022,Spotify,streaming_listeners,Akinyele,Oyo,1.0,1
+Q4_2022,Spotify,streaming_listeners,Ahoada,Rivers,1.0,1
+Q4_2022,Spotify,streaming_listeners,Agbor,Delta,1.0,1
+Q4_2022,Spotify,streaming_listeners,Calabar,Cross River,1.0,1
+Q4_2022,Spotify,streaming_listeners,Sabon Wuse,Kaduna,1.0,1
+Q4_2022,Spotify,streaming_listeners,Igieduma,Edo,1.0,1
+Q4_2022,Spotify,streaming_listeners,Ado Awaiye,Oyo,1.0,1
+Q4_2022,Spotify,streaming_listeners,Ado Ekiti,Ekiti,1.0,1
+Q4_2022,Spotify,streaming_listeners,Doguwa,Bauchi,1.0,1
+Q4_2022,YouTube,streaming_listeners,Lagos,Lagos,251653.0,35
+Q4_2022,YouTube,streaming_listeners,Port Harcourt,Rivers,94184.0,34
+Q4_2022,YouTube,streaming_listeners,Abuja,Federal Capital Territory,82018.0,34
+Q4_2022,YouTube,streaming_listeners,Ebute-Lekki,Lagos,29793.0,31
+Q4_2022,YouTube,streaming_listeners,Benin City,Edo,4615.0,14
+Q4_2022,YouTube,streaming_listeners,Epe,Lagos,1365.0,14
+Q4_2022,YouTube,streaming_listeners,Ikorodu,Lagos,854.0,11
+Q4_2022,YouTube,streaming_listeners,Apia,NI,74.0,1
+Q4_2022,YouTube,streaming_listeners,Ibadan,Oyo,25.0,4
+Q4_2022,YouTube,streaming_listeners,Agege,,16.0,2
+Q4_2022,YouTube,streaming_listeners,Gwarinpa,Federal Capital Territory,14.0,2
+Q4_2022,YouTube,streaming_listeners,Ijebu Ode,Ogun State,14.0,1
+Q4_2022,YouTube,streaming_listeners,Ahoada,Rivers,12.0,1
+Q4_2022,YouTube,streaming_listeners,Pakuro,Ogun State,11.0,2
+Q4_2022,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,10.0,2
+Q4_2022,YouTube,streaming_listeners,Enugu,Enugu,9.0,1
+Q4_2022,YouTube,streaming_listeners,Okpanam,Delta,7.0,1
+Q4_2022,YouTube,streaming_listeners,Galadima,Zamfara,5.0,1
+Q4_2022,YouTube,streaming_listeners,Abeokuta,Ogun State,5.0,1
+Q1_2023,Instagram,social_followers,Lagos,Lagos,75449201.0,122
+Q1_2023,Instagram,social_followers,Abuja,Federal Capital Territory,13948353.0,120
+Q1_2023,Instagram,social_followers,Port Harcourt,Rivers,3919064.0,111
+Q1_2023,Instagram,social_followers,Uyo,Akwa Ibom,1151574.0,61
+Q1_2023,Instagram,social_followers,Ado Ekiti,Ekiti,807559.0,54
+Q1_2023,Instagram,social_followers,Osogbo,Osun,154327.0,15
+Q1_2023,Instagram,social_followers,Makurdi,Benue,65072.0,3
+Q1_2023,Instagram,social_followers,Yenagoa,Bayelsa,13997.0,4
+Q1_2023,Instagram,social_followers,Zaria,Kaduna,7413.0,1
+Q1_2023,Instagram,social_followers,Maiduguri,Borno,7188.0,1
+Q1_2023,Instagram,social_followers,Bauchi,Bauchi,7038.0,1
+Q1_2023,Instagram,social_followers,Gombe,Gombe,6365.0,1
+Q1_2023,Instagram,social_followers,Katsina,Katsina,5316.0,1
+Q1_2023,Instagram,social_followers,Damaturu,Yobe,4193.0,1
+Q1_2023,Instagram,social_followers,Birnin Kebbi,Kebbi,4043.0,1
+Q1_2023,Instagram,social_followers,Gusau,Zamfara,3145.0,1
+Q1_2023,Instagram,social_followers,Jalingo,Taraba,2770.0,1
+Q1_2023,Instagram,social_followers,Lafia,Nasarawa,2084.0,1
+Q1_2023,Spotify,streaming_listeners,Lagos,Lagos,14231177.0,577
+Q1_2023,Spotify,streaming_listeners,Abuja,Federal Capital Territory,4398511.0,544
+Q1_2023,Spotify,streaming_listeners,Port Harcourt,Rivers,3379217.0,523
+Q1_2023,Spotify,streaming_listeners,Ibadan,Oyo,680470.0,448
+Q1_2023,Spotify,streaming_listeners,Benin City,Edo,644605.0,443
+Q1_2023,Spotify,streaming_listeners,Kaduna,Kaduna,474580.0,434
+Q1_2023,Spotify,streaming_listeners,Enugu,Enugu,139523.0,329
+Q1_2023,Spotify,streaming_listeners,Katsina,Katsina,49627.0,160
+Q1_2023,Spotify,streaming_listeners,Kano,Kano,47120.0,255
+Q1_2023,Spotify,streaming_listeners,Onitsha,Anambra,39691.0,159
+Q1_2023,Spotify,streaming_listeners,Uyo,Akwa Ibom,31294.0,137
+Q1_2023,Spotify,streaming_listeners,Awka,Anambra,18969.0,119
+Q1_2023,Spotify,streaming_listeners,Ilorin,Kwara,18537.0,118
+Q1_2023,Spotify,streaming_listeners,Umuahia,Abia,9243.0,81
+Q1_2023,Spotify,streaming_listeners,Owerri,Imo,5101.0,43
+Q1_2023,Spotify,streaming_listeners,Ikeja,Lagos,4157.0,97
+Q1_2023,Spotify,streaming_listeners,Aba,Abia,3085.0,39
+Q1_2023,Spotify,streaming_listeners,ife,Osun,2412.0,41
+Q1_2023,Spotify,streaming_listeners,Akure,Ondo,2088.0,39
+Q1_2023,Spotify,streaming_listeners,Oju Ota,Ogun State,1902.0,24
+Q1_2023,Spotify,streaming_listeners,Zaria,Kaduna,998.0,45
+Q1_2023,Spotify,streaming_listeners,Osogbo,Osun,469.0,10
+Q1_2023,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,322.0,14
+Q1_2023,Spotify,streaming_listeners,Warri,Delta,275.0,10
+Q1_2023,Spotify,streaming_listeners,Ifo,Ogun State,251.0,5
+Q1_2023,Spotify,streaming_listeners,Asaba,Delta,213.0,11
+Q1_2023,Spotify,streaming_listeners,Abeokuta,Ogun State,194.0,32
+Q1_2023,Spotify,streaming_listeners,Abeere,Osun,122.0,10
+Q1_2023,Spotify,streaming_listeners,Otan Ayegbaju,Osun,64.0,2
+Q1_2023,Spotify,streaming_listeners,Yola,Adamawa,50.0,14
+Q1_2023,Spotify,streaming_listeners,Ebute-Lekki,Lagos,41.0,23
+Q1_2023,Spotify,streaming_listeners,Ikole,Ekiti,37.0,8
+Q1_2023,Spotify,streaming_listeners,Ado Ekiti,Ekiti,25.0,4
+Q1_2023,Spotify,streaming_listeners,Eleko,Lagos,19.0,7
+Q1_2023,Spotify,streaming_listeners,Sokoto,Sokoto,17.0,8
+Q1_2023,Spotify,streaming_listeners,Minna,Niger,16.0,9
+Q1_2023,Spotify,streaming_listeners,Ughoru,Delta,10.0,7
+Q1_2023,Spotify,streaming_listeners,Osun,OG,7.0,2
+Q1_2023,Spotify,streaming_listeners,Lekki,Lagos,5.0,5
+Q1_2023,Spotify,streaming_listeners,Ogudu,Kwara,4.0,4
+Q1_2023,Spotify,streaming_listeners,Ikorodu,Lagos,4.0,4
+Q1_2023,Spotify,streaming_listeners,Ijebu Ode,Ogun State,3.0,3
+Q1_2023,Spotify,streaming_listeners,Oworonshoki,Lagos,3.0,3
+Q1_2023,Spotify,streaming_listeners,Calabar,Cross River,3.0,3
+Q1_2023,Spotify,streaming_listeners,Ikoyi,Osun,3.0,3
+Q1_2023,Spotify,streaming_listeners,Omoku,Rivers,3.0,3
+Q1_2023,Spotify,streaming_listeners,Bonny,Rivers,3.0,3
+Q1_2023,Spotify,streaming_listeners,Agege,,3.0,3
+Q1_2023,Spotify,streaming_listeners,Emo,Ogun State,2.0,2
+Q1_2023,Spotify,streaming_listeners,Ikotun,Lagos,2.0,2
+Q1_2023,Spotify,streaming_listeners,Edo,ED,2.0,1
+Q1_2023,Spotify,streaming_listeners,Bakori,Katsina,2.0,1
+Q1_2023,Spotify,streaming_listeners,Karum,Federal Capital Territory,2.0,2
+Q1_2023,Spotify,streaming_listeners,Nasarawa,Niger,2.0,2
+Q1_2023,Spotify,streaming_listeners,Apete,Ogun State,2.0,2
+Q1_2023,Spotify,streaming_listeners,Omu-Aran,Kwara,2.0,2
+Q1_2023,Spotify,streaming_listeners,Ahoada,Rivers,1.0,1
+Q1_2023,Spotify,streaming_listeners,Obiaruku,Delta,1.0,1
+Q1_2023,Spotify,streaming_listeners,Sagamu,Ogun State,1.0,1
+Q1_2023,Spotify,streaming_listeners,Alakuko,Ogun State,1.0,1
+Q1_2023,Spotify,streaming_listeners,Jos,Plateau,1.0,1
+Q1_2023,Spotify,streaming_listeners,Agbara,Ogun State,1.0,1
+Q1_2023,Spotify,streaming_listeners,Nkpor,Anambra,1.0,1
+Q1_2023,Spotify,streaming_listeners,Sangotedo,Lagos,1.0,1
+Q1_2023,Spotify,streaming_listeners,Nsukka,Enugu,1.0,1
+Q1_2023,Spotify,streaming_listeners,Kuje,Federal Capital Territory,1.0,1
+Q1_2023,Spotify,streaming_listeners,Ogba,Edo,1.0,1
+Q1_2023,Spotify,streaming_listeners,Oyo,Oyo,1.0,1
+Q1_2023,Spotify,streaming_listeners,Idah,Kogi,1.0,1
+Q1_2023,Spotify,streaming_listeners,Ifako,LA,1.0,1
+Q1_2023,Spotify,streaming_listeners,Gwagwalada,Federal Capital Territory,1.0,1
+Q1_2023,Spotify,streaming_listeners,Effurun,Delta,1.0,1
+Q1_2023,Spotify,streaming_listeners,Igieduma,Edo,1.0,1
+Q1_2023,Spotify,streaming_listeners,Obubra,Cross River,1.0,1
+Q1_2023,Spotify,streaming_listeners,Ikenne,Ogun State,1.0,1
+Q1_2023,YouTube,streaming_listeners,Lagos,Lagos,472310.0,38
+Q1_2023,YouTube,streaming_listeners,Port Harcourt,Rivers,140419.0,36
+Q1_2023,YouTube,streaming_listeners,Abuja,Federal Capital Territory,121504.0,36
+Q1_2023,YouTube,streaming_listeners,Ebute-Lekki,Lagos,20270.0,35
+Q1_2023,YouTube,streaming_listeners,Benin City,Edo,1812.0,15
+Q1_2023,YouTube,streaming_listeners,Abeokuta,Ogun State,230.0,4
+Q1_2023,YouTube,streaming_listeners,Ibadan,Oyo,115.0,4
+Q1_2023,YouTube,streaming_listeners,Apia,NI,95.0,3
+Q1_2023,YouTube,streaming_listeners,Uyo,Akwa Ibom,62.0,3
+Q1_2023,YouTube,streaming_listeners,Pakuro,Ogun State,13.0,2
+Q1_2023,YouTube,streaming_listeners,Agege,,12.0,2
+Q1_2023,YouTube,streaming_listeners,Gwarinpa,Federal Capital Territory,12.0,2
+Q1_2023,YouTube,streaming_listeners,Enugu,Enugu,7.0,1
+Q1_2023,YouTube,streaming_listeners,Onitsha,Anambra,7.0,1
+Q1_2023,YouTube,streaming_listeners,Auaba,,6.0,1
+Q1_2023,YouTube,streaming_listeners,jimeta,adamawa,5.0,1
+Q1_2023,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,5.0,1
+Q1_2023,YouTube,streaming_listeners,Odo-Mola,Lagos,5.0,1
+Q2_2023,Instagram,social_followers,Lagos,Lagos,80858898.0,133
+Q2_2023,Instagram,social_followers,Abuja,Federal Capital Territory,14551537.0,131
+Q2_2023,Instagram,social_followers,Port Harcourt,Rivers,4330103.0,121
+Q2_2023,Instagram,social_followers,Uyo,Akwa Ibom,1268961.0,66
+Q2_2023,Instagram,social_followers,Ado Ekiti,Ekiti,714290.0,54
+Q2_2023,Instagram,social_followers,Osogbo,Osun,218549.0,16
+Q2_2023,Instagram,social_followers,Makurdi,Benue,38314.0,6
+Q2_2023,Instagram,social_followers,Yenagoa,Bayelsa,18400.0,4
+Q2_2023,Instagram,social_followers,Maiduguri,Borno,8981.0,1
+Q2_2023,Instagram,social_followers,Bauchi,Bauchi,8068.0,1
+Q2_2023,Instagram,social_followers,Zaria,Kaduna,7459.0,1
+Q2_2023,Instagram,social_followers,Gombe,Gombe,7307.0,1
+Q2_2023,Instagram,social_followers,Katsina,Katsina,7231.0,1
+Q2_2023,Instagram,social_followers,Gusau,Zamfara,3425.0,1
+Q2_2023,Instagram,social_followers,Birnin Kebbi,Kebbi,3349.0,1
+Q2_2023,Instagram,social_followers,Damaturu,Yobe,2283.0,1
+Q2_2023,Instagram,social_followers,Jalingo,Taraba,2207.0,1
+Q2_2023,Instagram,social_followers,Lafia,Nasarawa,1802.0,1
+Q2_2023,Instagram,social_followers,Dutse,Jigawa,1753.0,1
+Q2_2023,Spotify,streaming_listeners,Lagos,Lagos,19000859.0,589
+Q2_2023,Spotify,streaming_listeners,Abuja,Federal Capital Territory,6402409.0,564
+Q2_2023,Spotify,streaming_listeners,Port Harcourt,Rivers,5077926.0,552
+Q2_2023,Spotify,streaming_listeners,Ibadan,Oyo,921073.0,481
+Q2_2023,Spotify,streaming_listeners,Benin City,Edo,712017.0,466
+Q2_2023,Spotify,streaming_listeners,Onitsha,Anambra,276795.0,351
+Q2_2023,Spotify,streaming_listeners,Kaduna,Kaduna,267386.0,366
+Q2_2023,Spotify,streaming_listeners,Enugu,Enugu,135245.0,323
+Q2_2023,Spotify,streaming_listeners,Owerri,Imo,131557.0,274
+Q2_2023,Spotify,streaming_listeners,Katsina,Katsina,106707.0,289
+Q2_2023,Spotify,streaming_listeners,Awka,Anambra,71988.0,188
+Q2_2023,Spotify,streaming_listeners,Funtua,Katsina,61164.0,184
+Q2_2023,Spotify,streaming_listeners,Umuahia,Abia,46505.0,166
+Q2_2023,Spotify,streaming_listeners,Uyo,Akwa Ibom,27261.0,115
+Q2_2023,Spotify,streaming_listeners,Osogbo,Osun,17835.0,109
+Q2_2023,Spotify,streaming_listeners,Kano,Kano,8234.0,140
+Q2_2023,Spotify,streaming_listeners,Ikeja,Lagos,7948.0,117
+Q2_2023,Spotify,streaming_listeners,ife,Osun,6179.0,35
+Q2_2023,Spotify,streaming_listeners,Aba,Abia,5229.0,50
+Q2_2023,Spotify,streaming_listeners,Ilorin,Kwara,4647.0,58
+Q2_2023,Spotify,streaming_listeners,Warri,Delta,4541.0,12
+Q2_2023,Spotify,streaming_listeners,Nnewi,Anambra,1493.0,14
+Q2_2023,Spotify,streaming_listeners,Ado Ekiti,Ekiti,1073.0,23
+Q2_2023,Spotify,streaming_listeners,Jos,Plateau,908.0,2
+Q2_2023,Spotify,streaming_listeners,Zaria,Kaduna,907.0,5
+Q2_2023,Spotify,streaming_listeners,Maiduguri,Borno,893.0,2
+Q2_2023,Spotify,streaming_listeners,Ikorodu,Lagos,884.0,4
+Q2_2023,Spotify,streaming_listeners,Ikole,Ekiti,880.0,21
+Q2_2023,Spotify,streaming_listeners,Asaba,Delta,645.0,14
+Q2_2023,Spotify,streaming_listeners,Ifo,Ogun State,325.0,5
+Q2_2023,Spotify,streaming_listeners,Abeokuta,Ogun State,303.0,33
+Q2_2023,Spotify,streaming_listeners,Oju Ota,Ogun State,153.0,6
+Q2_2023,Spotify,streaming_listeners,Abeere,Osun,58.0,9
+Q2_2023,Spotify,streaming_listeners,Yola,Adamawa,37.0,9
+Q2_2023,Spotify,streaming_listeners,Ebute-Lekki,Lagos,24.0,17
+Q2_2023,Spotify,streaming_listeners,Minna,Niger,19.0,7
+Q2_2023,Spotify,streaming_listeners,Sokoto,Sokoto,10.0,4
+Q2_2023,Spotify,streaming_listeners,Gwagwalada,Federal Capital Territory,8.0,5
+Q2_2023,Spotify,streaming_listeners,Calabar,Cross River,7.0,7
+Q2_2023,Spotify,streaming_listeners,Nsukka,Enugu,6.0,3
+Q2_2023,Spotify,streaming_listeners,Ikoyi,Osun,6.0,3
+Q2_2023,Spotify,streaming_listeners,Iwo,Osun,5.0,3
+Q2_2023,Spotify,streaming_listeners,Ughoru,Delta,4.0,4
+Q2_2023,Spotify,streaming_listeners,Lekki,Lagos,4.0,3
+Q2_2023,Spotify,streaming_listeners,Ikenne,Ogun State,3.0,2
+Q2_2023,Spotify,streaming_listeners,Pakuro,Ogun State,3.0,2
+Q2_2023,Spotify,streaming_listeners,Sagamu,Ogun State,2.0,2
+Q2_2023,Spotify,streaming_listeners,Agege,,2.0,2
+Q2_2023,Spotify,streaming_listeners,Ogudu,Kwara,2.0,2
+Q2_2023,Spotify,streaming_listeners,Irepodun,Oyo,2.0,1
+Q2_2023,Spotify,streaming_listeners,Ilishan-Remo,Ogun State,2.0,1
+Q2_2023,Spotify,streaming_listeners,Akure,Ondo,1.0,1
+Q2_2023,Spotify,streaming_listeners,Ukap Itak,Akwa Ibom,1.0,1
+Q2_2023,Spotify,streaming_listeners,Itoki,Kebbi,1.0,1
+Q2_2023,Spotify,streaming_listeners,Keffi,Nasarawa,1.0,1
+Q2_2023,Spotify,streaming_listeners,Kumbotso,Kano,1.0,1
+Q2_2023,Spotify,streaming_listeners,Eleko,Lagos,1.0,1
+Q2_2023,Spotify,streaming_listeners,Kuje,Federal Capital Territory,1.0,1
+Q2_2023,Spotify,streaming_listeners,Edo,ED,1.0,1
+Q2_2023,Spotify,streaming_listeners,Sangotedo,Lagos,1.0,1
+Q2_2023,Spotify,streaming_listeners,Bwari,Federal Capital Territory,1.0,1
+Q2_2023,Spotify,streaming_listeners,Igando,Lagos,1.0,1
+Q2_2023,Spotify,streaming_listeners,Sapele,Delta,1.0,1
+Q2_2023,Spotify,streaming_listeners,Uli,Anambra,1.0,1
+Q2_2023,Spotify,streaming_listeners,Idah,Kogi,1.0,1
+Q2_2023,Spotify,streaming_listeners,Ifako,LA,1.0,1
+Q2_2023,Spotify,streaming_listeners,Oworonshoki,Lagos,1.0,1
+Q2_2023,Spotify,streaming_listeners,Ise,Ekiti,1.0,1
+Q2_2023,Spotify,streaming_listeners,Igieduma,Edo,1.0,1
+Q2_2023,Spotify,streaming_listeners,Yenagoa,Bayelsa,1.0,1
+Q2_2023,YouTube,streaming_listeners,Lagos,Lagos,611546.0,37
+Q2_2023,YouTube,streaming_listeners,Port Harcourt,Rivers,165995.0,36
+Q2_2023,YouTube,streaming_listeners,Abuja,Federal Capital Territory,155649.0,37
+Q2_2023,YouTube,streaming_listeners,Ebute-Lekki,Lagos,30592.0,34
+Q2_2023,YouTube,streaming_listeners,Osogbo,Osun,25736.0,26
+Q2_2023,YouTube,streaming_listeners,Benin City,Edo,3315.0,16
+Q2_2023,YouTube,streaming_listeners,Abeokuta,Ogun State,876.0,8
+Q2_2023,YouTube,streaming_listeners,Ibadan,Oyo,514.0,6
+Q2_2023,YouTube,streaming_listeners,Pakuro,Ogun State,278.0,3
+Q2_2023,YouTube,streaming_listeners,Apia,NI,46.0,1
+Q2_2023,YouTube,streaming_listeners,Agege,,39.0,3
+Q2_2023,YouTube,streaming_listeners,Gwarinpa,Federal Capital Territory,12.0,2
+Q2_2023,YouTube,streaming_listeners,Elelenwa,Rivers,6.0,1
+Q2_2023,YouTube,streaming_listeners,Warri,Delta,6.0,1
+Q3_2023,Instagram,social_followers,Lagos,Lagos,84761433.0,143
+Q3_2023,Instagram,social_followers,Abuja,Federal Capital Territory,16302380.0,140
+Q3_2023,Instagram,social_followers,Port Harcourt,Rivers,4592471.0,130
+Q3_2023,Instagram,social_followers,Uyo,Akwa Ibom,1097264.0,64
+Q3_2023,Instagram,social_followers,Ado Ekiti,Ekiti,773706.0,58
+Q3_2023,Instagram,social_followers,Osogbo,Osun,148914.0,15
+Q3_2023,Instagram,social_followers,Yenagoa,Bayelsa,32669.0,10
+Q3_2023,Instagram,social_followers,Makurdi,Benue,23400.0,5
+Q3_2023,Instagram,social_followers,Bauchi,Bauchi,8009.0,1
+Q3_2023,Instagram,social_followers,Gombe,Gombe,7857.0,1
+Q3_2023,Instagram,social_followers,Zaria,Kaduna,7479.0,1
+Q3_2023,Instagram,social_followers,Maiduguri,Borno,6724.0,1
+Q3_2023,Instagram,social_followers,Katsina,Katsina,5817.0,1
+Q3_2023,Instagram,social_followers,Birnin Kebbi,Kebbi,4004.0,1
+Q3_2023,Instagram,social_followers,Damaturu,Yobe,2946.0,1
+Q3_2023,Instagram,social_followers,Gusau,Zamfara,2946.0,1
+Q3_2023,Instagram,social_followers,Lafia,Nasarawa,2417.0,1
+Q3_2023,Instagram,social_followers,Jalingo,Taraba,1813.0,1
+Q3_2023,Spotify,streaming_listeners,Lagos,Lagos,19538128.0,589
+Q3_2023,Spotify,streaming_listeners,Port Harcourt,Rivers,6408341.0,561
+Q3_2023,Spotify,streaming_listeners,Abuja,Federal Capital Territory,5364809.0,569
+Q3_2023,Spotify,streaming_listeners,Katsina,Katsina,4915668.0,529
+Q3_2023,Spotify,streaming_listeners,Ibadan,Oyo,3202673.0,521
+Q3_2023,Spotify,streaming_listeners,Asaba,Delta,1099001.0,439
+Q3_2023,Spotify,streaming_listeners,Kaduna,Kaduna,715984.0,463
+Q3_2023,Spotify,streaming_listeners,Onitsha,Anambra,709154.0,440
+Q3_2023,Spotify,streaming_listeners,Umueze Anam,Anambra,635427.0,374
+Q3_2023,Spotify,streaming_listeners,Enugu,Enugu,505095.0,418
+Q3_2023,Spotify,streaming_listeners,Benin City,Edo,448945.0,450
+Q3_2023,Spotify,streaming_listeners,Owerri,Imo,341984.0,355
+Q3_2023,Spotify,streaming_listeners,Uyo,Akwa Ibom,196765.0,264
+Q3_2023,Spotify,streaming_listeners,Osogbo,Osun,170140.0,291
+Q3_2023,Spotify,streaming_listeners,Awka,Anambra,167678.0,277
+Q3_2023,Spotify,streaming_listeners,Nnewi,Anambra,82671.0,205
+Q3_2023,Spotify,streaming_listeners,Ilorin,Kwara,80520.0,189
+Q3_2023,Spotify,streaming_listeners,Aba,Abia,71919.0,175
+Q3_2023,Spotify,streaming_listeners,Kano,Kano,68239.0,233
+Q3_2023,Spotify,streaming_listeners,Ikeja,Lagos,43657.0,218
+Q3_2023,Spotify,streaming_listeners,Bonny,Rivers,39519.0,97
+Q3_2023,Spotify,streaming_listeners,Iwo,Osun,18389.0,79
+Q3_2023,Spotify,streaming_listeners,Umuahia,Abia,14730.0,93
+Q3_2023,Spotify,streaming_listeners,Zaria,Kaduna,9197.0,34
+Q3_2023,Spotify,streaming_listeners,Jos,Plateau,8947.0,4
+Q3_2023,Spotify,streaming_listeners,Ikorodu,Lagos,8871.0,16
+Q3_2023,Spotify,streaming_listeners,Maiduguri,Borno,8793.0,4
+Q3_2023,Spotify,streaming_listeners,ife,Osun,5777.0,86
+Q3_2023,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,4830.0,31
+Q3_2023,Spotify,streaming_listeners,Oju Ota,Ogun State,1597.0,14
+Q3_2023,Spotify,streaming_listeners,Warri,Delta,319.0,22
+Q3_2023,Spotify,streaming_listeners,Abeokuta,Ogun State,134.0,24
+Q3_2023,Spotify,streaming_listeners,Yola,Adamawa,112.0,17
+Q3_2023,Spotify,streaming_listeners,Ebute-Lekki,Lagos,73.0,26
+Q3_2023,Spotify,streaming_listeners,Ado Ekiti,Ekiti,39.0,14
+Q3_2023,Spotify,streaming_listeners,Sokoto,Sokoto,12.0,5
+Q3_2023,Spotify,streaming_listeners,Ikenne,Ogun State,8.0,2
+Q3_2023,Spotify,streaming_listeners,Agege,,6.0,5
+Q3_2023,Spotify,streaming_listeners,Akure,Ondo,6.0,6
+Q3_2023,Spotify,streaming_listeners,Funtua,Katsina,6.0,4
+Q3_2023,Spotify,streaming_listeners,Eleko,Lagos,6.0,4
+Q3_2023,Spotify,streaming_listeners,Sagamu,Ogun State,6.0,3
+Q3_2023,Spotify,streaming_listeners,Effurun,Delta,6.0,5
+Q3_2023,Spotify,streaming_listeners,Ughoru,Delta,6.0,4
+Q3_2023,Spotify,streaming_listeners,Lokoja,Kogi,4.0,4
+Q3_2023,Spotify,streaming_listeners,Abraka,Delta,3.0,2
+Q3_2023,Spotify,streaming_listeners,Ise,Ekiti,3.0,3
+Q3_2023,Spotify,streaming_listeners,Minna,Niger,3.0,1
+Q3_2023,Spotify,streaming_listeners,Igando,Lagos,2.0,2
+Q3_2023,Spotify,streaming_listeners,Ado Awaiye,Oyo,2.0,1
+Q3_2023,Spotify,streaming_listeners,Ogun State,OG,2.0,2
+Q3_2023,Spotify,streaming_listeners,Calabar,Cross River,2.0,2
+Q3_2023,Spotify,streaming_listeners,Pakuro,Ogun State,2.0,2
+Q3_2023,Spotify,streaming_listeners,Lekki,Lagos,2.0,2
+Q3_2023,Spotify,streaming_listeners,Yenagoa,Bayelsa,2.0,2
+Q3_2023,Spotify,streaming_listeners,Oworonshoki,Lagos,2.0,2
+Q3_2023,Spotify,streaming_listeners,Tsaunin Kura,Kaduna,1.0,1
+Q3_2023,Spotify,streaming_listeners,Kokani North,Kebbi State,1.0,1
+Q3_2023,Spotify,streaming_listeners,Baruwa,Oyo,1.0,1
+Q3_2023,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q3_2023,Spotify,streaming_listeners,Kumbotso,Kano,1.0,1
+Q3_2023,Spotify,streaming_listeners,Edo,ED,1.0,1
+Q3_2023,Spotify,streaming_listeners,Gwagwalada,Federal Capital Territory,1.0,1
+Q3_2023,Spotify,streaming_listeners,Iseri-Oke,OG,1.0,1
+Q3_2023,Spotify,streaming_listeners,Oke-Aro,OG,1.0,1
+Q3_2023,Spotify,streaming_listeners,Idiomo,Ogun State,1.0,1
+Q3_2023,Spotify,streaming_listeners,Ikoyi,Osun,1.0,1
+Q3_2023,Spotify,streaming_listeners,Ikole,Ekiti,1.0,1
+Q3_2023,Spotify,streaming_listeners,Ifo,Ogun State,1.0,1
+Q3_2023,Spotify,streaming_listeners,Otokutu,Delta,1.0,1
+Q3_2023,Spotify,streaming_listeners,Kuje,Federal Capital Territory,1.0,1
+Q3_2023,Spotify,streaming_listeners,Ozoro,Delta,1.0,1
+Q3_2023,YouTube,streaming_listeners,Lagos,Lagos,467280.0,39
+Q3_2023,YouTube,streaming_listeners,Port Harcourt,Rivers,141390.0,39
+Q3_2023,YouTube,streaming_listeners,Abuja,Federal Capital Territory,126678.0,39
+Q3_2023,YouTube,streaming_listeners,Ibadan,Oyo,28243.0,37
+Q3_2023,YouTube,streaming_listeners,Ebute-Lekki,Lagos,24789.0,35
+Q3_2023,YouTube,streaming_listeners,Osogbo,Osun,14409.0,30
+Q3_2023,YouTube,streaming_listeners,Benin City,Edo,2957.0,17
+Q3_2023,YouTube,streaming_listeners,Abeokuta,Ogun State,1492.0,5
+Q3_2023,YouTube,streaming_listeners,Apia,NI,113.0,2
+Q3_2023,YouTube,streaming_listeners,Pakuro,Ogun State,82.0,2
+Q3_2023,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,34.0,3
+Q3_2023,YouTube,streaming_listeners,Agege,,16.0,2
+Q3_2023,YouTube,streaming_listeners,Galadima,Zamfara,11.0,1
+Q3_2023,YouTube,streaming_listeners,Enugu,Enugu,10.0,2
+Q3_2023,YouTube,streaming_listeners,Uyo,Akwa Ibom,7.0,1
+Q3_2023,YouTube,streaming_listeners,Zaria,Kaduna,5.0,1
+Q3_2023,YouTube,streaming_listeners,Yenagoa,Bayelsa,5.0,1
+Q4_2023,Instagram,social_followers,Lagos,Lagos,90433845.0,149
+Q4_2023,Instagram,social_followers,Abuja,Federal Capital Territory,17061563.0,147
+Q4_2023,Instagram,social_followers,Port Harcourt,Rivers,4797913.0,135
+Q4_2023,Instagram,social_followers,Uyo,Akwa Ibom,1500490.0,72
+Q4_2023,Instagram,social_followers,Ado Ekiti,Ekiti,1233174.0,63
+Q4_2023,Instagram,social_followers,Osogbo,Osun,157695.0,13
+Q4_2023,Instagram,social_followers,Makurdi,Benue,45204.0,5
+Q4_2023,Instagram,social_followers,Yenagoa,Bayelsa,24173.0,7
+Q4_2023,Instagram,social_followers,Bauchi,Bauchi,17687.0,3
+Q4_2023,Instagram,social_followers,Maiduguri,Borno,13273.0,2
+Q4_2023,Instagram,social_followers,Zaria,Kaduna,12193.0,2
+Q4_2023,Instagram,social_followers,Gombe,Gombe,10950.0,2
+Q4_2023,Instagram,social_followers,Katsina,Katsina,9372.0,2
+Q4_2023,Instagram,social_followers,Birnin Kebbi,Kebbi,7253.0,2
+Q4_2023,Instagram,social_followers,Gusau,Zamfara,6815.0,2
+Q4_2023,Instagram,social_followers,Damaturu,Yobe,5853.0,2
+Q4_2023,Instagram,social_followers,Jalingo,Taraba,3669.0,2
+Q4_2023,Instagram,social_followers,Lafia,Nasarawa,3261.0,2
+Q4_2023,Instagram,social_followers,Daura,Katsina,1599.0,1
+Q4_2023,Spotify,streaming_listeners,Lagos,Lagos,26672693.0,597
+Q4_2023,Spotify,streaming_listeners,Katsina,Katsina,13267961.0,573
+Q4_2023,Spotify,streaming_listeners,Port Harcourt,Rivers,10638920.0,565
+Q4_2023,Spotify,streaming_listeners,Ibadan,Oyo,6420944.0,556
+Q4_2023,Spotify,streaming_listeners,Abuja,Federal Capital Territory,1337912.0,549
+Q4_2023,Spotify,streaming_listeners,Onitsha,Anambra,1225002.0,474
+Q4_2023,Spotify,streaming_listeners,Umueze Anam,Anambra,1141316.0,493
+Q4_2023,Spotify,streaming_listeners,Enugu,Enugu,927817.0,457
+Q4_2023,Spotify,streaming_listeners,Kaduna,Kaduna,637236.0,477
+Q4_2023,Spotify,streaming_listeners,Asaba,Delta,540595.0,409
+Q4_2023,Spotify,streaming_listeners,Benin City,Edo,446311.0,408
+Q4_2023,Spotify,streaming_listeners,Ilorin,Kwara,339830.0,414
+Q4_2023,Spotify,streaming_listeners,Owerri,Imo,323623.0,354
+Q4_2023,Spotify,streaming_listeners,Uyo,Akwa Ibom,314939.0,375
+Q4_2023,Spotify,streaming_listeners,Nnewi,Anambra,128663.0,225
+Q4_2023,Spotify,streaming_listeners,Kano,Kano,128032.0,285
+Q4_2023,Spotify,streaming_listeners,Aba,Abia,122741.0,180
+Q4_2023,Spotify,streaming_listeners,Awka,Anambra,60136.0,159
+Q4_2023,Spotify,streaming_listeners,Oron,Akwa Ibom,53376.0,83
+Q4_2023,Spotify,streaming_listeners,Bonny,Rivers,30613.0,91
+Q4_2023,Spotify,streaming_listeners,Iwo,Osun,12789.0,57
+Q4_2023,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,7694.0,29
+Q4_2023,Spotify,streaming_listeners,Ikeja,Lagos,7097.0,95
+Q4_2023,Spotify,streaming_listeners,Umuahia,Abia,6931.0,25
+Q4_2023,Spotify,streaming_listeners,ife,Osun,6599.0,67
+Q4_2023,Spotify,streaming_listeners,Zaria,Kaduna,3511.0,30
+Q4_2023,Spotify,streaming_listeners,Jos,Plateau,3404.0,4
+Q4_2023,Spotify,streaming_listeners,Ikorodu,Lagos,3316.0,8
+Q4_2023,Spotify,streaming_listeners,Maiduguri,Borno,3292.0,6
+Q4_2023,Spotify,streaming_listeners,Oyo,Oyo,1871.0,20
+Q4_2023,Spotify,streaming_listeners,Ogbomoso,Oyo,1432.0,17
+Q4_2023,Spotify,streaming_listeners,Abeokuta,Ogun State,1379.0,46
+Q4_2023,Spotify,streaming_listeners,Warri,Delta,333.0,15
+Q4_2023,Spotify,streaming_listeners,Ikole,Ekiti,144.0,6
+Q4_2023,Spotify,streaming_listeners,Yola,Adamawa,130.0,20
+Q4_2023,Spotify,streaming_listeners,Ado Ekiti,Ekiti,122.0,15
+Q4_2023,Spotify,streaming_listeners,Ede,Osun,74.0,3
+Q4_2023,Spotify,streaming_listeners,Osogbo,Osun,59.0,9
+Q4_2023,Spotify,streaming_listeners,Ebute-Lekki,Lagos,55.0,12
+Q4_2023,Spotify,streaming_listeners,Oju Ota,Ogun State,19.0,10
+Q4_2023,Spotify,streaming_listeners,Sokoto,Sokoto,11.0,3
+Q4_2023,Spotify,streaming_listeners,Agege,,7.0,7
+Q4_2023,Spotify,streaming_listeners,Sagamu,Ogun State,5.0,4
+Q4_2023,Spotify,streaming_listeners,Akure,Ondo,4.0,4
+Q4_2023,Spotify,streaming_listeners,Pakuro,Ogun State,4.0,4
+Q4_2023,Spotify,streaming_listeners,Yenagoa,Bayelsa,4.0,4
+Q4_2023,Spotify,streaming_listeners,Dutse,Jigawa,3.0,3
+Q4_2023,Spotify,streaming_listeners,Minna,Niger,3.0,2
+Q4_2023,Spotify,streaming_listeners,Agbara,Ogun State,3.0,2
+Q4_2023,Spotify,streaming_listeners,jimeta,adamawa,2.0,2
+Q4_2023,Spotify,streaming_listeners,Ado Awaiye,Oyo,2.0,1
+Q4_2023,Spotify,streaming_listeners,Bakori,Katsina,2.0,2
+Q4_2023,Spotify,streaming_listeners,Bwari,Federal Capital Territory,2.0,2
+Q4_2023,Spotify,streaming_listeners,Eleko,Lagos,2.0,2
+Q4_2023,Spotify,streaming_listeners,Kau,Federal Capital Territory,2.0,2
+Q4_2023,Spotify,streaming_listeners,Igando,Lagos,1.0,1
+Q4_2023,Spotify,streaming_listeners,Ogun State,OG,1.0,1
+Q4_2023,Spotify,streaming_listeners,Ipaja,Ogun State,1.0,1
+Q4_2023,Spotify,streaming_listeners,Kokani North,Kebbi State,1.0,1
+Q4_2023,Spotify,streaming_listeners,Baruwa,Oyo,1.0,1
+Q4_2023,Spotify,streaming_listeners,Omu-Aran,Kwara,1.0,1
+Q4_2023,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q4_2023,Spotify,streaming_listeners,EgbedaKetu,OY,1.0,1
+Q4_2023,Spotify,streaming_listeners,Suleja,Niger,1.0,1
+Q4_2023,Spotify,streaming_listeners,Oke-Aro,OG,1.0,1
+Q4_2023,Spotify,streaming_listeners,Satellite Town,Lagos,1.0,1
+Q4_2023,Spotify,streaming_listeners,Ijebu Ode,Ogun State,1.0,1
+Q4_2023,Spotify,streaming_listeners,Ilishan-Remo,Ogun State,1.0,1
+Q4_2023,Spotify,streaming_listeners,Idiomo,Ogun State,1.0,1
+Q4_2023,Spotify,streaming_listeners,Igieduma,Edo,1.0,1
+Q4_2023,Spotify,streaming_listeners,Oworonshoki,Lagos,1.0,1
+Q4_2023,YouTube,streaming_listeners,Lagos,Lagos,465548.0,40
+Q4_2023,YouTube,streaming_listeners,Port Harcourt,Rivers,158382.0,39
+Q4_2023,YouTube,streaming_listeners,Abuja,Federal Capital Territory,117845.0,40
+Q4_2023,YouTube,streaming_listeners,Ibadan,Oyo,39632.0,38
+Q4_2023,YouTube,streaming_listeners,Ebute-Lekki,Lagos,32133.0,34
+Q4_2023,YouTube,streaming_listeners,Onitsha,Anambra,11037.0,28
+Q4_2023,YouTube,streaming_listeners,Benin City,Edo,775.0,8
+Q4_2023,YouTube,streaming_listeners,Abeokuta,Ogun State,147.0,1
+Q4_2023,YouTube,streaming_listeners,Apia,NI,65.0,2
+Q4_2023,YouTube,streaming_listeners,Uyo,Akwa Ibom,49.0,4
+Q4_2023,YouTube,streaming_listeners,Agege,,26.0,4
+Q4_2023,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,24.0,4
+Q4_2023,YouTube,streaming_listeners,Pakuro,Ogun State,16.0,3
+Q4_2023,YouTube,streaming_listeners,Kajola,Osun,15.0,1
+Q4_2023,YouTube,streaming_listeners,Owerri,Imo,14.0,1
+Q4_2023,YouTube,streaming_listeners,Jos,Plateau,7.0,1
+Q4_2023,YouTube,streaming_listeners,Ikorodu,Lagos,6.0,1
+Q4_2023,YouTube,streaming_listeners,Kano,Kano,5.0,1
+Q1_2024,Instagram,social_followers,Lagos,Lagos,100417657.0,155
+Q1_2024,Instagram,social_followers,Abuja,Federal Capital Territory,17757157.0,151
+Q1_2024,Instagram,social_followers,Port Harcourt,Rivers,5790680.0,140
+Q1_2024,Instagram,social_followers,Uyo,Akwa Ibom,1406641.0,68
+Q1_2024,Instagram,social_followers,Ado Ekiti,Ekiti,840667.0,61
+Q1_2024,Instagram,social_followers,Osogbo,Osun,229268.0,17
+Q1_2024,Instagram,social_followers,Yenagoa,Bayelsa,44564.0,8
+Q1_2024,Instagram,social_followers,Makurdi,Benue,34811.0,6
+Q1_2024,Instagram,social_followers,Bauchi,Bauchi,18085.0,3
+Q1_2024,Instagram,social_followers,Maiduguri,Borno,15269.0,2
+Q1_2024,Instagram,social_followers,Gombe,Gombe,13206.0,2
+Q1_2024,Instagram,social_followers,Zaria,Kaduna,12236.0,2
+Q1_2024,Instagram,social_followers,Katsina,Katsina,11575.0,2
+Q1_2024,Instagram,social_followers,Gusau,Zamfara,8281.0,2
+Q1_2024,Instagram,social_followers,Damaturu,Yobe,7041.0,2
+Q1_2024,Instagram,social_followers,Birnin Kebbi,Kebbi,6742.0,2
+Q1_2024,Instagram,social_followers,Jalingo,Taraba,3491.0,2
+Q1_2024,Instagram,social_followers,Lafia,Nasarawa,2196.0,1
+Q1_2024,Spotify,streaming_listeners,Lagos,Lagos,29477730.0,613
+Q1_2024,Spotify,streaming_listeners,Katsina,Katsina,14391718.0,596
+Q1_2024,Spotify,streaming_listeners,Port Harcourt,Rivers,12113656.0,585
+Q1_2024,Spotify,streaming_listeners,Enugu,Enugu,1859412.0,499
+Q1_2024,Spotify,streaming_listeners,Ibadan,Oyo,1576290.0,546
+Q1_2024,Spotify,streaming_listeners,Onitsha,Anambra,994364.0,497
+Q1_2024,Spotify,streaming_listeners,Abuja,Federal Capital Territory,725281.0,479
+Q1_2024,Spotify,streaming_listeners,Ilorin,Kwara,399272.0,397
+Q1_2024,Spotify,streaming_listeners,Umueze Anam,Anambra,279629.0,290
+Q1_2024,Spotify,streaming_listeners,Oyo,Oyo,273833.0,299
+Q1_2024,Spotify,streaming_listeners,Bonny,Rivers,263766.0,275
+Q1_2024,Spotify,streaming_listeners,Benin City,Edo,201759.0,322
+Q1_2024,Spotify,streaming_listeners,Owerri,Imo,147365.0,224
+Q1_2024,Spotify,streaming_listeners,Asaba,Delta,145268.0,229
+Q1_2024,Spotify,streaming_listeners,Kano,Kano,136734.0,311
+Q1_2024,Spotify,streaming_listeners,Aba,Abia,130693.0,179
+Q1_2024,Spotify,streaming_listeners,Umuahia,Abia,20543.0,43
+Q1_2024,Spotify,streaming_listeners,Iwo,Osun,9707.0,55
+Q1_2024,Spotify,streaming_listeners,Ikeja,Lagos,9683.0,76
+Q1_2024,Spotify,streaming_listeners,Anambra,Anambra,7324.0,40
+Q1_2024,Spotify,streaming_listeners,Awka,Anambra,7187.0,44
+Q1_2024,Spotify,streaming_listeners,Osogbo,Osun,5225.0,49
+Q1_2024,Spotify,streaming_listeners,Abeokuta,Ogun State,1067.0,32
+Q1_2024,Spotify,streaming_listeners,Ikole,Ekiti,598.0,21
+Q1_2024,Spotify,streaming_listeners,Akwanga,Nasarawa,557.0,22
+Q1_2024,Spotify,streaming_listeners,Warri,Delta,389.0,18
+Q1_2024,Spotify,streaming_listeners,Yola,Adamawa,219.0,28
+Q1_2024,Spotify,streaming_listeners,Zaria,Kaduna,205.0,26
+Q1_2024,Spotify,streaming_listeners,Kaduna,Kaduna,170.0,28
+Q1_2024,Spotify,streaming_listeners,Ado Ekiti,Ekiti,145.0,4
+Q1_2024,Spotify,streaming_listeners,Uyo,Akwa Ibom,38.0,7
+Q1_2024,Spotify,streaming_listeners,Magboro,Ogun State,31.0,2
+Q1_2024,Spotify,streaming_listeners,Pakuro,Ogun State,30.0,5
+Q1_2024,Spotify,streaming_listeners,Funtua,Katsina,21.0,2
+Q1_2024,Spotify,streaming_listeners,Oju Ota,Ogun State,18.0,9
+Q1_2024,Spotify,streaming_listeners,ife,Osun,14.0,6
+Q1_2024,Spotify,streaming_listeners,Omu-Aran,Kwara,13.0,6
+Q1_2024,Spotify,streaming_listeners,Ebute-Lekki,Lagos,12.0,6
+Q1_2024,Spotify,streaming_listeners,Jos,Plateau,9.0,6
+Q1_2024,Spotify,streaming_listeners,Sokoto,Sokoto,9.0,2
+Q1_2024,Spotify,streaming_listeners,Ikoyi,Osun,6.0,3
+Q1_2024,Spotify,streaming_listeners,Agege,,6.0,4
+Q1_2024,Spotify,streaming_listeners,Minna,Niger,6.0,5
+Q1_2024,Spotify,streaming_listeners,Maiduguri,Borno,6.0,3
+Q1_2024,Spotify,streaming_listeners,Ogun,OS,6.0,1
+Q1_2024,Spotify,streaming_listeners,Ikorodu,Lagos,6.0,2
+Q1_2024,Spotify,streaming_listeners,Garun Iya,Kano,5.0,1
+Q1_2024,Spotify,streaming_listeners,Yenagoa,Bayelsa,4.0,4
+Q1_2024,Spotify,streaming_listeners,Ughoru,Delta,4.0,1
+Q1_2024,Spotify,streaming_listeners,Birnin Kebbi,Kebbi,3.0,2
+Q1_2024,Spotify,streaming_listeners,Lekki,Lagos,3.0,3
+Q1_2024,Spotify,streaming_listeners,Calabar,Cross River,2.0,2
+Q1_2024,Spotify,streaming_listeners,Eleko,Lagos,2.0,2
+Q1_2024,Spotify,streaming_listeners,Ondo,Ondo,2.0,2
+Q1_2024,Spotify,streaming_listeners,Suleja,Niger,2.0,2
+Q1_2024,Spotify,streaming_listeners,Ogba,Edo,2.0,2
+Q1_2024,Spotify,streaming_listeners,Sagamu,Ogun State,2.0,2
+Q1_2024,Spotify,streaming_listeners,Rumuokoro,RI,2.0,1
+Q1_2024,Spotify,streaming_listeners,Ipaja,Ogun State,1.0,1
+Q1_2024,Spotify,streaming_listeners,Itere,,1.0,1
+Q1_2024,Spotify,streaming_listeners,Jalingo,Taraba,1.0,1
+Q1_2024,Spotify,streaming_listeners,Omoku,Rivers,1.0,1
+Q1_2024,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q1_2024,Spotify,streaming_listeners,Lokoja,Kogi,1.0,1
+Q1_2024,Spotify,streaming_listeners,Idiomo,Ogun State,1.0,1
+Q1_2024,Spotify,streaming_listeners,Ogbomoso,Oyo,1.0,1
+Q1_2024,Spotify,streaming_listeners,Otukpo,Benue,1.0,1
+Q1_2024,Spotify,streaming_listeners,jimeta,adamawa,1.0,1
+Q1_2024,Spotify,streaming_listeners,Igieduma,Edo,1.0,1
+Q1_2024,Spotify,streaming_listeners,Akodo,Lagos,1.0,1
+Q1_2024,Spotify,streaming_listeners,Gembu,Taraba,1.0,1
+Q1_2024,Spotify,streaming_listeners,Ogun State,OG,1.0,1
+Q1_2024,Spotify,streaming_listeners,Kau,Federal Capital Territory,1.0,1
+Q1_2024,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,1.0,1
+Q1_2024,Spotify,streaming_listeners,Effurun,Delta,1.0,1
+Q1_2024,YouTube,streaming_listeners,Lagos,Lagos,1031224.0,83
+Q1_2024,YouTube,streaming_listeners,Port Harcourt,Rivers,351729.0,77
+Q1_2024,YouTube,streaming_listeners,Abuja,Federal Capital Territory,199453.0,75
+Q1_2024,YouTube,streaming_listeners,Ebute-Lekki,Lagos,25485.0,43
+Q1_2024,YouTube,streaming_listeners,Onitsha,Anambra,22480.0,38
+Q1_2024,YouTube,streaming_listeners,Ibadan,Oyo,19682.0,37
+Q1_2024,YouTube,streaming_listeners,Benin City,Edo,4352.0,21
+Q1_2024,YouTube,streaming_listeners,Pakuro,Ogun State,710.0,6
+Q1_2024,YouTube,streaming_listeners,Abeokuta,Ogun State,542.0,4
+Q1_2024,YouTube,streaming_listeners,Apia,NI,49.0,1
+Q1_2024,YouTube,streaming_listeners,Agege,,22.0,4
+Q1_2024,YouTube,streaming_listeners,Nasarawa,Niger,17.0,1
+Q1_2024,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,15.0,2
+Q1_2024,YouTube,streaming_listeners,Ikorodu,Lagos,11.0,1
+Q1_2024,YouTube,streaming_listeners,Warri,Delta,10.0,1
+Q1_2024,YouTube,streaming_listeners,Maiduguri,Borno,8.0,1
+Q1_2024,YouTube,streaming_listeners,Gwarinpa,Federal Capital Territory,7.0,1
+Q1_2024,YouTube,streaming_listeners,Akure,Ondo,6.0,1
+Q1_2024,YouTube,streaming_listeners,Kajola,Osun,5.0,1
+Q1_2024,YouTube,streaming_listeners,Zaria,Kaduna,5.0,1
+Q1_2024,YouTube,streaming_listeners,Nsukka,Enugu,5.0,1
+Q2_2024,Instagram,social_followers,Lagos,Lagos,97281158.0,153
+Q2_2024,Instagram,social_followers,Abuja,Federal Capital Territory,18137917.0,151
+Q2_2024,Instagram,social_followers,Port Harcourt,Rivers,4941043.0,140
+Q2_2024,Instagram,social_followers,Uyo,Akwa Ibom,1433911.0,71
+Q2_2024,Instagram,social_followers,Ado Ekiti,Ekiti,827221.0,59
+Q2_2024,Instagram,social_followers,Osogbo,Osun,277362.0,22
+Q2_2024,Instagram,social_followers,Makurdi,Benue,32569.0,7
+Q2_2024,Instagram,social_followers,Bauchi,Bauchi,19113.0,3
+Q2_2024,Instagram,social_followers,Maiduguri,Borno,15647.0,2
+Q2_2024,Instagram,social_followers,Gombe,Gombe,12849.0,2
+Q2_2024,Instagram,social_followers,Katsina,Katsina,11419.0,2
+Q2_2024,Instagram,social_followers,Zaria,Kaduna,10980.0,2
+Q2_2024,Instagram,social_followers,Birnin Kebbi,Kebbi,7516.0,2
+Q2_2024,Instagram,social_followers,Gusau,Zamfara,6446.0,2
+Q2_2024,Instagram,social_followers,Damaturu,Yobe,6321.0,2
+Q2_2024,Instagram,social_followers,Yenagoa,Bayelsa,5860.0,6
+Q2_2024,Instagram,social_followers,Jalingo,Taraba,4844.0,3
+Q2_2024,Instagram,social_followers,Lafia,Nasarawa,2102.0,1
+Q2_2024,Instagram,social_followers,Daura,Katsina,1594.0,1
+Q2_2024,Spotify,streaming_listeners,Lagos,Lagos,39737359.0,624
+Q2_2024,Spotify,streaming_listeners,Abuja,Federal Capital Territory,16587823.0,582
+Q2_2024,Spotify,streaming_listeners,Port Harcourt,Rivers,11454063.0,591
+Q2_2024,Spotify,streaming_listeners,Owerri,Imo,3211350.0,490
+Q2_2024,Spotify,streaming_listeners,Awka,Anambra,2108577.0,499
+Q2_2024,Spotify,streaming_listeners,Ibadan,Oyo,2044494.0,520
+Q2_2024,Spotify,streaming_listeners,Onitsha,Anambra,2036676.0,544
+Q2_2024,Spotify,streaming_listeners,Katsina,Katsina,1980993.0,596
+Q2_2024,Spotify,streaming_listeners,Enugu,Enugu,1391911.0,506
+Q2_2024,Spotify,streaming_listeners,Kaduna,Kaduna,1357004.0,485
+Q2_2024,Spotify,streaming_listeners,Anambra,Anambra,1055694.0,425
+Q2_2024,Spotify,streaming_listeners,Benin City,Edo,796654.0,412
+Q2_2024,Spotify,streaming_listeners,Ilorin,Kwara,564557.0,452
+Q2_2024,Spotify,streaming_listeners,Bonny,Rivers,476235.0,329
+Q2_2024,Spotify,streaming_listeners,Akwanga,Nasarawa,283404.0,307
+Q2_2024,Spotify,streaming_listeners,Oyo,Oyo,237414.0,343
+Q2_2024,Spotify,streaming_listeners,Asaba,Delta,230138.0,271
+Q2_2024,Spotify,streaming_listeners,Uyo,Akwa Ibom,215909.0,269
+Q2_2024,Spotify,streaming_listeners,Kano,Kano,194214.0,341
+Q2_2024,Spotify,streaming_listeners,Ughoru,Delta,28662.0,76
+Q2_2024,Spotify,streaming_listeners,Ikeja,Lagos,5023.0,45
+Q2_2024,Spotify,streaming_listeners,Oju Ota,Ogun State,4007.0,29
+Q2_2024,Spotify,streaming_listeners,Abeokuta,Ogun State,1454.0,34
+Q2_2024,Spotify,streaming_listeners,Ado Ekiti,Ekiti,1113.0,14
+Q2_2024,Spotify,streaming_listeners,Warri,Delta,736.0,21
+Q2_2024,Spotify,streaming_listeners,Oworonshoki,Lagos,393.0,3
+Q2_2024,Spotify,streaming_listeners,Pakuro,Ogun State,307.0,8
+Q2_2024,Spotify,streaming_listeners,Ikorodu,Lagos,280.0,7
+Q2_2024,Spotify,streaming_listeners,Ebute-Lekki,Lagos,250.0,4
+Q2_2024,Spotify,streaming_listeners,Ikole,Ekiti,159.0,5
+Q2_2024,Spotify,streaming_listeners,Zaria,Kaduna,145.0,25
+Q2_2024,Spotify,streaming_listeners,Yola,Adamawa,127.0,21
+Q2_2024,Spotify,streaming_listeners,Sokoto,Sokoto,125.0,5
+Q2_2024,Spotify,streaming_listeners,Calabar,Cross River,72.0,5
+Q2_2024,Spotify,streaming_listeners,Magboro,Ogun State,63.0,1
+Q2_2024,Spotify,streaming_listeners,Akure,Ondo,11.0,2
+Q2_2024,Spotify,streaming_listeners,ife,Osun,8.0,7
+Q2_2024,Spotify,streaming_listeners,Minna,Niger,3.0,3
+Q2_2024,Spotify,streaming_listeners,Jos,Plateau,3.0,3
+Q2_2024,Spotify,streaming_listeners,Omu-Aran,Kwara,3.0,3
+Q2_2024,Spotify,streaming_listeners,Dutse,Jigawa,2.0,2
+Q2_2024,Spotify,streaming_listeners,Aba,Abia,2.0,2
+Q2_2024,Spotify,streaming_listeners,Osogbo,Osun,2.0,2
+Q2_2024,Spotify,streaming_listeners,Ipaja,Ogun State,2.0,2
+Q2_2024,Spotify,streaming_listeners,Umuahia,Abia,2.0,2
+Q2_2024,Spotify,streaming_listeners,Tafa,Federal Capital Territory,2.0,1
+Q2_2024,Spotify,streaming_listeners,Offa,Kwara,1.0,1
+Q2_2024,Spotify,streaming_listeners,Kajola-Letosha,OG,1.0,1
+Q2_2024,Spotify,streaming_listeners,Birnin Kebbi,Kebbi,1.0,1
+Q2_2024,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q2_2024,Spotify,streaming_listeners,Ede,Osun,1.0,1
+Q2_2024,Spotify,streaming_listeners,Abeere,Osun,1.0,1
+Q2_2024,Spotify,streaming_listeners,Eket,Akwa Ibom,1.0,1
+Q2_2024,Spotify,streaming_listeners,Igieduma,Edo,1.0,1
+Q2_2024,Spotify,streaming_listeners,Sagamu,Ogun State,1.0,1
+Q2_2024,Spotify,streaming_listeners,Sofon Lapai,Niger,1.0,1
+Q2_2024,Spotify,streaming_listeners,Ondo,Ondo,1.0,1
+Q2_2024,Spotify,streaming_listeners,Gembu,Taraba,1.0,1
+Q2_2024,Spotify,streaming_listeners,Eleko,Lagos,1.0,1
+Q2_2024,Spotify,streaming_listeners,Ipapo,Oyo,1.0,1
+Q2_2024,Spotify,streaming_listeners,Ikotun,Lagos,1.0,1
+Q2_2024,YouTube,streaming_listeners,Lagos,Lagos,1829794.0,100
+Q2_2024,YouTube,streaming_listeners,Port Harcourt,Rivers,539348.0,94
+Q2_2024,YouTube,streaming_listeners,Abuja,Federal Capital Territory,399725.0,92
+Q2_2024,YouTube,streaming_listeners,Ebute-Lekki,Lagos,39247.0,46
+Q2_2024,YouTube,streaming_listeners,Ibadan,Oyo,15624.0,51
+Q2_2024,YouTube,streaming_listeners,Akwanga,Nasarawa,8935.0,29
+Q2_2024,YouTube,streaming_listeners,Benin City,Edo,5181.0,28
+Q2_2024,YouTube,streaming_listeners,Zaria,Kaduna,2585.0,18
+Q2_2024,YouTube,streaming_listeners,Apia,NI,326.0,2
+Q2_2024,YouTube,streaming_listeners,Abeokuta,Ogun State,264.0,4
+Q2_2024,YouTube,streaming_listeners,Pakuro,Ogun State,217.0,5
+Q2_2024,YouTube,streaming_listeners,Ikorodu,Lagos,209.0,1
+Q2_2024,YouTube,streaming_listeners,Warri,Delta,30.0,3
+Q2_2024,YouTube,streaming_listeners,Onitsha,Anambra,17.0,2
+Q2_2024,YouTube,streaming_listeners,Osogbo,Osun,12.0,1
+Q2_2024,YouTube,streaming_listeners,Kano,Kano,12.0,1
+Q2_2024,YouTube,streaming_listeners,Agege,,10.0,2
+Q2_2024,YouTube,streaming_listeners,Nsukka,Enugu,10.0,2
+Q2_2024,YouTube,streaming_listeners,Ilishan-Remo,Ogun State,9.0,1
+Q2_2024,YouTube,streaming_listeners,Owerri,Imo,6.0,1
+Q2_2024,YouTube,streaming_listeners,jimeta,adamawa,5.0,1
+Q3_2024,Instagram,social_followers,Lagos,Lagos,103941140.0,176
+Q3_2024,Instagram,social_followers,Abuja,Federal Capital Territory,19625267.0,171
+Q3_2024,Instagram,social_followers,Port Harcourt,Rivers,5603271.0,158
+Q3_2024,Instagram,social_followers,Uyo,Akwa Ibom,1150467.0,71
+Q3_2024,Instagram,social_followers,Ado Ekiti,Ekiti,1138975.0,68
+Q3_2024,Instagram,social_followers,Osogbo,Osun,174443.0,19
+Q3_2024,Instagram,social_followers,Makurdi,Benue,45642.0,7
+Q3_2024,Instagram,social_followers,Yenagoa,Bayelsa,26379.0,6
+Q3_2024,Instagram,social_followers,Bauchi,Bauchi,21264.0,3
+Q3_2024,Instagram,social_followers,Maiduguri,Borno,14394.0,2
+Q3_2024,Instagram,social_followers,Katsina,Katsina,12801.0,2
+Q3_2024,Instagram,social_followers,Zaria,Kaduna,12667.0,2
+Q3_2024,Instagram,social_followers,Gombe,Gombe,11724.0,2
+Q3_2024,Instagram,social_followers,Lokoja,Kogi,8373.0,1
+Q3_2024,Instagram,social_followers,Birnin Kebbi,Kebbi,6333.0,2
+Q3_2024,Instagram,social_followers,Gusau,Zamfara,6243.0,2
+Q3_2024,Instagram,social_followers,Jalingo,Taraba,5924.0,3
+Q3_2024,Instagram,social_followers,Damaturu,Yobe,5771.0,2
+Q3_2024,Instagram,social_followers,Lafia,Nasarawa,1747.0,1
+Q3_2024,Spotify,streaming_listeners,Lagos,Lagos,42723420.0,628
+Q3_2024,Spotify,streaming_listeners,Abuja,Federal Capital Territory,19491809.0,609
+Q3_2024,Spotify,streaming_listeners,Port Harcourt,Rivers,15292178.0,594
+Q3_2024,Spotify,streaming_listeners,Ibadan,Oyo,7167947.0,568
+Q3_2024,Spotify,streaming_listeners,Benin City,Edo,3208755.0,537
+Q3_2024,Spotify,streaming_listeners,Owerri,Imo,1582962.0,465
+Q3_2024,Spotify,streaming_listeners,Enugu,Enugu,1471972.0,527
+Q3_2024,Spotify,streaming_listeners,Onitsha,Anambra,1094556.0,432
+Q3_2024,Spotify,streaming_listeners,Awka,Anambra,746876.0,489
+Q3_2024,Spotify,streaming_listeners,Asaba,Delta,697782.0,356
+Q3_2024,Spotify,streaming_listeners,Anambra,Anambra,524907.0,372
+Q3_2024,Spotify,streaming_listeners,Kano,Kano,480824.0,430
+Q3_2024,Spotify,streaming_listeners,Kaduna,Kaduna,432360.0,403
+Q3_2024,Spotify,streaming_listeners,Osogbo,Osun,419284.0,322
+Q3_2024,Spotify,streaming_listeners,Abakaliki,Ebonyi,388724.0,391
+Q3_2024,Spotify,streaming_listeners,Ado Ekiti,Ekiti,338895.0,312
+Q3_2024,Spotify,streaming_listeners,Akure,Ondo,245367.0,257
+Q3_2024,Spotify,streaming_listeners,Yenagoa,Bayelsa,213962.0,339
+Q3_2024,Spotify,streaming_listeners,Katsina,Katsina,75472.0,170
+Q3_2024,Spotify,streaming_listeners,Uyo,Akwa Ibom,17196.0,56
+Q3_2024,Spotify,streaming_listeners,Bauchi,Bauchi,11561.0,105
+Q3_2024,Spotify,streaming_listeners,Bonny,Rivers,6069.0,23
+Q3_2024,Spotify,streaming_listeners,Ikorodu,Lagos,5771.0,32
+Q3_2024,Spotify,streaming_listeners,Ilorin,Kwara,4339.0,39
+Q3_2024,Spotify,streaming_listeners,Ikeja,Lagos,3475.0,73
+Q3_2024,Spotify,streaming_listeners,Umuahia,Abia,1021.0,13
+Q3_2024,Spotify,streaming_listeners,Abeokuta,Ogun State,818.0,28
+Q3_2024,Spotify,streaming_listeners,Oju Ota,Ogun State,628.0,10
+Q3_2024,Spotify,streaming_listeners,Gusau,Zamfara,607.0,46
+Q3_2024,Spotify,streaming_listeners,Ebute-Lekki,Lagos,506.0,21
+Q3_2024,Spotify,streaming_listeners,Hadejia,Jigawa,408.0,40
+Q3_2024,Spotify,streaming_listeners,Warri,Delta,385.0,17
+Q3_2024,Spotify,streaming_listeners,Oworonshoki,Lagos,369.0,9
+Q3_2024,Spotify,streaming_listeners,Yola,Adamawa,128.0,11
+Q3_2024,Spotify,streaming_listeners,Lekki,Lagos,115.0,4
+Q3_2024,Spotify,streaming_listeners,Magboro,Ogun State,63.0,1
+Q3_2024,Spotify,streaming_listeners,Calabar,Cross River,44.0,5
+Q3_2024,Spotify,streaming_listeners,Zaria,Kaduna,39.0,11
+Q3_2024,Spotify,streaming_listeners,Makurdi,Benue,31.0,11
+Q3_2024,Spotify,streaming_listeners,Aba,Abia,30.0,1
+Q3_2024,Spotify,streaming_listeners,Jos,Plateau,28.0,11
+Q3_2024,Spotify,streaming_listeners,Agege,,25.0,3
+Q3_2024,Spotify,streaming_listeners,Ibeju,Lagos,25.0,2
+Q3_2024,Spotify,streaming_listeners,Sokoto,Sokoto,11.0,4
+Q3_2024,Spotify,streaming_listeners,ife,Osun,8.0,5
+Q3_2024,Spotify,streaming_listeners,Ikoyi,Osun,8.0,6
+Q3_2024,Spotify,streaming_listeners,Bwari,Federal Capital Territory,3.0,3
+Q3_2024,Spotify,streaming_listeners,Eleko,Lagos,3.0,3
+Q3_2024,Spotify,streaming_listeners,Ogbomoso,Oyo,3.0,3
+Q3_2024,Spotify,streaming_listeners,Egor,Edo State,2.0,2
+Q3_2024,Spotify,streaming_listeners,Gwarinpa,Federal Capital Territory,2.0,2
+Q3_2024,Spotify,streaming_listeners,Emene,Enugu,2.0,2
+Q3_2024,Spotify,streaming_listeners,Minna,Niger,2.0,1
+Q3_2024,Spotify,streaming_listeners,Tafa,Federal Capital Territory,2.0,1
+Q3_2024,Spotify,streaming_listeners,Ikosi,Lagos,1.0,1
+Q3_2024,Spotify,streaming_listeners,Kajola-Letosha,OG,1.0,1
+Q3_2024,Spotify,streaming_listeners,Ikotun,Lagos,1.0,1
+Q3_2024,Spotify,streaming_listeners,Ogoja,Cross River,1.0,1
+Q3_2024,Spotify,streaming_listeners,Gwagwalada,Federal Capital Territory,1.0,1
+Q3_2024,Spotify,streaming_listeners,Ede,Osun,1.0,1
+Q3_2024,Spotify,streaming_listeners,Ifo,Ogun State,1.0,1
+Q3_2024,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q3_2024,Spotify,streaming_listeners,Sagamu,Ogun State,1.0,1
+Q3_2024,Spotify,streaming_listeners,Eket,Akwa Ibom,1.0,1
+Q3_2024,Spotify,streaming_listeners,Ibafo,Ogun State,1.0,1
+Q3_2024,Spotify,streaming_listeners,Owo,Ondo,1.0,1
+Q3_2024,Spotify,streaming_listeners,Ijebu Ode,Ogun State,1.0,1
+Q3_2024,Spotify,streaming_listeners,Ughoru,Delta,1.0,1
+Q3_2024,YouTube,streaming_listeners,Lagos,Lagos,1421447.0,104
+Q3_2024,YouTube,streaming_listeners,Port Harcourt,Rivers,443811.0,99
+Q3_2024,YouTube,streaming_listeners,Abuja,Federal Capital Territory,361709.0,98
+Q3_2024,YouTube,streaming_listeners,Benin City,Edo,56087.0,57
+Q3_2024,YouTube,streaming_listeners,Ibadan,Oyo,54187.0,70
+Q3_2024,YouTube,streaming_listeners,Ado Ekiti,Ekiti,52570.0,59
+Q3_2024,YouTube,streaming_listeners,Ebute-Lekki,Lagos,26868.0,27
+Q3_2024,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,6218.0,29
+Q3_2024,YouTube,streaming_listeners,Enugu,Enugu,4348.0,23
+Q3_2024,YouTube,streaming_listeners,Onitsha,Anambra,805.0,7
+Q3_2024,YouTube,streaming_listeners,Abeokuta,Ogun State,457.0,4
+Q3_2024,YouTube,streaming_listeners,Pakuro,Ogun State,410.0,4
+Q3_2024,YouTube,streaming_listeners,Ikorodu,Lagos,239.0,1
+Q3_2024,YouTube,streaming_listeners,Kano,Kano,134.0,3
+Q3_2024,YouTube,streaming_listeners,Warri,Delta,68.0,3
+Q3_2024,YouTube,streaming_listeners,Agege,,24.0,1
+Q3_2024,YouTube,streaming_listeners,Auaba,,12.0,1
+Q3_2024,YouTube,streaming_listeners,Iddo Tudunwada,Federal Capital Territory,11.0,1
+Q3_2024,YouTube,streaming_listeners,Osogbo,Osun,10.0,1
+Q3_2024,YouTube,streaming_listeners,Zaria,Kaduna,9.0,1
+Q4_2024,Instagram,social_followers,Lagos,Lagos,107893476.0,187
+Q4_2024,Instagram,social_followers,Abuja,Federal Capital Territory,20318345.0,182
+Q4_2024,Instagram,social_followers,Port Harcourt,Rivers,5793386.0,167
+Q4_2024,Instagram,social_followers,Uyo,Akwa Ibom,1258063.0,70
+Q4_2024,Instagram,social_followers,Ado Ekiti,Ekiti,964963.0,65
+Q4_2024,Instagram,social_followers,Osogbo,Osun,345928.0,22
+Q4_2024,Instagram,social_followers,Yenagoa,Bayelsa,70354.0,13
+Q4_2024,Instagram,social_followers,Makurdi,Benue,24037.0,4
+Q4_2024,Instagram,social_followers,Bauchi,Bauchi,19683.0,3
+Q4_2024,Instagram,social_followers,Zaria,Kaduna,12456.0,2
+Q4_2024,Instagram,social_followers,Maiduguri,Borno,12357.0,2
+Q4_2024,Instagram,social_followers,Katsina,Katsina,12017.0,2
+Q4_2024,Instagram,social_followers,Gombe,Gombe,9888.0,2
+Q4_2024,Instagram,social_followers,Birnin Kebbi,Kebbi,7028.0,2
+Q4_2024,Instagram,social_followers,Gusau,Zamfara,6254.0,2
+Q4_2024,Instagram,social_followers,Jalingo,Taraba,5957.0,3
+Q4_2024,Instagram,social_followers,Damaturu,Yobe,5605.0,2
+Q4_2024,Instagram,social_followers,Lafia,Nasarawa,1753.0,1
+Q4_2024,Instagram,social_followers,Daura,Katsina,1324.0,1
+Q4_2024,Spotify,streaming_listeners,Lagos,Lagos,53476252.0,630
+Q4_2024,Spotify,streaming_listeners,Abuja,Federal Capital Territory,25446942.0,604
+Q4_2024,Spotify,streaming_listeners,Port Harcourt,Rivers,17598599.0,593
+Q4_2024,Spotify,streaming_listeners,Ibadan,Oyo,15806737.0,591
+Q4_2024,Spotify,streaming_listeners,Benin City,Edo,5501349.0,561
+Q4_2024,Spotify,streaming_listeners,Asaba,Delta,2923959.0,494
+Q4_2024,Spotify,streaming_listeners,Enugu,Enugu,2213248.0,504
+Q4_2024,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,1691501.0,437
+Q4_2024,Spotify,streaming_listeners,Ughoru,Delta,1167542.0,411
+Q4_2024,Spotify,streaming_listeners,Osogbo,Osun,969294.0,435
+Q4_2024,Spotify,streaming_listeners,Jos,Plateau,767387.0,368
+Q4_2024,Spotify,streaming_listeners,Kano,Kano,583601.0,442
+Q4_2024,Spotify,streaming_listeners,Ado Ekiti,Ekiti,513783.0,361
+Q4_2024,Spotify,streaming_listeners,Ilorin,Kwara,491797.0,403
+Q4_2024,Spotify,streaming_listeners,Onitsha,Anambra,440467.0,303
+Q4_2024,Spotify,streaming_listeners,Kaduna,Kaduna,383611.0,278
+Q4_2024,Spotify,streaming_listeners,Abakaliki,Ebonyi,372114.0,418
+Q4_2024,Spotify,streaming_listeners,Yenagoa,Bayelsa,319657.0,389
+Q4_2024,Spotify,streaming_listeners,Warri,Delta,297126.0,253
+Q4_2024,Spotify,streaming_listeners,Liman Katagum,Bauchi,184741.0,189
+Q4_2024,Spotify,streaming_listeners,Katsina,Katsina,95485.0,201
+Q4_2024,Spotify,streaming_listeners,Umuahia,Abia,32918.0,52
+Q4_2024,Spotify,streaming_listeners,Uyo,Akwa Ibom,26208.0,64
+Q4_2024,Spotify,streaming_listeners,Ikeja,Lagos,14435.0,111
+Q4_2024,Spotify,streaming_listeners,Gusau,Zamfara,1959.0,63
+Q4_2024,Spotify,streaming_listeners,Pakuro,Ogun State,866.0,10
+Q4_2024,Spotify,streaming_listeners,Oju Ota,Ogun State,849.0,5
+Q4_2024,Spotify,streaming_listeners,Hadejia,Jigawa,705.0,46
+Q4_2024,Spotify,streaming_listeners,Suleja,Niger,281.0,25
+Q4_2024,Spotify,streaming_listeners,Abeokuta,Ogun State,235.0,14
+Q4_2024,Spotify,streaming_listeners,Yola,Adamawa,206.0,18
+Q4_2024,Spotify,streaming_listeners,Ikorodu,Lagos,100.0,9
+Q4_2024,Spotify,streaming_listeners,Ebute-Lekki,Lagos,84.0,6
+Q4_2024,Spotify,streaming_listeners,Owerri,Imo,59.0,4
+Q4_2024,Spotify,streaming_listeners,Bonny,Rivers,49.0,6
+Q4_2024,Spotify,streaming_listeners,Awka,Anambra,43.0,7
+Q4_2024,Spotify,streaming_listeners,Oworonshoki,Lagos,19.0,1
+Q4_2024,Spotify,streaming_listeners,Sokoto,Sokoto,14.0,6
+Q4_2024,Spotify,streaming_listeners,Ikoyi,Osun,9.0,5
+Q4_2024,Spotify,streaming_listeners,ife,Osun,6.0,4
+Q4_2024,Spotify,streaming_listeners,Makurdi,Benue,6.0,4
+Q4_2024,Spotify,streaming_listeners,Ijebu Ode,Ogun State,5.0,4
+Q4_2024,Spotify,streaming_listeners,Omu-Aran,Kwara,4.0,2
+Q4_2024,Spotify,streaming_listeners,Pindiga,Gombe,2.0,2
+Q4_2024,Spotify,streaming_listeners,Osun,OG,2.0,2
+Q4_2024,Spotify,streaming_listeners,Egbeda,Rivers,2.0,2
+Q4_2024,Spotify,streaming_listeners,Agege,,2.0,2
+Q4_2024,Spotify,streaming_listeners,Lekki,Lagos,2.0,2
+Q4_2024,Spotify,streaming_listeners,Nsukka,Enugu,2.0,2
+Q4_2024,Spotify,streaming_listeners,Iwo,Osun,2.0,2
+Q4_2024,Spotify,streaming_listeners,Aso,Federal Capital Territory,2.0,1
+Q4_2024,Spotify,streaming_listeners,Ikosi,Lagos,1.0,1
+Q4_2024,Spotify,streaming_listeners,Zaria,Kaduna,1.0,1
+Q4_2024,Spotify,streaming_listeners,Ikotun,Lagos,1.0,1
+Q4_2024,Spotify,streaming_listeners,Keffi,Nasarawa,1.0,1
+Q4_2024,Spotify,streaming_listeners,Owo,Ondo,1.0,1
+Q4_2024,Spotify,streaming_listeners,Ogbomoso,Oyo,1.0,1
+Q4_2024,Spotify,streaming_listeners,Otan Ayegbaju,Osun,1.0,1
+Q4_2024,Spotify,streaming_listeners,Egor,Edo State,1.0,1
+Q4_2024,YouTube,streaming_listeners,Lagos,Lagos,1916623.0,106
+Q4_2024,YouTube,streaming_listeners,Abuja,Federal Capital Territory,425159.0,101
+Q4_2024,YouTube,streaming_listeners,Port Harcourt,Rivers,345880.0,99
+Q4_2024,YouTube,streaming_listeners,Onitsha,Anambra,269408.0,92
+Q4_2024,YouTube,streaming_listeners,Ibadan,Oyo,237448.0,92
+Q4_2024,YouTube,streaming_listeners,Ikorodu,Lagos,39914.0,44
+Q4_2024,YouTube,streaming_listeners,Ebute-Lekki,Lagos,35392.0,30
+Q4_2024,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,29542.0,30
+Q4_2024,YouTube,streaming_listeners,Ado Ekiti,Ekiti,3079.0,8
+Q4_2024,YouTube,streaming_listeners,Jos,Plateau,761.0,9
+Q4_2024,YouTube,streaming_listeners,Benin City,Edo,199.0,6
+Q4_2024,YouTube,streaming_listeners,Abeokuta,Ogun State,102.0,2
+Q4_2024,YouTube,streaming_listeners,Pakuro,Ogun State,40.0,1
+Q4_2024,YouTube,streaming_listeners,Osogbo,Osun,17.0,2
+Q4_2024,YouTube,streaming_listeners,Zaria,Kaduna,6.0,1
+Q4_2024,YouTube,streaming_listeners,Gwarinpa,Federal Capital Territory,5.0,1
+Q4_2024,YouTube,streaming_listeners,Warri,Delta,5.0,1
+Q1_2025,Instagram,social_followers,Lagos,Lagos,109185911.0,197
+Q1_2025,Instagram,social_followers,Abuja,Federal Capital Territory,21593441.0,190
+Q1_2025,Instagram,social_followers,Port Harcourt,Rivers,6051104.0,174
+Q1_2025,Instagram,social_followers,Uyo,Akwa Ibom,1379607.0,89
+Q1_2025,Instagram,social_followers,Ado Ekiti,Ekiti,1251501.0,75
+Q1_2025,Instagram,social_followers,Osogbo,Osun,218035.0,18
+Q1_2025,Instagram,social_followers,Makurdi,Benue,35277.0,4
+Q1_2025,Instagram,social_followers,Yenagoa,Bayelsa,26656.0,10
+Q1_2025,Instagram,social_followers,Bauchi,Bauchi,20028.0,3
+Q1_2025,Instagram,social_followers,Maiduguri,Borno,13735.0,2
+Q1_2025,Instagram,social_followers,Katsina,Katsina,11199.0,2
+Q1_2025,Instagram,social_followers,Gombe,Gombe,10617.0,2
+Q1_2025,Instagram,social_followers,Zaria,Kaduna,9195.0,2
+Q1_2025,Instagram,social_followers,Damaturu,Yobe,6348.0,2
+Q1_2025,Instagram,social_followers,Birnin Kebbi,Kebbi,5981.0,2
+Q1_2025,Instagram,social_followers,Gusau,Zamfara,5672.0,2
+Q1_2025,Instagram,social_followers,Jalingo,Taraba,4435.0,2
+Q1_2025,Instagram,social_followers,Lafia,Nasarawa,2029.0,1
+Q1_2025,Instagram,social_followers,Daura,Katsina,1451.0,1
+Q1_2025,Instagram,social_followers,Dutse,Jigawa,1298.0,1
+Q1_2025,Spotify,streaming_listeners,Lagos,Lagos,47942565.0,634
+Q1_2025,Spotify,streaming_listeners,Abuja,Federal Capital Territory,25189239.0,619
+Q1_2025,Spotify,streaming_listeners,Port Harcourt,Rivers,17096347.0,609
+Q1_2025,Spotify,streaming_listeners,Ibadan,Oyo,14566066.0,612
+Q1_2025,Spotify,streaming_listeners,Onitsha,Anambra,6588342.0,558
+Q1_2025,Spotify,streaming_listeners,Benin City,Edo,4459457.0,564
+Q1_2025,Spotify,streaming_listeners,Owerri,Imo,4453450.0,540
+Q1_2025,Spotify,streaming_listeners,Enugu,Enugu,2005714.0,520
+Q1_2025,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,1956077.0,427
+Q1_2025,Spotify,streaming_listeners,Osogbo,Osun,1848024.0,470
+Q1_2025,Spotify,streaming_listeners,Asaba,Delta,1295398.0,464
+Q1_2025,Spotify,streaming_listeners,Jos,Plateau,835976.0,475
+Q1_2025,Spotify,streaming_listeners,Kano,Kano,605165.0,444
+Q1_2025,Spotify,streaming_listeners,Abakaliki,Ebonyi,422346.0,402
+Q1_2025,Spotify,streaming_listeners,Yenagoa,Bayelsa,367188.0,377
+Q1_2025,Spotify,streaming_listeners,Nnewi,Anambra,298560.0,219
+Q1_2025,Spotify,streaming_listeners,Kaduna,Kaduna,264098.0,271
+Q1_2025,Spotify,streaming_listeners,Ughoru,Delta,229915.0,203
+Q1_2025,Spotify,streaming_listeners,Liman Katagum,Bauchi,143636.0,166
+Q1_2025,Spotify,streaming_listeners,Katsina,Katsina,65459.0,168
+Q1_2025,Spotify,streaming_listeners,Aba,Abia,36773.0,90
+Q1_2025,Spotify,streaming_listeners,Uyo,Akwa Ibom,32981.0,66
+Q1_2025,Spotify,streaming_listeners,Ilorin,Kwara,30872.0,86
+Q1_2025,Spotify,streaming_listeners,Umuahia,Abia,24160.0,45
+Q1_2025,Spotify,streaming_listeners,Ikeja,Lagos,20388.0,100
+Q1_2025,Spotify,streaming_listeners,Oju,Benue,7594.0,33
+Q1_2025,Spotify,streaming_listeners,Hadejia,Jigawa,2761.0,64
+Q1_2025,Spotify,streaming_listeners,Dutse,Jigawa,2164.0,60
+Q1_2025,Spotify,streaming_listeners,Ikorodu,Lagos,1697.0,30
+Q1_2025,Spotify,streaming_listeners,Gusau,Zamfara,1329.0,55
+Q1_2025,Spotify,streaming_listeners,Abeokuta,Ogun State,1316.0,17
+Q1_2025,Spotify,streaming_listeners,Pakuro,Ogun State,682.0,13
+Q1_2025,Spotify,streaming_listeners,Warri,Delta,632.0,14
+Q1_2025,Spotify,streaming_listeners,Abia,AB,582.0,10
+Q1_2025,Spotify,streaming_listeners,Ebute-Lekki,Lagos,331.0,18
+Q1_2025,Spotify,streaming_listeners,Yola,Adamawa,179.0,16
+Q1_2025,Spotify,streaming_listeners,Oju Ota,Ogun State,133.0,3
+Q1_2025,Spotify,streaming_listeners,Zaria,Kaduna,99.0,11
+Q1_2025,Spotify,streaming_listeners,Otan Ayegbaju,Osun,76.0,10
+Q1_2025,Spotify,streaming_listeners,Egbeda,Rivers,70.0,8
+Q1_2025,Spotify,streaming_listeners,Akure,Ondo,50.0,1
+Q1_2025,Spotify,streaming_listeners,Lekki,Lagos,7.0,4
+Q1_2025,Spotify,streaming_listeners,Omu-Aran,Kwara,6.0,4
+Q1_2025,Spotify,streaming_listeners,Ado Ekiti,Ekiti,4.0,2
+Q1_2025,Spotify,streaming_listeners,Bwari,Federal Capital Territory,3.0,2
+Q1_2025,Spotify,streaming_listeners,Ikoyi,Osun,3.0,3
+Q1_2025,Spotify,streaming_listeners,Aso,Federal Capital Territory,3.0,2
+Q1_2025,Spotify,streaming_listeners,Oworonshoki,Lagos,3.0,3
+Q1_2025,Spotify,streaming_listeners,ife,Osun,3.0,3
+Q1_2025,Spotify,streaming_listeners,Sokoto,Sokoto,3.0,2
+Q1_2025,Spotify,streaming_listeners,Ogbomoso,Oyo,2.0,2
+Q1_2025,Spotify,streaming_listeners,Awka,Anambra,2.0,2
+Q1_2025,Spotify,streaming_listeners,Ikotun,Lagos,2.0,2
+Q1_2025,Spotify,streaming_listeners,Ijebu Ode,Ogun State,2.0,2
+Q1_2025,Spotify,streaming_listeners,Sala Orile,Ogun State,1.0,1
+Q1_2025,Spotify,streaming_listeners,Onipanu,Oyo,1.0,1
+Q1_2025,Spotify,streaming_listeners,Eleko,Lagos,1.0,1
+Q1_2025,Spotify,streaming_listeners,Bonny,Rivers,1.0,1
+Q1_2025,Spotify,streaming_listeners,Pindiga,Gombe,1.0,1
+Q1_2025,Spotify,streaming_listeners,Ado Odo,Ogun State,1.0,1
+Q1_2025,Spotify,streaming_listeners,Ogoja,Cross River,1.0,1
+Q1_2025,YouTube,streaming_listeners,Lagos,Lagos,1949567.0,108
+Q1_2025,YouTube,streaming_listeners,Onitsha,Anambra,521658.0,102
+Q1_2025,YouTube,streaming_listeners,Abuja,Federal Capital Territory,506603.0,104
+Q1_2025,YouTube,streaming_listeners,Ibadan,Oyo,296270.0,91
+Q1_2025,YouTube,streaming_listeners,Port Harcourt,Rivers,217476.0,96
+Q1_2025,YouTube,streaming_listeners,Jos,Plateau,58545.0,66
+Q1_2025,YouTube,streaming_listeners,Ebute-Lekki,Lagos,26347.0,23
+Q1_2025,YouTube,streaming_listeners,Awka,Anambra,22225.0,47
+Q1_2025,YouTube,streaming_listeners,Madalla,Federal Capital Territory,8639.0,32
+Q1_2025,YouTube,streaming_listeners,Enugu,Enugu,4542.0,21
+Q1_2025,YouTube,streaming_listeners,Benin City,Edo,2164.0,7
+Q1_2025,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,336.0,1
+Q1_2025,YouTube,streaming_listeners,Warri,Delta,141.0,2
+Q1_2025,YouTube,streaming_listeners,Zaria,Kaduna,27.0,2
+Q1_2025,YouTube,streaming_listeners,Abeokuta,Ogun State,11.0,1
+Q1_2025,YouTube,streaming_listeners,Pakuro,Ogun State,6.0,1
+Q1_2025,YouTube,streaming_listeners,Ado Ekiti,Ekiti,6.0,1
+Q1_2025,YouTube,streaming_listeners,Sagamu,Ogun State,5.0,1
+Q2_2025,Instagram,social_followers,Lagos,Lagos,112637216.0,205
+Q2_2025,Instagram,social_followers,Abuja,Federal Capital Territory,21631147.0,199
+Q2_2025,Instagram,social_followers,Port Harcourt,Rivers,6226503.0,181
+Q2_2025,Instagram,social_followers,Uyo,Akwa Ibom,1608651.0,95
+Q2_2025,Instagram,social_followers,Ado Ekiti,Ekiti,1327839.0,80
+Q2_2025,Instagram,social_followers,Osogbo,Osun,192565.0,19
+Q2_2025,Instagram,social_followers,Yenagoa,Bayelsa,59873.0,11
+Q2_2025,Instagram,social_followers,Makurdi,Benue,40712.0,7
+Q2_2025,Instagram,social_followers,Bauchi,Bauchi,18976.0,3
+Q2_2025,Instagram,social_followers,Maiduguri,Borno,12207.0,2
+Q2_2025,Instagram,social_followers,Gombe,Gombe,11828.0,2
+Q2_2025,Instagram,social_followers,Katsina,Katsina,11147.0,2
+Q2_2025,Instagram,social_followers,Zaria,Kaduna,11014.0,2
+Q2_2025,Instagram,social_followers,Gusau,Zamfara,6652.0,2
+Q2_2025,Instagram,social_followers,Birnin Kebbi,Kebbi,6333.0,2
+Q2_2025,Instagram,social_followers,Jalingo,Taraba,5036.0,3
+Q2_2025,Instagram,social_followers,Damaturu,YO,4058.0,2
+Q2_2025,Spotify,streaming_listeners,Lagos,Lagos,61809208.0,642
+Q2_2025,Spotify,streaming_listeners,Abuja,Federal Capital Territory,36184640.0,625
+Q2_2025,Spotify,streaming_listeners,Ibadan,Oyo,18623731.0,614
+Q2_2025,Spotify,streaming_listeners,Port Harcourt,Rivers,17698044.0,600
+Q2_2025,Spotify,streaming_listeners,Benin City,Edo,5716888.0,557
+Q2_2025,Spotify,streaming_listeners,Onitsha,Anambra,4648081.0,555
+Q2_2025,Spotify,streaming_listeners,Asaba,Delta,3737055.0,551
+Q2_2025,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,2853426.0,529
+Q2_2025,Spotify,streaming_listeners,Enugu,Enugu,2579180.0,523
+Q2_2025,Spotify,streaming_listeners,Owerri,Imo,2335256.0,547
+Q2_2025,Spotify,streaming_listeners,Osogbo,Osun,1565977.0,469
+Q2_2025,Spotify,streaming_listeners,Kano,Kano,738859.0,448
+Q2_2025,Spotify,streaming_listeners,Yenagoa,Bayelsa,437837.0,400
+Q2_2025,Spotify,streaming_listeners,Abakaliki,Ebonyi,372169.0,399
+Q2_2025,Spotify,streaming_listeners,Ughoru,Delta,311944.0,264
+Q2_2025,Spotify,streaming_listeners,Nnewi,Anambra,263661.0,230
+Q2_2025,Spotify,streaming_listeners,Ikeja,Lagos,254009.0,319
+Q2_2025,Spotify,streaming_listeners,Katsina,Katsina,71684.0,168
+Q2_2025,Spotify,streaming_listeners,Aba,Abia,45183.0,97
+Q2_2025,Spotify,streaming_listeners,Umueze Anam,Anambra,36480.0,60
+Q2_2025,Spotify,streaming_listeners,Hadejia,Jigawa,9222.0,75
+Q2_2025,Spotify,streaming_listeners,Oju Ota,Ogun State,2644.0,13
+Q2_2025,Spotify,streaming_listeners,Pakuro,Ogun State,1915.0,13
+Q2_2025,Spotify,streaming_listeners,Uyo,Akwa Ibom,1299.0,19
+Q2_2025,Spotify,streaming_listeners,Dutse,Jigawa,915.0,49
+Q2_2025,Spotify,streaming_listeners,Warri,Delta,626.0,15
+Q2_2025,Spotify,streaming_listeners,Warri South,Delta State,560.0,10
+Q2_2025,Spotify,streaming_listeners,Ikole,Ekiti,330.0,3
+Q2_2025,Spotify,streaming_listeners,Yola,Adamawa,268.0,17
+Q2_2025,Spotify,streaming_listeners,Zaria,Kaduna,230.0,12
+Q2_2025,Spotify,streaming_listeners,Ikorodu,Lagos,192.0,11
+Q2_2025,Spotify,streaming_listeners,Ebute-Lekki,Lagos,189.0,7
+Q2_2025,Spotify,streaming_listeners,Ikoyi,Osun,122.0,1
+Q2_2025,Spotify,streaming_listeners,Awka,Anambra,117.0,1
+Q2_2025,Spotify,streaming_listeners,Ojo,Osun,98.0,1
+Q2_2025,Spotify,streaming_listeners,Ilorin,Kwara,92.0,7
+Q2_2025,Spotify,streaming_listeners,Abeokuta,Ogun State,78.0,2
+Q2_2025,Spotify,streaming_listeners,Nkpor,Anambra,76.0,1
+Q2_2025,Spotify,streaming_listeners,Agege,,74.0,3
+Q2_2025,Spotify,streaming_listeners,Eleko,Lagos,67.0,2
+Q2_2025,Spotify,streaming_listeners,Egbeda,Rivers,31.0,5
+Q2_2025,Spotify,streaming_listeners,Sokoto,Sokoto,15.0,3
+Q2_2025,Spotify,streaming_listeners,Ijebu Ode,Ogun State,9.0,4
+Q2_2025,Spotify,streaming_listeners,Kaduna,Kaduna,5.0,5
+Q2_2025,Spotify,streaming_listeners,Ipaja,Ogun State,5.0,3
+Q2_2025,Spotify,streaming_listeners,Obinze,Imo,4.0,2
+Q2_2025,Spotify,streaming_listeners,Ikotun,Lagos,4.0,2
+Q2_2025,Spotify,streaming_listeners,Akure,Ondo,3.0,1
+Q2_2025,Spotify,streaming_listeners,Oworonshoki,Lagos,2.0,2
+Q2_2025,Spotify,streaming_listeners,Ado Ekiti,Ekiti,2.0,2
+Q2_2025,Spotify,streaming_listeners,Orile Odo,Oyo,1.0,1
+Q2_2025,Spotify,streaming_listeners,Onipanu,Oyo,1.0,1
+Q2_2025,Spotify,streaming_listeners,Odeda,Ogun State,1.0,1
+Q2_2025,Spotify,streaming_listeners,Otan Ayegbaju,Osun,1.0,1
+Q2_2025,Spotify,streaming_listeners,Ifo,Ogun State,1.0,1
+Q2_2025,Spotify,streaming_listeners,Maiduguri,Borno,1.0,1
+Q2_2025,Spotify,streaming_listeners,Ikoyi Ile,Oyo,1.0,1
+Q2_2025,Spotify,streaming_listeners,Iwo,Osun,1.0,1
+Q2_2025,Spotify,streaming_listeners,Ado Odo,Ogun State,1.0,1
+Q2_2025,Spotify,streaming_listeners,ife,Osun,1.0,1
+Q2_2025,Spotify,streaming_listeners,Kwale,Delta,1.0,1
+Q2_2025,Spotify,streaming_listeners,Ibeju,Lagos,1.0,1
+Q2_2025,YouTube,streaming_listeners,Lagos,Lagos,2380332.0,180
+Q2_2025,YouTube,streaming_listeners,Abuja,Federal Capital Territory,725797.0,174
+Q2_2025,YouTube,streaming_listeners,Onitsha,Anambra,401756.0,164
+Q2_2025,YouTube,streaming_listeners,Ibadan,Oyo,287963.0,151
+Q2_2025,YouTube,streaming_listeners,Port Harcourt,Rivers,128497.0,126
+Q2_2025,YouTube,streaming_listeners,Ebute-Lekki,Lagos,23245.0,33
+Q2_2025,YouTube,streaming_listeners,Ikorodu,Lagos,20489.0,61
+Q2_2025,YouTube,streaming_listeners,Zaria,Kaduna,2105.0,15
+Q2_2025,YouTube,streaming_listeners,Benin City,Edo,1036.0,11
+Q2_2025,YouTube,streaming_listeners,Jos,Plateau,412.0,10
+Q2_2025,YouTube,streaming_listeners,Abeokuta,Ogun State,365.0,3
+Q2_2025,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,303.0,6
+Q2_2025,YouTube,streaming_listeners,Pakuro,Ogun State,152.0,3
+Q2_2025,YouTube,streaming_listeners,Agege,,78.0,1
+Q2_2025,YouTube,streaming_listeners,Owerri,Imo,42.0,3
+Q2_2025,YouTube,streaming_listeners,Lafia,Nasarawa,39.0,1
+Q2_2025,YouTube,streaming_listeners,Warri South,Delta State,21.0,1
+Q2_2025,YouTube,streaming_listeners,Uyo,Akwa Ibom,13.0,1
+Q2_2025,YouTube,streaming_listeners,Warri,Delta,9.0,1
+Q2_2025,YouTube,streaming_listeners,Yenagoa,Bayelsa,8.0,1
+Q2_2025,YouTube,streaming_listeners,Okpanam,Delta,7.0,1
+Q2_2025,YouTube,streaming_listeners,Ogbomoso,Oyo,6.0,1
+Q2_2025,YouTube,streaming_listeners,Kano,Kano,5.0,1
+Q2_2025,YouTube,streaming_listeners,Keffi,Nasarawa,5.0,1
+Q2_2025,YouTube,streaming_listeners,Enugu,Enugu,5.0,1
+Q3_2025,Instagram,social_followers,Lagos,Lagos,114148538.0,211
+Q3_2025,Instagram,social_followers,Abuja,Federal Capital Territory,20594181.0,204
+Q3_2025,Instagram,social_followers,Port Harcourt,Rivers,6226303.0,185
+Q3_2025,Instagram,social_followers,Ado Ekiti,Ekiti,1467532.0,86
+Q3_2025,Instagram,social_followers,Uyo,Akwa Ibom,1381095.0,79
+Q3_2025,Instagram,social_followers,Osogbo,Osun,200449.0,19
+Q3_2025,Instagram,social_followers,Yenagoa,Bayelsa,46394.0,10
+Q3_2025,Instagram,social_followers,Makurdi,Benue,27969.0,4
+Q3_2025,Instagram,social_followers,Bauchi,Bauchi,18188.0,3
+Q3_2025,Instagram,social_followers,Maiduguri,Borno,12134.0,2
+Q3_2025,Instagram,social_followers,Gombe,Gombe,11899.0,2
+Q3_2025,Instagram,social_followers,Zaria,Kaduna,10727.0,2
+Q3_2025,Instagram,social_followers,Katsina,Katsina,9855.0,2
+Q3_2025,Instagram,social_followers,Birnin Kebbi,Kebbi,7203.0,2
+Q3_2025,Instagram,social_followers,Jalingo,Taraba,6312.0,3
+Q3_2025,Instagram,social_followers,Bindigari Pawari,Yobe,5795.0,2
+Q3_2025,Instagram,social_followers,Gusau,Zamfara,5574.0,2
+Q3_2025,Instagram,social_followers,Damaturu,Yobe,2586.0,1
+Q3_2025,Instagram,social_followers,Daura,Katsina,1312.0,1
+Q3_2025,Instagram,social_followers,Lokoja,Kogi,6.0,1
+Q3_2025,Spotify,streaming_listeners,Lagos,Lagos,75697336.0,642
+Q3_2025,Spotify,streaming_listeners,Abuja,Federal Capital Territory,32895336.0,623
+Q3_2025,Spotify,streaming_listeners,Port Harcourt,Rivers,28042857.0,607
+Q3_2025,Spotify,streaming_listeners,Ibadan,Oyo,16616600.0,603
+Q3_2025,Spotify,streaming_listeners,Benin City,Edo,4529454.0,557
+Q3_2025,Spotify,streaming_listeners,Owerri,Imo,2205232.0,508
+Q3_2025,Spotify,streaming_listeners,Awka,Anambra,1954296.0,424
+Q3_2025,Spotify,streaming_listeners,Onitsha,Anambra,1326166.0,482
+Q3_2025,Spotify,streaming_listeners,Enugu,Enugu,1288289.0,504
+Q3_2025,Spotify,streaming_listeners,Asaba,Delta,1285644.0,466
+Q3_2025,Spotify,streaming_listeners,Kano,Kano,734118.0,452
+Q3_2025,Spotify,streaming_listeners,Kaduna,Kaduna,556462.0,377
+Q3_2025,Spotify,streaming_listeners,Yenagoa,Bayelsa,519639.0,401
+Q3_2025,Spotify,streaming_listeners,Abakaliki,Ebonyi,446230.0,375
+Q3_2025,Spotify,streaming_listeners,Jamaare,Bauchi,259631.0,315
+Q3_2025,Spotify,streaming_listeners,Ikeja,Lagos,228192.0,325
+Q3_2025,Spotify,streaming_listeners,Aba,Abia,156500.0,149
+Q3_2025,Spotify,streaming_listeners,Umuahia,Abia,84070.0,108
+Q3_2025,Spotify,streaming_listeners,Umueze Anam,Anambra,62290.0,92
+Q3_2025,Spotify,streaming_listeners,Osogbo,Osun,18861.0,26
+Q3_2025,Spotify,streaming_listeners,Nnewi,Anambra,15019.0,29
+Q3_2025,Spotify,streaming_listeners,Hadejia,Jigawa,10559.0,76
+Q3_2025,Spotify,streaming_listeners,Auchi,Edo,7417.0,13
+Q3_2025,Spotify,streaming_listeners,Oju Ota,Ogun State,4986.0,15
+Q3_2025,Spotify,streaming_listeners,Azare,Bauchi,1840.0,42
+Q3_2025,Spotify,streaming_listeners,Pakuro,Ogun State,1336.0,8
+Q3_2025,Spotify,streaming_listeners,Uyo,Akwa Ibom,1334.0,12
+Q3_2025,Spotify,streaming_listeners,Warri,Delta,617.0,8
+Q3_2025,Spotify,streaming_listeners,Ebute-Lekki,Lagos,374.0,2
+Q3_2025,Spotify,streaming_listeners,Ikorodu,Lagos,199.0,6
+Q3_2025,Spotify,streaming_listeners,Yola,Adamawa,147.0,8
+Q3_2025,Spotify,streaming_listeners,Zaria,Kaduna,140.0,12
+Q3_2025,Spotify,streaming_listeners,Anambra,KO,105.0,1
+Q3_2025,Spotify,streaming_listeners,Abeokuta,Ogun State,28.0,4
+Q3_2025,Spotify,streaming_listeners,Ilorin,Kwara,22.0,6
+Q3_2025,Spotify,streaming_listeners,Ilesa,Osun,16.0,2
+Q3_2025,Spotify,streaming_listeners,Sokoto,Sokoto,6.0,1
+Q3_2025,Spotify,streaming_listeners,Otor Udu,Delta,3.0,2
+Q3_2025,Spotify,streaming_listeners,Oworonshoki,Lagos,2.0,2
+Q3_2025,Spotify,streaming_listeners,Odeda,Ogun State,1.0,1
+Q3_2025,Spotify,streaming_listeners,Magboro,Ogun State,1.0,1
+Q3_2025,Spotify,streaming_listeners,Ifo,Ogun State,1.0,1
+Q3_2025,Spotify,streaming_listeners,Kwale,Delta,1.0,1
+Q3_2025,Spotify,streaming_listeners,ife,Osun,1.0,1
+Q3_2025,YouTube,streaming_listeners,Lagos,Lagos,2966914.0,183
+Q3_2025,YouTube,streaming_listeners,Port Harcourt,Rivers,858323.0,165
+Q3_2025,YouTube,streaming_listeners,Abuja,Federal Capital Territory,614580.0,176
+Q3_2025,YouTube,streaming_listeners,Onitsha,Anambra,177695.0,130
+Q3_2025,YouTube,streaming_listeners,Ibadan,Oyo,129630.0,137
+Q3_2025,YouTube,streaming_listeners,Ebute-Lekki,Lagos,20775.0,30
+Q3_2025,YouTube,streaming_listeners,Jos,Plateau,8497.0,60
+Q3_2025,YouTube,streaming_listeners,Benin City,Edo,1952.0,13
+Q3_2025,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,146.0,6
+Q3_2025,YouTube,streaming_listeners,Pakuro,Ogun State,105.0,4
+Q3_2025,YouTube,streaming_listeners,Gwarinpa,Federal Capital Territory,94.0,1
+Q3_2025,YouTube,streaming_listeners,Warri,Delta,84.0,4
+Q3_2025,YouTube,streaming_listeners,Abeokuta,Ogun State,51.0,3
+Q3_2025,YouTube,streaming_listeners,Enugu,Enugu,36.0,4
+Q3_2025,YouTube,streaming_listeners,Iddo Tudunwada,Federal Capital Territory,35.0,1
+Q3_2025,YouTube,streaming_listeners,Agege,,25.0,3
+Q3_2025,YouTube,streaming_listeners,Nsukka,Enugu,24.0,2
+Q3_2025,YouTube,streaming_listeners,Minna,Niger,18.0,2
+Q3_2025,YouTube,streaming_listeners,Uyo,Akwa Ibom,18.0,2
+Q3_2025,YouTube,streaming_listeners,Awka,Anambra,16.0,2
+Q3_2025,YouTube,streaming_listeners,Calabar,Cross River,13.0,1
+Q3_2025,YouTube,streaming_listeners,Katsina,Katsina,13.0,1
+Q3_2025,YouTube,streaming_listeners,Finima,Rivers,12.0,1
+Q3_2025,YouTube,streaming_listeners,Owerri,Imo,12.0,1
+Q3_2025,YouTube,streaming_listeners,Ado Ekiti,Ekiti,9.0,1
+Q3_2025,YouTube,streaming_listeners,Asaba,Delta,8.0,1
+Q3_2025,YouTube,streaming_listeners,Elelenwa,Rivers,6.0,1
+Q3_2025,YouTube,streaming_listeners,Kano,Kano,6.0,1
+Q3_2025,YouTube,streaming_listeners,Okpanam,Delta,5.0,1
+Q3_2025,YouTube,streaming_listeners,Akure,Ondo,5.0,1
+Q4_2025,Instagram,social_followers,Lagos,Lagos,112476876.0,213
+Q4_2025,Instagram,social_followers,Abuja,Federal Capital Territory,21484939.0,207
+Q4_2025,Instagram,social_followers,Port Harcourt,Rivers,6420180.0,188
+Q4_2025,Instagram,social_followers,Ado Ekiti,Ekiti,1266921.0,82
+Q4_2025,Instagram,social_followers,Uyo,Akwa Ibom,1257686.0,84
+Q4_2025,Instagram,social_followers,Osogbo,Osun,226267.0,22
+Q4_2025,Instagram,social_followers,Yenagoa,Bayelsa,92005.0,13
+Q4_2025,Instagram,social_followers,Makurdi,Benue,64835.0,5
+Q4_2025,Instagram,social_followers,Bauchi,Bauchi,20181.0,3
+Q4_2025,Instagram,social_followers,Maiduguri,Borno,12277.0,2
+Q4_2025,Instagram,social_followers,Zaria,Kaduna,10727.0,2
+Q4_2025,Instagram,social_followers,Gombe,Gombe,9834.0,2
+Q4_2025,Instagram,social_followers,Katsina,Katsina,9822.0,2
+Q4_2025,Instagram,social_followers,Gusau,Zamfara,6064.0,2
+Q4_2025,Instagram,social_followers,Birnin Kebbi,Kebbi,5840.0,2
+Q4_2025,Instagram,social_followers,Damaturu,Yobe,5732.0,2
+Q4_2025,Instagram,social_followers,Bindigari Pawari,Yobe,5174.0,2
+Q4_2025,Instagram,social_followers,Jalingo,Taraba,5123.0,2
+Q4_2025,Instagram,social_followers,Daura,Katsina,1164.0,1
+Q4_2025,Instagram,social_followers,Lokoja,Kogi,123.0,2
+Q4_2025,Spotify,streaming_listeners,Lagos,Lagos,89265072.0,647
+Q4_2025,Spotify,streaming_listeners,Port Harcourt,Rivers,41284328.0,614
+Q4_2025,Spotify,streaming_listeners,Abuja,Federal Capital Territory,39020059.0,621
+Q4_2025,Spotify,streaming_listeners,Benin City,Edo,14200909.0,574
+Q4_2025,Spotify,streaming_listeners,Ibadan,Oyo,6996183.0,584
+Q4_2025,Spotify,streaming_listeners,Kano,Kano,1707170.0,453
+Q4_2025,Spotify,streaming_listeners,Aba,Abia,1489436.0,462
+Q4_2025,Spotify,streaming_listeners,Owerri,Imo,1400720.0,461
+Q4_2025,Spotify,streaming_listeners,Jos,Plateau,1190365.0,392
+Q4_2025,Spotify,streaming_listeners,Awka,Anambra,888792.0,430
+Q4_2025,Spotify,streaming_listeners,Enugu,Enugu,818093.0,466
+Q4_2025,Spotify,streaming_listeners,Abakaliki,Ebonyi,708220.0,399
+Q4_2025,Spotify,streaming_listeners,Umuahia,Abia,580780.0,303
+Q4_2025,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,561142.0,281
+Q4_2025,Spotify,streaming_listeners,Yenagoa,Bayelsa,442894.0,378
+Q4_2025,Spotify,streaming_listeners,Kaduna,Kaduna,426466.0,305
+Q4_2025,Spotify,streaming_listeners,Onitsha,Anambra,420565.0,170
+Q4_2025,Spotify,streaming_listeners,Elelenwa,Rivers,235150.0,206
+Q4_2025,Spotify,streaming_listeners,Ilorin,Kwara,189566.0,188
+Q4_2025,Spotify,streaming_listeners,Ikeja,Lagos,112488.0,255
+Q4_2025,Spotify,streaming_listeners,Ikorodu,Lagos,55001.0,63
+Q4_2025,Spotify,streaming_listeners,Oyo,Oyo,54627.0,84
+Q4_2025,Spotify,streaming_listeners,Uyo,Akwa Ibom,51789.0,120
+Q4_2025,Spotify,streaming_listeners,Ondo,Ondo,43894.0,61
+Q4_2025,Spotify,streaming_listeners,Jamaare,Bauchi,42484.0,110
+Q4_2025,Spotify,streaming_listeners,jimeta,adamawa,41114.0,99
+Q4_2025,Spotify,streaming_listeners,Ebute-Lekki,Lagos,17332.0,58
+Q4_2025,Spotify,streaming_listeners,Auchi,Edo,10590.0,19
+Q4_2025,Spotify,streaming_listeners,Offa,Kwara,10346.0,47
+Q4_2025,Spotify,streaming_listeners,Abeokuta,Ogun State,8717.0,36
+Q4_2025,Spotify,streaming_listeners,Warri,Delta,6416.0,13
+Q4_2025,Spotify,streaming_listeners,Hadejia,Jigawa,4880.0,57
+Q4_2025,Spotify,streaming_listeners,Nsugbe,Anambra,4447.0,16
+Q4_2025,Spotify,streaming_listeners,Asaba,Delta,1853.0,4
+Q4_2025,Spotify,streaming_listeners,Ijebu Ode,Ogun State,1844.0,3
+Q4_2025,Spotify,streaming_listeners,Lekki,Lagos,1614.0,4
+Q4_2025,Spotify,streaming_listeners,Osogbo,Osun,1469.0,11
+Q4_2025,Spotify,streaming_listeners,Ogun State,OG,1239.0,7
+Q4_2025,Spotify,streaming_listeners,Pakuro,Ogun State,1200.0,8
+Q4_2025,Spotify,streaming_listeners,Otan Ayegbaju,Osun,853.0,3
+Q4_2025,Spotify,streaming_listeners,Sabo,Ogun State,751.0,1
+Q4_2025,Spotify,streaming_listeners,Magboro,Ogun State,398.0,1
+Q4_2025,Spotify,streaming_listeners,Idiomo,Ogun State,340.0,2
+Q4_2025,Spotify,streaming_listeners,Yola,Adamawa,211.0,15
+Q4_2025,Spotify,streaming_listeners,Sagamu,Ogun State,209.0,3
+Q4_2025,Spotify,streaming_listeners,Azare,Bauchi,197.0,6
+Q4_2025,Spotify,streaming_listeners,Oworonshoki,Lagos,117.0,2
+Q4_2025,Spotify,streaming_listeners,Agege,,101.0,1
+Q4_2025,Spotify,streaming_listeners,Eleko,Lagos,92.0,2
+Q4_2025,Spotify,streaming_listeners,Zaria,Kaduna,84.0,4
+Q4_2025,Spotify,streaming_listeners,New Karu,Federal Capital Territory,70.0,1
+Q4_2025,Spotify,streaming_listeners,Suleja,Niger,69.0,2
+Q4_2025,Spotify,streaming_listeners,Ikoyi,Osun,53.0,2
+Q4_2025,Spotify,streaming_listeners,Ifo,Ogun State,33.0,1
+Q4_2025,Spotify,streaming_listeners,Ogba,Edo,25.0,2
+Q4_2025,Spotify,streaming_listeners,Calabar,Cross River,20.0,1
+Q4_2025,Spotify,streaming_listeners,London,DE,12.0,1
+Q4_2025,Spotify,streaming_listeners,Ikotun,Lagos,11.0,1
+Q4_2025,Spotify,streaming_listeners,Ibafo,Ogun State,10.0,1
+Q4_2025,Spotify,streaming_listeners,Omu-Aran,Kwara,9.0,2
+Q4_2025,Spotify,streaming_listeners,Abraka,Delta,7.0,1
+Q4_2025,YouTube,streaming_listeners,Lagos,Lagos,3933847.0,180
+Q4_2025,YouTube,streaming_listeners,Port Harcourt,Rivers,911956.0,170
+Q4_2025,YouTube,streaming_listeners,Abuja,Federal Capital Territory,691613.0,176
+Q4_2025,YouTube,streaming_listeners,Ebute-Lekki,Lagos,26265.0,30
+Q4_2025,YouTube,streaming_listeners,Keffi,Nasarawa,17783.0,67
+Q4_2025,YouTube,streaming_listeners,Benin City,Edo,17447.0,53
+Q4_2025,YouTube,streaming_listeners,Jos,Plateau,9672.0,65
+Q4_2025,YouTube,streaming_listeners,Ibadan,Oyo,4756.0,48
+Q4_2025,YouTube,streaming_listeners,Abeokuta,Ogun State,278.0,2
+Q4_2025,YouTube,streaming_listeners,Pakuro,Ogun State,263.0,2
+Q4_2025,YouTube,streaming_listeners,Uyo,Akwa Ibom,226.0,4
+Q4_2025,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,32.0,4
+Q4_2025,YouTube,streaming_listeners,Warri,Delta,30.0,5
+Q4_2025,YouTube,streaming_listeners,Kano,Kano,19.0,2
+Q4_2025,YouTube,streaming_listeners,Oteri,Delta,15.0,1
+Q4_2025,YouTube,streaming_listeners,Okpanam,Delta,14.0,2
+Q4_2025,YouTube,streaming_listeners,Onitsha,Anambra,13.0,2
+Q4_2025,YouTube,streaming_listeners,Elelenwa,Rivers,10.0,2
+Q4_2025,YouTube,streaming_listeners,Nasarawa,Nasarawa,8.0,1
+Q4_2025,YouTube,streaming_listeners,Owerri,Imo,8.0,1
+Q4_2025,YouTube,streaming_listeners,Ikorodu,Lagos,7.0,1
+Q4_2025,YouTube,streaming_listeners,Finima,Rivers,7.0,1
+Q4_2025,YouTube,streaming_listeners,Lafia,Nasarawa,6.0,1
+Q4_2025,YouTube,streaming_listeners,Agege,,6.0,1
+Q4_2025,YouTube,streaming_listeners,Minna,Niger,6.0,1
+Q4_2025,YouTube,streaming_listeners,Zaria,Kaduna,6.0,1
+Q4_2025,YouTube,streaming_listeners,Aba,Abia,5.0,1
+Q1_2026,Instagram,social_followers,Lagos,Lagos,113521934.0,223
+Q1_2026,Instagram,social_followers,Abuja,Federal Capital Territory,21819767.0,217
+Q1_2026,Instagram,social_followers,Port Harcourt,Rivers,5792620.0,197
+Q1_2026,Instagram,social_followers,Uyo,Akwa Ibom,1209287.0,78
+Q1_2026,Instagram,social_followers,Ado Ekiti,Ekiti,689590.0,69
+Q1_2026,Instagram,social_followers,Osogbo,Osun,241149.0,23
+Q1_2026,Instagram,social_followers,Yenagoa,Bayelsa,65061.0,11
+Q1_2026,Instagram,social_followers,Makurdi,Benue,26439.0,5
+Q1_2026,Instagram,social_followers,Bauchi,Bauchi,21137.0,3
+Q1_2026,Instagram,social_followers,Maiduguri,Borno,13750.0,2
+Q1_2026,Instagram,social_followers,Gombe,Gombe,10955.0,2
+Q1_2026,Instagram,social_followers,Zaria,Kaduna,9956.0,2
+Q1_2026,Instagram,social_followers,Owo,Ondo,9667.0,1
+Q1_2026,Instagram,social_followers,Katsina,Katsina,9447.0,2
+Q1_2026,Instagram,social_followers,Gusau,Zamfara,5639.0,2
+Q1_2026,Instagram,social_followers,Damaturu,Yobe,5544.0,2
+Q1_2026,Instagram,social_followers,Birnin Kebbi,Kebbi,4077.0,2
+Q1_2026,Instagram,social_followers,Jalingo,Taraba,3800.0,2
+Q1_2026,Instagram,social_followers,Lafia,Nasarawa,1918.0,1
+Q1_2026,Instagram,social_followers,Daura,Katsina,1067.0,1
+Q1_2026,Instagram,social_followers,Lokoja,Kogi,97.0,2
+Q1_2026,Spotify,streaming_listeners,Lagos,Lagos,86275089.0,652
+Q1_2026,Spotify,streaming_listeners,Port Harcourt,Rivers,41851003.0,625
+Q1_2026,Spotify,streaming_listeners,Abuja,Federal Capital Territory,40620879.0,627
+Q1_2026,Spotify,streaming_listeners,Benin City,Edo,19635927.0,590
+Q1_2026,Spotify,streaming_listeners,Enugu,Enugu,7793011.0,542
+Q1_2026,Spotify,streaming_listeners,Ibadan,Oyo,6092823.0,585
+Q1_2026,Spotify,streaming_listeners,Kano,Kano,3794663.0,598
+Q1_2026,Spotify,streaming_listeners,Jos,Plateau,3528663.0,506
+Q1_2026,Spotify,streaming_listeners,Warri,Delta,2107387.0,490
+Q1_2026,Spotify,streaming_listeners,Ilorin,Kwara,2093687.0,545
+Q1_2026,Spotify,streaming_listeners,Kaduna,Kaduna,2087795.0,495
+Q1_2026,Spotify,streaming_listeners,Aba,Abia,1515701.0,468
+Q1_2026,Spotify,streaming_listeners,Minna,Niger,1459760.0,522
+Q1_2026,Spotify,streaming_listeners,Onitsha,Anambra,1291336.0,452
+Q1_2026,Spotify,streaming_listeners,Owerri,Imo,1250906.0,458
+Q1_2026,Spotify,streaming_listeners,Umuahia,Abia,1164370.0,424
+Q1_2026,Spotify,streaming_listeners,ife,Osun,870219.0,374
+Q1_2026,Spotify,streaming_listeners,Abakaliki,Ebonyi,831452.0,443
+Q1_2026,Spotify,streaming_listeners,Maiduguri,Borno,576248.0,328
+Q1_2026,Spotify,streaming_listeners,Asaba,Delta,531195.0,275
+Q1_2026,Spotify,streaming_listeners,Bunza,Kebbi,226576.0,235
+Q1_2026,Spotify,streaming_listeners,Yenagoa,Bayelsa,203793.0,265
+Q1_2026,Spotify,streaming_listeners,Osogbo,Osun,148981.0,165
+Q1_2026,Spotify,streaming_listeners,Awka,Anambra,130870.0,106
+Q1_2026,Spotify,streaming_listeners,Lokoja,Kogi,70883.0,115
+Q1_2026,Spotify,streaming_listeners,Ikorodu,Lagos,24788.0,38
+Q1_2026,Spotify,streaming_listeners,Uyo,Akwa Ibom,24374.0,66
+Q1_2026,Spotify,streaming_listeners,Nnewi,Anambra,4437.0,10
+Q1_2026,Spotify,streaming_listeners,Nsugbe,Anambra,4278.0,15
+Q1_2026,Spotify,streaming_listeners,Abeokuta,Ogun State,2804.0,17
+Q1_2026,Spotify,streaming_listeners,Hadejia,Jigawa,2636.0,58
+Q1_2026,Spotify,streaming_listeners,Ezeagu,Enugu,2162.0,3
+Q1_2026,Spotify,streaming_listeners,Makurdi,Benue,824.0,4
+Q1_2026,Spotify,streaming_listeners,Uromi,Edo,703.0,1
+Q1_2026,Spotify,streaming_listeners,Ikeja,Lagos,546.0,21
+Q1_2026,Spotify,streaming_listeners,Pakuro,Ogun State,225.0,5
+Q1_2026,Spotify,streaming_listeners,Ebute-Lekki,Lagos,151.0,4
+Q1_2026,Spotify,streaming_listeners,New Karu,Federal Capital Territory,124.0,2
+Q1_2026,Spotify,streaming_listeners,Oworonshoki,Lagos,122.0,2
+Q1_2026,Spotify,streaming_listeners,Yola,Adamawa,102.0,6
+Q1_2026,Spotify,streaming_listeners,Agege,,93.0,2
+Q1_2026,Spotify,streaming_listeners,Eleko,Lagos,85.0,2
+Q1_2026,Spotify,streaming_listeners,Suleja,Niger,78.0,2
+Q1_2026,Spotify,streaming_listeners,Idiomo,Ogun State,76.0,2
+Q1_2026,Spotify,streaming_listeners,Ogudu,Kwara,76.0,2
+Q1_2026,Spotify,streaming_listeners,Sokoto,Sokoto,72.0,2
+Q1_2026,Spotify,streaming_listeners,Satellite Town,Lagos,61.0,2
+Q1_2026,Spotify,streaming_listeners,Bonny,Rivers,57.0,2
+Q1_2026,Spotify,streaming_listeners,Ikoyi,Osun,51.0,2
+Q1_2026,Spotify,streaming_listeners,Lekki,Lagos,41.0,1
+Q1_2026,Spotify,streaming_listeners,Owode,Ogun State,30.0,1
+Q1_2026,Spotify,streaming_listeners,Badagry,Lagos,29.0,1
+Q1_2026,Spotify,streaming_listeners,Calabar,Cross River,20.0,1
+Q1_2026,Spotify,streaming_listeners,Ikotun,Lagos,11.0,1
+Q1_2026,Spotify,streaming_listeners,Ogba,Edo,9.0,1
+Q1_2026,Spotify,streaming_listeners,Ifo,Ogun State,8.0,1
+Q1_2026,YouTube,streaming_listeners,Lagos,Lagos,3119474.0,182
+Q1_2026,YouTube,streaming_listeners,Port Harcourt,Rivers,864214.0,169
+Q1_2026,YouTube,streaming_listeners,Abuja,Federal Capital Territory,574673.0,175
+Q1_2026,YouTube,streaming_listeners,Benin City,Edo,117019.0,118
+Q1_2026,YouTube,streaming_listeners,Onitsha,Anambra,109820.0,118
+Q1_2026,YouTube,streaming_listeners,Ibadan,Oyo,21734.0,74
+Q1_2026,YouTube,streaming_listeners,Ebute-Lekki,Lagos,16369.0,30
+Q1_2026,YouTube,streaming_listeners,Aba,Abia,5351.0,30
+Q1_2026,YouTube,streaming_listeners,Jos,Plateau,5117.0,62
+Q1_2026,YouTube,streaming_listeners,Osogbo,Osun,729.0,13
+Q1_2026,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,87.0,4
+Q1_2026,YouTube,streaming_listeners,Kano,Kano,56.0,4
+Q1_2026,YouTube,streaming_listeners,Owerri,Imo,49.0,3
+Q1_2026,YouTube,streaming_listeners,Enugu,Enugu,38.0,3
+Q1_2026,YouTube,streaming_listeners,Yenagoa,Bayelsa,29.0,3
+Q1_2026,YouTube,streaming_listeners,Maiduguri,Borno,27.0,2
+Q1_2026,YouTube,streaming_listeners,Warri,Delta,21.0,2
+Q1_2026,YouTube,streaming_listeners,Magboro,Ogun State,19.0,1
+Q1_2026,YouTube,streaming_listeners,Ilishan-Remo,Ogun State,19.0,1
+Q1_2026,YouTube,streaming_listeners,Agege,,17.0,2
+Q1_2026,YouTube,streaming_listeners,Gwarinpa,Federal Capital Territory,14.0,2
+Q1_2026,YouTube,streaming_listeners,Okpanam,Delta,12.0,1
+Q1_2026,YouTube,streaming_listeners,Akure,Ondo,8.0,1
+Q1_2026,YouTube,streaming_listeners,Katsina,Katsina,8.0,1
+Q1_2026,YouTube,streaming_listeners,Zaria,Kaduna,7.0,1
+Q1_2026,YouTube,streaming_listeners,Auaba,,6.0,1
+Q1_2026,YouTube,streaming_listeners,Finima,Rivers,6.0,1
+Q1_2026,YouTube,streaming_listeners,Calabar,Cross River,6.0,1
+Q1_2026,YouTube,streaming_listeners,Galadima,Zamfara,5.0,1
+Q1_2026,YouTube,streaming_listeners,Awka,Anambra,5.0,1
+Q1_2026,YouTube,streaming_listeners,Minna,Niger,5.0,1
+Q2_2026,Instagram,social_followers,Lagos,Lagos,115327103.0,236
+Q2_2026,Instagram,social_followers,Abuja,Federal Capital Territory,22022114.0,230
+Q2_2026,Instagram,social_followers,Port Harcourt,Rivers,6371948.0,206
+Q2_2026,Instagram,social_followers,Ado Ekiti,Ekiti,1262277.0,88
+Q2_2026,Instagram,social_followers,Uyo,Akwa Ibom,1069121.0,86
+Q2_2026,Instagram,social_followers,Osogbo,Osun,208893.0,24
+Q2_2026,Instagram,social_followers,Yenagoa,Bayelsa,58178.0,11
+Q2_2026,Instagram,social_followers,Makurdi,Benue,31312.0,5
+Q2_2026,Instagram,social_followers,Bauchi,Bauchi,19940.0,3
+Q2_2026,Instagram,social_followers,Maiduguri,Borno,11437.0,2
+Q2_2026,Instagram,social_followers,Gombe,Gombe,10513.0,2
+Q2_2026,Instagram,social_followers,Zaria,Kaduna,10031.0,2
+Q2_2026,Instagram,social_followers,Katsina,Katsina,9659.0,2
+Q2_2026,Instagram,social_followers,Damaturu,Yobe,6333.0,2
+Q2_2026,Instagram,social_followers,Gusau,Zamfara,6238.0,2
+Q2_2026,Instagram,social_followers,Birnin Kebbi,Kebbi,5590.0,2
+Q2_2026,Instagram,social_followers,Jalingo,Taraba,5385.0,3
+Q2_2026,Instagram,social_followers,Daura,Katsina,1391.0,1
+Q2_2026,Instagram,social_followers,Lokoja,Kogi,210.0,2
+Q2_2026,Spotify,streaming_listeners,Lagos,Lagos,100802477.0,649
+Q2_2026,Spotify,streaming_listeners,Abuja,Federal Capital Territory,50319199.0,628
+Q2_2026,Spotify,streaming_listeners,Port Harcourt,Rivers,47952754.0,621
+Q2_2026,Spotify,streaming_listeners,Benin City,Edo,19141262.0,597
+Q2_2026,Spotify,streaming_listeners,Ibadan,Oyo,10018254.0,582
+Q2_2026,Spotify,streaming_listeners,Enugu,Enugu,5753049.0,560
+Q2_2026,Spotify,streaming_listeners,Owerri,Imo,2742826.0,506
+Q2_2026,Spotify,streaming_listeners,Onitsha,Anambra,2259907.0,465
+Q2_2026,Spotify,streaming_listeners,Osogbo,Osun,2132873.0,484
+Q2_2026,Spotify,streaming_listeners,Warri,Delta,1448934.0,436
+Q2_2026,Spotify,streaming_listeners,Awka,Anambra,1383695.0,447
+Q2_2026,Spotify,streaming_listeners,Jos,Plateau,1300586.0,513
+Q2_2026,Spotify,streaming_listeners,Uyo,Akwa Ibom,1267398.0,449
+Q2_2026,Spotify,streaming_listeners,Aba,Abia,1206675.0,475
+Q2_2026,Spotify,streaming_listeners,Abakaliki,Ebonyi,1025020.0,415
+Q2_2026,Spotify,streaming_listeners,Umuahia,Abia,1019634.0,427
+Q2_2026,Spotify,streaming_listeners,Kano,Kano,979053.0,501
+Q2_2026,Spotify,streaming_listeners,Kaduna,Kaduna,730946.0,469
+Q2_2026,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,543709.0,347
+Q2_2026,Spotify,streaming_listeners,ife,Osun,496033.0,376
+Q2_2026,Spotify,streaming_listeners,Asaba,Delta,448301.0,321
+Q2_2026,Spotify,streaming_listeners,Nnewi,Anambra,382621.0,263
+Q2_2026,Spotify,streaming_listeners,Zaria,Kaduna,261698.0,224
+Q2_2026,Spotify,streaming_listeners,Ikeja,Lagos,247940.0,263
+Q2_2026,Spotify,streaming_listeners,Igando,Lagos,178921.0,182
+Q2_2026,Spotify,streaming_listeners,Sapele,Delta,108368.0,90
+Q2_2026,Spotify,streaming_listeners,Abeokuta,Ogun State,34586.0,57
+Q2_2026,Spotify,streaming_listeners,Oyo,Oyo,5129.0,14
+Q2_2026,Spotify,streaming_listeners,Makurdi,Benue,3794.0,9
+Q2_2026,Spotify,streaming_listeners,Ado Ekiti,Ekiti,3561.0,16
+Q2_2026,Spotify,streaming_listeners,Tarauni,Kano,1629.0,35
+Q2_2026,Spotify,streaming_listeners,Minna,Niger,1568.0,50
+Q2_2026,Spotify,streaming_listeners,Hadejia,Jigawa,1264.0,39
+Q2_2026,Spotify,streaming_listeners,Otan Ayegbaju,Osun,437.0,1
+Q2_2026,Spotify,streaming_listeners,Ilorin,Kwara,194.0,6
+Q2_2026,Spotify,streaming_listeners,Yola,Adamawa,137.0,4
+Q2_2026,Spotify,streaming_listeners,Ilesa,Osun,45.0,2
+Q2_2026,Spotify,streaming_listeners,Kaduna South,Kaduna,25.0,2
+Q2_2026,Spotify,streaming_listeners,Ikorodu,Lagos,8.0,2
+Q2_2026,Spotify,streaming_listeners,Agbara,Ogun State,3.0,1
+Q2_2026,YouTube,streaming_listeners,Lagos,Lagos,3116062.0,185
+Q2_2026,YouTube,streaming_listeners,Port Harcourt,Rivers,907035.0,169
+Q2_2026,YouTube,streaming_listeners,Abuja,Federal Capital Territory,842477.0,175
+Q2_2026,YouTube,streaming_listeners,Benin City,Edo,119501.0,113
+Q2_2026,YouTube,streaming_listeners,Onitsha,Anambra,47395.0,92
+Q2_2026,YouTube,streaming_listeners,Ebute-Lekki,Lagos,16520.0,27
+Q2_2026,YouTube,streaming_listeners,Jos,Plateau,11438.0,62
+Q2_2026,YouTube,streaming_listeners,Ibadan,Oyo,5445.0,24
+Q2_2026,YouTube,streaming_listeners,Enugu,Enugu,2591.0,27
+Q2_2026,YouTube,streaming_listeners,Warri,Delta,955.0,6
+Q2_2026,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,398.0,2
+Q2_2026,YouTube,streaming_listeners,Elelenwa,Rivers,45.0,1
+Q2_2026,YouTube,streaming_listeners,Kano,Kano,37.0,2
+Q2_2026,YouTube,streaming_listeners,Iddo Tudunwada,Federal Capital Territory,29.0,1
+Q2_2026,YouTube,streaming_listeners,Uyo,Akwa Ibom,27.0,3
+Q2_2026,YouTube,streaming_listeners,Maiduguri,Borno,21.0,2
+Q2_2026,YouTube,streaming_listeners,Katsina,Katsina,19.0,1
+Q2_2026,YouTube,streaming_listeners,Gwarinpa,Federal Capital Territory,11.0,1
+Q2_2026,YouTube,streaming_listeners,Sokoto,Sokoto,10.0,1
+Q2_2026,YouTube,streaming_listeners,Akure,Ondo,10.0,1
+Q2_2026,YouTube,streaming_listeners,Asaba,Delta,9.0,1
+Q2_2026,YouTube,streaming_listeners,Idogwari,Federal Capital Territory,8.0,1
+Q2_2026,YouTube,streaming_listeners,Agbor,Delta,8.0,1
+Q2_2026,YouTube,streaming_listeners,Keffi,Nasarawa,7.0,1
+Q2_2026,YouTube,streaming_listeners,Okpanam,Delta,6.0,1
+Q2_2026,YouTube,streaming_listeners,Abakaliki,Ebonyi,5.0,1
+Q3_2026,Instagram,social_followers,Lagos,Lagos,116156313.0,238
+Q3_2026,Instagram,social_followers,Abuja,Federal Capital Territory,21838797.0,229
+Q3_2026,Instagram,social_followers,Port Harcourt,Rivers,6085993.0,203
+Q3_2026,Instagram,social_followers,Uyo,Akwa Ibom,940768.0,71
+Q3_2026,Instagram,social_followers,Ado Ekiti,Ekiti,759957.0,66
+Q3_2026,Instagram,social_followers,Osogbo,Osun,151780.0,20
+Q3_2026,Instagram,social_followers,Makurdi,Benue,38953.0,5
+Q3_2026,Instagram,social_followers,Yenagoa,Bayelsa,26236.0,8
+Q3_2026,Instagram,social_followers,Bauchi,Bauchi,21399.0,3
+Q3_2026,Instagram,social_followers,Maiduguri,Borno,12253.0,2
+Q3_2026,Instagram,social_followers,Zaria,Kaduna,10165.0,2
+Q3_2026,Instagram,social_followers,Gombe,Gombe,9994.0,2
+Q3_2026,Instagram,social_followers,Katsina,Katsina,9154.0,2
+Q3_2026,Instagram,social_followers,Gusau,Zamfara,6217.0,2
+Q3_2026,Instagram,social_followers,Birnin Kebbi,Kebbi,5971.0,2
+Q3_2026,Instagram,social_followers,Jalingo,Taraba,5719.0,3
+Q3_2026,Instagram,social_followers,Damaturu,Yobe,4426.0,2
+Q3_2026,Instagram,social_followers,Lafia,Nasarawa,2157.0,1
+Q3_2026,Instagram,social_followers,Daura,Katsina,1363.0,1
+Q3_2026,Instagram,social_followers,Lokoja,Kogi,207.0,2
+Q3_2026,Spotify,streaming_listeners,Lagos,Lagos,120066306.0,648
+Q3_2026,Spotify,streaming_listeners,Abuja,Federal Capital Territory,45378505.0,623
+Q3_2026,Spotify,streaming_listeners,Port Harcourt,Rivers,44839156.0,613
+Q3_2026,Spotify,streaming_listeners,Benin City,Edo,16289667.0,587
+Q3_2026,Spotify,streaming_listeners,Enugu,Enugu,8979708.0,552
+Q3_2026,Spotify,streaming_listeners,Ibadan,Oyo,6047467.0,566
+Q3_2026,Spotify,streaming_listeners,Awka,Anambra,3559768.0,488
+Q3_2026,Spotify,streaming_listeners,Enugwu Ukwu,Anambra,3076776.0,476
+Q3_2026,Spotify,streaming_listeners,Abakaliki,Ebonyi,2050189.0,476
+Q3_2026,Spotify,streaming_listeners,Owerri,Imo,1224535.0,466
+Q3_2026,Spotify,streaming_listeners,Warri,Delta,1078517.0,431
+Q3_2026,Spotify,streaming_listeners,Yenagoa,Bayelsa,984873.0,380
+Q3_2026,Spotify,streaming_listeners,Onitsha,Anambra,873527.0,438
+Q3_2026,Spotify,streaming_listeners,Umuahia,Abia,810667.0,359
+Q3_2026,Spotify,streaming_listeners,Aba,Abia,684434.0,350
+Q3_2026,Spotify,streaming_listeners,Jos,Plateau,548231.0,368
+Q3_2026,Spotify,streaming_listeners,Ikorodu,Lagos,534997.0,300
+Q3_2026,Spotify,streaming_listeners,Asaba,Delta,510474.0,349
+Q3_2026,Spotify,streaming_listeners,Kano,Kano,330552.0,294
+Q3_2026,Spotify,streaming_listeners,Zaria,Kaduna,216991.0,222
+Q3_2026,Spotify,streaming_listeners,Uyo,Akwa Ibom,169551.0,173
+Q3_2026,Spotify,streaming_listeners,Makurdi,Benue,149394.0,110
+Q3_2026,Spotify,streaming_listeners,Suleja,Niger,115379.0,98
+Q3_2026,Spotify,streaming_listeners,Kaduna,Kaduna,84742.0,97
+Q3_2026,Spotify,streaming_listeners,Akure,Ondo,76556.0,107
+Q3_2026,Spotify,streaming_listeners,Abeokuta,Ogun State,48181.0,87
+Q3_2026,Spotify,streaming_listeners,Osogbo,Osun,9413.0,42
+Q3_2026,Spotify,streaming_listeners,Ikeja,Lagos,5243.0,26
+Q3_2026,Spotify,streaming_listeners,Kumbotso,Kano,5149.0,45
+Q3_2026,Spotify,streaming_listeners,Nnewi,Anambra,3920.0,41
+Q3_2026,Spotify,streaming_listeners,Ilorin,Kwara,3107.0,21
+Q3_2026,Spotify,streaming_listeners,Oyo,Oyo,1324.0,5
+Q3_2026,Spotify,streaming_listeners,Hadejia,Jigawa,1036.0,37
+Q3_2026,Spotify,streaming_listeners,Kaduna South,Kaduna,232.0,5
+Q3_2026,Spotify,streaming_listeners,Ungogo,Kano,141.0,6
+Q3_2026,Spotify,streaming_listeners,Ilesa,Osun,41.0,1
+Q3_2026,YouTube,streaming_listeners,Lagos,Lagos,3912719.0,183
+Q3_2026,YouTube,streaming_listeners,Port Harcourt,Rivers,989787.0,158
+Q3_2026,YouTube,streaming_listeners,Abuja,Federal Capital Territory,933550.0,170
+Q3_2026,YouTube,streaming_listeners,Benin City,Edo,107642.0,103
+Q3_2026,YouTube,streaming_listeners,Onitsha,Anambra,36232.0,86
+Q3_2026,YouTube,streaming_listeners,Ebute-Lekki,Lagos,21606.0,20
+Q3_2026,YouTube,streaming_listeners,Jos,Plateau,19257.0,61
+Q3_2026,YouTube,streaming_listeners,Warri,Delta,445.0,5
+Q3_2026,YouTube,streaming_listeners,Kubwa,Federal Capital Territory,325.0,3
+Q3_2026,YouTube,streaming_listeners,Enugu,Enugu,285.0,14
+Q3_2026,YouTube,streaming_listeners,Ibadan,Oyo,31.0,3
+Q3_2026,YouTube,streaming_listeners,Auaba,,26.0,2
+Q3_2026,YouTube,streaming_listeners,Uyo,Akwa Ibom,26.0,2
+Q3_2026,YouTube,streaming_listeners,Kano,Kano,20.0,1
+Q3_2026,YouTube,streaming_listeners,Agege,,17.0,2
+Q3_2026,YouTube,streaming_listeners,Owerri,Imo,6.0,1
+Q3_2026,YouTube,streaming_listeners,Awka,Anambra,6.0,1
+Q3_2026,YouTube,streaming_listeners,Calabar,Cross River,6.0,1
+Q3_2026,YouTube,streaming_listeners,Ikorodu,Lagos,5.0,1

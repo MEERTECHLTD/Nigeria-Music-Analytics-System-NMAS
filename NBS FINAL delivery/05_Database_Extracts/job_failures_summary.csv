@@ -1,0 +1,2 @@
+error_type,count,messages
+chartmetric_request_error,214,"Chartmetric request failed with status 429.,Chartmetric request failed with status 401.,('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"

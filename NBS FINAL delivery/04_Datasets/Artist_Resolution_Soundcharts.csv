@@ -1,0 +1,856 @@
+artist_name,cm_artist_id,sc_uuid,sc_name,sc_slug,sc_country,sc_career_stage,match_confidence,candidates_seen
+2Baba,180612,11e83fe6-991f-e24a-85c4-a0369fe50396,2Baba,2baba,NG,mainstream,exact_ng,10
+Bad Boy Timz,1596343,af27eea6-8933-11e9-b0df-549f35161576,Bad Boy Timz,bad-boy-timz,NG,long_tail,exact_ng,4
+Bella Shmurda,1526513,95344eec-423c-11e9-8db6-549f35141000,Bella Shmurda,bella-shmurda,NG,mainstream,exact_ng,10
+Ayra Starr,4200054,440f0f3d-170e-4be3-ac0a-182326bf51f6,Ayra Starr,ayra-starr-1,NG,superstar,exact_ng,5
+Bayanni,9591956,1a43db25-4375-45ef-ba3e-7c9367f4cad5,Bayanni,bayanni,NG,mid_level,exact_ng,10
+Adekunle Gold,640717,11e81bbe-1e84-5c38-a593-a0369fe50396,Adekunle Gold,adekunle-gold,NG,mid_level,exact_ng,6
+9ice,3683,11e81bc6-7062-ea76-9ea5-a0369fe50396,9ice,9ice,NG,mid_level,exact_ng,10
+Banky W.,107373,11e81bcd-0487-be9c-8bf1-a0369fe50396,Banky W.,banky-w,NG,mid_level,exact_ng,6
+Ajebutter22,202020,11e83fe1-7743-6ce6-a586-aa1c026db3d8,Ajebutter22,ajebutter22,NG,mid_level,exact_ng,8
+Asake,1779041,fbe8f070-b8f8-11e8-af3e-525400009efb,Asake,asake,NG,superstar,exact_ng,10
+Aṣa,63541,11e81bc7-0336-16d4-827a-a0369fe50396,Aṣa,asa-2,FR,long_tail,exact_foreign,10
+Amaarae,834689,11e83fed-8dd7-286a-83f4-a0369fe50396,Amaarae,amaarae,GH,mainstream,exact_foreign,10
+Bloody Civilian,9901852,0521d08a-9168-4c3a-9f8d-46d2b3c36ea3,Bloody Civilian,bloody-civilian,NG,mid_level,exact_ng,2
+Brymo,15051,11e81bbe-54ed-29d0-9ff6-a0369fe50396,Brymo,brymo,NG,long_tail,exact_ng,10
+Boj,317847,11e83fe1-9f7d-e4f2-87f0-a0369fe50396,Boj,boj,NG,mid_level,exact_ng,10
+Blaqbonez,880055,090ce0d4-b33d-11e8-b1c2-525400009efb,Blaqbonez,blaqbonez-1,NG,long_tail,exact_ng,10
+BNXN,1363515,11e83fe9-d026-36d8-8f3f-aa1c026db3d8,BNXN,buju,NG,long_tail,exact_ng,10
+Boy Spyce,6124353,d0409c99-c83e-403e-9a1e-a73ff46e7fe6,Boy Spyce,boy-spyce,NG,long_tail,exact_ng,9
+Burna Boy,441923,14ff75bc-4c73-11e9-a24b-549f35141000,Burna Boy,burna-boy,NG,superstar,exact_ng,10
+Bracket,712,11e81bc9-a2b1-6536-9259-a0369fe50396,Bracket,bracket,NG,mid_level,exact_ng,10
+CKay,919695,11e83fec-1580-802e-81df-aa1c026db3d8,Ckay,ckay,NG,mainstream,exact_ng,10
+Chike,1139022,11e81bc0-0cbc-b08e-bee2-a0369fe50396,Chike,chike,NG,mid_level,exact_ng,10
+CDQ,101087,11e83fe2-3f9a-9fc0-8f52-a0369fe50396,CDQ,cdq,NG,mid_level,exact_ng,10
+Crayon,1705853,4071305e-b790-11e9-94f0-00163ec5a2fb,Crayon,crayon-12,FR,mid_level,exact_foreign,10
+Cruel Santino,921836,7d459933-46a9-49bd-bebc-b48dad4284e3,Cruel Santino,cruel-santino,NG,long_tail,exact_ng,2
+D'banj,3225,11e81bc7-2e44-87a2-9ff7-a0369fe50396,D'banj,d-banj-1,NG,mid_level,exact_ng,10
+Darkoo,821653,11e83fee-736a-5e06-aedf-a0369fe50396,Darkoo,darkoo,GB,long_tail,exact_foreign,10
+Darey,510303,11e83fe3-9279-0884-b06a-aa1c026db3d8,Darey,darey,NG,long_tail,exact_ng,10
+DJ Spinall,1068888,11e83fe1-2cd5-afde-97dd-aa1c026db3d8,DJ Spinall,dj-spinall,NG,long_tail,exact_ng,4
+Dammy Krane,423004,11e81bcb-904d-95e8-9170-a0369fe50396,Dammy Krane,dammy-krane,NG,long_tail,exact_ng,10
+Dice Ailes,627972,11e81bc8-87ed-a4d6-9ccf-a0369fe50396,Dice Ailes,dice-ailes,NG,mid_level,exact_ng,4
+DJ Cuppy,12822800,3cbe1ad5-4fbd-4f8f-92c6-2c2711ebb6a1,Dj Cuppy,dj-cuppy-4,,long_tail,exact_no_country,3
+Davido,4723,11e81bc8-7fc6-6428-9478-a0369fe50396,Davido,davido,NG,superstar,exact_ng,10
+DJ Neptune,269281,11e83fe0-3869-816e-b026-a0369fe50396,DJ Neptune,dj-neptune,NG,mainstream,exact_ng,10
+Duncan Mighty,410515,11e83fe0-9794-2bf8-b680-aa1c026db3d8,Duncan Mighty,duncan-mighty,NG,mainstream,exact_ng,10
+Dremo,367518,11e83fe7-2406-7860-a473-aa1c026db3d8,Dremo,dremo,NG,mid_level,exact_ng,10
+Ebenezer Obey,7794895,11e81bce-8c53-3da0-8b73-a0369fe50396,Ebenezer Obey,ebenezer-obey,NG,long_tail,exact_ng,10
+Fireboy DML,1359817,18505440-d214-11e8-bcf0-525400009efb,Fireboy Dml,fireboy-dml,NG,superstar,exact_ng,6
+Falz,5416,11e83fe0-e52a-77fa-af82-aa1c026db3d8,Falz,falz-2,NG,mainstream,exact_ng,10
+Flavour N'abania,372062,11e81bbf-ed91-481e-a3ef-a0369fe50396,Flavour N'abania,flavour-n-abania,,long_tail,exact_no_country,1
+Fela Kuti,1194,11e81bc7-c756-75e0-a28d-a0369fe50396,Fela Kuti,fela-kuti,NG,long_tail,exact_ng,10
+Eldee,543431,11e83fe0-90a8-92fc-8b81-aa1c026db3d8,eLDee,eldee,NG,long_tail,exact_ng,10
+Flavour,56982,11e83fdf-c3b8-53ae-b7d1-aa1c026db3d8,Flavour,flavour-2,NG,mainstream,exact_ng,10
+Ice Prince,4107,11e81bc7-f9e2-7824-a703-a0369fe50396,Ice Prince,ice-prince,NG,mid_level,exact_ng,10
+Jesse Jagz,194174,11e81bc8-c2ab-e77c-873e-a0369fe50396,Jesse Jagz,jesse-jagz,NG,long_tail,exact_ng,10
+HarrySong,268217,11e81bd2-6718-fb34-9bfb-a0369fe50396,Harrysong,harrysong,NG,mid_level,exact_ng,10
+Illbliss,43445,11e83fe0-e3c9-5aa2-bb73-aa1c026db3d8,Illbliss,illbliss,NG,long_tail,exact_ng,10
+Iyanya,211380,11e81bc8-110a-24b6-9b11-a0369fe50396,Iyanya,iyanya,NG,mid_level,exact_ng,10
+Joeboy,1141538,e344e41a-d8e3-11e8-bc95-549f35161576,Joeboy,joeboy,NG,mainstream,exact_ng,10
+Johnny Drille,521793,11e83fe6-226c-8e46-bf3a-aa1c026db3d8,Johnny Drille,johnny-drille,NG,mainstream,exact_ng,10
+King Sunny Ade,47108,11e81bd3-3141-7c42-be28-a0369fe50396,King Sunny Ade,king-sunny-ade,NG,mid_level,exact_ng,10
+Khaid,8358898,f24b2fd8-a778-47aa-a656-a3e9dd2daa6a,Khaid,khaid-1,NG,mainstream,exact_ng,10
+Korede Bello,161462,11e81bbf-fd1a-43d0-8484-a0369fe50396,Korede Bello,korede-bello,NG,mid_level,exact_ng,5
+Kizz Daniel,1033822,0c223d4e-f72d-11e8-aee9-549f35141000,Kizz Daniel,kizz-daniel,NG,superstar,exact_ng,10
+Lady Donli,629778,11e83fe6-189b-4d30-b6d4-aa1c026db3d8,Lady Donli,lady-donli,NG,mid_level,exact_ng,7
+Lil Kesh,5380,11e81bcd-5d1d-0f44-ae3c-a0369fe50396,Lil Kesh,lil-kesh,NG,mainstream,exact_ng,10
+LADIPOE,747150,11e83fed-0195-65ce-9525-aa1c026db3d8,LADIPOE,ladipoe,NG,long_tail,exact_ng,10
+Lagbaja,112315,11e81bc7-e1cf-6d28-8888-a0369fe50396,Lagbaja,lagbaja,NG,long_tail,exact_ng,10
+Lojay,1407482,f8eb637c-c211-11e8-b77a-525400009efb,Lojay,lojay,NG,long_tail,exact_ng,10
+Libianca,3976019,8ac4922c-c67c-11e9-8c7b-e4434b16cb7a,Libianca,libianca,CM,mid_level,exact_foreign,10
+Lyta,883219,11e81bbb-6acc-51ca-92f0-a0369fe50396,Lyta,lyta,NG,long_tail,exact_ng,10
+M.I. Abaga,57275,11e83fe1-56b0-dffe-9f76-a0369fe50396,M.I. Abaga,m-i-abaga,NG,mid_level,exact_ng,10
+Maleek Berry,5370,11e81bcc-e0c6-1ac6-8e28-a0369fe50396,Maleek Berry,maleek-berry,GB,long_tail,exact_foreign,3
+Mannywellz,260858,11e81bc8-963c-aa3c-ae8c-a0369fe50396,Mannywellz,mannywellz,US,mid_level,exact_foreign,7
+Magixx,3385702,414cd652-df48-11e8-9171-525400009efb,Magixx,magixx,NG,mainstream,exact_ng,10
+Mr Real,818502,426cd532-b338-11e8-9639-525400009efb,Mr Real,mr-real-1,NG,long_tail,exact_ng,10
+Mr Eazi,211382,66436e6e-b7ff-11e8-9127-525400009efb,Mr Eazi,mr-eazi-1,NG,long_tail,exact_ng,8
+Mayorkun,261082,11e83fe7-2879-668c-bd4f-aa1c026db3d8,Mayorkun,mayorkun,NG,mainstream,exact_ng,10
+Naira Marley,427024,11e81bc0-b6b1-58b0-83bc-a0369fe50396,Naira Marley,naira-marley,NG,long_tail,exact_ng,10
+Naeto C,429240,11e81bbb-1880-fe2a-8f70-a0369fe50396,Naeto C,naeto-c,NG,long_tail,exact_ng,8
+Mohbad,1572633,265de3e0-47bc-11e9-a956-549f35141000,Mohbad,mohbad,NG,long_tail,exact_ng,10
+Niniola,409530,11e83fe2-d671-ff6a-aea5-aa1c026db3d8,Niniola,niniola,NG,long_tail,exact_ng,10
+Nonso Amadi,485812,11e83fe5-f9e3-6198-b06b-aa1c026db3d8,Nonso Amadi,nonso-amadi,CA,mainstream,exact_foreign,7
+Odunsi (The Engine),11587,11e83fe6-831b-0934-b352-a0369fe50396,Odunsi (The Engine),odunsi-the-engine,NG,mid_level,exact_ng,6
+Olu Maintain,29054,11e81bca-b94a-fe82-9f52-a0369fe50396,Olu Maintain,olu-maintain,NG,long_tail,exact_ng,4
+Omah Lay,3578130,28810016-6284-11e9-bd7c-549f35141000,Omah lay,omah-lay,NG,superstar,exact_ng,10
+Olakira,1103816,11e8aa02-78e4-3c8e-b8d9-525400009efb,Olakira,olakira,NG,mid_level,exact_ng,10
+Olamide,5061,11e81bbc-22c1-79ea-a928-a0369fe50396,Olamide,olamide,NG,mainstream,exact_ng,10
+ODUMODUBLVCK,3606151,87c9bd86-7bdb-11e9-b465-549f35161576,Odumodublvck,odumodublvck,NG,mainstream,exact_ng,10
+Oxlade,1373421,11e83fe8-3ab6-b934-a324-a0369fe50396,Oxlade,oxlade,NG,long_tail,exact_ng,10
+Odunsi,1439568,640cdc3e-ef4a-11e8-9bac-00163ec5a2fb,Odunsi,odunsi-1,,long_tail,exact_no_country,10
+Oritsefemi,3803802,11e83fe0-0d23-3428-8a15-aa1c026db3d8,Oritsefemi,oritsefemi,NG,long_tail,exact_ng,10
+P-Square,3740,11e81bcd-4ae0-f2a0-8ba7-a0369fe50396,P-Square,p-square,NG,mainstream,exact_ng,10
+Patoranking,5321,11e81bca-1407-d954-8977-a0369fe50396,Patoranking,patoranking,NG,mainstream,exact_ng,10
+Peruzzi,745195,11e83fec-c2fa-43d4-9a80-aa1c026db3d8,Peruzzi,peruzzi,NG,long_tail,exact_ng,10
+Pheelz,406946,11e81bc8-7e8b-eccc-ac06-a0369fe50396,Pheelz,pheelz,NG,mainstream,exact_ng,10
+Praiz,310091,11e83fe1-242a-2ab8-8591-aa1c026db3d8,Praiz,praiz,NG,mid_level,exact_ng,10
+Reekado Banks,237551,11e81bd2-b452-2f60-976a-a0369fe50396,Reekado Banks,reekado-banks,NG,mainstream,exact_ng,10
+Prettyboy D-O,918914,11e83fee-c29b-6c9a-88c9-aa1c026db3d8,Prettyboy D-O,prettyboydo,NG,long_tail,exact_ng,4
+Qing Madi,9785228,05192496-df0f-479c-b2cf-b8d9cde3b1a4,Qing Madi,qing-madi,NG,mid_level,exact_ng,10
+Portable,8230229,dd38b978-78e2-410c-a4eb-09ab5c78bbb6,Portable,portable-24,NG,long_tail,exact_ng,10
+Rema,1426518,83f78e52-2a25-11e9-9063-00163ec5a2fb,Rema,rema-4,NG,superstar,exact_ng,10
+Ric Hassani,638877,11e83fe8-f69b-3896-9a79-a0369fe50396,Ric Hassani,ric-hassani,NG,mid_level,exact_ng,4
+Reminisce,317357,11e83fe0-a072-2798-bce7-aa1c026db3d8,Reminisce,reminisce-2,NG,mid_level,exact_ng,10
+Rude Boy,1630426,ae344c3a-95a2-4f06-99c6-574753ea9247,Rude Boy,rude-boy-28,US,long_tail,exact_foreign,10
+Ruger,4198930,69a954da-0785-11e9-9ea6-00163ec5a2fb,ruger,ruger-2,NG,mainstream,exact_ng,10
+Sauce Kid,321148,11e81bc9-81de-0ddc-ac7d-a0369fe50396,Sauce Kid,sauce-kid,US,mid_level,exact_foreign,10
+Sarz,308113,11e83fe3-41a0-29c4-a682-aa1c026db3d8,Sarz,sarz,NG,mainstream,exact_ng,10
+Sean Tizzle,203976,11e83fe0-f3cf-b8ce-8676-a0369fe50396,Sean Tizzle,sean-tizzle,NG,mid_level,exact_ng,6
+Seyi Shay,39092,11e81bbf-6a12-ce54-a84f-a0369fe50396,Seyi Shay,seyi-shay,NG,long_tail,exact_ng,5
+Show Dem Camp,655429,11e83fec-0262-8fc8-9c49-a0369fe50396,Show Dem Camp,show-dem-camp,NG,mid_level,exact_ng,6
+Seyi Vibez,1637455,ec4d0e38-9a63-11e9-a0dd-801844edfa71,Seyi Vibez,seyi-vibez,NG,superstar,exact_ng,10
+Shallipopi,6487237,87954391-78cf-4f78-ab80-a4a988c2ff44,Shallipopi,shallipopi,NG,mainstream,exact_ng,10
+Simi,374667,11e81bc0-9207-36ce-8a33-a0369fe50396,Simi,simi-1,NG,mid_level,exact_ng,10
+Skiibii,680380,11e83fe2-1ca0-e448-be29-a0369fe50396,Skiibii,skiibii,NG,mainstream,exact_ng,10
+Small Doctor,515515,11e83fe4-78c4-0960-8e65-aa1c026db3d8,Small Doctor,small-doctor,NG,mid_level,exact_ng,10
+Phyno,5012,11e81bc9-122a-1df0-971e-a0369fe50396,Phyno,phyno,NG,mainstream,exact_ng,10
+Solidstar,92994,11e83fe0-0bd3-02b0-87d2-a0369fe50396,Solidstar,solidstar,NG,mid_level,exact_ng,10
+Sound Sultan,249694,11e81bc0-a2d2-6352-b600-a0369fe50396,Sound Sultan,sound-sultan,NG,long_tail,exact_ng,10
+Spyro,536112,11e83fe9-1ec3-8e86-a297-a0369fe50396,Spyro,spyro,NG,long_tail,exact_ng,10
+Tekno,426512,11e81bc9-b5f6-4382-b877-a0369fe50396,Tekno,tekno,NG,mid_level,exact_ng,10
+Tay Iwar,565281,11e83fec-3688-4298-b10b-a0369fe50396,Tay Iwar,tay-iwar,NG,mid_level,exact_ng,8
+Teni,349654,ea14144c-f8a4-11e8-b144-549f35141000,Teni,teni-2,NG,mid_level,exact_ng,10
+Tems,1345060,11e8aa04-ab2d-ccbc-9d98-525400009efb,Tems,tems-1,NG,mid_level,exact_ng,10
+Terri,883093,7d94c93e-b2c1-11e8-adde-525400009efb,Terri,terri-1,NG,mid_level,exact_ng,10
+Terry Apala,228944,11e83fe7-dbf6-6db8-8d80-aa1c026db3d8,Terry Apala,terry-apala,NG,long_tail,exact_ng,10
+Timaya,210713,11e81bc1-eba2-7166-9321-a0369fe50396,Timaya,timaya,NG,mid_level,exact_ng,10
+Tiwa Savage,4686,11e81bbe-aaa0-d7c8-95de-a0369fe50396,Tiwa Savage,tiwa-savage,NG,mid_level,exact_ng,10
+Vector,170806,11e81bca-e330-3a0a-8525-a0369fe50396,Vector,vector,NG,long_tail,exact_ng,10
+Wande Coal,3499,11e81bc7-d221-7a06-9423-a0369fe50396,Wande Coal,wande-coal,NG,mainstream,exact_ng,10
+Wizkid,4390,11e81bbb-8063-e642-9bd4-a0369fe50396,WizKid,wizkid,NG,mainstream,exact_ng,10
+Ycee,5382,11e81bbc-4157-d70a-8007-a0369fe50396,YCEE,ycee,NG,long_tail,exact_ng,10
+WurlD,424613,11e81bbf-bd71-282a-bcb4-a0369fe50396,Wurld,wurld,US,long_tail,exact_foreign,10
+Waje,429450,11e83fe0-0ed9-4abe-bd27-aa1c026db3d8,Waje,waje,NG,mid_level,exact_ng,10
+Victony,3905071,2bfde0ba-6cd9-11e9-80c0-00163ec5a2fb,Victony,victony,NG,superstar,exact_ng,10
+Yemi Alade,211381,11e81bbc-82d3-402a-8e1b-a0369fe50396,Yemi Alade,yemi-alade,NG,mid_level,exact_ng,10
+Young Jonn,1186093,c3bea966-f6d7-11e8-ae58-549f35141000,Young Jonn,young-jonn,NG,mainstream,exact_ng,8
+Zinoleesky,1582294,fcb44610-7ace-11e9-892e-801844edfa71,Zinoleesky,zinoleesky,NG,long_tail,exact_ng,10
+Yung6ix,5060,11e81bbc-a4b1-4c78-931c-a0369fe50396,Yung6ix,yung6ix,NG,long_tail,exact_ng,10
+Tempoe,9190388,d5a762fe-5d2d-4417-9aa7-cdd3e418bfb7,Tempoe,tempoe,US,long_tail,exact_foreign,10
+Zlatan,392233,11e83fe0-3cd7-d444-8ada-aa1c026db3d8,Zlatan,zlatan-1,NG,mainstream,exact_ng,10
+Abdu Boda,,b0b8935c-b8ea-11e8-ae6b-525400009efb,Abdu Boda,abdu-boda,NG,long_tail,exact_ng,1
+Abbey Ojomu,,89b351bd-fdfd-4ae7-a50c-e6ce65458903,Abbey Ojomu,abbey-ojomu,NG,long_tail,exact_ng,9
+Abass Akande Obesere,,11e83fe6-1523-ba52-8d82-a0369fe50396,Abass Akande Obesere,abass-akande-obesere,,long_tail,exact_no_country,6
+6UFF,,2339acfa-e155-414e-b485-148302c239b5,6uff,6uff,NG,mid_level,exact_ng,10
+$tretto,,74bdcd41-1fd0-42ca-9e4f-8772a1304deb,$tretto,tretto,NG,long_tail,exact_ng,10
+A-Q,,11e83fe2-c83a-d778-9cf1-aa1c026db3d8,A-Q,a-q,NG,long_tail,exact_ng,10
+Abdul D One,,2925ab1e-c2f7-4385-a76d-c5052b82713d,Abdul D One,abdul-d-one,NG,long_tail,exact_ng,10
+Abdullahi Danko,,,,,,,unmatched,0
+Abibu Oluwa,,,,,,,unmatched,2
+Abefe,,60775db2-44ec-486e-b346-c9ccbdc6d21f,ABEFE,abefe,NG,mid_level,exact_ng,10
+Abiodun Duro-Ladipo,,,,,,,unmatched,0
+Abiodun,,162333e6-ed4d-11e8-a9ad-549f35161576,Abiodun,abiodun,DE,long_tail,exact_foreign,10
+Abiodun Koya,,64181c66-bf01-48b5-85e0-efffea3d461f,Abiodun Koya,abiodun-koya-1,NG,long_tail,exact_ng,2
+Abubakar Sani,,76efa6a8-b8e8-11e8-a907-525400009efb,Abubakar Sani,abubakar-sani,,long_tail,exact_no_country,3
+Ada Ehi,,77e70a38-87d7-11e9-91af-e4434b16cb7a,Ada Ehi,ada-ehi,NG,mid_level,exact_ng,7
+Adedoyin Oseni,,d9be566d-3ec1-49f8-94e0-909f579764c5,Adedoyin Oseni,adedoyin-oseni,NG,long_tail,exact_ng,1
+Adam A. Zango,,90916b1e-c662-11e8-b387-549f35161576,Adam A Zango,adam-a-zango-1,NG,long_tail,exact_ng,10
+Adewale Ayuba,,11e81bc7-1732-bfca-aeac-a0369fe50396,Adewale Ayuba,adewale-ayuba,NG,long_tail,exact_ng,8
+AcebergTM,,9379aef0-c1dd-4ede-bde7-68087429c96a,Acebergtm,acebergtm,NG,long_tail,exact_ng,8
+Ado Gwanja,,56d06f4e-c20f-11e8-b1ef-525400009efb,Ado Gwanja,ado-gwanja-1,NG,long_tail,exact_ng,7
+Ado Ibro,,,,,,,unmatched,0
+Adé Bantu,,a6e0fd80-0ce7-46b7-8e95-f9124574205f,Ade Bantu,ade-bantu-1,NG,long_tail,exact_ng,1
+Afrikan Boy,,11e81bc7-9f54-f7c4-9c55-a0369fe50396,Afrikan Boy,afrikan-boy,GB,long_tail,exact_foreign,3
+Agbonayinma Ehiozuwa,,,,,,,unmatched,0
+Afro Candy,,,,,,,unmatched,0
+Ahmad S. Nuhu,,,,,,,unmatched,0
+Agboola Shadare,,0ff25678-c24b-11e8-8046-525400009efb,Agboola Shadare,agboola-shadare-1,US,long_tail,exact_foreign,2
+Akanbi Wright,,,,,,,unmatched,1
+Ajebo Hustlers,,333122f9-5125-4d2b-be92-91b1a86bbf1f,Ajebo Hustlers,ajebo-hustlers-5,NG,long_tail,exact_ng,8
+Aisosa,,ccb735bb-1214-418d-b715-057d0daa17ff,Aisosa,aisosa,NG,long_tail,exact_ng,10
+Al Xapo,,f4d2cdbf-1b78-4ffd-aabd-fc9ae42e389f,Al Xapo,al-xapo,ZA,long_tail,exact_foreign,6
+Ajofé,,9ac61742-b1f3-43e4-9d50-32b517b74c12,ajofé.,ajofe,NG,long_tail,exact_ng,10
+Ali Jita,,cb11fecc-b8e1-11e8-9a7c-525400009efb,Ali Jita,ali-jita-1,NG,long_tail,exact_ng,10
+Alpha P,,1cb0bb46-68f1-11e9-9121-e4434b2a4898,Alpha P,alpha-p-1,NG,mid_level,exact_ng,10
+Al’ameen,,d9ec4ccd-34d0-4179-b155-925246f1e8e4,Alameen,alameen,,long_tail,exact_no_country,10
+Altims,,308026ca-d8ff-4b3d-b52d-3207d5eee233,Altims,altims,,long_tail,exact_no_country,10
+Aminu Ala,,6d102774-e7a7-4421-a363-f98975004065,Aminu Ala,aminu-ala-2,,long_tail,exact_no_country,2
+Amarachi,,11e83fe4-16d5-ac90-80e2-a0369fe50396,Amarachi,amarachi,NG,long_tail,exact_ng,10
+Aminu Alan Waka,,7867e2bd-89c2-4430-925a-bdcb2e4839d9,Aminu Alan Waka,aminu-alan-waka,NG,long_tail,exact_ng,4
+Aminu Ladan,,f64552d8-127d-11e9-b15f-549f35141000,Aminu Ladan Alan Waka,aminu-ladan-alan-waka,NG,long_tail,ng_only,2
+Amma,,3e4494d7-6671-4e40-810c-f138807f3d8a,Amma,amma-46,NG,long_tail,exact_ng,10
+Andre Blaze,,a4f68ec1-78bd-4840-85c3-f64d67fe02cd,Andre Blaze,andre-blaze,,long_tail,exact_no_country,2
+Andre Vibez,,b87e7fb7-acb5-4f52-9569-7001e601864f,Andre Vibez,andre-vibez,VN,long_tail,exact_foreign,1
+Anike,,11e81bc0-18f5-77dc-bfbc-a0369fe50396,Anike,wande,US,long_tail,exact_foreign,10
+Anyidons,,b699e4f2-f0f1-11e9-a251-801844ee83a6,Anyidons,anyidons,NG,long_tail,exact_ng,10
+AQT,,1dd78618-54ee-406e-ab76-321dd6ed26b0,AQT,aqt-1,US,long_tail,exact_foreign,10
+Ara,,,,,,,unmatched,10
+Alamu Atatalo,,,,,,,unmatched,0
+Artquake,,11e81bc1-c46d-fd40-980e-a0369fe50396,Artquake,artquake,,long_tail,exact_no_country,10
+Audo Yaron Goje,,,,,,,unmatched,0
+ARTSALGHUL,,e921db36-fb2d-4b59-a9d8-24997a764cc9,ARTSALGHUL,artsalghul,NG,long_tail,exact_ng,4
+Aramide,,11e83fe6-4669-7e4e-bbf4-a0369fe50396,Aramide,aramide,NG,long_tail,exact_ng,10
+Asuquomo,,aa05675c-a876-11e9-b119-e4434b16cb7a,Asuquomo,asuquomo,NG,long_tail,exact_ng,10
+Auta Waziri,,75cefee0-b496-4844-aad1-f02609d62b1d,Auta Waziri,auta-waziri,NG,long_tail,exact_ng,9
+Auta Mg Boy,,608d99a5-b69f-46f1-95c9-4964f485af41,Auta Mg Boy,auta-mg-boy,NG,long_tail,exact_ng,10
+Auwal Danladi,,,,,,,unmatched,0
+Ayinde Barrister,,23f9d8f6-8fee-4321-84b2-199526b23d1d,Ayinde Barrister,ayinde-barrister-1,,long_tail,exact_no_country,10
+Ayinde Bakare,,11e81bbc-9591-0512-b5c8-a0369fe50396,Ayinde Bakare,ayinde-bakare,,long_tail,exact_no_country,3
+Ayinla Kollington,,02e9548f-fe43-4113-b703-3d7d019a245e,Ayinla Kollington,ayinla-kollington,,long_tail,exact_no_country,10
+Ayinla Omowura,,7936233c-f929-4fbf-9d31-784b8fdb7157,Ayinla Omowura,ayinla-omowura-2,,long_tail,exact_no_country,9
+Ayeloyun,,e0ea670a-eb93-461d-ae66-3f031a0e0ea9,Ayeloyun,ayeloyun,,long_tail,exact_no_country,10
+Ayo Vincent,,365d4e98-4b53-4de7-828f-bd00603a5318,Ayo Vincent,ayo-vincent-3,NG,long_tail,exact_ng,4
+Ayjay bobo,,c4faf776-9099-4e92-b0d4-a8a46a26a8fc,Ayjay bobo,ayjay-bobo,NG,long_tail,exact_ng,3
+Ayo Maff,,c85413b6-69ae-47b6-8219-87c66a967878,Ayo Maff,ayo-maff,NG,mainstream,exact_ng,10
+Ayola,,37e94b84-4669-11ea-9451-549f35141000,Ayola,ayola,NG,long_tail,exact_ng,10
+Azanti,,c8501053-edbc-43a9-a4a2-12e98fb18f9e,Azanti,azanti,NG,long_tail,exact_ng,10
+Ayomaf,,,,,,,unmatched,10
+B.O.C Madaki,,704ed2ed-0f49-47ab-bf18-cedc390eeef0,B.O.C Madaki,b-o-c-madaki,,long_tail,exact_no_country,10
+Babatunde Olatunji,,11e81bc3-3ab8-54a4-a7fa-a0369fe50396,Babatunde Olatunji,babatunde-olatunji,NG,long_tail,exact_ng,3
+Babyboy AV,,1c0935a2-9efc-4af8-ba85-9b8860de41e2,Babyboy AV,babyboy-av,NG,mainstream,exact_ng,3
+Bala Miller,,11e81bc2-bb70-85e0-9de3-a0369fe50396,Bala Miller,bala-miller-the-great-music-pirameeds-of-afrika,,long_tail,exact_no_country,1
+Balarabe Maikura,,,,,,,unmatched,0
+BabyDaiz,,6cb9d8f2-204d-4789-90bc-e5fa2c51d98d,BabyDaiz,babydaiz,ZA,long_tail,exact_foreign,10
+Bantu,,11e81bd1-208e-8978-b868-a0369fe50396,Bantu,bantu,NG,long_tail,exact_ng,10
+Babá Ken Okulolo,,3931efae-c605-11e8-b21b-549f35141000,Babá Ken Okulolo,baba-ken-okulolo-1,,long_tail,exact_no_country,3
+Barbara Soky,,,,,,,unmatched,0
+Balloranking,,533570e7-c145-4d24-aa43-b2ccfb4e2b6d,Balloranking,balloranking,NG,mainstream,exact_ng,10
+Barmani Choge,,5fc98e69-efb1-4644-8cb7-7fdc4acfd61a,Barmani Choge,barmani-choge,,long_tail,exact_no_country,1
+Barry Jhay,,11e8aa02-e65d-4788-81f6-525400009efb,Barry Jhay,barry-jhay,NG,long_tail,exact_ng,10
+Batile Alake,,11e81bbf-9329-132a-a057-a0369fe50396,Batile Alake,batile-alake,,long_tail,exact_no_country,2
+Bawa Bula,,,,,,,unmatched,0
+Beautiful Nubia,,c3c245e0-fa0a-11e8-9b82-549f35141000,Beautiful Nubia,beautiful-nubia,NG,long_tail,exact_ng,2
+Beezy X,,,,,,,unmatched,4
+BBO,,1d048c6b-60a4-4b09-bae2-befa2898c904,BBO,bbo-2,NG,long_tail,exact_ng,10
+Bella Kay,,5e445c27-0542-4425-bb1c-2af3038d28be,Bella Kay,bella-kay-1,AU,mid_level,exact_foreign,7
+Bello Sisqo,,c7b37b51-582b-4652-9403-69b97d4e9ac7,Bello Sisqo,bello-sisqo-1,DE,long_tail,exact_foreign,4
+Bella Alubo,,7d8200f6-c6bc-11e8-b2c6-525400009efb,Bella Alubo,bella-alubo-2,NG,mid_level,exact_ng,5
+Bhadboy OML,,60f10101-bd83-4df7-b630-d36c960e55da,Bhadboy Oml,bhadboy-oml,,long_tail,exact_no_country,1
+Benzoo,,2a7a9978-40bd-44a3-91db-5d0d5d58db1a,Benzoo,benzoo-8,,long_tail,exact_no_country,10
+BenjiFlow,,66498ce6-de14-11e8-805c-525400009efb,BenjiFlow,benjiflow,GB,mid_level,exact_foreign,10
+Bhadboi OML,,f4aba615-6bcb-4bb7-8525-0bbfaaaf2311,BhadBoi OML,bhadboi-oml,NG,long_tail,exact_ng,10
+Bidemi Olaoba,,11e83fee-32ae-4e04-8faf-a0369fe50396,Bidemi Olaoba,bidemi-olaoba,NG,long_tail,exact_ng,5
+Billar Stoner,,b1e396d4-5b0b-40da-aff2-8b710a3530e3,Billar stoner,billar-stoner,NG,long_tail,exact_ng,1
+Blackface Naija,,11e8aa03-0997-e672-96c1-525400009efb,BLACKFACE NAIJA,blackface-naija,NG,long_tail,exact_ng,2
+Blessing Offor,,11e83fe1-032d-5cfe-a48c-aa1c026db3d8,Blessing Offor,blessing-offor,NG,mainstream,exact_ng,2
+Boi Chase,,3d441734-ed30-4fb1-b345-098337634922,Boi Chase,boi-chase,NG,long_tail,exact_ng,4
+Bobby Benson,,11e83fe7-779e-43cc-8ab1-aa1c026db3d8,Bobby Benson,bobby-benson,NG,long_tail,exact_ng,9
+Blackmagic,,11e83fe1-61f8-a43c-8020-aa1c026db3d8,BlackMagic,blackmagic,NG,long_tail,exact_ng,10
+Blaisebeatz,,ac250a20-b38b-4143-ae82-4dab48e12c80,Blaisebeatz,blaisebeatz-1,,long_tail,exact_no_country,10
+Bola Abimbola,,11e81bc9-e15d-deae-b15f-a0369fe50396,Bola Abimbola,bola-abimbola,NG,long_tail,exact_ng,3
+Bongos Ikwue,,11e81bbe-8346-fe6e-905f-a0369fe50396,Bongos Ikwue,bongos-ikwue,NG,long_tail,exact_ng,2
+Bola Are,,93b80d58-136f-49b9-aa10-7daf829e24b7,Bola Are,bola-are,,long_tail,exact_no_country,10
+Boogey,,11e81bc6-b4a6-07a4-a002-a0369fe50396,Boogey,boogey,NG,long_tail,exact_ng,10
+Boy Muller,,edcd90dc-5b72-4d5f-a1a3-a5ab07d47951,Boy Muller,boy-muller,NG,long_tail,exact_ng,9
+Bouqui,,57dbb1b0-0476-11e9-9dc4-549f35141000,Bouqui,bouqui-2,NG,long_tail,exact_ng,10
+BoyPee,,3de90cf8-5464-4372-b5f2-e875ab7fe62a,BoyPee,boypee,NG,mid_level,exact_ng,10
+Bright Chimezie,,707c669a-c65c-11e8-a830-549f35141000,Bright Chimezie,bright-chimezie-1,,long_tail,exact_no_country,6
+Boyskido,,8ffc2ff6-ea55-4573-8bbc-5f78e02176b1,Boyskido,boyskido,NG,long_tail,exact_ng,10
+Brown Joel,,77957f10-86b0-11e9-a14c-549f35141000,Brown Joel,brown-joel,NG,mid_level,exact_ng,10
+Broda Shaggi,,11e8aa02-e790-5ba4-9ab6-525400009efb,Broda Shaggi,broda-shaggi,NG,long_tail,exact_ng,1
+Candy Bleakz,,69f7c240-8382-11e9-b105-e4434b16cb7a,Candy Bleakz,candy-bleakz,NG,long_tail,exact_ng,4
+Celestine Ukwu,,11e81bd1-84cc-6f54-819f-a0369fe50396,Celestine Ukwu,celestine-ukwu,NG,long_tail,exact_ng,3
+Buchi,,11e8ac08-e343-eee6-b08d-525400009efb,Buchi,buchi-1,NG,long_tail,exact_ng,10
+Ceeboi,,91e2488a-e47f-4109-ab20-133c5a35ee4d,Ceeboi,ceeboi-4,,long_tail,exact_no_country,10
+Charly Boy,,fd2556e0-c613-11e8-9bd1-549f35141000,Charly Boy,charly-boy-1,NG,long_tail,exact_ng,10
+Champz,,d4ad3708-0d0f-4ba9-917c-1b7895cd3ee2,Champz,champz-14,NG,long_tail,exact_ng,10
+Chech,,28d80660-71b3-4f09-bb3e-f3993a9ca250,Chech,chech-20,NG,long_tail,exact_ng,10
+Chella,,a48434b9-63db-4980-a05d-56404f0fb2af,Chella,chella-10,BR,long_tail,exact_foreign,10
+Chief Stephen Osita Osadebe,,11e81bc9-3074-d96c-a66b-a0369fe50396,Chief Stephen Osita Osadebe,chief-stephen-osita-osadebe,NG,long_tail,exact_ng,3
+Cheque,,bc8ed13e-87be-11e9-8e36-549f35141000,Cheque,cheque,NG,long_tail,exact_ng,10
+Chigozie Wisdom,,1eb3b586-3ce7-11ea-aa5f-549f35161576,Chigozie Wisdom,chigozie-wisdom,NG,long_tail,exact_ng,9
+Chinko Ekun,,11e83fe2-8d87-6c86-83b1-aa1c026db3d8,Chinko Ekun,chinko-ekun,NG,long_tail,exact_ng,10
+Chidinma,,11e81bc7-079d-5aac-9ddf-a0369fe50396,Chidinma,chidinma,NG,long_tail,exact_ng,10
+Chioma Jesus,,7bdec046-ef93-40b4-9e36-cf5b15cd1ebc,Chioma Jesus,chioma-jesus-2,NG,long_tail,exact_ng,10
+Chinyere Udoma,,d1f41138-21a2-11e9-91c1-549f35141000,Chinyere Udoma,chinyere-udoma,NG,long_tail,exact_ng,10
+Chopstix,,11e81bcb-3eb4-b964-82b1-a0369fe50396,Chopstix,chopstix,NG,long_tail,exact_ng,10
+Chris Ajilo,,013e1abe-c614-11e8-af22-549f35161576,Chris Ajilo,chris-ajilo,,long_tail,exact_no_country,3
+Chris Delvan Gwamna,,11e83fe6-184e-f764-8b60-a0369fe50396,Chris Delvan Gwamna,chris-delvan-gwamna,NG,long_tail,exact_ng,2
+Christy Essien-Igbokwe,,11e81bc2-30a0-d096-9aa2-a0369fe50396,Christy Essien Igbokwe,christy-essien-igbokwe,GB,long_tail,exact_foreign,1
+Christy Ogbah,,11e81bbf-5a28-e64a-b946-a0369fe50396,Christy Ogbah,christy-ogbah,,long_tail,exact_no_country,1
+Cobhams Asuquo,,11e81bc6-c465-d87c-89d6-a0369fe50396,Cobhams Asuquo,cobhams-asuquo,NG,long_tail,exact_ng,3
+Ciza,,44ef4f27-335d-49a7-94ee-24b7795d1d40,Ciza,ciza-2,NG,long_tail,exact_ng,10
+Cornelius Adam Igbudu,,,,,,,unmatched,0
+Comfort Omoge,,c8929a45-0e62-4b00-8a37-031ebaf29805,Comfort Omoge,comfort-omoge,,long_tail,exact_no_country,4
+Cynthia Morgan,,11e81bbf-67fb-f4f6-8200-a0369fe50396,Cynthia Morgan,cynthia-morgan,NG,long_tail,exact_ng,10
+Classiq,,11e83fe7-3d89-36c4-b042-aa1c026db3d8,ClassiQ,classiq,NG,long_tail,exact_ng,10
+CupidSzn,,b52989c6-52d8-4ecd-b7b6-5cfbc0f3a602,CupidSZN,cupidszn,NG,long_tail,exact_ng,10
+D'Prince,,11e83fe0-8fbc-13b4-8fbc-aa1c026db3d8,D'Prince,d-prince,NG,mid_level,exact_ng,10
+Da Emperor,,11e81bba-cc3c-a302-8d2f-a0369fe50396,Da Emperor,da-emperor,NG,long_tail,exact_ng,10
+Daddy Fresh,,11e81bc2-184e-74c6-8960-a0369fe50396,Daddy Fresh,daddy-fresh,NG,long_tail,exact_ng,10
+Da Grin,,11e83fe0-d0bc-8b1e-ac4a-aa1c026db3d8,Da Grin,da-grin,NG,long_tail,exact_ng,10
+Dahiru Wali,,,,,,,unmatched,0
+Dami Oniru,,6d3a5f10-c610-11e8-a2a9-549f35141000,Dami Oniru,dami-oniru,NG,long_tail,exact_ng,2
+Daddy Showkey,,11e83fe1-c610-6d88-a4f1-aa1c026db3d8,Daddy Showkey,daddy-showkey,NG,long_tail,exact_ng,3
+Dahiru Mai Lafiya,,,,,,,unmatched,0
+Dan Maraya Jos,,4f4b136c-c612-11e8-ad44-549f35161576,Dan Maraya Jos,dan-maraya-jos,,long_tail,exact_no_country,3
+Dan Maraya,,11e83fe6-389b-0544-bf46-aa1c026db3d8,Dan Maraya,dan-maraya,NG,long_tail,exact_ng,5
+Daecolm,,11e81bbe-54e4-0080-88b5-a0369fe50396,Daecolm,daecolm,GB,long_tail,exact_foreign,10
+Dan Musa New Prince,,,,,,,unmatched,0
+Dan Musa,,035dbce0-6e1c-4b2e-8701-958db81d6710,Dan Musa,dan-musa,,long_tail,exact_no_country,10
+Dapo Torimiro,,11e81bc7-7650-11c4-b01f-a0369fe50396,Dapo Torimiro,dapo-torimiro,,long_tail,exact_no_country,1
+Dandizzy,,4ae9d39a-b8f1-11e8-8d41-525400009efb,DanDizzy,dandizzy,NG,long_tail,exact_ng,10
+Dareysteel,,11e81bcc-c15e-b6c0-a6fb-a0369fe50396,Dareysteel,dareysteel,ES,long_tail,exact_foreign,6
+Dauda Epo-Akara,,c616532b-d047-4ccb-b450-61b974af53db,Alhaji Dauda Epo Akara Awurebe King,alhaji-dauda-epo-akara-awurebe-king,NG,long_tail,ambiguous,7
+Deena Ade,,11e83fed-f0b3-dc1c-a095-aa1c026db3d8,Deena Ade,deena-ade,NG,long_tail,exact_ng,2
+Dekumzy,,920b3e46-405d-11e9-b5c4-549f35161576,Dekumzy,dekumzy,NG,long_tail,exact_ng,10
+Deezell,,11e83fe6-dad1-b164-a44c-aa1c026db3d8,Deezell,deezell,US,long_tail,exact_foreign,10
+Dele Taiwo,,11e83fec-3b54-407e-97f2-aa1c026db3d8,Dele Taiwo,dele-taiwo,,long_tail,exact_no_country,1
+Dele Ojo,,11e83fe4-c7ea-1a20-8f8d-a0369fe50396,Dele Ojo,dele-ojo,US,long_tail,exact_foreign,10
+DETO BLACK,,e18ffab7-ac22-443e-ad29-ef19f7130f52,DETO BLACK,deto-black,NG,long_tail,exact_ng,1
+Dencia,,11e83feb-2b3b-e454-86b1-aa1c026db3d8,Dencia,dencia,CM,long_tail,exact_foreign,10
+Deobi,,8bc17b08-26c2-4444-b2cb-1193e37504bc,Deobi,deobi,NG,long_tail,exact_ng,10
+Dizzy K Falola,,11e81bbb-043f-621c-9dcc-a0369fe50396,Dizzy K Falola,dizzy-k-falola,GB,long_tail,exact_foreign,1
+Di'Ja,,11e81bbd-ccc9-10fa-a1ab-a0369fe50396,Di'ja,di-ja-1,NG,long_tail,exact_ng,10
+DJ AB,,7a9dc5ea-c460-11e8-9f7c-525400009efb,DJ Ab,dj-ab-1,NG,long_tail,exact_ng,10
+DJ 4Kerty,,5b835716-372d-11e9-8a05-549f35161576,Dj 4kerty,dj-4kerty,NG,long_tail,exact_ng,5
+DJ AB 442,,,,,,,unmatched,0
+DJ Baddo,,11e83fe4-e29c-688c-bdd0-aa1c026db3d8,DJ Baddo,dj-baddo,NG,long_tail,exact_ng,8
+DJ Bally,,6be9e00a-54b4-4452-a48c-2bd8f9333f96,Dj Bally,dj-bally-1,,long_tail,exact_no_country,2
+Dauda Kahutu Rarara,,5e4e220a-5020-4aa5-8e95-8e0d195db94b,Dauda Kahutu Rarara,dauda-kahutu-rarara,NG,long_tail,exact_ng,1
+Dede Mabiaku,,476d4224-d188-4f7d-aae7-8e8f453e9215,Dede Mabiaku,dede-mabiaku,NG,long_tail,exact_ng,2
+DJ Caise,,11e83fec-6148-bf30-9b53-aa1c026db3d8,DJ Caise,dj-caise,,long_tail,exact_no_country,1
+Davolee,,66d1c1e8-d0fd-11e8-924a-549f35141000,Davolee,davolee-1,NG,long_tail,exact_ng,10
+DJ Big N,,11e83fe7-1c60-048c-a601-aa1c026db3d8,DJ Big N,dj-big-n,NG,mid_level,exact_ng,10
+DJ Coublon,,11e83fec-85af-49f2-8321-aa1c026db3d8,DJ Coublon,dj-coublon,NG,long_tail,exact_ng,1
+DJ Enimoney,,11e83fe6-6fe2-fc46-88a8-a0369fe50396,Dj Enimoney,dj-enimoney,NG,long_tail,exact_ng,3
+DJ Kaywise,,11e81bcb-65b3-10d8-bb18-a0369fe50396,DJ Kaywise,dj-kaywise,NG,long_tail,exact_ng,7
+DJ Shawn,,11e83fed-3e08-d23e-a78b-aa1c026db3d8,DJ Shawn,dj-shawn,NG,long_tail,exact_ng,10
+DJ Switch,,11e81bbb-399e-84c4-b7e9-a0369fe50396,DJ Switch,dj-switch,ZA,long_tail,exact_foreign,10
+DJ Tunez,,030329a3-d20b-43e1-8a67-dc785a1d7a9e,DJ Tunez,dj-tunez-4,NG,long_tail,exact_ng,10
+Don Jazzy,,11e81bc9-ffcf-63da-acf0-a0369fe50396,Don Jazzy,don-jazzy,NG,long_tail,exact_ng,10
+DOTTi The Deity,,da36fac7-7e0b-4a3e-bd7a-2bcf32a77cc8,DOTTi The Deity,dotti-the-deity,NG,long_tail,exact_ng,1
+DJ Xclusive,,11e83fdf-fe0b-e3c2-8c15-aa1c026db3d8,DJ Xclusive,dj-xclusive,NG,mid_level,exact_ng,10
+Douyé,,11e83fe0-2d0d-91fc-a79a-aa1c026db3d8,Douyé,douye,US,long_tail,exact_foreign,10
+Dr Roy,,47876210-79fb-4f89-9a7b-4dfa3c9d7a48,Dr Roy,dr-roy-1,,long_tail,exact_no_country,10
+Dr Sir Warrior,,11e81bca-6671-ab16-a491-a0369fe50396,Dr Sir Warrior,dr-sir-warrior,NG,long_tail,exact_ng,8
+Dr SID,,11e81bcd-3bdb-0b06-a6ee-a0369fe50396,Dr Sid,dr-sid,NG,mid_level,exact_ng,10
+Dunni Olanrewaju,,,,,,,unmatched,3
+DRB Lasgidi,,11e83fe9-d02e-ff16-8844-aa1c026db3d8,DRB Lasgidi,drb-lasgidi,NG,mid_level,exact_ng,1
+Eben,,11e83fec-8e41-1b5e-aeed-a0369fe50396,EBEN,eben-4,NG,long_tail,exact_ng,10
+Echezonachukwu Nduka,,a60ff66e-a573-4ea7-8845-d002ce54fec2,Echezonachukwu Nduka,echezonachukwu-nduka,NG,long_tail,exact_ng,1
+Dunsin Oyekan,,11e83fea-1f9c-4fb8-967b-a0369fe50396,Dunsin Oyekan,dunsin-oyekan,NG,mid_level,exact_ng,8
+Ebuka Songs,,af29d69f-738a-454a-aa83-77ebd0252d18,Ebuka Songs,ebuka-songs-1,NG,mid_level,exact_ng,3
+Eddy Wata,,11e81bcb-73b1-1554-a572-a0369fe50396,Eddy Wata,eddy-wata,NG,mid_level,exact_ng,5
+Ecool,,91843f04-5475-11ea-a5f1-549f35161576,Ecool,ecool,NG,long_tail,exact_ng,10
+EeQue,,2565bbbe-cd9d-11e8-a52a-525400009efb,EeQue,eeque,ZA,long_tail,exact_foreign,8
+Eedris Abdulkareem,,11e81bc9-a85c-34ca-aff2-a0369fe50396,Eedris Abdulkareem,eedris-abdulkareem,NG,long_tail,exact_ng,10
+EdoMan,,2f9d4f4f-5810-4e7e-9af8-b31f116ef7fc,EdoMan,edoman-1,NG,long_tail,exact_ng,10
+Ego Ogbaro,,,,,,,unmatched,0
+Efe Mac Roc,,,,,,,unmatched,0
+Ehis D'Greatest,,,,,,,unmatched,0
+Ejyk Nwamba,,c7ee70bc-8bff-462b-baf6-97993ca41b20,Ejyk Nwamba,ejyk-nwamba,NG,long_tail,exact_ng,4
+el Mafrex,,d5b9d1ee-1cfc-42f5-98c3-72d5d8e977d0,el Mafrex,el-mafrex,GB,long_tail,exact_foreign,1
+Dr. Alban,,11e81bc9-d495-cf6a-9550-a0369fe50396,Dr. Alban,dr-alban,NG,mainstream,exact_ng,10
+Emeka Nwokedi,,,,,,,unmatched,0
+Elestee,,9a43c3b8-4c37-11e9-91cd-e4434b2a489b,ELESTEE,elestee,KR,long_tail,exact_foreign,10
+Emma Nyra,,11e81bca-4620-8d5a-b6f2-a0369fe50396,Emma Nyra,emma-nyra,US,long_tail,exact_foreign,3
+Ema Onigah,,cc067973-dd4f-457c-a1a8-c43ad48f3f46,Ema Onigah,ema-onigah-1,NG,long_tail,exact_ng,4
+ELMAH,,9d0c1f6e-e171-4296-babc-3c5a8d1f2e01,ELMAH,elmah,NG,long_tail,exact_ng,10
+Emmanuel Iren,,a7c41324-690f-4aec-8d18-70dc69209cac,Pastor Emmanuel Iren,pastor-emmanuel-iren,NG,long_tail,ng_only,3
+EmmaOMG,,11e83fec-5294-a9b8-a1e1-a0369fe50396,EmmaOMG,emmaomg,NG,long_tail,exact_ng,10
+Emmkoo,,a8ddbfba-757f-41de-840b-eba141d5a810,Emmkoo,emmkoo,NG,long_tail,exact_ng,10
+Emmy Gee,,11e83fdf-cba2-f0a6-8c56-a0369fe50396,Emmy Gee,emmy-gee,NG,long_tail,exact_ng,5
+Eso Dike,,4254bc5e-57b5-11ea-8bf1-549f35161576,Eso Dike,eso-dike,US,long_tail,exact_foreign,1
+Erigga,,11e83fe3-6f12-9126-a1c8-a0369fe50396,Erigga,erigga,NG,mid_level,exact_ng,10
+Eskeez,,2bd04776-2ae5-4e6c-993f-2beee4dd763e,Eskeez,eskeez,,long_tail,exact_no_country,10
+Evi Edna Ogholi,,9d1de316-1267-11e9-a58b-549f35141000,Evi-Edna Ogholi,evi-edna-ogholi-3,NG,long_tail,exact_ng,5
+Evado,,5e114c75-16f2-4098-94bb-1397d53b3833,Evado,evado,NG,long_tail,exact_ng,10
+Famous Pluto,,e2fb95f3-c818-4226-b0bc-a99944a5ef8c,Famous Pluto,famous-pluto-1,NG,long_tail,exact_ng,8
+Eva Alordiah,,11e81bd1-a257-e062-aa17-a0369fe50396,Eva Alordiah,eva-alordiah,NG,long_tail,exact_ng,2
+Fatai Rolling Dollar,,11e81bbc-fe56-6466-ac83-a0369fe50396,Fatai Rolling Dollar,fatai-rolling-dollar,NG,long_tail,exact_ng,3
+Fati Niger,,ecde25ba-b7e8-4f99-a856-83efef3e8309,Fati Niger,fati-niger-8,,long_tail,exact_no_country,9
+Fave,,3242fdb0-c474-11e8-a035-525400009efb,Fave,fave,FR,mainstream,exact_foreign,10
+Faze,,ca479122-83d0-11e9-9d6b-549f35161576,Faze,faze-12,NG,long_tail,exact_ng,10
+Feezy,,9efd85ce-a1a7-436b-aa04-bc92536d7dbf,Feezy,feezy-4,NG,long_tail,exact_ng,10
+Feezy Northern,,,,,,,unmatched,0
+Fidelis Uchenna Okoro,,,,,,,unmatched,0
+Fela Sowande,,11e8633d-566c-86ae-8e75-a0369fe50396,Fela Sowande,fela-sowande-1,,long_tail,exact_no_country,3
+Femi Leye,,11e83fe5-c9ce-9392-bb80-a0369fe50396,Femi Leye,femi-leye,NG,long_tail,exact_ng,6
+Femi Temowo,,11e81bbb-1325-fb74-b884-a0369fe50396,Femi Temowo,femi-temowo,GB,long_tail,exact_foreign,2
+Femi Kuti,,11e81bbf-27ba-64cc-af50-a0369fe50396,Femi Kuti,femi-kuti,GB,long_tail,exact_foreign,9
+Fido,,cc36544c-c25f-11e8-a24b-525400009efb,Fido,fido-2,EG,mainstream,exact_foreign,10
+Fior de Bior,,,,,,,unmatched,0
+Fiokee,,11e83fea-517d-0b58-8ca2-a0369fe50396,Fiokee,fiokee,NG,mid_level,exact_ng,10
+Fitzy West,,11b03d2a-858e-4e8d-8525-331e2dc9bd5a,Fitzy West,fitzy-west,NG,long_tail,exact_ng,3
+Fisayo Ajisola,,,,,,,unmatched,0
+FirstKlaz,,49f3d1db-4a14-4e94-bbd1-f213acc7e1a6,FirstKlaz,firstklaz,NG,long_tail,exact_ng,10
+FOLA,,93efb08e-c655-11e8-9244-549f35141000,Fola,fola-2,NG,long_tail,exact_ng,10
+Funmi Aragbaye,,,,,,,unmatched,1
+Flossing,,0d5febe7-dbf3-4cc2-a637-769b4106a93b,Flossing,flossing,US,long_tail,exact_foreign,10
+Frank Edwards,,11e81bc2-4d69-2d86-a520-a0369fe50396,Frank Edwards,frank-edwards,NG,long_tail,exact_ng,10
+Folabi Nuel,,11e83fed-3066-c1fe-bc1e-aa1c026db3d8,Folabi Nuel,folabi-nuel,NG,long_tail,exact_ng,9
+Garzali Miko,,b9a3d020-1d61-4945-836f-69065002e040,Garzali Miko,garzali-miko,NG,long_tail,exact_ng,2
+Gaise Baba,,11e83fee-0550-3ce2-9eed-a0369fe50396,Gaise Baba,gaise-baba,NG,long_tail,exact_ng,5
+Gabriel Afolayan,,11e83fe6-2de0-edbc-aeb9-aa1c026db3d8,Gabriel Afolayan,gabriel-afolayan,NG,long_tail,exact_ng,3
+General Hassan,,,,,,,unmatched,0
+General Pype,,11e83fe0-2f19-7b5a-b73b-aa1c026db3d8,General Pype,general-pype,NG,long_tail,exact_ng,2
+GMK,,887f2962-c378-11e8-8148-525400009efb,GMK,gmk-3,NG,long_tail,exact_ng,10
+Ghost,,11e81bd0-d0e0-6806-bc83-a0369fe50396,Ghost,ghost-19,SE,mainstream,exact_foreign,10
+Goldie Harvey,,11e81bbe-7792-4772-baa7-a0369fe50396,Goldie Harvey,goldie-harvey,,long_tail,exact_no_country,1
+Gombe Boy,,,,,,,unmatched,0
+Goya Menor,,7006f564-d066-4069-ae22-c08c105cd32e,Goya Menor,goya-menor,NG,mid_level,exact_ng,3
+GoodGirl LA,,7c5a441a-e8c0-11e8-b18b-00163ec5a2fb,GoodGirl LA,goodgirl-la,NG,long_tail,exact_ng,3
+Hadiza Sani Goma,,,,,,,unmatched,0
+Greatman Takit,,50135246-c1b3-4431-a5d1-b9a078ae8e87,Greatman Takit,greatman-takit,NG,long_tail,exact_ng,9
+Hamisu Breaker,,2be36006-b8ec-11e8-95dd-525400009efb,Hamisu Breaker,hamisu-breaker,NG,long_tail,exact_ng,10
+Guchi,,5655852c-5e95-11e9-b00a-00163ec5a2fb,Guchi,guchi-2,NG,long_tail,exact_ng,10
+Hamisu Lamido,,,,,,,unmatched,0
+Haruna Ujiri,,,,,,,unmatched,0
+Haruna Ishola,,11e81bc9-cc58-7910-ae30-a0369fe50396,Haruna Ishola,haruna-ishola,NG,long_tail,exact_ng,10
+Hauwa Yarfulani,,cf07c04d-e5d4-42c7-be74-93b9f0091bc1,Hauwa Yarfulani,hauwa-yarfulani-1,,long_tail,exact_no_country,1
+Happi,,11e81bbf-c591-a7fa-bc88-a0369fe50396,Happi,happi,GB,long_tail,exact_foreign,10
+Helen Parker-Jayne Isibor,,,,,,,unmatched,0
+Hotman Fire,,,,,,,unmatched,0
+Hotman,,2e98aeac-20e1-4997-84f8-ce66937c66c2,Hotman,hotman-7,,long_tail,exact_no_country,10
+Hotkeed,,11e81bc2-b5d3-031a-a106-a0369fe50396,Hotkeed,hotkid,CA,long_tail,exact_foreign,10
+Hotyce,,edadad70-b8f8-11e8-8c47-525400009efb,Hotyce,hotyce,NG,long_tail,exact_ng,10
+Hussaini Dankoton Kasa,,,,,,,unmatched,0
+Humblesmith,,11e81bbd-e99f-cfc0-822a-a0369fe50396,Humblesmith,humblesmith,NG,long_tail,exact_ng,6
+Hurlarstringz,,1e03b3e4-29be-4d6e-b8a8-48b3b8eb6578,Hurlarstringz,hurlarstringz,,long_tail,exact_no_country,1
+Hyce,,9c4814d0-8f78-465a-9422-ef8c5ce3f764,Hyce,hyce,NG,long_tail,exact_ng,10
+I.K. Dairo,,11e81bc0-0b3d-6ab4-ba96-a0369fe50396,I.K. Dairo,i-k-dairo,,long_tail,exact_no_country,7
+Ibrahim Disu,,,,,,,unmatched,0
+Ibrahim Na Habu,,,,,,,unmatched,0
+Ibrahim Narambada,,,,,,,unmatched,0
+Ibrahim Sharif,,,,,,,unmatched,0
+Ifi Ude,,11e81bc2-a8a6-1ca4-a112-a0369fe50396,Ifi Ude,ifi-ude,PL,long_tail,exact_foreign,2
+Ifé,,e4a3a8b6-9015-11e9-983d-801844edfa71,IFE,ife-7,JP,long_tail,exact_foreign,10
+Isah Ayagi,,cc7babef-27b9-4992-9233-1c1514cd5297,Isah Ayagi,isah-ayagi,NG,long_tail,exact_ng,4
+IllRymz,,ac490e9c-c960-11e8-bf2f-525400009efb,Illrymz,illrymz,NG,long_tail,exact_ng,10
+Ikechukwu,,11e83fe3-dfc1-46c4-b8fc-aa1c026db3d8,Ikechukwu,ikechukwu,NG,long_tail,exact_ng,10
+Ishaq Auta,,,,,,,unmatched,0
+Iseoluwa Abidemi,,e0439de0-e14a-11e9-bc9c-549f35141000,Iseoluwa Abidemi,iseoluwa-abidemi,,long_tail,exact_no_country,1
+Ishaq Dan Isa,,,,,,,unmatched,0
+Israel Njemanze,,,,,,,unmatched,0
+J. Martins,,11e81bc3-e140-bbcc-9957-a0369fe50396,J. Martins,j-martins,NG,mid_level,exact_ng,10
+Jahdiel,,f6fef96a-b8f8-11e8-a523-525400009efb,Jahdiel,jahdiel-1,NG,long_tail,exact_ng,10
+James Chike Nwankwo,,,,,,,unmatched,0
+Jasën Blu,,7d38d11f-0b6c-444e-a532-1538f6b29079,Jasën Blu,jasen-blu-2,NG,long_tail,exact_ng,2
+Jamopyper,,75f8df40-a928-11e9-af77-549f35161576,jamopyper,jamopyper,NG,long_tail,exact_ng,2
+Jeremiah Gyang,,11e81bcc-6ede-aff4-a7a8-a0369fe50396,Jeremiah Gyang,jeremiah-gyang,NG,long_tail,exact_ng,4
+JaySynths,,0f1c4bac-c8fc-42e8-abed-757ca32f4993,Jaysynths,jaysynths,NG,long_tail,exact_ng,9
+Jinmi Abduls,,11e83fea-acc7-5ee6-9153-aa1c026db3d8,Jinmi Abduls,jinmi-abduls,NG,long_tail,exact_ng,2
+Jesse King,,11e81bc2-1616-a174-997c-a0369fe50396,Jesse King,jesse-king,NG,long_tail,exact_ng,10
+Jigsaw,,d4e63b27-d685-43b8-a37e-cccc6be5ba34,Jigsaw,jigsaw-16,TH,long_tail,exact_foreign,10
+JJC Skillz,,de846278-7424-4822-86c9-d30602957b18,jjc skillz,jjc-skillz,,long_tail,exact_no_country,3
+Idahams,,91a05a4c-b8f2-11e8-a4b5-525400009efb,Idahams,idahams,NG,long_tail,exact_ng,10
+JNR ELDER,,f233467c-5282-46a1-bf71-03f5a749f365,JNR ELDER,jnr-elder,NG,long_tail,exact_ng,1
+JoBlaq,,edd9ef5f-3969-4061-9c37-c0ccc6e4e0e7,JoBlaq,joblaq-1,NG,long_tail,exact_ng,10
+Joe El,,63009df2-7b6b-4136-b559-f39ff7ffcd1a,Joe El,joe-el-1,NG,long_tail,exact_ng,10
+Joe Praize,,11e83fe9-7283-6c9e-8423-aa1c026db3d8,Joe Praize,joe-praize,,long_tail,exact_no_country,4
+Johnny Crown,,11e83fec-f89b-befa-b94f-aa1c026db3d8,Johnny crown,johnny-crown,US,long_tail,exact_foreign,2
+John Okafor,,d2907c25-fd42-4aaf-9e6d-0879e10b8da0,John Okafor,john-okafor,,long_tail,exact_no_country,2
+Joseph Adebayo Adelakun,,,,,,,unmatched,0
+Joseph Omotoye,,,,,,,unmatched,0
+Josiah Jachimike Okonkwo,,,,,,,unmatched,0
+Josiah Ransome-Kuti,,8d455b02-c5f7-11e8-bd3d-549f35141000,Josiah Ransome-Kuti,josiah-ransome-kuti,NG,long_tail,exact_ng,1
+Judikay,,7fdf5288-432e-11e9-a98c-00163ec5a2fb,Judikay,judikay,NG,long_tail,exact_ng,10
+Jaywon,,11e83fe1-0b54-daf6-950a-aa1c026db3d8,Jaywon,jaywon,NG,long_tail,exact_ng,10
+Jumabee,,11e81bc3-6482-db4c-b6cb-a0369fe50396,Jumabee,jumabee,NG,long_tail,exact_ng,10
+Justina Lee Brown,,11e81bc8-db7f-700c-9898-a0369fe50396,Justina Lee Brown,justina-lee-brown,CH,long_tail,exact_foreign,3
+K1 De Ultimate,,11e83fe1-bf74-910c-9554-aa1c026db3d8,K1 De Ultimate,k1-de-ultimate,NG,mid_level,exact_ng,10
+Kawu Dan Sarki,,00351778-cf9c-45ec-9e5c-0a8c8dd715b0,Kawu Dan Sarki,kawu-dan-sarki,NG,long_tail,exact_ng,5
+Kabaka,,53077d4a-d103-4060-bac3-e1102713e065,Kabaka,kabaka-7,,long_tail,exact_no_country,10
+KC Presh,,11e83fe4-f40f-eeae-a5e1-a0369fe50396,Kc Presh,kc-presh,,long_tail,exact_no_country,2
+KayArchonn,,8d21b387-5d48-4c59-a3f5-780dfd1f7a75,KayArchonn,kayarchonn,US,mainstream,exact_foreign,7
+Kcee,,11e83fe0-4b98-1ffc-848c-aa1c026db3d8,KCee,kcee-1,NG,mainstream,exact_ng,10
+KDDO,,bafc2af5-cee0-43d8-b180-7574949f1335,KDDO,kddo,NG,mid_level,exact_ng,10
+Kefee,,11e83fe1-8486-e2de-9813-aa1c026db3d8,Kefee,kefee,,long_tail,exact_no_country,10
+Kel-P,,fd96d4c0-17fa-11ea-b52d-e4434b2a4898,Kel-P,kel-p,NG,long_tail,exact_ng,10
+Kelly Handsome,,11e83fe4-57d9-5f48-b7eb-aa1c026db3d8,Kelly Handsome,kelly-handsome,,long_tail,exact_no_country,1
+Kenny K'ore,,e1b30c7e-c49f-11e8-8955-525400009efb,Kenny K'Ore,kenny-kore-1,NG,long_tail,exact_ng,4
+Kemena,,3275117f-1ede-46ec-91a7-18910df4e730,Kemena,kemena,NG,long_tail,exact_ng,10
+Kenny Ogungbe,,6e484dc2-d9fb-11e9-92d2-801844ee83a6,Kenny Ogungbe,kenny-ogungbe,,long_tail,exact_no_country,5
+Kendickson,,f39f7ebe-b8f5-11e8-8d7c-525400009efb,Kendickson,kendickson,NG,long_tail,exact_ng,10
+Ketchup,,11e81bcb-6469-a674-8a0e-a0369fe50396,Ketchup,ketchup,NG,long_tail,exact_ng,10
+Khalifa Isma’il,,,,,,,unmatched,0
+Khalifa SK Dorai,,,,,,,unmatched,0
+Kfmd,,befb7c02-2575-4cfc-a317-18578863a2fa,KFMD,kfmd,NG,long_tail,exact_ng,10
+Juno,,0cc62e15-e80e-4bdf-add4-0f92c53560c4,Juno,hearjuno,NG,long_tail,exact_ng,10
+Kida Kudz,,11e83fe1-9d19-f8a4-9030-aa1c026db3d8,Kida Kudz,kida-kudz,GB,mid_level,exact_foreign,5
+Kheengz,,11e83fee-2b62-686a-8145-a0369fe50396,Kheengz,kheengz,NG,long_tail,exact_ng,10
+Kibilou,,7cc274b0-13af-4539-be2e-861940b209b6,Kobilou,kobilou,NG,long_tail,ng_only,10
+King Perryy,,38cf4ca4-b8f5-11e8-b59d-525400009efb,King Perryy,king-perryy,NG,mid_level,exact_ng,6
+Kidd Carder,,5152458c-1e56-485a-a6c4-6c2fd985e974,Kidd Carder,kidd-carder,NG,mid_level,exact_ng,2
+King Steve Benjamin,,ac363ed0-dbe3-4386-867e-c3fc804464b2,King Steve Benjamin,king-steve-benjamin,NG,long_tail,exact_ng,1
+Killertunes,,6f83055e-fc04-11e8-9933-549f35161576,Killertunes,killertunes,NG,long_tail,exact_ng,9
+Koker,,11e83fe5-f36c-c156-b965-aa1c026db3d8,Koker,koker,NG,long_tail,exact_ng,10
+King Wadada,,5685cb32-5eab-4f87-a7db-1656c6dcb075,King Wadada,king-wadada-5,NG,long_tail,exact_ng,7
+Kola Ogunkoya,,11e83fe7-2653-7a3c-bca0-aa1c026db3d8,Kola Ogunkoya,kola-ogunkoya,US,long_tail,exact_foreign,4
+Kolade Dominate,,,,,,,unmatched,0
+Kokoro,,11e81bca-3d24-964c-a703-a0369fe50396,Kokoro,kokoro,GB,long_tail,exact_foreign,10
+Kollington Ayinla,,11e81bc9-9d37-35f4-86f2-a0369fe50396,Kollington Ayinla,kollington-ayinla,,long_tail,exact_no_country,10
+Krexx Nv,,318b892c-dc77-4ce1-b811-ae84d6bcb3da,Krexx Nv,krexx-nv,NG,long_tail,exact_ng,2
+Kunle Ajayi,,ae7edca2-87bd-11e9-9a0e-801844edfa71,Kunle Ajayi,kunle-ajayi,,long_tail,exact_no_country,5
+Kvng Vinci,,78b54f02-f1d2-4da1-9475-26433a20632f,Kvng Vinci,kvng-vinci,ZA,long_tail,exact_foreign,4
+KWAM 1,,11e83fe0-3dd0-723e-9d72-aa1c026db3d8,Kwam 1,kwam-1-1,,long_tail,exact_no_country,5
+L.A.X,,11e81bbd-8381-80b2-9a81-a0369fe50396,L.A.X,l-a-x,NG,long_tail,exact_ng,10
+Kunmie,,8650eed1-f56c-4029-9ee0-7213c48a2a30,Kunmie,kunmie-3,NG,mid_level,exact_ng,10
+Lado Ahmad,,,,,,,unmatched,0
+Laolu Akins,,,,,,,unmatched,0
+Lara George,,11e83fe1-62bf-8886-89da-aa1c026db3d8,Lara George,lara-george,NG,mid_level,exact_ng,6
+Larry Gaaga,,11e83fee-2e8c-f352-ac1b-aa1c026db3d8,Larry Gaaga,larry-gaaga,NG,mid_level,exact_ng,4
+Lawrence Oyor,,9edbe9a8-4060-4624-99f9-1bbf7b5d92f9,Lawrence Oyor,lawrence-oyor-3,NG,long_tail,exact_ng,6
+Lemmy Jackson,,2d883401-4317-44dc-b24e-d47e8278868f,Lemmy Jackson,lemmy-jackson,NL,long_tail,exact_foreign,1
+Lekaa Beats,,11e83fee-74a2-b156-8cbb-aa1c026db3d8,Lekaa Beats,lekaa-beats,GB,long_tail,exact_foreign,2
+Laycon,,902044d0-8e3d-44c9-9851-5c91aec4e9f7,LAYCON,laycon-1,NG,long_tail,exact_ng,10
+Lifesize Teddy,,b50e9619-c8ce-4b8c-87e7-a752730822f7,Lifesize Teddy,lifesize-teddy,PT,long_tail,exact_foreign,2
+Lijadu Sisters,,11e81bd3-3401-3ca6-a92e-a0369fe50396,The Lijadu Sisters,lijadu-sisters,NG,long_tail,ng_only,1
+Lilin Baba,,d0b47d26-f272-4ce8-b0c3-347ce41f7397,Lilin Baba,lilin-baba-1,NG,long_tail,exact_ng,6
+Limoblaze,,11e83fec-7a65-1f04-a66d-a0369fe50396,Limoblaze,limoblaze,NG,long_tail,exact_ng,10
+Lincoln,,11e83fe8-8dda-08b4-84e1-a0369fe50396,Lincoln,lincoln-6,US,long_tail,exact_foreign,10
+Lindsey Abudei,,11e81bd1-6306-6276-af77-a0369fe50396,Lindsey Abudei,lindsey-abudei,NG,long_tail,exact_ng,1
+Little Simz,,11e81bd2-2858-90e4-a035-a0369fe50396,Little Simz,little-simz,GB,mainstream,exact_foreign,1
+LKT,,11e83fe7-0693-da84-8fe0-aa1c026db3d8,LKT,lkt,NG,long_tail,exact_ng,10
+Liya,,265cfd2e-64f7-11e9-aeef-e4434b16cb7a,Liya,liya-5,NG,long_tail,exact_ng,10
+Llona,,b3917c57-f141-45b4-ae28-02417e67b5d7,Llona,llona-1,NG,mid_level,exact_ng,10
+Lola Rae,,11e81bc3-115b-a03e-a29b-a0369fe50396,Lola Rae,lola-rae,NG,long_tail,exact_ng,5
+Loose Kaynon,,11e83fe6-6900-26f6-abf5-a0369fe50396,Loose Kaynon,loose-kaynon,NG,long_tail,exact_ng,5
+London,,b8c3d1d9-1009-4245-a23e-4c0ae21c14dd,London,london-16,,long_tail,exact_no_country,10
+Lord of Ajasa,,11e83fe1-9487-a772-9358-a0369fe50396,Lord of Ajasa,lord-of-ajasa,NG,long_tail,exact_ng,5
+Louddaaa,,df38e5f2-c0d8-4777-b6c5-1ac00868de55,Louddaaa,louddaaa,NG,long_tail,exact_ng,10
+Made Kuti,,cc3bb373-5ea1-45b8-9a0b-ae1c116c7ffa,Mádé Kuti,made-kuti,NG,long_tail,exact_ng,2
+M Trill,,c0178aa6-2468-4b86-bd55-950d20ee73c0,M-Trill,m-trill-3,NG,long_tail,exact_ng,7
+M.I,,11e81bd3-0abb-f8fe-8f2e-a0369fe50396,M.I,m-i-1,GB,long_tail,exact_foreign,10
+Mairo Ese,,11e83fe5-ac5b-96ac-80c6-a0369fe50396,Mairo Ese,mairo-ese,NG,long_tail,exact_ng,5
+Magníto,,11e83fe5-40d5-365e-8e7c-aa1c026db3d8,Magnito,magnito,,long_tail,exact_no_country,10
+Majek Fashek,,11e81bd3-37e3-5b42-b32a-a0369fe50396,Majek Fashek,majek-fashek,NG,long_tail,exact_ng,5
+Maintain,,c4735108-b15b-4bd1-afd7-469273cc813f,Maintain,maintain-21,US,long_tail,exact_foreign,10
+Makayla Malaka,,f451e027-55cf-4030-b0e2-e83b6efd3f4a,Makayla Malaka,makayla-malaka,NG,long_tail,exact_ng,1
+Majeeed,,3ef4c0fa-ff9e-11e9-9c3e-801844edfa71,Majeeed,majeeed,GB,mid_level,exact_foreign,10
+Malam Maidoki,,,,,,,unmatched,0
+Mandy Thunder,,,,,,,unmatched,0
+Mamman Shata,,4c3216a0-b6c9-11e9-ab9c-549f35141000,Mamman Shata,mamman-shata,,long_tail,exact_no_country,6
+Maryam A. Usman,,,,,,,unmatched,0
+Marvy,,80534b9b-3e74-4ca4-a9e8-085e4b89921c,Marvy,marvy-6,AL,long_tail,exact_foreign,10
+Maryam Yahaya,,,,,,,unmatched,0
+Maryam Fantimoti,,19293926-e037-45c6-b491-55db62b81229,Maryam Fantimoti,maryam-fantimoti-1,,long_tail,exact_no_country,1
+Marenikae,,b8123cd4-b34f-11e8-8a2e-525400009efb,Marenikae,marenikae-1,NG,long_tail,exact_ng,10
+Maryam Booth,,7fd7b66d-428c-47af-87d4-005b88ccd004,Maryam Booth,maryam-booth,,long_tail,exact_no_country,1
+Maud Meyer,,,,,,,unmatched,0
+Masterkraft,,cdef2088-b8ce-11e8-b94f-525400009efb,Masterkraft,masterkraft,NG,mid_level,exact_ng,10
+May D,,11e83fe0-4951-99d0-b26a-aa1c026db3d8,May D,may-d,NG,mid_level,exact_ng,10
+Mavo,,2db8cdd8-51bf-4f58-b4ff-8990290cb149,Mavo,mavo-39,GB,long_tail,exact_foreign,10
+MC Galaxy,,11e81bd2-be0d-ebe8-901d-a0369fe50396,MC Galaxy,mc-galaxy,NG,mid_level,exact_ng,4
+Malam Mamman Barkah,,,,,,,unmatched,0
+Michael Ekeghasi,,7b2617d1-84de-4dd4-b30b-aab24c0fc712,Michael Ekeghasi,michael-ekeghasi,,long_tail,exact_no_country,1
+MCskill ThaPreacha,,11e81bc4-16a6-b00a-9cfe-a0369fe50396,MCskill ThaPreacha,mcskill-thapreacha,NG,long_tail,exact_ng,2
+Mega 99,,11e83fee-e8bb-9576-b788-aa1c026db3d8,Mega 99,mega-99,NG,long_tail,exact_ng,7
+Mercy Chinwo,,11e83fed-ef07-728e-ac9c-aa1c026db3d8,Mercy Chinwo,mercy-chinwo,NG,mainstream,exact_ng,10
+Midnight Crew,,11e83fe2-a3ae-c7ac-b185-a0369fe50396,Midnight Crew,midnight-crew,NG,long_tail,exact_ng,10
+Mike Abdul,,11e83fe2-6a71-51c6-a8e0-aa1c026db3d8,Mike Abdul,mike-abdul,NG,long_tail,exact_ng,10
+Mike Ejeagha,,11e81bc0-b365-8078-b9c4-a0369fe50396,Mike Ejeagha,mike-ejeagha,,long_tail,exact_no_country,4
+Mike Falana,,,,,,,unmatched,0
+Minister GUC,,f1383b90-339a-11ea-bc2c-549f35161576,Minister GUC,g-u-c,NG,mainstream,exact_ng,3
+Minz,,11e81bbf-73db-5334-9e8c-a0369fe50396,Minz,minz,NG,long_tail,exact_ng,10
+Mode 9,,e62a850a-c5be-11e8-a6eb-549f35141000,Mode 9,mode-9-1,,long_tail,exact_no_country,5
+Momee Gombe,,3daea0b7-236d-4995-8d5e-5cc3639bed75,Momee Gombe,momee-gombe,NG,long_tail,exact_ng,2
+Mo'Cheddah,,11e81bc8-acfb-27bc-ba47-a0369fe50396,Mo'Cheddah,mo-cheddah-3,NG,long_tail,exact_ng,10
+Monica Ogah,,11e83feb-7e8f-ada2-9485-a0369fe50396,MONICA OGAH,monica-ogah,NG,long_tail,exact_ng,1
+Modola,,b54784b4-e3dd-4df2-9564-a523bca36a1a,Modola,modola,IT,long_tail,exact_foreign,10
+Modenine,,11e83fe1-64ec-c2ae-a648-aa1c026db3d8,Modenine,modenine,NG,long_tail,exact_ng,10
+Monaky,,a3642ee7-22fc-4b9c-950e-fcf2b0c817ff,Monaky,monaky,NG,mid_level,exact_ng,10
+May7ven,,11e83fe1-b044-1f04-b54b-a0369fe50396,May7ven,may7ven,GB,long_tail,exact_foreign,10
+Monicazation,,9dd50f1e-54a2-11e9-b63d-549f35161576,Monicazation,monicazation,US,long_tail,exact_foreign,1
+Monochrome,,108b1af6-a6a5-45fb-91aa-f928ef80478b,Monochrome,monochrome-33,NG,long_tail,exact_ng,10
+Morocco Maduka,,3227ccde-c6ea-4d51-852e-7368498aaae7,Morocco Maduka,morocco-maduka,NG,long_tail,exact_ng,10
+Moravey,,7bac8163-ed7b-4cd7-a9a5-c0a06e02342e,Morravey,morravey,NG,mid_level,ambiguous,10
+Moses Olaiya,,,,,,,unmatched,0
+Morell,,11e81bcc-cd84-1aee-9d7e-a0369fe50396,Morell,morell,NG,long_tail,exact_ng,10
+Moses Bliss,,11e83feb-3bdf-ceb0-afda-aa1c026db3d8,Moses Bliss,moses-bliss,NG,mainstream,exact_ng,8
+Mosbeekhan,,44df9653-2751-4cf2-b2ca-5a00f691b2ec,Mosbeekhan,mosbeekhan,NG,long_tail,exact_ng,1
+Mr 2Kay,,11e81bbf-0123-c4f2-84a5-a0369fe50396,Mr. 2Kay,mr-2kay,NG,long_tail,exact_ng,7
+Mr Dutch,,ae14e4cc-b8cf-11e8-83e3-525400009efb,Mr. Dutch,mr-dutch,ZA,long_tail,exact_foreign,5
+Morravey,,7bac8163-ed7b-4cd7-a9a5-c0a06e02342e,Morravey,morravey,NG,mid_level,exact_ng,10
+Mr M & Revelation,,11e8aa04-ed58-ee1e-8f43-525400009efb,Mr M & Revelation,mr-m-revelation,NG,long_tail,exact_ng,3
+Mr Raw,,11e83fe9-520b-97ac-9723-aa1c026db3d8,Mr Raw,mr-raw-1,NG,long_tail,exact_ng,10
+Mr. P,,11e83fed-5a39-524e-942b-aa1c026db3d8,Mr. P,mr-p-6,NG,long_tail,exact_ng,10
+Mukhtar Sarkin Goge,,,,,,,unmatched,0
+Msquare Nahh,,,,,,,unmatched,0
+Muraina Oyelami,,,,,,,unmatched,0
+Muma Gee,,efdf9547-1189-498e-b36e-9fbfafeadf39,Muma Gee,muma-gee,NG,long_tail,exact_ng,3
+Munachi Abii,,,,,,,unmatched,0
+Msquare,,45ed9651-2398-4ec8-b0ee-fc0ff2134858,Msquare,msquare-1,,long_tail,exact_no_country,10
+Muna,,11e81bc0-bc35-6772-9b18-a0369fe50396,Muna,muna,US,long_tail,exact_foreign,10
+Muri Thunder,,8f5dbb15-a135-4846-bdd9-3ca34eacf239,Muri Thunder,muri-thunder,NG,long_tail,exact_ng,7
+Murz,,d2dea7cd-9979-4798-9aac-d257992fa041,Murz,murz-2,CA,long_tail,exact_foreign,10
+Musa Dankwairo,,11e83fe6-38a2-e390-abd1-aa1c026db3d8,Alhaji Musa Dankwairo,alhaji-musa-dankwairo,NG,long_tail,ng_only,1
+Musa Jambo,,,,,,,unmatched,0
+Musty Sango,,,,,,,unmatched,0
+Nasiru Jikan,,,,,,,unmatched,0
+Musta4a,,a0d43d16-4cc7-11ea-86ed-549f35141000,Musta4a,musta4a,NG,long_tail,exact_ng,10
+Mz Kiss,,11e83fe7-0ea3-2d24-a46e-aa1c026db3d8,Mz Kiss,mz-kiss,NG,long_tail,exact_ng,5
+Namenj,,2a2014ac-f37b-498f-9114-1c9d1d167bfe,Namenj,namenj,NG,long_tail,exact_ng,10
+Musicbwoy,,202bd90c-298c-11ea-aa41-e4434b2a4898,Musicbwoy,musicbwoy,NG,long_tail,exact_ng,10
+Nazir M. Ahmad,,11e83fe2-5799-12a0-b1ed-aa1c026db3d8,Nazir M. Ahmad,nazir-m-ahmad,NG,long_tail,exact_ng,3
+Nazifi Asnanic,,142ef2b6-e467-11e9-ae56-549f35141000,Nazifi Asnanic,nazifi-asnanic,NG,long_tail,exact_ng,8
+Nathaniel Bassey,,11e83fe2-8fec-c480-ab08-aa1c026db3d8,Nathaniel Bassey,nathaniel-bassey,NG,superstar,exact_ng,10
+Nazir Sarkin Waka,,abe6fd02-b05e-4444-ac5a-40760bc13fb4,Nazir M Ahmad Sarkin Waka,nazir-m-ahmad-sarkin-waka,NG,long_tail,ng_only,2
+Naziru M Ahmad,,,,,,,unmatched,0
+Naziru Sarkin Waka,,d306ee3e-1787-4e49-9091-e1aaa2d9cfb0,Naziru Sarkin Waka,naziru-sarkin-waka,,long_tail,exact_no_country,4
+Ndotz,,e790d3de-6e53-11e9-ac0d-801844edfa71,Ndotz,ndotz,GB,mainstream,exact_foreign,10
+Neeja,,dc1ffae4-4fc7-453d-80d2-f491d9f1af1b,Neeja,neeja,NG,long_tail,exact_ng,10
+Neeta,,2ca48b4a-e678-11e9-974d-801844ee83a6,Neeta,neeta,MY,long_tail,exact_foreign,10
+Nelly Uchendu,,11e81bcc-e3cb-d44a-91d9-a0369fe50396,Nelly Uchendu,nelly-uchendu,NG,long_tail,exact_ng,1
+Neon Adejo,,d752cf08-11a2-11e9-acf2-00163ec5a2fb,Neon Adejo,neon-adejo,US,long_tail,exact_foreign,1
+Nicole Moudaber,,11e81bc3-99da-6ed6-8184-a0369fe50396,Nicole Moudaber,nicole-moudaber,GB,mid_level,exact_foreign,3
+Nikki Laoye,,11e83fe8-b454-c114-ae2e-a0369fe50396,Nikki Laoye,nikki-laoye,NG,long_tail,exact_ng,3
+NezaBoy,,7b020c5b-6d81-4b91-a330-5827536a9311,Nezaboy,nezaboy,NG,long_tail,exact_ng,10
+Nimix,,11e83fef-1115-56d8-b3b5-a0369fe50396,Nimix,nimix,ZA,long_tail,exact_foreign,10
+Muyeez,,c143b697-93e1-42d6-a950-7d68e46501eb,Muyeez,muyeez,NG,mid_level,exact_ng,10
+Ninety,,1c8d4cec-c644-11e8-9d54-549f35141000,Ninety,ninety,NG,long_tail,exact_ng,10
+Niphkeys,,f61ac352-9f0d-4f2f-b712-3e2092899984,Niphkeys,niphkeys,NG,long_tail,exact_ng,10
+Nissi,,11e83fe7-c9cd-ec6a-b4c3-aa1c026db3d8,Nissi,nissi,PR,long_tail,exact_foreign,10
+Nonso Bassey,,11e83fee-4233-99ba-84a5-aa1c026db3d8,Nonso Bassey,nonso-bassey,NG,long_tail,exact_ng,2
+Nneka,,11e81bd0-c216-ed86-83cd-a0369fe50396,Nneka,nneka,DE,mid_level,exact_foreign,10
+NO11,,bece878a-4351-4b35-8f94-1d8e36e292b0,NO11,no11,NG,long_tail,exact_ng,10
+Niyola,,11e83fe0-5af9-066e-bb02-a0369fe50396,Niyola,niyola,NG,long_tail,exact_ng,10
+Nura Suleja,,,,,,,unmatched,0
+Nura M Inuwa,,11e83fe2-f4ff-0fe0-b501-a0369fe50396,Nura M. Inuwa,nura-m-inuwa,NG,long_tail,exact_ng,6
+Nosa,,11e81bbf-ed6e-4a62-8bec-a0369fe50396,Nosa,nosa,NG,long_tail,exact_ng,10
+Oberz,,d5830324-b346-11e8-afb4-525400009efb,Oberz,oberz,NG,long_tail,exact_ng,10
+Obiwon,,11e83fee-f230-7ef0-9fff-aa1c026db3d8,Obiwon,obiwon,,long_tail,exact_no_country,10
+OG Abbah,,bfa58f24-859f-4045-b121-e203a560e900,OG Abbah,og-abbah-1,NG,long_tail,exact_ng,4
+Obongjayar,,11e81bc6-db77-2fca-b20a-a0369fe50396,Obongjayar,obongjayar,GB,long_tail,exact_foreign,2
+Obesere,,11e83fe6-622e-10e0-8124-a0369fe50396,Obesere,obesere,NG,long_tail,exact_ng,10
+Odeal,,11e83feb-9e4b-c75c-b01f-a0369fe50396,Odeal,odeal,GB,mid_level,exact_foreign,10
+OJB Jezreel,,11e83fe7-0d78-4588-a42d-a0369fe50396,Ojb Jezreel,ojb-jezreel,,long_tail,exact_no_country,2
+Oga Abdul,,a26d2ef0-7fe7-4e33-b5b7-43d7a204944d,Oga Abdul,oga-abdul,NG,long_tail,exact_ng,7
+Okechukwu Oku,,,,,,,unmatched,0
+Okiemute,,11e83fee-d196-0c50-bf54-a0369fe50396,Okiemute,okiemute,NG,long_tail,exact_ng,7
+Ola Dips,,11e83fe6-af50-f798-9176-aa1c026db3d8,Ola Dips,ola-dips,,long_tail,exact_no_country,5
+Oliver De Coque,,11e83fe0-e3c1-d340-9c7f-aa1c026db3d8,Oliver De Coque,oliver-de-coque,NG,long_tail,exact_ng,10
+Oladapo,,ae1f63a6-3b34-11e9-8d85-549f35141000,Oladapo,oladapo,NG,long_tail,exact_ng,10
+Olly Sholotan,,dae08120-31ea-11e9-9809-549f35161576,Olly Sholotan,olly-sholotan,US,long_tail,exact_foreign,1
+Olugbenga Adelekan,,49f8197a-c65b-11e8-88a3-549f35161576,Olugbenga Adelekan,olugbenga-adelekan,GB,long_tail,exact_foreign,1
+Oluwatobi Oyero,,fe1cec06-5611-46ea-b726-b54f0a6459ff,Oluwatobi Oyero,oluwatobi-oyero,,long_tail,exact_no_country,1
+Oluwa Toyo,,2597b1b5-ad53-4908-827c-5e9e8996108d,Oluwa Toyo,oluwa-toyo-1,GB,long_tail,exact_foreign,3
+Onyeka Onwenu,,11e83fe1-68af-7238-9f20-aa1c026db3d8,Onyeka Onwenu,onyeka-onwenu,NG,long_tail,exact_ng,2
+Onos Ariyo,,479e924c-c612-11e8-861c-549f35161576,Onos Ariyo,onos-ariyo,,long_tail,exact_no_country,5
+Omawumi,,11e83fe0-64e2-17e2-a092-a0369fe50396,Omawumi,omawumi,NG,long_tail,exact_ng,10
+Orezi,,11e83fe0-4e89-5dde-b83b-aa1c026db3d8,Orezi,orezi,NG,mid_level,exact_ng,10
+Orits Wiliki,,b55e5639-5abe-404f-8d74-6abc9dd26a8a,Orits Wiliki,orits-wiliki,NG,long_tail,exact_ng,4
+Orits Williki,,11e83fe4-71ab-517e-9867-aa1c026db3d8,Orits Williki,orits-williki,,long_tail,exact_no_country,3
+Oriental Brothers,,3c58f3db-70b4-4e5e-8cf6-ac4445c73d1e,Oriental Brothers,oriental-brothers-1,,long_tail,exact_no_country,10
+Orlando Julius,,11e81bca-a464-4d48-9a09-a0369fe50396,Orlando Julius,orlando-julius,NG,mid_level,exact_ng,7
+Orlando Owoh,,a22ef1a6-3dd6-11ea-bddb-549f35141000,Orlando Owoh,orlando-owoh,NG,long_tail,exact_ng,10
+Osinachi Nwachukwu,,75874326-4ba9-11e9-9e7a-549f35141000,Osinachi Nwachukwu,osinachi-nwachukwu,NG,long_tail,exact_ng,10
+Ossy Brown,,bc0b8bf6-f34f-11e9-aecc-801844ee83a6,Ossy Brown,ossy-brown,GB,long_tail,exact_foreign,1
+oSHAMO,,3fe29364-59ef-401c-8d8b-3e99ead2735c,Oshamo,oshamo,GB,long_tail,exact_foreign,10
+Osita Osadebe,,11e81bc9-3074-d96c-a66b-a0369fe50396,Chief Stephen Osita Osadebe,chief-stephen-osita-osadebe,NG,long_tail,ambiguous,9
+Oshara,,33aafa50-5943-45d8-9478-54012ca84737,Oshara,oshara,,long_tail,exact_no_country,10
+P2J,,e370e07a-87f8-4b6f-91db-054b0c95972a,P2J,p2j,GB,long_tail,exact_foreign,7
+P.Priime,,9cd89370-7ebd-4035-b4ee-9ad0e778ab4d,P.Priime,p-priime,NG,long_tail,exact_ng,10
+Patrice Wilson,,5e9d64a0-c649-11e8-b87c-549f35141000,Patrice Wilson,patrice-wilson-1,US,long_tail,exact_foreign,1
+Patty Obasi,,e499c3e4-4fda-4b6c-b0cd-74af7ca6f118,Patty Obasi,patty-obasi,,long_tail,exact_no_country,3
+Pasuma,,11e83fe6-f10d-56ae-af16-a0369fe50396,Pasuma,pasuma,NG,long_tail,exact_ng,10
+Paul Play Dairo,,11e83fe1-bc6a-09ec-8f11-aa1c026db3d8,Paul Play Dairo,paul-play-dairo,,long_tail,exact_no_country,1
+Paybac Iboro,,abaf759c-d5e5-11e9-9903-549f35161576,Paybac Iboro,paybac-iboro,NG,long_tail,exact_ng,9
+Pawzz,,380f100b-8f2f-4a5d-bf89-7bc2378fbdab,Pawzz,pawzz,NG,long_tail,exact_ng,10
+Payper Corleone,,11e83fec-2416-436c-a2e1-aa1c026db3d8,Payper Corleone,payper-corleone,NG,long_tail,exact_ng,10
+Pericoma Okoye,,,,,,,unmatched,0
+Peacocks Guitar Band International,,11e83fe6-371c-d99a-b2f9-a0369fe50396,Peacocks Guitar Band International,peacocks-guitar-band-international,,long_tail,exact_no_country,2
+Peter King,,11e81bbc-2721-c6b6-9573-a0369fe50396,Peter King,peter-king,GB,long_tail,exact_foreign,10
+Pepenazi,,11e83fe3-b5b3-ceba-b7e4-aa1c026db3d8,Pepenazi,pepenazi,NG,long_tail,exact_ng,10
+Peterson Okopi,,579fbd62-522b-458b-984b-8adc9cf3c63f,Peterson Okopi,peterson-okopi,NG,long_tail,exact_ng,6
+Plantashun Boiz,,11e83fe3-e42d-b030-83dd-a0369fe50396,Plantashun Boiz,plantashun-boiz,NG,long_tail,exact_ng,3
+Phantom,,11e81bbe-a4db-f52a-8e52-a0369fe50396,Phantom,phantom-5,US,long_tail,exact_foreign,10
+Poco Lee,,1f0291ea-e41a-11e9-93c3-549f35141000,Poco Lee,poco-lee,NG,mid_level,exact_ng,10
+POS,,,,,,,unmatched,10
+Plutomania,,ed14e4b8-b4f6-4591-951b-c3b9e2281d6d,plutomania,plutomania,NG,long_tail,exact_ng,10
+Preye Odede,,11e83fe7-6894-11ae-b6bc-aa1c026db3d8,Preye Odede,preye-odede,NG,long_tail,exact_ng,1
+Prince Adekunle,,7c3ef6d4-b8f4-11e8-bffc-525400009efb,General Prince Adekunle,general-prince-adekunle,NG,long_tail,ng_only,8
+Prince Nico Mbarga,,11e81bc8-0973-bc6c-97b4-a0369fe50396,Prince Nico Mbarga,prince-nico-mbarga,NG,long_tail,exact_ng,5
+Princess Peters,,baad5e0c-d222-4671-adae-e55c931a26be,Princess Peters,princess-peters,NG,long_tail,exact_ng,2
+Prince Mk Baagi,,07955234-04c3-4a23-9da0-d2f66611cbe2,Prince Mk Baagi,prince-mk-baagi,NG,long_tail,exact_ng,1
+Prospa Ochimana,,11e83fec-de7c-3ea0-b540-aa1c026db3d8,Prospa Ochimana,prospa-ochimana,NG,long_tail,exact_ng,3
+Projexx,,11e88a9b-0e04-a25e-80b0-c81f66c9b203,Projexx,projexx,JM,long_tail,exact_foreign,10
+PsychoYp,,d2f9af22-0639-11e9-a62e-00163ec5a2fb,Psychoyp,psychoyp-5,NG,long_tail,exact_ng,10
+Qdot,,8a7b3ade-b8cf-11e8-bd66-525400009efb,Qdot,qdot,NG,mid_level,exact_ng,10
+Rahama Sadau,,b54262d2-a7ab-491f-8d0a-ecc3bb9bd9cb,Rahama Sadau,rahama-sadau,,long_tail,exact_no_country,1
+Rabi’u Rikadawa,,,,,,,unmatched,0
+Ras Kimono,,11e81bca-5cc1-a8e6-bc8b-a0369fe50396,Ras Kimono,ras-kimono,NG,long_tail,exact_ng,3
+Rarara,,6dd400ba-027c-4bf9-b07c-7d293aa6d7bb,Rarara,rarara-8,,long_tail,exact_no_country,10
+Rex Lawson,,11e81bd3-36be-8e08-8adf-a0369fe50396,Rex Lawson,rex-lawson,GB,long_tail,exact_foreign,10
+Remi Aluko,,11e83fe3-2853-1472-971a-aa1c026db3d8,Remi Aluko,remi-aluko,,long_tail,exact_no_country,10
+Ruggedman,,11e81bbc-a2cc-b276-af29-a0369fe50396,Ruggedman,ruggedman,NG,long_tail,exact_ng,10
+Rumerh,,95152925-89c2-4ef5-a2f9-bb88ffcf55c5,Rumerh,rumerh,NG,long_tail,exact_ng,10
+Runtown,,11e81bd1-0d74-7884-9827-a0369fe50396,Runtown,runtown,NG,mainstream,exact_ng,10
+Rymzo,,11e83fea-18d6-c8c0-aa64-aa1c026db3d8,Rymzo,rymzo,,long_tail,exact_no_country,10
+Rybeena,,37ef9719-a949-48fe-ade8-0437e83f1e88,Rybeena,rybeena,NG,mainstream,exact_ng,10
+S1ordie,,bc76f323-7669-4835-ba09-6659e1e3acfa,S1orDie,s1ordie,US,long_tail,exact_foreign,10
+S.N.E,,fdeebb06-7d0d-470f-9834-eb0b15295c84,S.N.E,s-n-e-5,ZA,long_tail,exact_foreign,10
+Sade Adu,,11e83fe4-be00-f254-a77f-aa1c026db3d8,Sade Adu,sade-adu-1,GB,long_tail,exact_foreign,3
+Sadi Sidi Sharifai,,bf50000a-3911-11ea-8120-e4434b2a4898,Sadi Sidi Sharifai,sadi-sidi-sharifai,NG,long_tail,exact_ng,3
+Sadiq Zazzabi,,8e40738d-b8f5-4239-9b2c-4067e4f53a06,Sadiq Zazzabi,sadiq-zazzabi,NG,long_tail,exact_ng,1
+Sadiq Saleh,,cd647c83-80cd-43c0-bc26-6a359a5844ea,Sadiq Saleh,sadiq-saleh,NG,long_tail,exact_ng,8
+Saeon,,11e83fe6-6b2d-c898-b105-a0369fe50396,Saeon,saeon,,long_tail,exact_no_country,10
+Safin De Coque,,78eff354-89ba-4126-b717-c080f755f572,Safin De Coque,safin-de-coque,NG,long_tail,exact_ng,1
+Saffron,,bcf17232-507d-4133-87f5-c0ebb55410c6,Saffron,saffron-18,,long_tail,exact_no_country,10
+Saheed Osupa,,c8175a62-2f85-49a8-9e82-44c260483ffc,Saheed Osupa,saheed-osupa-4,,long_tail,exact_no_country,10
+Ruby Gyang,,25bf8ab1-c71b-4fa8-8448-8e75fd38f307,Ruby Gyang,ruby-gyang-5,NG,long_tail,exact_ng,5
+Salim Smart,,ef44278f-58f8-4afd-8c3f-e628af375931,Salim Smart,salim-smart,NG,long_tail,exact_ng,10
+Salawa Abeni,,a6da7dac-b512-48f4-82b3-240855f69efb,Salawa Abeni,salawa-abeni,,long_tail,exact_no_country,5
+SAMAD,,cd3745e0-847f-40e0-8db5-c111de8a5702,SAMAD,samad-21,NG,long_tail,exact_ng,10
+Sammie Okposo,,11e83fe1-fa5b-e8ba-b3ab-aa1c026db3d8,Sammie Okposo,sammie-okposo,NG,long_tail,exact_ng,4
+Sani Ahmad,,8df173d0-83c3-4974-8b2f-4a9f9bfa0844,SANI AHMAD,sani-ahmad-1,NG,long_tail,exact_ng,3
+Sani Danja,,11e81bbe-592d-12a8-af00-a0369fe50396,Sani Danja,sani-danja,NG,long_tail,exact_ng,4
+Samsong,,11e83fe2-dba2-a426-b8ba-aa1c026db3d8,Samsong,samsong,NG,long_tail,exact_ng,10
+Saoty Arewa,,4b23b97e-cb39-481f-8d04-580463dc3cdc,Saoty Arewa,saoty-arewa,NG,long_tail,exact_ng,8
+Sasha P,,11e83fea-f4ff-41f6-84a8-aa1c026db3d8,Sasha P,sasha-p,NG,long_tail,exact_ng,10
+Sefiu Alao Adekunle,,6f4b923b-1cb1-47cd-a290-0f18f022ad57,Sefiu Alao Adekunle,sefiu-alao-adekunle,,long_tail,exact_no_country,3
+Sa’ad Chika,,,,,,,unmatched,0
+Sean Dampte,,11e83feb-e25e-6b3e-a86f-aa1c026db3d8,Sean Dampte,sean-dampte,GB,long_tail,exact_foreign,1
+Sa’adou Bori,,,,,,,unmatched,0
+Sa’idu Goma,,,,,,,unmatched,0
+Segun Adewale,,11e81bd1-5a72-bf9c-958a-a0369fe50396,Segun Adewale,segun-adewale,NG,long_tail,exact_ng,4
+Segun Bucknor,,11e81bd2-c773-7fa4-b454-a0369fe50396,Segun Bucknor,segun-bucknor,NG,long_tail,exact_ng,4
+Serifatu Oladunni Oduguwa,,,,,,,unmatched,0
+Sess the Prblm Kid,,,,,,,unmatched,0
+Seun Omojola,,,,,,,unmatched,0
+Seyi Sodimu,,11e83fe7-8a66-4266-852d-a0369fe50396,Seyi Sodimu,seyi-sodimu,NG,long_tail,exact_ng,1
+Shaffy Bello,,6a781f79-3592-4198-93f5-5d30827e1aba,Shaffy Bello,shaffy-bello,,long_tail,exact_no_country,1
+Sexy Steel,,11e83fe9-fd1f-5fc0-843c-aa1c026db3d8,Sexy Steel,sexy-steel,,long_tail,exact_no_country,2
+Shank,,11e81bbe-0de7-0ac4-9e54-a0369fe50396,Shank,shank,JP,long_tail,exact_foreign,10
+Shanga,,c062551c-c1b5-11e8-b923-525400009efb,Shanga,shanga,CH,long_tail,exact_foreign,10
+Shaiboy,,0c3df5ce-bafd-4cb1-980b-fd40f28e47d9,Shaiboy,shaiboy,NG,long_tail,exact_ng,10
+Shehu Bello,,,,,,,unmatched,0
+Shaydee,,11e81bce-5ef8-a3f4-9788-a0369fe50396,Shaydee,shaydee,NG,long_tail,exact_ng,10
+Shehu Ahmad Tajal Izzy,,,,,,,unmatched,0
+Shaybo,,8d32f11c-cb17-11e9-96df-549f35161576,Shaybo,shaybo,GB,long_tail,exact_foreign,10
+Shekx,,1d830a50-9975-4f9e-9e6d-61db39908261,Shekx,shekx,NG,long_tail,exact_ng,10
+Shina Peters,,ee978719-a053-433e-b859-b6ea05210146,Shina Peters,shina-peters,NG,long_tail,exact_ng,2
+Shola Allynson,,,,,,,unmatched,0
+Shola Allyson,,,,,,,unmatched,0
+Shoday,,a62598bc-a7f7-4f60-91c9-40492c99d02d,Shoday,shoday,NG,long_tail,exact_ng,10
+Shugavybz,,07b763f6-6081-11ea-acc8-e4434b2a4898,Shugavybz,shugavybz,NG,long_tail,exact_ng,2
+Seun Kuti,,11e81bcd-6c78-56e2-beb7-a0369fe50396,Seun Kuti,seun-kuti,NG,long_tail,exact_ng,7
+Sikiru Ayinde Barrister,,4615e8b1-4be7-4c98-b298-b2f5f2a14029,Sikiru Ayinde Barrister,sikiru-ayinde-barrister-1,,long_tail,exact_no_country,10
+Sir Shina Peters,,11e81bc8-b622-4a3c-8f27-a0369fe50396,Sir Shina Peters,sir-shina-peters,NG,long_tail,exact_ng,1
+Sirajo Jibo,,,,,,,unmatched,0
+Sinach,,11e81bbe-5beb-a216-bce0-a0369fe50396,Sinach,sinach,NG,mid_level,exact_ng,10
+Skales,,11e81bcb-2f06-0a36-90c6-a0369fe50396,Skales,skales,NG,mainstream,exact_ng,10
+Skepta,,11e81bcc-ede6-804c-bd69-a0369fe50396,Skepta,skepta,GB,mid_level,exact_foreign,10
+Slimcase,,11e83fed-dd55-60d2-bf31-aa1c026db3d8,Slimcase,slimcase,NG,long_tail,exact_ng,10
+Slowdog,,11e83fe2-3f23-1f90-b914-aa1c026db3d8,Slowdog,slowdog,NG,long_tail,exact_ng,10
+Smur Lee,,bcef0122-ac75-40fb-8aa8-1eaf344c2ea9,Smur Lee,smur-lee,NG,long_tail,exact_ng,2
+Snazzy the Optimist,,a38f4c05-fe8b-4100-8105-b1608e430cf2,Snazzy the Optimist,snazzy-the-optimist,NG,long_tail,exact_ng,1
+Sogha Niger,,d656f042-bcc8-440c-b7a2-8d0910909fba,SOGHA NIGER,sogha-niger,,long_tail,exact_no_country,2
+Snatcha,,f2049d38-cf83-11e8-8273-525400009efb,Snatcha,snatcha-1,GB,long_tail,exact_foreign,10
+Sola Allyson,,11e83fed-381a-64fa-ac54-a0369fe50396,Sola Allyson,sola-allyson,NG,long_tail,exact_ng,4
+Sonnie Badu,,11e83fe5-9532-9cf0-bc9d-a0369fe50396,Sonnie Badu,sonnie-badu,GH,long_tail,exact_foreign,1
+Somadina,,11e83fee-af4f-1858-8d6c-aa1c026db3d8,SomaDina,somadina,NG,long_tail,exact_ng,10
+Sonny Okosun,,11e81bd0-a8e3-c596-9210-a0369fe50396,Sonny Okosun,sonny-okosun,NG,long_tail,exact_ng,2
+Sonny Okosuns,,d9bfcb7c-bc38-478a-a996-ca2566cd64e5,Sonny Okosuns,sonny-okosuns-4,,long_tail,exact_no_country,1
+Soundz,,ba251160-c450-11e8-b9ec-525400009efb,Soundz,soundz-2,NG,long_tail,exact_ng,10
+Specikinging,,713259f0-9857-11e9-9a9a-e4434b16cb7a,Specikinging,specikinging,NG,long_tail,exact_ng,3
+Spellz,,51c79940-29f3-11e9-9c00-549f35161576,Spellz,spellz-1,NG,long_tail,exact_ng,10
+St. Seií,,3079659d-10a0-4438-b31e-d05f0b0916e9,St. Seii,st-seii,NG,long_tail,exact_ng,2
+Spinall,,a1268430-d49e-4892-af83-9e9bbe8ab976,Spinall,spinall-1,NG,long_tail,exact_ng,10
+SSSoundGawd,,9ca898ee-a35b-4d5d-9067-b75c2cf57d4b,SSSoundGawd,sssoundgawd,NG,long_tail,exact_ng,2
+SteveHills,,5fea0a3f-6f1b-45e1-a365-bf338d38a198,Stevehills,stevehills,NG,long_tail,exact_ng,10
+Starsamm,,63697fb5-20a6-45e3-a1b0-7c8763fbd43f,Starsamm,starsamm-1,NG,long_tail,exact_ng,10
+Sule Alao Malaika,,a9a27fab-d0af-4ef0-9ff0-737a139dae6b,Sule Alao Malaika,sule-alao-malaika-1,,long_tail,exact_no_country,8
+Styl-Plus,,11e81bc1-61c1-9f1c-9851-a0369fe50396,Styl-Plus,styl-plus,NG,long_tail,exact_ng,9
+Sunkanmi,,11e83fe8-1380-3552-888c-a0369fe50396,Sunkanmi,sunkanmi,NG,long_tail,exact_ng,10
+Sunmisola Agbebi,,10964604-decb-4503-b01b-e5dc19979061,Sunmisola Agbebi,sunmisola-agbebi,NG,long_tail,exact_ng,6
+Sunny Ade,,11e83fed-0281-d36e-b49c-aa1c026db3d8,Sunny Ade,sunny-ade,,long_tail,exact_no_country,10
+Suté Iwar,,a0444748-4c27-11e9-a29f-e4434b16cb7a,Suté Iwar,sute-iwar,NG,long_tail,exact_ng,2
+Superstar YB,,a858e2e6-b545-4daf-8bc4-9aec145f30c2,Superstar Yb,superstar-yb,NG,long_tail,exact_ng,2
+Supernovamusician,,0d5faa81-8d56-41c5-8327-06e0578ad27d,Supernovamusician,supernovamusician,,long_tail,exact_no_country,1
+T-Plux,,708e32d6-078f-4556-a510-70b935241d2c,T-Plux,t-plux,MY,long_tail,exact_foreign,4
+Syemca,,b9de37a4-0022-11ea-8115-549f35141000,Syemca,syemca,NG,long_tail,exact_ng,10
+T-Classic,,11e8aa03-2f88-3da0-b98a-525400009efb,T-Classic,t-classic,NG,long_tail,exact_ng,10
+T'neeya,,11e83fec-7778-fd24-9223-a0369fe50396,T'neeya,t-neeya-1,CM,long_tail,exact_foreign,10
+T.I BLAZE,,b0f82282-8b3a-4364-a963-fc99f2dca69d,T.I BLAZE,t-i-blaze,NG,mid_level,exact_ng,6
+Tamara Jones,,11e81bbc-4a7a-7f04-88a0-a0369fe50396,Tamara Jones,tamara-jones,AU,long_tail,exact_foreign,2
+Taye Olusola,,f6cbf050-e72d-4baf-a572-67e10a5ca4b0,taye olusola,taye-olusola,,long_tail,exact_no_country,1
+TAR1Q,,d78bfa38-0055-4f9b-84c5-9c796d382011,TAR1Q,tar1q,NG,mid_level,exact_ng,10
+Tec,,,,,,,unmatched,10
+Straffitti,,009f3138-b8d6-11e8-986c-525400009efb,Straffitti,straffitti,NG,long_tail,exact_ng,10
+Taye Currency,,69afaafb-4758-4224-909a-b398d20f0a05,Taye Currency,taye-currency,,long_tail,exact_no_country,10
+Teemeeysax,,,,,,,unmatched,0
+Temi DollFace,,11e81bbf-f5f3-5ad8-88b9-a0369fe50396,Temi Dollface,temi-dollface,NG,long_tail,exact_ng,1
+Tekno Miles,,11e81bbc-ee34-eb52-bab1-a0369fe50396,Tekno Miles,tekno-miles,NG,long_tail,exact_ng,1
+Testimony Jaga,,86f196d2-ab23-11e9-8997-549f35161576,TESTIMONY JAGA,testimony-jaga,NG,long_tail,exact_ng,4
+TeeMirror,,64eb4d6d-cf3b-4a44-8e2e-29407e2658e2,TeeMirror,teemirror,NG,long_tail,exact_ng,7
+Terry G,,11e81bce-8783-d410-8f3d-a0369fe50396,Terry G,terry-g-1,NG,long_tail,exact_ng,10
+The Cavemen,,11e81bcc-aa2c-6bd2-882a-a0369fe50396,The Cavemen.,the-cavemen-1,NZ,long_tail,exact_foreign,10
+Theophilus Sunday,,fba74cb5-fe55-4961-bd65-70e224e170f0,Theophilus Sunday,theophilus-sunday,NG,mid_level,exact_ng,10
+Theresa Onuorah,,a15eba76-ea6d-43fb-9453-b7de0825d7ed,Theresa Onuorah,theresa-onuorah-1,,long_tail,exact_no_country,5
+Tijjani Gandu,,1ab127d4-22be-426b-96b4-7ee46fb850b8,Tijjani Gandu,tijjani-gandu-1,NG,long_tail,exact_ng,4
+Tiimie,,05d5e97f-1d16-4d0f-b816-1ad06c5d1032,Tiimie,tiimie,NG,long_tail,exact_ng,10
+The Second Voice,,9892a56a-cf36-4f75-8458-8ed5804cf8a1,The Second Voice,the-second-voice,NG,mainstream,exact_ng,10
+Tim Godfrey,,11e83fe0-3cd2-abfe-a357-aa1c026db3d8,Tim Godfrey,tim-godfrey,NG,long_tail,exact_ng,8
+Timi Dakolo,,11e83fe1-8aa4-24f6-8291-a0369fe50396,Timi Dakolo,timi-dakolo,NG,mid_level,exact_ng,2
+Titom,,11e81bc3-ecea-a46a-9ffa-a0369fe50396,Titom,titom,FR,long_tail,exact_foreign,10
+Tjan,,11e83fe2-1e56-5b38-893d-aa1c026db3d8,Tjan,tjan,NG,long_tail,exact_ng,10
+Tkeyz,,25d3184c-9c5c-11e9-bbfc-549f35161576,Tkeyz,tkeyz,NG,long_tail,exact_ng,10
+Toby Foyeh,,11e81bbb-fcc3-79c8-96d3-a0369fe50396,Toby Foyeh,toby-foyeh,GB,long_tail,exact_foreign,1
+Tml Vibez,,6156ab44-963d-486e-8a1c-4e26dcf57e6c,Tml Vibez,tml-vibez,NG,mainstream,exact_ng,9
+Tobi Ibitoye,,11e83fed-fb4e-5328-abb4-aa1c026db3d8,Tobi Ibitoye,tobi-ibitoye,NG,long_tail,exact_ng,1
+Tolani,,11e81bd0-4e73-a158-b084-a0369fe50396,Tolani,tolani,NG,long_tail,exact_ng,10
+Teezee,,11e83fe8-2b1e-f1f8-a58d-aa1c026db3d8,Teezee,teezee,NG,long_tail,exact_ng,10
+Tolex,,5a209ada-c67c-11e9-8fe4-549f35161576,Tolex,tolex,BR,long_tail,exact_foreign,10
+Tolu Obanro,,aa4a820a-5adb-420d-a1a1-c1f0ce05f14c,Tolu Obanro,tolu-obanro,NG,long_tail,exact_ng,1
+Tolü Makay,,99ee01ae-ce69-11e8-9e67-549f35161576,Tolü Makay,tolu-makay,IE,long_tail,exact_foreign,3
+Tolibian,,697be3fb-2a8d-402b-a2fd-ccd5046f2ef7,Tolibian,tolibian,NG,long_tail,exact_ng,10
+Tomi Agape,,11e83fea-afd5-4bca-8b7f-aa1c026db3d8,Tomi Agape,tomi-agape,GB,long_tail,exact_foreign,1
+Tomi Favored,,11e83fe6-cf2e-716c-96ba-aa1c026db3d8,Tomi Favored,tomi-favored,US,long_tail,exact_foreign,4
+Tomi Folayan,,7746c22c-b058-4c3d-b320-65471ff097aa,Tomi Folayan,tomi-folayan,,long_tail,exact_no_country,1
+Tomi Thomas,,11e83fe1-8cbe-8fc4-a573-aa1c026db3d8,Tomi Thomas,tomi-thomas,US,long_tail,exact_foreign,7
+Tonye Garrick,,ad053538-87bd-11e9-8506-e4434b2a4898,Tonye Garrick,tonye-garrick,NG,long_tail,exact_ng,1
+Tony Tetuila,,11e83fe4-2cc7-7506-9afa-a0369fe50396,Tony Tetuila,tony-tetuila,NG,long_tail,exact_ng,3
+Tope Adenibuyan,,,,,,,unmatched,0
+Tony Allen,,11e81bc3-8a41-a1f6-8d87-a0369fe50396,Tony Allen,tony-allen,NG,long_tail,exact_ng,10
+Tope Alabi,,11e83fe2-9ade-219a-840b-aa1c026db3d8,Tope Alabi,tope-alabi,NG,mid_level,exact_ng,9
+Tosin Igho,,,,,,,unmatched,0
+Tunde Jegede,,11e81bce-395f-aa34-abbf-a0369fe50396,Tunde Jegede,tunde-jegede,GB,long_tail,exact_foreign,3
+Tunde King,,11e83fe7-263e-aa3a-b7eb-a0369fe50396,Tunde King,tunde-king,NG,long_tail,exact_ng,3
+Tunde Nightingale,,5a8f28d7-20a0-44c3-ae17-2db7f8881384,Tunde Nightingale,tunde-nightingale-3,NG,long_tail,exact_ng,6
+TY Bello,,11e83fe6-c002-bc52-b59c-aa1c026db3d8,Ty Bello,ty-bello,NG,long_tail,exact_ng,3
+TY Shaban,,,,,,,unmatched,0
+Tunji Oyelana,,11e81bbb-3b12-b15e-8771-a0369fe50396,Tunji Oyelana,tunji-oyelana,NG,long_tail,exact_ng,3
+Udeh Divine Ifunanya,,,,,,,unmatched,0
+Twins Affair,,e79d19a3-ffc3-4c02-b549-e680386bdc20,Twins Affair,twins-affair,,long_tail,exact_no_country,1
+Ugezu J. Ugezu,,6ea627c4-2ce2-4269-8e2f-b49da5de980e,Ugezu J. Ugezu,ugezu-j-ugezu,,long_tail,exact_no_country,1
+Töme,,7ebb9d09-def5-4c41-874b-1b93a1cf4b19,TÖME,tome-46,JP,long_tail,exact_foreign,10
+Umu Obiligbo,,e0df5ff0-0b67-11e9-8082-549f35161576,Umu Obiligbo,umu-obiligbo-1,NG,long_tail,exact_ng,3
+Vibez Inc,,32f05e86-36d5-40a9-9e2b-62927fd83ab6,Vibez Inc,vibez-inc-1,NG,long_tail,exact_ng,3
+Umar M Shareef,,11e83fee-e00b-34d6-a7ef-a0369fe50396,Umar M. Shareef,umar-m-shareef,NG,long_tail,exact_ng,10
+Victor Olaiya,,11e81bbf-3d48-dc6a-9ee5-a0369fe50396,Victor Olaiya,victor-olaiya,NG,long_tail,exact_ng,4
+Victor Thompson,,a01bc264-18ea-4620-b2d3-544155fe090b,Victor Thompson,victor-thompson,NG,mainstream,exact_ng,10
+Victor AD,,11e83fed-b61d-254a-8715-aa1c026db3d8,Victor AD,victor-ad,NG,mid_level,exact_ng,10
+Victoria Kimani,,11e81bc2-d3f5-0438-b737-a0369fe50396,Victoria Kimani,victoria-kimani,KE,long_tail,exact_foreign,9
+Victor Uwaifo,,11e81bca-d9f6-ae9c-a1a1-a0369fe50396,Sir Victor Uwaifo,sir-victor-uwaifo,NG,long_tail,ambiguous,7
+Trybesmen,,24148bdf-ecbc-4de2-abc1-1ea91cca4259,trybesmen,trybesmen-1,,long_tail,exact_no_country,10
+TUFF KING,,f9e748bd-6852-430c-a4bd-138c9e088f5b,TUFF KING,tuff-king,NG,long_tail,exact_ng,6
+Victoria Orenze,,11e83fed-620b-9eb4-ad65-a0369fe50396,Victoria Orenze,victoria-orenze,NG,mainstream,exact_ng,5
+Vudumane,,7ab7e315-d0a5-4621-8e78-e920ae3b3021,Vudumane,vudumane,US,long_tail,exact_foreign,10
+Wasiu Alabi Pasuma,,11e83fe1-2261-b8a4-98c4-aa1c026db3d8,Wasiu Alabi Pasuma,wasiu-alabi-pasuma,NG,long_tail,exact_ng,10
+Waconzy,,11e83fe2-a368-a966-acbb-aa1c026db3d8,Waconzy,waconzy,NG,long_tail,exact_ng,10
+Wani,,11e83fe5-e615-71e2-97cf-aa1c026db3d8,Wani,wani,NG,long_tail,exact_ng,10
+Wavy the Creator,,add65846-c18b-11e8-b258-525400009efb,Wavy The Creator,wavy-the-creator,NG,long_tail,exact_ng,4
+Weird MC,,11e81bbe-baac-9846-8013-a0369fe50396,Weird MC,weird-mc,NG,long_tail,exact_ng,4
+Wasiu Ayinde Barrister,,,,,,,unmatched,8
+Waziri Anka,,,,,,,unmatched,0
+Wizard Chan,,52c6902e-4327-4b71-b5ac-fe37f49d5d65,Wizard Chan,wizard-chan,NG,long_tail,exact_ng,4
+where.t.at,,05abaf76-219d-49a3-bfd8-6223bbf18a51,where.t.at,where-t-at,GB,long_tail,exact_foreign,3
+William Onyeabor,,11e81bc2-3531-c98a-b05c-a0369fe50396,William Onyeabor,william-onyeabor,NG,long_tail,exact_ng,1
+Wole Oni,,69fd3e82-bde7-4e9b-b082-a1552628fae0,Wole Oni,wole-oni-2,,long_tail,exact_no_country,7
+WizzyPro,,11e81bc8-1186-1350-8376-a0369fe50396,WizzyPro,wizzypro,NG,long_tail,exact_ng,10
+Yakubu Muhammed,,,,,,,unmatched,0
+Yadah,,0f281f4a-e003-11e8-9e5b-525400009efb,Yadah,yadah-1,NG,long_tail,exact_ng,10
+Wolfacejoeyy,,339093fb-61d0-4d04-8750-0892860a29a7,wolfacejoeyy,wolfacejoeyy,US,mid_level,exact_foreign,9
+Yeni Kuti,,,,,,,unmatched,0
+Yemzzy,,edd4d5f0-abb2-47de-b68c-46146c02816d,Yemzzy,yemzzy,NG,long_tail,exact_ng,10
+Yarden,,91a5c9f3-ef2e-4561-a071-07f5e40b79b6,Yarden,yarden-6,NG,long_tail,exact_ng,10
+Yhemolee,,5253ac86-0d6a-41db-89ef-3778b2f57da8,Yhemolee,yhemolee,NG,long_tail,exact_ng,10
+Yinka Davies,,27b10238-c641-11e8-a1de-549f35141000,Yinka Davies,yinka-davies-1,NG,long_tail,exact_ng,4
+Yinka Ayefele,,11e83fe0-4dd6-7994-817e-a0369fe50396,Yinka Ayefele,yinka-ayefele,NG,long_tail,exact_ng,10
+Yuppe,,94419fc7-5595-4c87-a256-0c2a82a05ebf,Yuppe,yuppe,ZA,long_tail,exact_foreign,10
+Zaki Dan Yaya,,305ec876-4702-43b2-908c-0b1242cfada0,ZAKI DAN YAYA,zaki-dan-yaya,NG,long_tail,exact_ng,2
+Yusuf Olatunji,,cbdba504-311e-4487-af86-ef139948de40,Yusuf Olatunji,yusuf-olatunji-1,,long_tail,exact_no_country,3
+Zayn Africa,,608d6164-3a12-11ea-a237-549f35141000,Zayn Africa,zayn-africa,NG,long_tail,exact_ng,1
+Zeeno Foster,,78168d7d-d4a8-4fc5-a639-1f1cdd931df6,Zeeno Foster,zeeno-foster-1,,long_tail,exact_no_country,2
+Zaylevelten,,ed998e31-0821-4de6-9950-adebc00e7967,Zaylevelten,zaylevelten,NG,long_tail,exact_ng,2
+Zhus Jdo,,27798d23-08d3-406a-ab17-173f5f107bec,Zhus Jdo,zhus-jdo,NG,long_tail,exact_ng,2
+Zerrydl,,4384e9a7-b640-45f1-8185-aa9aefc8bcd7,Zerrydl,zerrydl,NG,long_tail,exact_ng,10
+Zoro,,09c1a6a6-0bc6-4b83-8efc-af160969ae4d,Zoro,zoro-14,NG,long_tail,exact_ng,10
+Zeldan,,,,,,,unmatched,10
+Zubi,,e774e61e-548c-11e9-89ed-549f35141000,Zubi,zubi,CA,mid_level,exact_foreign,10
+Zilla Oaks,,6c102eb8-3b44-11e9-b689-549f35141000,Zilla Oaks,zilla-oaks,NG,long_tail,exact_ng,10
+Zule Zoo,,11e81bce-675c-46c2-89a1-a0369fe50396,Zule Zoo,zule-zoo,NG,long_tail,exact_ng,7

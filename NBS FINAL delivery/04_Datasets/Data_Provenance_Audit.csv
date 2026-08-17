@@ -1,0 +1,81 @@
+dataset,field,tier,rows,depends_on_constants,providers,note
+Daily_Metric_Observations + Extended,Amazon_Music_followers_daily,1 OBSERVED,62299,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Audiomack_followers_daily,1 OBSERVED,160455,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Audiomack_listeners_daily,1 OBSERVED,247459,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Bandsintown_followers_daily,1 OBSERVED,74670,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Boomplay_followers_daily,1 OBSERVED,227550,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Deezer_fans_daily,1 OBSERVED,1117655,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Facebook_followers_daily,1 OBSERVED,355935,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Facebook_likes_daily,1 OBSERVED,13849,,chartmetric,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Facebook_talks_daily,1 OBSERVED,13849,,chartmetric,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Genius_followers_daily,1 OBSERVED,50633,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Instagram_domestic_followers_daily,1 OBSERVED,10335,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Instagram_followers_daily,1 OBSERVED,586896,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Instagram_total_followers_daily,1 OBSERVED,10612,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Amazon_Music_count_daily,1 OBSERVED,44714,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Amazon_Music_editorial_count_daily,1 OBSERVED,44714,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Amazon_Music_editorial_reach_daily,1 OBSERVED,44714,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Amazon_Music_reach_daily,1 OBSERVED,44714,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Apple_Music_count_daily,1 OBSERVED,125846,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Apple_Music_editorial_count_daily,1 OBSERVED,125846,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Apple_Music_editorial_reach_daily,1 OBSERVED,125846,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Apple_Music_reach_daily,1 OBSERVED,125846,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Deezer_count_daily,1 OBSERVED,92852,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Deezer_editorial_count_daily,1 OBSERVED,92852,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Deezer_editorial_reach_daily,1 OBSERVED,92852,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_Deezer_reach_daily,1 OBSERVED,92852,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_YouTube_count_daily,1 OBSERVED,53011,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_YouTube_editorial_count_daily,1 OBSERVED,53011,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_YouTube_editorial_reach_daily,1 OBSERVED,53011,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_YouTube_reach_daily,1 OBSERVED,53011,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_count_daily,1 OBSERVED,227236,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_editorial_count_daily,1 OBSERVED,227236,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_editorial_reach_daily,1 OBSERVED,227236,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Playlist_reach_daily,1 OBSERVED,227236,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Radio_spins_daily_NG,1 OBSERVED,477059,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Soundcharts_fanbase_score_daily,1 OBSERVED,145870,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Soundcharts_score_daily,1 OBSERVED,145870,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Soundcharts_trending_score_daily,1 OBSERVED,145870,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Soundcloud_followers_daily,1 OBSERVED,429401,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Spotify_domestic_listeners_daily,1 OBSERVED,167662,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Spotify_followers_daily,1 OBSERVED,1405277,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Spotify_monthly_listeners_daily,1 OBSERVED,1118309,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Spotify_popularity_daily,1 OBSERVED,1018080,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Spotify_total_listeners_daily,1 OBSERVED,232382,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Tidal_followers_daily,1 OBSERVED,7675,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,TikTok_domestic_followers_daily,1 OBSERVED,4610,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,TikTok_followers_daily,1 OBSERVED,218150,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,TikTok_likes_daily,1 OBSERVED,207014,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,TikTok_total_followers_daily,1 OBSERVED,4751,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Twitter_followers_daily,1 OBSERVED,579615,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,Wikipedia_views_daily,1 OBSERVED,59565,,chartmetric,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,YouTube_artist_daily_views,1 OBSERVED,11512,,chartmetric,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,YouTube_artist_monthly_views,1 OBSERVED,10095,,chartmetric,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,YouTube_channel_views_daily,1 OBSERVED,484618,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,YouTube_domestic_followers_daily,1 OBSERVED,6950,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,YouTube_domestic_listeners_daily,1 OBSERVED,183736,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,YouTube_listeners_daily,1 OBSERVED,204659,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,YouTube_subscribers_daily,1 OBSERVED,600885,,chartmetric+soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,YouTube_total_followers_daily,1 OBSERVED,7437,,soundcharts,provider returned this figure for this artist on this date
+Daily_Metric_Observations + Extended,YouTube_total_listeners_daily,1 OBSERVED,200575,,soundcharts,provider returned this figure for this artist on this date
+Geography_Full_Daily,value,1 OBSERVED,36204423,,soundcharts,"listener/follower counts per country and city, as returned"
+Revenue_By_Platform_Quarterly,deezer_fans,1 OBSERVED,19143,,soundcharts+chartmetric,measured input carried through to the revenue table
+Revenue_By_Platform_Quarterly,spotify_monthly_listeners,1 OBSERVED,19143,,soundcharts+chartmetric,measured input carried through to the revenue table
+Revenue_By_Platform_Quarterly,youtube_quarter_views,1 OBSERVED,19143,,soundcharts+chartmetric,measured input carried through to the revenue table
+Artist_Catalogue_Summary,value/count,2 AGGREGATED,752,,soundcharts,rollup of measured values; no constant involved
+Export_Markets_Quarterly,value/count,2 AGGREGATED,15374,,soundcharts,rollup of measured values; no constant involved
+Nigeria_City_Geography_Quarterly,value/count,2 AGGREGATED,2456,,soundcharts,rollup of measured values; no constant involved
+Quarterly_Aggregates_Full,variable_value,2 AGGREGATED,420891,,chartmetric+soundcharts,net change / sum / last value of tier 1 within the quarter
+Radio_Stations_Quarterly,value/count,2 AGGREGATED,14519,,soundcharts,rollup of measured values; no constant involved
+World_City_Geography_Quarterly,value/count,2 AGGREGATED,165397,,soundcharts,rollup of measured values; no constant involved
+Revenue_By_Platform_Quarterly,deezer_revenue_usd,3 ESTIMATED,19143,"DEEZER_STREAMS_PER_FAN_MONTH, DEEZER_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,domestic_revenue_usd,3 ESTIMATED,19143,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,export_revenue_ngn,3 ESTIMATED,19143,NAIRA_PER_USD,derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,export_revenue_usd,3 ESTIMATED,19143,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,gross_streaming_revenue_ngn,3 ESTIMATED,19143,NAIRA_PER_USD,derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,gross_streaming_revenue_usd,3 ESTIMATED,19143,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM, YOUTUBE_PER_VIEW, UNMEASURED_UPLIFT_RATE",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,measured_platform_revenue_usd,3 ESTIMATED,19143,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM, YOUTUBE_PER_VIEW, DEEZER_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,spotify_revenue_usd,3 ESTIMATED,19143,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,unmeasured_platform_uplift_usd,3 ESTIMATED,19143,UNMEASURED_UPLIFT_RATE,derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,youtube_revenue_usd,3 ESTIMATED,19143,YOUTUBE_PER_VIEW,derived,measured quantity multiplied by an assumed rate
+Cost_By_Category_Quarterly,cost_ngn / cost_usd,4 ASSUMED,372,"AVG_PRODUCTION_COST_NGN, AVG_DISTRIBUTION_COST_NGN, AVG_PROMOTION_COST_NGN, AVG_HOSTING_COST_QUARTERLY_NGN, TRACKS_PER_QUARTER",none,NO measurement behind the naira figure; artist COUNT is measured

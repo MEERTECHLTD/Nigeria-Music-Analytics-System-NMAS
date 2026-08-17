@@ -1,0 +1,60 @@
+variable_name,platform,unit,aggregation_rule,providers,first_observed,last_observed,artists,observations,definition
+Amazon_Music_followers_daily,Amazon Music,followers,net_change,soundcharts,2024-06-26,2026-08-11,126,21797,Daily Amazon Music followers for an artist.
+Audiomack_followers_daily,Audiomack,followers,net_change,soundcharts,2024-05-13,2026-08-11,89,57293,Daily Audiomack followers. Audiomack is a primary Nigerian DSP.
+Audiomack_listeners_daily,Audiomack,listeners,last_value,soundcharts,2024-05-04,2026-08-16,90,69929,
+Bandsintown_followers_daily,Bandsintown,followers,net_change,chartmetric+soundcharts,2024-01-01,2026-08-05,96,43480,Daily Bandsintown follower/tracker count for an artist.
+Boomplay_followers_daily,Boomplay,followers,net_change,soundcharts,2023-04-04,2026-08-11,118,76396,Daily Boomplay followers. Boomplay is a primary Nigerian DSP.
+Deezer_fans_daily,Deezer,fans,net_change,chartmetric+soundcharts,2019-03-19,2026-08-11,129,287541,Daily Deezer fan count for an artist.
+Facebook_followers_daily,Facebook,followers,net_change,chartmetric+soundcharts,2019-01-15,2026-08-11,117,133041,Daily Facebook page followers for an artist.
+Facebook_likes_daily,Facebook,likes,net_change,chartmetric,2025-01-01,2026-03-31,104,13849,Daily Facebook page likes for an artist.
+Facebook_talks_daily,Facebook,talks,sum,chartmetric,2025-01-01,2026-03-31,104,13849,Daily Facebook 'talking about' count for an artist.
+Genius_followers_daily,Genius,followers,net_change,soundcharts,2023-05-03,2026-08-11,99,29257,Daily Genius followers for an artist.
+Instagram_domestic_followers_daily,Instagram,followers,last_value,soundcharts,2020-01-16,2026-08-16,95,5247,
+Instagram_followers_daily,Instagram,followers,net_change,chartmetric+soundcharts,2019-03-19,2026-08-11,125,197883,Daily Instagram follower count for an artist.
+Instagram_total_followers_daily,Instagram,followers,last_value,soundcharts,2020-01-16,2026-08-16,95,5247,
+Playlist_Amazon_Music_count_daily,Amazon Music,playlists,last_value,soundcharts,2020-08-21,2026-08-07,101,23884,
+Playlist_Amazon_Music_editorial_count_daily,Amazon Music,playlists,last_value,soundcharts,2020-08-21,2026-08-07,101,23884,
+Playlist_Amazon_Music_editorial_reach_daily,Amazon Music,followers,last_value,soundcharts,2020-08-21,2026-08-07,101,23884,
+Playlist_Amazon_Music_reach_daily,Amazon Music,followers,last_value,soundcharts,2020-08-21,2026-08-07,101,23884,
+Playlist_Apple_Music_count_daily,Apple Music,playlists,last_value,soundcharts,2019-01-04,2026-08-07,127,43168,
+Playlist_Apple_Music_editorial_count_daily,Apple Music,playlists,last_value,soundcharts,2019-01-04,2026-08-07,127,43168,
+Playlist_Apple_Music_editorial_reach_daily,Apple Music,followers,last_value,soundcharts,2019-01-04,2026-08-07,127,43168,
+Playlist_Apple_Music_reach_daily,Apple Music,followers,last_value,soundcharts,2019-01-04,2026-08-07,127,43168,
+Playlist_Deezer_count_daily,Deezer,playlists,last_value,soundcharts,2019-01-04,2026-08-07,121,40418,
+Playlist_Deezer_editorial_count_daily,Deezer,playlists,last_value,soundcharts,2019-01-04,2026-08-07,121,40418,
+Playlist_Deezer_editorial_reach_daily,Deezer,followers,last_value,soundcharts,2019-01-04,2026-08-07,121,40418,
+Playlist_Deezer_reach_daily,Deezer,followers,last_value,soundcharts,2019-01-04,2026-08-07,121,40418,
+Playlist_YouTube_count_daily,YouTube,playlists,last_value,soundcharts,2020-09-11,2026-08-07,117,25406,
+Playlist_YouTube_editorial_count_daily,YouTube,playlists,last_value,soundcharts,2020-09-11,2026-08-07,117,25406,
+Playlist_YouTube_editorial_reach_daily,YouTube,followers,last_value,soundcharts,2020-09-11,2026-08-07,117,25406,
+Playlist_YouTube_reach_daily,YouTube,followers,last_value,soundcharts,2020-09-11,2026-08-07,117,25406,
+Playlist_count_daily,Spotify,playlists,last_value,soundcharts,2019-01-04,2026-07-31,131,52436,Number of playlists carrying the artist.
+Playlist_editorial_count_daily,Spotify,playlists,last_value,soundcharts,2019-01-04,2026-07-31,131,52436,Editorial playlists carrying the artist.
+Playlist_editorial_reach_daily,Spotify,followers,last_value,soundcharts,2019-01-04,2026-07-31,131,52436,Follower reach of editorial playlists carrying the artist.
+Playlist_reach_daily,Spotify,followers,last_value,soundcharts,2019-01-04,2026-07-31,131,52436,Combined follower reach of playlists carrying the artist.
+Radio_spins_daily_NG,Radio,spins,sum,soundcharts,2019-01-01,2026-08-11,128,223614,Daily count of songs aired on Nigerian radio stations.
+Soundcharts_fanbase_score_daily,Soundcharts,index,last_value,soundcharts,2024-11-20,2026-08-15,131,26124,
+Soundcharts_score_daily,Soundcharts,index,last_value,soundcharts,2024-11-20,2026-08-15,131,26124,
+Soundcharts_trending_score_daily,Soundcharts,index,last_value,soundcharts,2024-11-20,2026-08-15,131,26124,
+Soundcloud_followers_daily,Soundcloud,followers,net_change,chartmetric+soundcharts,2019-01-01,2026-08-11,122,169829,Daily Soundcloud follower count for an artist.
+Spotify_domestic_listeners_daily,Spotify,listeners,last_value,soundcharts,2021-02-26,2026-08-12,128,36413,Sum of Nigerian city listeners — the domestic base for the export split.
+Spotify_followers_daily,Spotify,followers,net_change,chartmetric+soundcharts,2019-01-01,2026-08-11,131,330757,Daily Spotify followers for an artist.
+Spotify_monthly_listeners_daily,Spotify,listeners,net_change,chartmetric+soundcharts,2019-05-16,2026-08-11,130,245791,Daily Spotify monthly listeners for an artist.
+Spotify_popularity_daily,Spotify,popularity_index,last_value,chartmetric+soundcharts,2020-06-27,2026-08-11,131,206978,Spotify popularity index for an artist (0-100).
+Spotify_total_listeners_daily,Spotify,listeners,last_value,soundcharts,2019-05-16,2026-08-12,128,50937,Total Spotify listeners reported alongside the city breakdown.
+Tidal_followers_daily,Tidal,followers,net_change,soundcharts,2026-05-16,2026-08-11,120,2393,Daily Tidal followers for an artist.
+TikTok_domestic_followers_daily,TikTok,followers,last_value,soundcharts,2020-09-17,2026-08-15,81,2495,
+TikTok_followers_daily,TikTok,followers,net_change,chartmetric+soundcharts,2023-01-01,2026-08-11,106,85683,Daily TikTok follower count for an artist.
+TikTok_likes_daily,TikTok,likes,net_change,chartmetric+soundcharts,2023-01-01,2026-08-11,106,82421,Daily TikTok total likes for an artist.
+TikTok_total_followers_daily,TikTok,followers,last_value,soundcharts,2020-09-17,2026-08-15,81,2495,
+Twitter_followers_daily,Twitter,followers,net_change,chartmetric+soundcharts,2019-01-01,2026-08-11,121,223514,Daily Twitter/X follower count for an artist.
+Wikipedia_views_daily,Wikipedia,views,sum,chartmetric,2024-01-01,2026-03-25,103,59565,Daily Wikipedia page views for an artist.
+YouTube_artist_daily_views,YouTube,views,sum,chartmetric,2025-01-01,2026-03-31,43,11512,Daily YouTube artist views from YouTube Charts / YouTube Music.
+YouTube_artist_monthly_views,YouTube,views,last_value,chartmetric,2025-01-01,2026-03-31,43,10095,Monthly YouTube artist views (rolling 28-day) from YouTube Charts.
+YouTube_channel_views_daily,YouTube,views,net_change,chartmetric+soundcharts,2021-09-23,2026-08-11,127,168903,Cumulative YouTube channel views; quarterly figure is the net change within the quarter.
+YouTube_domestic_followers_daily,YouTube,followers,last_value,soundcharts,2020-09-08,2026-08-15,88,3962,
+YouTube_domestic_listeners_daily,YouTube,listeners,last_value,soundcharts,2019-01-01,2026-08-13,93,108860,
+YouTube_listeners_daily,YouTube,listeners,last_value,soundcharts,2019-01-01,2026-08-13,93,111271,
+YouTube_subscribers_daily,YouTube,subscribers,net_change,chartmetric+soundcharts,2019-01-01,2026-08-11,127,217101,Daily YouTube channel subscribers for an artist.
+YouTube_total_followers_daily,YouTube,followers,last_value,soundcharts,2020-09-08,2026-08-15,88,3962,
+YouTube_total_listeners_daily,YouTube,listeners,last_value,soundcharts,2019-01-01,2026-08-13,93,111008,

@@ -1,0 +1,36 @@
+Extracting Q2+Q3 2025: 131 artists × 11 endpoints × 2 periods = 2882 calls
+
+--- Q2_2025 ---
+  [100/2882] Bad Boy Timz | obs=8972 err=0
+  [200/2882] Brymo | obs=17321 err=0
+  [300/2882] DJ Neptune | obs=24026 err=0
+  [400/2882] Ebenezer Obey | obs=30269 err=0
+  [500/2882] Illbliss | obs=37017 err=0
+  [600/2882] LADIPOE | obs=45744 err=0
+  [700/2882] Maleek Berry | obs=54009 err=0
+  [800/2882] Nonso Amadi | obs=62000 err=0
+  [900/2882] Oxlade | obs=68291 err=0
+  [1000/2882] Qing Madi | obs=76092 err=0
+  [1100/2882] Sean Tizzle | obs=83791 err=0
+  [1200/2882] Spyro | obs=91612 err=0
+  [1300/2882] Tiwa Savage | obs=100450 err=0
+  [1400/2882] Young Jonn | obs=109539 err=0
+
+--- Q3_2025 ---
+  [1500/2882] Asake | obs=117524 err=0
+  [1600/2882] Bloody Civilian | obs=126809 err=0
+  [1700/2882] Crayon | obs=134114 err=0
+  [1800/2882] Davido | obs=140412 err=0
+  [1900/2882] Flavour | obs=146883 err=0
+  [2000/2882] Khaid | obs=154187 err=0
+  [2100/2882] Lojay | obs=162297 err=0
+  [2200/2882] Mr Real | obs=170707 err=0
+  [2300/2882] Olu Maintain | obs=177499 err=0
+  [2400/2882] Portable | obs=185207 err=0
+  [2500/2882] Ruger | obs=192624 err=0
+  [2600/2882] Skiibii | obs=200914 err=0
+  [2700/2882] Teni | obs=207825 err=0
+  [2800/2882] Wizkid | obs=215954 err=0
+
+Done: 222801 observations, 0 errors
+Saved: data/nbs_deliverables/nmas_q2q3_2025_raw.csv (222801 rows)

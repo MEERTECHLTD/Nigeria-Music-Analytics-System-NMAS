@@ -1,0 +1,753 @@
+artist_name,soundcharts_uuid,country,career_stage,growth_level,genres,songs,albums,chart_entries,playlist_entries,events,radio_stations_monitored,platform_identifiers
+Kawu Dan Sarki,00351778-cf9c-45ec-9e5c-0a8c8dd715b0,NG,long_tail,average_growth,pop,95,60,0,15,0,13,19
+Straffitti,009f3138-b8d6-11e8-986c-525400009efb,NG,long_tail,average_growth,alternative; electro; hip hop; traditional,141,64,0,402,5,49,35
+Chris Ajilo,013e1abe-c614-11e8-af22-549f35161576,,long_tail,average_growth,traditional,12,2,0,19,0,5,9
+Ayinla Kollington,02e9548f-fe43-4113-b703-3d7d019a245e,,long_tail,average_growth,traditional,5,2,0,0,0,2,10
+DJ Tunez,030329a3-d20b-43e1-8a67-dc785a1d7a9e,NG,long_tail,average_growth,electro,1,0,0,45,0,7,3
+Dan Musa,035dbce0-6e1c-4b2e-8701-958db81d6710,,long_tail,average_growth,hip hop; pop,19,12,1,5,0,3,9
+Qing Madi,05192496-df0f-479c-b2cf-b8d9cde3b1a4,NG,mainstream,average_growth,alternative; electro; hip hop; pop; r&b; reggae; soul; traditional,105,57,43,490,4,447,34
+Bloody Civilian,0521d08a-9168-4c3a-9f8d-46d2b3c36ea3,NG,mid_level,average_growth,electro; pop; r&b; religious; traditional,53,49,5,462,4,390,31
+where.t.at,05abaf76-219d-49a3-bfd8-6223bbf18a51,GB,long_tail,high_growth,hip hop,35,44,45,407,0,14,16
+Tiimie,05d5e97f-1d16-4d0f-b816-1ad06c5d1032,NG,long_tail,average_growth,electro; pop; r&b; soul; traditional,88,53,0,400,1,78,22
+Prince Mk Baagi,07955234-04c3-4a23-9da0-d2f66611cbe2,NG,long_tail,average_growth,electro,77,61,6,185,0,16,20
+Shugavybz,07b763f6-6081-11ea-acc8-e4434b2a4898,NG,long_tail,average_growth,pop; r&b; traditional,74,26,0,167,0,28,22
+Blaqbonez,090ce0d4-b33d-11e8-b1c2-525400009efb,NG,mid_level,average_growth,alternative; electro; hip hop; pop; r&b; religious; soul; traditional,400,95,72,567,14,671,40
+Zoro,09c1a6a6-0bc6-4b83-8efc-af160969ae4d,NG,long_tail,average_growth,rock; ska,169,25,1,200,0,80,8
+Kizz Daniel,0c223d4e-f72d-11e8-aee9-549f35141000,NG,superstar,average_growth,electro; hip hop; pop; r&b; traditional,400,126,89,590,41,1438,43
+Shaiboy,0c3df5ce-bafd-4cb1-980b-fd40f28e47d9,NG,long_tail,average_growth,traditional,11,15,0,248,0,22,23
+Juno,0cc62e15-e80e-4bdf-add4-0f92c53560c4,NG,long_tail,average_growth,alternative; electro,12,6,2,400,0,46,23
+Supernovamusician,0d5faa81-8d56-41c5-8327-06e0578ad27d,,long_tail,average_growth,hip hop,3,2,0,0,0,2,8
+Flossing,0d5febe7-dbf3-4cc2-a637-769b4106a93b,US,long_tail,average_growth,alternative,20,13,0,108,11,59,21
+JaySynths,0f1c4bac-c8fc-42e8-abed-757ca32f4993,NG,long_tail,average_growth,electro; pop; traditional,31,19,0,337,0,27,27
+Yadah,0f281f4a-e003-11e8-9e5b-525400009efb,NG,mid_level,average_growth,r&b; religious,87,41,1,400,0,87,24
+Agboola Shadare,0ff25678-c24b-11e8-8046-525400009efb,US,long_tail,average_growth,jazz; pop; religious,29,5,0,130,0,0,22
+Monochrome,108b1af6-a6a5-45fb-91aa-f928ef80478b,NG,long_tail,high_growth,alternative; electro; traditional,48,19,24,417,1,53,12
+Sunmisola Agbebi,10964604-decb-4503-b01b-e5dc19979061,NG,mainstream,average_growth,r&b; religious,134,63,128,405,0,123,27
+Fitzy West,11b03d2a-858e-4e8d-8525-331e2dc9bd5a,NG,long_tail,average_growth,alternative; electro; religious; traditional,46,17,0,57,0,26,23
+Da Emperor,11e81bba-cc3c-a302-8d2f-a0369fe50396,NG,long_tail,average_growth,edm; hip hop,104,52,0,122,0,7,29
+Dizzy K Falola,11e81bbb-043f-621c-9dcc-a0369fe50396,GB,long_tail,average_growth,pop; r&b; traditional,264,195,1,200,0,21,23
+Femi Temowo,11e81bbb-1325-fb74-b884-a0369fe50396,GB,long_tail,average_growth,jazz; r&b; soul,63,7,0,173,82,75,30
+Naeto C,11e81bbb-1880-fe2a-8f70-a0369fe50396,NG,mid_level,decline,electro; hip hop; pop; ska; traditional,248,38,0,400,2,243,34
+DJ Switch,11e81bbb-399e-84c4-b7e9-a0369fe50396,ZA,long_tail,moderate_growth,edm; hip hop,145,64,1,342,39,100,26
+Tunji Oyelana,11e81bbb-3b12-b15e-8771-a0369fe50396,NG,long_tail,average_growth,electro; funk; traditional,40,7,0,358,0,173,21
+Lyta,11e81bbb-6acc-51ca-92f0-a0369fe50396,NG,long_tail,average_growth,electro; pop; religious; traditional,278,123,0,402,1,176,36
+Wizkid,11e81bbb-8063-e642-9bd4-a0369fe50396,NG,superstar,decline,electro; hip hop; pop; r&b; ska; traditional,400,213,458,993,200,4778,61
+Toby Foyeh,11e81bbb-fcc3-79c8-96d3-a0369fe50396,GB,long_tail,average_growth,electro; funk; traditional,2,0,0,200,3,103,16
+Olamide,11e81bbc-22c1-79ea-a928-a0369fe50396,NG,superstar,average_growth,electro; hip hop; pop; r&b; religious; ska; traditional,400,270,75,682,59,1598,61
+Peter King,11e81bbc-2721-c6b6-9573-a0369fe50396,GB,long_tail,decline,blues; classical; electro; pop; reggae; traditional,384,40,1,415,43,425,47
+Ycee,11e81bbc-4157-d70a-8007-a0369fe50396,NG,mainstream,average_growth,alternative; electro; hip hop; pop; ska; traditional,381,89,1,428,25,601,40
+Tamara Jones,11e81bbc-4a7a-7f04-88a0-a0369fe50396,AU,long_tail,average_growth,,5,0,0,9,0,1,12
+Yemi Alade,11e81bbc-82d3-402a-8e1b-a0369fe50396,NG,mainstream,decline,electro; hip hop; pop; ska; traditional,400,158,52,610,89,2004,45
+Ayinde Bakare,11e81bbc-9591-0512-b5c8-a0369fe50396,,long_tail,average_growth,jazz; latin; traditional,63,15,0,243,0,3,17
+Ruggedman,11e81bbc-a2cc-b276-af29-a0369fe50396,NG,long_tail,average_growth,hip hop,400,50,0,381,0,103,29
+Yung6ix,11e81bbc-a4b1-4c78-931c-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; religious; ska; traditional,373,78,2,400,6,143,35
+Tekno Miles,11e81bbc-ee34-eb52-bab1-a0369fe50396,NG,long_tail,average_growth,r&b,22,6,0,402,0,59,9
+Fatai Rolling Dollar,11e81bbc-fe56-6466-ac83-a0369fe50396,NG,long_tail,explosive_growth,jazz; traditional,92,37,2,333,0,91,25
+L.A.X,11e81bbd-8381-80b2-9a81-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; r&b; ska; traditional,388,148,12,432,18,766,38
+Di'Ja,11e81bbd-ccc9-10fa-a1ab-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; traditional,79,40,5,417,0,175,34
+Humblesmith,11e81bbd-e99f-cfc0-822a-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; traditional,105,64,1,402,0,97,31
+Shank,11e81bbe-0de7-0ac4-9e54-a0369fe50396,JP,long_tail,average_growth,alternative; hip hop; j-pop; pop; punk; rock; traditional,127,42,0,328,200,38,29
+Adekunle Gold,11e81bbe-1e84-5c38-a593-a0369fe50396,NG,superstar,average_growth,alternative; electro; hip hop; pop; r&b; soul; traditional,400,157,60,702,75,2256,51
+Daecolm,11e81bbe-54e4-0080-88b5-a0369fe50396,GB,mid_level,average_growth,edm; pop,95,55,227,691,3,1941,39
+Brymo,11e81bbe-54ed-29d0-9ff6-a0369fe50396,NG,mainstream,average_growth,alternative; electro; hip hop; pop; religious; ska; soul; traditional,278,41,75,403,11,400,37
+Sani Danja,11e81bbe-592d-12a8-af00-a0369fe50396,NG,long_tail,average_growth,electro; pop; traditional,57,20,0,35,0,17,19
+Sinach,11e81bbe-5beb-a216-bce0-a0369fe50396,NG,mainstream,decline,pop; religious,400,139,85,408,25,576,45
+Goldie Harvey,11e81bbe-7792-4772-baa7-a0369fe50396,,long_tail,average_growth,hip hop; r&b,20,1,0,23,0,34,10
+Bongos Ikwue,11e81bbe-8346-fe6e-905f-a0369fe50396,NG,long_tail,average_growth,electro; funk; hip hop; soul; traditional,167,18,1,400,0,137,26
+Phantom,11e81bbe-a4db-f52a-8e52-a0369fe50396,US,long_tail,average_growth,electro; hip hop; metal; pop; rock,276,51,0,200,6,111,29
+Tiwa Savage,11e81bbe-aaa0-d7c8-95de-a0369fe50396,NG,superstar,average_growth,electro; hip hop; pop; ska; traditional,400,158,142,744,71,2495,54
+Weird MC,11e81bbe-baac-9846-8013-a0369fe50396,NG,long_tail,average_growth,hip hop; traditional,28,9,0,300,0,69,30
+Mr 2Kay,11e81bbf-0123-c4f2-84a5-a0369fe50396,NG,long_tail,average_growth,electro; hip hop; religious; traditional,126,50,0,400,2,92,29
+Femi Kuti,11e81bbf-27ba-64cc-af50-a0369fe50396,GB,mid_level,decline,electro; pop; traditional,320,89,1,449,200,1569,44
+Victor Olaiya,11e81bbf-3d48-dc6a-9ee5-a0369fe50396,NG,long_tail,average_growth,electro; pop; traditional,400,48,3,400,0,130,24
+Christy Ogbah,11e81bbf-5a28-e64a-b946-a0369fe50396,,long_tail,average_growth,disco,3,0,0,95,0,32,9
+Cynthia Morgan,11e81bbf-67fb-f4f6-8200-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,186,33,1,401,0,141,29
+Seyi Shay,11e81bbf-6a12-ce54-a84f-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,302,63,72,416,6,427,31
+Minz,11e81bbf-73db-5334-9e8c-a0369fe50396,NG,long_tail,average_growth,electro; hip hop; pop; r&b; religious; soul; traditional,222,102,18,419,6,426,43
+Batile Alake,11e81bbf-9329-132a-a057-a0369fe50396,,long_tail,average_growth,traditional,12,4,0,26,0,5,8
+WurlD,11e81bbf-bd71-282a-bcb4-a0369fe50396,US,mid_level,average_growth,alternative; electro; pop; r&b; soul; traditional,162,61,4,444,16,482,39
+Happi,11e81bbf-c591-a7fa-bc88-a0369fe50396,GB,long_tail,average_growth,electro; hip hop; r&b,60,32,38,408,6,310,26
+Nosa,11e81bbf-ed6e-4a62-8bec-a0369fe50396,NG,long_tail,average_growth,alternative; hip hop; pop; religious,243,51,6,402,17,236,32
+Flavour N'abania,11e81bbf-ed91-481e-a3ef-a0369fe50396,,long_tail,average_growth,electro,49,3,0,204,3,136,16
+Temi DollFace,11e81bbf-f5f3-5ad8-88b9-a0369fe50396,NG,long_tail,average_growth,alternative; others; pop,3,1,0,68,0,8,15
+Korede Bello,11e81bbf-fd1a-43d0-8484-a0369fe50396,NG,mainstream,decline,electro; hip hop; pop; ska; traditional,224,77,63,431,3,498,34
+I.K. Dairo,11e81bc0-0b3d-6ab4-ba96-a0369fe50396,,long_tail,average_growth,jazz; traditional,182,49,0,282,0,65,16
+Chike,11e81bc0-0cbc-b08e-bee2-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; r&b; soul; traditional,178,63,44,470,13,579,42
+Anike,11e81bc0-18f5-77dc-bfbc-a0369fe50396,US,mid_level,decline,hip hop; pop; r&b; religious,154,82,12,463,154,238,45
+Simi,11e81bc0-9207-36ce-8a33-a0369fe50396,NG,superstar,average_growth,alternative; electro; hip hop; pop; r&b; soul; traditional,374,116,30,470,49,824,46
+Sound Sultan,11e81bc0-a2d2-6352-b600-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,339,50,0,400,0,259,26
+Mike Ejeagha,11e81bc0-b365-8078-b9c4-a0369fe50396,,long_tail,average_growth,traditional,48,6,0,6,0,19,10
+Naira Marley,11e81bc0-b6b1-58b0-83bc-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; ska; traditional,400,130,26,471,20,920,45
+Muna,11e81bc0-bc35-6772-9b18-a0369fe50396,US,mainstream,decline,alternative; electro; pop,163,90,23,580,200,1565,56
+Styl-Plus,11e81bc1-61c1-9f1c-9851-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,400,39,7,400,1,181,35
+Artquake,11e81bc1-c46d-fd40-980e-a0369fe50396,,long_tail,average_growth,traditional,38,8,0,20,0,27,15
+Timaya,11e81bc1-eba2-7166-9321-a0369fe50396,NG,mainstream,average_growth,hip hop; pop; reggae; ska; traditional,400,137,52,450,34,841,40
+Jesse King,11e81bc2-1616-a174-997c-a0369fe50396,NG,long_tail,average_growth,,8,3,0,0,0,4,8
+Daddy Fresh,11e81bc2-184e-74c6-8960-a0369fe50396,NG,long_tail,average_growth,ska; traditional,15,9,0,0,0,1,19
+Christy Essien-Igbokwe,11e81bc2-30a0-d096-9aa2-a0369fe50396,GB,long_tail,average_growth,r&b; traditional,109,33,2,401,0,299,32
+William Onyeabor,11e81bc2-3531-c98a-b05c-a0369fe50396,NG,mid_level,decline,electro; funk; pop; traditional,99,57,0,470,4,1270,32
+Frank Edwards,11e81bc2-4d69-2d86-a520-a0369fe50396,NG,mid_level,average_growth,religious,400,147,25,401,2,448,40
+Ifi Ude,11e81bc2-a8a6-1ca4-a112-a0369fe50396,PL,long_tail,average_growth,alternative,47,22,0,114,16,32,32
+Hotkeed,11e81bc2-b5d3-031a-a106-a0369fe50396,CA,mid_level,average_growth,edm; electro; pop; religious; traditional,231,82,51,404,0,222,26
+Bala Miller,11e81bc2-bb70-85e0-9de3-a0369fe50396,,long_tail,average_growth,funk; jazz,2,2,0,200,0,41,8
+Victoria Kimani,11e81bc2-d3f5-0438-b737-a0369fe50396,KE,mid_level,average_growth,electro; pop; r&b; traditional,184,55,1,404,2,212,30
+Lola Rae,11e81bc3-115b-a03e-a29b-a0369fe50396,NG,long_tail,decline,electro; pop; traditional,36,16,0,401,2,173,35
+Babatunde Olatunji,11e81bc3-3ab8-54a4-a7fa-a0369fe50396,NG,long_tail,average_growth,electro; pop; traditional,238,39,0,403,2,424,32
+Jumabee,11e81bc3-6482-db4c-b6cb-a0369fe50396,NG,long_tail,average_growth,electro; hip hop; traditional,173,54,0,343,0,46,27
+Tony Allen,11e81bc3-8a41-a1f6-8d87-a0369fe50396,NG,mid_level,decline,electro; funk; jazz; pop; traditional,400,147,9,497,200,2414,48
+Nicole Moudaber,11e81bc3-99da-6ed6-8184-a0369fe50396,GB,mainstream,decline,edm; electro,400,145,1,498,200,1372,44
+J. Martins,11e81bc3-e140-bbcc-9957-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,198,47,0,408,6,496,35
+Titom,11e81bc3-ecea-a46a-9ffa-a0369fe50396,FR,mid_level,average_growth,edm; electro,227,79,32,435,5,613,37
+MCskill ThaPreacha,11e81bc4-16a6-b00a-9cfe-a0369fe50396,NG,long_tail,average_growth,hip hop,134,25,0,3,0,11,26
+9ice,11e81bc6-7062-ea76-9ea5-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; religious; ska; traditional,400,119,11,403,11,519,34
+Boogey,11e81bc6-b4a6-07a4-a002-a0369fe50396,NG,long_tail,average_growth,hip hop,97,15,0,31,0,14,22
+Cobhams Asuquo,11e81bc6-c465-d87c-89d6-a0369fe50396,NG,mid_level,average_growth,electro; pop; religious,98,31,4,400,2,152,32
+Obongjayar,11e81bc6-db77-2fca-b20a-a0369fe50396,GB,mid_level,decline,alternative; r&b,123,49,46,625,113,2982,46
+Aṣa,11e81bc7-0336-16d4-827a-a0369fe50396,FR,mainstream,average_growth,alternative; jazz; pop; r&b; soul; traditional,225,110,2,430,115,1443,38
+Chidinma,11e81bc7-079d-5aac-9ddf-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; religious; traditional,197,62,13,415,0,359,33
+Adewale Ayuba,11e81bc7-1732-bfca-aeac-a0369fe50396,NG,mid_level,average_growth,traditional,134,50,0,401,0,121,30
+D'banj,11e81bc7-2e44-87a2-9ff7-a0369fe50396,NG,mid_level,decline,hip hop; pop; ska; traditional,400,120,1,415,21,1033,39
+Dapo Torimiro,11e81bc7-7650-11c4-b01f-a0369fe50396,,long_tail,average_growth,holiday,56,45,0,1,0,1,16
+Afrikan Boy,11e81bc7-9f54-f7c4-9c55-a0369fe50396,GB,long_tail,average_growth,hip hop,120,54,3,414,128,308,36
+Fela Kuti,11e81bc7-c756-75e0-a28d-a0369fe50396,NG,mid_level,average_growth,electro; funk; pop; soul; traditional,400,400,8,509,11,2810,41
+Wande Coal,11e81bc7-d221-7a06-9423-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; r&b; ska; traditional,400,109,16,519,37,1117,48
+Lagbaja,11e81bc7-e1cf-6d28-8888-a0369fe50396,NG,long_tail,average_growth,electro; ska; traditional,150,31,2,401,7,273,34
+Ice Prince,11e81bc7-f9e2-7824-a703-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; ska; traditional,400,168,96,446,14,803,37
+Prince Nico Mbarga,11e81bc8-0973-bc6c-97b4-a0369fe50396,NG,long_tail,average_growth,traditional,40,27,1,230,0,55,15
+Iyanya,11e81bc8-110a-24b6-9b11-a0369fe50396,NG,mainstream,decline,electro; hip hop; pop; ska; traditional,400,128,25,429,33,637,43
+WizzyPro,11e81bc8-1186-1350-8376-a0369fe50396,NG,long_tail,average_growth,electro; reggae; ska,114,20,0,192,0,6,24
+Pheelz,11e81bc8-7e8b-eccc-ac06-a0369fe50396,NG,mainstream,average_growth,electro; pop; r&b,278,83,9,557,31,1428,41
+Davido,11e81bc8-7fc6-6428-9478-a0369fe50396,NG,superstar,average_growth,edm; electro; hip hop; pop; r&b; rock; traditional,400,336,355,1000,200,4263,62
+Dice Ailes,11e81bc8-87ed-a4d6-9ccf-a0369fe50396,NG,mid_level,average_growth,alternative; electro; pop,115,45,1,404,0,302,25
+Mannywellz,11e81bc8-963c-aa3c-ae8c-a0369fe50396,US,mid_level,decline,alternative; electro; r&b; soul,177,76,5,532,123,361,39
+Mo'Cheddah,11e81bc8-acfb-27bc-ba47-a0369fe50396,NG,long_tail,average_growth,hip hop; religious; ska; traditional,49,10,0,262,0,65,25
+Sir Shina Peters,11e81bc8-b622-4a3c-8f27-a0369fe50396,NG,long_tail,average_growth,electro; traditional,66,25,0,400,0,155,24
+Jesse Jagz,11e81bc8-c2ab-e77c-873e-a0369fe50396,NG,long_tail,average_growth,electro; hip hop; pop; ska; traditional,241,49,0,400,4,187,33
+Justina Lee Brown,11e81bc8-db7f-700c-9898-a0369fe50396,CH,long_tail,average_growth,blues; electro,120,18,0,69,56,207,33
+Phyno,11e81bc9-122a-1df0-971e-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; religious; ska; traditional,400,169,65,435,12,734,37
+Chief Stephen Osita Osadebe,11e81bc9-3074-d96c-a66b-a0369fe50396,NG,mid_level,average_growth,traditional,400,131,8,403,0,128,28
+Sauce Kid,11e81bc9-81de-0ddc-ac7d-a0369fe50396,US,long_tail,average_growth,hip hop; ska,76,10,0,355,0,64,21
+Kollington Ayinla,11e81bc9-9d37-35f4-86f2-a0369fe50396,,long_tail,average_growth,rock; traditional,5,1,0,47,0,2,8
+Bracket,11e81bc9-a2b1-6536-9259-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,307,58,39,415,0,369,32
+Eedris Abdulkareem,11e81bc9-a85c-34ca-aff2-a0369fe50396,NG,long_tail,average_growth,electro; hip hop; ska; traditional,400,90,0,400,0,100,33
+Tekno,11e81bc9-b5f6-4382-b877-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; ska; traditional,400,170,27,552,11,1568,47
+Haruna Ishola,11e81bc9-cc58-7910-ae30-a0369fe50396,NG,long_tail,average_growth,electro; traditional,85,65,0,260,0,22,27
+Dr. Alban,11e81bc9-d495-cf6a-9550-a0369fe50396,NG,mainstream,decline,edm; electro; hip hop; kids; pop,400,144,17,604,91,4732,49
+Bola Abimbola,11e81bc9-e15d-deae-b15f-a0369fe50396,NG,long_tail,average_growth,pop; traditional,39,6,0,48,0,5,17
+Don Jazzy,11e81bc9-ffcf-63da-acf0-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; traditional,212,34,14,441,8,542,32
+Patoranking,11e81bca-1407-d954-8977-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; ska; traditional,400,129,112,541,48,1463,46
+Kokoro,11e81bca-3d24-964c-a703-a0369fe50396,GB,long_tail,decline,electro; folk; hip hop; rock,89,29,3,232,13,19,21
+Emma Nyra,11e81bca-4620-8d5a-b6f2-a0369fe50396,US,long_tail,average_growth,electro; hip hop; traditional,75,24,3,402,0,92,29
+Ras Kimono,11e81bca-5cc1-a8e6-bc8b-a0369fe50396,NG,long_tail,average_growth,reggae; traditional,165,20,0,350,0,90,26
+Dr Sir Warrior,11e81bca-6671-ab16-a491-a0369fe50396,NG,long_tail,average_growth,traditional,48,58,0,308,0,40,17
+Orlando Julius,11e81bca-a464-4d48-9a09-a0369fe50396,NG,long_tail,decline,electro; funk; pop; traditional,173,31,0,410,54,679,34
+Olu Maintain,11e81bca-b94a-fe82-9f52-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,321,15,0,400,0,742,27
+Vector,11e81bca-e330-3a0a-8525-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; r&b; religious; soul; traditional,400,124,7,405,14,261,34
+Skales,11e81bcb-2f06-0a36-90c6-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; ska; traditional,400,208,75,426,20,1098,41
+Chopstix,11e81bcb-3eb4-b964-82b1-a0369fe50396,NG,long_tail,average_growth,alternative; electro; r&b; religious; traditional,66,28,7,400,13,125,24
+Ketchup,11e81bcb-6469-a674-8a0e-a0369fe50396,NG,long_tail,average_growth,latin; ska; traditional,198,51,0,400,7,349,30
+DJ Kaywise,11e81bcb-65b3-10d8-bb18-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; traditional,70,35,0,402,1,203,28
+Eddy Wata,11e81bcb-73b1-1554-a572-a0369fe50396,NG,long_tail,decline,edm; electro,211,130,0,203,3,293,32
+Dammy Krane,11e81bcb-904d-95e8-9170-a0369fe50396,NG,long_tail,decline,electro; hip hop; religious; ska; traditional,400,232,2,402,2,190,29
+Jeremiah Gyang,11e81bcc-6ede-aff4-a7a8-a0369fe50396,NG,long_tail,average_growth,hip hop; religious,113,19,0,301,0,56,23
+The Cavemen,11e81bcc-aa2c-6bd2-882a-a0369fe50396,NZ,mid_level,average_growth,alternative; electro; pop; r&b; rock; soul; traditional,150,28,11,460,0,662,32
+Dareysteel,11e81bcc-c15e-b6c0-a6fb-a0369fe50396,ES,long_tail,average_growth,hip hop,43,24,0,2,0,1,25
+Morell,11e81bcc-cd84-1aee-9d7e-a0369fe50396,NG,long_tail,average_growth,electro; hip hop; pop; ska; traditional,151,53,1,372,2,33,29
+Maleek Berry,11e81bcc-e0c6-1ac6-8e28-a0369fe50396,GB,mainstream,decline,electro; hip hop; pop; ska; traditional,237,60,77,514,59,1384,46
+Nelly Uchendu,11e81bcc-e3cb-d44a-91d9-a0369fe50396,NG,long_tail,average_growth,r&b; soul; traditional,35,10,0,82,0,42,14
+Skepta,11e81bcc-ede6-804c-bd69-a0369fe50396,GB,mainstream,decline,hip hop,400,168,188,833,200,4322,57
+Banky W.,11e81bcd-0487-be9c-8bf1-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; r&b; religious; ska; traditional,360,54,5,403,7,319,36
+Dr SID,11e81bcd-3bdb-0b06-a6ee-a0369fe50396,NG,mid_level,decline,electro; hip hop; pop; ska; traditional,172,21,4,407,2,301,33
+P-Square,11e81bcd-4ae0-f2a0-8ba7-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; ska; traditional,400,94,31,506,8,1939,39
+Lil Kesh,11e81bcd-5d1d-0f44-ae3c-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; religious; ska; traditional,400,113,19,417,7,417,37
+Seun Kuti,11e81bcd-6c78-56e2-beb7-a0369fe50396,NG,mid_level,decline,electro; pop; traditional,197,92,4,477,200,1912,47
+Tunde Jegede,11e81bce-395f-aa34-abbf-a0369fe50396,GB,long_tail,average_growth,traditional,267,15,0,401,37,146,28
+Shaydee,11e81bce-5ef8-a3f4-9788-a0369fe50396,NG,long_tail,average_growth,traditional,64,13,0,400,0,64,26
+Zule Zoo,11e81bce-675c-46c2-89a1-a0369fe50396,NG,long_tail,average_growth,hip hop; ska,179,36,0,174,0,17,20
+Terry G,11e81bce-8783-d410-8f3d-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; traditional,394,73,0,404,6,231,25
+Ebenezer Obey,11e81bce-8c53-3da0-8b73-a0369fe50396,NG,long_tail,average_growth,traditional,78,94,0,355,0,32,10
+Tolani,11e81bd0-4e73-a158-b084-a0369fe50396,NG,long_tail,average_growth,alternative; electro; pop; r&b; religious; traditional,25,14,0,401,0,98,23
+Sonny Okosun,11e81bd0-a8e3-c596-9210-a0369fe50396,NG,long_tail,average_growth,electro; pop; reggae; religious; traditional,109,37,2,356,0,192,21
+Nneka,11e81bd0-c216-ed86-83cd-a0369fe50396,DE,mid_level,decline,r&b; soul,231,85,11,451,200,1485,44
+Ghost,11e81bd0-d0e0-6806-bc83-a0369fe50396,SE,superstar,decline,electro; metal; rock,315,184,303,598,200,2321,59
+Runtown,11e81bd1-0d74-7884-9827-a0369fe50396,NG,mainstream,average_growth,alternative; electro; hip hop; pop; r&b; ska; traditional,400,138,47,469,14,839,42
+Bantu,11e81bd1-208e-8978-b868-a0369fe50396,NG,long_tail,average_growth,edm; electro; pop; ska,141,74,16,460,0,605,35
+Segun Adewale,11e81bd1-5a72-bf9c-958a-a0369fe50396,NG,long_tail,average_growth,disco; traditional,21,8,0,401,0,66,23
+Lindsey Abudei,11e81bd1-6306-6276-af77-a0369fe50396,NG,long_tail,average_growth,alternative; others; r&b; soul; traditional,41,7,0,207,36,9,34
+Celestine Ukwu,11e81bd1-84cc-6f54-819f-a0369fe50396,NG,long_tail,average_growth,funk; traditional,297,34,0,402,0,158,19
+Eva Alordiah,11e81bd1-a257-e062-aa17-a0369fe50396,NG,long_tail,average_growth,alternative; hip hop; pop,87,17,0,324,0,81,30
+Little Simz,11e81bd2-2858-90e4-a035-a0369fe50396,GB,mainstream,decline,hip hop; others; soul,266,86,61,796,200,3595,55
+HarrySong,11e81bd2-6718-fb34-9bfb-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,322,97,0,407,1,377,41
+Reekado Banks,11e81bd2-b452-2f60-976a-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; r&b; ska; traditional,400,126,54,463,12,1181,38
+MC Galaxy,11e81bd2-be0d-ebe8-901d-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; traditional,171,67,4,405,4,204,31
+Segun Bucknor,11e81bd2-c773-7fa4-b454-a0369fe50396,NG,long_tail,average_growth,electro; soul; traditional,33,6,0,412,0,138,21
+M.I,11e81bd3-0abb-f8fe-8f2e-a0369fe50396,GB,long_tail,average_growth,alternative; electro; hip hop; ska; traditional,325,44,0,200,0,224,15
+King Sunny Ade,11e81bd3-3141-7c42-be28-a0369fe50396,NG,mid_level,average_growth,electro; pop; traditional,400,149,0,401,82,762,38
+Lijadu Sisters,11e81bd3-3401-3ca6-a92e-a0369fe50396,NG,long_tail,decline,electro; pop; traditional,46,30,2,405,3,872,29
+Rex Lawson,11e81bd3-36be-8e08-8adf-a0369fe50396,GB,long_tail,average_growth,classical; traditional,95,11,0,271,0,104,12
+Majek Fashek,11e81bd3-37e3-5b42-b32a-a0369fe50396,NG,mid_level,average_growth,reggae,94,14,0,401,0,318,30
+Flavour,11e83fdf-c3b8-53ae-b7d1-aa1c026db3d8,NG,mainstream,decline,hip hop; pop; ska,400,170,57,480,97,1040,43
+Emmy Gee,11e83fdf-cba2-f0a6-8c56-a0369fe50396,NG,long_tail,average_growth,hip hop,20,13,0,404,0,120,22
+DJ Xclusive,11e83fdf-fe0b-e3c2-8c15-aa1c026db3d8,NG,mid_level,average_growth,electro; pop; traditional,130,73,1,401,200,157,33
+Solidstar,11e83fe0-0bd3-02b0-87d2-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,400,102,0,401,0,215,29
+Oritsefemi,11e83fe0-0d23-3428-8a15-aa1c026db3d8,NG,long_tail,average_growth,traditional,49,10,0,22,0,24,10
+Waje,11e83fe0-0ed9-4abe-bd27-aa1c026db3d8,NG,mid_level,average_growth,electro; pop; r&b; ska; traditional,212,57,1,400,13,237,29
+Douyé,11e83fe0-2d0d-91fc-a79a-aa1c026db3d8,US,long_tail,average_growth,jazz,96,9,0,60,29,76,24
+General Pype,11e83fe0-2f19-7b5a-b73b-aa1c026db3d8,NG,long_tail,average_growth,pop; ska,84,30,0,383,0,73,28
+DJ Neptune,11e83fe0-3869-816e-b026-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; ska; traditional,261,110,22,410,37,668,38
+Tim Godfrey,11e83fe0-3cd2-abfe-a357-aa1c026db3d8,NG,mainstream,average_growth,religious,400,136,70,406,1,426,41
+Zlatan,11e83fe0-3cd7-d444-8ada-aa1c026db3d8,NG,superstar,average_growth,electro; hip hop; pop; ska; traditional,400,196,163,571,25,1061,45
+KWAM 1,11e83fe0-3dd0-723e-9d72-aa1c026db3d8,,long_tail,average_growth,ska; traditional,14,7,0,23,0,2,15
+May D,11e83fe0-4951-99d0-b26a-aa1c026db3d8,NG,mid_level,average_growth,electro; pop; ska; traditional,334,79,0,403,3,559,37
+Kcee,11e83fe0-4b98-1ffc-848c-aa1c026db3d8,NG,mainstream,average_growth,hip hop; pop; ska; traditional,400,132,9,423,26,785,43
+Yinka Ayefele,11e83fe0-4dd6-7994-817e-a0369fe50396,NG,mid_level,average_growth,pop; ska; traditional,318,169,1,400,0,65,29
+Orezi,11e83fe0-4e89-5dde-b83b-aa1c026db3d8,NG,mid_level,average_growth,electro; hip hop; pop; religious; ska; traditional,357,108,7,407,3,234,36
+Niyola,11e83fe0-5af9-066e-bb02-a0369fe50396,NG,long_tail,average_growth,electro; pop; r&b; ska; traditional,116,23,0,400,0,69,27
+Omawumi,11e83fe0-64e2-17e2-a092-a0369fe50396,NG,mid_level,average_growth,electro; pop; ska; traditional,139,52,1,400,0,230,28
+D'Prince,11e83fe0-8fbc-13b4-8fbc-aa1c026db3d8,NG,long_tail,average_growth,pop; traditional,109,29,3,403,0,252,26
+Eldee,11e83fe0-90a8-92fc-8b81-aa1c026db3d8,NG,long_tail,average_growth,electro; hip hop; pop; ska; traditional,126,16,0,400,4,102,30
+Duncan Mighty,11e83fe0-9794-2bf8-b680-aa1c026db3d8,NG,mid_level,average_growth,electro; hip hop; pop; ska; traditional,400,77,32,425,5,438,33
+Reminisce,11e83fe0-a072-2798-bce7-aa1c026db3d8,NG,mainstream,average_growth,electro; hip hop; pop; religious; traditional,400,131,1,422,56,342,40
+Da Grin,11e83fe0-d0bc-8b1e-ac4a-aa1c026db3d8,NG,long_tail,average_growth,hip hop,63,10,0,129,0,30,11
+Oliver De Coque,11e83fe0-e3c1-d340-9c7f-aa1c026db3d8,NG,mid_level,average_growth,traditional,71,19,0,347,0,39,24
+Illbliss,11e83fe0-e3c9-5aa2-bb73-aa1c026db3d8,NG,long_tail,average_growth,electro; hip hop; pop; ska; traditional,266,38,1,400,0,138,33
+Falz,11e83fe0-e52a-77fa-af82-aa1c026db3d8,NG,mainstream,average_growth,alternative; electro; hip hop; pop; ska; traditional,400,169,6,494,29,855,38
+Sean Tizzle,11e83fe0-f3cf-b8ce-8676-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; religious; ska; traditional,363,107,2,403,5,211,30
+Blessing Offor,11e83fe1-032d-5cfe-a48c-aa1c026db3d8,NG,mid_level,average_growth,pop; religious,137,62,6,527,200,384,40
+Jaywon,11e83fe1-0b54-daf6-950a-aa1c026db3d8,NG,mid_level,average_growth,electro; hip hop; pop; religious; ska; traditional,331,112,2,401,0,135,31
+Wasiu Alabi Pasuma,11e83fe1-2261-b8a4-98c4-aa1c026db3d8,NG,long_tail,average_growth,traditional,22,13,0,20,0,3,10
+Praiz,11e83fe1-242a-2ab8-8591-aa1c026db3d8,NG,mid_level,average_growth,electro; pop; r&b; traditional,216,67,2,402,3,283,34
+DJ Spinall,11e83fe1-2cd5-afde-97dd-aa1c026db3d8,NG,long_tail,average_growth,,91,10,0,200,0,52,2
+M.I. Abaga,11e83fe1-56b0-dffe-9f76-a0369fe50396,NG,mid_level,average_growth,alternative; electro; hip hop; pop; traditional,329,56,6,404,3,422,42
+Blackmagic,11e83fe1-61f8-a43c-8020-aa1c026db3d8,NG,mid_level,average_growth,alternative; electro; pop; r&b; religious; rock; traditional,174,32,0,401,0,199,33
+Lara George,11e83fe1-62bf-8886-89da-aa1c026db3d8,NG,mid_level,average_growth,pop; religious,156,21,5,401,0,83,31
+Modenine,11e83fe1-64ec-c2ae-a648-aa1c026db3d8,NG,long_tail,average_growth,electro; hip hop,400,47,0,163,0,111,27
+Onyeka Onwenu,11e83fe1-68af-7238-9f20-aa1c026db3d8,NG,mid_level,average_growth,pop; traditional,143,23,2,356,0,100,31
+Ajebutter22,11e83fe1-7743-6ce6-a586-aa1c026db3d8,NG,mid_level,decline,alternative; electro; hip hop; pop; r&b; ska; soul; traditional,142,60,3,424,15,317,32
+Kefee,11e83fe1-8486-e2de-9813-aa1c026db3d8,,long_tail,average_growth,hip hop; pop; religious; ska; traditional,400,59,0,355,0,77,26
+Timi Dakolo,11e83fe1-8aa4-24f6-8291-a0369fe50396,NG,mid_level,average_growth,pop; r&b; religious; ska; soul; traditional,73,22,16,406,2,361,35
+Tomi Thomas,11e83fe1-8cbe-8fc4-a573-aa1c026db3d8,US,long_tail,average_growth,alternative; electro; pop; r&b; soul; traditional,121,41,1,406,4,198,28
+Lord of Ajasa,11e83fe1-9487-a772-9358-a0369fe50396,NG,long_tail,average_growth,hip hop; traditional,337,26,0,288,0,55,28
+Kida Kudz,11e83fe1-9d19-f8a4-9030-aa1c026db3d8,GB,mid_level,decline,alternative; electro; hip hop; pop,162,81,1,452,28,707,40
+Boj,11e83fe1-9f7d-e4f2-87f0-a0369fe50396,NG,mid_level,decline,alternative; electro; hip hop; pop; r&b; ska; soul; traditional,277,90,24,528,19,687,41
+May7ven,11e83fe1-b044-1f04-b54b-a0369fe50396,GB,long_tail,average_growth,electro; hip hop; ska; traditional,32,10,0,59,4,22,22
+Paul Play Dairo,11e83fe1-bc6a-09ec-8f11-aa1c026db3d8,,long_tail,average_growth,r&b,26,3,0,38,0,73,17
+K1 De Ultimate,11e83fe1-bf74-910c-9554-aa1c026db3d8,NG,mainstream,average_growth,electro; pop; traditional,400,400,0,404,9,75,27
+Daddy Showkey,11e83fe1-c610-6d88-a4f1-aa1c026db3d8,NG,long_tail,average_growth,ska; traditional,27,8,0,269,0,50,23
+Sammie Okposo,11e83fe1-fa5b-e8ba-b3ab-aa1c026db3d8,NG,long_tail,average_growth,religious; traditional,178,45,0,401,0,113,28
+Skiibii,11e83fe2-1ca0-e448-be29-a0369fe50396,NG,mainstream,average_growth,electro; pop; religious; traditional,335,89,24,405,4,554,30
+Tjan,11e83fe2-1e56-5b38-893d-aa1c026db3d8,NG,long_tail,average_growth,r&b; traditional,94,20,1,401,0,64,29
+Slowdog,11e83fe2-3f23-1f90-b914-aa1c026db3d8,NG,long_tail,average_growth,hip hop; traditional,148,59,0,38,0,63,20
+CDQ,11e83fe2-3f9a-9fc0-8f52-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; religious; traditional,369,124,1,420,0,247,32
+Nazir M. Ahmad,11e83fe2-5799-12a0-b1ed-aa1c026db3d8,NG,long_tail,average_growth,blues; pop,70,8,126,15,0,18,14
+Mike Abdul,11e83fe2-6a71-51c6-a8e0-aa1c026db3d8,NG,mid_level,average_growth,religious,400,151,4,356,1,135,32
+Chinko Ekun,11e83fe2-8d87-6c86-83b1-aa1c026db3d8,NG,mid_level,average_growth,electro; funk; hip hop; pop; religious; traditional,165,54,0,400,0,182,23
+Nathaniel Bassey,11e83fe2-8fec-c480-ab08-aa1c026db3d8,NG,superstar,average_growth,religious,400,120,228,414,22,397,43
+Tope Alabi,11e83fe2-9ade-219a-840b-aa1c026db3d8,NG,mainstream,average_growth,pop; religious; ska; traditional,321,64,13,405,8,128,30
+Waconzy,11e83fe2-a368-a966-acbb-aa1c026db3d8,NG,long_tail,average_growth,electro; pop; ska; traditional,400,219,6,202,0,106,31
+Midnight Crew,11e83fe2-a3ae-c7ac-b185-a0369fe50396,NG,mid_level,average_growth,religious,178,21,0,200,0,135,26
+A-Q,11e83fe2-c83a-d778-9cf1-aa1c026db3d8,NG,long_tail,average_growth,alternative; hip hop,157,28,0,402,0,148,27
+Niniola,11e83fe2-d671-ff6a-aea5-aa1c026db3d8,NG,mid_level,decline,edm; electro; hip hop; pop; traditional,275,81,17,447,13,1090,43
+Samsong,11e83fe2-dba2-a426-b8ba-aa1c026db3d8,NG,mid_level,average_growth,religious,263,83,0,400,0,277,28
+Nura M Inuwa,11e83fe2-f4ff-0fe0-b501-a0369fe50396,NG,long_tail,average_growth,traditional,400,112,1,21,0,34,32
+Remi Aluko,11e83fe3-2853-1472-971a-aa1c026db3d8,,long_tail,average_growth,traditional,34,14,2,188,0,7,15
+Sarz,11e83fe3-41a0-29c4-a682-aa1c026db3d8,NG,mainstream,average_growth,alternative; edm; electro; hip hop; pop; r&b; ska; traditional,400,58,73,585,34,1670,35
+Erigga,11e83fe3-6f12-9126-a1c8-a0369fe50396,NG,mid_level,average_growth,hip hop; pop,400,106,2,401,5,119,35
+Darey,11e83fe3-9279-0884-b06a-aa1c026db3d8,NG,mid_level,average_growth,pop; r&b; religious; ska,120,30,0,400,0,185,36
+Pepenazi,11e83fe3-b5b3-ceba-b7e4-aa1c026db3d8,NG,long_tail,average_growth,electro; traditional,122,42,1,355,0,71,24
+Ikechukwu,11e83fe3-dfc1-46c4-b8fc-aa1c026db3d8,NG,long_tail,average_growth,electro; hip hop; ska; traditional,175,28,0,400,1,104,28
+Plantashun Boiz,11e83fe3-e42d-b030-83dd-a0369fe50396,NG,long_tail,average_growth,hip hop; r&b; ska,138,38,0,257,0,57,28
+Amarachi,11e83fe4-16d5-ac90-80e2-a0369fe50396,NG,long_tail,average_growth,pop,25,12,0,20,0,3,21
+Tony Tetuila,11e83fe4-2cc7-7506-9afa-a0369fe50396,NG,long_tail,average_growth,electro; hip hop; ska; traditional,38,6,0,400,0,143,22
+Kelly Handsome,11e83fe4-57d9-5f48-b7eb-aa1c026db3d8,,long_tail,average_growth,pop; ska,33,2,0,27,0,11,9
+Orits Williki,11e83fe4-71ab-517e-9867-aa1c026db3d8,,long_tail,average_growth,reggae; traditional,104,18,0,70,0,46,13
+Small Doctor,11e83fe4-78c4-0960-8e65-aa1c026db3d8,NG,mid_level,average_growth,electro; pop; religious; traditional,268,59,1,401,0,191,35
+Sade Adu,11e83fe4-be00-f254-a77f-aa1c026db3d8,GB,long_tail,decline,electro,24,4,1,424,13,949,22
+Dele Ojo,11e83fe4-c7ea-1a20-8f8d-a0369fe50396,US,long_tail,average_growth,funk; latin; traditional,107,9,0,53,0,2,11
+DJ Baddo,11e83fe4-e29c-688c-bdd0-aa1c026db3d8,NG,long_tail,average_growth,electro,198,178,0,96,0,408,22
+KC Presh,11e83fe4-f40f-eeae-a5e1-a0369fe50396,,long_tail,average_growth,religious,23,2,0,20,0,23,15
+Magníto,11e83fe5-40d5-365e-8e7c-aa1c026db3d8,,long_tail,average_growth,edm; electro; hip hop; pop,400,148,0,402,0,259,28
+Sonnie Badu,11e83fe5-9532-9cf0-bc9d-a0369fe50396,GH,long_tail,average_growth,religious,129,44,19,402,5,195,33
+Mairo Ese,11e83fe5-ac5b-96ac-80c6-a0369fe50396,NG,long_tail,average_growth,religious,53,15,2,400,0,56,21
+Femi Leye,11e83fe5-c9ce-9392-bb80-a0369fe50396,NG,long_tail,average_growth,traditional,150,43,0,21,0,28,14
+Wani,11e83fe5-e615-71e2-97cf-aa1c026db3d8,NG,long_tail,average_growth,alternative; electro; hip hop; pop; r&b; soul; traditional,55,20,0,401,0,119,21
+Koker,11e83fe5-f36c-c156-b965-aa1c026db3d8,NG,long_tail,average_growth,electro; pop; traditional,100,20,0,400,0,91,22
+Nonso Amadi,11e83fe5-f9e3-6198-b06b-aa1c026db3d8,CA,mid_level,average_growth,alternative; electro; pop; r&b; soul; traditional,166,80,9,548,56,576,36
+Abass Akande Obesere,11e83fe6-1523-ba52-8d82-a0369fe50396,,long_tail,average_growth,traditional,9,7,0,174,0,0,10
+Chris Delvan Gwamna,11e83fe6-184e-f764-8b60-a0369fe50396,NG,long_tail,average_growth,religious; traditional,68,7,4,20,0,4,16
+Lady Donli,11e83fe6-189b-4d30-b6d4-aa1c026db3d8,NG,mid_level,decline,alternative; pop; r&b; traditional,139,49,0,507,46,535,33
+Johnny Drille,11e83fe6-226c-8e46-bf3a-aa1c026db3d8,NG,mainstream,average_growth,alternative; electro; pop; r&b; soul; traditional,214,99,84,465,30,495,36
+Gabriel Afolayan,11e83fe6-2de0-edbc-aeb9-aa1c026db3d8,NG,long_tail,average_growth,electro; r&b,131,31,0,175,0,15,21
+Peacocks Guitar Band International,11e83fe6-371c-d99a-b2f9-a0369fe50396,,long_tail,average_growth,traditional,61,7,0,256,0,4,10
+Dan Maraya,11e83fe6-389b-0544-bf46-aa1c026db3d8,NG,long_tail,average_growth,traditional,17,5,0,1,0,4,11
+Musa Dankwairo,11e83fe6-38a2-e390-abd1-aa1c026db3d8,NG,long_tail,average_growth,traditional,87,13,0,2,0,8,11
+Aramide,11e83fe6-4669-7e4e-bbf4-a0369fe50396,NG,long_tail,average_growth,electro; traditional,87,43,0,359,5,73,29
+Obesere,11e83fe6-622e-10e0-8124-a0369fe50396,NG,long_tail,average_growth,traditional,400,128,1,371,0,34,31
+Loose Kaynon,11e83fe6-6900-26f6-abf5-a0369fe50396,NG,long_tail,average_growth,hip hop,53,7,0,89,0,54,23
+Saeon,11e83fe6-6b2d-c898-b105-a0369fe50396,,long_tail,average_growth,electro; traditional,30,10,0,354,0,52,16
+DJ Enimoney,11e83fe6-6fe2-fc46-88a8-a0369fe50396,NG,long_tail,average_growth,electro; hip hop; pop; traditional,45,24,0,403,6,188,23
+Odunsi (The Engine),11e83fe6-831b-0934-b352-a0369fe50396,NG,mid_level,decline,alternative; electro; hip hop; pop; r&b; soul; traditional,198,55,9,513,18,516,43
+2Baba,11e83fe6-991f-e24a-85c4-a0369fe50396,NG,mainstream,average_growth,electro; hip hop; pop; ska; traditional,400,100,234,416,24,456,42
+Ola Dips,11e83fe6-af50-f798-9176-aa1c026db3d8,,long_tail,average_growth,traditional,52,21,0,83,0,93,18
+TY Bello,11e83fe6-c002-bc52-b59c-aa1c026db3d8,NG,mid_level,average_growth,religious,400,394,11,406,0,185,36
+Tomi Favored,11e83fe6-cf2e-716c-96ba-aa1c026db3d8,US,long_tail,average_growth,religious,248,118,1,163,29,59,30
+Deezell,11e83fe6-dad1-b164-a44c-aa1c026db3d8,US,long_tail,average_growth,hip hop,53,50,0,165,0,10,21
+Pasuma,11e83fe6-f10d-56ae-af16-a0369fe50396,NG,mid_level,average_growth,electro; latin; traditional,400,183,0,355,0,113,27
+LKT,11e83fe7-0693-da84-8fe0-aa1c026db3d8,NG,long_tail,average_growth,edm; electro; hip hop; traditional,200,38,0,137,0,64,26
+OJB Jezreel,11e83fe7-0d78-4588-a42d-a0369fe50396,,long_tail,average_growth,traditional,300,11,0,33,0,37,17
+Mz Kiss,11e83fe7-0ea3-2d24-a46e-aa1c026db3d8,NG,long_tail,average_growth,edm; electro; hip hop; traditional,86,29,0,62,0,73,25
+DJ Big N,11e83fe7-1c60-048c-a601-aa1c026db3d8,NG,mid_level,average_growth,electro; pop; traditional,41,33,0,403,0,155,29
+Dremo,11e83fe7-2406-7860-a473-aa1c026db3d8,NG,mainstream,average_growth,electro; hip hop; pop; traditional,390,100,6,411,8,292,35
+Tunde King,11e83fe7-263e-aa3a-b7eb-a0369fe50396,NG,long_tail,average_growth,traditional,3,0,0,12,0,7,5
+Kola Ogunkoya,11e83fe7-2653-7a3c-bca0-aa1c026db3d8,US,long_tail,average_growth,electro; jazz; religious; traditional,240,80,0,75,0,31,21
+Mayorkun,11e83fe7-2879-668c-bd4f-aa1c026db3d8,NG,mainstream,decline,electro; hip hop; pop; ska; traditional,400,98,59,478,38,1030,39
+Classiq,11e83fe7-3d89-36c4-b042-aa1c026db3d8,NG,long_tail,moderate_growth,hip hop,140,47,0,272,0,23,25
+Preye Odede,11e83fe7-6894-11ae-b6bc-aa1c026db3d8,NG,mid_level,average_growth,religious,80,35,4,401,0,147,30
+Bobby Benson,11e83fe7-779e-43cc-8ab1-aa1c026db3d8,NG,long_tail,average_growth,pop; traditional,4,0,1,249,0,64,9
+Seyi Sodimu,11e83fe7-8a66-4266-852d-a0369fe50396,NG,long_tail,average_growth,traditional,27,7,0,191,0,44,20
+Nissi,11e83fe7-c9cd-ec6a-b4c3-aa1c026db3d8,PR,long_tail,average_growth,alternative; electro; pop; r&b; soul; traditional,77,30,1,408,0,176,31
+Terry Apala,11e83fe7-dbf6-6db8-8d80-aa1c026db3d8,NG,mid_level,average_growth,pop; traditional,385,136,10,402,0,169,26
+Sunkanmi,11e83fe8-1380-3552-888c-a0369fe50396,NG,long_tail,average_growth,electro; pop,36,21,0,21,0,20,22
+Teezee,11e83fe8-2b1e-f1f8-a58d-aa1c026db3d8,NG,long_tail,average_growth,alternative; electro; hip hop; r&b; soul; traditional,56,17,1,460,0,270,29
+Oxlade,11e83fe8-3ab6-b934-a324-a0369fe50396,NG,mainstream,average_growth,alternative; electro; hip hop; pop; r&b; soul; traditional,400,133,36,703,46,1814,47
+Lincoln,11e83fe8-8dda-08b4-84e1-a0369fe50396,US,long_tail,average_growth,alternative; pop; punk; ska,26,17,0,400,0,44,25
+Nikki Laoye,11e83fe8-b454-c114-ae2e-a0369fe50396,NG,long_tail,average_growth,r&b; religious; soul,73,23,0,84,2,98,31
+Ric Hassani,11e83fe8-f69b-3896-9a79-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; latin; pop; r&b; traditional,290,104,48,414,17,303,36
+Spyro,11e83fe9-1ec3-8e86-a297-a0369fe50396,NG,mainstream,average_growth,alternative; electro; hip hop; pop; religious; traditional,205,90,5,417,0,438,31
+Mr Raw,11e83fe9-520b-97ac-9723-aa1c026db3d8,NG,long_tail,average_growth,alternative; hip hop; pop; traditional,272,49,0,296,0,59,23
+Joe Praize,11e83fe9-7283-6c9e-8423-aa1c026db3d8,,long_tail,average_growth,religious,48,6,3,194,0,82,11
+BNXN,11e83fe9-d026-36d8-8f3f-aa1c026db3d8,NG,mainstream,average_growth,alternative; electro; hip hop; pop; r&b; religious; soul; traditional,400,96,197,687,22,1582,35
+DRB Lasgidi,11e83fe9-d02e-ff16-8844-aa1c026db3d8,NG,long_tail,average_growth,alternative; electro; pop; r&b; soul; traditional,31,8,1,420,0,159,26
+Sexy Steel,11e83fe9-fd1f-5fc0-843c-aa1c026db3d8,,long_tail,average_growth,electro; pop; traditional,12,8,0,37,0,13,17
+Rymzo,11e83fea-18d6-c8c0-aa64-aa1c026db3d8,,long_tail,average_growth,reggae,88,5,0,8,0,17,14
+Dunsin Oyekan,11e83fea-1f9c-4fb8-967b-a0369fe50396,NG,mainstream,average_growth,religious,299,64,184,412,17,209,32
+Fiokee,11e83fea-517d-0b58-8ca2-a0369fe50396,NG,mid_level,average_growth,alternative; electro; pop; traditional,143,67,14,408,0,313,30
+Jinmi Abduls,11e83fea-acc7-5ee6-9153-aa1c026db3d8,NG,long_tail,average_growth,alternative; electro; pop; r&b; soul; traditional,106,41,0,400,0,81,26
+Tomi Agape,11e83fea-afd5-4bca-8b7f-aa1c026db3d8,GB,mid_level,decline,alternative; electro; pop; r&b; soul,36,19,0,401,8,267,29
+Sasha P,11e83fea-f4ff-41f6-84a8-aa1c026db3d8,NG,long_tail,average_growth,electro; hip hop,55,12,0,233,0,12,22
+Dencia,11e83feb-2b3b-e454-86b1-aa1c026db3d8,CM,long_tail,average_growth,electro; hip hop; pop; traditional,34,22,0,30,3,1,23
+Moses Bliss,11e83feb-3bdf-ceb0-afda-aa1c026db3d8,NG,mainstream,average_growth,religious,165,98,162,408,5,251,31
+Monica Ogah,11e83feb-7e8f-ada2-9485-a0369fe50396,NG,long_tail,average_growth,religious,32,21,0,31,0,25,22
+Odeal,11e83feb-9e4b-c75c-b01f-a0369fe50396,GB,mainstream,decline,alternative; hip hop; pop; r&b,244,127,64,656,96,1142,45
+Sean Dampte,11e83feb-e25e-6b3e-a86f-aa1c026db3d8,GB,long_tail,average_growth,electro; pop,198,130,3,200,6,49,31
+Show Dem Camp,11e83fec-0262-8fc8-9c49-a0369fe50396,NG,mid_level,decline,alternative; electro; hip hop; pop; r&b; ska; soul; traditional,177,41,2,454,27,382,31
+CKay,11e83fec-1580-802e-81df-aa1c026db3d8,NG,mainstream,average_growth,electro; pop; r&b; traditional,367,103,58,681,61,3349,57
+Payper Corleone,11e83fec-2416-436c-a2e1-aa1c026db3d8,NG,long_tail,average_growth,electro; hip hop; pop; traditional,239,74,0,368,0,2161,28
+Tay Iwar,11e83fec-3688-4298-b10b-a0369fe50396,NG,mid_level,decline,alternative; electro; hip hop; pop; r&b; soul; traditional,183,63,17,551,24,744,34
+Dele Taiwo,11e83fec-3b54-407e-97f2-aa1c026db3d8,,long_tail,average_growth,electro; traditional,25,18,0,1,0,0,9
+EmmaOMG,11e83fec-5294-a9b8-a1e1-a0369fe50396,NG,mid_level,average_growth,religious,254,156,36,401,0,56,19
+DJ Caise,11e83fec-6148-bf30-9b53-aa1c026db3d8,,long_tail,average_growth,electro; hip hop; pop; traditional,5,4,0,19,0,6,10
+T'neeya,11e83fec-7778-fd24-9223-a0369fe50396,CM,long_tail,average_growth,r&b; traditional,46,25,2,400,1,138,20
+Limoblaze,11e83fec-7a65-1f04-a66d-a0369fe50396,NG,mid_level,average_growth,electro; hip hop; pop; r&b; religious,313,140,144,491,58,403,35
+DJ Coublon,11e83fec-85af-49f2-8321-aa1c026db3d8,NG,long_tail,average_growth,electro; pop; traditional,20,16,0,137,0,43,22
+Eben,11e83fec-8e41-1b5e-aeed-a0369fe50396,NG,mid_level,average_growth,pop; religious,156,49,18,406,0,230,19
+Peruzzi,11e83fec-c2fa-43d4-9a80-aa1c026db3d8,NG,mainstream,average_growth,pop; ska; traditional,400,112,6,426,4,529,42
+Prospa Ochimana,11e83fec-de7c-3ea0-b540-aa1c026db3d8,NG,mid_level,average_growth,religious,106,33,22,363,0,178,29
+Johnny Crown,11e83fec-f89b-befa-b94f-aa1c026db3d8,US,long_tail,average_growth,hip hop,222,33,0,2,0,12,21
+LADIPOE,11e83fed-0195-65ce-9525-aa1c026db3d8,NG,mainstream,average_growth,alternative; electro; pop; r&b; soul; traditional,195,79,8,483,13,667,35
+Sunny Ade,11e83fed-0281-d36e-b49c-aa1c026db3d8,,long_tail,average_growth,,4,1,0,0,0,0,3
+Folabi Nuel,11e83fed-3066-c1fe-bc1e-aa1c026db3d8,NG,mid_level,average_growth,religious,194,81,4,430,10,139,29
+Sola Allyson,11e83fed-381a-64fa-ac54-a0369fe50396,NG,mainstream,average_growth,religious,131,43,7,344,1,60,29
+DJ Shawn,11e83fed-3e08-d23e-a78b-aa1c026db3d8,NG,long_tail,average_growth,edm; electro; latin,34,30,0,393,0,65,19
+Mr. P,11e83fed-5a39-524e-942b-aa1c026db3d8,NG,long_tail,average_growth,electro; pop; traditional,105,29,76,423,0,287,9
+Victoria Orenze,11e83fed-620b-9eb4-ad65-a0369fe50396,NG,mainstream,average_growth,religious,160,64,72,400,1,157,32
+Amaarae,11e83fed-8dd7-286a-83f4-a0369fe50396,GH,mainstream,decline,alternative; electro; others; pop; r&b,253,70,5,706,110,2271,52
+Victor AD,11e83fed-b61d-254a-8715-aa1c026db3d8,NG,mainstream,average_growth,electro; pop; traditional,92,58,4,415,4,194,33
+Slimcase,11e83fed-dd55-60d2-bf31-aa1c026db3d8,NG,mid_level,average_growth,electro; hip hop; pop; traditional,174,74,0,411,0,346,28
+Mercy Chinwo,11e83fed-ef07-728e-ac9c-aa1c026db3d8,NG,mainstream,average_growth,religious,195,76,145,406,15,320,38
+Deena Ade,11e83fed-f0b3-dc1c-a095-aa1c026db3d8,NG,long_tail,average_growth,alternative; r&b; soul,48,26,0,48,0,31,25
+Tobi Ibitoye,11e83fed-fb4e-5328-abb4-aa1c026db3d8,NG,long_tail,average_growth,electro; pop,81,58,0,204,0,177,28
+Gaise Baba,11e83fee-0550-3ce2-9eed-a0369fe50396,NG,long_tail,average_growth,religious,86,41,44,402,5,124,26
+Kheengz,11e83fee-2b62-686a-8145-a0369fe50396,NG,long_tail,average_growth,hip hop,119,25,0,175,0,42,25
+Larry Gaaga,11e83fee-2e8c-f352-ac1b-aa1c026db3d8,NG,mainstream,average_growth,electro; hip hop; pop; r&b; traditional,147,59,4,411,0,352,29
+Bidemi Olaoba,11e83fee-32ae-4e04-8faf-a0369fe50396,NG,long_tail,average_growth,religious,118,70,6,400,0,51,28
+Nonso Bassey,11e83fee-4233-99ba-84a5-aa1c026db3d8,NG,long_tail,average_growth,traditional,5,4,0,28,0,11,18
+Darkoo,11e83fee-736a-5e06-aedf-a0369fe50396,GB,mid_level,average_growth,electro; hip hop,233,112,30,556,20,1239,50
+Lekaa Beats,11e83fee-74a2-b156-8cbb-aa1c026db3d8,GB,long_tail,average_growth,alternative; electro; hip hop; pop; r&b; religious,35,22,7,429,0,296,21
+Somadina,11e83fee-af4f-1858-8d6c-aa1c026db3d8,NG,long_tail,average_growth,alternative; r&b,51,32,1,421,2,89,28
+Prettyboy D-O,11e83fee-c29b-6c9a-88c9-aa1c026db3d8,NG,long_tail,average_growth,alternative; electro; hip hop; pop; traditional,116,35,2,449,5,283,30
+Okiemute,11e83fee-d196-0c50-bf54-a0369fe50396,NG,long_tail,average_growth,pop; r&b,19,10,0,209,0,42,20
+Umar M Shareef,11e83fee-e00b-34d6-a7ef-a0369fe50396,NG,mid_level,average_growth,pop; r&b; traditional,201,34,2,50,0,48,25
+Mega 99,11e83fee-e8bb-9576-b788-aa1c026db3d8,NG,long_tail,average_growth,religious; traditional,52,23,0,13,0,5,17
+Obiwon,11e83fee-f230-7ef0-9fff-aa1c026db3d8,,long_tail,average_growth,r&b,25,2,0,13,0,15,11
+Nimix,11e83fef-1115-56d8-b3b5-a0369fe50396,ZA,long_tail,average_growth,electro; pop; religious,110,39,0,279,0,76,25
+Fela Sowande,11e8633d-566c-86ae-8e75-a0369fe50396,,long_tail,average_growth,classical,95,6,0,112,0,183,13
+Projexx,11e88a9b-0e04-a25e-80b0-c81f66c9b203,JM,long_tail,decline,alternative; electro; hip hop; pop; r&b; reggae; ska; soul,146,59,122,485,6,627,38
+Olakira,11e8aa02-78e4-3c8e-b8d9-525400009efb,NG,mid_level,average_growth,electro; pop,65,31,1,408,0,495,29
+Barry Jhay,11e8aa02-e65d-4788-81f6-525400009efb,NG,mainstream,average_growth,electro; pop; religious; traditional,241,104,15,400,0,152,29
+Broda Shaggi,11e8aa02-e790-5ba4-9ab6-525400009efb,NG,mid_level,average_growth,electro; pop; traditional,59,31,0,345,0,76,30
+Blackface Naija,11e8aa03-0997-e672-96c1-525400009efb,NG,long_tail,average_growth,,1,1,0,0,0,0,3
+T-Classic,11e8aa03-2f88-3da0-b98a-525400009efb,NG,mid_level,average_growth,pop; traditional,96,32,3,402,0,118,24
+Tems,11e8aa04-ab2d-ccbc-9d98-525400009efb,NG,superstar,decline,alternative; electro; pop; r&b; traditional,212,45,614,1000,137,3556,57
+Mr M & Revelation,11e8aa04-ed58-ee1e-8f43-525400009efb,NG,long_tail,average_growth,religious,183,188,5,200,0,59,17
+Buchi,11e8ac08-e343-eee6-b08d-525400009efb,NG,mid_level,average_growth,pop; r&b; reggae; religious,351,56,21,401,2,197,29
+Nazifi Asnanic,142ef2b6-e467-11e9-ae56-549f35141000,NG,long_tail,average_growth,pop,46,21,0,10,0,9,22
+Burna Boy,14ff75bc-4c73-11e9-a24b-549f35141000,NG,superstar,average_growth,electro; hip hop; pop; ska,400,258,1029,1000,200,4751,61
+Abiodun,162333e6-ed4d-11e8-a9ad-549f35161576,DE,long_tail,average_growth,electro; latin; pop,30,32,0,16,0,2,21
+Fireboy DML,18505440-d214-11e8-bcf0-525400009efb,NG,superstar,average_growth,electro; hip hop; pop; r&b; religious; ska; soul; traditional,400,130,239,756,46,3310,54
+Maryam Fantimoti,19293926-e037-45c6-b491-55db62b81229,,long_tail,average_growth,,2,0,0,0,0,0,3
+Bayanni,1a43db25-4375-45ef-ba3e-7c9367f4cad5,NG,mainstream,average_growth,electro; pop; traditional,95,40,20,424,3,561,30
+Tijjani Gandu,1ab127d4-22be-426b-96b4-7ee46fb850b8,NG,long_tail,average_growth,,9,9,1,1,0,0,7
+Babyboy AV,1c0935a2-9efc-4af8-ba85-9b8860de41e2,NG,mid_level,average_growth,electro; pop; r&b; traditional,81,35,6,417,8,464,28
+Ninety,1c8d4cec-c644-11e8-9d54-549f35141000,NG,long_tail,average_growth,alternative; electro; hip hop; pop; r&b; soul,54,23,0,400,0,35,22
+Alpha P,1cb0bb46-68f1-11e9-9121-e4434b2a4898,NG,mid_level,average_growth,pop; traditional,101,37,10,438,0,1412,28
+BBO,1d048c6b-60a4-4b09-bae2-befa2898c904,NG,long_tail,moderate_growth,religious,84,45,35,405,0,20,13
+Shekx,1d830a50-9975-4f9e-9e6d-61db39908261,NG,long_tail,average_growth,electro; hip hop; traditional,32,19,0,75,0,0,17
+AQT,1dd78618-54ee-406e-ab76-321dd6ed26b0,US,long_tail,average_growth,,17,8,0,192,0,7,17
+Hurlarstringz,1e03b3e4-29be-4d6e-b8a8-48b3b8eb6578,,long_tail,average_growth,electro,17,17,0,0,0,1,5
+Chigozie Wisdom,1eb3b586-3ce7-11ea-aa5f-549f35161576,NG,long_tail,average_growth,religious,72,15,0,25,0,19,16
+Poco Lee,1f0291ea-e41a-11e9-93c3-549f35141000,NG,long_tail,average_growth,alternative; edm; electro; pop; religious; traditional,165,35,13,431,0,290,25
+Musicbwoy,202bd90c-298c-11ea-aa41-e4434b2a4898,NG,long_tail,average_growth,electro; latin; pop,13,11,0,7,0,12,18
+6UFF,2339acfa-e155-414e-b485-148302c239b5,NG,mid_level,average_growth,electro; hip hop; pop; traditional,56,32,15,440,0,86,23
+Ayinde Barrister,23f9d8f6-8fee-4321-84b2-199526b23d1d,,long_tail,,,1,0,0,0,0,0,1
+Trybesmen,24148bdf-ecbc-4de2-abc1-1ea91cca4259,,long_tail,average_growth,,1,0,0,0,0,0,2
+EeQue,2565bbbe-cd9d-11e8-a52a-525400009efb,ZA,mid_level,average_growth,edm,161,64,84,406,3,580,28
+Oluwa Toyo,2597b1b5-ad53-4908-827c-5e9e8996108d,GB,long_tail,average_growth,electro,13,9,0,196,0,1,6
+Ruby Gyang,25bf8ab1-c71b-4fa8-8448-8e75fd38f307,NG,long_tail,average_growth,traditional,14,4,0,1,0,2,7
+Tkeyz,25d3184c-9c5c-11e9-bbfc-549f35161576,NG,long_tail,average_growth,r&b; religious,56,40,7,325,0,39,24
+Liya,265cfd2e-64f7-11e9-aeef-e4434b16cb7a,NG,long_tail,average_growth,alternative; edm; electro; hip hop; pop; r&b; soul; traditional,75,30,3,400,1,136,26
+Mohbad,265de3e0-47bc-11e9-a956-549f35141000,NG,mainstream,average_growth,electro; pop; religious; traditional,400,90,64,431,4,536,30
+Zhus Jdo,27798d23-08d3-406a-ab17-173f5f107bec,NG,long_tail,average_growth,edm; electro; hip hop,27,20,3,400,0,24,22
+Yinka Davies,27b10238-c641-11e8-a1de-549f35141000,NG,long_tail,average_growth,electro; r&b; religious; traditional,47,4,0,68,0,22,22
+Omah Lay,28810016-6284-11e9-bd7c-549f35141000,NG,superstar,average_growth,electro; pop; r&b; soul,400,155,300,765,122,3145,57
+Chech,28d80660-71b3-4f09-bb3e-f3993a9ca250,NG,long_tail,average_growth,electro; religious; traditional,7,5,2,338,0,8,5
+Abdul D One,2925ab1e-c2f7-4385-a76d-c5052b82713d,NG,long_tail,average_growth,alternative; pop; traditional,317,235,4,21,0,5,19
+Namenj,2a2014ac-f37b-498f-9114-1c9d1d167bfe,NG,mid_level,average_growth,pop,73,33,1,257,0,41,25
+Benzoo,2a7a9978-40bd-44a3-91db-5d0d5d58db1a,,long_tail,moderate_growth,edm; electro,119,63,120,435,0,151,13
+Eskeez,2bd04776-2ae5-4e6c-993f-2beee4dd763e,,long_tail,average_growth,electro; hip hop,6,2,0,12,0,43,7
+Hamisu Breaker,2be36006-b8ec-11e8-95dd-525400009efb,NG,mid_level,average_growth,pop,286,91,10,196,0,55,30
+Victony,2bfde0ba-6cd9-11e9-80c0-00163ec5a2fb,NG,mainstream,average_growth,electro; hip hop; pop; r&b; soul; traditional,400,108,200,626,66,1031,52
+Neeta,2ca48b4a-e678-11e9-974d-801844ee83a6,MY,long_tail,average_growth,pop; traditional,9,4,0,6,1,18,15
+Lemmy Jackson,2d883401-4317-44dc-b24e-d47e8278868f,NL,long_tail,average_growth,electro,7,2,0,6,0,0,5
+Mavo,2db8cdd8-51bf-4f58-b4ff-8990290cb149,GB,mainstream,average_growth,alternative; edm; electro; religious; traditional,113,69,170,629,0,251,23
+Hotman,2e98aeac-20e1-4997-84f8-ce66937c66c2,,long_tail,average_growth,,2,0,0,0,0,0,1
+EdoMan,2f9d4f4f-5810-4e7e-9af8-b31f116ef7fc,NG,long_tail,average_growth,electro; traditional,225,25,5,172,0,2,11
+Zaki Dan Yaya,305ec876-4702-43b2-908c-0b1242cfada0,NG,long_tail,moderate_growth,electro; pop,98,61,1,5,0,1,16
+St. Seií,3079659d-10a0-4438-b31e-d05f0b0916e9,NG,long_tail,average_growth,alternative,41,70,1,330,0,11,19
+Altims,308026ca-d8ff-4b3d-b52d-3207d5eee233,,long_tail,average_growth,traditional,1,1,0,163,0,0,7
+Krexx Nv,318b892c-dc77-4ce1-b811-ae84d6bcb3da,NG,long_tail,average_growth,electro; pop,167,71,0,88,0,4,25
+Morocco Maduka,3227ccde-c6ea-4d51-852e-7368498aaae7,NG,long_tail,average_growth,,15,5,0,0,0,0,8
+Fave,3242fdb0-c474-11e8-a035-525400009efb,FR,mainstream,average_growth,alternative; electro; hip hop; pop; r&b; soul; traditional,185,92,31,534,19,607,51
+Kemena,3275117f-1ede-46ec-91a7-18910df4e730,NG,long_tail,average_growth,alternative; electro; r&b; soul; traditional,91,22,0,300,0,21,22
+Vibez Inc,32f05e86-36d5-40a9-9e2b-62927fd83ab6,NG,mid_level,average_growth,electro; latin,7,9,2,400,0,4,17
+Ajebo Hustlers,333122f9-5125-4d2b-be92-91b1a86bbf1f,NG,long_tail,average_growth,,1,1,0,0,0,0,2
+Wolfacejoeyy,339093fb-61d0-4d04-8750-0892860a29a7,US,mid_level,average_growth,hip hop,221,97,0,615,37,62,33
+Oshara,33aafa50-5943-45d8-9478-54012ca84737,,long_tail,average_growth,electro; religious,49,34,0,0,0,2,18
+Ayo Vincent,365d4e98-4b53-4de7-828f-bd00603a5318,NG,long_tail,average_growth,pop,1,0,0,0,0,0,5
+Ayola,37e94b84-4669-11ea-9451-549f35141000,NG,long_tail,average_growth,traditional,28,9,0,9,0,23,23
+Rybeena,37ef9719-a949-48fe-ade8-0437e83f1e88,NG,mainstream,average_growth,electro; religious; traditional,177,84,6,400,0,81,29
+Pawzz,380f100b-8f2f-4a5d-bf89-7bc2378fbdab,NG,long_tail,average_growth,traditional,27,14,0,256,0,23,24
+King Perryy,38cf4ca4-b8f5-11e8-b59d-525400009efb,NG,mid_level,average_growth,electro; pop; traditional,138,63,5,403,0,387,34
+Babá Ken Okulolo,3931efae-c605-11e8-b21b-549f35141000,,long_tail,average_growth,traditional,35,3,0,72,0,71,4
+Oriental Brothers,3c58f3db-70b4-4e5e-8cf6-ac4445c73d1e,,long_tail,average_growth,country,5,4,0,0,0,7,4
+DJ Cuppy,3cbe1ad5-4fbd-4f8f-92c6-2c2711ebb6a1,,long_tail,average_growth,,1,0,0,0,0,0,1
+Boi Chase,3d441734-ed30-4fb1-b345-098337634922,NG,long_tail,average_growth,,17,11,0,4,0,0,10
+Momee Gombe,3daea0b7-236d-4995-8d5e-5cc3639bed75,NG,long_tail,moderate_growth,traditional,7,6,0,0,0,0,14
+BoyPee,3de90cf8-5464-4372-b5f2-e875ab7fe62a,NG,mid_level,average_growth,country; electro; r&b,62,34,2,425,4,133,26
+Amma,3e4494d7-6671-4e40-810c-f138807f3d8a,NG,long_tail,average_growth,electro; r&b,4,4,6,332,0,14,10
+Majeeed,3ef4c0fa-ff9e-11e9-9c3e-801844edfa71,GB,mid_level,average_growth,alternative; electro; pop; r&b; religious; soul; traditional,118,36,1,404,0,295,30
+oSHAMO,3fe29364-59ef-401c-8d8b-3e99ead2735c,GB,long_tail,average_growth,alternative; electro; folk; traditional,32,22,5,417,0,94,24
+Crayon,4071305e-b790-11e9-94f0-00163ec5a2fb,FR,mid_level,average_growth,electro; pop; r&b,306,71,6,440,1,719,26
+Magixx,414cd652-df48-11e8-9171-525400009efb,NG,mainstream,average_growth,electro; pop; traditional,193,62,11,466,9,524,32
+Eso Dike,4254bc5e-57b5-11ea-8bf1-549f35161576,US,long_tail,average_growth,hip hop,8,7,0,0,0,4,14
+Mr Real,426cd532-b338-11e8-9639-525400009efb,NG,mid_level,average_growth,electro; hip hop; pop; traditional,123,41,0,410,0,207,31
+Zerrydl,4384e9a7-b640-45f1-8185-aa9aefc8bcd7,NG,mid_level,average_growth,edm; electro; hip hop; latin; religious,78,36,1,405,0,168,30
+Ayra Starr,440f0f3d-170e-4be3-ac0a-182326bf51f6,BJ,superstar,average_growth,electro; pop; r&b; soul; traditional,400,156,348,862,121,2756,54
+Mosbeekhan,44df9653-2751-4cf2-b2ca-5a00f691b2ec,NG,long_tail,average_growth,electro; folk,13,8,0,15,0,0,18
+Ciza,44ef4f27-335d-49a7-94ee-24b7795d1d40,NG,long_tail,average_growth,,3,1,0,7,0,7,5
+Msquare,45ed9651-2398-4ec8-b0ee-fc0ff2134858,,long_tail,average_growth,r&b,6,1,0,1,0,0,9
+Sikiru Ayinde Barrister,4615e8b1-4be7-4c98-b298-b2f5f2a14029,,long_tail,average_growth,,0,0,0,0,0,0,6
+Dede Mabiaku,476d4224-d188-4f7d-aae7-8e8f453e9215,NG,long_tail,average_growth,electro; hip hop; latin,23,1,0,7,0,6,13
+Dr Roy,47876210-79fb-4f89-9a7b-4dfa3c9d7a48,,long_tail,average_growth,hip hop; religious,16,25,0,14,0,0,17
+Onos Ariyo,479e924c-c612-11e8-861c-549f35161576,,long_tail,average_growth,,14,1,0,228,0,11,7
+FirstKlaz,49f3d1db-4a14-4e94-bbd1-f213acc7e1a6,NG,long_tail,moderate_growth,alternative; electro; religious; soul; traditional,86,38,2,400,0,77,27
+Olugbenga Adelekan,49f8197a-c65b-11e8-88a3-549f35161576,GB,long_tail,average_growth,,3,2,0,1,0,0,4
+Dandizzy,4ae9d39a-b8f1-11e8-8d41-525400009efb,NG,long_tail,average_growth,traditional,167,75,0,400,0,97,29
+Saoty Arewa,4b23b97e-cb39-481f-8d04-580463dc3cdc,NG,long_tail,average_growth,religious; traditional,105,41,0,4,0,0,17
+Mamman Shata,4c3216a0-b6c9-11e9-ab9c-549f35141000,,long_tail,average_growth,alternative; traditional,107,17,0,4,0,13,8
+Dan Maraya Jos,4f4b136c-c612-11e8-ad44-549f35161576,,long_tail,average_growth,pop,21,1,0,0,0,0,10
+Greatman Takit,50135246-c1b3-4431-a5d1-b9a078ae8e87,NG,long_tail,average_growth,electro; pop; religious,191,78,46,413,0,143,34
+Kidd Carder,5152458c-1e56-485a-a6c4-6c2fd985e974,NG,mid_level,average_growth,electro; religious; soul; traditional,32,36,19,421,0,91,24
+Spellz,51c79940-29f3-11e9-9c00-549f35161576,NG,long_tail,average_growth,electro; hip hop; pop; traditional,17,4,10,402,0,380,22
+Yhemolee,5253ac86-0d6a-41db-89ef-3778b2f57da8,NG,long_tail,average_growth,electro; traditional,6,7,0,176,0,7,17
+Wizard Chan,52c6902e-4327-4b71-b5ac-fe37f49d5d65,NG,mid_level,average_growth,alternative; electro; folk; hip hop; religious; soul; traditional,90,40,44,422,0,86,28
+Kabaka,53077d4a-d103-4060-bac3-e1102713e065,,long_tail,average_growth,,1,0,0,0,0,8,2
+Balloranking,533570e7-c145-4d24-aa43-b2ccfb4e2b6d,NG,mainstream,average_growth,electro; pop,225,106,3,425,0,173,30
+Guchi,5655852c-5e95-11e9-b00a-00163ec5a2fb,NG,mainstream,average_growth,alternative; electro; hip hop; pop; r&b; traditional,108,62,2,412,1,307,31
+King Wadada,5685cb32-5eab-4f87-a7db-1656c6dcb075,NG,long_tail,average_growth,reggae,22,6,0,4,0,14,6
+Ado Gwanja,56d06f4e-c20f-11e8-b1ef-525400009efb,NG,long_tail,average_growth,electro,95,24,2,8,0,3,30
+Peterson Okopi,579fbd62-522b-458b-984b-8adc9cf3c63f,NG,long_tail,average_growth,religious,125,64,5,179,0,53,26
+Bouqui,57dbb1b0-0476-11e9-9dc4-549f35141000,NG,long_tail,average_growth,hip hop; religious,71,7,0,21,0,61,16
+Tolex,5a209ada-c67c-11e9-8fe4-549f35161576,BR,long_tail,average_growth,edm; electro; pop,76,63,0,200,0,142,20
+Tunde Nightingale,5a8f28d7-20a0-44c3-ae17-2db7f8881384,NG,long_tail,average_growth,traditional,10,1,0,0,0,0,4
+DJ 4Kerty,5b835716-372d-11e9-8a05-549f35161576,NG,mid_level,average_growth,electro; religious; traditional,46,47,0,400,0,42,23
+Evado,5e114c75-16f2-4098-94bb-1397d53b3833,NG,mid_level,moderate_growth,hip hop; religious,173,59,8,400,0,1,25
+Bella Kay,5e445c27-0542-4425-bb1c-2af3038d28be,AU,mainstream,moderate_growth,alternative; pop,36,15,231,684,44,514,27
+Dauda Kahutu Rarara,5e4e220a-5020-4aa5-8e95-8e0d195db94b,NG,long_tail,average_growth,alternative; electro; folk; pop,160,122,14,11,0,1,21
+Patrice Wilson,5e9d64a0-c649-11e8-b87c-549f35141000,US,long_tail,average_growth,r&b; religious,39,4,0,9,0,7,17
+Barmani Choge,5fc98e69-efb1-4644-8cb7-7fdc4acfd61a,,long_tail,,,39,0,0,0,0,0,4
+SteveHills,5fea0a3f-6f1b-45e1-a365-bf338d38a198,NG,long_tail,average_growth,r&b; religious,75,47,8,397,0,40,19
+Abefe,60775db2-44ec-486e-b346-c9ccbdc6d21f,NG,long_tail,average_growth,electro; religious; soul,18,19,12,443,0,10,19
+Zayn Africa,608d6164-3a12-11ea-a237-549f35141000,NG,long_tail,average_growth,electro; latin; pop; reggae,9,2,0,12,0,9,25
+Auta Mg Boy,608d99a5-b69f-46f1-95c9-4964f485af41,NG,mid_level,average_growth,pop,400,78,8,174,0,43,21
+Bhadboy OML,60f10101-bd83-4df7-b630-d36c960e55da,,long_tail,average_growth,,1,0,0,0,0,0,5
+Tml Vibez,6156ab44-963d-486e-8a1c-4e26dcf57e6c,NG,mid_level,average_growth,electro; latin; religious,110,42,13,437,0,102,27
+Joe El,63009df2-7b6b-4136-b559-f39ff7ffcd1a,NG,long_tail,average_growth,electro; pop; traditional,53,14,9,140,0,75,21
+Starsamm,63697fb5-20a6-45e3-a1b0-7c8763fbd43f,NG,long_tail,average_growth,alternative; edm; electro,33,15,0,271,0,24,22
+Odunsi,640cdc3e-ef4a-11e8-9bac-00163ec5a2fb,,long_tail,average_growth,traditional,4,1,0,160,0,8,5
+Abiodun Koya,64181c66-bf01-48b5-85e0-efffea3d461f,NG,long_tail,average_growth,traditional,1,1,0,0,0,0,8
+TeeMirror,64eb4d6d-cf3b-4a44-8e2e-29407e2658e2,NG,long_tail,average_growth,electro,29,31,0,2,0,8,19
+Mr Eazi,66436e6e-b7ff-11e8-9127-525400009efb,NG,mid_level,decline,electro; hip hop; pop; ska; traditional,400,245,116,714,121,3307,50
+BenjiFlow,66498ce6-de14-11e8-805c-525400009efb,GB,long_tail,decline,r&b,50,29,1,405,19,510,40
+Davolee,66d1c1e8-d0fd-11e8-924a-549f35141000,NG,mid_level,average_growth,electro; hip hop; pop; religious,163,79,0,400,0,67,28
+Tolibian,697be3fb-2a8d-402b-a2fd-ccd5046f2ef7,NG,mid_level,average_growth,traditional,58,29,0,400,0,47,20
+Ruger,69a954da-0785-11e9-9ea6-00163ec5a2fb,NG,superstar,average_growth,electro; hip hop; pop; r&b; soul,400,70,222,546,78,1023,39
+Taye Currency,69afaafb-4758-4224-909a-b398d20f0a05,,long_tail,average_growth,,6,2,0,13,0,0,5
+Candy Bleakz,69f7c240-8382-11e9-b105-e4434b16cb7a,NG,mid_level,average_growth,alternative; electro; hip hop; pop; religious; traditional,105,39,1,406,2,159,24
+Wole Oni,69fd3e82-bde7-4e9b-b082-a1552628fae0,,long_tail,average_growth,,26,8,0,8,0,1,8
+Shaffy Bello,6a781f79-3592-4198-93f5-5d30827e1aba,,long_tail,average_growth,,1,1,0,0,0,3,8
+DJ Bally,6be9e00a-54b4-4452-a48c-2bd8f9333f96,,long_tail,average_growth,,2,0,0,0,0,0,3
+Zilla Oaks,6c102eb8-3b44-11e9-b689-549f35141000,NG,long_tail,average_growth,alternative; hip hop; pop; traditional,255,61,0,419,0,34,27
+BabyDaiz,6cb9d8f2-204d-4789-90bc-e5fa2c51d98d,ZA,mid_level,average_growth,electro; hip hop,94,46,15,407,0,74,25
+Aminu Ala,6d102774-e7a7-4421-a363-f98975004065,,long_tail,average_growth,,1,0,0,0,0,0,4
+Dami Oniru,6d3a5f10-c610-11e8-a2a9-549f35141000,NG,long_tail,average_growth,alternative; pop; r&b; soul,41,15,0,400,2,62,26
+Rarara,6dd400ba-027c-4bf9-b07c-7d293aa6d7bb,,long_tail,average_growth,,1,0,0,0,0,0,1
+Kenny Ogungbe,6e484dc2-d9fb-11e9-92d2-801844ee83a6,,long_tail,,,3,0,0,0,0,1,4
+Ugezu J. Ugezu,6ea627c4-2ce2-4269-8e2f-b49da5de980e,,long_tail,average_growth,traditional,29,5,0,0,0,0,9
+Sefiu Alao Adekunle,6f4b923b-1cb1-47cd-a290-0f18f022ad57,,long_tail,average_growth,jazz,4,1,0,1,0,0,6
+Killertunes,6f83055e-fc04-11e8-9933-549f35161576,NG,long_tail,average_growth,alternative; electro; hip hop; pop; r&b; soul; traditional,67,24,3,403,0,110,31
+Goya Menor,7006f564-d066-4069-ae22-c08c105cd32e,NG,mid_level,average_growth,edm; electro; traditional,111,42,0,408,0,831,28
+B.O.C Madaki,704ed2ed-0f49-47ab-bf18-cedc390eeef0,,long_tail,average_growth,alternative; hip hop; pop; religious,271,44,0,147,0,8,19
+Bright Chimezie,707c669a-c65c-11e8-a830-549f35141000,,long_tail,average_growth,alternative; electro; traditional,82,21,1,221,0,31,20
+T-Plux,708e32d6-078f-4556-a510-70b935241d2c,MY,long_tail,average_growth,electro; pop,6,1,0,0,0,0,11
+Specikinging,713259f0-9857-11e9-9a9a-e4434b16cb7a,NG,long_tail,average_growth,alternative; electro,128,57,0,400,0,63,27
+$tretto,74bdcd41-1fd0-42ca-9e4f-8772a1304deb,NG,long_tail,average_growth,traditional,18,23,0,157,0,0,20
+Osinachi Nwachukwu,75874326-4ba9-11e9-9e7a-549f35141000,NG,long_tail,average_growth,religious,55,15,1,158,0,131,19
+Auta Waziri,75cefee0-b496-4844-aad1-f02609d62b1d,NG,mid_level,average_growth,electro; hip hop; pop,165,87,1,24,0,11,23
+Jamopyper,75f8df40-a928-11e9-af77-549f35161576,NG,long_tail,average_growth,electro; others; pop; religious; traditional,180,66,1,400,0,104,31
+Abubakar Sani,76efa6a8-b8e8-11e8-a907-525400009efb,,long_tail,average_growth,pop; traditional,400,73,0,48,0,28,14
+Tomi Folayan,7746c22c-b058-4c3d-b320-65471ff097aa,,long_tail,average_growth,,10,8,0,0,0,0,10
+Brown Joel,77957f10-86b0-11e9-a14c-549f35141000,NG,mid_level,average_growth,electro; latin,69,44,1,403,0,149,26
+Ada Ehi,77e70a38-87d7-11e9-91af-e4434b16cb7a,NG,mainstream,average_growth,religious,197,83,62,421,4,298,33
+Zeeno Foster,78168d7d-d4a8-4fc5-a639-1f1cdd931df6,,long_tail,,,1,0,0,0,0,0,3
+Aminu Alan Waka,7867e2bd-89c2-4430-925a-bdcb2e4839d9,NG,long_tail,average_growth,pop; r&b,69,27,0,5,0,3,13
+Kvng Vinci,78b54f02-f1d2-4da1-9475-26433a20632f,ZA,mid_level,average_growth,edm; electro; hip hop,105,84,1,403,0,189,27
+Safin De Coque,78eff354-89ba-4126-b717-c080f755f572,NG,long_tail,average_growth,hip hop,32,14,0,1,0,0,19
+Ayinla Omowura,7936233c-f929-4fbf-9d31-784b8fdb7157,,long_tail,average_growth,,21,0,0,0,0,0,2
+DJ AB,7a9dc5ea-c460-11e8-9f7c-525400009efb,NG,long_tail,average_growth,hip hop,30,10,0,1,0,260,8
+Vudumane,7ab7e315-d0a5-4621-8e78-e920ae3b3021,US,long_tail,average_growth,edm; electro; pop; traditional,51,68,0,386,0,58,30
+NezaBoy,7b020c5b-6d81-4b91-a330-5827536a9311,NG,long_tail,average_growth,electro; traditional,13,7,0,5,0,0,18
+Michael Ekeghasi,7b2617d1-84de-4dd4-b30b-aab24c0fc712,,long_tail,average_growth,pop,2,2,0,0,0,0,5
+Morravey,7bac8163-ed7b-4cd7-a9a5-c0a06e02342e,NG,long_tail,average_growth,electro; hip hop; latin; pop; soul,28,13,0,403,0,169,26
+Chioma Jesus,7bdec046-ef93-40b4-9e36-cf5b15cd1ebc,NG,long_tail,average_growth,religious,120,29,31,400,0,114,18
+Prince Adekunle,7c3ef6d4-b8f4-11e8-bffc-525400009efb,NG,long_tail,average_growth,traditional,8,5,0,10,0,1,10
+GoodGirl LA,7c5a441a-e8c0-11e8-b18b-00163ec5a2fb,NG,mid_level,average_growth,alternative; electro; r&b; soul; traditional,47,34,4,402,5,145,33
+Kibilou,7cc274b0-13af-4539-be2e-861940b209b6,NG,long_tail,average_growth,traditional,27,19,4,367,0,2,14
+Jasën Blu,7d38d11f-0b6c-444e-a532-1538f6b29079,NG,long_tail,average_growth,r&b,24,12,0,3,0,0,17
+Cruel Santino,7d459933-46a9-49bd-bebc-b48dad4284e3,NG,long_tail,decline,alternative; electro; hip hop; pop; r&b; soul; traditional,174,46,78,477,39,624,41
+Bella Alubo,7d8200f6-c6bc-11e8-b2c6-525400009efb,NG,mid_level,average_growth,alternative; electro; pop; r&b; traditional,144,67,2,402,0,290,32
+Terri,7d94c93e-b2c1-11e8-adde-525400009efb,NG,mid_level,decline,alternative; electro; pop; traditional,88,32,8,434,2,791,28
+Töme,7ebb9d09-def5-4c41-874b-1b93a1cf4b19,JP,long_tail,average_growth,hip hop,49,13,0,183,0,8,6
+Maryam Booth,7fd7b66d-428c-47af-87d4-005b88ccd004,,long_tail,average_growth,folk,1,1,1,0,0,0,5
+Judikay,7fdf5288-432e-11e9-a98c-00163ec5a2fb,NG,long_tail,average_growth,religious,117,54,58,400,0,367,29
+Marvy,80534b9b-3e74-4ca4-a9e8-085e4b89921c,AL,long_tail,average_growth,,62,24,0,209,0,1,10
+Rema,83f78e52-2a25-11e9-9063-00163ec5a2fb,NG,superstar,average_growth,electro; kids; pop; traditional,400,209,276,894,167,3572,62
+Kunmie,8650eed1-f56c-4029-9ee0-7213c48a2a30,NG,mid_level,average_growth,electro; pop; r&b; religious; soul,40,17,90,420,0,83,20
+Testimony Jaga,86f196d2-ab23-11e9-8997-549f35161576,NG,mid_level,average_growth,religious,103,79,0,211,0,54,25
+Shallipopi,87954391-78cf-4f78-ab80-a4a988c2ff44,NG,mainstream,average_growth,edm; electro; pop; religious; traditional,292,77,16,512,42,700,45
+ODUMODUBLVCK,87c9bd86-7bdb-11e9-b465-549f35161576,NG,mainstream,average_growth,electro; funk; hip hop; pop; religious; traditional,400,225,153,631,56,704,45
+GMK,887f2962-c378-11e8-8148-525400009efb,NG,long_tail,average_growth,alternative; hip hop; traditional,24,21,0,400,0,28,18
+Abbey Ojomu,89b351bd-fdfd-4ae7-a50c-e6ce65458903,NG,mid_level,average_growth,religious,112,17,20,186,0,19,20
+Qdot,8a7b3ade-b8cf-11e8-bd66-525400009efb,NG,mainstream,average_growth,electro; pop; religious; traditional,265,79,2,400,0,242,33
+Libianca,8ac4922c-c67c-11e9-8c7b-e4434b16cb7a,CM,mainstream,decline,electro; r&b,120,60,46,643,46,1743,44
+Deobi,8bc17b08-26c2-4444-b2cb-1193e37504bc,NG,long_tail,average_growth,,24,11,11,246,0,12,11
+KayArchonn,8d21b387-5d48-4c59-a3f5-780dfd1f7a75,US,long_tail,average_growth,hip hop,26,22,18,200,0,15,18
+Shaybo,8d32f11c-cb17-11e9-96df-549f35161576,GB,long_tail,average_growth,hip hop,58,34,0,414,6,588,32
+Josiah Ransome-Kuti,8d455b02-c5f7-11e8-bd3d-549f35141000,NG,long_tail,average_growth,folk,13,0,0,27,0,11,8
+Sani Ahmad,8df173d0-83c3-4974-8b2f-4a9f9bfa0844,NG,long_tail,average_growth,electro; pop,48,24,0,7,0,8,16
+Sadiq Zazzabi,8e40738d-b8f5-4239-9b2c-4067e4f53a06,NG,long_tail,average_growth,classical; r&b,18,13,0,0,0,4,15
+Muri Thunder,8f5dbb15-a135-4846-bdd9-3ca34eacf239,NG,long_tail,average_growth,,16,1,0,1,0,0,5
+Boyskido,8ffc2ff6-ea55-4573-8bbc-5f78e02176b1,NG,long_tail,moderate_growth,electro; hip hop; latin,51,28,4,260,0,2,19
+Laycon,902044d0-8e3d-44c9-9851-5c91aec4e9f7,NG,mid_level,average_growth,electro; pop,87,28,1,403,0,144,27
+Adam A. Zango,90916b1e-c662-11e8-b387-549f35161576,NG,long_tail,average_growth,pop,400,89,10,165,0,44,17
+Ecool,91843f04-5475-11ea-a5f1-549f35161576,NG,long_tail,average_growth,electro; hip hop; pop,26,20,0,404,9,171,28
+Idahams,91a05a4c-b8f2-11e8-a4b5-525400009efb,NG,long_tail,average_growth,electro; hip hop; pop; religious; traditional,90,50,0,403,0,246,28
+Yarden,91a5c9f3-ef2e-4561-a071-07f5e40b79b6,NG,long_tail,average_growth,alternative; electro; pop; punk; r&b; soul,47,30,0,400,2,144,27
+Ceeboi,91e2488a-e47f-4109-ab20-133c5a35ee4d,,long_tail,average_growth,,1,0,0,0,0,0,1
+Dekumzy,920b3e46-405d-11e9-b5c4-549f35161576,NG,long_tail,average_growth,country; electro; pop; soul; traditional,172,11,0,9,0,8,18
+AcebergTM,9379aef0-c1dd-4ede-bde7-68087429c96a,NG,long_tail,average_growth,alternative; electro,16,9,0,400,0,100,28
+Bola Are,93b80d58-136f-49b9-aa10-7daf829e24b7,,long_tail,average_growth,religious,7,0,0,2,0,5,11
+FOLA,93efb08e-c655-11e8-9244-549f35141000,NG,mid_level,average_growth,electro; hip hop; pop; r&b; religious; soul; traditional,133,50,150,648,0,281,26
+Yuppe,94419fc7-5595-4c87-a256-0c2a82a05ebf,ZA,long_tail,average_growth,electro,145,45,30,434,0,567,24
+Rumerh,95152925-89c2-4ef5-a2f9-bb88ffcf55c5,NG,long_tail,average_growth,electro,28,17,0,10,0,3,14
+Bella Shmurda,95344eec-423c-11e9-8db6-549f35141000,NG,superstar,average_growth,electro; pop; traditional,400,141,129,451,0,713,47
+The Second Voice,9892a56a-cf36-4f75-8458-8ed5804cf8a1,NG,long_tail,high_growth,,36,10,328,579,0,349,19
+Tolü Makay,99ee01ae-ce69-11e8-9e67-549f35161576,IE,long_tail,average_growth,pop; r&b,48,23,0,401,25,190,29
+Elestee,9a43c3b8-4c37-11e9-91cd-e4434b2a489b,KR,long_tail,average_growth,alternative; electro; r&b; soul,27,28,1,403,0,92,26
+Ajofé,9ac61742-b1f3-43e4-9d50-32b517b74c12,NG,long_tail,average_growth,electro; traditional,51,38,1,187,0,29,17
+Hyce,9c4814d0-8f78-465a-9422-ef8c5ce3f764,NG,mid_level,average_growth,electro; pop; r&b; soul; traditional,64,33,0,403,0,130,24
+SSSoundGawd,9ca898ee-a35b-4d5d-9067-b75c2cf57d4b,NG,long_tail,high_growth,electro,10,4,32,427,0,60,13
+P.Priime,9cd89370-7ebd-4035-b4ee-9ad0e778ab4d,NG,long_tail,average_growth,electro,11,7,0,400,0,35,24
+ELMAH,9d0c1f6e-e171-4296-babc-3c5a8d1f2e01,NG,long_tail,average_growth,electro; r&b; soul,19,11,4,417,0,44,26
+Evi Edna Ogholi,9d1de316-1267-11e9-a58b-549f35141000,NG,long_tail,average_growth,pop; traditional,109,13,0,400,2,111,26
+Monicazation,9dd50f1e-54a2-11e9-b63d-549f35161576,US,long_tail,average_growth,traditional,13,9,0,0,0,3,12
+Lawrence Oyor,9edbe9a8-4060-4624-99f9-1bbf7b5d92f9,NG,mid_level,average_growth,religious,76,54,134,402,0,125,22
+Feezy,9efd85ce-a1a7-436b-aa04-bc92536d7dbf,NG,long_tail,average_growth,pop,92,72,0,171,0,1,13
+Victor Thompson,a01bc264-18ea-4620-b2d3-544155fe090b,NG,mid_level,decline,electro; religious,82,70,59,474,15,488,34
+Suté Iwar,a0444748-4c27-11e9-a29f-e4434b16cb7a,NG,long_tail,average_growth,alternative; hip hop; pop; r&b; soul; traditional,135,55,1,400,9,125,29
+Musta4a,a0d43d16-4cc7-11ea-86ed-549f35141000,NG,long_tail,average_growth,r&b; traditional,68,31,0,400,0,7,28
+Spinall,a1268430-d49e-4892-af83-9e9bbe8ab976,NG,mid_level,average_growth,alternative; electro; hip hop; pop; r&b; ska,380,99,5,562,52,1177,47
+Theresa Onuorah,a15eba76-ea6d-43fb-9453-b7de0825d7ed,,long_tail,explosive_growth,electro; traditional,36,17,0,401,0,79,13
+Orlando Owoh,a22ef1a6-3dd6-11ea-bddb-549f35141000,NG,long_tail,average_growth,traditional,2,5,0,0,0,0,6
+Oga Abdul,a26d2ef0-7fe7-4e33-b5b7-43d7a204944d,NG,long_tail,average_growth,,32,28,2,5,0,0,16
+Monaky,a3642ee7-22fc-4b9c-950e-fcf2b0c817ff,NG,mid_level,average_growth,electro; hip hop; pop; religious; soul; traditional,50,22,0,412,0,49,34
+Snazzy the Optimist,a38f4c05-fe8b-4100-8105-b1608e430cf2,NG,long_tail,average_growth,electro; pop; traditional,9,10,0,9,0,1,15
+Chella,a48434b9-63db-4980-a05d-56404f0fb2af,BR,long_tail,average_growth,latin; pop,23,20,0,15,11,1,16
+Andre Blaze,a4f68ec1-78bd-4840-85c3-f64d67fe02cd,,long_tail,average_growth,,1,0,0,0,0,0,3
+Echezonachukwu Nduka,a60ff66e-a573-4ea7-8845-d002ce54fec2,NG,long_tail,average_growth,classical,37,7,0,1,0,4,16
+Shoday,a62598bc-a7f7-4f60-91c9-40492c99d02d,NG,long_tail,average_growth,edm; electro; pop; religious; traditional,163,96,74,488,5,238,31
+Salawa Abeni,a6da7dac-b512-48f4-82b3-240855f69efb,,long_tail,,,1,0,0,0,0,0,3
+Adé Bantu,a6e0fd80-0ce7-46b7-8e95-f9124574205f,NG,long_tail,average_growth,traditional,3,0,0,2,0,0,9
+Emmanuel Iren,a7c41324-690f-4aec-8d18-70dc69209cac,NG,long_tail,average_growth,religious,50,23,4,200,0,90,24
+Superstar YB,a858e2e6-b545-4daf-8bc4-9aec145f30c2,NG,long_tail,explosive_growth,alternative; electro; traditional,59,47,0,224,0,3,25
+Emmkoo,a8ddbfba-757f-41de-840b-eba141d5a810,NG,long_tail,average_growth,electro; folk,10,12,0,2,0,0,15
+Sule Alao Malaika,a9a27fab-d0af-4ef0-9ff0-737a139dae6b,,long_tail,,,1,0,0,0,0,0,1
+Asuquomo,aa05675c-a876-11e9-b119-e4434b16cb7a,NG,long_tail,average_growth,hip hop,43,21,0,188,2,34,30
+Tolu Obanro,aa4a820a-5adb-420d-a1a1-c1f0ce05f14c,NG,long_tail,average_growth,electro; soundtrack,206,20,0,5,0,0,13
+Paybac Iboro,abaf759c-d5e5-11e9-9903-549f35161576,NG,long_tail,average_growth,alternative; hip hop,206,36,0,236,0,5,24
+Nazir Sarkin Waka,abe6fd02-b05e-4444-ac5a-40760bc13fb4,NG,long_tail,average_growth,blues,55,10,119,9,0,4,16
+Blaisebeatz,ac250a20-b38b-4143-ae82-4dab48e12c80,,long_tail,average_growth,,1,0,0,0,0,0,1
+King Steve Benjamin,ac363ed0-dbe3-4386-867e-c3fc804464b2,NG,long_tail,average_growth,electro; traditional,43,29,0,7,0,1,20
+IllRymz,ac490e9c-c960-11e8-bf2f-525400009efb,NG,long_tail,average_growth,hip hop; traditional,17,1,0,4,0,0,11
+Tonye Garrick,ad053538-87bd-11e9-8506-e4434b2a4898,NG,long_tail,average_growth,pop,18,8,0,12,0,8,25
+Wavy the Creator,add65846-c18b-11e8-b258-525400009efb,NG,long_tail,average_growth,alternative; hip hop; pop; r&b; soul; traditional,47,16,1,404,0,123,27
+Mr Dutch,ae14e4cc-b8cf-11e8-83e3-525400009efb,ZA,long_tail,average_growth,alternative; electro; traditional,74,47,0,401,1,121,30
+Oladapo,ae1f63a6-3b34-11e9-8d85-549f35141000,NG,long_tail,average_growth,alternative; electro; hip hop; pop; r&b; soul; traditional,73,33,2,417,0,128,27
+Rude Boy,ae344c3a-95a2-4f06-99c6-574753ea9247,US,long_tail,average_growth,hip hop; reggae,109,54,5,200,0,524,21
+Kunle Ajayi,ae7edca2-87bd-11e9-9a0e-801844edfa71,,long_tail,average_growth,,1,0,0,4,0,0,2
+Bad Boy Timz,af27eea6-8933-11e9-b0df-549f35161576,NG,mainstream,average_growth,electro; hip hop; pop; religious; traditional,121,56,0,414,5,434,32
+Ebuka Songs,af29d69f-738a-454a-aa83-77ebd0252d18,NG,mainstream,average_growth,religious; traditional,86,71,26,400,1,85,27
+Abdu Boda,b0b8935c-b8ea-11e8-ae6b-525400009efb,NG,long_tail,average_growth,pop; traditional,190,18,0,3,0,3,14
+T.I BLAZE,b0f82282-8b3a-4364-a963-fc99f2dca69d,NG,mainstream,average_growth,electro; hip hop; pop; religious; soul,206,76,11,402,0,123,37
+Billar Stoner,b1e396d4-5b0b-40da-aff2-8b710a3530e3,NG,long_tail,average_growth,electro,12,7,0,1,0,4,18
+Llona,b3917c57-f141-45b4-ae28-02417e67b5d7,NG,mid_level,average_growth,alternative; electro; pop; r&b; religious; soul; traditional,43,27,141,401,5,88,28
+Lifesize Teddy,b50e9619-c8ce-4b8c-87e7-a752730822f7,PT,long_tail,average_growth,electro; hip hop; reggae; traditional,4,5,0,237,0,43,22
+CupidSzn,b52989c6-52d8-4ecd-b7b6-5cfbc0f3a602,NG,long_tail,high_growth,electro; latin; traditional,29,23,7,405,0,66,22
+Rahama Sadau,b54262d2-a7ab-491f-8d0a-ecc3bb9bd9cb,,long_tail,average_growth,,1,0,0,0,0,0,6
+Modola,b54784b4-e3dd-4df2-9564-a523bca36a1a,IT,long_tail,average_growth,edm; electro; r&b,13,6,0,58,0,39,23
+Orits Wiliki,b55e5639-5abe-404f-8d74-6abc9dd26a8a,NG,long_tail,average_growth,reggae; traditional,21,0,0,1,0,2,8
+Anyidons,b699e4f2-f0f1-11e9-a251-801844ee83a6,NG,long_tail,average_growth,electro; pop; traditional,124,68,4,186,0,46,17
+Marenikae,b8123cd4-b34f-11e8-8a2e-525400009efb,NG,long_tail,average_growth,r&b,31,10,0,0,0,7,19
+Andre Vibez,b87e7fb7-acb5-4f52-9569-7001e601864f,VN,long_tail,average_growth,electro; latin,4,4,0,171,0,9,17
+London,b8c3d1d9-1009-4245-a23e-4c0ae21c14dd,,long_tail,average_growth,metal; rock,91,17,0,400,0,84,7
+Garzali Miko,b9a3d020-1d61-4945-836f-69065002e040,NG,long_tail,average_growth,electro; pop,109,38,4,159,0,1,20
+Syemca,b9de37a4-0022-11ea-8115-549f35141000,NG,long_tail,average_growth,electro; pop; soul; traditional,18,12,0,401,0,44,21
+Soundz,ba251160-c450-11e8-b9ec-525400009efb,NG,long_tail,decline,electro; pop; r&b; soul; traditional,103,48,2,402,0,162,29
+Princess Peters,baad5e0c-d222-4671-adae-e55c931a26be,NG,long_tail,average_growth,religious,28,15,0,13,0,2,14
+KDDO,bafc2af5-cee0-43d8-b180-7574949f1335,NG,long_tail,average_growth,electro; pop; traditional,42,15,5,408,0,363,29
+Ossy Brown,bc0b8bf6-f34f-11e9-aecc-801844ee83a6,GB,long_tail,average_growth,pop; r&b,38,27,0,200,8,11,22
+S1ordie,bc76f323-7669-4835-ba09-6659e1e3acfa,US,long_tail,average_growth,,122,32,7,122,0,3,17
+Cheque,bc8ed13e-87be-11e9-8e36-549f35141000,NG,long_tail,average_growth,alternative; electro; pop; r&b; religious; soul; traditional,97,37,14,407,0,245,32
+Smur Lee,bcef0122-ac75-40fb-8aa8-1eaf344c2ea9,NG,long_tail,average_growth,edm; electro; traditional,61,30,11,410,0,126,24
+Saffron,bcf17232-507d-4133-87f5-c0ebb55410c6,,long_tail,average_growth,,14,2,1,200,0,23,2
+NO11,bece878a-4351-4b35-8f94-1d8e36e292b0,NG,long_tail,average_growth,edm; electro; hip hop; traditional,47,30,22,481,0,67,21
+Kfmd,befb7c02-2575-4cfc-a317-18578863a2fa,NG,long_tail,average_growth,electro; r&b,9,5,37,331,0,26,12
+Sadi Sidi Sharifai,bf50000a-3911-11ea-8120-e4434b2a4898,NG,long_tail,average_growth,pop; traditional,163,25,2,6,0,9,15
+OG Abbah,bfa58f24-859f-4045-b121-e203a560e900,NG,long_tail,average_growth,edm; electro,38,19,0,276,0,31,19
+M Trill,c0178aa6-2468-4b86-bd55-950d20ee73c0,NG,long_tail,average_growth,,12,2,0,0,0,1,8
+Shanga,c062551c-c1b5-11e8-b923-525400009efb,CH,long_tail,average_growth,electro; pop,34,24,0,103,9,18,21
+Muyeez,c143b697-93e1-42d6-a950-7d68e46501eb,NG,mid_level,average_growth,electro; latin; religious,53,21,1,424,0,40,24
+Young Jonn,c3bea966-f6d7-11e8-ae58-549f35141000,NG,mainstream,average_growth,electro; pop; r&b; religious; traditional,400,60,93,600,38,856,43
+Beautiful Nubia,c3c245e0-fa0a-11e8-9b82-549f35141000,NG,long_tail,average_growth,soul; traditional,183,11,0,290,0,46,16
+Maintain,c4735108-b15b-4bd1-afd7-469273cc813f,US,long_tail,average_growth,reggae,35,0,0,347,0,81,5
+Ayjay bobo,c4faf776-9099-4e92-b0d4-a8a46a26a8fc,NG,long_tail,average_growth,alternative; electro,54,26,10,417,0,53,16
+Bello Sisqo,c7b37b51-582b-4652-9403-69b97d4e9ac7,DE,long_tail,average_growth,electro,30,26,0,18,0,3,19
+Ejyk Nwamba,c7ee70bc-8bff-462b-baf6-97993ca41b20,NG,long_tail,average_growth,electro; latin; traditional,80,66,0,117,0,16,26
+Saheed Osupa,c8175a62-2f85-49a8-9e82-44c260483ffc,,long_tail,average_growth,,2,0,0,1,0,0,3
+Azanti,c8501053-edbc-43a9-a4a2-12e98fb18f9e,NG,long_tail,average_growth,alternative; electro; hip hop; r&b; soul,103,46,0,403,1,188,30
+Ayo Maff,c85413b6-69ae-47b6-8219-87c66a967878,NG,mainstream,average_growth,electro; hip hop; pop; r&b; religious; traditional,118,65,13,479,0,214,29
+Comfort Omoge,c8929a45-0e62-4b00-8a37-031ebaf29805,,long_tail,average_growth,,3,2,0,0,0,0,7
+Faze,ca479122-83d0-11e9-9d6b-549f35161576,NG,long_tail,decline,hip hop; pop; r&b; reggae; rock; ska; traditional,211,38,0,362,120,16,28
+Ali Jita,cb11fecc-b8e1-11e8-9a7c-525400009efb,NG,mid_level,average_growth,r&b,300,133,56,260,0,12,29
+Yusuf Olatunji,cbdba504-311e-4487-af86-ef139948de40,,long_tail,average_growth,,2,1,0,0,0,2,3
+Ema Onigah,cc067973-dd4f-457c-a1a8-c43ad48f3f46,NG,long_tail,average_growth,alternative; electro; hip hop; r&b; religious; soul; traditional,29,10,2,408,0,56,23
+Fido,cc36544c-c25f-11e8-a24b-525400009efb,EG,mainstream,average_growth,electro; pop; r&b; religious,59,30,4,444,0,217,33
+Made Kuti,cc3bb373-5ea1-45b8-9a0b-ae1c116c7ffa,NG,long_tail,average_growth,alternative; electro; others; traditional,48,30,1,413,9,555,29
+Isah Ayagi,cc7babef-27b9-4992-9233-1c1514cd5297,NG,long_tail,average_growth,electro; pop,112,106,0,3,0,2,17
+Aisosa,ccb735bb-1214-418d-b715-057d0daa17ff,NG,long_tail,average_growth,hip hop; r&b; traditional,17,8,0,24,0,0,18
+SAMAD,cd3745e0-847f-40e0-8db5-c111de8a5702,NG,long_tail,average_growth,electro; religious,38,23,0,407,0,25,15
+Sadiq Saleh,cd647c83-80cd-43c0-bc26-6a359a5844ea,NG,long_tail,average_growth,electro; pop,104,63,0,15,0,3,21
+Masterkraft,cdef2088-b8ce-11e8-b94f-525400009efb,NG,mid_level,average_growth,edm; electro; hip hop; pop; religious; traditional,333,113,3,401,0,1472,32
+Hauwa Yarfulani,cf07c04d-e5d4-42c7-be74-93b9f0091bc1,,long_tail,average_growth,electro; traditional,58,24,0,0,0,26,12
+Boy Spyce,d0409c99-c83e-403e-9a1e-a73ff46e7fe6,NG,mainstream,average_growth,electro; pop; r&b; traditional,170,54,1,437,5,506,37
+Lilin Baba,d0b47d26-f272-4ce8-b0c3-347ce41f7397,NG,long_tail,average_growth,pop; traditional,84,50,0,11,0,4,25
+Chinyere Udoma,d1f41138-21a2-11e9-91c1-549f35141000,NG,long_tail,average_growth,religious,31,11,0,1,0,2,13
+John Okafor,d2907c25-fd42-4aaf-9e6d-0879e10b8da0,,long_tail,average_growth,religious,3,3,0,0,0,0,5
+Murz,d2dea7cd-9979-4798-9aac-d257992fa041,CA,long_tail,average_growth,edm; electro,74,54,0,78,0,0,18
+PsychoYp,d2f9af22-0639-11e9-a62e-00163ec5a2fb,NG,long_tail,average_growth,alternative; traditional,32,3,0,241,0,13,3
+Naziru Sarkin Waka,d306ee3e-1787-4e49-9091-e1aaa2d9cfb0,,long_tail,average_growth,,2,0,0,0,0,2,2
+Champz,d4ad3708-0d0f-4ba9-917c-1b7895cd3ee2,NG,long_tail,average_growth,electro; religious,18,7,0,344,0,15,9
+Jigsaw,d4e63b27-d685-43b8-a37e-cccc6be5ba34,TH,long_tail,average_growth,hip hop; pop; r&b,14,16,0,19,0,0,10
+Oberz,d5830324-b346-11e8-afb4-525400009efb,NG,long_tail,average_growth,electro; religious; soul; traditional,59,38,3,394,0,307,30
+Tempoe,d5a762fe-5d2d-4417-9aa7-cdd3e418bfb7,US,mid_level,average_growth,electro; hip hop; r&b,123,30,12,432,0,724,27
+el Mafrex,d5b9d1ee-1cfc-42f5-98c3-72d5d8e977d0,GB,long_tail,average_growth,religious; traditional,37,24,0,29,0,3,19
+Sogha Niger,d656f042-bcc8-440c-b7a2-8d0910909fba,NE,long_tail,average_growth,electro,45,35,4,7,0,9,7
+Neon Adejo,d752cf08-11a2-11e9-acf2-00163ec5a2fb,US,mid_level,average_growth,r&b; religious,104,42,48,407,1,95,27
+TAR1Q,d78bfa38-0055-4f9b-84c5-9c796d382011,NG,long_tail,average_growth,alternative; electro; pop; r&b; soul; traditional,57,29,1,417,0,97,22
+Adedoyin Oseni,d9be566d-3ec1-49f8-94e0-909f579764c5,NG,long_tail,average_growth,religious,23,19,0,4,0,1,19
+Sonny Okosuns,d9bfcb7c-bc38-478a-a996-ca2566cd64e5,,long_tail,average_growth,traditional,19,3,0,5,0,11,1
+Al’ameen,d9ec4ccd-34d0-4179-b155-925246f1e8e4,,long_tail,average_growth,,2,2,0,0,0,0,3
+DOTTi The Deity,da36fac7-7e0b-4a3e-bd7a-2bcf32a77cc8,NG,long_tail,average_growth,electro; latin; r&b; soul,47,10,0,147,2,31,25
+Olly Sholotan,dae08120-31ea-11e9-9809-549f35161576,US,long_tail,average_growth,electro; pop,45,29,0,22,0,0,26
+Neeja,dc1ffae4-4fc7-453d-80d2-f491d9f1af1b,NG,mid_level,average_growth,r&b; religious,30,29,26,400,0,115,20
+Portable,dd38b978-78e2-410c-a4eb-09ab5c78bbb6,NG,long_tail,average_growth,electro; traditional,26,5,0,12,0,6,3
+JJC Skillz,de846278-7424-4822-86c9-d30602957b18,,long_tail,average_growth,electro,2,1,0,0,0,0,7
+Louddaaa,df38e5f2-c0d8-4777-b6c5-1ac00868de55,NG,long_tail,average_growth,hip hop,2,1,0,30,0,2,16
+Iseoluwa Abidemi,e0439de0-e14a-11e9-bc9c-549f35141000,,long_tail,average_growth,religious,10,3,0,1,0,9,10
+Umu Obiligbo,e0df5ff0-0b67-11e9-8082-549f35161576,NG,long_tail,moderate_growth,pop; traditional,125,47,3,405,0,125,20
+Ayeloyun,e0ea670a-eb93-461d-ae66-3f031a0e0ea9,,long_tail,average_growth,edm,9,3,0,0,0,0,8
+DETO BLACK,e18ffab7-ac22-443e-ad29-ef19f7130f52,NG,long_tail,average_growth,alternative; hip hop,51,29,0,411,12,277,31
+Kenny K'ore,e1b30c7e-c49f-11e8-8955-525400009efb,NG,long_tail,average_growth,religious,192,8,0,33,0,5,21
+Famous Pluto,e2fb95f3-c818-4226-b0bc-a99944a5ef8c,NG,mid_level,average_growth,edm; electro; religious,32,18,19,430,0,70,14
+Joeboy,e344e41a-d8e3-11e8-bc95-549f35161576,NG,superstar,average_growth,electro; hip hop; pop; traditional,400,129,74,597,50,2078,50
+P2J,e370e07a-87f8-4b6f-91db-054b0c95972a,GB,long_tail,average_growth,country; electro; r&b; reggae,11,6,0,401,0,425,22
+Patty Obasi,e499c3e4-4fda-4b6c-b0cd-74af7ca6f118,,long_tail,average_growth,,1,0,0,2,0,0,3
+Ifé,e4a3a8b6-9015-11e9-983d-801844edfa71,JP,long_tail,average_growth,hip hop; j-pop; r&b,52,30,0,236,0,4,17
+Mode 9,e62a850a-c5be-11e8-a6eb-549f35141000,,long_tail,average_growth,hip hop; ska,48,3,0,253,0,3,12
+Zubi,e774e61e-548c-11e9-89ed-549f35141000,CA,mid_level,decline,pop; r&b; soul,162,132,2,407,3,274,30
+Ndotz,e790d3de-6e53-11e9-ac0d-801844edfa71,GB,mid_level,average_growth,hip hop,59,45,49,472,0,211,33
+Twins Affair,e79d19a3-ffc3-4c02-b549-e680386bdc20,,long_tail,,,1,1,0,1,0,0,2
+ARTSALGHUL,e921db36-fb2d-4b59-a9d8-24997a764cc9,NG,long_tail,moderate_growth,hip hop,66,25,1,400,0,20,17
+Teni,ea14144c-f8a4-11e8-b144-549f35141000,NG,mainstream,decline,electro; hip hop; pop; r&b,400,156,42,505,23,1054,57
+Seyi Vibez,ec4d0e38-9a63-11e9-a0dd-801844edfa71,NG,superstar,average_growth,electro; hip hop; pop; r&b; religious; traditional,400,190,158,616,12,670,44
+Fati Niger,ecde25ba-b7e8-4f99-a856-83efef3e8309,,long_tail,average_growth,,2,0,0,0,0,2,1
+Plutomania,ed14e4b8-b4f6-4591-951b-c3b9e2281d6d,NG,long_tail,average_growth,,2,2,0,172,0,1,9
+Zaylevelten,ed998e31-0821-4de6-9950-adebc00e7967,NG,long_tail,moderate_growth,electro; hip hop; traditional,103,25,25,410,0,22,21
+Hotyce,edadad70-b8f8-11e8-8c47-525400009efb,NG,long_tail,average_growth,alternative; hip hop,118,24,0,219,0,18,25
+Boy Muller,edcd90dc-5b72-4d5f-a1a3-a5ab07d47951,NG,mid_level,moderate_growth,edm; electro; religious,81,40,10,452,0,14,23
+Yemzzy,edd4d5f0-abb2-47de-b68c-46146c02816d,NG,long_tail,average_growth,electro; traditional,36,21,0,0,0,3,15
+JoBlaq,edd9ef5f-3969-4061-9c37-c0ccc6e4e0e7,NG,long_tail,average_growth,edm; electro; religious; traditional,26,20,0,287,0,22,20
+Shina Peters,ee978719-a053-433e-b859-b6ea05210146,NG,long_tail,average_growth,traditional,5,1,0,0,0,2,5
+Salim Smart,ef44278f-58f8-4afd-8c3f-e628af375931,NG,long_tail,average_growth,pop; r&b; ska; soul,140,110,0,40,0,20,25
+Muma Gee,efdf9547-1189-498e-b36e-9fbfafeadf39,NG,long_tail,average_growth,latin; traditional,4,2,0,6,0,0,15
+Minister GUC,f1383b90-339a-11ea-bc2c-549f35161576,NG,mainstream,average_growth,religious,125,50,54,400,0,164,29
+Snatcha,f2049d38-cf83-11e8-8273-525400009efb,GB,long_tail,average_growth,hip hop; religious,64,28,0,39,4,32,20
+JNR ELDER,f233467c-5282-46a1-bf71-03f5a749f365,NG,long_tail,average_growth,edm,6,6,0,41,0,2,12
+Khaid,f24b2fd8-a778-47aa-a656-a3e9dd2daa6a,NG,mainstream,average_growth,electro; pop; r&b; soul; traditional,180,48,19,428,1,518,33
+Kendickson,f39f7ebe-b8f5-11e8-8d7c-525400009efb,NG,long_tail,average_growth,edm; electro; pop; traditional,31,23,0,400,0,69,27
+Makayla Malaka,f451e027-55cf-4030-b0e2-e83b6efd3f4a,NG,long_tail,average_growth,electro; kids,83,38,0,22,0,38,25
+Bhadboi OML,f4aba615-6bcb-4bb7-8525-0bbfaaaf2311,NG,mid_level,average_growth,electro; hip hop; pop; religious,333,107,4,402,0,123,36
+Al Xapo,f4d2cdbf-1b78-4ffd-aabd-fc9ae42e389f,ZA,long_tail,average_growth,edm; electro,231,87,122,473,0,343,25
+Niphkeys,f61ac352-9f0d-4f2f-b712-3e2092899984,NG,mid_level,average_growth,electro; latin; pop; religious,80,27,0,400,0,85,25
+Aminu Ladan,f64552d8-127d-11e9-b15f-549f35141000,NG,long_tail,average_growth,traditional,400,58,1,4,0,21,16
+Taye Olusola,f6cbf050-e72d-4baf-a572-67e10a5ca4b0,,long_tail,,,2,0,0,0,0,0,1
+Jahdiel,f6fef96a-b8f8-11e8-a523-525400009efb,NG,long_tail,average_growth,religious,82,19,0,40,0,46,21
+Lojay,f8eb637c-c211-11e8-b77a-525400009efb,NG,mainstream,average_growth,electro; pop; traditional,341,61,66,558,45,1807,41
+TUFF KING,f9e748bd-6852-430c-a4bd-138c9e088f5b,NG,long_tail,moderate_growth,electro,18,9,5,423,0,9,17
+Theophilus Sunday,fba74cb5-fe55-4961-bd65-70e224e170f0,NG,mid_level,average_growth,religious,286,22,32,355,0,60,19
+Asake,fbe8f070-b8f8-11e8-af3e-525400009efb,NG,superstar,average_growth,edm; electro; hip hop; pop; r&b; religious; traditional,400,100,378,792,62,1772,56
+Zinoleesky,fcb44610-7ace-11e9-892e-801844edfa71,NG,long_tail,average_growth,electro; pop; religious; traditional,400,121,41,433,7,730,45
+Charly Boy,fd2556e0-c613-11e8-9bd1-549f35141000,NG,long_tail,average_growth,pop,45,18,0,60,0,41,25
+Kel-P,fd96d4c0-17fa-11ea-b52d-e4434b2a4898,NG,long_tail,average_growth,electro; hip hop,49,41,4,416,0,492,38
+S.N.E,fdeebb06-7d0d-470f-9834-eb0b15295c84,ZA,long_tail,average_growth,edm; electro,37,17,75,424,0,549,15
+Oluwatobi Oyero,fe1cec06-5611-46ea-b726-b54f0a6459ff,,long_tail,,religious,1,1,0,0,0,0,6
