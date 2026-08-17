@@ -85,3 +85,22 @@ https://nigeria-music-analytics-system-nmas.vercel.app
   independent of this run; stale YouTube_views_daily expectations from April catalogue change)
 - Commits d3ccea7, ee57530, 28397ad, bc59d48 pushed; deployment Ready; live parity PASS
 - D-02 and D-09 RESOLVED on the live site
+
+## 2026-08-17 — Dashboard audit shipped; relocation + access control
+- Dashboard fixes live (3b9a405): observed export markets replace the fabricated
+  US~30%/UK~20% list; employment feed restored (was empty -> tab showed zeros);
+  full pagination on both artist tables; UNK renders as Not measured, never $0;
+  constant-70% chart line replaced with computed observed share; favicon 404 fixed;
+  stale GAP-036 "no Soundcharts client exists" claims historicised.
+- Relocation: project renamed nigeria-music-analytics-system-nmas -> nmas.
+  OLD URL nigeria-music-analytics-system-nmas.vercel.app returns 404 (taken down).
+  nmas.vercel.app serves production via alias.
+- Access control (b6c8f7f): edge-middleware HTTP Basic Auth over the ENTIRE
+  deployment including /api/v1/* data; credentials in NMAS_USER/NMAS_PASS project
+  env vars (rotatable without commit). Vercel SSO wall disabled (redundant and it
+  intercepted alias domains ahead of the middleware).
+- Verified: 401 anonymous, 401 wrong password, 200 with credentials, artifacts
+  protected, old URL dead, authenticated content = 31 periods / 734 artists.
+- KNOWN LIMITATION: nmas.vercel.app is a deployment ALIAS; the project-domains API
+  refuses the add with a ghost "assigned to another project" conflict. Until that
+  clears, each production deploy needs: vercel alias set <deployment> nmas.vercel.app
