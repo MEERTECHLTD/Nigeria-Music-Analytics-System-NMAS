@@ -38,6 +38,7 @@ const PANEL_COMPONENTS: Record<string, React.LazyExoticComponent<React.Component
   constants: lazy(() => import('./panels/ConstantsRegister')),
   delivery: lazy(() => import('./panels/DeliveryRegister')),
   artifacts: lazy(() => import('./panels/ArtifactManifest')),
+  expansion: lazy(() => import('./panels/ProviderExpansion')),
 };
 
 function currentPanelId(): string {

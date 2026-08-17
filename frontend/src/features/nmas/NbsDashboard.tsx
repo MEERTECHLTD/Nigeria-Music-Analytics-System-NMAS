@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo, useRef } from 'react';
+import { NAIRA_PER_USD } from '../../generated/assumptions';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell, Legend, CartesianGrid,
@@ -155,9 +156,13 @@ export function NbsDashboard() {
   const [exportArtists, setExportArtists] = useState<Array<{
     artist_name: string; period: string;
     total_streaming_revenue_usd: number;
-    domestic_revenue_usd: number;
-    gross_export_revenue_usd: number;
-    gross_export_revenue_ngn: number;
+    // null where the provider published no city breakdown for the quarter:
+    // the split was not measured, which is not the same as zero.
+    domestic_revenue_usd: number | null;
+    gross_export_revenue_usd: number | null;
+    gross_export_revenue_ngn: number | null;
+    domestic_share_observed?: number | null;
+    split_basis?: string;
   }>>([]);
 
   const [transportMode, setTransportMode] = useState<'live' | 'static'>('static');
@@ -254,12 +259,12 @@ export function NbsDashboard() {
   // Revenue breakdown for pie chart
   const revBreakdown = useMemo(() => {
     if (!artistRevenue.length) return [];
-    const totals = { Spotify: 0, YouTube: 0, Deezer: 0, Other: 0 };
+    const totals = { Spotify: 0, YouTube: 0, Deezer: 0, 'Unmeasured uplift': 0 };
     artistRevenue.forEach(a => {
       totals.Spotify += a.spotify_revenue_usd;
       totals.YouTube += a.youtube_revenue_usd;
       totals.Deezer += a.deezer_revenue_usd;
-      totals.Other += a.other_platforms_revenue_usd;
+      totals['Unmeasured uplift'] += a.other_platforms_revenue_usd;
     });
     return Object.entries(totals).map(([name, value]) => ({ name, value: Math.round(value) }));
   }, [artistRevenue]);
@@ -401,7 +406,7 @@ export function NbsDashboard() {
               <StatCard
                 title="5-Period Cumulative"
                 value={fmtUsd(totalStreaming5p)}
-                subtitle={`Export: ${fmtUsd(totalExport5p)} · ${fmtNgn(totalExport5p * 1500)}`}
+                subtitle={`Export: ${fmtUsd(totalExport5p)} · ${fmtNgn(totalExport5p * NAIRA_PER_USD)}`}
                 icon={TrendingUp}
               />
             </div>
@@ -556,6 +561,13 @@ export function NbsDashboard() {
                   </tbody>
                 </table>
               </div>
+              <p className="text-[11px] text-[var(--nmas-muted)] mt-2 px-2">
+                Showing the top {Math.min(50, artistRevenue.length)} of {artistRevenue.length} artists.
+                Total across all {artistRevenue.length}:{' '}
+                {fmtUsd(artistRevenue.reduce((sum, a) => sum + (a.gross_streaming_revenue_usd || 0), 0))}.
+                The difference between this table and the overview figure is the artists not
+                displayed here, not the unmeasured-uplift line.
+              </p>
             </Section>
           </>
         )}
@@ -589,7 +601,7 @@ export function NbsDashboard() {
                     <YAxis yAxisId="R" orientation="right" tickFormatter={v => `${v}%`} tick={{ fontSize: 11 }} width={45} domain={[0, 100]} />
                     <Tooltip formatter={(v: unknown) => fmtUsd(Number(v))} labelFormatter={periodLabel} />
                     <Legend />
-                    <Bar yAxisId="L" dataKey="domestic_revenue_usd" name="Domestic (30%)" fill="#b45309" stackId="rev" />
+                    <Bar yAxisId="L" dataKey="domestic_revenue_usd" name="Domestic (observed)" fill="#b45309" stackId="rev" />
                     <Bar yAxisId="L" dataKey="gross_export_revenue_usd" name="Export (70%)" fill="#0f766e" stackId="rev" radius={[4, 4, 0, 0]} />
                     <Line yAxisId="R" type="monotone" dataKey={() => 70} name="Export Share %" stroke="#1d4ed8" strokeWidth={2} dot />
                   </ComposedChart>
@@ -645,8 +657,8 @@ export function NbsDashboard() {
                       <th>#</th>
                       <th>Artist</th>
                       <th className="text-right">Total Streaming (USD)</th>
-                      <th className="text-right">Domestic 30%</th>
-                      <th className="text-right">Export 70% (USD)</th>
+                      <th className="text-right">Domestic (observed)</th>
+                      <th className="text-right">Export (observed, USD)</th>
                       <th className="text-right">Export (NGN)</th>
                     </tr>
                   </thead>
@@ -656,16 +668,32 @@ export function NbsDashboard() {
                         <td className="text-[var(--nmas-muted)]">{i + 1}</td>
                         <td className="font-medium">{a.artist_name}</td>
                         <td className="text-right tabular-nums">{fmtUsd(a.total_streaming_revenue_usd)}</td>
-                        <td className="text-right tabular-nums text-[var(--nmas-muted)]">{fmtUsd(a.domestic_revenue_usd)}</td>
-                        <td className="text-right tabular-nums font-medium">{fmtUsd(a.gross_export_revenue_usd)}</td>
-                        <td className="text-right tabular-nums">{fmtNgn(a.gross_export_revenue_ngn)}</td>
+                        <td className="text-right tabular-nums text-[var(--nmas-muted)]">
+                          {a.domestic_revenue_usd == null ? '—' : fmtUsd(a.domestic_revenue_usd)}
+                        </td>
+                        <td className="text-right tabular-nums font-medium">
+                          {a.gross_export_revenue_usd == null ? '—' : fmtUsd(a.gross_export_revenue_usd)}
+                        </td>
+                        <td className="text-right tabular-nums">
+                          {a.gross_export_revenue_ngn == null ? '—' : fmtNgn(a.gross_export_revenue_ngn)}
+                        </td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
               <p className="text-[11px] text-[var(--nmas-muted)] mt-2 px-2">
-                Source: Chartmetric + SoundCharts + WIPO 2025 methodology · FX ₦1,500/USD
+                Showing the top {Math.min(50, exportArtists.length)} of {exportArtists.length} artists.
+                Total across all {exportArtists.length}:{' '}
+                {fmtUsd(exportArtists.reduce((sum, a) => sum + (a.total_streaming_revenue_usd || 0), 0))}
+                {' '}streaming,{' '}
+                {fmtUsd(exportArtists.reduce((sum, a) => sum + (a.gross_export_revenue_usd || 0), 0))} export.
+                A dash means the provider published no city breakdown for that quarter, so no
+                domestic/export split was measured — it is not zero.
+              </p>
+              <p className="text-[11px] text-[var(--nmas-muted)] mt-1 px-2">
+                Source: Chartmetric + Soundcharts. The split is the observed Nigerian city
+                listener share for the quarter, not a fixed 70%. FX ₦1,500/USD.
               </p>
             </Section>
           </>

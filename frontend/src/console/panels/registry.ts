@@ -35,7 +35,7 @@ export const PANELS: PanelMeta[] = [
     backed: 40,
     feasibility: 'PARTIAL',
     summary:
-      'Nine real quarters against eighteen variables. The archive floor is the finding, not a footnote.',
+      'Thirty-one quarters against fifty-nine variables across two providers. The 2024 archive floor was broken by the Soundcharts integration; see Provider Expansion for what changed.',
   },
   {
     id: 'sources',
@@ -45,7 +45,7 @@ export const PANELS: PanelMeta[] = [
     backed: 20,
     feasibility: 'THIN',
     summary:
-      'One source is integrated. Quota, plan tier, latency and archive depth were never recorded.',
+      'Two providers are integrated, with quota, rate limit and archive depth recorded — and a plausibility guard that diagnoses defective records on both sides. Historical panel content below describes the first delivery.',
   },
   {
     id: 'artists',
@@ -113,7 +113,7 @@ export const PANELS: PanelMeta[] = [
     backed: 5,
     feasibility: 'NOT_COLLECTED',
     summary:
-      'Listener geography and chart appearances are 100% empty. Only hardcoded market shares remain.',
+      'Historical record of the first delivery, where listener geography was never collected. SUPERSEDED: city and country geography has since been observed across 217 countries — see Provider Expansion and Export_Markets_Quarterly.csv.',
   },
   {
     id: 'methodology',
@@ -199,6 +199,16 @@ export const PANELS: PanelMeta[] = [
     backed: 100,
     feasibility: 'FULL',
     summary: 'Every file this console reads, with its hash, row count and modification time.',
+  },
+  {
+    id: 'expansion',
+    n: 20,
+    title: 'Provider Expansion',
+    group: 'Coverage',
+    backed: 85,
+    feasibility: 'SUBSTANTIAL',
+    summary:
+      'The second provider moves the archive floor from Q1_2024 back to Q1_2019 and collects Boomplay, Audiomack, radio airplay and Nigerian city geography — three findings this console publishes are superseded here.',
   },
 ];
 

@@ -178,6 +178,16 @@ export default function ExportFootprint() {
   const coverage = useCoverage();
 
   return (
+    <>
+      <Callout status="observed" title="Superseded — geography has since been collected">
+        This panel is the forensic record of the FIRST delivery, in which listener
+        geography was never collected. That finding is now historical: the second
+        provider observed listener geography across 217 countries and 242 Nigerian
+        cities (Export_Markets_Quarterly.csv, Geography_Full_Daily.csv.gz), and the
+        domestic/export split is measured per artist where coverage exists. See the
+        Provider Expansion panel for was-versus-now.
+      </Callout>
+
     <Resolved query={revenue} artifact="revenue.json" label="Reading 638 artist-quarter rows">
       {(rev) => (
         <Resolved query={variables} artifact="variables.json" label="Reading the metric register">
@@ -195,6 +205,7 @@ export default function ExportFootprint() {
         </Resolved>
       )}
     </Resolved>
+    </>
   );
 }
 
