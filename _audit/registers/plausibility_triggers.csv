@@ -1,0 +1,64 @@
+artist,metric,days,chartmetric_median,soundcharts_median,ratio_sc_over_cm,floor_p5,category,provider_excluded,reason
+Burna Boy,Deezer_fans_daily,42,1.0,996946.5,996946.5,13.0,2,chartmetric,"signature A: stub profile: 4 of 4 core metrics at or below floor (Spotify_followers_daily, Spotify_monthly_listeners_daily, Deezer_fans_daily, Spotify_popularity_daily)"
+Burna Boy,Spotify_followers_daily,739,53.0,11868727.0,222649.9565,7500.0,2,chartmetric,"signature A: stub profile: 4 of 4 core metrics at or below floor (Spotify_followers_daily, Spotify_monthly_listeners_daily, Deezer_fans_daily, Spotify_popularity_daily)"
+Burna Boy,Spotify_monthly_listeners_daily,736,161.0,22220503.0,133561.9446,14775.5,2,chartmetric,"signature A: stub profile: 4 of 4 core metrics at or below floor (Spotify_followers_daily, Spotify_monthly_listeners_daily, Deezer_fans_daily, Spotify_popularity_daily)"
+CKay,Deezer_fans_daily,286,8.0,230080.5,28760.0625,13.0,2,chartmetric,"signature B: metric at floor (8 <= p5 13) while other provider reports 153090 and this profile is substantial on Facebook_followers_daily, Facebook_talks_daily"
+Reekado Banks,Deezer_fans_daily,87,3.0,75336.0,25148.3333,13.0,2,chartmetric,"signature B: metric at floor (3 <= p5 13) while other provider reports 72104 and this profile is substantial on Bandsintown_followers_daily, Facebook_followers_daily"
+Bella Shmurda,Deezer_fans_daily,87,4.0,84489.0,21122.25,13.0,2,chartmetric,"signature B: metric at floor (4 <= p5 13) while other provider reports 64782 and this profile is substantial on Facebook_followers_daily, Facebook_likes_daily"
+Darkoo,Deezer_fans_daily,172,1.0,18645.0,18645.0,13.0,2,chartmetric,"signature B: metric at floor (1 <= p5 13) while other provider reports 12316 and this profile is substantial on Spotify_monthly_listeners_daily, Spotify_popularity_daily"
+Maleek Berry,Deezer_fans_daily,87,4.0,63970.0,15980.0,13.0,2,chartmetric,"signature B: metric at floor (4 <= p5 13) while other provider reports 61060 and this profile is substantial on Bandsintown_followers_daily, Facebook_followers_daily"
+Teni,Deezer_fans_daily,268,13.0,156378.5,12021.9615,13.0,2,chartmetric,"signature B: metric at floor (13 <= p5 13) while other provider reports 151655 and this profile is substantial on Instagram_followers_daily, Soundcloud_followers_daily"
+Ycee,Deezer_fans_daily,87,2.0,13739.0,6869.5,13.0,2,chartmetric,"signature B: metric at floor (2 <= p5 13) while other provider reports 12570 and this profile is substantial on Facebook_followers_daily, Facebook_likes_daily"
+Vector,Deezer_fans_daily,88,1.0,6625.5,6625.5,13.0,2,chartmetric,signature B: metric at floor (1 <= p5 13) while other provider reports 4135 and this profile is substantial on Spotify_followers_daily
+Libianca,Deezer_fans_daily,173,7.0,22082.0,3188.8571,13.0,2,chartmetric,"signature B: metric at floor (7 <= p5 13) while other provider reports 3494 and this profile is substantial on Facebook_talks_daily, Soundcloud_followers_daily"
+Nonso Amadi,Deezer_fans_daily,315,6.0,11095.0,1849.1667,13.0,2,chartmetric,signature B: metric at floor (6 <= p5 13) while other provider reports 10087 and this profile is substantial on Soundcloud_followers_daily
+Dice Ailes,YouTube_subscribers_daily,258,16.0,29500.0,1843.75,2950.0,2,chartmetric,"signature B: metric at floor (16 <= p5 2950) while other provider reports 22000 and this profile is substantial on Facebook_followers_daily, Facebook_likes_daily"
+Seyi Shay,Deezer_fans_daily,94,8.0,7729.0,966.125,13.0,2,chartmetric,signature B: metric at floor (8 <= p5 13) while other provider reports 7478 and this profile is substantial on Facebook_followers_daily
+Aṣa,YouTube_channel_views_daily,355,47684.0,32225295.0,675.8236,1579679.0,2,chartmetric,"signature B: metric at floor (47714 <= p5 1579679) while other provider reports 31588746 and this profile is substantial on Bandsintown_followers_daily, Deezer_fans_daily"
+Aṣa,YouTube_subscribers_daily,361,943.0,156000.0,165.6051,2950.0,2,chartmetric,"signature B: metric at floor (942 <= p5 2950) while other provider reports 131000 and this profile is substantial on Bandsintown_followers_daily, Deezer_fans_daily"
+Shallipopi,Soundcloud_followers_daily,39,115.0,3586.0,31.1826,400.0,2,chartmetric,"signature B: metric at floor (115 <= p5 400) while other provider reports 3983 and this profile is substantial on Deezer_fans_daily, Instagram_followers_daily"
+D'banj,Soundcloud_followers_daily,35,19.0,592.0,31.1579,400.0,2,chartmetric,"signature B: metric at floor (19 <= p5 400) while other provider reports 592 and this profile is substantial on Facebook_followers_daily, Facebook_likes_daily"
+9ice,YouTube_subscribers_daily,477,2581.0,44400.0,17.176,2950.0,2,chartmetric,"signature B: metric at floor (2579 <= p5 2950) while other provider reports 32400 and this profile is substantial on Deezer_fans_daily, Wikipedia_views_daily"
+9ice,Instagram_followers_daily,361,1298493.0,76953.0,0.0573,56947.0,2,soundcharts,signature B: metric at floor (56947 <= p5 56947) while other provider reports 1301540 and this profile is substantial on Deezer_fans_daily
+Bloody Civilian,Soundcloud_followers_daily,138,1063.0,11.0,0.0103,400.0,2,soundcharts,"signature B: metric at floor (11 <= p5 400) while other provider reports 990 and this profile is substantial on Spotify_monthly_listeners_daily, TikTok_likes_daily"
+Sarz,YouTube_subscribers_daily,169,93867.0,728.0,0.0078,2950.0,2,soundcharts,"signature B: metric at floor (728 <= p5 2950) while other provider reports 92650 and this profile is substantial on Deezer_fans_daily, Spotify_monthly_listeners_daily"
+Flavour N'abania,YouTube_channel_views_daily,15,1470815200.0,10600031.0,0.0072,1579679.0,2,chartmetric,"signature A: stub profile: 3 of 4 core metrics at or below floor (Spotify_followers_daily, Spotify_monthly_listeners_daily, Spotify_popularity_daily)"
+Ruger,Soundcloud_followers_daily,62,11791.0,68.0,0.0057,400.0,2,soundcharts,"signature B: metric at floor (50 <= p5 400) while other provider reports 11728 and this profile is substantial on Bandsintown_followers_daily, Deezer_fans_daily"
+P-Square,Instagram_followers_daily,49,12393813.0,31478.0,0.0025,56947.0,2,soundcharts,"signature B: metric at floor (31374 <= p5 56947) while other provider reports 12363586 and this profile is substantial on Deezer_fans_daily, Facebook_followers_daily"
+Portable,Spotify_followers_daily,130,444161.5,739.5,0.0017,7500.0,2,soundcharts,"signature A: stub profile: 3 of 3 core metrics at or below floor (Spotify_followers_daily, Spotify_monthly_listeners_daily, Spotify_popularity_daily)"
+Portable,Spotify_monthly_listeners_daily,190,415261.5,419.5,0.0011,14775.5,2,soundcharts,"signature A: stub profile: 3 of 3 core metrics at or below floor (Spotify_followers_daily, Spotify_monthly_listeners_daily, Spotify_popularity_daily)"
+Flavour N'abania,YouTube_subscribers_daily,15,3850000.0,2950.0,0.0008,2950.0,2,chartmetric,"signature A: stub profile: 3 of 4 core metrics at or below floor (Spotify_followers_daily, Spotify_monthly_listeners_daily, Spotify_popularity_daily)"
+Bracket,YouTube_subscribers_daily,11,1079143.0,462.0,0.0004,2950.0,2,soundcharts,signature B: metric at floor (462 <= p5 2950) while other provider reports 1006667 and this profile is substantial on Deezer_fans_daily
+Mayorkun,TikTok_followers_daily,98,1600000.0,173.0,0.0001,2135.0,2,soundcharts,"signature B: metric at floor (179 <= p5 2135) while other provider reports 1600000 and this profile is substantial on Deezer_fans_daily, Facebook_followers_daily"
+Shallipopi,TikTok_followers_daily,85,1896154.0,96.0,0.0001,2135.0,2,soundcharts,"signature B: metric at floor (286 <= p5 2135) while other provider reports 1980000 and this profile is substantial on Instagram_followers_daily, Spotify_followers_daily"
+BNXN,Instagram_followers_daily,34,1711370.5,7.0,0.0,56947.0,2,soundcharts,"signature B: metric at floor (54550 <= p5 56947) while other provider reports 1695547 and this profile is substantial on Spotify_followers_daily, Spotify_monthly_listeners_daily"
+Olamide,TikTok_followers_daily,75,2600000.0,23.0,0.0,2135.0,2,soundcharts,"signature B: metric at floor (10 <= p5 2135) while other provider reports 2691666 and this profile is substantial on Bandsintown_followers_daily, Deezer_fans_daily"
+Shallipopi,TikTok_likes_daily,84,26150000.0,151.0,0.0,2121.0,2,soundcharts,"signature B: metric at floor (151 <= p5 2121) while other provider reports 27425000 and this profile is substantial on Instagram_followers_daily, Spotify_followers_daily"
+Joeboy,Deezer_fans_daily,175,31.0,315156.0,10182.4839,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Olamide,Deezer_fans_daily,241,34.0,342886.0,10084.8824,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Yemi Alade,Deezer_fans_daily,173,140.0,387888.0,2770.6286,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+DJ Neptune,Deezer_fans_daily,90,66.0,78412.5,1188.0682,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Phyno,Deezer_fans_daily,138,41.0,39774.5,970.1098,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Ajebutter22,Deezer_fans_daily,87,7.0,6505.0,929.2857,13.0,3,none,neither defective: cm[at floor but profile not substantial elsewhere - may be a genuinely small artist] sc[within plausible range]
+Dammy Krane,Instagram_followers_daily,173,627.0,581604.0,911.496,56947.0,3,none,neither defective: cm[at floor but profile not substantial elsewhere - may be a genuinely small artist] sc[within plausible range]
+Skiibii,Deezer_fans_daily,88,33.0,17471.0,529.4242,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Timaya,Deezer_fans_daily,127,84.0,43288.0,515.3333,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Tekno,Deezer_fans_daily,168,85.0,32520.5,381.3101,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Wande Coal,Deezer_fans_daily,170,280.0,69989.5,249.9625,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Flavour,Facebook_followers_daily,76,16000.0,2445293.5,152.6455,3989.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Falz,Deezer_fans_daily,91,732.0,82544.0,112.7691,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Tiwa Savage,Deezer_fans_daily,174,2702.0,299313.5,110.7748,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Solidstar,Facebook_followers_daily,29,2826.0,205311.0,72.6367,3989.0,3,none,neither defective: cm[at floor but profile not substantial elsewhere - may be a genuinely small artist] sc[within plausible range]
+CDQ,Facebook_followers_daily,31,4056.0,246023.0,60.6618,3989.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Cruel Santino,Deezer_fans_daily,168,171.0,7540.0,44.076,13.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Timaya,YouTube_channel_views_daily,445,14795984.0,536004075.0,36.3012,1579679.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Reminisce,Facebook_followers_daily,42,19112.0,442511.0,23.1882,3989.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Darkoo,Soundcloud_followers_daily,189,407.0,5099.0,12.5283,400.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Bracket,YouTube_channel_views_daily,11,379593300.0,21523633.0,0.0567,1579679.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Seyi Vibez,YouTube_subscribers_daily,273,378500.0,17400.0,0.046,2950.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+BNXN,Facebook_followers_daily,121,212000.0,8341.0,0.0388,3989.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Seyi Vibez,TikTok_likes_daily,229,1600000.0,39500.0,0.0249,2121.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Terri,Facebook_followers_daily,26,529564.5,10014.5,0.0189,3989.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Seyi Vibez,YouTube_channel_views_daily,273,202823540.0,2566185.0,0.0127,1579679.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Oxlade,TikTok_followers_daily,90,1700000.0,6792.5,0.004,2135.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]
+Oxlade,TikTok_likes_daily,93,28607692.0,104500.0,0.0037,2121.0,3,none,neither defective: cm[within plausible range] sc[within plausible range]

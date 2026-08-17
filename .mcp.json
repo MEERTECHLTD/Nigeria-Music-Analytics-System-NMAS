@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "soundcharts": {
+      "type": "http",
+      "url": "https://mcp.soundcharts.com/mcp"
+    }
+  }
+}

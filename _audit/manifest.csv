@@ -1,0 +1,453 @@
+path,ext,size_bytes,role,maintenance,note,review_status
+_audit/ledger.md,.md,381,audit,generated,audit workspace,pending
+firebase.json,.json,243,configuration,hand,project config,pending
+vercel.json,.json,272,configuration,hand,project config,pending
+NBS FINAL delivery/04_Datasets/Artist_Catalogue_Summary.csv,.csv,90220,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Artist_ID_Crosswalk.csv,.csv,73822,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Artist_Master_List.csv,.csv,4416,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Artist_Residency_Classification.csv,.csv,65840,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Artist_Resolution_Soundcharts.csv,.csv,77050,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Cost_By_Category_Quarterly.csv,.csv,38760,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Coverage_By_Quarter.csv,.csv,81053,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Coverage_Gap_Report.csv,.csv,3492089,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Daily_Metric_Observations.csv,.csv,1044325646,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Daily_Observations_Extended_Frame.csv.gz,.gz,49626030,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Data_Limitations_Report.csv,.csv,784979,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Data_Provenance_Audit.csv,.csv,12910,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Employment_Male_Female.csv,.csv,1848,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Export_Markets_Quarterly.csv,.csv,1028771,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Geography_Full_Daily.csv.gz,.gz,257584371,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Gross_Export_Revenue.csv,.csv,96884,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Gross_Streaming_Revenue.csv,.csv,104505,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Hosting_Production_Costs.csv,.csv,1746,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/NBS_Accounts_Quarterly.csv,.csv,12900,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Nigeria_City_Geography_Quarterly.csv,.csv,150149,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Observed_Values_Only.csv.gz,.gz,79597943,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Platform_Register.csv,.csv,549,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Quarterly_Aggregates_Full.csv,.csv,60188922,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Radio_Stations_Quarterly.csv,.csv,593799,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Revenue_By_Platform_Quarterly.csv,.csv,3223010,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Spotify_City_Geography.csv,.csv,334588003,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/Variable_Register.csv,.csv,7884,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/04_Datasets/World_City_Geography_Quarterly.csv,.csv,11425640,derived artifact,generated,delivered dataset,pending
+NBS FINAL delivery/07_Quality_Checks/Duplicates_Removed_Report.csv,.csv,62200345,derived artifact,generated,QA report,pending
+NBS FINAL delivery/07_Quality_Checks/Merge_Provenance_Report.md,.md,4602,derived artifact,generated,QA report,pending
+NBS FINAL delivery/07_Quality_Checks/Quality_Check_Report.md,.md,1610,derived artifact,generated,QA report,pending
+NBS FINAL delivery/07_Quality_Checks/Standardisation_Report.md,.md,1875,derived artifact,generated,QA report,pending
+NBS FINAL delivery/07_Quality_Checks/Value_Provenance_Audit.md,.md,2211,derived artifact,generated,QA report,pending
+frontend/public/api/v1/console/accounts.json,.json,6736,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/aggregates.json,.json,2316901,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/artists.json,.json,79754,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/coverage.json,.json,50029,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/delivery.json,.json,52922,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/extended-history.json,.json,36592,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/manifest.json,.json,6844,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/observation-summary.json,.json,85195,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/population-frame.json,.json,251818,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/quality.json,.json,22640,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/resolution-audit.json,.json,17070,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/revenue.json,.json,535413,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/run.json,.json,4447,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/console/variables.json,.json,15367,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/costs.json,.json,74582,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q1_2019.json,.json,85428,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q1_2020.json,.json,155140,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q1_2021.json,.json,166577,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q1_2022.json,.json,181075,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q1_2023.json,.json,192293,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q1_2024.json,.json,201474,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q1_2025.json,.json,208691,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q1_2026.json,.json,214424,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q2_2019.json,.json,133223,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q2_2020.json,.json,165948,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q2_2021.json,.json,170723,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q2_2022.json,.json,183501,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q2_2023.json,.json,196866,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q2_2024.json,.json,204125,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q2_2025.json,.json,211449,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q2_2026.json,.json,215458,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q3_2019.json,.json,149413,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q3_2020.json,.json,174538,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q3_2021.json,.json,173478,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q3_2022.json,.json,187274,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q3_2023.json,.json,196795,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q3_2024.json,.json,205417,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q3_2025.json,.json,212722,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q3_2026.json,.json,215255,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q4_2019.json,.json,152274,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q4_2020.json,.json,179276,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q4_2021.json,.json,178495,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q4_2022.json,.json,189534,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q4_2023.json,.json,197200,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q4_2024.json,.json,207103,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/export-revenue/Q4_2025.json,.json,213459,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q1_2019.json,.json,133478,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q1_2020.json,.json,248569,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q1_2021.json,.json,292406,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q1_2022.json,.json,318406,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q1_2023.json,.json,338146,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q1_2024.json,.json,354397,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q1_2025.json,.json,368346,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q1_2026.json,.json,378683,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q2_2019.json,.json,213364,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q2_2020.json,.json,265845,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q2_2021.json,.json,298687,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q2_2022.json,.json,322659,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q2_2023.json,.json,346141,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q2_2024.json,.json,359946,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q2_2025.json,.json,373286,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q2_2026.json,.json,380633,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q3_2019.json,.json,239163,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q3_2020.json,.json,279495,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q3_2021.json,.json,304422,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q3_2022.json,.json,329421,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q3_2023.json,.json,345954,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q3_2024.json,.json,362549,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q3_2025.json,.json,375596,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q3_2026.json,.json,379846,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q4_2019.json,.json,243811,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q4_2020.json,.json,286976,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q4_2021.json,.json,313891,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q4_2022.json,.json,333240,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q4_2023.json,.json,347890,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q4_2024.json,.json,365472,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/streaming-revenue/Q4_2025.json,.json,377009,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/summary.json,.json,13743,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q1_2019.json,.json,2398,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q1_2020.json,.json,2529,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q1_2021.json,.json,2540,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q1_2022.json,.json,2676,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q1_2023.json,.json,2679,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q1_2024.json,.json,2685,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q1_2025.json,.json,2683,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q1_2026.json,.json,2688,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q2_2019.json,.json,2529,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q2_2020.json,.json,2530,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q2_2021.json,.json,2548,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q2_2022.json,.json,2672,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q2_2023.json,.json,2696,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q2_2024.json,.json,2673,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q2_2025.json,.json,2684,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q2_2026.json,.json,2698,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q3_2019.json,.json,2537,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q3_2020.json,.json,2542,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q3_2021.json,.json,2640,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q3_2022.json,.json,2684,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q3_2023.json,.json,2695,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q3_2024.json,.json,2673,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q3_2025.json,.json,2683,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q3_2026.json,.json,2676,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q4_2019.json,.json,2528,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q4_2020.json,.json,2530,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q4_2021.json,.json,2687,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q4_2022.json,.json,2685,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q4_2023.json,.json,2683,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q4_2024.json,.json,2681,derived artifact,generated,static API artifact,pending
+frontend/public/api/v1/nbs/top-artists/Q4_2025.json,.json,2698,derived artifact,generated,static API artifact,pending
+NBS FINAL delivery/01_Executive_Summary/Executive_Summary.md,.md,4264,documentation,hand,delivery doc,pending
+NBS FINAL delivery/02_Methodology/NBS_Methodology_and_Sources.md,.md,1476,documentation,hand,methodology / response,pending
+NBS FINAL delivery/02_Methodology/Two_Provider_Methodology.md,.md,11167,documentation,hand,methodology / response,pending
+NBS FINAL delivery/02_Methodology/Variable_Methodology.md,.md,18703,documentation,hand,methodology / response,pending
+NBS FINAL delivery/05_Database_Extracts/artists.csv,.csv,23037,documentation,hand,delivery doc,pending
+NBS FINAL delivery/05_Database_Extracts/coverage_gaps_summary.csv,.csv,7955,documentation,hand,delivery doc,pending
+NBS FINAL delivery/05_Database_Extracts/job_failures_summary.csv,.csv,226,documentation,hand,delivery doc,pending
+NBS FINAL delivery/05_Database_Extracts/observation_summary.csv,.csv,40230,documentation,hand,delivery doc,pending
+NBS FINAL delivery/06_Sample_Workbooks/00_NBS_Sample_Cover.xlsx,.xlsx,7028,documentation,hand,delivery doc,pending
+NBS FINAL delivery/06_Sample_Workbooks/01_Gross_Streaming_Revenue_SAMPLE.xlsx,.xlsx,30199,documentation,hand,delivery doc,pending
+NBS FINAL delivery/06_Sample_Workbooks/02_Gross_Export_Revenue_SAMPLE.xlsx,.xlsx,17324,documentation,hand,delivery doc,pending
+NBS FINAL delivery/06_Sample_Workbooks/03_Employment_Male_Female_SAMPLE.xlsx,.xlsx,8331,documentation,hand,delivery doc,pending
+NBS FINAL delivery/06_Sample_Workbooks/04_Hosting_Production_Costs_SAMPLE.xlsx,.xlsx,6300,documentation,hand,delivery doc,pending
+NBS FINAL delivery/06_Sample_Workbooks/05_Social_Media_Metrics_SAMPLE.xlsx,.xlsx,35837,documentation,hand,delivery doc,pending
+NBS FINAL delivery/06_Sample_Workbooks/06_Top_Performers_Showcase.xlsx,.xlsx,10059,documentation,hand,delivery doc,pending
+NBS FINAL delivery/06_Sample_Workbooks/07_Executive_Sample_Brief.xlsx,.xlsx,7473,documentation,hand,delivery doc,pending
+NBS FINAL delivery/06_Sample_Workbooks/README.md,.md,3096,documentation,hand,delivery doc,pending
+NBS FINAL delivery/08_References/NBS_Response_Notes.md,.md,9895,documentation,hand,methodology / response,pending
+NBS FINAL delivery/08_References/NMAS_Extraction_Brief_Validation_Report.docx,.docx,21302,documentation,hand,methodology / response,pending
+NBS FINAL delivery/08_References/References_and_Proof.md,.md,7440,documentation,hand,methodology / response,pending
+NBS FINAL delivery/08_References/superseded_workbooks/6_NMAS_Full_Artist_Data_Q1_2024_Q4_2025.xlsx,.xlsx,16422982,documentation,hand,methodology / response,pending
+NBS FINAL delivery/09_AI_Disclosure/NMAS_AI_Disclosure_and_Claude_Code_Architecture.md,.md,17981,documentation,hand,delivery doc,pending
+NBS FINAL delivery/10_Presentation/Architecting_the_Digital_Shadow_Ledger.mp4,.mp4,70053286,documentation,hand,delivery doc,pending
+NBS FINAL delivery/10_Presentation/NMAS_NBS_Final_Delivery_Presentation.md,.md,43062,documentation,hand,delivery doc,pending
+NBS FINAL delivery/10_Presentation/NMAS_Technical_Delivery.pptx,.pptx,18123170,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/1_gross_streaming_revenue.csv,.csv,103725,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/2_gross_export_revenue.csv,.csv,96689,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/3_employment_male_female.csv,.csv,1848,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/4_hosting_production_costs.csv,.csv,1746,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/NBS_METHODOLOGY_AND_SOURCES.md,.md,1476,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/all_chartmetric_artists.json,.json,112665,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/extraction_log.txt,.txt,2618,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/nigerian_artists_chartmetric.json,.json,11926,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/nmas_chartmetric_full_metrics.csv,.csv,152417325,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/nmas_q1_2026_raw.csv,.csv,6602935,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/nmas_q1_2026_raw_metrics.csv,.csv,7047682,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/nmas_q2q3_2025_raw.csv,.csv,40268859,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/q2q3_extraction_log.txt,.txt,1372,documentation,hand,delivery doc,pending
+NBS FINAL delivery/11_Raw_Extractions/quarterly_aggregates_full.csv,.csv,667007,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/NMAS_131_Nigerian_Artists_Q1_2024_to_Q4_2025.xlsx,.xlsx,16422982,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/coverage_report.csv,.csv,3427500,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/job_summary_report.md,.md,3601,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/limitations_report.csv,.csv,784979,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/nmas_artists.csv,.csv,4416,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/nmas_chartmetric_metrics.csv,.csv,47536336,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/nmas_extraction_notes.md,.md,1387,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/nmas_tracks.csv,.csv,120,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/nmas_variable_methodology.md,.md,13466,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_1/quarterly_aggregates.csv,.csv,367341,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_2/coverage_report.csv,.csv,3492089,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_2/job_summary_report.md,.md,3601,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_2/limitations_report.csv,.csv,784979,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_2/nmas_artists.csv,.csv,4416,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_2/nmas_chartmetric_metrics.csv,.csv,47536336,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_2/nmas_extraction_notes.md,.md,1387,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_2/nmas_tracks.csv,.csv,120,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_2/nmas_variable_methodology.md,.md,18703,documentation,hand,delivery doc,pending
+NBS FINAL delivery/12_System_Exports/export_run_2/quarterly_aggregates.csv,.csv,367341,documentation,hand,delivery doc,pending
+NBS FINAL delivery/Nigeria Music Analytics System Quarterly Headline Indicators.xlsx,.xlsx,7099,documentation,hand,delivery doc,pending
+NBS FINAL delivery/README.md,.md,5586,documentation,hand,delivery doc,pending
+docs/architecture/NBS-LATEST-CORRESPONDENCE-CONTEXT.md,.md,2977,documentation,hand,architecture / proposal,pending
+docs/architecture/NBS-MONTH1-AUDIT.md,.md,6663,documentation,hand,architecture / proposal,pending
+docs/architecture/NBS-MONTH1-TARGET-ARCHITECTURE.md,.md,3362,documentation,hand,architecture / proposal,pending
+docs/architecture/STATISTICAL-PRODUCTION-CONSOLE.md,.md,5847,documentation,hand,architecture / proposal,pending
+docs/proposals/NBS Extraction Brief.pdf,.pdf,96698,documentation,hand,architecture / proposal,pending
+docs/proposals/NMAS METHODOLOGY  NBS RESPONSE.docx,.docx,17520,documentation,hand,architecture / proposal,pending
+docs/proposals/NMAS_Sample Deliverable.pdf,.pdf,203499,documentation,hand,architecture / proposal,pending
+docs/proposals/NMAS_Technical_Response_v2.pdf,.pdf,306630,documentation,hand,architecture / proposal,pending
+.codex/config.toml,.toml,66,other,hand,,pending
+.vscode/settings.json,.json,180,other,hand,,pending
+LICENSE,,1131,other,hand,,pending
+README.md,.md,7594,other,hand,,pending
+backend/Meertech_Company_Profile.docx,.docx,39975,other,hand,,pending
+backend/Procfile,,55,other,hand,,pending
+backend/alembic.ini,.ini,626,other,hand,,pending
+backend/alembic/env.py,.py,1892,other,hand,,pending
+backend/alembic/script.py.mako,.mako,551,other,hand,,pending
+backend/alembic/versions/001_nmas_initial_schema.py,.py,17626,other,hand,,pending
+backend/data/all_chartmetric_artists.json,.json,112665,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/NMAS_131_Nigerian_Artists_Q1_2024_to_Q4_2025.xlsx,.xlsx,16422982,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/coverage_report.csv,.csv,3427500,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/job_summary_report.md,.md,3601,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/limitations_report.csv,.csv,784979,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_artists.csv,.csv,4416,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_chartmetric_metrics.csv,.csv,47536336,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_extraction_notes.md,.md,1387,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_tracks.csv,.csv,120,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_variable_methodology.md,.md,13466,other,hand,,pending
+backend/data/exports/20260404T221233Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/quarterly_aggregates.csv,.csv,367341,other,hand,,pending
+backend/data/exports/20260404T222431Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/coverage_report.csv,.csv,3492089,other,hand,,pending
+backend/data/exports/20260404T222431Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/job_summary_report.md,.md,3601,other,hand,,pending
+backend/data/exports/20260404T222431Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/limitations_report.csv,.csv,784979,other,hand,,pending
+backend/data/exports/20260404T222431Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_artists.csv,.csv,4416,other,hand,,pending
+backend/data/exports/20260404T222431Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_chartmetric_metrics.csv,.csv,47536336,other,hand,,pending
+backend/data/exports/20260404T222431Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_extraction_notes.md,.md,1387,other,hand,,pending
+backend/data/exports/20260404T222431Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_tracks.csv,.csv,120,other,hand,,pending
+backend/data/exports/20260404T222431Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/nmas_variable_methodology.md,.md,18703,other,hand,,pending
+backend/data/exports/20260404T222431Z_b7b89577-ef98-4289-969b-c6623ec1a9e8/quarterly_aggregates.csv,.csv,367341,other,hand,,pending
+backend/data/nbs_deliverables/1_gross_streaming_revenue.csv,.csv,103725,other,hand,,pending
+backend/data/nbs_deliverables/2_gross_export_revenue.csv,.csv,96689,other,hand,,pending
+backend/data/nbs_deliverables/3_employment_male_female.csv,.csv,1848,other,hand,,pending
+backend/data/nbs_deliverables/4_hosting_production_costs.csv,.csv,1746,other,hand,,pending
+backend/data/nbs_deliverables/NBS_METHODOLOGY_AND_SOURCES.md,.md,1476,other,hand,,pending
+backend/data/nbs_deliverables/extraction_log.txt,.txt,2618,other,hand,,pending
+backend/data/nbs_deliverables/nmas_chartmetric_full_metrics.csv,.csv,152417325,other,hand,,pending
+backend/data/nbs_deliverables/nmas_q1_2026_raw.csv,.csv,6602935,other,hand,,pending
+backend/data/nbs_deliverables/nmas_q1_2026_raw_metrics.csv,.csv,7047682,other,hand,,pending
+backend/data/nbs_deliverables/nmas_q2q3_2025_raw.csv,.csv,40268859,other,hand,,pending
+backend/data/nbs_deliverables/q2q3_extraction_log.txt,.txt,1372,other,hand,,pending
+backend/data/nbs_deliverables/quarterly_aggregates_full.csv,.csv,667007,other,hand,,pending
+backend/data/nigerian_artists_chartmetric.json,.json,11926,other,hand,,pending
+backend/nixpacks.toml,.toml,237,other,hand,,pending
+backend/pyproject.toml,.toml,925,other,hand,,pending
+backend/requirements.txt,.txt,802,other,hand,,pending
+backend/run_nmas.py,.py,533,other,hand,,pending
+backend/runtime.txt,.txt,15,other,hand,,pending
+backend/tests/__init__.py,.py,0,other,hand,,pending
+backend/tests/conftest.py,.py,208,other,hand,,pending
+backend/tests/test_services.py,.py,24193,other,hand,,pending
+deployment/digitalocean-app.yaml,.yaml,1763,other,hand,,pending
+deployment/docker-compose.dev.yml,.yml,505,other,hand,,pending
+frontend/Procfile,,50,other,hand,,pending
+frontend/README.md,.md,9,other,hand,,pending
+frontend/eslint.config.js,.js,739,other,hand,,pending
+frontend/index.html,.html,386,other,hand,,pending
+frontend/package-lock.json,.json,252962,other,hand,,pending
+frontend/package.json,.json,1508,other,hand,,pending
+frontend/postcss.config.js,.js,81,other,hand,,pending
+frontend/tailwind.config.js,.js,191,other,hand,,pending
+frontend/tsconfig.app.json,.json,681,other,hand,,pending
+frontend/tsconfig.json,.json,119,other,hand,,pending
+frontend/tsconfig.node.json,.json,479,other,hand,,pending
+frontend/vite.config.ts,.ts,764,other,hand,,pending
+soundcharts_api.log,.log,1482,other,hand,,pending
+NBS FINAL delivery/03_Excel_Deliveries/10_NMAS_Extended_History_2019_2026.xlsx,.xlsx,20688381,presentation,generated,Excel deliverable,pending
+NBS FINAL delivery/03_Excel_Deliveries/1_Gross_Streaming_Revenue.xlsx,.xlsx,1468349,presentation,generated,Excel deliverable,pending
+NBS FINAL delivery/03_Excel_Deliveries/2_Gross_Export_Revenue.xlsx,.xlsx,1739230,presentation,generated,Excel deliverable,pending
+NBS FINAL delivery/03_Excel_Deliveries/3_Employment_Male_Female.xlsx,.xlsx,14218,presentation,generated,Excel deliverable,pending
+NBS FINAL delivery/03_Excel_Deliveries/4_Hosting_Production_Costs.xlsx,.xlsx,23275,presentation,generated,Excel deliverable,pending
+NBS FINAL delivery/03_Excel_Deliveries/5_Artist_Platform_Performance.xlsx,.xlsx,56212,presentation,generated,Excel deliverable,pending
+NBS FINAL delivery/03_Excel_Deliveries/7_Digital_Music_Export.xlsx,.xlsx,855856,presentation,generated,Excel deliverable,pending
+NBS FINAL delivery/03_Excel_Deliveries/8_Artist_Population_Frame.xlsx,.xlsx,83384,presentation,generated,Excel deliverable,pending
+NBS FINAL delivery/03_Excel_Deliveries/9_NBS_Accounts_Domestic_and_GNI.xlsx,.xlsx,15843,presentation,generated,Excel deliverable,pending
+NBS FINAL delivery/03_Excel_Deliveries/README.txt,.txt,1061,presentation,generated,Excel deliverable,pending
+frontend/src/App.tsx,.tsx,4589,presentation,hand,frontend source,pending
+frontend/src/ThemeToggle.tsx,.tsx,1432,presentation,hand,frontend source,pending
+frontend/src/console/ConsoleApp.tsx,.tsx,10893,presentation,hand,frontend source,pending
+frontend/src/console/components/DataTable.tsx,.tsx,13668,presentation,hand,frontend source,pending
+frontend/src/console/components/primitives.tsx,.tsx,20181,presentation,hand,frontend source,pending
+frontend/src/console/data/capabilities.ts,.ts,14271,presentation,hand,frontend source,pending
+frontend/src/console/data/client.ts,.ts,10110,presentation,hand,frontend source,pending
+frontend/src/console/data/transport.ts,.ts,6048,presentation,hand,frontend source,pending
+frontend/src/console/data/types.ts,.ts,9946,presentation,hand,frontend source,pending
+frontend/src/console/panels/AccountSeparation.tsx,.tsx,29950,presentation,hand,frontend source,pending
+frontend/src/console/panels/ArtifactManifest.tsx,.tsx,20283,presentation,hand,frontend source,pending
+frontend/src/console/panels/ArtistUniverse.tsx,.tsx,40484,presentation,hand,frontend source,pending
+frontend/src/console/panels/AuditTrail.tsx,.tsx,26248,presentation,hand,frontend source,pending
+frontend/src/console/panels/ConstantsRegister.tsx,.tsx,28776,presentation,hand,frontend source,pending
+frontend/src/console/panels/CoverageMatrix.tsx,.tsx,22907,presentation,hand,frontend source,pending
+frontend/src/console/panels/DeliveryRegister.tsx,.tsx,17183,presentation,hand,frontend source,pending
+frontend/src/console/panels/EntityGraph.tsx,.tsx,35303,presentation,hand,frontend source,pending
+frontend/src/console/panels/EstimationTransparency.tsx,.tsx,57487,presentation,hand,frontend source,pending
+frontend/src/console/panels/ExecutiveConsole.tsx,.tsx,39825,presentation,hand,frontend source,pending
+frontend/src/console/panels/ExportFootprint.tsx,.tsx,38585,presentation,hand,frontend source,pending
+frontend/src/console/panels/GapRegister.tsx,.tsx,23972,presentation,hand,frontend source,pending
+frontend/src/console/panels/LineageInspector.tsx,.tsx,43740,presentation,hand,frontend source,pending
+frontend/src/console/panels/MethodologyInspector.tsx,.tsx,41200,presentation,hand,frontend source,pending
+frontend/src/console/panels/PlatformRevenue.tsx,.tsx,45323,presentation,hand,frontend source,pending
+frontend/src/console/panels/ProviderExpansion.tsx,.tsx,16445,presentation,hand,frontend source,pending
+frontend/src/console/panels/RunTimeline.tsx,.tsx,31203,presentation,hand,frontend source,pending
+frontend/src/console/panels/SourceIntelligence.tsx,.tsx,38302,presentation,hand,frontend source,pending
+frontend/src/console/panels/SystemMonitoring.tsx,.tsx,19392,presentation,hand,frontend source,pending
+frontend/src/console/panels/ValidationCentre.tsx,.tsx,38621,presentation,hand,frontend source,pending
+frontend/src/console/panels/registry.ts,.ts,6146,presentation,hand,frontend source,pending
+frontend/src/console/registry/constants.ts,.ts,14018,presentation,hand,frontend source,pending
+frontend/src/console/registry/epistemic.ts,.ts,11229,presentation,hand,frontend source,pending
+frontend/src/console/registry/gaps.ts,.ts,21214,presentation,hand,frontend source,pending
+frontend/src/console/registry/stages.ts,.ts,10650,presentation,hand,frontend source,pending
+frontend/src/console/tokens.css,.css,12376,presentation,hand,frontend source,pending
+frontend/src/features/nmas/BackendGate.tsx,.tsx,19206,presentation,hand,frontend source,pending
+frontend/src/features/nmas/NbsConsole.tsx,.tsx,33037,presentation,hand,frontend source,pending
+frontend/src/features/nmas/NbsDashboard.tsx,.tsx,40812,presentation,hand,frontend source,pending
+frontend/src/features/nmas/endpoints.ts,.ts,10121,presentation,hand,frontend source,pending
+frontend/src/index.css,.css,3333,presentation,hand,frontend source,pending
+frontend/src/lib/api.ts,.ts,9297,presentation,hand,frontend source,pending
+frontend/src/lib/firebase.ts,.ts,514,presentation,hand,frontend source,pending
+frontend/src/lib/nbsTransport.ts,.ts,2771,presentation,hand,frontend source,pending
+frontend/src/main.tsx,.tsx,390,presentation,hand,frontend source,pending
+frontend/src/theme.ts,.ts,2406,presentation,hand,frontend source,pending
+frontend/src/vite-env.d.ts,.ts,38,presentation,hand,frontend source,pending
+backend/data/soundcharts/artist_resolution.csv,.csv,77906,source,generated,raw provider extraction,pending
+delivery/01_Executive_Summary/Executive_Summary.md,.md,4264,source,generated,"previous delivery, immutable evidence",pending
+delivery/02_Methodology/NBS_Methodology_and_Sources.md,.md,1476,source,generated,"previous delivery, immutable evidence",pending
+delivery/02_Methodology/Variable_Methodology.md,.md,18703,source,generated,"previous delivery, immutable evidence",pending
+delivery/03_Excel_Deliveries/1_Gross_Streaming_Revenue.xlsx,.xlsx,100418,source,generated,"previous delivery, immutable evidence",pending
+delivery/03_Excel_Deliveries/2_Gross_Export_Revenue.xlsx,.xlsx,54009,source,generated,"previous delivery, immutable evidence",pending
+delivery/03_Excel_Deliveries/3_Employment_Male_Female.xlsx,.xlsx,14218,source,generated,"previous delivery, immutable evidence",pending
+delivery/03_Excel_Deliveries/4_Hosting_Production_Costs.xlsx,.xlsx,14543,source,generated,"previous delivery, immutable evidence",pending
+delivery/03_Excel_Deliveries/5_Artist_Platform_Performance.xlsx,.xlsx,10259,source,generated,"previous delivery, immutable evidence",pending
+delivery/03_Excel_Deliveries/6_NMAS_Full_Artist_Data_Q1_2024_Q4_2025.xlsx,.xlsx,16422982,source,generated,"previous delivery, immutable evidence",pending
+delivery/03_Excel_Deliveries/7_Digital_Music_Export.xlsx,.xlsx,61575,source,generated,"previous delivery, immutable evidence",pending
+delivery/03_Excel_Deliveries/8_Artist_Population_Frame.xlsx,.xlsx,78083,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Artist_Master_List.csv,.csv,4416,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Artist_Population_Frame.csv,.csv,75649,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Coverage_Gap_Report.csv,.csv,3492089,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Daily_Metric_Observations.csv,.csv,155026875,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Data_Limitations_Report.csv,.csv,784979,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Employment_Male_Female.csv,.csv,1848,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Gross_Export_Revenue.csv,.csv,96884,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Gross_Streaming_Revenue.csv,.csv,104505,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Hosting_Production_Costs.csv,.csv,1746,source,generated,"previous delivery, immutable evidence",pending
+delivery/04_Datasets/Quarterly_Aggregates_Full.csv,.csv,667007,source,generated,"previous delivery, immutable evidence",pending
+delivery/05_Database_Extracts/artists.csv,.csv,23037,source,generated,"previous delivery, immutable evidence",pending
+delivery/05_Database_Extracts/coverage_gaps_summary.csv,.csv,7955,source,generated,"previous delivery, immutable evidence",pending
+delivery/05_Database_Extracts/job_failures_summary.csv,.csv,226,source,generated,"previous delivery, immutable evidence",pending
+delivery/05_Database_Extracts/observation_summary.csv,.csv,40230,source,generated,"previous delivery, immutable evidence",pending
+delivery/06_Sample_Workbooks/00_NBS_Sample_Cover.xlsx,.xlsx,7028,source,generated,"previous delivery, immutable evidence",pending
+delivery/06_Sample_Workbooks/01_Gross_Streaming_Revenue_SAMPLE.xlsx,.xlsx,30199,source,generated,"previous delivery, immutable evidence",pending
+delivery/06_Sample_Workbooks/02_Gross_Export_Revenue_SAMPLE.xlsx,.xlsx,17324,source,generated,"previous delivery, immutable evidence",pending
+delivery/06_Sample_Workbooks/03_Employment_Male_Female_SAMPLE.xlsx,.xlsx,8331,source,generated,"previous delivery, immutable evidence",pending
+delivery/06_Sample_Workbooks/04_Hosting_Production_Costs_SAMPLE.xlsx,.xlsx,6300,source,generated,"previous delivery, immutable evidence",pending
+delivery/06_Sample_Workbooks/05_Social_Media_Metrics_SAMPLE.xlsx,.xlsx,35837,source,generated,"previous delivery, immutable evidence",pending
+delivery/06_Sample_Workbooks/06_Top_Performers_Showcase.xlsx,.xlsx,10059,source,generated,"previous delivery, immutable evidence",pending
+delivery/06_Sample_Workbooks/07_Executive_Sample_Brief.xlsx,.xlsx,7473,source,generated,"previous delivery, immutable evidence",pending
+delivery/06_Sample_Workbooks/README.md,.md,3096,source,generated,"previous delivery, immutable evidence",pending
+delivery/07_Quality_Checks/Quality_Check_Report.md,.md,1610,source,generated,"previous delivery, immutable evidence",pending
+delivery/08_References/References_and_Proof.md,.md,7440,source,generated,"previous delivery, immutable evidence",pending
+delivery/09_AI_Disclosure/NMAS_AI_Disclosure_and_Claude_Code_Architecture.md,.md,17981,source,generated,"previous delivery, immutable evidence",pending
+delivery/10_Presentation/Architecting_the_Digital_Shadow_Ledger.mp4,.mp4,70053286,source,generated,"previous delivery, immutable evidence",pending
+delivery/10_Presentation/NMAS_NBS_Final_Delivery_Presentation.md,.md,43062,source,generated,"previous delivery, immutable evidence",pending
+delivery/10_Presentation/NMAS_Technical_Delivery.pptx,.pptx,18123170,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/1_gross_streaming_revenue.csv,.csv,103725,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/2_gross_export_revenue.csv,.csv,96689,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/3_employment_male_female.csv,.csv,1848,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/4_hosting_production_costs.csv,.csv,1746,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/NBS_METHODOLOGY_AND_SOURCES.md,.md,1476,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/all_chartmetric_artists.json,.json,112665,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/extraction_log.txt,.txt,2618,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/nigerian_artists_chartmetric.json,.json,11926,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/nmas_chartmetric_full_metrics.csv,.csv,152417325,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/nmas_q1_2026_raw.csv,.csv,6602935,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/nmas_q1_2026_raw_metrics.csv,.csv,7047682,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/nmas_q2q3_2025_raw.csv,.csv,40268859,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/q2q3_extraction_log.txt,.txt,1372,source,generated,"previous delivery, immutable evidence",pending
+delivery/11_Raw_Extractions/quarterly_aggregates_full.csv,.csv,667007,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/NMAS_131_Nigerian_Artists_Q1_2024_to_Q4_2025.xlsx,.xlsx,16422982,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/coverage_report.csv,.csv,3427500,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/job_summary_report.md,.md,3601,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/limitations_report.csv,.csv,784979,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/nmas_artists.csv,.csv,4416,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/nmas_chartmetric_metrics.csv,.csv,47536336,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/nmas_extraction_notes.md,.md,1387,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/nmas_tracks.csv,.csv,120,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/nmas_variable_methodology.md,.md,13466,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_1/quarterly_aggregates.csv,.csv,367341,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_2/coverage_report.csv,.csv,3492089,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_2/job_summary_report.md,.md,3601,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_2/limitations_report.csv,.csv,784979,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_2/nmas_artists.csv,.csv,4416,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_2/nmas_chartmetric_metrics.csv,.csv,47536336,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_2/nmas_extraction_notes.md,.md,1387,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_2/nmas_tracks.csv,.csv,120,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_2/nmas_variable_methodology.md,.md,18703,source,generated,"previous delivery, immutable evidence",pending
+delivery/12_System_Exports/export_run_2/quarterly_aggregates.csv,.csv,367341,source,generated,"previous delivery, immutable evidence",pending
+delivery/README.md,.md,2240,source,generated,"previous delivery, immutable evidence",pending
+backend/nmas/__init__.py,.py,56,transform,hand,backend module,pending
+backend/nmas/application.py,.py,28108,transform,hand,backend module,pending
+backend/nmas/config.py,.py,2592,transform,hand,backend module,pending
+backend/nmas/database.py,.py,1032,transform,hand,backend module,pending
+backend/nmas/metrics.py,.py,25253,transform,hand,backend module,pending
+backend/nmas/models.py,.py,13497,transform,hand,backend module,pending
+backend/nmas/schemas.py,.py,6090,transform,hand,backend module,pending
+backend/nmas/services/__init__.py,.py,50,transform,hand,backend module,pending
+backend/nmas/services/chartmetric.py,.py,23668,transform,hand,backend module,pending
+backend/nmas/services/entities.py,.py,7987,transform,hand,backend module,pending
+backend/nmas/services/exports.py,.py,19673,transform,hand,backend module,pending
+backend/nmas/services/jobs.py,.py,20683,transform,hand,backend module,pending
+backend/nmas/services/quarterly.py,.py,5512,transform,hand,backend module,pending
+backend/nmas/services/soundcharts.py,.py,12613,transform,hand,backend module,pending
+backend/nmas/soundcharts_metrics.py,.py,15597,transform,hand,backend module,pending
+backend/scripts/audit_value_provenance.py,.py,11756,transform,hand,processing script,pending
+backend/scripts/build_all_excel.py,.py,20889,transform,hand,processing script,pending
+backend/scripts/build_artist_population_frame.py,.py,16601,transform,hand,processing script,pending
+backend/scripts/build_digital_export_excel.py,.py,15540,transform,hand,processing script,pending
+backend/scripts/build_expanded_population_frame.py,.py,73640,transform,hand,processing script,pending
+backend/scripts/build_final_excel.py,.py,16388,transform,hand,processing script,pending
+backend/scripts/build_nbs_accounts.py,.py,16435,transform,hand,processing script,pending
+backend/scripts/build_sample.py,.py,50327,transform,hand,processing script,pending
+backend/scripts/consolidate_geography.py,.py,5790,transform,hand,processing script,pending
+backend/scripts/generate_console_api.py,.py,40717,transform,hand,processing script,pending
+backend/scripts/generate_extended_console_api.py,.py,10451,transform,hand,processing script,pending
+backend/scripts/generate_nbs_static_api.py,.py,7903,transform,hand,processing script,pending
+backend/scripts/generate_static_api.py,.py,7206,transform,hand,processing script,pending
+backend/scripts/merge_final_delivery.py,.py,18257,transform,hand,processing script,pending
+backend/scripts/merge_full_extraction.py,.py,8551,transform,hand,processing script,pending
+backend/scripts/nbs_deliverables.py,.py,18182,transform,hand,processing script,pending
+backend/scripts/nbs_extract_full.py,.py,22902,transform,hand,processing script,pending
+backend/scripts/nbs_extract_new_artists.py,.py,17743,transform,hand,processing script,pending
+backend/scripts/nbs_final_delivery.py,.py,42698,transform,hand,processing script,pending
+backend/scripts/nmas_soundcharts.py,.py,11851,transform,hand,processing script,pending
+backend/scripts/probe_chartmetric_ng.py,.py,3096,transform,hand,processing script,pending
+backend/scripts/soundcharts_backfill.py,.py,17989,transform,hand,processing script,pending
+backend/scripts/soundcharts_backfill_full.py,.py,21835,transform,hand,processing script,pending
+backend/scripts/soundcharts_geography_full.py,.py,7769,transform,hand,processing script,pending
+backend/scripts/soundcharts_repair_streaming.py,.py,9320,transform,hand,processing script,pending
+backend/scripts/soundcharts_resolve_artists.py,.py,6371,transform,hand,processing script,pending
+backend/scripts/standardise_final_delivery.py,.py,16150,transform,hand,processing script,pending

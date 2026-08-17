@@ -1,0 +1,5 @@
+  Daily_Metric_Observations.csv              rows=  4,243,988 dups=0
+  Extended (gz)                              rows=  8,940,472 dups=0
+  Quarterly_Aggregates_Full.csv              rows=    420,891 dups=0
+  Revenue_By_Platform_Quarterly.csv          rows=     19,143 dups=0
+DATA INTEGRITY: PASS

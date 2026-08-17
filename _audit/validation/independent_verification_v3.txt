@@ -1,0 +1,41 @@
+=== 1.5A INDEPENDENT RECOMPUTATION — fresh code, from microdata, all 31 quarters ===
+  gross    : independent $646,312,668 vs pipeline $646,312,667  residual $0
+  domestic : independent $151,429,914 vs pipeline $151,429,915  residual $0
+  export   : independent $470,201,493 vs pipeline $470,201,492  residual $1
+  VERDICT: MATCH to the cent
+
+=== 1.5B REPRODUCTION TEST — old delivered file still reproduces from its own inputs ===
+  638 rows, total |residual| $1.60 — REPRODUCES
+
+=== 1.6 CUMULATIVE IMPACT, DECOMPOSED (components must sum) ===
+  GROSS STREAMING
+    pre-audit (uplift 0.40, no guard)         $670,373,596
+    1 uplift 0.40 -> 0.30 (D-11)                   -34,318,160
+    2 plausibility guard (D-12, 35 series)          10,257,232
+    = final                                   $646,312,668
+    actual final                              $646,312,667   residual $0
+  EXPORT
+    pre-audit                                 $489,216,350
+    1 uplift correction                            -24,528,560
+    2 plausibility guard                             7,069,799
+    3 per-artist geography (split method)           -1,556,097
+    = final                                   $470,201,493
+    actual final                              $470,201,492   residual $-1
+
+  guard movement as % of final gross: +1.59%  (tripwire reference: Burna Boy approved)
+  geography movement as % of final export: -0.33%
+
+=== REVENUE COMPOSITION (final data, for the handbook) ===
+  spotify_revenue_usd              $351,000,192   54.3%
+  youtube_revenue_usd              $183,295,509   28.4%
+  deezer_revenue_usd               $6,716,908    1.0%
+  unmeasured_platform_uplift_usd   $105,300,058   16.3%
+  reach/follower-derived share: 71.6%   observed-consumption share: 28.4%
+
+=== SENSITIVITY (for the handbook) ===
+  plays/listener/month 3.0 -> gross $581,126,917 (-10.1%)
+  plays/listener/month 3.5 -> gross $646,312,667 (-0.0%)
+  plays/listener/month 4.0 -> gross $711,498,417 (+10.1%)
+  uplift 0.20            -> gross $611,212,648 (-5.4%)
+  uplift 0.30            -> gross $646,312,667 (-0.0%)
+  uplift 0.40            -> gross $681,412,686 (+5.4%)

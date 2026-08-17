@@ -1,0 +1,36 @@
+============================================================================
+A. REVENUE-FEEDING METRICS — treatment in build_nbs_accounts.py
+============================================================================
+  Spotify_monthly_listeners_daily    reach LEVEL (rolling 28-day distinct listeners)
+      treatment: level x 3.5 x 3 x $0.004 (documented EST conversion, level used AS level)
+      citation : backend/scripts/build_nbs_accounts.py:178
+  YouTube_channel_views_daily        CUMULATIVE counter
+      treatment: quarter DELTA (last - first, clamped >= 0) x $0.004
+      citation : backend/scripts/build_nbs_accounts.py:176
+  Deezer_fans_daily                  follower LEVEL
+      treatment: level x 2.0 x 3 x $0.004 (documented EST conversion, level used AS level)
+      citation : backend/scripts/build_nbs_accounts.py:180
+  VERDICT: revenue treats the one cumulative counter as a DELTA. Correct.
+
+============================================================================
+B. QUARTERLY AGGREGATES — rule applied vs metric nature
+============================================================================
+  variable                                 rule         nature                       verdict
+  Facebook_talks_daily                     sum          flow (talking-about count)   ok
+  Radio_spins_daily_NG                     sum          flow (spins per day)         ok
+  Radio_spins_daily_global                 sum          flow (spins per day)         ok
+  Wikipedia_views_daily                    sum          flow (daily page views)      ok
+  YouTube_artist_daily_views               sum          flow (daily views)           ok
+
+
+============================================================================
+C. DELTA SANITY — resets, backfills, single-observation quarters
+============================================================================
+  YouTube_channel_views_daily artist-quarters      : 8,008
+  negative raw delta (reset/backfill), clamped to 0: 216 (2.70%)
+  single-observation quarters (delta forced to 0)  : 10 (0.12%)
+  Treatment: revenue clamps negatives to 0 and a one-observation quarter
+  contributes 0 — conservative (understates, never overstates), and the
+  affected share is reported here rather than silently absorbed.
+
+VERDICT: clean

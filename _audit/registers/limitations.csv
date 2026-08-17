@@ -1,0 +1,12 @@
+item,class,reason,effect,what_would_resolve_it
+Track-level stream counts,UNK,both providers HTTP 401,revenue inferred from reach,track-level subscription
+Domestic/export split 2019-2020,UNK,provider geography begins 2021-02-26,8 quarters carry revenue with no split,no known source
+28 unresolved guard series,UNK-adjacent,neither provider provably defective at 10x disagreement,kept under incumbent precedence; impact if flipped ~-0.03% of streaming,a third data source or provider correction
+580 non-computable aggregate deltas,UNK,counter resets/backfills and single-observation quarters,blank cells with delta_raw preserved,provider-side counter history
+Employment before Q1 2025,UNK,secondary sources anchor 2024-25 only; back-casting the growth assumption would fabricate,employment absent for 2019-2024,NBS labour force survey module or industry census
+103 unmatched/ambiguous artists,UNK,no confident provider match,"under-represents older, regional, Northern acts",manual identification
+Artist residency,ASM,"provider country code is not residency (Crayon FR, Rude Boy US, 104 blank)",GNI/domestic split provisional,NBS adjudication of the flagged list
+Revenue multipliers,ASM/EST,"3.5 plays/listener etc. — registered, sensitivity published",level scales ~10% per 0.5 plays,Nigerian rate card / calibration against a label's reported streams
+Deezer fans -> revenue,ASM,follower count converted to plays,1.0% of revenue rests on a non-consumption metric,Deezer listener volumes
+Chartmetric Deezer ingestion,provider defect,"22/122 series at floor while artists healthy elsewhere; 12 resolved, 13 unresolved",characterised in handbook 5.2,provider-side fix
+Chartmetric extraction not re-runnable,-,archive floor + tier denials,delivery/ originals are immutable evidence,none — re-subscription would not recover pre-2024

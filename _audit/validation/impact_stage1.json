@@ -1,0 +1,7 @@
+{
+ "stage": "post-uplift-fix, pre-guard/geography (uplift 0.30, portfolio split, no guard)",
+ "gross": 636055435.72,
+ "export": 464687790.13,
+ "domestic": 146686385.15,
+ "rows": 19153
+}

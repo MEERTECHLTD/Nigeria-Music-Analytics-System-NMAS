@@ -1,0 +1,49 @@
+============================================================================
+A. REVENUE-FEEDING METRICS — treatment in build_nbs_accounts.py
+============================================================================
+  Spotify_monthly_listeners_daily    reach LEVEL (rolling 28-day distinct listeners)
+      treatment: level x 3.5 x 3 x $0.004 (documented EST conversion, level used AS level)
+      citation : backend/scripts/build_nbs_accounts.py:169
+  YouTube_channel_views_daily        CUMULATIVE counter
+      treatment: quarter DELTA (last - first, clamped >= 0) x $0.004
+      citation : backend/scripts/build_nbs_accounts.py:167
+  Deezer_fans_daily                  follower LEVEL
+      treatment: level x 2.0 x 3 x $0.004 (documented EST conversion, level used AS level)
+      citation : backend/scripts/build_nbs_accounts.py:171
+  VERDICT: revenue treats the one cumulative counter as a DELTA. Correct.
+
+============================================================================
+B. QUARTERLY AGGREGATES — rule applied vs metric nature
+============================================================================
+  variable                                 rule         nature                       verdict
+  Facebook_talks_daily                     sum          flow (talking-about count)   ok
+  Radio_spins_daily_NG                     sum          flow (spins per day)         ok
+  Radio_spins_daily_global                 sum          flow (spins per day)         ok
+  Wikipedia_views_daily                    sum          flow (daily page views)      ok
+  YouTube_artist_daily_views               sum          flow (daily views)           ok
+  YouTube_channel_views_daily              sum          cumulative counter           STOCK TREATED AS FLOW
+
+  DEFECT: ['YouTube_channel_views_daily'] aggregated with rule 'sum' — summing a cumulative counter's
+  daily LEVELS across a quarter. The catalogue's own limitation text says
+  'use net_change between dates for period volume':
+    backend/nmas/metrics.py:102
+    backend/nmas/soundcharts_metrics.py:76
+
+  QUANTIFICATION against delivered Quarterly_Aggregates_Full.csv:
+    YouTube_channel_views_daily                   8,012 cells   summed total 62,589,979,921,793
+    reference cell — Davido Q2_2025 YouTube_channel_views_daily:
+      published (sum of 91 daily levels): 177,639,619,700
+      correct   (net change 2025-04-01 -> 2025-06-30)   : 125,410,400
+      inflation factor: 1416x
+
+============================================================================
+C. DELTA SANITY — resets, backfills, single-observation quarters
+============================================================================
+  YouTube_channel_views_daily artist-quarters      : 8,012
+  negative raw delta (reset/backfill), clamped to 0: 217 (2.71%)
+  single-observation quarters (delta forced to 0)  : 10 (0.12%)
+  Treatment: revenue clamps negatives to 0 and a one-observation quarter
+  contributes 0 — conservative (understates, never overstates), and the
+  affected share is reported here rather than silently absorbed.
+
+VERDICT: HALT — stock treated as flow in production

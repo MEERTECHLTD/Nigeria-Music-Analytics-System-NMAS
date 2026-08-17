@@ -107,3 +107,15 @@ archived/pitch-materials/*
 
 # Pytest cache
 .pytest_cache/
+
+# --- audit run 2026-08: large data artifacts exceed GitHub's 100MB hard limit.
+# The delivery ships to NBS on media, not through git; regeneration is scripted
+# (see NBS FINAL delivery/README.md) and the raw evidence lives in backend/data.
+backend/data/
+.codex/
+.playwright-mcp/
+NBS FINAL delivery/04_Datasets/Daily_Metric_Observations.csv
+NBS FINAL delivery/04_Datasets/Geography_Full_Daily.csv.gz
+**/nmas_chartmetric_full_metrics.csv
+NBS FINAL delivery/10_Presentation/*.mp4
+NBS FINAL delivery/13_Database/

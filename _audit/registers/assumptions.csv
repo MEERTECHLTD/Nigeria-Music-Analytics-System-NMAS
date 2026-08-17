@@ -1,0 +1,13 @@
+constant,value,meaning,application,basis,effect_on_output
+STREAMS_PER_LISTENER_MONTH,3.5,plays per listener per month,"held constant for every artist, quarter and year","industry proxy, not Nigerian",revenue level scales linearly with it
+SPOTIFY_PER_STREAM,0.004,USD per stream,flat rate all periods,industry average,no Nigerian rate card obtained
+YOUTUBE_PER_VIEW,0.004,USD per view,flat rate all periods,industry average,no Nigerian rate card obtained
+DEEZER_STREAMS_PER_FAN_MONTH,2.0,plays per fan per month,constant,industry proxy,Deezer is <1% of revenue
+UNMEASURED_UPLIFT_RATE,0.4,uplift for unqueried platforms,applied to Spotify revenue,Spotify ~31% market share,reported outside the platform breakdown
+NAIRA_PER_USD,1500,FX rate,fixed across 31 quarters,single rate,real NGN/USD moved materially over 2019-2026
+TRACKS_PER_QUARTER,2,releases per artist per quarter,constant,assumption,actual release counts ARE now available in Artist_Catalogue_Summary.csv and could replace this
+AVG_PRODUCTION_COST_NGN,750000,studio cost per track,constant,secondary source,not measured
+AVG_DISTRIBUTION_COST_NGN,15000,distribution per track,constant,secondary source,not measured
+AVG_PROMOTION_COST_NGN,250000,promotion per track,constant,secondary source,not measured
+AVG_HOSTING_COST_QUARTERLY_NGN,50000,hosting per artist per quarter,constant,secondary source,not measured
+YT_NEGATIVE_DELTA_CLAMP,0,revenue treatment of non-computable YouTube deltas,"negative quarter deltas (counter reset/backfill, 217 artist-quarters) and single-observation quarters (10) contribute zero revenue","deliberate conservative choice: understates, never overstates",revenue differs from aggregates on these cells BY DESIGN — aggregates classify them UNK; documented in Standardisation_Report.md and the handbook

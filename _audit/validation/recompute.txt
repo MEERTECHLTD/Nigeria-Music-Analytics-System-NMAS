@@ -1,0 +1,10 @@
+=== INDEPENDENT RECOMPUTATION (fresh code, from microdata, not reusing pipeline logic) ===
+  independent recompute, Q2_2025, 716 artists
+    spotify   $18,597,031
+    youtube   $12,332,474
+    deezer    $292,360
+    uplift    $7,438,812
+    GROSS     $38,660,678
+  pipeline figure          $38,660,678  (716 artists)
+  difference               $0  (-0.0000%)
+  VERDICT: MATCH

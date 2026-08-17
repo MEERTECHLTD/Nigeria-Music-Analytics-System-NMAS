@@ -1,0 +1,17 @@
+indicator,class,source,verification_method,volume,limitation
+Daily observations (all variables),OBS,Soundcharts + Chartmetric endpoints,re-queried 25/25 exact match against live API,"13,192,564 rows",none
+Geography country/city values,OBS,Soundcharts streaming/social geography,row counts reconciled shard->delivery,"36,204,423 rows",provider reports only places above its own threshold
+Artist counts per quarter,CNT,count of distinct entity_name,independent recount,-,held-out artists excluded
+Quarterly aggregates,AGG,net_change / sum / last_value over OBS,independent recompute matched $0,"421,008 cells",rule per variable declared in Variable_Register.csv
+Export markets by country,AGG,sum of last-in-quarter country values,recomputed in consolidate_geography.py,"15,374 rows",lower bound; provider omits small markets
+Domestic share,AGG,Nigeria countryPlots / total,derived from OBS only,23 quarters,not available before 2021-02-26
+Spotify revenue,EST,monthly listeners x 3.5 x 3 x $0.004,independent recompute matched $0 given the constants,"19,153 rows","3.5 plays/listener/month is a fixed industry proxy, not measured"
+YouTube revenue,EST,quarter view delta x $0.004,independent recompute matched,"19,153 rows",per-view rate is an industry average
+Deezer revenue,EST,fans x 2 x 3 x $0.004,independent recompute matched,"19,153 rows",plays per fan assumed
+Unmeasured platform uplift,ASM,Spotify revenue x 0.40,arithmetic only,"19,153 rows",NOT a platform; no Boomplay/Audiomack/Apple revenue measured
+Operating costs,ASM,unit cost card x artist count x tracks,arithmetic only,372 rows,no measured cost input; unit costs from secondary sources
+NGN figures,EST,USD x 1500,arithmetic only,-,fixed FX; does not track the actual naira
+Employment,ASM,external secondary estimates,not reproducible from any file in the pipeline,-,"no generator, no primary source in delivery"
+Track-level stream counts,UNK,-,both providers return HTTP 401,-,requires a track-level subscription; cannot be established from available evidence
+Domestic/export split 2019-2020,UNK,-,provider publishes no city/country breakdown before 2021-02-26,8 quarters,"cannot be established; left blank, never zero"
+Residency (domestic vs diaspora),ASM,provider countryCode,cross-checked against NBS named examples,734 artists,"country code is not residency; wrong for Crayon (FR) and Rude Boy (US), blank for 104"
