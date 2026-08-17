@@ -99,10 +99,19 @@ METRICS: dict[str, MetricDefinition] = {
         platform="YouTube",
         endpoint_template="/api/artist/{chartmetric_id}/stat/youtube_channel",
         unit="views",
-        aggregation_rule="sum",
-        definition="Total YouTube channel views (cumulative counter from YouTube).",
+        # net_change, NOT sum: this is a CUMULATIVE counter, so summing its daily
+        # levels across a quarter multiplies the level by the observation count
+        # (audited at 1,416x inflation on the reference cell — D-15). net_change is
+        # defined as the LAST observation minus the FIRST observation inside the
+        # quarter window; if the first observation falls mid-quarter the delta
+        # covers only the observed span, stated by first/last_observed, with no
+        # interpolation across quarter edges. A negative delta (counter reset or
+        # provider backfill) and a single-observation quarter are not computable
+        # and are classified UNK by the aggregator — never zero.
+        aggregation_rule="net_change",
+        definition="Cumulative YouTube channel views; quarterly figure is the net change within the quarter.",
         source_field_candidates=("value", "views"),
-        coverage_limitations="Cumulative counter — use net_change between dates for period volume.",
+        coverage_limitations="Cumulative counter — quarterly volume is net change; resets and single-observation quarters are UNK.",
         geo_limitations="Global aggregate only.",
         stat_data_key="views",
     ),
