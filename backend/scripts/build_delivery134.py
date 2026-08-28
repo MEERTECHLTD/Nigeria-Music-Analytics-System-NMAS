@@ -23,7 +23,8 @@ Includes the YouTube revenue correction: quarters with no observed channel-view
 history (all of 2019 – Q2 2021) previously carried zero YouTube revenue because
 the rebuilt pipeline dropped the first submission's documented fallback
 (views = subscribers x 15/month). Restored as a labelled estimate — every row
-carries youtube_views_source — adding $21.3M across this package's 24 quarters.
+carries youtube_views_source; the estimated component is computed and printed
+per run rather than hardcoded here.
 """
 
 from __future__ import annotations
