@@ -32,6 +32,7 @@ Everything is per quarter from Q1 2019, so the series can be back-cast onto the
 from __future__ import annotations
 
 import csv
+from datetime import date as _date
 import gzip
 import json
 import sys
@@ -65,13 +66,30 @@ from nmas.assumptions import (  # noqa: E402
     DEEZER_PER_STREAM, DEEZER_STREAMS_PER_FAN_MONTH, NAIRA_PER_USD,
     PER_TRACK_CATEGORIES as PER_TRACK, SPOTIFY_PER_STREAM,
     STREAMS_PER_LISTENER_MONTH, TRACKS_PER_QUARTER, UNMEASURED_UPLIFT_RATE,
-    VIEWS_PER_SUBSCRIBER_MONTH,
+    MIN_OBSERVED_SPAN_COVERAGE,
+    views_per_subscriber_month,
     YOUTUBE_PER_VIEW,
 )
 
 # One artist, two frame rows, two provider UUIDs. Defined once in nmas.cohort
 # so the pipeline and the published console can never disagree on the count.
 from nmas.cohort import ALIASES  # noqa: E402
+
+
+_QSTART = {1: 1, 2: 4, 3: 7, 4: 10}
+
+
+def _d(date_str: str) -> _date:
+    return _date(int(date_str[:4]), int(date_str[5:7]), int(date_str[8:10]))
+
+
+def quarter_days(period_label: str) -> int:
+    """Calendar days in a quarter — the denominator for span coverage."""
+    q, y = period_label.split("_")
+    q, y = int(q[1:]), int(y)
+    start = _date(y, _QSTART[q], 1)
+    end = _date(y + (q == 4), 1 if q == 4 else _QSTART[q] + 3, 1)
+    return (end - start).days
 
 
 def q_of(date_str: str) -> str:
@@ -178,16 +196,37 @@ def main() -> int:
         # measured, and a revenue model can be conservative where a statistical
         # table must not assert. The two artifacts differ BY DESIGN here.
         yt_views = max(yt[1] - yt[0], 0.0) if yt else 0.0
-        # Where NO observed quarter volume exists — the views series is absent,
-        # or collapses to zero via a single observation or a counter reset — fall
-        # back to the FIRST submission's documented estimate: subscribers x 15
-        # views per month. Labelled per row; never replaces an observation.
+        # A quarter volume is only valid if the observations SPAN the quarter.
+        # Q3 2021 spanned 8 of 92 days: its delta measured barely a week and was
+        # published as a quarter, showing an 11.6% fall between two quarters that
+        # both grew. Coverage below MIN_OBSERVED_SPAN_COVERAGE is treated as an
+        # inadequate observation, not a low one.
+        span_cov = None
+        if yt and yt[2] and yt[3]:
+            span_cov = (_d(yt[3]) - _d(yt[2])).days + 1
+            span_cov /= quarter_days(quarter)
+        inadequate = span_cov is not None and span_cov < MIN_OBSERVED_SPAN_COVERAGE
+
+        # Where no ADEQUATE observed quarter volume exists — the views series is
+        # absent, collapses to zero via a single observation or a counter reset,
+        # or does not span the quarter — fall back to the calibrated estimate:
+        # subscribers x the modelled views/subscriber/month for that quarter.
+        # Labelled per row; never replaces an adequate observation.
         yt_subs = vars_.get("YouTube_subscribers_daily")
-        if yt_views > 0:
+        rate = views_per_subscriber_month(quarter)
+        if yt_views > 0 and not inadequate:
             yt_source = "observed channel views, quarter net change"
         elif yt_subs and yt_subs[1] > 0:
-            yt_views = yt_subs[1] * VIEWS_PER_SUBSCRIBER_MONTH * 3
-            yt_source = "estimated: subscribers x 15 views/month (EST, first-submission methodology)"
+            yt_views = yt_subs[1] * rate * 3
+            yt_source = ("estimated: subscribers x %.2f views/month (EST, calibrated)"
+                         % rate) if not inadequate else (
+                         "estimated: observations span %.0f%% of the quarter, "
+                         "below the %.0f%% adequacy threshold; subscribers x %.2f "
+                         "views/month (EST, calibrated)"
+                         % (span_cov * 100, MIN_OBSERVED_SPAN_COVERAGE * 100, rate))
+        elif yt_views > 0:
+            yt_source = ("observed channel views, quarter net change (PARTIAL: "
+                         "observations span %.0f%% of the quarter)" % (span_cov * 100))
         else:
             yt_source = "no YouTube presence observed"
 

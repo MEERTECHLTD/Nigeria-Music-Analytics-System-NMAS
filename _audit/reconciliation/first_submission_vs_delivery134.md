@@ -9,24 +9,24 @@ derived from the two delivered files; the decomposition below closes to $0.00.
 |---|---:|---:|
 | Quarters | 5 | 31 |
 | Artists with revenue | 128 | 130 |
-| Gross streaming revenue | $121,898,926 | $472,772,618 |
+| Gross streaming revenue | $121,898,926 | $471,978,718 |
 
 Only **5 quarters overlap**. The other 26 quarters in delivery134 were never
 previously reported, so they are **additions, not changes**:
 
-- Newly reported (26 quarters, Q1 2019 – Q4 2024 plus Q2–Q3 2026): **$353,255,376**
-- Restated (the 5 overlapping quarters): **$119,517,242**, a change of **-$2,381,684 (-2.0%)**
+- Newly reported (26 quarters, Q1 2019 – Q4 2024 plus Q2–Q3 2026): **$353,236,733**
+- Restated (the 5 overlapping quarters): **$118,741,985**, a change of **-$3,156,941 (-2.6%)**
 
 ## What changed, quarter by quarter
 
 | Quarter | First submission | delivery134 | Change | % |
 |---|---:|---:|---:|---:|
-| Q1 2025 | $23,270,141 | $21,071,772 | -$2,198,369 | -9.4% |
-| Q2 2025 | $23,333,705 | $24,008,288 | $674,584 | +2.9% |
-| Q3 2025 | $23,180,574 | $24,292,481 | $1,111,907 | +4.8% |
-| Q4 2025 | $24,158,040 | $24,819,122 | $661,082 | +2.7% |
-| Q1 2026 | $27,956,467 | $25,325,579 | -$2,630,888 | -9.4% |
-| **Total** | **$121,898,926** | **$119,517,242** | **-$2,381,684** | **-2.0%** |
+| Q1 2025 | $23,270,141 | $21,000,875 | -$2,269,265 | -9.8% |
+| Q2 2025 | $23,333,705 | $24,001,481 | $667,777 | +2.9% |
+| Q3 2025 | $23,180,574 | $23,906,868 | $726,294 | +3.1% |
+| Q4 2025 | $24,158,040 | $24,822,713 | $664,672 | +2.8% |
+| Q1 2026 | $27,956,467 | $25,010,048 | -$2,946,419 | -10.5% |
+| **Total** | **$121,898,926** | **$118,741,985** | **-$3,156,941** | **-2.6%** |
 
 ## Where every dollar of the change came from
 
@@ -34,8 +34,8 @@ previously reported, so they are **additions, not changes**:
 |---|---:|
 | Duplicate identity removed (Flavour N'abania) | -$3,417,767 |
 | Artists added (Ebenezer Obey, Odunsi, Oritsefemi) | $746 |
-| Same artists, restated | $1,035,337 |
-| **Net change** | **-$2,381,684** |
+| Same artists, restated | $260,080 |
+| **Net change** | **-$3,156,941** |
 | Residual | -$0 |
 
 ### The restated bucket splits in two
@@ -43,7 +43,7 @@ previously reported, so they are **additions, not changes**:
 | | Amount |
 |---|---:|
 | Burna Boy — defect correction | $8,870,333 |
-| The other 126 common artists | -$7,834,996 |
+| The other 126 common artists | -$8,610,253 |
 
 Burna Boy carried a stub profile in the first submission — 184 Spotify monthly
 listeners and 0 YouTube views, paying roughly $10 a quarter for one of
@@ -55,15 +55,15 @@ direction of everything else, which is why it is stated separately.
 
 The first submission estimated YouTube volume on **426 of 638 rows** 
 (subscribers x 15 views/month). delivery134 observes actual channel views on
-**613 of 648 rows**.
+**611 of 648 rows**.
 
 | Quarter | YouTube (first submission) | YouTube (delivery134) | Change | Spotify change |
 |---|---:|---:|---:|---:|
-| Q1 2025 | $9,123,087 | $5,983,689 | -$3,139,398 | $0 |
-| Q2 2025 | $7,490,621 | $6,978,127 | -$512,493 | $0 |
-| Q3 2025 | $7,473,046 | $7,400,402 | -$72,644 | $0 |
-| Q4 2025 | $7,639,191 | $7,115,131 | -$524,060 | $0 |
-| Q1 2026 | $10,388,686 | $6,591,071 | -$3,797,615 | $8,361 |
+| Q1 2025 | $9,123,087 | $5,912,793 | -$3,210,294 | $0 |
+| Q2 2025 | $7,490,621 | $6,971,320 | -$519,300 | $0 |
+| Q3 2025 | $7,473,046 | $7,014,789 | -$458,257 | $0 |
+| Q4 2025 | $7,639,191 | $7,118,722 | -$520,469 | $0 |
+| Q1 2026 | $10,388,686 | $6,275,540 | -$4,113,146 | $8,361 |
 
 Spotify revenue for these artists is **unchanged**: the listener data did not
 move. The restatement is entirely the YouTube volume basis — an estimate
@@ -71,7 +71,7 @@ replaced by an observation, and the estimate was running high.
 
 ## What this means
 
-- The first submission's five quarters are **restated -$2,381,684 (-2.0%)**, not withdrawn.
+- The first submission's five quarters are **restated -$3,156,941 (-2.6%)**, not withdrawn.
 - Two of the five quarters rise and three fall; the change is not a uniform revision.
 - The largest single item is a **defect correction in the first submission's own
   data** (Burna Boy), not a change of method.

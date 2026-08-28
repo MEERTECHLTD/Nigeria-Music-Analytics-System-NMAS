@@ -14,11 +14,11 @@ corrections, not an inconsistency.
 
 | Headline | Value |
 |---|---:|
-| Gross streaming revenue (EST), 31 quarters | $472,772,618 |
+| Gross streaming revenue (EST), 31 quarters | $471,978,718 |
 | Daily observations | 4,243,988 |
 | Revenue rows | 3,825 |
 | Quarterly aggregate cells | 125,162 |
-| YouTube volume observed / estimated (artist-quarters) | 2,091 / 526 |
+| YouTube volume observed / estimated (artist-quarters) | 1,895 / 722 |
 
 ## The revenue correction carried in this package
 
@@ -27,7 +27,7 @@ provider holds no observed channel-view history there, and the rebuilt pipeline
 had silently dropped the first submission's documented fallback
 (views = subscribers × 15/month, applied to 426 of its 638 delivered rows).
 Restored as a **labelled estimate** — every row carries `youtube_views_source`
-stating observed versus estimated — contributing **$23,234,912** of labelled estimated YouTube revenue in this
+stating observed versus estimated — contributing **$27,657,178** of labelled estimated YouTube revenue in this
 package (for example, Q1 2019 moves from $36,097 to $804,569).
 
 ## Files

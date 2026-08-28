@@ -52,12 +52,49 @@ SPOTIFY_PER_STREAM = 0.004
 YOUTUBE_PER_VIEW = 0.004
 DEEZER_PER_STREAM = 0.004
 DEEZER_STREAMS_PER_FAN_MONTH = 2.0
-# The FIRST submission's documented fallback for YouTube volume when observed
-# channel views are unavailable (426 of its 638 rows used it, marked
-# youtube_views_source='estimated'). Dropping it in the rebuilt pipeline
-# silently zeroed YouTube revenue for every quarter before Q3 2021, understating
-# the back-cast series by ~$20M for the first-submission cohort alone.
-VIEWS_PER_SUBSCRIBER_MONTH = 15.0
+# YouTube views per subscriber per month — the fallback used where no observed
+# quarter volume exists (every quarter before Q3 2021, plus artists the views
+# series never covers). Dropping it entirely silently zeroed YouTube revenue for
+# the whole back-cast; carrying it as a FLAT 15.0 was the first submission's
+# unsourced figure and does not survive measurement.
+#
+# CALIBRATION. Across the 19 fully-observed quarters (Q4 2021 - Q2 2026) the
+# AGGREGATE ratio -- total quarter view volume over total subscriber level, which
+# is what revenue depends on, not the per-artist median -- falls steadily as
+# channels accumulate subscribers faster than views:
+#     Q4 2021  11.39   Q1 2023  9.24   Q1 2025  6.83   Q2 2026  6.42
+# OLS on those 19 points: rate = 13.527 - 0.2602 * quarters_since_Q1_2019,
+# R^2 = 0.782. The fallback era is BEFORE the observed window, so the rate there
+# is this line extrapolated backwards: 13.53 (Q1 2019) down to 10.93 (Q3 2021).
+# A flat 15.0 exceeds even the first observed quarter, which the trend makes
+# implausible, so the modelled rate replaces it.
+VIEWS_PER_SUB_MONTH_BASE = 13.527
+VIEWS_PER_SUB_MONTH_TREND = -0.2602
+
+#: Kept for the register and for any consumer wanting a single headline figure:
+#: the modelled rate at the START of the back-cast.
+VIEWS_PER_SUBSCRIBER_MONTH = VIEWS_PER_SUB_MONTH_BASE
+
+# A cumulative counter's quarter volume is (last - first) observation. Where the
+# observations do not SPAN the quarter, that delta measures a shorter window and
+# understates the quarter -- it is not a valid quarterly volume. Q3 2021 spanned
+# 8 of 92 days and published a YouTube figure a third of the surrounding
+# quarters, which read as an 11.6% industry decline that never happened.
+# Below this coverage the observation is not adequate and the modelled fallback
+# is used instead, labelled as an estimate.
+MIN_OBSERVED_SPAN_COVERAGE = 0.90
+
+
+def views_per_subscriber_month(period_label: str) -> float:
+    """
+    The calibrated rate for a quarter, from the fitted trend above.
+
+    Floored at the lowest observed aggregate ratio so a long backward
+    extrapolation can never fall below what has actually been measured.
+    """
+    quarter, year = period_label.split("_")
+    since = (int(year) - 2019) * 4 + (int(quarter[1:]) - 1)
+    return max(VIEWS_PER_SUB_MONTH_BASE + VIEWS_PER_SUB_MONTH_TREND * since, 5.99)
 
 # 0.30, NOT 0.40. See module docstring: the delivered file reproduces at 0.30
 # with zero residual, and the published methodology documents 0.30.
@@ -118,15 +155,28 @@ REGISTER: tuple[Assumption, ...] = (
                "Converts Deezer fans into plays.", "Industry proxy.", "EST",
                "Same structural weakness as the Spotify multiplier."),
     Assumption("VIEWS_PER_SUBSCRIBER_MONTH", VIEWS_PER_SUBSCRIBER_MONTH,
-               "views per subscriber per month",
-               "Estimates YouTube views where the provider holds no observed "
-               "channel-view history (all quarters before Q3 2021, plus artists "
-               "the views series never covers).",
-               "First-submission methodology (nbs_deliverables.py); 426 of the "
-               "delivered 638 rows used it, marked 'estimated'.", "EST",
-               "Applied ONLY where observation is absent; every row carries "
-               "youtube_views_source stating observed versus estimated, and the "
-               "dashboard's tick mark renders only for observed views."),
+               "views per subscriber per month (at Q1 2019; declines 0.2602/quarter)",
+               "Estimates YouTube views where no observed quarter volume exists "
+               "(all quarters before Q3 2021, quarters whose observations do not "
+               "span the period, and artists the views series never covers).",
+               "Calibrated: OLS on the AGGREGATE observed ratio across the 19 "
+               "fully-observed quarters Q4 2021 - Q2 2026, R^2 = 0.782. Replaces "
+               "the first submission's unsourced flat 15.0.", "EST",
+               "The fallback era lies BEFORE the observed window, so the rate "
+               "there is an extrapolation, not a measurement; it is floored at "
+               "the lowest observed ratio (5.99). Applied ONLY where observation "
+               "is absent or inadequate; every row carries youtube_views_source."),
+    Assumption("MIN_OBSERVED_SPAN_COVERAGE", MIN_OBSERVED_SPAN_COVERAGE,
+               "fraction of the quarter the observations must span",
+               "Below this, a cumulative counter's (last - first) delta measures "
+               "a shorter window than the quarter and is not a valid quarterly "
+               "volume, so the modelled fallback is used instead.",
+               "Set from observed coverage: 19 quarters span 97.8-100%, Q3 2021 "
+               "spans 8.7% and Q3 2026 (unfinished) 42.4%. The threshold "
+               "separates those two from every adequately observed quarter.",
+               "ASM",
+               "A judgement threshold, not a measurement. Quarters it rejects "
+               "are labelled estimated rather than silently published low."),
     Assumption("UNMEASURED_UPLIFT_RATE", UNMEASURED_UPLIFT_RATE, "ratio of Spotify revenue",
                "Uplift for platforms never queried (Apple Music, Amazon, Boomplay, "
                "Audiomack and others).",
