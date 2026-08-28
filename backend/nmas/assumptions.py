@@ -52,6 +52,12 @@ SPOTIFY_PER_STREAM = 0.004
 YOUTUBE_PER_VIEW = 0.004
 DEEZER_PER_STREAM = 0.004
 DEEZER_STREAMS_PER_FAN_MONTH = 2.0
+# The FIRST submission's documented fallback for YouTube volume when observed
+# channel views are unavailable (426 of its 638 rows used it, marked
+# youtube_views_source='estimated'). Dropping it in the rebuilt pipeline
+# silently zeroed YouTube revenue for every quarter before Q3 2021, understating
+# the back-cast series by ~$20M for the first-submission cohort alone.
+VIEWS_PER_SUBSCRIBER_MONTH = 15.0
 
 # 0.30, NOT 0.40. See module docstring: the delivered file reproduces at 0.30
 # with zero residual, and the published methodology documents 0.30.
@@ -111,6 +117,16 @@ REGISTER: tuple[Assumption, ...] = (
                "plays per fan per month",
                "Converts Deezer fans into plays.", "Industry proxy.", "EST",
                "Same structural weakness as the Spotify multiplier."),
+    Assumption("VIEWS_PER_SUBSCRIBER_MONTH", VIEWS_PER_SUBSCRIBER_MONTH,
+               "views per subscriber per month",
+               "Estimates YouTube views where the provider holds no observed "
+               "channel-view history (all quarters before Q3 2021, plus artists "
+               "the views series never covers).",
+               "First-submission methodology (nbs_deliverables.py); 426 of the "
+               "delivered 638 rows used it, marked 'estimated'.", "EST",
+               "Applied ONLY where observation is absent; every row carries "
+               "youtube_views_source stating observed versus estimated, and the "
+               "dashboard's tick mark renders only for observed views."),
     Assumption("UNMEASURED_UPLIFT_RATE", UNMEASURED_UPLIFT_RATE, "ratio of Spotify revenue",
                "Uplift for platforms never queried (Apple Music, Amazon, Boomplay, "
                "Audiomack and others).",

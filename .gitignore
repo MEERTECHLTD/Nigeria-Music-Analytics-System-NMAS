@@ -119,3 +119,6 @@ NBS FINAL delivery/04_Datasets/Geography_Full_Daily.csv.gz
 **/nmas_chartmetric_full_metrics.csv
 NBS FINAL delivery/10_Presentation/*.mp4
 NBS FINAL delivery/13_Database/
+
+# delivery134: the filtered daily microdata exceeds GitHub limits; regenerate via build_delivery134.py
+delivery134/04_Datasets/Daily_Metric_Observations.csv

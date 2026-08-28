@@ -60,7 +60,7 @@ def main() -> int:
             "spotify_monthly_listeners": int(num(r, "spotify_monthly_listeners")),
             "youtube_subscribers": 0,
             "youtube_actual_views": int(num(r, "youtube_quarter_views")),
-            "youtube_views_source": "observed channel views, quarter net change",
+            "youtube_views_source": r.get("youtube_views_source", ""),
             "deezer_fans": int(num(r, "deezer_fans")),
             "est_spotify_quarterly_streams": int(num(r, "spotify_monthly_listeners") * STREAMS_PER_LISTENER_MONTH * 3),
             "spotify_revenue_usd": num(r, "spotify_revenue_usd"),

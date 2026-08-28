@@ -65,6 +65,7 @@ from nmas.assumptions import (  # noqa: E402
     DEEZER_PER_STREAM, DEEZER_STREAMS_PER_FAN_MONTH, NAIRA_PER_USD,
     PER_TRACK_CATEGORIES as PER_TRACK, SPOTIFY_PER_STREAM,
     STREAMS_PER_LISTENER_MONTH, TRACKS_PER_QUARTER, UNMEASURED_UPLIFT_RATE,
+    VIEWS_PER_SUBSCRIBER_MONTH,
     YOUTUBE_PER_VIEW,
 )
 
@@ -109,6 +110,7 @@ def main() -> int:
     # the quarter's flow is last-first.
     lvl = defaultdict(dict)      # (artist,quarter) -> {var: (first,last,fdate,ldate)}
     WANTED = {"Spotify_monthly_listeners_daily", "YouTube_channel_views_daily",
+              "YouTube_subscribers_daily",
               "Deezer_fans_daily", "Spotify_domestic_listeners_daily",
               "Spotify_total_listeners_daily", "YouTube_listeners_daily",
               "YouTube_total_listeners_daily", "YouTube_domestic_listeners_daily",
@@ -158,7 +160,8 @@ def main() -> int:
                   "measured_platform_revenue_usd", "unmeasured_platform_uplift_usd",
                   "gross_streaming_revenue_usd", "gross_streaming_revenue_ngn",
                   "domestic_share_observed", "domestic_revenue_usd", "export_revenue_usd",
-                  "export_revenue_ngn", "split_basis", "split_classification"]
+                  "export_revenue_ngn", "split_basis", "split_classification",
+                  "youtube_views_source"]
     rev_rows = []
     split_cov = defaultdict(lambda: defaultdict(int))
     for (name, quarter), vars_ in sorted(lvl.items(), key=lambda kv: (kv[0][0], qkey(kv[0][1]))):
@@ -174,6 +177,18 @@ def main() -> int:
         # measured, and a revenue model can be conservative where a statistical
         # table must not assert. The two artifacts differ BY DESIGN here.
         yt_views = max(yt[1] - yt[0], 0.0) if yt else 0.0
+        # Where NO observed quarter volume exists — the views series is absent,
+        # or collapses to zero via a single observation or a counter reset — fall
+        # back to the FIRST submission's documented estimate: subscribers x 15
+        # views per month. Labelled per row; never replaces an observation.
+        yt_subs = vars_.get("YouTube_subscribers_daily")
+        if yt_views > 0:
+            yt_source = "observed channel views, quarter net change"
+        elif yt_subs and yt_subs[1] > 0:
+            yt_views = yt_subs[1] * VIEWS_PER_SUBSCRIBER_MONTH * 3
+            yt_source = "estimated: subscribers x 15 views/month (EST, first-submission methodology)"
+        else:
+            yt_source = "no YouTube presence observed"
 
         sp_rev = listeners * STREAMS_PER_LISTENER_MONTH * 3 * SPOTIFY_PER_STREAM
         yt_rev = yt_views * YOUTUBE_PER_VIEW
@@ -231,6 +246,7 @@ def main() -> int:
             "export_revenue_ngn": round(exp_rev * NAIRA_PER_USD, 2) if exp_rev is not None else "",
             "split_basis": basis,
             "split_classification": split_cls,
+            "youtube_views_source": yt_source,
         })
 
     with (OUT / "Revenue_By_Platform_Quarterly.csv").open("w", newline="", encoding="utf-8") as h:

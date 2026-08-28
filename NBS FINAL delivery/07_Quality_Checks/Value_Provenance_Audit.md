@@ -1,14 +1,14 @@
 # Value Provenance Audit
 
-Generated 2026-08-17T01:58:10.415512+00:00
+Generated 2026-08-28T13:34:59.059998+00:00
 
 Every number in the delivery, classified by whether it was measured.
 
 | Tier | Meaning | Values |
 |---|---|---:|
-| 1 OBSERVED | a provider returned it | 49,446,312 |
+| 1 OBSERVED | a provider returned it | 49,446,375 |
 | 2 AGGREGATED | arithmetic rollup of tier 1 | 619,389 |
-| 3 ESTIMATED | tier 1 x an assumed rate | 191,430 |
+| 3 ESTIMATED | tier 1 x an assumed rate | 191,640 |
 | 4 ASSUMED | constant, no measurement | 372 |
 
 **Tiers 1 and 2 are real values.** 13,184,460 daily observations and 36,204,423 geography rows were returned by a provider for a named artist on a named date, and the quarterly figures are arithmetic on those.
@@ -24,6 +24,7 @@ Every number in the delivery, classified by whether it was measured.
 | `YOUTUBE_PER_VIEW` | 0.004 | Flat across all quarters; real RPM varies by territory and format. |
 | `DEEZER_PER_STREAM` | 0.004 | Deezer is under 1% of total revenue, so sensitivity is negligible. |
 | `DEEZER_STREAMS_PER_FAN_MONTH` | 2.0 | Same structural weakness as the Spotify multiplier. |
+| `VIEWS_PER_SUBSCRIBER_MONTH` | 15.0 | Applied ONLY where observation is absent; every row carries youtube_views_source stating observed versus estimated, and the dashboard's tick mark renders only for observed views. |
 | `UNMEASURED_UPLIFT_RATE` | 0.3 | NOT a platform and must never be presented as one. No Boomplay, Audiomack, Apple Music or Amazon revenue is measured anywhere in it. |
 | `NAIRA_PER_USD` | 1500 | The real NGN/USD rate moved materially across 2019-2026. Every naira figure in the delivery is therefore a constant-rate conversion, not a market conversion, and cross-year naira comparisons are affected. |
 | `TRACKS_PER_QUARTER` | 2 | REPLACEABLE: actual release dates for 100,019 songs are now held in Artist_Catalogue_Summary.csv and could replace this with a counted value. |
