@@ -9,24 +9,24 @@ derived from the two delivered files; the decomposition below closes to $0.00.
 |---|---:|---:|
 | Quarters | 5 | 31 |
 | Artists with revenue | 128 | 130 |
-| Gross streaming revenue | $121,898,926 | $471,978,718 |
+| Gross streaming revenue | $121,898,926 | $476,964,216 |
 
 Only **5 quarters overlap**. The other 26 quarters in delivery134 were never
 previously reported, so they are **additions, not changes**:
 
-- Newly reported (26 quarters, Q1 2019 – Q4 2024 plus Q2–Q3 2026): **$353,236,733**
-- Restated (the 5 overlapping quarters): **$118,741,985**, a change of **-$3,156,941 (-2.6%)**
+- Newly reported (26 quarters, Q1 2019 – Q4 2024 plus Q2–Q3 2026): **$358,240,495**
+- Restated (the 5 overlapping quarters): **$118,723,721**, a change of **-$3,175,205 (-2.6%)**
 
 ## What changed, quarter by quarter
 
 | Quarter | First submission | delivery134 | Change | % |
 |---|---:|---:|---:|---:|
-| Q1 2025 | $23,270,141 | $21,000,875 | -$2,269,265 | -9.8% |
+| Q1 2025 | $23,270,141 | $20,985,648 | -$2,284,493 | -9.8% |
 | Q2 2025 | $23,333,705 | $24,001,481 | $667,777 | +2.9% |
-| Q3 2025 | $23,180,574 | $23,906,868 | $726,294 | +3.1% |
-| Q4 2025 | $24,158,040 | $24,822,713 | $664,672 | +2.8% |
+| Q3 2025 | $23,180,574 | $23,834,739 | $654,165 | +2.8% |
+| Q4 2025 | $24,158,040 | $24,891,806 | $733,765 | +3.0% |
 | Q1 2026 | $27,956,467 | $25,010,048 | -$2,946,419 | -10.5% |
-| **Total** | **$121,898,926** | **$118,741,985** | **-$3,156,941** | **-2.6%** |
+| **Total** | **$121,898,926** | **$118,723,721** | **-$3,175,205** | **-2.6%** |
 
 ## Where every dollar of the change came from
 
@@ -34,8 +34,8 @@ previously reported, so they are **additions, not changes**:
 |---|---:|
 | Duplicate identity removed (Flavour N'abania) | -$3,417,767 |
 | Artists added (Ebenezer Obey, Odunsi, Oritsefemi) | $746 |
-| Same artists, restated | $260,080 |
-| **Net change** | **-$3,156,941** |
+| Same artists, restated | $241,816 |
+| **Net change** | **-$3,175,205** |
 | Residual | -$0 |
 
 ### The restated bucket splits in two
@@ -43,7 +43,7 @@ previously reported, so they are **additions, not changes**:
 | | Amount |
 |---|---:|
 | Burna Boy — defect correction | $8,870,333 |
-| The other 126 common artists | -$8,610,253 |
+| The other 126 common artists | -$8,628,517 |
 
 Burna Boy carried a stub profile in the first submission — 184 Spotify monthly
 listeners and 0 YouTube views, paying roughly $10 a quarter for one of
@@ -55,14 +55,14 @@ direction of everything else, which is why it is stated separately.
 
 The first submission estimated YouTube volume on **426 of 638 rows** 
 (subscribers x 15 views/month). delivery134 observes actual channel views on
-**611 of 648 rows**.
+**604 of 648 rows**.
 
 | Quarter | YouTube (first submission) | YouTube (delivery134) | Change | Spotify change |
 |---|---:|---:|---:|---:|
-| Q1 2025 | $9,123,087 | $5,912,793 | -$3,210,294 | $0 |
+| Q1 2025 | $9,123,087 | $5,897,565 | -$3,225,522 | $0 |
 | Q2 2025 | $7,490,621 | $6,971,320 | -$519,300 | $0 |
-| Q3 2025 | $7,473,046 | $7,014,789 | -$458,257 | $0 |
-| Q4 2025 | $7,639,191 | $7,118,722 | -$520,469 | $0 |
+| Q3 2025 | $7,473,046 | $6,942,660 | -$530,386 | $0 |
+| Q4 2025 | $7,639,191 | $7,187,815 | -$451,376 | $0 |
 | Q1 2026 | $10,388,686 | $6,275,540 | -$4,113,146 | $8,361 |
 
 Spotify revenue for these artists is **unchanged**: the listener data did not
@@ -71,7 +71,7 @@ replaced by an observation, and the estimate was running high.
 
 ## What this means
 
-- The first submission's five quarters are **restated -$3,156,941 (-2.6%)**, not withdrawn.
+- The first submission's five quarters are **restated -$3,175,205 (-2.6%)**, not withdrawn.
 - Two of the five quarters rise and three fall; the change is not a uniform revision.
 - The largest single item is a **defect correction in the first submission's own
   data** (Burna Boy), not a change of method.

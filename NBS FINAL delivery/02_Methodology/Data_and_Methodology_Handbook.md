@@ -30,15 +30,15 @@ A blank cell in any deliverable means NOT MEASURED. Zero means measured as zero.
 
 ## 3. Revenue composition — the headline methodology disclosure
 
-NBS asked directly about the 3.5 streams-per-listener multiplier. The answer, stated up front: **67.8% of estimated revenue derives from reach or follower metrics converted by assumed multipliers. 32.2% derives from an observed consumption count.**
+NBS asked directly about the 3.5 streams-per-listener multiplier. The answer, stated up front: **67.4% of estimated revenue derives from reach or follower metrics converted by assumed multipliers. 32.6% derives from an observed consumption count.**
 
 | Source metric | Type | Conversion | Revenue (USD) | Share |
 |---|---|---|---:|---:|
-| Spotify monthly listeners | Reach — distinct people, not plays | x3.5 plays/listener/month x3 x$0.004 | 351,000,192 | 51.4% |
-| YouTube channel views | **Consumption — observed plays** | quarter net change x$0.004 | 219,647,246 | 32.2% |
+| Spotify monthly listeners | Reach — distinct people, not plays | x3.5 plays/listener/month x3 x$0.004 | 352,115,619 | 51.1% |
+| YouTube channel views | **Consumption — observed plays** | quarter net change x$0.004 | 224,144,609 | 32.6% |
 | Deezer fans | **Follower count — NOT consumption** | x2.0 plays/fan/month x3 x$0.004 | 6,716,908 | 1.0% |
-| Unmeasured platform uplift | Assumed — NOT a platform | Spotify revenue x0.30 | 105,300,058 | 15.4% |
-| **Total gross streaming revenue** | `EST` throughout | | **682,664,405** | 100% |
+| Unmeasured platform uplift | Assumed — NOT a platform | Spotify revenue x0.30 | 105,634,686 | 15.3% |
+| **Total gross streaming revenue** | `EST` throughout | | **688,611,823** | 100% |
 
 **The Deezer conversion is a stated methodological weakness**: a follower count is not a play count, and converting followers to revenue rests on an assumed listening rate with no observational basis. At 1.0% of revenue it does not threaten the totals, but it is disclosed here rather than left to be discovered.
 
@@ -52,6 +52,8 @@ NBS asked directly about the 3.5 streams-per-listener multiplier. The answer, st
 | `DEEZER_PER_STREAM` | 0.004 | Industry average. | Deezer is under 1% of total revenue, so sensitivity is negligible. |
 | `DEEZER_STREAMS_PER_FAN_MONTH` | 2.0 | Industry proxy. | Same structural weakness as the Spotify multiplier. |
 | `VIEWS_PER_SUBSCRIBER_MONTH` | 13.527 | Calibrated: OLS on the AGGREGATE observed ratio across the 19 fully-observed quarters Q4 2021 - Q2 2026, R^2 = 0.782. Replaces the first submission's unsourced flat 15.0. | The fallback era lies BEFORE the observed window, so the rate there is an extrapolation, not a measurement; it is floored at the lowest observed ratio (5.99). Applied ONLY where observation is absent or inadequate; every row carries youtube_views_source. |
+| `COUNTER_RESTATEMENT_FACTOR` | 50.0 | Set from the observed distribution: 44 of 2,168 artist-quarters exceed 50x, headed by a single day of 826,001,508 views against a 351,682 median day. No genuine quarter approaches it. | A judgement threshold. It cannot distinguish a restatement from a genuine viral event of the same size; it is set far above any observed organic day so that trade-off never binds in practice. |
+| `VIEWS_PER_LISTENER_MONTH` | 12.48 | Calibrated: aggregate sum(views)/sum(listeners)/3 over the 1,703 artist-quarters carrying both series. | A listener is a monthly-audience figure, not a follower; the ratio is measured on artists who have both series and may not transfer to those who have only one. Labelled per row. |
 | `MIN_OBSERVED_SPAN_COVERAGE` | 0.9 | Set from observed coverage: 19 quarters span 97.8-100%, Q3 2021 spans 8.7% and Q3 2026 (unfinished) 42.4%. The threshold separates those two from every adequately observed quarter. | A judgement threshold, not a measurement. Quarters it rejects are labelled estimated rather than silently published low. |
 | `UNMEASURED_UPLIFT_RATE` | 0.3 | Assumed from Spotify's approximate market share. Verified against the delivered file, which reproduces at exactly this value. | NOT a platform and must never be presented as one. No Boomplay, Audiomack, Apple Music or Amazon revenue is measured anywhere in it. |
 | `NAIRA_PER_USD` | 1500 | Single assumed rate. | The real NGN/USD rate moved materially across 2019-2026. Every naira figure in the delivery is therefore a constant-rate conversion, not a market conversion, and cross-year naira comparisons are affected. |
@@ -67,12 +69,12 @@ The single source of these values is `backend/nmas/assumptions.py`; the frontend
 
 | Assumption varied | Gross streaming revenue | vs published |
 |---|---:|---:|
-| plays/listener/month = 3.0 | $617,478,655 | -9.5% |
-| plays/listener/month = 3.5 | $682,664,404 | -0.0% |
-| plays/listener/month = 4.0 | $747,850,154 | +9.5% |
-| uplift rate = 0.20 | $647,564,385 | -5.1% |
-| uplift rate = 0.30 | $682,664,404 | -0.0% |
-| uplift rate = 0.40 | $717,764,424 | +5.1% |
+| plays/listener/month = 3.0 | $623,218,922 | -9.5% |
+| plays/listener/month = 3.5 | $688,611,823 | -0.0% |
+| plays/listener/month = 4.0 | $754,004,723 | +9.5% |
+| uplift rate = 0.20 | $653,400,261 | -5.1% |
+| uplift rate = 0.30 | $688,611,823 | -0.0% |
+| uplift rate = 0.40 | $723,823,385 | +5.1% |
 
 A reader should conclude: the quarter-to-quarter MOVEMENT of the series is driven by measured audience data; the LEVEL is proportional to assumed constants and moves about 10%% for every 0.5 change in the plays multiplier.
 

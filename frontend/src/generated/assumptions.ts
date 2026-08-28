@@ -1,6 +1,6 @@
 // GENERATED FILE — do not edit. Source of truth: backend/nmas/assumptions.py
 // Regenerate with: backend/scripts/generate_frontend_assumptions.py
-// Generated 2026-08-28T18:49:50.582961+00:00
+// Generated 2026-08-28T20:13:45.284690+00:00
 //
 // Every value here is an ASSUMPTION, not a measurement. The UI imports these
 // so it can never disagree with what the pipeline actually computed (D-11).
@@ -20,6 +20,8 @@ export const YOUTUBE_PER_VIEW = 0.004;
 export const DEEZER_PER_STREAM = 0.004;
 export const DEEZER_STREAMS_PER_FAN_MONTH = 2.0;
 export const VIEWS_PER_SUBSCRIBER_MONTH = 13.527;
+export const COUNTER_RESTATEMENT_FACTOR = 50.0;
+export const VIEWS_PER_LISTENER_MONTH = 12.48;
 export const MIN_OBSERVED_SPAN_COVERAGE = 0.9;
 export const UNMEASURED_UPLIFT_RATE = 0.3;
 export const NAIRA_PER_USD = 1500;
@@ -77,6 +79,22 @@ export const ASSUMPTIONS: Record<string, AssumptionMeta> = {
     source: "Calibrated: OLS on the AGGREGATE observed ratio across the 19 fully-observed quarters Q4 2021 - Q2 2026, R^2 = 0.782. Replaces the first submission's unsourced flat 15.0.",
     classification: "EST",
     limitation: "The fallback era lies BEFORE the observed window, so the rate there is an extrapolation, not a measurement; it is floored at the lowest observed ratio (5.99). Applied ONLY where observation is absent or inadequate; every row carries youtube_views_source.",
+  },
+  COUNTER_RESTATEMENT_FACTOR: {
+    value: 50.0,
+    unit: "multiple of the artist's own median per-day rate",
+    meaning: "Above this, a one-interval jump in a cumulative counter is a provider restatement (channel merge or backfill), not consumption, and is repriced at the median rate.",
+    source: "Set from the observed distribution: 44 of 2,168 artist-quarters exceed 50x, headed by a single day of 826,001,508 views against a 351,682 median day. No genuine quarter approaches it.",
+    classification: "ASM",
+    limitation: "A judgement threshold. It cannot distinguish a restatement from a genuine viral event of the same size; it is set far above any observed organic day so that trade-off never binds in practice.",
+  },
+  VIEWS_PER_LISTENER_MONTH: {
+    value: 12.48,
+    unit: "views per YouTube listener per month",
+    meaning: "Estimates YouTube views for artists holding a YouTube listener level but no observed view volume and no subscriber level.",
+    source: "Calibrated: aggregate sum(views)/sum(listeners)/3 over the 1,703 artist-quarters carrying both series.",
+    classification: "EST",
+    limitation: "A listener is a monthly-audience figure, not a follower; the ratio is measured on artists who have both series and may not transfer to those who have only one. Labelled per row.",
   },
   MIN_OBSERVED_SPAN_COVERAGE: {
     value: 0.9,

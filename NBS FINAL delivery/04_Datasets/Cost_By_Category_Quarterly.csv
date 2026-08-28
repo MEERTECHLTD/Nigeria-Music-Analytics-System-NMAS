@@ -1,16 +1,16 @@
 period_label,account,category,artists,unit_cost_ngn,basis,cost_ngn,cost_usd
-Q1_2019,domestic_production,Studio Production,224,750000,per artist per quarter x 2 track(s),336000000,224000.0
-Q1_2019,domestic_production,Digital Distribution,224,15000,per artist per quarter x 2 track(s),6720000,4480.0
-Q1_2019,domestic_production,Web Hosting & CDN,224,50000,per artist per quarter,11200000,7466.67
-Q1_2019,domestic_production,Promotion & Marketing,224,250000,per artist per quarter x 2 track(s),112000000,74666.67
-Q1_2019,gni_diaspora,Studio Production,39,750000,per artist per quarter x 2 track(s),58500000,39000.0
-Q1_2019,gni_diaspora,Digital Distribution,39,15000,per artist per quarter x 2 track(s),1170000,780.0
-Q1_2019,gni_diaspora,Web Hosting & CDN,39,50000,per artist per quarter,1950000,1300.0
-Q1_2019,gni_diaspora,Promotion & Marketing,39,250000,per artist per quarter x 2 track(s),19500000,13000.0
-Q1_2019,unclassified,Studio Production,16,750000,per artist per quarter x 2 track(s),24000000,16000.0
-Q1_2019,unclassified,Digital Distribution,16,15000,per artist per quarter x 2 track(s),480000,320.0
-Q1_2019,unclassified,Web Hosting & CDN,16,50000,per artist per quarter,800000,533.33
-Q1_2019,unclassified,Promotion & Marketing,16,250000,per artist per quarter x 2 track(s),8000000,5333.33
+Q1_2019,domestic_production,Studio Production,226,750000,per artist per quarter x 2 track(s),339000000,226000.0
+Q1_2019,domestic_production,Digital Distribution,226,15000,per artist per quarter x 2 track(s),6780000,4520.0
+Q1_2019,domestic_production,Web Hosting & CDN,226,50000,per artist per quarter,11300000,7533.33
+Q1_2019,domestic_production,Promotion & Marketing,226,250000,per artist per quarter x 2 track(s),113000000,75333.33
+Q1_2019,gni_diaspora,Studio Production,40,750000,per artist per quarter x 2 track(s),60000000,40000.0
+Q1_2019,gni_diaspora,Digital Distribution,40,15000,per artist per quarter x 2 track(s),1200000,800.0
+Q1_2019,gni_diaspora,Web Hosting & CDN,40,50000,per artist per quarter,2000000,1333.33
+Q1_2019,gni_diaspora,Promotion & Marketing,40,250000,per artist per quarter x 2 track(s),20000000,13333.33
+Q1_2019,unclassified,Studio Production,17,750000,per artist per quarter x 2 track(s),25500000,17000.0
+Q1_2019,unclassified,Digital Distribution,17,15000,per artist per quarter x 2 track(s),510000,340.0
+Q1_2019,unclassified,Web Hosting & CDN,17,50000,per artist per quarter,850000,566.67
+Q1_2019,unclassified,Promotion & Marketing,17,250000,per artist per quarter x 2 track(s),8500000,5666.67
 Q2_2019,domestic_production,Studio Production,317,750000,per artist per quarter x 2 track(s),475500000,317000.0
 Q2_2019,domestic_production,Digital Distribution,317,15000,per artist per quarter x 2 track(s),9510000,6340.0
 Q2_2019,domestic_production,Web Hosting & CDN,317,50000,per artist per quarter,15850000,10566.67

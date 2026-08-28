@@ -66,7 +66,9 @@ from nmas.assumptions import (  # noqa: E402
     DEEZER_PER_STREAM, DEEZER_STREAMS_PER_FAN_MONTH, NAIRA_PER_USD,
     PER_TRACK_CATEGORIES as PER_TRACK, SPOTIFY_PER_STREAM,
     STREAMS_PER_LISTENER_MONTH, TRACKS_PER_QUARTER, UNMEASURED_UPLIFT_RATE,
+    COUNTER_RESTATEMENT_FACTOR,
     MIN_OBSERVED_SPAN_COVERAGE,
+    VIEWS_PER_LISTENER_MONTH,
     views_per_subscriber_month,
     YOUTUBE_PER_VIEW,
 )
@@ -74,6 +76,44 @@ from nmas.assumptions import (  # noqa: E402
 # One artist, two frame rows, two provider UUIDs. Defined once in nmas.cohort
 # so the pipeline and the published console can never disagree on the count.
 from nmas.cohort import ALIASES  # noqa: E402
+
+
+def clean_counter_volume(points):
+    """
+    Quarter volume of a cumulative counter, with provider restatements removed.
+
+    Deliberately SURGICAL: it keeps the existing (last - first) convention and
+    its zero clamp, and subtracts only the spurious EXCESS of any interval whose
+    per-day rate exceeds COUNTER_RESTATEMENT_FACTOR times the artist's own
+    median per-day rate. A quarter with no restatement is bit-for-bit unchanged.
+
+    An earlier draft summed positive increments instead. That silently changed
+    how counter RESETS are treated in 302 artist-quarters and added $12.0M of
+    unapproved revenue, swamping the $10.3M the guard was built to remove. Reset
+    handling stays exactly as documented: a negative net delta contributes zero,
+    which understates and never overstates.
+
+    Returns (volume, restated_intervals).
+    """
+    pts = sorted(set(points))
+    if len(pts) < 2:
+        return 0.0, 0
+    raw = max(pts[-1][1] - pts[0][1], 0.0)
+    steps = []
+    for (d0, v0), (d1, v1) in zip(pts, pts[1:]):
+        days = max((_d(d1) - _d(d0)).days, 1)
+        steps.append((v1 - v0, days))
+    rates = sorted(inc / days for inc, days in steps if inc > 0)
+    if not rates:
+        return raw, 0
+    median_rate = rates[len(rates) // 2]
+    excess = 0.0
+    restated = 0
+    for inc, days in steps:
+        if inc > 0 and median_rate > 0 and inc / days > COUNTER_RESTATEMENT_FACTOR * median_rate:
+            excess += inc - median_rate * days
+            restated += 1
+    return max(raw - excess, 0.0), restated
 
 
 _QSTART = {1: 1, 2: 4, 3: 7, 4: 10}
@@ -127,14 +167,15 @@ def main() -> int:
     # ---- accumulate per artist-quarter ------------------------------------
     # levels use the quarter's last observation; YouTube views are cumulative so
     # the quarter's flow is last-first.
-    lvl = defaultdict(dict)      # (artist,quarter) -> {var: (first,last,fdate,ldate)}
+    lvl = defaultdict(dict)
+    series = defaultdict(list)      # (artist,quarter) -> {var: (first,last,fdate,ldate)}
     WANTED = {"Spotify_monthly_listeners_daily", "YouTube_channel_views_daily",
               "YouTube_subscribers_daily",
               "Deezer_fans_daily", "Spotify_domestic_listeners_daily",
               "Spotify_total_listeners_daily", "YouTube_listeners_daily",
               "YouTube_total_listeners_daily", "YouTube_domestic_listeners_daily",
               "Audiomack_listeners_daily", "Boomplay_followers_daily",
-              "Audiomack_followers_daily"}
+              "Audiomack_followers_daily", "YouTube_listeners_daily"}
     sources = [(OBS, open)]
     if OBS_EXTENDED.exists():
         sources.append((OBS_EXTENDED, gzip.open))
@@ -159,6 +200,46 @@ def main() -> int:
                         cell[0], cell[2] = value, date
                     if date > cell[3]:
                         cell[1], cell[3] = value, date
+                # The counter metric needs its FULL daily series, not just the
+                # endpoints: a restatement inside the quarter is invisible to
+                # (last - first) but obvious in the increments.
+                if var == "YouTube_channel_views_daily":
+                    series[key].append((date, value))
+
+    # ---- back-cast Spotify listeners before the provider's series starts ---
+    # Spotify_monthly_listeners_daily begins 2019-05-16, so every Q1 2019 row
+    # carried 0 listeners and $0 Spotify revenue — asserting that 92 artists
+    # earned nothing on Spotify in the NBS base-year quarter, when in fact
+    # nothing was collected. Blank is not zero, and a base-year quarter cannot
+    # be left asserting a false zero.
+    #
+    # The level is carried back from each artist's OWN first observed quarter,
+    # deflated by the growth the cohort actually shows between the first two
+    # observed quarters. The deflator is derived per run, never a constant.
+    SPOT = "Spotify_monthly_listeners_daily"
+    observed_q = sorted({q for (_n, q), v in lvl.items() if SPOT in v}, key=qkey)
+    imputed_listeners = {}
+    if len(observed_q) >= 2:
+        first_q, second_q = observed_q[0], observed_q[1]
+        tot_first = sum(v[SPOT][1] for (_n, q), v in lvl.items() if q == first_q and SPOT in v)
+        tot_second = sum(v[SPOT][1] for (_n, q), v in lvl.items() if q == second_q and SPOT in v)
+        growth = (tot_second / tot_first) if tot_first > 0 else 1.0
+        earlier = sorted({q for (_n, q) in lvl if qkey(q) < qkey(first_q)}, key=qkey)
+        for quarter in earlier:
+            steps = len([x for x in earlier if qkey(x) >= qkey(quarter)])
+            for (name, q), vars_ in list(lvl.items()):
+                if q != quarter or SPOT in vars_:
+                    continue
+                anchor_cell = lvl.get((name, first_q), {}).get(SPOT)
+                if not anchor_cell or anchor_cell[1] <= 0 or growth <= 0:
+                    continue
+                level = anchor_cell[1] / (growth ** steps)
+                vars_[SPOT] = [level, level, "", ""]
+                imputed_listeners[(name, q)] = level
+        if imputed_listeners:
+            print("Spotify back-cast: %d artist-quarters before %s imputed from the "
+                  "%s level deflated by observed growth %.4f"
+                  % (len(imputed_listeners), first_q, first_q, growth))
 
     # ---- observed export share per quarter ---------------------------------
     dom_q, tot_q = defaultdict(float), defaultdict(float)
@@ -180,7 +261,7 @@ def main() -> int:
                   "gross_streaming_revenue_usd", "gross_streaming_revenue_ngn",
                   "domestic_share_observed", "domestic_revenue_usd", "export_revenue_usd",
                   "export_revenue_ngn", "split_basis", "split_classification",
-                  "youtube_views_source"]
+                  "youtube_views_source", "spotify_listeners_source"]
     rev_rows = []
     split_cov = defaultdict(lambda: defaultdict(int))
     for (name, quarter), vars_ in sorted(lvl.items(), key=lambda kv: (kv[0][0], qkey(kv[0][1]))):
@@ -195,7 +276,8 @@ def main() -> int:
         # same cells UNK instead: 0 asserts no activity, UNK states it cannot be
         # measured, and a revenue model can be conservative where a statistical
         # table must not assert. The two artifacts differ BY DESIGN here.
-        yt_views = max(yt[1] - yt[0], 0.0) if yt else 0.0
+        yt_views, yt_restated = (clean_counter_volume(series[(name, quarter)])
+                                 if yt else (0.0, 0))
         # A quarter volume is only valid if the observations SPAN the quarter.
         # Q3 2021 spanned 8 of 92 days: its delta measured barely a week and was
         # published as a quarter, showing an 11.6% fall between two quarters that
@@ -213,20 +295,43 @@ def main() -> int:
         # subscribers x the modelled views/subscriber/month for that quarter.
         # Labelled per row; never replaces an adequate observation.
         yt_subs = vars_.get("YouTube_subscribers_daily")
+        yt_lis = vars_.get("YouTube_listeners_daily")
         rate = views_per_subscriber_month(quarter)
         if yt_views > 0 and not inadequate:
-            yt_source = "observed channel views, quarter net change"
+            yt_source = ("observed channel views, quarter net change"
+                         if not yt_restated else
+                         "observed channel views, quarter net change "
+                         "(%d provider restatement%s repriced at the artist's "
+                         "median daily rate)"
+                         % (yt_restated, "" if yt_restated == 1 else "s"))
         elif yt_subs and yt_subs[1] > 0:
             yt_views = yt_subs[1] * rate * 3
-            yt_source = ("estimated: subscribers x %.2f views/month (EST, calibrated)"
-                         % rate) if not inadequate else (
-                         "estimated: observations span %.0f%% of the quarter, "
-                         "below the %.0f%% adequacy threshold; subscribers x %.2f "
-                         "views/month (EST, calibrated)"
-                         % (span_cov * 100, MIN_OBSERVED_SPAN_COVERAGE * 100, rate))
+            if yt_restated:
+                # The restatement was larger than the quarter's whole net delta,
+                # so no usable observed volume survives. Say so: the row is an
+                # estimate BECAUSE the observation was rejected, which is a
+                # different statement from having no observation at all.
+                yt_source = ("estimated: observed volume rejected (%d provider "
+                             "restatement%s exceeded the quarter's net change); "
+                             "subscribers x %.2f views/month (EST, calibrated)"
+                             % (yt_restated, "" if yt_restated == 1 else "s", rate))
+            else:
+                yt_source = ("estimated: subscribers x %.2f views/month (EST, calibrated)"
+                             % rate) if not inadequate else (
+                    "estimated: observations span %.0f%% of the quarter, "
+                    "below the %.0f%% adequacy threshold; subscribers x %.2f "
+                    "views/month (EST, calibrated)"
+                    % (span_cov * 100, MIN_OBSERVED_SPAN_COVERAGE * 100, rate))
         elif yt_views > 0:
             yt_source = ("observed channel views, quarter net change (PARTIAL: "
                          "observations span %.0f%% of the quarter)" % (span_cov * 100))
+        elif yt_lis and yt_lis[1] > 0:
+            # Neither a view volume nor a subscriber level, but an OBSERVED
+            # YouTube listener level: 177 rows were publishing $0 YouTube
+            # revenue while holding direct evidence of a YouTube audience.
+            yt_views = yt_lis[1] * VIEWS_PER_LISTENER_MONTH * 3
+            yt_source = ("estimated: YouTube listeners x %.2f views/month "
+                         "(EST, calibrated)" % VIEWS_PER_LISTENER_MONTH)
         else:
             yt_source = "no YouTube presence observed"
 
@@ -287,6 +392,11 @@ def main() -> int:
             "split_basis": basis,
             "split_classification": split_cls,
             "youtube_views_source": yt_source,
+            "spotify_listeners_source": (
+                "estimated: carried back from %s and deflated by observed growth "
+                "(EST; the provider series begins mid-Q2 2019)" % observed_q[0]
+                if (name, quarter) in imputed_listeners
+                else "observed monthly listeners, quarter end level"),
         })
 
     with (OUT / "Revenue_By_Platform_Quarterly.csv").open("w", newline="", encoding="utf-8") as h:

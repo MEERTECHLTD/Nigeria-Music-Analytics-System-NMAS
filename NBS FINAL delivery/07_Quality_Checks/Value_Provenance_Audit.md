@@ -1,14 +1,14 @@
 # Value Provenance Audit
 
-Generated 2026-08-28T18:54:53.116208+00:00
+Generated 2026-08-28T20:18:51.103010+00:00
 
 Every number in the delivery, classified by whether it was measured.
 
 | Tier | Meaning | Values |
 |---|---|---:|
-| 1 OBSERVED | a provider returned it | 49,446,375 |
+| 1 OBSERVED | a provider returned it | 49,446,387 |
 | 2 AGGREGATED | arithmetic rollup of tier 1 | 619,389 |
-| 3 ESTIMATED | tier 1 x an assumed rate | 191,640 |
+| 3 ESTIMATED | tier 1 x an assumed rate | 191,680 |
 | 4 ASSUMED | constant, no measurement | 372 |
 
 **Tiers 1 and 2 are real values.** 13,184,460 daily observations and 36,204,423 geography rows were returned by a provider for a named artist on a named date, and the quarterly figures are arithmetic on those.
@@ -25,6 +25,8 @@ Every number in the delivery, classified by whether it was measured.
 | `DEEZER_PER_STREAM` | 0.004 | Deezer is under 1% of total revenue, so sensitivity is negligible. |
 | `DEEZER_STREAMS_PER_FAN_MONTH` | 2.0 | Same structural weakness as the Spotify multiplier. |
 | `VIEWS_PER_SUBSCRIBER_MONTH` | 13.527 | The fallback era lies BEFORE the observed window, so the rate there is an extrapolation, not a measurement; it is floored at the lowest observed ratio (5.99). Applied ONLY where observation is absent or inadequate; every row carries youtube_views_source. |
+| `COUNTER_RESTATEMENT_FACTOR` | 50.0 | A judgement threshold. It cannot distinguish a restatement from a genuine viral event of the same size; it is set far above any observed organic day so that trade-off never binds in practice. |
+| `VIEWS_PER_LISTENER_MONTH` | 12.48 | A listener is a monthly-audience figure, not a follower; the ratio is measured on artists who have both series and may not transfer to those who have only one. Labelled per row. |
 | `MIN_OBSERVED_SPAN_COVERAGE` | 0.9 | A judgement threshold, not a measurement. Quarters it rejects are labelled estimated rather than silently published low. |
 | `UNMEASURED_UPLIFT_RATE` | 0.3 | NOT a platform and must never be presented as one. No Boomplay, Audiomack, Apple Music or Amazon revenue is measured anywhere in it. |
 | `NAIRA_PER_USD` | 1500 | The real NGN/USD rate moved materially across 2019-2026. Every naira figure in the delivery is therefore a constant-rate conversion, not a market conversion, and cross-year naira comparisons are affected. |

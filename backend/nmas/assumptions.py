@@ -84,6 +84,29 @@ VIEWS_PER_SUBSCRIBER_MONTH = VIEWS_PER_SUB_MONTH_BASE
 # is used instead, labelled as an estimate.
 MIN_OBSERVED_SPAN_COVERAGE = 0.90
 
+# A cumulative counter sometimes RESTATES: the provider merges channels or
+# backfills history, and the counter leaps in a single day by more than the
+# channel earns in years. Tekno Q1 2022 gains 826,001,508 views on one day
+# against a median day of 351,682 (2,349x); Fireboy DML Q3 2024 gains
+# 758,061,109. Those are bookkeeping events, not Nigerians watching videos, and
+# (last - first) counts them as revenue. 44 of 2,168 artist-quarters carry one,
+# worth $9.6M of overstated YouTube revenue.
+#
+# Any interval whose PER-DAY rate exceeds this multiple of the artist's own
+# median per-day rate for the quarter is treated as a restatement and repriced
+# at that median rate. Set at 50x: high enough that a genuine viral quarter
+# survives untouched, low enough to catch every leap of the size above.
+COUNTER_RESTATEMENT_FACTOR = 50.0
+
+# YouTube views per LISTENER per month. Distinct from the subscriber rate: a
+# listener is a monthly-audience figure, a subscriber is a standing follower.
+# Calibrated on the 1,703 artist-quarters carrying BOTH an observed quarter view
+# volume and a YouTube listener level: sum(views)/sum(listeners)/3 = 12.48.
+# Used only where an artist has a YouTube listener level but neither an observed
+# view volume nor a subscriber level - 177 rows that were publishing $0 YouTube
+# revenue while holding direct evidence of a YouTube audience.
+VIEWS_PER_LISTENER_MONTH = 12.48
+
 
 def views_per_subscriber_month(period_label: str) -> float:
     """
@@ -166,6 +189,26 @@ REGISTER: tuple[Assumption, ...] = (
                "there is an extrapolation, not a measurement; it is floored at "
                "the lowest observed ratio (5.99). Applied ONLY where observation "
                "is absent or inadequate; every row carries youtube_views_source."),
+    Assumption("COUNTER_RESTATEMENT_FACTOR", COUNTER_RESTATEMENT_FACTOR,
+               "multiple of the artist's own median per-day rate",
+               "Above this, a one-interval jump in a cumulative counter is a "
+               "provider restatement (channel merge or backfill), not "
+               "consumption, and is repriced at the median rate.",
+               "Set from the observed distribution: 44 of 2,168 artist-quarters "
+               "exceed 50x, headed by a single day of 826,001,508 views against "
+               "a 351,682 median day. No genuine quarter approaches it.", "ASM",
+               "A judgement threshold. It cannot distinguish a restatement from "
+               "a genuine viral event of the same size; it is set far above any "
+               "observed organic day so that trade-off never binds in practice."),
+    Assumption("VIEWS_PER_LISTENER_MONTH", VIEWS_PER_LISTENER_MONTH,
+               "views per YouTube listener per month",
+               "Estimates YouTube views for artists holding a YouTube listener "
+               "level but no observed view volume and no subscriber level.",
+               "Calibrated: aggregate sum(views)/sum(listeners)/3 over the 1,703 "
+               "artist-quarters carrying both series.", "EST",
+               "A listener is a monthly-audience figure, not a follower; the "
+               "ratio is measured on artists who have both series and may not "
+               "transfer to those who have only one. Labelled per row."),
     Assumption("MIN_OBSERVED_SPAN_COVERAGE", MIN_OBSERVED_SPAN_COVERAGE,
                "fraction of the quarter the observations must span",
                "Below this, a cumulative counter's (last - first) delta measures "
