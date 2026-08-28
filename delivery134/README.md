@@ -1,21 +1,24 @@
 # delivery134 — Back-cast 2019–2024, First-Submission Cohort
 
-**131 first-submission names — 130 distinct artists after the documented Flavour dedup — × 24 quarters (Q1 2019 – Q4 2024).**
+**131 first-submission names — 130 distinct artists after the documented Flavour dedup — × all 31 quarters (Q1 2019 – Q3 2026).**
 
 The artist list is the first submission's own master list. Every record the first
 submission left behind — master list, population-frame `in_sample` flags, and its
 daily observations file — agrees on **131 names**; "Flavour" and "Flavour N'abania" are one artist (the dedup is documented in the main delivery), so the package carries 130 distinct artists and does not pad the list.
 
-The window ends exactly where the first submission's coverage (Q1 2025 onward)
-begins: together the two packages form one continuous series, no overlap, no gap.
+The window covers **all 31 quarters**. The five quarters the first submission
+itself delivered (Q1 2025 – Q1 2026) are **restated** here under the current
+methodology — observed export splits, deduplication, labelled YouTube volume
+source — so a difference from a first-submission figure is one of the documented
+corrections, not an inconsistency.
 
 | Headline | Value |
 |---|---:|
-| Gross streaming revenue (EST), 24 quarters | $299,000,666 |
-| Daily observations | 2,749,299 |
-| Revenue rows | 2,921 |
-| Quarterly aggregate cells | 82,767 |
-| YouTube volume observed / estimated (artist-quarters) | 1,262 / 496 |
+| Gross streaming revenue (EST), 31 quarters | $472,772,618 |
+| Daily observations | 4,243,988 |
+| Revenue rows | 3,825 |
+| Quarterly aggregate cells | 125,162 |
+| YouTube volume observed / estimated (artist-quarters) | 2,091 / 526 |
 
 ## The revenue correction carried in this package
 
@@ -24,8 +27,8 @@ provider holds no observed channel-view history there, and the rebuilt pipeline
 had silently dropped the first submission's documented fallback
 (views = subscribers × 15/month, applied to 426 of its 638 delivered rows).
 Restored as a **labelled estimate** — every row carries `youtube_views_source`
-stating observed versus estimated — adding **$21.3M** across these 24 quarters
-(for example, Q1 2019 moves from $36,097 to $804,569).
+stating observed versus estimated — contributing **$23,234,912** of labelled estimated YouTube revenue in this
+package (for example, Q1 2019 moves from $36,097 to $804,569).
 
 ## Files
 

@@ -7,10 +7,13 @@ Scope
             Artist_Master_List.csv). Every list the first submission left behind
             — master list, frame in_sample=Y, its own daily file — agrees on
             131 artists; the package states 131 and does not invent a 134th.
-  Quarters: Q1 2019 – Q4 2024, 24 quarters. This is the back-cast NBS asked for
-            on the 2019 base year, and it ends exactly where the first
-            submission's own coverage (Q1 2025 onward) begins — together the two
-            packages form one continuous series with no overlap and no gap.
+  Quarters: ALL 31 quarters, Q1 2019 to the latest quarter in the canonical
+            delivery. The window now OVERLAPS the first submission's five
+            delivered quarters (Q1 2025 - Q1 2026); those quarters are restated
+            under the current methodology (observed export splits, Flavour
+            dedup, labelled YouTube volume source), and any difference from the
+            first-submission figures is one of the documented corrections, not
+            an inconsistency.
 
 Everything is FILTERED from the canonical NBS FINAL delivery datasets, never
 recomputed differently: a number in this package equals the same cell in the
@@ -42,7 +45,17 @@ from nmas.assumptions import BY_NAME  # noqa: E402
 
 FINAL = ROOT / "NBS FINAL delivery" / "04_Datasets"
 OUT = ROOT / "delivery134"
-LAST_Q = (2024, 4)
+# The package covers the FULL canonical window (all 31 quarters, Q1 2019 to the
+# latest quarter present), derived from the data rather than hardcoded.
+def _last_quarter():
+    import csv as _csv
+    latest = (2019, 1)
+    with (FINAL / "Revenue_By_Platform_Quarterly.csv").open(encoding="utf-8") as h:
+        for r in _csv.DictReader(h):
+            q, y = r["period_label"].split("_")
+            latest = max(latest, (int(y), int(q[1:])))
+    return latest
+LAST_Q = _last_quarter()
 
 MASTER = ROOT / "delivery" / "04_Datasets" / "Artist_Master_List.csv"
 ALIASES = {"Flavour N'abania": "Flavour"}
@@ -152,6 +165,8 @@ def main() -> int:
         elif src_field.startswith("estimated"):
             counts[q]["yt_estimated"] += 1
     quarters = sorted(per, key=qk)
+    est_rev = sum(float(r["youtube_revenue_usd"] or 0) for r in revenue
+                  if (r.get("youtube_views_source") or "").startswith("estimated"))
 
     # ---- 4. the workbook ---------------------------------------------------
     wb = Workbook()
@@ -160,17 +175,20 @@ def main() -> int:
     cover["A1"] = "Back-cast 2019-2024 — First-Submission Cohort"
     cover["A1"].font = Font(bold=True, size=14)
     notes = [
-        ("Scope", "The first submission's 131 artists x 24 quarters (Q1 2019 - Q4 2024). "
-                  "Ends exactly where the first submission's own coverage begins, so the two "
-                  "packages form one continuous series with no overlap and no gap."),
+        ("Scope", "The first submission's cohort (131 names, 130 distinct artists after the "
+                  "Flavour dedup) x all 31 quarters, Q1 2019 - Q3 2026. The five quarters the "
+                  "first submission itself delivered (Q1 2025 - Q1 2026) are RESTATED here under "
+                  "the current methodology - observed export splits, deduplication, labelled "
+                  "YouTube volume source - so differences from the first-submission figures are "
+                  "documented corrections, not inconsistencies."),
         ("Source", "Filtered from the canonical NBS FINAL delivery datasets; every figure "
                    "equals the same cell there by construction."),
         ("Revenue correction", "Quarters before Q3 2021 previously carried ZERO YouTube revenue: "
                                "the provider holds no observed channel-view history there and the "
                                "rebuilt pipeline had dropped the first submission's documented "
                                "fallback (views = subscribers x 15/month). Restored as a labelled "
-                               "estimate (+$21.3M across this package); every row states "
-                               "youtube_views_source."),
+                               "estimate contributing $%s of YouTube revenue in this package; "
+                               "every row states youtube_views_source." % format(round(est_rev), ",")),
         ("Classification", "Revenue is EST throughout. The domestic/export split is OBS per artist "
                            "where geography exists (from Q1 2021), ASM under the portfolio ratio "
                            "otherwise, and UNK - blank, never zero - for 2019-2020."),
@@ -222,18 +240,21 @@ def main() -> int:
     obs_q = sum(counts[q]["yt_observed"] for q in quarters)
     (OUT / "README.md").write_text(f"""# delivery134 — Back-cast 2019–2024, First-Submission Cohort
 
-**131 first-submission names — {len(cohort)} distinct artists after the documented Flavour dedup — × 24 quarters (Q1 2019 – Q4 2024).**
+**131 first-submission names — {len(cohort)} distinct artists after the documented Flavour dedup — × all 31 quarters (Q1 2019 – Q3 2026).**
 
 The artist list is the first submission's own master list. Every record the first
 submission left behind — master list, population-frame `in_sample` flags, and its
 daily observations file — agrees on **131 names**; "Flavour" and "Flavour N'abania" are one artist (the dedup is documented in the main delivery), so the package carries 130 distinct artists and does not pad the list.
 
-The window ends exactly where the first submission's coverage (Q1 2025 onward)
-begins: together the two packages form one continuous series, no overlap, no gap.
+The window covers **all 31 quarters**. The five quarters the first submission
+itself delivered (Q1 2025 – Q1 2026) are **restated** here under the current
+methodology — observed export splits, deduplication, labelled YouTube volume
+source — so a difference from a first-submission figure is one of the documented
+corrections, not an inconsistency.
 
 | Headline | Value |
 |---|---:|
-| Gross streaming revenue (EST), 24 quarters | ${gross:,.0f} |
+| Gross streaming revenue (EST), 31 quarters | ${gross:,.0f} |
 | Daily observations | {n_daily:,} |
 | Revenue rows | {len(revenue):,} |
 | Quarterly aggregate cells | {len(aggregates):,} |
@@ -246,8 +267,8 @@ provider holds no observed channel-view history there, and the rebuilt pipeline
 had silently dropped the first submission's documented fallback
 (views = subscribers × 15/month, applied to 426 of its 638 delivered rows).
 Restored as a **labelled estimate** — every row carries `youtube_views_source`
-stating observed versus estimated — adding **$21.3M** across these 24 quarters
-(for example, Q1 2019 moves from $36,097 to $804,569).
+stating observed versus estimated — contributing **${est_rev:,.0f}** of labelled estimated YouTube revenue in this
+package (for example, Q1 2019 moves from $36,097 to $804,569).
 
 ## Files
 
@@ -302,7 +323,8 @@ Generated {datetime.now(timezone.utc).isoformat()} by build_delivery134.py.
     print("delivery134 built: %d artists, %d quarters" % (len(cohort), len(quarters)))
     print("  daily rows %s | revenue rows %s | aggregate cells %s"
           % (format(n_daily, ","), format(len(revenue), ","), format(len(aggregates), ",")))
-    print("  gross (EST, 24Q): $%s" % format(round(gross), ","))
+    print("  gross (EST, %d quarters): $%s | estimated-YouTube component: $%s"
+          % (len(quarters), format(round(gross), ","), format(round(est_rev), ",")))
     return 0
 
 
