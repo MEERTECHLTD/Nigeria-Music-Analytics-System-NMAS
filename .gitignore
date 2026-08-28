@@ -122,3 +122,5 @@ NBS FINAL delivery/13_Database/
 
 # delivery134: the filtered daily microdata exceeds GitHub limits; regenerate via build_delivery134.py
 delivery134/04_Datasets/Daily_Metric_Observations.csv
+
+delivery130/04_Datasets/Daily_Metric_Observations.csv

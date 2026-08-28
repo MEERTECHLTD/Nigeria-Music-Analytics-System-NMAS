@@ -1,5 +1,4 @@
 import { useEffect, useState, useMemo, useRef } from 'react';
-import { NAIRA_PER_USD } from '../../generated/assumptions';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell, Legend, CartesianGrid,
@@ -409,16 +408,24 @@ export function NbsDashboard() {
               />
               <StatCard
                 title={`Export — ${periodLabel(selectedPeriod)}`}
-                value={fmtUsd(curExp?.gross_export_revenue_usd || 0)}
-                subtitle={fmtNgn(curExp?.gross_export_revenue_ngn || 0)}
+                /* `|| 0` here published NOT MEASURED as a measured zero: the split
+                   does not exist before Q1 2021, and every 2019-2020 quarter was
+                   rendering "$0" and a 0% share as though observed. Test the
+                   field, never the container. */
+                value={curExp?.gross_export_revenue_usd == null
+                  ? 'Not measured'
+                  : fmtUsd(curExp.gross_export_revenue_usd)}
+                subtitle={curExp?.gross_export_revenue_ngn == null
+                  ? 'No observed listener geography before Q1 2021'
+                  : fmtNgn(curExp.gross_export_revenue_ngn)}
                 icon={Globe}
-                trend={expTrend}
+                trend={curExp?.gross_export_revenue_usd == null ? null : expTrend}
               />
               <StatCard
-                title={`Employment — ${periodLabel(selectedPeriod)}`}
+                title={`Employment — National sector (ASM)`}
                 value={curEmp ? fmtNum(curEmp.total_employment ?? 0) : 'Not measured'}
                 subtitle={curEmp
-                  ? `${fmtNum(curEmp.male ?? 0)} male / ${fmtNum(curEmp.female ?? 0)} female · assumed (ASM)`
+                  ? `${fmtNum(curEmp.male ?? 0)} male / ${fmtNum(curEmp.female ?? 0)} female · whole Nigerian music sector, ${periodLabel(selectedPeriod)}. Not these artists' employees.`
                   : 'No employment source covers this quarter'}
                 icon={Users}
                 trend={curEmp && prevEmp ? empTrend : null}
@@ -426,7 +433,7 @@ export function NbsDashboard() {
               <StatCard
                 title={`Cumulative — All ${summary.periods.length} Quarters`}
                 value={fmtUsd(cumulativeStreaming)}
-                subtitle={`Export: ${fmtUsd(cumulativeExport)} · ${fmtNgn(cumulativeExport * NAIRA_PER_USD)}`}
+                subtitle={`Export: ${fmtUsd(cumulativeExport)} across ${summary.export_revenue.filter(r => r.gross_export_revenue_usd != null).length} of ${summary.periods.length} quarters with a measured split`}
                 icon={TrendingUp}
               />
             </div>
@@ -447,10 +454,12 @@ export function NbsDashboard() {
               />
               <StatCard
                 title="Export Share"
-                value={curExp && curRev?.gross_streaming_revenue_usd
-                  ? `${((curExp.gross_export_revenue_usd! / curRev.gross_streaming_revenue_usd!) * 100).toFixed(0)}%`
-                  : '—'}
-                subtitle="Estimated share earned outside Nigeria"
+                value={curExp?.gross_export_revenue_usd != null && curRev?.gross_streaming_revenue_usd
+                  ? `${((curExp.gross_export_revenue_usd / curRev.gross_streaming_revenue_usd) * 100).toFixed(0)}%`
+                  : 'Not measured'}
+                subtitle={curExp?.gross_export_revenue_usd == null
+                  ? 'The domestic/export split was not measured this quarter'
+                  : 'Estimated share earned outside Nigeria'}
                 icon={Globe}
               />
               <StatCard
