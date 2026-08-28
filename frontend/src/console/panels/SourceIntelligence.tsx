@@ -390,7 +390,7 @@ function Body({
                     provenance={{
                       artifact: 'run.json → report_markdown',
                       note:
-                        'Recorded once, for the whole run: 131 artists × 13 variables × 8 quarters.',
+                        'Recorded once, for the whole run: 131 master-list rows × 13 variables × 8 quarters.',
                     }}
                   />{' '}
                   <strong style={{ color: 'var(--est)' }}>units attempted — not HTTP calls.</strong>

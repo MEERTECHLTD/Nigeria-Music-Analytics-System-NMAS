@@ -526,7 +526,7 @@ function ArtifactDetail({ artifact }: { artifact: ArtifactRecord }) {
               padding: 0,
               listStyle: 'none',
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(15rem, 1fr))',
+              gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 15rem), 1fr))',
               gap: '0 var(--s4)',
             }}
           >

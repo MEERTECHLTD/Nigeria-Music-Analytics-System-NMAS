@@ -1,7 +1,7 @@
 /**
  * PANEL 4 — Artist Universe
  *
- * The 131-artist master list, one row per artist, joined to the 638 revenue
+ * The 131-row master list (130 distinct artists — one is held twice), joined to the 638 revenue
  * rows and to the 65-row entity-resolution audit.
  *
  * What this panel renders from artifacts:
@@ -16,7 +16,7 @@
  *     classification, and no classification logic exists anywhere (GAP-004)
  *   account routing — no GDP/GNI concept exists on any model (GAP-005)
  *   confidence — no confidence, standard error or interval field exists (GAP-023)
- *   match score for 66 of 131 artists — the audit covers 65 (GAP-024)
+ *   match score for 66 of 131 roster rows — the audit covers 65 (GAP-024)
  *
  * The panel's own finding, computed here rather than asserted: the artists that
  * carry an observation record and the artists that carry a match score are two
@@ -44,6 +44,7 @@ import {
   Section,
   StatFigure,
 } from '../components/primitives';
+import { DISTINCT_ARTISTS, DUPLICATE_ARTISTS } from '../../generated/cohortFacts';
 import { DataTable, type Column } from '../components/DataTable';
 import { resolveEpistemic } from '../registry/epistemic';
 import type { ArtistRow, Epistemic, ResolutionRow, Revenue, RevenueRow } from '../data/types';
@@ -92,7 +93,7 @@ export default function ArtistUniverse() {
   const audit = useResolutionAudit();
 
   return (
-    <Resolved query={artists} artifact="artists.json" label="Reading the 131-artist master list">
+    <Resolved query={artists} artifact="artists.json" label="Reading the 131-row master list">
       {(artistRows) => (
         <Resolved query={revenue} artifact="revenue.json">
           {(rev) => (
@@ -278,7 +279,7 @@ function Universe({
         key: 'obs',
         header: 'Observations',
         numeric: true,
-        note: 'Daily observation rows. Present for 65 of 131 artists — the database-export subset only.',
+        note: 'Daily observation rows. Present for 65 of 131 roster rows — the database-export subset only.',
         value: (r) => r.a.observation_count,
         render: (r) => (
           <Figure
@@ -415,7 +416,7 @@ function Universe({
         key: 'score',
         header: 'Match score',
         numeric: true,
-        note: 'Provider match score from the entity-resolution audit. Exists for 65 of 131 artists.',
+        note: 'Provider match score from the entity-resolution audit. Exists for 65 of 131 roster rows.',
         value: (r) => r.audit?.match_score ?? null,
         render: (r) =>
           r.audit?.match_score != null ? (
@@ -437,7 +438,7 @@ function Universe({
             <NotCollected
               short
               gapId="GAP-024"
-              reason="No audit row exists for this artist. 66 of 131 artists carry no score at all — including every artist that carries an observation record."
+              reason="No audit row exists for this artist. 66 of 131 roster rows carry no score at all — including every artist that carries an observation record."
             />
           ),
       },
@@ -467,8 +468,9 @@ function Universe({
         title="The universe"
         subtitle={
           <>
-            The master list holds <strong className="fig">{stats.universe}</strong> artists.{' '}
-            <strong className="fig">{stats.withRevenue}</strong> of them produce a revenue row in at
+            The master list holds <strong className="fig">{stats.universe}</strong> rows describing{' '}
+            <strong className="fig">{DISTINCT_ARTISTS}</strong> distinct artists.{' '}
+            <strong className="fig">{stats.withRevenue}</strong> rows produce a revenue row in at
             least one quarter, <strong className="fig">{stats.withObs}</strong> carry a per-artist
             observation record, and <strong className="fig">{stats.withScore}</strong> carry an
             entity-resolution match score. Those last two sets share{' '}
@@ -479,7 +481,7 @@ function Universe({
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(11rem, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 11rem), 1fr))',
             gap: 'var(--s4)',
             paddingBottom: 'var(--s3)',
           }}
@@ -536,14 +538,28 @@ function Universe({
           />
         </div>
 
-        <Callout status="unavailable" title="Three different artist counts are all true at once" gapId="GAP-033">
+        <Callout status="unavailable" title="Four different artist counts are all true at once" gapId="GAP-033">
           <p style={{ margin: 0 }}>
-            The universe is <span className="fig">{stats.universe}</span>. Per-quarter revenue rows
-            are{' '}
+            The universe is <span className="fig">{stats.universe}</span> rows, describing{' '}
+            <span className="fig">{DISTINCT_ARTISTS}</span> distinct artists
+            {DUPLICATE_ARTISTS.length > 0 ? (
+              <>
+                {' — '}
+                {DUPLICATE_ARTISTS.map((d) => (
+                  <span key={d.alias}>
+                    <strong>{d.alias}</strong> and <strong>{d.canonical}</strong> are one person,
+                    held under provider ids {d.aliasProviderId} and {d.canonicalProviderId}, each
+                    producing its own revenue rows
+                  </span>
+                ))}
+              </>
+            ) : null}
+            . Per-quarter revenue rows are{' '}
             <span className="fig">{perPeriod.map((e) => String(e[1])).join(' / ')}</span> for{' '}
             {perPeriod.map((e) => formatPeriod(e[0])).join(', ')}. The database export covers{' '}
             <span className="fig">{stats.withObs}</span>. None of these is wrong; they count
-            different things, and no artifact reconciles them.
+            different things. The gap between the first two is the duplicate identity named
+            above, which no delivered artifact reconciles.
           </p>
           <p style={{ margin: '0.5rem 0 0' }}>
             {stats.noRevenue.length > 0 ? (
@@ -619,10 +635,11 @@ function Universe({
           initialSort={{ key: 'gross', dir: 'desc' }}
           caption={
             <>
-              {stats.universe} artists. Spotify ID, YouTube ID, Label and Genres are null on{' '}
+              {stats.universe} rows — {DISTINCT_ARTISTS} distinct artists. Spotify ID, YouTube ID,
+              Label and Genres are null on{' '}
               {stats.universe}/{stats.universe} rows (GAP-027); Residency (GAP-004), Account routing
               (GAP-005) and Confidence (GAP-023) have no field anywhere in the system and are shown
-              as permanently empty columns. Observation columns exist for {stats.withObs} artists and
+              as permanently empty columns. Observation columns exist for {stats.withObs} rows and
               Match score for {stats.withScore} — never for the same artist.
             </>
           }
@@ -709,7 +726,7 @@ function ArtistDetail({ row, periods }: { row: Row; periods: string[] }) {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(21rem, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 21rem), 1fr))',
           gap: 'var(--s5)',
         }}
       >
@@ -891,7 +908,7 @@ function ArtistDetail({ row, periods }: { row: Row; periods: string[] }) {
             </dl>
           ) : (
             <Callout status="unavailable" title="No audit row for this artist" gapId="GAP-024">
-              The entity-resolution audit covers 65 of the 131 artists. For this artist the binding
+              The entity-resolution audit covers 65 of the 131 roster rows. For this artist the binding
               between the name in the master list and the Chartmetric identifier is unevidenced: no
               search string, no matched name, no score.
             </Callout>

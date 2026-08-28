@@ -55,7 +55,7 @@ export const PANELS: PanelMeta[] = [
     backed: 35,
     feasibility: 'PARTIAL',
     summary:
-      '131 artists with real coverage and estimated totals. Platform identifiers, residency and confidence are empty on every row.',
+      '131 master-list rows — 130 distinct artists — with real coverage and estimated totals. Platform identifiers, residency and confidence are empty on every row.',
   },
   {
     id: 'accounts',
@@ -103,7 +103,7 @@ export const PANELS: PanelMeta[] = [
     group: 'Coverage',
     backed: 10,
     feasibility: 'THIN',
-    summary: '131 artists, one track, zero releases, labels, charts, stations or markets.',
+    summary: '131 rows describing 130 artists, one track, zero releases, labels, charts, stations or markets.',
   },
   {
     id: 'footprint',

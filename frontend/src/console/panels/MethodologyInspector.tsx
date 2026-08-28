@@ -470,7 +470,7 @@ function Panel({ revenue, accounts }: { revenue: Revenue; accounts: Accounts }) 
               'The reconstruction from the constants register reproduces the published series exactly, in every quarter. That is the point: the entire employment series is two baselines and one growth constant, and contains no observation of the Nigerian music sector at all.',
           }}
           constants={['employment-direct', 'employment-indirect', 'employment-growth', 'gender-split']}
-          warning="Not attributable to the 131 artists, or to any artist. This is a national baseline compounded by a constant, published quarterly, and it moves only because 1.02 moves it."
+          warning="Not attributable to the 130 artists, or to any artist. This is a national baseline compounded by a constant, published quarterly, and it moves only because 1.02 moves it."
           warningGapId="GAP-019"
           extra={
             <dl style={{ margin: 0, paddingTop: 'var(--s2)' }}>

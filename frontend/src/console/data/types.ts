@@ -230,7 +230,7 @@ export interface Run {
   /**
    * The only records-in / records-out / records-rejected accounting in the
    * pipeline, and it is per-run rather than per-stage.
-   * 13,624 = 131 artists × 13 variables × 8 quarters.
+   * 13,624 = 131 master-list rows × 13 variables × 8 quarters.
    */
   total_units: number | null;
   completed_units: number | null;

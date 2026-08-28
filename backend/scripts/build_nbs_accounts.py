@@ -69,8 +69,9 @@ from nmas.assumptions import (  # noqa: E402
     YOUTUBE_PER_VIEW,
 )
 
-# One artist, two frame rows, two provider UUIDs.
-ALIASES = {"Flavour N'abania": "Flavour"}
+# One artist, two frame rows, two provider UUIDs. Defined once in nmas.cohort
+# so the pipeline and the published console can never disagree on the count.
+from nmas.cohort import ALIASES  # noqa: E402
 
 
 def q_of(date_str: str) -> str:

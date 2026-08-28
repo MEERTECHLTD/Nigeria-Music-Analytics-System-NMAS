@@ -288,7 +288,7 @@ function Body({ run }: { run: Run }) {
                 { label: 'Failed', value: unitsFailed ?? 0, epi: 'rejected' },
               ]}
               total={unitsTotal}
-              caption="13,624 units = 131 artists × 13 variables × 8 quarters. Entities skipped for a missing identifier are passed over without being counted, so the denominator is the planned grid, not the attempted population."
+              caption="13,624 units = 131 master-list rows × 13 variables × 8 quarters. Entities skipped for a missing identifier are passed over without being counted, so the denominator is the planned grid, not the attempted population."
             />
 
             <Callout status="unavailable" title="No per-unit attribution survives" gapId="GAP-028">

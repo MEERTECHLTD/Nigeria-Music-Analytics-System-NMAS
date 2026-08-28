@@ -122,7 +122,7 @@ function Register({ data }: { data: Delivery }) {
         title="What differs between the two packages"
         subtitle="Files present in one copy and not the other."
       >
-        <div style={{ display: 'grid', gap: 'var(--s5)', gridTemplateColumns: 'repeat(auto-fit, minmax(24rem, 1fr))' }}>
+        <div style={{ display: 'grid', gap: 'var(--s5)', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 24rem), 1fr))' }}>
           <DiffList
             title="Only in the submitted package"
             paths={data.only_in_submitted}

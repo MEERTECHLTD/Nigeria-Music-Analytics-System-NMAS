@@ -111,27 +111,8 @@ function ConsoleShell() {
 
       <Masthead />
 
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'var(--rail-w) minmax(0, 1fr)',
-          maxWidth: 'var(--shell-max)',
-          margin: '0 auto',
-          alignItems: 'start',
-        }}
-      >
-        <nav
-          className="no-print"
-          aria-label="Panels"
-          style={{
-            borderRight: '1px solid var(--rule)',
-            padding: 'var(--s4) 0 var(--s8)',
-            position: 'sticky',
-            top: 0,
-            maxHeight: '100vh',
-            overflowY: 'auto',
-          }}
-        >
+      <div className="console-shell">
+        <nav className="console-rail no-print" aria-label="Panels">
           {grouped.map(([group, panels]) => (
             <div key={group} style={{ marginBottom: 'var(--s4)' }}>
               <div className="h-section" style={{ padding: '0 var(--s4) var(--s1)' }}>

@@ -1023,7 +1023,7 @@ function JustificationCell({ constants }: { constants: ConstantEntry[] }) {
 
 function EstimatedDetail({ row }: { row: EstimatedRow }) {
   return (
-    <div style={{ display: 'grid', gap: 'var(--s4)', gridTemplateColumns: 'repeat(auto-fit, minmax(22rem, 1fr))' }}>
+    <div style={{ display: 'grid', gap: 'var(--s4)', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 22rem), 1fr))' }}>
       <div>
         <div className="h-section" style={{ marginBottom: 'var(--s2)' }}>
           Derivation chain

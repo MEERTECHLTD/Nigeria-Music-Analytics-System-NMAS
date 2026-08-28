@@ -59,7 +59,7 @@ def _last_quarter():
 LAST_Q = _last_quarter()
 
 MASTER = ROOT / "delivery" / "04_Datasets" / "Artist_Master_List.csv"
-ALIASES = {"Flavour N'abania": "Flavour"}
+from nmas.cohort import ALIASES  # one artist, two frame rows  # noqa: E402
 
 
 def qk(label):

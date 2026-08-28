@@ -251,7 +251,7 @@ function Body({ run }: { run: Run }) {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(18rem, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 18rem), 1fr))',
             gap: 'var(--s5)',
             paddingBottom: 'var(--s4)',
           }}
@@ -337,7 +337,7 @@ function Body({ run }: { run: Run }) {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(20rem, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 20rem), 1fr))',
             gap: '1px',
             background: 'var(--rule-hair)',
             border: '1px solid var(--rule)',

@@ -452,7 +452,7 @@ function Graph({
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(11rem, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 11rem), 1fr))',
             gap: 'var(--s4)',
             paddingBottom: 'var(--s4)',
           }}

@@ -245,11 +245,13 @@ export function NbsDashboard() {
   };
 
   // Period-aware KPIs (driven by dropdown)
-  const orderedPeriods = summary?.periods ?? [];
+  // The `?? []` fallback lives inside the memo: as a dependency it would be a
+  // fresh array on every render, so the memo would never actually memoize.
   const prevPeriod = useMemo(() => {
-    const idx = orderedPeriods.indexOf(selectedPeriod);
-    return idx > 0 ? orderedPeriods[idx - 1] : null;
-  }, [orderedPeriods, selectedPeriod]);
+    const ordered = summary?.periods ?? [];
+    const idx = ordered.indexOf(selectedPeriod);
+    return idx > 0 ? ordered[idx - 1] : null;
+  }, [summary?.periods, selectedPeriod]);
 
   const curRev = summary?.streaming_revenue?.find(r => r.period === selectedPeriod);
   const prevRev = summary?.streaming_revenue?.find(r => r.period === prevPeriod);
@@ -284,7 +286,7 @@ export function NbsDashboard() {
 
   if (loading) return (
     <div className="nmas-loading">
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center gap-3">
         <Loader2 className="animate-spin" size={24} />
         <span>Loading the NBS Dashboard…</span>
       </div>
@@ -330,7 +332,7 @@ export function NbsDashboard() {
                 Nigeria Music Analytics System — National Bureau of Statistics
               </p>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3">
               {/* Transport and freshness. A reader must know whether this is the
                   live API or the generated projection, and how stale it is. */}
               <span

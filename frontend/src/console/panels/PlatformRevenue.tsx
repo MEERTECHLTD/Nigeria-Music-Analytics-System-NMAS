@@ -46,11 +46,23 @@ import {
 } from '../components/primitives';
 import { DataTable, type Column } from '../components/DataTable';
 import { CONSTANTS_BY_ID } from '../registry/constants';
+import {
+  COST_MODEL_N,
+  DISTINCT_ARTISTS,
+  DUPLICATE_ARTISTS,
+  MASTER_LIST_ROWS,
+} from '../../generated/cohortFacts';
 import { gapsForPanel } from '../registry/gaps';
 import type { Accounts, CostRow, Epistemic, Revenue, RevenueRow } from '../data/types';
 
-/** The master artist list. Revenue rows never reach it — see GAP-033. */
-const ARTIST_UNIVERSE = 131;
+/**
+ * The master artist list. Revenue rows never reach it — see GAP-033.
+ *
+ * MASTER_LIST_ROWS is a row count and COST_MODEL_N is what the shipped cost
+ * model actually billed; both are 131, and both describe DISTINCT_ARTISTS (130)
+ * real artists, because one artist is held twice under two provider UUIDs.
+ * Derived from the delivered files in generated/cohortFacts.ts, not asserted here.
+ */
 
 /** The pseudo-row the cost artifact embeds inside its own data. */
 const COST_TOTAL_CATEGORY = '=== PERIOD TOTAL ===';
@@ -339,7 +351,8 @@ function Body({ rev, acc }: { rev: Revenue; acc: Accounts }) {
             unit="count"
             footnote={
               <>
-                of <span className="fig">{ARTIST_UNIVERSE}</span> in the master list · GAP-033
+                of <span className="fig">{MASTER_LIST_ROWS}</span> master-list rows —{' '}
+                <span className="fig">{DISTINCT_ARTISTS}</span> distinct artists · GAP-033
               </>
             }
           />
@@ -511,10 +524,24 @@ function Body({ rev, acc }: { rev: Revenue; acc: Accounts }) {
 
         <Callout status="unavailable" title="The cost model bills a different population" gapId="GAP-033">
           Every cost row is computed against{' '}
-          <Figure value={ARTIST_UNIVERSE} status="observed" unit="count" /> artists, while this
-          quarter produced <Figure value={rows.length} status="observed" unit="count" /> revenue
-          rows. The two sides of any margin calculation are drawn from different populations, so
-          they are not presented as a margin here.
+          <Figure value={COST_MODEL_N} status="observed" unit="count" /> master-list rows, while
+          this quarter produced <Figure value={rows.length} status="observed" unit="count" />{' '}
+          revenue rows. The two sides of any margin calculation are drawn from different
+          populations, so they are not presented as a margin here.
+          {DUPLICATE_ARTISTS.length > 0 ? (
+            <>
+              {' '}
+              Those rows describe only{' '}
+              <Figure value={DISTINCT_ARTISTS} status="observed" unit="count" /> distinct artists:{' '}
+              {DUPLICATE_ARTISTS.map((d) => (
+                <span key={d.alias}>
+                  <strong>{d.alias}</strong> and <strong>{d.canonical}</strong> are one artist held
+                  under two provider ids ({d.aliasProviderId} and {d.canonicalProviderId})
+                </span>
+              ))}
+              , so the delivered cost model charged one artist twice.
+            </>
+          ) : null}
         </Callout>
 
         <div
@@ -1128,7 +1155,7 @@ function ShareBar({ platforms }: { platforms: PlatformFigures[] }) {
 function ArtistDerivation({ row }: { row: RevenueRow }) {
   const ytActual = row.youtube_views_source === 'actual';
   return (
-    <div style={{ display: 'grid', gap: 'var(--s4)', gridTemplateColumns: 'repeat(auto-fit, minmax(20rem, 1fr))' }}>
+    <div style={{ display: 'grid', gap: 'var(--s4)', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 20rem), 1fr))' }}>
       <div>
         <div className="h-section" style={{ marginBottom: 'var(--s2)' }}>
           Derivation — {row.artist_name}, {formatPeriod(row.period)}

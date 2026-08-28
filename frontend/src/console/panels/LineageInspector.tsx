@@ -21,7 +21,7 @@
  *   console reads counts and aggregates of it, not the individual rows.
  *
  *   The observation summary is archive-wide and carries no period dimension. It
- *   comes from the parallel database export, which covers 65 of the 131 artists
+ *   comes from the parallel database export, which covers 65 of the 131 roster rows
  *   (GAP-032). It is therefore shown beside a selected quarter, never as that
  *   quarter's content.
  */
@@ -1197,7 +1197,7 @@ function DefectView({ rows }: { rows: AggregateRow[] }) {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(11rem, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 11rem), 1fr))',
           gap: 'var(--s4)',
           padding: 'var(--s4) 0',
         }}

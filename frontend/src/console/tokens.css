@@ -362,8 +362,70 @@ html.dark {
   padding-bottom: var(--s2);
 }
 
-/* horizontal scroll containers must scroll themselves, never the page */
-.scroll-x { overflow-x: auto; max-width: 100%; }
+/* horizontal scroll containers must scroll themselves, never the page.
+   min-width:0 is load-bearing: as a flex/grid item the default min-width:auto
+   refuses to shrink below the table's intrinsic width, so max-width:100% is
+   measured against an already-overflowing parent and the PAGE scrolls instead. */
+.scroll-x { overflow-x: auto; max-width: 100%; min-width: 0; }
+
+/* ==========================================================================
+   narrow viewports — this console is a dense, desktop-first forensic
+   instrument. It is not reflowed into a phone layout; the goal here is only
+   that the page itself never scrolls sideways. Wide tables keep their shape
+   and scroll inside .scroll-x, and long unbreakable tokens (file paths,
+   hashes, endpoints) are allowed to wrap rather than push the body open.
+   ========================================================================== */
+/* ==========================================================================
+   console shell — a fixed rail beside the panel body
+   ========================================================================== */
+.console-shell {
+  display: grid;
+  grid-template-columns: var(--rail-w) minmax(0, 1fr);
+  max-width: var(--shell-max);
+  margin: 0 auto;
+  align-items: start;
+}
+
+.console-rail {
+  border-right: 1px solid var(--rule);
+  padding: var(--s4) 0 var(--s8);
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+/* Below the breakpoint the 15rem rail would leave roughly 100px of usable
+   panel width, which is what pushed every chip and definition list past the
+   viewport and made the PAGE scroll sideways on 20 routes. Stack it instead:
+   the rail becomes a normal block above the panel and the body gets the full
+   width back. */
+@media (max-width: 860px) {
+  .console-shell { grid-template-columns: minmax(0, 1fr); }
+  /* Rows of period buttons, legend chips and filter controls are laid out as
+     single-line flex rows. Below the breakpoint they are wider than the screen,
+     and a nowrap row pushes the page open rather than clipping. Wrapping only
+     engages when the row would overflow, so nothing changes above it. */
+  .console-shell div[style*="display: flex"],
+  .console-shell .section-head,
+  .console-shell ul,
+  .console-shell li { flex-wrap: wrap; }
+  /* Text inputs carry a fixed width that exceeds a phone screen once the
+     surrounding filter row wraps. */
+  .console-shell .inp { max-width: 100%; }
+  .console-rail {
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+    position: static;
+    max-height: 40vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .scroll-x > .tbl { min-width: max-content; }
+  code, pre, .mono, .fig { overflow-wrap: anywhere; }
+  .tbl td, .tbl th { overflow-wrap: anywhere; }
+}
 
 /* ==========================================================================
    controls

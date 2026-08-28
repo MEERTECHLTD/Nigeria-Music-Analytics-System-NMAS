@@ -4,7 +4,7 @@
  * WHAT IT RENDERS
  *   1. The one genuine tested / passed / failed triple the system produces:
  *      13,624 extraction units attempted, 13,410 completed, 214 failed, from the
- *      single recorded run. The decomposition 131 artists × 13 variables ×
+ *      single recorded run. The decomposition 131 master-list rows × 13 variables ×
  *      8 quarters is verified against the artifacts at render time rather than
  *      asserted.
  *   2. The five quality checks that shipped with the delivery, each transcribed
@@ -43,6 +43,7 @@ import {
   Section,
   StatFigure,
 } from '../components/primitives';
+import { DISTINCT_ARTISTS, MASTER_LIST_ROWS } from '../../generated/cohortFacts';
 import { DataTable, type Column } from '../components/DataTable';
 import type { Coverage, LimitationGroup, Quality, Run } from '../data/types';
 
@@ -121,9 +122,9 @@ const CHECKS: ShippedCheck[] = [
     verdict: 'NO THRESHOLD',
     why: (
       <>
-        The only bound in the code is a floor of 50 — 38% of a 131-artist roster —
+        The only bound in the code is a floor of 50 — 38% of a {MASTER_LIST_ROWS}-row roster —
         and the failing branch prints LOW COVERAGE rather than FAIL, so no target
-        coverage rate is declared anywhere and the check passes at 127 of 131
+        coverage rate is declared anywhere and the check passes at 127 of {MASTER_LIST_ROWS}
         without recording the 2.3–3.1% shortfall as a defect.
       </>
     ),
@@ -160,7 +161,12 @@ const CHECKS: ShippedCheck[] = [
   },
 ];
 
-const ARTIST_UNIVERSE = 131;
+/**
+ * The roster the shipped check measured against: a MASTER-LIST ROW count.
+ * Those rows describe DISTINCT_ARTISTS real artists — one artist is held twice
+ * under two provider ids (GAP-033) — so this denominator counts rows, not people.
+ */
+const ARTIST_UNIVERSE = MASTER_LIST_ROWS;
 const SHIPPED_REPORT_PATH = 'delivery/07_Quality_Checks/Quality_Check_Report.md';
 
 /* ------------------------------------------------------------- run parsing */
@@ -299,7 +305,7 @@ function UnitTripleView({
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(12rem, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 12rem), 1fr))',
           gap: 'var(--s5)',
           paddingBottom: 'var(--s5)',
         }}
@@ -902,7 +908,7 @@ function QualityView({ quality, coverage }: { quality: Quality; coverage: Covera
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(12rem, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 12rem), 1fr))',
           gap: 'var(--s5)',
           paddingBottom: 'var(--s5)',
         }}
@@ -1061,7 +1067,7 @@ function QualityView({ quality, coverage }: { quality: Quality; coverage: Covera
             Every limitation row the pipeline recorded, grouped by variable and code.
             The three largest are the metrics that returned a payload with no usable
             field at all — roughly one row per artist per quarter, across the whole{' '}
-            {ARTIST_UNIVERSE}-artist roster.
+            {ARTIST_UNIVERSE}-row roster — {DISTINCT_ARTISTS} distinct artists.
           </>
         }
       />

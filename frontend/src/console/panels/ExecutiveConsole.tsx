@@ -123,7 +123,7 @@ function Grid({ children, min = '13rem' }: { children: ReactNode; min?: string }
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: `repeat(auto-fill, minmax(${min}, 1fr))`,
+        gridTemplateColumns: `repeat(auto-fill, minmax(min(100%, ${min}), 1fr))`,
         gap: 'var(--s5) var(--s4)',
         paddingTop: 'var(--s2)',
       }}
@@ -330,7 +330,7 @@ function CoverageSection({ cov, rev }: { cov: Coverage; rev: Revenue }) {
           value={cov.distinct_artists}
           status="observed"
           unit="count"
-          footnote="Artist master list. The population frame holds 855; only these 131 were extracted."
+          footnote="Artist master list. The population frame holds 855; only these 131 rows — 130 distinct artists — were extracted."
           to="artists"
         />
         <Tile
@@ -839,7 +839,7 @@ function RunSection({ run, cov }: { run: Run; cov: Coverage | undefined }) {
           provenance={unitProvenance}
           gapId="GAP-012"
           reason="No unit count appears in the run report."
-          footnote="131 artists × 13 variables × 8 quarters."
+          footnote="131 master-list rows × 13 variables × 8 quarters."
           to="timeline"
         />
         <Tile

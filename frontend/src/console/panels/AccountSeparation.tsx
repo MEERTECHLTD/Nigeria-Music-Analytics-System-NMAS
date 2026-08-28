@@ -12,7 +12,7 @@
  *     one field that looks like a residency field has zero variance
  *   · the three points in the codebase where the question was deferred to NBS
  *   · the review queue, which — with no classification anywhere — is the whole
- *     131-artist universe
+ *     131-row universe (130 distinct artists)
  *
  * It CANNOT show: any resident/non-resident split, any GDP-vs-GNI routing, any
  * compensation-of-employees or property-income flow crossing the border, or any
@@ -76,7 +76,7 @@ const INTENDED_BLOCKS: Array<{
   {
     block: 'Residency split of the roster',
     shows:
-      'How many of the 131 artists are resident units, how many are not, and on what recorded basis each was placed.',
+      'How many of the 130 artists are resident units, how many are not, and on what recorded basis each was placed.',
     requires: 'residency_classification and residency_basis per artist',
     gapId: 'GAP-004',
   },
@@ -147,7 +147,7 @@ const REQUIRED_FIELDS: Array<{
     field: 'review_state',
     type: 'enum, not null',
     allowed: 'unclassified · proposed · accepted · contested',
-    why: 'Drives the review queue. Every unit starts unclassified, which is where all 131 sit today.',
+    why: 'Drives the review queue. Every unit starts unclassified, which is where all 131 rows sit today.',
   },
 ];
 

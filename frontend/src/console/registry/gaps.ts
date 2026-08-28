@@ -154,7 +154,7 @@ export const GAPS: Gap[] = [
     status: 'PARTIAL',
     severity: 'blocking',
     evidence:
-      'No rule registry and no failing-record list. Five markdown quality checks exist; three cannot fail by construction and none states a threshold. A genuine tested/passed/failed triple does exist at extraction-unit granularity: 13,624 units attempted (131 artists × 13 variables × 8 quarters), 13,410 completed, 214 failed.',
+      'No rule registry and no failing-record list. Five markdown quality checks exist; three cannot fail by construction and none states a threshold. A genuine tested/passed/failed triple does exist at extraction-unit granularity: 13,624 units attempted (131 master-list rows × 13 variables × 8 quarters), 13,410 completed, 214 failed.',
     remedy:
       'Render the five checks verbatim, each annotated TAUTOLOGICAL / NO THRESHOLD / REAL, and show the unit triple as the one real denominator the system has. Never present the five checks as “validation passed”.',
   },
@@ -281,7 +281,7 @@ export const GAPS: Gap[] = [
     status: 'PARTIAL',
     severity: 'major',
     evidence:
-      'A provider match score exists for 65 of the 131 artists and is carried into the artist extract’s metadata. The remaining 66 carry no score at all, and the override table is referenced nowhere outside its definition. No score is attached to the artists whose binding is most in doubt.',
+      'A provider match score exists for 65 of the 131 roster rows and is carried into the artist extract’s metadata. The remaining 66 carry no score at all, and the override table is referenced nowhere outside its definition. No score is attached to the artists whose binding is most in doubt.',
     remedy:
       'Show the match score where one exists and NOT COLLECTED where it does not — the absence is the finding. A low observation range against a high-profile name is a resolution smell the console should surface, but no score in this artifact would have caught it.',
   },
@@ -363,7 +363,7 @@ export const GAPS: Gap[] = [
     status: 'INCONSISTENT',
     severity: 'major',
     evidence:
-      'The database export holds 265,538 observations over 65 artists and 8 quarters. The script artifact holds 850,059 over 131 artists and 9 quarters. The documentation states a third figure.',
+      'The database export holds 265,538 observations over 65 artists and 8 quarters. The script artifact holds 850,059 over 131 roster rows and 9 quarters. The documentation states a third figure.',
     remedy: 'Display the script artifact as the source and show all three counts side by side with their paths. Never present one as “the” count.',
   },
   {
@@ -373,8 +373,8 @@ export const GAPS: Gap[] = [
     status: 'INCONSISTENT',
     severity: 'minor',
     evidence:
-      'The universe is 131; the summary reports 127; the cost model uses 131; per-period revenue counts are 128/128/128/127/127; the database export holds 65.',
-    remedy: 'Show the per-period count against the universe size as a denominator, and name the artists that never produce a revenue row.',
+      'The master list holds 131 ROWS but 130 distinct artists — "Flavour" and "Flavour N\'abania" are one person under provider ids 56982 and 372062, each producing revenue in all five quarters. The summary reports 127; the cost model bills 131; per-period revenue counts are 128/128/128/127/127; the database export holds 65.',
+    remedy: 'State every count under its own name — rows versus distinct artists — name the duplicate identity, and show the per-period count against the roster as a denominator. Counts are derived in generated/cohortFacts.ts so they cannot drift from the delivered files.',
   },
   {
     id: 'GAP-034',
