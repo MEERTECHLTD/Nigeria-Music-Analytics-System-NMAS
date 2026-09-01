@@ -12,9 +12,9 @@ weakest quarter in three separate years, after the December peak.
 ## Why the whole series is NOT fitted
 
 The series contains a structural break. Trailing-twelve-month growth ran
-+102%% to Q2 2022, fell to +4%% through 2025, and is re-accelerating to +12%%
++102% to Q2 2022, fell to +4% through 2025, and is re-accelerating to +12%
 by Q2 2026 — the market matured as provider coverage stopped expanding and
-the base grew. Fitting all 30 quarters returns +41.9%%/year and projects
+the base grew. Fitting all 30 quarters returns +41.9%/year and projects
 Q4 2026 at $55M against a last observed quarter of $28.6M: it fits the
 2019–2021 base effect and calls it the future.
 

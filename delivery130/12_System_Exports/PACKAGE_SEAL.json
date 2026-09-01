@@ -1,9 +1,9 @@
 {
   "package": "delivery130",
-  "sealed_utc": "2026-09-01T01:17:24+00:00",
-  "package_sha256": "4b4b0d28ba2c5dc31e0ac4c0286b334283d1df6a3df16393c46b6f4a34e17211",
-  "files": 59,
-  "total_bytes": 1064105232,
+  "sealed_utc": "2026-09-01T01:30:12+00:00",
+  "package_sha256": "52df99c64a43bbfa90967d961eb32b494611d0b4f5574cc57ba864320fff9bae",
+  "files": 70,
+  "total_bytes": 1066048421,
   "artists": 129,
   "quarters": 31,
   "revenue_rows": 3798,

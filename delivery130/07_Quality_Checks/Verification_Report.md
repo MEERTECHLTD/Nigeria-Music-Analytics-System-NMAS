@@ -1,6 +1,6 @@
 # Verification Report — DELIVERY130
 
-Generated 2026-09-01 01:16 UTC by `backend/scripts/verify_delivery130.py`, which recomputes every figure
+Generated 2026-09-01 01:30 UTC by `backend/scripts/verify_delivery130.py`, which recomputes every figure
 from the published files using its own arithmetic. It imports no build script, so a
 defect in the generators cannot hide behind a check that shares their logic.
 

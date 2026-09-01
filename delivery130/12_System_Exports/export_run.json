@@ -7,7 +7,7 @@
   "last_quarter": "Q3_2026",
   "revenue_rows": 3798,
   "gross_streaming_revenue_usd": 469833610.14,
-  "files": 57,
+  "files": 68,
   "generators": [
     "build_delivery130.py",
     "build_delivery130_projection.py",

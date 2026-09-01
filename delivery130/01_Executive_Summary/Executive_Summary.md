@@ -35,8 +35,8 @@ growth calculation.
 ## Growth
 
 Growth is **not** uniform across the period and must not be quoted as a single rate.
-On a trailing-twelve-month basis it ran above 100%% to 2022 as provider coverage
-expanded, fell to about 4%% through 2025 as the market matured, and is
+On a trailing-twelve-month basis it ran above 100% to 2022 as provider coverage
+expanded, fell to about 4% through 2025 as the market matured, and is
 re-accelerating into 2026.
 
 The forward projection is fitted on the **last 12 complete quarters** and gives

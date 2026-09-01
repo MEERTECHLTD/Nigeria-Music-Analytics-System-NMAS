@@ -260,9 +260,9 @@ def main() -> int:
     L.append("weakest quarter in three separate years, after the December peak.\n")
     L.append("## Why the whole series is NOT fitted\n")
     L.append("The series contains a structural break. Trailing-twelve-month growth ran")
-    L.append("+102%% to Q2 2022, fell to +4%% through 2025, and is re-accelerating to +12%%")
+    L.append("+102% to Q2 2022, fell to +4% through 2025, and is re-accelerating to +12%")
     L.append("by Q2 2026 — the market matured as provider coverage stopped expanding and")
-    L.append("the base grew. Fitting all 30 quarters returns +41.9%%/year and projects")
+    L.append("the base grew. Fitting all 30 quarters returns +41.9%/year and projects")
     L.append("Q4 2026 at $55M against a last observed quarter of $28.6M: it fits the")
     L.append("2019–2021 base effect and calls it the future.\n")
     L.append("The projection is fitted on the **last %d complete quarters (%s – %s)**."

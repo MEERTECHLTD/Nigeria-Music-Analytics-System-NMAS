@@ -168,8 +168,8 @@ def main() -> int:
     a("growth calculation.\n")
     a("## Growth\n")
     a("Growth is **not** uniform across the period and must not be quoted as a single rate.")
-    a("On a trailing-twelve-month basis it ran above 100%% to 2022 as provider coverage")
-    a("expanded, fell to about 4%% through 2025 as the market matured, and is")
+    a("On a trailing-twelve-month basis it ran above 100% to 2022 as provider coverage")
+    a("expanded, fell to about 4% through 2025 as the market matured, and is")
     a("re-accelerating into 2026.\n")
     a("The forward projection is fitted on the **last %s complete quarters** and gives"
       % used["window_quarters"])

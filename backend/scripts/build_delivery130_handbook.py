@@ -229,14 +229,14 @@ def main() -> int:
     a("typical rate.\n")
     a("*A quarter must be spanned to be measured.* If the observations cover only part of")
     a("the quarter, the increase across them is not the quarter's volume. Where coverage")
-    a("falls below 90%% the observation is treated as inadequate and an estimate is used")
+    a("falls below 90% the observation is treated as inadequate and an estimate is used")
     a("instead — and the record says so. Q3 2021 was measured over 8 days of 92 and")
-    a("published a fall of 11.6%% that never happened.\n")
+    a("published a fall of 11.6% that never happened.\n")
     a("### 5.3 Deezer\n")
     a("Revenue = fans × 2.0 streams per fan per month × 3 months × $0.004. Fan counts are")
     a("observed; the 2.0 is an assumption of the same kind as the Spotify 3.5.\n")
     a("### 5.4 Other digital platforms\n")
-    a("A flat **30%% uplift on Spotify revenue**, standing for platforms never queried.")
+    a("A flat **30% uplift on Spotify revenue**, standing for platforms never queried.")
     a("It is an assumption end to end and is carried in its own column, outside the")
     a("platform breakdown, so it cannot be mistaken for a measured platform.\n")
     a("---\n")
@@ -246,11 +246,16 @@ def main() -> int:
     a("> unchanged.\n")
     a("| Category | Basis |")
     a("|---|---|")
+    COST_LABELS = {
+        "AVG_PRODUCTION_COST_NGN": "Studio Production",
+        "AVG_DISTRIBUTION_COST_NGN": "Digital Distribution",
+        "AVG_PROMOTION_COST_NGN": "Promotion & Marketing",
+        "AVG_HOSTING_COST_QUARTERLY_NGN": "Web Hosting & CDN",
+    }
     for x in REGISTER:
-        if x.name.startswith("AVG_"):
+        if x.name in COST_LABELS:
             a("| %s | %s per artist per quarter (%s) |"
-              % (x.name.replace("AVG_", "").replace("_COST_NGN", "").replace("_", " ").title(),
-                 ngn(x.value), x.classification))
+              % (COST_LABELS[x.name], ngn(x.value), x.classification))
     a("")
     a("**On attributing cost to a product, we must be straightforward with NBS.**\n")
     a("NBS asked for operating cost broken down by product. It is provided, but with an")
@@ -424,7 +429,7 @@ def main() -> int:
     a("1. **No platform payout is observed.** All revenue is estimated from audience.")
     a("2. **No track-level stream count exists** in any source used here.")
     a("3. **The 3.5 and 2.0 multipliers are proxies.** Revenue scales linearly with them.")
-    a("4. **The 30%% other-platform uplift measures nothing.** No such platform was queried.")
+    a("4. **The 30% other-platform uplift measures nothing.** No such platform was queried.")
     a("5. **YouTube before September 2021 is entirely modelled.** No view observation exists.")
     a("6. **Residence rests on a provider's administrative country field** for most artists.")
     a("7. **Exchange rates are annual averages** of one rate, not quarterly and not")
