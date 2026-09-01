@@ -1,0 +1,20 @@
+{
+  "package": "delivery130",
+  "sealed_utc": "2026-09-01T00:41:57+00:00",
+  "package_sha256": "4634586ffcc77ff03e503b98bae81832063c7e0466043d40e438c4a7eca61804",
+  "files": 49,
+  "total_bytes": 1062831398,
+  "artists": 129,
+  "quarters": 31,
+  "revenue_rows": 3799,
+  "gross_streaming_revenue_usd_all_quarters": 476918406.15,
+  "gross_streaming_revenue_usd_complete_quarters": 448362136.63,
+  "incomplete_quarter": {
+    "period": "Q3_2026",
+    "usd": 28556269.52,
+    "observations_end": "2026-08-11",
+    "days_observed": 42,
+    "days_in_quarter": 92
+  },
+  "note": "Verification attaches to package_sha256, not to the folder name. If any file changes, this seal is void and must be regenerated."
+}

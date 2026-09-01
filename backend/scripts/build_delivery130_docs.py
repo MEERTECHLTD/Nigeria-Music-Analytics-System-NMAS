@@ -72,7 +72,10 @@ def main() -> int:
          periods[-1].replace("_", " "), stamp))
     a("| Headline | Value |")
     a("|---|---:|")
-    a("| Gross streaming revenue (EST) | %s |" % m(total))
+    a("| Gross streaming revenue (EST), all %d quarters | %s |" % (len(periods), m(total)))
+    a("| — of which Q3 2026, an INCOMPLETE quarter | %s |" % m(gross.get("Q3_2026", 0.0)))
+    a("| Gross streaming revenue, COMPLETE quarters only | %s |"
+      % m(total - gross.get("Q3_2026", 0.0)))
     a("| In naira, at %s/USD | ₦%s |" % (format(NAIRA_PER_USD, ","), format(total * NAIRA_PER_USD, ",.0f")))
     a("| Artists | %d |" % len(artists))
     a("| Quarters | %d |" % len(periods))
@@ -82,10 +85,17 @@ def main() -> int:
     a("")
     a("## The cohort\n")
     a("These are the artists of the first submission. That submission's master list holds")
-    a("**%d rows** but describes **%d artists**: \"Flavour\" and \"Flavour N'abania\" are one"
-      % (c["master_list_rows"], c["distinct_artists"]))
-    a("person carried under two provider UUIDs. This package counts people, so it carries")
-    a("%d. No artist has been added to pad the list and none has been dropped.\n" % c["distinct_artists"])
+    a("**%d rows** but describes **%d artists**. %d pairs are one person carried twice under"
+      % (c["master_list_rows"], c["distinct_artists"], len(c["duplicates"])))
+    a("two provider UUIDs:\n")
+    for d in c["duplicates"]:
+        a("- **%s** and **%s**" % (d["canonical"], d["alias"]))
+    a("")
+    a("This package counts people, so it carries %d. No artist has been added to pad the"
+      % c["distinct_artists"])
+    a("list and none has been dropped. The second pair was found by independent")
+    a("verification after the package was first built, not by the pipeline — the earlier")
+    a("count of 130 was wrong and is corrected here.\n")
     a("## Arrangement\n")
     a("The file structure and column layout follow the first submission exactly, so the two")
     a("packages can be read side by side and diffed:\n")
@@ -135,6 +145,16 @@ def main() -> int:
     a("%s to %s.\n" % (periods[0].replace("_", " "), periods[-1].replace("_", " ")))
     a("## Gross streaming revenue\n")
     a("**%s** (₦%s) across the whole period.\n" % (m(total), format(total * NAIRA_PER_USD, ",.0f")))
+    a("Q3 2026 is an **INCOMPLETE quarter**. The revenue-bearing series all end 2026-08-11,")
+    a("42 of the quarter\'s 92 days (45.7% coverage), and the quarter does not close until")
+    a("2026-09-30. Its level-based components (Spotify listeners, Deezer fans) are billed for")
+    a("three full months regardless of how much of the quarter was observed, so it is booked")
+    a("at %s, %.2f%% of the headline, while being under half observed.\n"
+      % (m(gross.get("Q3_2026", 0.0)), gross.get("Q3_2026", 0.0) / total * 100))
+    a("Restricted to the %d COMPLETE quarters the figure is **%s**. Both are published"
+      % (len(periods) - 1, m(total - gross.get("Q3_2026", 0.0))))
+    a("because a total that silently mixes a part-quarter with full ones is comparable to")
+    a("neither.\n")
     a("| Year | Gross streaming revenue | Quarters |")
     a("|---|---:|---:|")
     for y in sorted(yr):
@@ -144,7 +164,7 @@ def main() -> int:
     a("The series runs from %s in %s to %s in %s. Q3 2026 is an **incomplete quarter** —"
       % (m(gross[periods[0]]), periods[0].replace("_", " "),
          m(gross["Q2_2026"]), "Q2 2026"))
-    a("observations end 2026-08-16 and it closes 2026-09-30 — and is excluded from every")
+    a("the revenue-bearing series end 2026-08-11 (42 of 92 days, 45.7% coverage) and it closes 2026-09-30 — and is excluded from every")
     a("growth calculation.\n")
     a("## Growth\n")
     a("Growth is **not** uniform across the period and must not be quoted as a single rate.")

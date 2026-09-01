@@ -1,6 +1,6 @@
 // GENERATED FILE — do not edit. Source of truth: backend/nmas/cohort.py
 // Regenerate with: backend/scripts/generate_cohort_facts.py
-// Generated 2026-09-01T00:10:24.534468+00:00
+// Generated 2026-09-01T00:38:11.168128+00:00
 //
 // A row count and an artist count are different measurements. The first
 // submission's master list holds 131 rows describing 129 distinct artists:

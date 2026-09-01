@@ -30,15 +30,15 @@ A blank cell in any deliverable means NOT MEASURED. Zero means measured as zero.
 
 ## 3. Revenue composition — the headline methodology disclosure
 
-NBS asked directly about the 3.5 streams-per-listener multiplier. The answer, stated up front: **67.4% of estimated revenue derives from reach or follower metrics converted by assumed multipliers. 32.6% derives from an observed consumption count.**
+NBS asked directly about the 3.5 streams-per-listener multiplier. The answer, stated up front: **67.5% of estimated revenue derives from reach or follower metrics converted by assumed multipliers. 32.5% derives from an observed consumption count.**
 
 | Source metric | Type | Conversion | Revenue (USD) | Share |
 |---|---|---|---:|---:|
-| Spotify monthly listeners | Reach — distinct people, not plays | x3.5 plays/listener/month x3 x$0.004 | 352,115,619 | 51.1% |
-| YouTube channel views | **Consumption — observed plays** | quarter net change x$0.004 | 224,144,609 | 32.6% |
-| Deezer fans | **Follower count — NOT consumption** | x2.0 plays/fan/month x3 x$0.004 | 6,714,726 | 1.0% |
-| Unmeasured platform uplift | Assumed — NOT a platform | Spotify revenue x0.30 | 105,634,686 | 15.3% |
-| **Total gross streaming revenue** | `EST` throughout | | **688,609,641** | 100% |
+| Spotify monthly listeners | Reach — distinct people, not plays | x3.5 plays/listener/month x3 x$0.004 | 352,150,505 | 51.1% |
+| YouTube channel views | **Consumption — observed plays** | quarter net change x$0.004 | 224,051,489 | 32.5% |
+| Deezer fans | **Follower count — NOT consumption** | x2.0 plays/fan/month x3 x$0.004 | 6,718,866 | 1.0% |
+| Unmeasured platform uplift | Assumed — NOT a platform | Spotify revenue x0.30 | 105,645,152 | 15.3% |
+| **Total gross streaming revenue** | `EST` throughout | | **688,566,013** | 100% |
 
 **The Deezer conversion is a stated methodological weakness**: a follower count is not a play count, and converting followers to revenue rests on an assumed listening rate with no observational basis. At 1.0% of revenue it does not threaten the totals, but it is disclosed here rather than left to be discovered.
 
@@ -69,12 +69,12 @@ The single source of these values is `backend/nmas/assumptions.py`; the frontend
 
 | Assumption varied | Gross streaming revenue | vs published |
 |---|---:|---:|
-| plays/listener/month = 3.0 | $623,216,740 | -9.5% |
-| plays/listener/month = 3.5 | $688,609,641 | -0.0% |
-| plays/listener/month = 4.0 | $754,002,541 | +9.5% |
-| uplift rate = 0.20 | $653,398,079 | -5.1% |
-| uplift rate = 0.30 | $688,609,641 | -0.0% |
-| uplift rate = 0.40 | $723,821,203 | +5.1% |
+| plays/listener/month = 3.0 | $623,166,633 | -9.5% |
+| plays/listener/month = 3.5 | $688,566,012 | -0.0% |
+| plays/listener/month = 4.0 | $753,965,392 | +9.5% |
+| uplift rate = 0.20 | $653,350,962 | -5.1% |
+| uplift rate = 0.30 | $688,566,012 | -0.0% |
+| uplift rate = 0.40 | $723,781,063 | +5.1% |
 
 A reader should conclude: the quarter-to-quarter MOVEMENT of the series is driven by measured audience data; the LEVEL is proportional to assumed constants and moves about 10%% for every 0.5 change in the plays multiplier.
 

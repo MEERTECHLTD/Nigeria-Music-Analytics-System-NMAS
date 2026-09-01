@@ -15,7 +15,7 @@ Model
   then blame the data.
 
 Fitted on the COMPLETE quarters only. Q3 2026 is excluded: observations end
-2026-08-16 and the quarter closes 2026-09-30, so it is an outturn-in-progress,
+2026-08-11 and the quarter closes 2026-09-30, so it is an outturn-in-progress,
 not a data point. Including it would drag the trend down with a quarter that
 has not finished happening.
 
@@ -42,7 +42,7 @@ from nmas.assumptions import NAIRA_PER_USD  # noqa: E402
 D = ROOT / "delivery130" / "04_Datasets"
 OUTDIR = ROOT / "delivery130" / "14_Growth_Projection"
 TOTAL_ROW = "=== PERIOD TOTAL ==="
-INCOMPLETE = {"Q3_2026"}          # observations end 2026-08-16; quarter ends 09-30
+INCOMPLETE = {"Q3_2026"}          # the revenue series end 2026-08-11 (45.7% of the quarter); quarter ends 09-30
 HORIZON = 8                        # quarters projected forward
 
 # The series contains a STRUCTURAL BREAK and must not be fitted whole. Growth on
@@ -267,7 +267,7 @@ def main() -> int:
     L.append("2019–2021 base effect and calls it the future.\n")
     L.append("The projection is fitted on the **last %d complete quarters (%s – %s)**."
              % (len(fit_p), fit_p[0].replace("_", " "), fit_p[-1].replace("_", " ")))
-    L.append("Q3 2026 is excluded separately: observations end 2026-08-16 and the quarter")
+    L.append("Q3 2026 is excluded separately: the revenue series end 2026-08-11 (45.7% of the quarter) and the quarter")
     L.append("closes 2026-09-30, so it is an outturn in progress, not a data point.\n")
     L.append("### Window sensitivity\n")
     L.append("| Window | Period | Annual growth | R² |")

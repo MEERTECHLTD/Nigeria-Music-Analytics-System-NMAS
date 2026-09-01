@@ -4,7 +4,7 @@
 
     ln(revenue_t) = a + b*t + s2*Q2 + s3*Q3 + s4*Q4
 
-Log-linear because the series compounds: it runs from $1,872,809 to $28,565,092, and a
+Log-linear because the series compounds: it runs from $1,872,809 to $28,565,229, and a
 straight line on the level would fit the tail and ignore the base. Quarterly
 dummies because the seasonality is real and one-directional — Q1 is the
 weakest quarter in three separate years, after the December peak.
@@ -19,30 +19,30 @@ Q4 2026 at $55M against a last observed quarter of $28.6M: it fits the
 2019–2021 base effect and calls it the future.
 
 The projection is fitted on the **last 12 complete quarters (Q3 2023 – Q2 2026)**.
-Q3 2026 is excluded separately: observations end 2026-08-16 and the quarter
+Q3 2026 is excluded separately: the revenue series end 2026-08-11 (45.7% of the quarter) and the quarter
 closes 2026-09-30, so it is an outturn in progress, not a data point.
 
 ### Window sensitivity
 
 | Window | Period | Annual growth | R² |
 |---|---|---:|---:|
-| 8 quarters | Q3 2024 – Q2 2026 | +12.06% | 0.8560 |
-| 12 quarters **(used)** | Q3 2023 – Q2 2026 | +8.82% | 0.8886 |
-| 16 quarters | Q3 2022 – Q2 2026 | +9.59% | 0.8529 |
-| 20 quarters | Q3 2021 – Q2 2026 | +18.78% | 0.7883 |
-| 30 quarters | Q1 2019 – Q2 2026 | +41.80% | 0.8850 |
+| 8 quarters | Q3 2024 – Q2 2026 | +11.95% | 0.8524 |
+| 12 quarters **(used)** | Q3 2023 – Q2 2026 | +8.77% | 0.8871 |
+| 16 quarters | Q3 2022 – Q2 2026 | +9.56% | 0.8524 |
+| 20 quarters | Q3 2021 – Q2 2026 | +18.75% | 0.7877 |
+| 30 quarters | Q1 2019 – Q2 2026 | +41.78% | 0.8847 |
 
 ## Fit
 
 | Statistic | Value |
 |---|---:|
-| Quarterly growth rate | 2.14% |
-| Implied annual growth | 8.82% |
-| R² (log scale) | 0.8886 |
-| Residual sigma (log) | 0.0387 |
-| Q2 seasonal effect | +10.64% |
-| Q3 seasonal effect | +6.08% |
-| Q4 seasonal effect | +6.34% |
+| Quarterly growth rate | 2.12% |
+| Implied annual growth | 8.77% |
+| R² (log scale) | 0.8871 |
+| Residual sigma (log) | 0.0389 |
+| Q2 seasonal effect | +10.65% |
+| Q3 seasonal effect | +6.05% |
+| Q4 seasonal effect | +6.20% |
 
 Seasonal effects are relative to Q1, the base quarter.
 
@@ -50,14 +50,14 @@ Seasonal effects are relative to Q1, the base quarter.
 
 | Quarter | Projected USD | 95% lower | 95% upper |
 |---|---:|---:|---:|
-| Q4 2026 | $27,393,651 | $25,374,033 | $29,529,777 |
-| Q1 2027 | $26,311,375 | $24,371,549 | $28,363,106 |
-| Q2 2027 | $29,732,404 | $27,540,360 | $32,050,903 |
-| Q3 2027 | $29,115,154 | $26,968,617 | $31,385,521 |
-| Q4 2027 | $29,810,421 | $27,612,625 | $32,135,004 |
-| Q1 2028 | $28,632,662 | $26,521,697 | $30,865,405 |
-| Q2 2028 | $32,355,507 | $29,970,073 | $34,878,553 |
-| Q3 2028 | $31,683,801 | $29,347,889 | $34,154,468 |
+| Q4 2026 | $27,334,694 | $25,311,261 | $29,475,354 |
+| Q1 2027 | $26,286,826 | $24,340,961 | $28,345,424 |
+| Q2 2027 | $29,704,704 | $27,505,834 | $32,030,967 |
+| Q3 2027 | $29,074,294 | $26,922,089 | $31,351,188 |
+| Q4 2027 | $29,732,258 | $27,531,348 | $32,060,679 |
+| Q1 2028 | $28,592,480 | $26,475,941 | $30,831,641 |
+| Q2 2028 | $32,310,146 | $29,918,409 | $34,840,449 |
+| Q3 2028 | $31,624,441 | $29,283,463 | $34,101,044 |
 
 ## What this is not
 

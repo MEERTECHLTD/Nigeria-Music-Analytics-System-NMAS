@@ -176,6 +176,34 @@ def main() -> int:
               "YouTube_total_listeners_daily", "YouTube_domestic_listeners_daily",
               "Audiomack_listeners_daily", "Boomplay_followers_daily",
               "Audiomack_followers_daily", "YouTube_listeners_daily"}
+    # ---- pin one provider identity per aliased artist, per variable --------
+    # For each artist that exists under two provider identities, count how many
+    # observations each identity holds for each variable and pin the richer one.
+    # Deterministic, data-driven, and it never lets a sparse or empty identity
+    # displace a well-observed one. Artists with a single identity are unaffected.
+    PINNED = {}
+    if ALIASES:
+        tally = defaultdict(lambda: defaultdict(int))
+        members = defaultdict(set)
+        for a, canon in ALIASES.items():
+            members[canon].add(a)
+            members[canon].add(canon)
+        watched = {n for grp in members.values() for n in grp}
+        pre_sources = [(OBS, open)]
+        if OBS_EXTENDED.exists():
+            pre_sources.append((OBS_EXTENDED, gzip.open))
+        for path, opener in pre_sources:
+            with opener(path, "rt", encoding="utf-8") as handle:
+                for row in csv.DictReader(handle):
+                    if row["entity_name"] in watched and row["variable_name"] in WANTED:
+                        tally[(ALIASES.get(row["entity_name"], row["entity_name"]),
+                               row["variable_name"])][row["entity_name"]] += 1
+        for (canon, var), by_id in tally.items():
+            PINNED[(canon, var)] = max(sorted(by_id), key=lambda i: (by_id[i], i == canon))
+        for (canon, var), who in sorted(PINNED.items()):
+            if who != canon:
+                print("  pinned %-28s %-34s -> %s" % (canon, var, who))
+
     sources = [(OBS, open)]
     if OBS_EXTENDED.exists():
         sources.append((OBS_EXTENDED, gzip.open))
@@ -185,7 +213,20 @@ def main() -> int:
                 var = row["variable_name"]
                 if var not in WANTED:
                     continue
-                name = ALIASES.get(row["entity_name"], row["entity_name"])
+                raw = row["entity_name"]
+                name = ALIASES.get(raw, raw)
+                # Where two provider identities describe ONE artist, use only the
+                # identity pinned for that variable (see pin_identity below).
+                # Merging both and keeping "whichever reported last" let a stub's
+                # value overwrite the real artist's level: Flavour published 144
+                # monthly listeners for Q4 2020 between quarters of 395,562 and
+                # 474,370, and 2,960 YouTube subscribers for Q4 2025 against a
+                # real 3,906,364 — while the view count was computed off the real
+                # figure, so the row could not be reproduced from its own columns.
+                if name != raw and PINNED.get((name, var)) not in (None, raw):
+                    continue
+                if name == raw and PINNED.get((name, var)) not in (None, raw):
+                    continue
                 key = (name, row["period_label"])
                 try:
                     value = float(row["variable_value"])

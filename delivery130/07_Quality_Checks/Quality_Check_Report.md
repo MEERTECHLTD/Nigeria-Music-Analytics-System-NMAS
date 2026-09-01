@@ -13,7 +13,7 @@ fail by construction are not reported as passes.
 
 ## Coverage, stated rather than checked
 
-- YouTube volume: 1,875 rows observed, 920 estimated, 1,004 with no YouTube presence.
+- YouTube volume: 1,876 rows observed, 919 estimated, 1,004 with no YouTube presence.
 - Export split: measured in 23 of 31 quarters.
 - Q3 2026 is incomplete and is excluded from growth calculations.
 

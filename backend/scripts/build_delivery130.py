@@ -95,12 +95,27 @@ def main() -> int:
     periods = sorted({r["period_label"] for r in rev}, key=qkey)
 
     # subscriber levels + per-artist observed geography for the market column
-    subs = {}
+    # Subscriber levels come from the aggregates, which still hold BOTH provider
+    # identities of an aliased artist. Take the canonical identity's own row and
+    # fall back to an alias only where the canonical has none — otherwise a stub
+    # identity wins the key and publishes, for example, 2,960 YouTube subscribers
+    # for Flavour in Q4 2025 against a real 3,906,364, while the view count on the
+    # same row was computed off the real figure.
+    subs, subs_alias = {}, {}
     for r in csv.DictReader((FINAL / "Quarterly_Aggregates_Full.csv").open(encoding="utf-8")):
-        if r["variable_name"] == "YouTube_subscribers_daily" and r["entity_name"] in both:
-            v = num(r["period_max"])
-            if v is not None:
-                subs[(canonical(r["entity_name"]), r["period_label"])] = v
+        if r["variable_name"] != "YouTube_subscribers_daily" or r["entity_name"] not in both:
+            continue
+        v = num(r["period_max"])
+        if v is None:
+            continue
+        raw = r["entity_name"]
+        canon = canonical(raw)
+        target = subs if raw == canon else subs_alias
+        k = (canon, r["period_label"])
+        if k not in target or v > target[k]:
+            target[k] = v
+    for k, v in subs_alias.items():
+        subs.setdefault(k, v)
 
     print("computing per-artist export markets from observed listener geography...")
     geo = defaultdict(lambda: defaultdict(float))     # (artist, q) -> country -> listeners
@@ -195,7 +210,14 @@ def main() -> int:
             exn = num(r["export_revenue_ngn"])
             ex.append({
                 "period": q, "artist_name": a,
-                "total_streaming_revenue_usd": round(f0(r["gross_streaming_revenue_usd"]), 2),
+                # The SAME derived gross the streaming file publishes. Reading the
+                # canonical value here left the two files disagreeing on 1,344 of
+                # 3,799 rows: one package, two values for one quantity.
+                "total_streaming_revenue_usd": round(
+                    round(f0(r["spotify_revenue_usd"]), 2)
+                    + round(f0(r["youtube_revenue_usd"]), 2)
+                    + round(f0(r["deezer_revenue_usd"]), 2)
+                    + round(f0(r["unmeasured_platform_uplift_usd"]), 2), 2),
                 "nigeria_domestic_share_pct": "" if dom_share is None else round(dom_share * 100, 4),
                 "domestic_revenue_usd": "" if dom is None else round(dom, 2),
                 "export_share_pct": "" if dom_share is None else round((1 - dom_share) * 100, 4),
