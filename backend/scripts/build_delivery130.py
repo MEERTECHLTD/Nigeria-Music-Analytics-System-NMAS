@@ -46,6 +46,7 @@ ROOT = BACKEND.parent
 sys.path.insert(0, str(BACKEND))
 
 from nmas.cohort import canonical, counts, master_list_names  # noqa: E402
+from nmas.fx import ngn_per_usd, rate_basis  # noqa: E402
 from nmas.assumptions import (  # noqa: E402
     NAIRA_PER_USD, STREAMS_PER_LISTENER_MONTH, TRACKS_PER_QUARTER,
     AVG_PRODUCTION_COST_NGN, AVG_DISTRIBUTION_COST_NGN,
@@ -146,7 +147,8 @@ def main() -> int:
                    "deezer_fans", "est_spotify_quarterly_streams", "spotify_revenue_usd",
                    "youtube_revenue_usd", "deezer_revenue_usd", "other_platforms_revenue_usd",
                    "gross_streaming_revenue_usd", "gross_streaming_revenue_ngn", "source",
-                   "spotify_listeners_source"]
+                   "spotify_listeners_source", "spotify_listeners_basis",
+                   "ngn_per_usd", "ngn_rate_basis"]
     export_cols = ["period", "artist_name", "total_streaming_revenue_usd",
                    "nigeria_domestic_share_pct", "domestic_revenue_usd", "export_share_pct",
                    "gross_export_revenue_usd", "gross_export_revenue_ngn",
@@ -196,13 +198,20 @@ def main() -> int:
                 # unrounded value left 3,263 of 3,826 rows where usd x 1500 did not
                 # equal the published naira — immaterial in value (NGN 84.69 across
                 # a NGN 715bn base) but not reproducible, which is what matters here.
+                # Converted at the QUARTER'S OWN rate, not one flat rate for
+                # 2019-2026. The naira moved from about 307 to about 1,530 over
+                # the period; a flat 1,500 overstated the 2019 base year roughly
+                # fivefold, which is fatal for a series NBS rebases onto 2019.
                 "gross_streaming_revenue_ngn": round(round(
                     round(f0(r["spotify_revenue_usd"]), 2)
                     + round(f0(r["youtube_revenue_usd"]), 2)
                     + round(f0(r["deezer_revenue_usd"]), 2)
-                    + round(f0(r["unmeasured_platform_uplift_usd"]), 2), 2) * NAIRA_PER_USD, 2),
+                    + round(f0(r["unmeasured_platform_uplift_usd"]), 2), 2) * ngn_per_usd(q), 2),
                 "source": SRC,
                 "spotify_listeners_source": (r.get("spotify_listeners_source") or ""),
+                "spotify_listeners_basis": (r.get("spotify_listeners_basis") or ""),
+                "ngn_per_usd": ngn_per_usd(q),
+                "ngn_rate_basis": rate_basis(q),
             })
             dom_share = num(r["domestic_share_observed"])
             dom = num(r["domestic_revenue_usd"])
@@ -222,7 +231,7 @@ def main() -> int:
                 "domestic_revenue_usd": "" if dom is None else round(dom, 2),
                 "export_share_pct": "" if dom_share is None else round((1 - dom_share) * 100, 4),
                 "gross_export_revenue_usd": "" if exp is None else round(exp, 2),
-                "gross_export_revenue_ngn": "" if exp is None else round(round(exp, 2) * NAIRA_PER_USD, 2),
+                "gross_export_revenue_ngn": "" if exp is None else round(round(exp, 2) * ngn_per_usd(q), 2),
                 "top_export_markets": markets(a, q),
                 "source": (r.get("split_basis") or "") + " | " + SRC,
             })
@@ -269,11 +278,11 @@ def main() -> int:
             tot += ngn
             crows.append({"period": q, "cost_category": cat, "num_artists": n,
                           "total_cost_ngn": round(ngn, 2),
-                          "total_cost_usd": round(ngn / NAIRA_PER_USD, 2),
+                          "total_cost_usd": round(ngn / ngn_per_usd(q), 2),
                           "source": "Unit cost card (ASM) x artists observed in scope"})
         crows.append({"period": q, "cost_category": TOTAL_ROW, "num_artists": n,
                       "total_cost_ngn": round(tot, 2),
-                      "total_cost_usd": round(tot / NAIRA_PER_USD, 2), "source": "Aggregated"})
+                      "total_cost_usd": round(tot / ngn_per_usd(q), 2), "source": "Aggregated"})
     n_c = write(D / "Hosting_Production_Costs.csv",
                 ["period", "cost_category", "num_artists", "total_cost_ngn",
                  "total_cost_usd", "source"], crows)

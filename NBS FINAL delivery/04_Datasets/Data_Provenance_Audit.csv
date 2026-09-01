@@ -59,23 +59,23 @@ Daily_Metric_Observations + Extended,YouTube_subscribers_daily,1 OBSERVED,600885
 Daily_Metric_Observations + Extended,YouTube_total_followers_daily,1 OBSERVED,7437,,soundcharts,provider returned this figure for this artist on this date
 Daily_Metric_Observations + Extended,YouTube_total_listeners_daily,1 OBSERVED,200575,,soundcharts,provider returned this figure for this artist on this date
 Geography_Full_Daily,value,1 OBSERVED,36204423,,soundcharts,"listener/follower counts per country and city, as returned"
-Revenue_By_Platform_Quarterly,deezer_fans,1 OBSERVED,19141,,soundcharts+chartmetric,measured input carried through to the revenue table
-Revenue_By_Platform_Quarterly,spotify_monthly_listeners,1 OBSERVED,19141,,soundcharts+chartmetric,measured input carried through to the revenue table
-Revenue_By_Platform_Quarterly,youtube_quarter_views,1 OBSERVED,19141,,soundcharts+chartmetric,measured input carried through to the revenue table
+Revenue_By_Platform_Quarterly,deezer_fans,1 OBSERVED,19138,,soundcharts+chartmetric,measured input carried through to the revenue table
+Revenue_By_Platform_Quarterly,spotify_monthly_listeners,1 OBSERVED,19138,,soundcharts+chartmetric,measured input carried through to the revenue table
+Revenue_By_Platform_Quarterly,youtube_quarter_views,1 OBSERVED,19138,,soundcharts+chartmetric,measured input carried through to the revenue table
 Artist_Catalogue_Summary,value/count,2 AGGREGATED,752,,soundcharts,rollup of measured values; no constant involved
 Export_Markets_Quarterly,value/count,2 AGGREGATED,15374,,soundcharts,rollup of measured values; no constant involved
 Nigeria_City_Geography_Quarterly,value/count,2 AGGREGATED,2456,,soundcharts,rollup of measured values; no constant involved
 Quarterly_Aggregates_Full,variable_value,2 AGGREGATED,420891,,chartmetric+soundcharts,net change / sum / last value of tier 1 within the quarter
 Radio_Stations_Quarterly,value/count,2 AGGREGATED,14519,,soundcharts,rollup of measured values; no constant involved
 World_City_Geography_Quarterly,value/count,2 AGGREGATED,165397,,soundcharts,rollup of measured values; no constant involved
-Revenue_By_Platform_Quarterly,deezer_revenue_usd,3 ESTIMATED,19141,"DEEZER_STREAMS_PER_FAN_MONTH, DEEZER_PER_STREAM",derived,measured quantity multiplied by an assumed rate
-Revenue_By_Platform_Quarterly,domestic_revenue_usd,3 ESTIMATED,19141,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM",derived,measured quantity multiplied by an assumed rate
-Revenue_By_Platform_Quarterly,export_revenue_ngn,3 ESTIMATED,19141,NAIRA_PER_USD,derived,measured quantity multiplied by an assumed rate
-Revenue_By_Platform_Quarterly,export_revenue_usd,3 ESTIMATED,19141,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM",derived,measured quantity multiplied by an assumed rate
-Revenue_By_Platform_Quarterly,gross_streaming_revenue_ngn,3 ESTIMATED,19141,NAIRA_PER_USD,derived,measured quantity multiplied by an assumed rate
-Revenue_By_Platform_Quarterly,gross_streaming_revenue_usd,3 ESTIMATED,19141,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM, YOUTUBE_PER_VIEW, UNMEASURED_UPLIFT_RATE",derived,measured quantity multiplied by an assumed rate
-Revenue_By_Platform_Quarterly,measured_platform_revenue_usd,3 ESTIMATED,19141,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM, YOUTUBE_PER_VIEW, DEEZER_PER_STREAM",derived,measured quantity multiplied by an assumed rate
-Revenue_By_Platform_Quarterly,spotify_revenue_usd,3 ESTIMATED,19141,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM",derived,measured quantity multiplied by an assumed rate
-Revenue_By_Platform_Quarterly,unmeasured_platform_uplift_usd,3 ESTIMATED,19141,UNMEASURED_UPLIFT_RATE,derived,measured quantity multiplied by an assumed rate
-Revenue_By_Platform_Quarterly,youtube_revenue_usd,3 ESTIMATED,19141,YOUTUBE_PER_VIEW,derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,deezer_revenue_usd,3 ESTIMATED,19138,"DEEZER_STREAMS_PER_FAN_MONTH, DEEZER_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,domestic_revenue_usd,3 ESTIMATED,19138,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,export_revenue_ngn,3 ESTIMATED,19138,NAIRA_PER_USD,derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,export_revenue_usd,3 ESTIMATED,19138,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,gross_streaming_revenue_ngn,3 ESTIMATED,19138,NAIRA_PER_USD,derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,gross_streaming_revenue_usd,3 ESTIMATED,19138,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM, YOUTUBE_PER_VIEW, UNMEASURED_UPLIFT_RATE",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,measured_platform_revenue_usd,3 ESTIMATED,19138,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM, YOUTUBE_PER_VIEW, DEEZER_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,spotify_revenue_usd,3 ESTIMATED,19138,"STREAMS_PER_LISTENER_MONTH, SPOTIFY_PER_STREAM",derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,unmeasured_platform_uplift_usd,3 ESTIMATED,19138,UNMEASURED_UPLIFT_RATE,derived,measured quantity multiplied by an assumed rate
+Revenue_By_Platform_Quarterly,youtube_revenue_usd,3 ESTIMATED,19138,YOUTUBE_PER_VIEW,derived,measured quantity multiplied by an assumed rate
 Cost_By_Category_Quarterly,cost_ngn / cost_usd,4 ASSUMED,372,"AVG_PRODUCTION_COST_NGN, AVG_DISTRIBUTION_COST_NGN, AVG_PROMOTION_COST_NGN, AVG_HOSTING_COST_QUARTERLY_NGN, TRACKS_PER_QUARTER",none,NO measurement behind the naira figure; artist COUNT is measured

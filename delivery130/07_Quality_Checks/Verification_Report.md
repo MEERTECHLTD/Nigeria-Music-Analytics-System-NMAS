@@ -1,22 +1,22 @@
 # Verification Report — DELIVERY130
 
-Generated 2026-09-01 00:43 UTC by `backend/scripts/verify_delivery130.py`, which recomputes every figure
+Generated 2026-09-01 01:16 UTC by `backend/scripts/verify_delivery130.py`, which recomputes every figure
 from the published files using its own arithmetic. It imports no build script, so a
 defect in the generators cannot hide behind a check that shares their logic.
 
 ## 1. Overall status
 
-## **VERIFIED** — 28 of 28 checks pass.
+## **VERIFIED** — 38 of 38 checks pass.
 
 ## 2. Source of truth
 
 `delivery130/04_Datasets/Gross_Streaming_Revenue.csv`, excluding its 31
 `=== PERIOD TOTAL ===` pseudo-rows.
 
-**Authoritative gross streaming revenue: $476,918,406.15** (₦715,377,609,225.00) over 129 artists and 31 quarters,
-across 3,799 artist-quarter rows.
+**Authoritative gross streaming revenue: $469,833,610.14** (₦502,390,063,070.36) over 129 artists and 31 quarters,
+across 3,798 artist-quarter rows.
 
-> Summing that file **without** excluding the pseudo-rows gives $953,836,812.30 — exactly double.
+> Summing that file **without** excluding the pseudo-rows gives $939,667,220.28 — exactly double.
 > The rows are reproduced because the first submission carried them; they are a trap
 > for any reviewer who sums the column blind, and are called out here for that reason.
 
@@ -24,13 +24,13 @@ across 3,799 artist-quarter rows.
 
 | Section | Check | Expected | Actual | Status |
 |---|---|---|---|---|
-| Arithmetic | spotify_revenue_usd = listeners x 3.5 x 3 x 0.004 | 0 failing rows | 0 of 3,799 | PASS |
-| Arithmetic | youtube_revenue_usd = views x 0.004 | 0 failing rows | 0 of 3,799 | PASS |
-| Arithmetic | deezer_revenue_usd = fans x 2.0 x 3 x 0.004 | 0 failing rows | 0 of 3,799 | PASS |
-| Arithmetic | other_platforms_usd = spotify x 0.30 | 0 failing rows | 0 of 3,799 | PASS |
-| Arithmetic | gross_usd = sum of its four components | 0 failing rows | 0 of 3,799 | PASS |
-| Arithmetic | gross_ngn = gross_usd x 1500 | 0 failing rows | 0 of 3,799 | PASS |
-| Arithmetic | est_spotify_quarterly_streams = listeners x 3.5 x 3 | 0 failing rows | 0 of 3,799 | PASS |
+| Arithmetic | spotify_revenue_usd = listeners x 3.5 x 3 x 0.004 | 0 failing rows | 0 of 3,798 | PASS |
+| Arithmetic | youtube_revenue_usd = views x 0.004 | 0 failing rows | 0 of 3,798 | PASS |
+| Arithmetic | deezer_revenue_usd = fans x 2.0 x 3 x 0.004 | 0 failing rows | 0 of 3,798 | PASS |
+| Arithmetic | other_platforms_usd = spotify x 0.30 | 0 failing rows | 0 of 3,798 | PASS |
+| Arithmetic | gross_usd = sum of its four components | 0 failing rows | 0 of 3,798 | PASS |
+| Arithmetic | gross_ngn = gross_usd x that quarter's own rate | 0 failing rows | 0 of 3,798 | PASS |
+| Arithmetic | est_spotify_quarterly_streams = listeners x 3.5 x 3 | 0 failing rows | 0 of 3,798 | PASS |
 | Aggregation | period-total rows equal the sum of their quarter | 31 match | 0 mismatch | PASS |
 | Integrity | no duplicate (period, artist) | 0 | 0 | PASS |
 | Integrity | distinct artists | 129 | 129 | PASS |
@@ -43,13 +43,23 @@ across 3,799 artist-quarter rows.
 | Classification | unmeasured export is BLANK, never zero | 0 zeros | 0 | PASS |
 | Platform | platform artist_count equals the package | 129 | 129 | PASS |
 | Platform | platform declares its scope | cohort130 | cohort130 | PASS |
-| Cross-artifact | Excel 1 Gross_Streaming_Revenue | $476,918,406.15 | $476,918,406.15 | PASS |
-| Cross-artifact | Excel 5 Artist_Totals | $476,918,406.15 | $476,918,406.15 | PASS |
-| Cross-artifact | 11_Raw_Extractions copy | $476,918,406.15 | $476,918,406.15 | PASS |
-| Cross-artifact | 05_Database_Extracts coverage | $476,918,406.15 | $476,918,406.15 | PASS |
-| Cross-artifact | 14_Growth_Projection observed | $476,918,406.15 | $476,918,406.15 | PASS |
-| Cross-artifact | Platform summary.json | $476,918,406.15 | $476,918,406.15 | PASS |
+| Cross-artifact | Excel 1 Gross_Streaming_Revenue | $469,833,610.14 | $469,833,610.14 | PASS |
+| Cross-artifact | Excel 5 Artist_Totals | $469,833,610.14 | $469,833,610.14 | PASS |
+| Cross-artifact | 11_Raw_Extractions copy | $469,833,610.14 | $469,833,610.14 | PASS |
+| Cross-artifact | 05_Database_Extracts coverage | $469,833,610.14 | $469,833,610.14 | PASS |
+| Cross-artifact | 14_Growth_Projection observed | $469,833,610.14 | $469,833,610.14 | PASS |
+| Cross-artifact | Platform summary.json | $469,833,610.14 | $469,833,610.14 | PASS |
 | Excel | no cell stored as a formula | 0 | 0 | PASS |
+| NBS response | Artist_Residency_Classification.csv present | exists | yes | PASS |
+| NBS response | Revenue_And_Cost_By_Platform.csv present | exists | yes | PASS |
+| NBS response | Domestic_Production_Account.csv present | exists | yes | PASS |
+| NBS response | GNI_Diaspora_Account.csv present | exists | yes | PASS |
+| NBS response | National_Accounts_Aggregates.csv present | exists | yes | PASS |
+| NBS response | platform revenue sums to the headline | $469,833,610.14 | $469,833,610.14 | PASS |
+| NBS response | no cost claimed as directly platform-attributable | 0 direct | 0 direct | PASS |
+| NBS response | every allocated cost states its basis | 0 blank | 0 | PASS |
+| NBS response | domestic + diaspora within the headline | <= $469,833,610.14 | $469,833,590.13 | PASS |
+| NBS response | statistical handbook present | exists | yes (25 KB) | PASS |
 | Structure | all 13 submission folders present | 13 | 13 | PASS |
 | Structure | no folder is empty | 0 | 0 | PASS |
 
@@ -57,44 +67,44 @@ across 3,799 artist-quarter rows.
 
 | Quarter | Artists | Gross USD | Gross NGN |
 |---|---:|---:|---:|
-| Q1 2019 | 92 | $1,872,809.25 | ₦2,809,213,875 |
-| Q2 2019 | 108 | $2,323,531.26 | ₦3,485,296,890 |
-| Q3 2019 | 117 | $3,218,095.33 | ₦4,827,142,995 |
-| Q4 2019 | 118 | $4,262,610.88 | ₦6,393,916,320 |
-| Q1 2020 | 118 | $3,987,687.25 | ₦5,981,530,875 |
-| Q2 2020 | 118 | $4,568,682.30 | ₦6,853,023,450 |
-| Q3 2020 | 118 | $5,247,262.71 | ₦7,870,894,065 |
-| Q4 2020 | 119 | $5,450,699.72 | ₦8,176,049,580 |
-| Q1 2021 | 120 | $5,875,940.25 | ₦8,813,910,375 |
-| Q2 2021 | 120 | $6,943,009.98 | ₦10,414,514,970 |
-| Q3 2021 | 120 | $8,947,657.45 | ₦13,421,486,175 |
-| Q4 2021 | 121 | $12,461,484.25 | ₦18,692,226,375 |
-| Q1 2022 | 122 | $12,548,977.87 | ₦18,823,466,805 |
-| Q2 2022 | 122 | $13,725,219.23 | ₦20,587,828,845 |
-| Q3 2022 | 125 | $16,545,833.22 | ₦24,818,749,830 |
-| Q4 2022 | 127 | $17,741,891.50 | ₦26,612,837,250 |
-| Q1 2023 | 127 | $19,660,327.06 | ₦29,490,490,590 |
-| Q2 2023 | 127 | $23,324,978.41 | ₦34,987,467,615 |
-| Q3 2023 | 127 | $20,941,938.60 | ₦31,412,907,900 |
-| Q4 2023 | 127 | $21,429,816.51 | ₦32,144,724,765 |
-| Q1 2024 | 127 | $20,850,286.58 | ₦31,275,429,870 |
-| Q2 2024 | 127 | $23,032,147.91 | ₦34,548,221,865 |
-| Q3 2024 | 127 | $23,051,208.35 | ₦34,576,812,525 |
-| Q4 2024 | 128 | $23,154,211.86 | ₦34,731,317,790 |
-| Q1 2025 | 129 | $20,985,647.25 | ₦31,478,470,875 |
-| Q2 2025 | 129 | $24,001,481.19 | ₦36,002,221,785 |
-| Q3 2025 | 129 | $23,834,738.27 | ₦35,752,107,405 |
-| Q4 2025 | 128 | $24,798,685.61 | ₦37,198,028,415 |
-| Q1 2026 | 128 | $25,010,047.72 | ₦37,515,071,580 |
-| Q2 2026 | 127 | $28,565,228.86 | ₦42,847,843,290 |
-| Q3 2026 | 127 | $28,556,269.52 | ₦42,834,404,280 |
-| **Total** | **129** | **$476,918,406.15** | **₦715,377,609,225** |
+| Q1 2019 | 92 | $1,872,809.25 | ₦574,802,615 |
+| Q2 2019 | 108 | $2,287,660.09 | ₦702,128,635 |
+| Q3 2019 | 117 | $3,231,443.55 | ₦991,794,654 |
+| Q4 2019 | 118 | $3,966,089.02 | ₦1,217,272,042 |
+| Q1 2020 | 118 | $4,049,998.77 | ₦1,453,180,059 |
+| Q2 2020 | 118 | $4,358,865.45 | ₦1,564,004,512 |
+| Q3 2020 | 118 | $5,181,762.78 | ₦1,859,268,303 |
+| Q4 2020 | 119 | $5,431,503.49 | ₦1,948,877,767 |
+| Q1 2021 | 120 | $5,568,133.79 | ₦2,233,656,870 |
+| Q2 2021 | 120 | $6,768,002.84 | ₦2,714,984,339 |
+| Q3 2021 | 120 | $7,959,432.59 | ₦3,192,926,383 |
+| Q4 2021 | 121 | $12,244,513.48 | ₦4,911,886,583 |
+| Q1 2022 | 122 | $12,174,306.36 | ₦5,186,011,023 |
+| Q2 2022 | 122 | $13,250,288.40 | ₦5,644,357,853 |
+| Q3 2022 | 124 | $15,980,760.50 | ₦6,807,484,358 |
+| Q4 2022 | 127 | $17,198,484.51 | ₦7,326,210,432 |
+| Q1 2023 | 127 | $19,163,324.49 | ₦12,360,344,296 |
+| Q2 2023 | 127 | $22,322,937.87 | ₦14,398,294,926 |
+| Q3 2023 | 127 | $21,271,911.06 | ₦13,720,382,634 |
+| Q4 2023 | 127 | $21,057,326.34 | ₦13,581,975,489 |
+| Q1 2024 | 127 | $21,085,056.69 | ₦31,163,713,788 |
+| Q2 2024 | 127 | $22,607,539.11 | ₦33,413,942,805 |
+| Q3 2024 | 127 | $23,468,243.91 | ₦34,686,064,499 |
+| Q4 2024 | 128 | $22,756,191.69 | ₦33,633,651,318 |
+| Q1 2025 | 129 | $21,542,153.27 | ₦32,959,494,503 |
+| Q2 2025 | 129 | $23,814,216.41 | ₦36,435,751,107 |
+| Q3 2025 | 129 | $23,961,840.73 | ₦36,661,616,317 |
+| Q4 2025 | 128 | $24,569,426.28 | ₦37,591,222,208 |
+| Q1 2026 | 128 | $24,721,771.73 | ₦37,824,310,747 |
+| Q2 2026 | 127 | $27,542,908.02 | ₦42,140,649,271 |
+| Q3 2026 | 127 | $28,424,707.67 | ₦43,489,802,735 |
+| **Total** | **129** | **$469,833,610.14** | **₦502,390,063,070** |
 
 ## 5. Incomplete quarter disclosed
 
 Q3 2026 is an unfinished quarter — the revenue series end 2026-08-11 (45.7% of the quarter), the quarter closes
-2026-09-30. It is included in the headline at $28,556,269.52, **5.99%** of the total.
-Restricted to the 30 complete quarters the figure is **$448,362,136.63**. It is excluded from
+2026-09-30. It is included in the headline at $28,424,707.67, **6.05%** of the total.
+Restricted to the 30 complete quarters the figure is **$441,408,902.47**. It is excluded from
 every growth calculation. Both totals are published so neither is mistaken for the
 other.
 
@@ -102,7 +112,7 @@ other.
 
 Every published figure derives from other published columns by the identities in
 section 3. A reviewer needs only `04_Datasets/Gross_Streaming_Revenue.csv` and a
-spreadsheet to check all 3,799 rows.
+spreadsheet to check all 3,798 rows.
 
 ## 7. What this report does NOT establish
 

@@ -1,734 +1,734 @@
 artist_name,nmas_artist_id,provider_country,classification,evidence,needs_nbs_adjudication,quarters_present,gross_streaming_revenue_usd_total
-$tretto,$tretto,NG,domestic,provider registers the artist in Nigeria,N,26,513.42
-2Baba,2baba,NG,domestic,provider registers the artist in Nigeria,N,31,1358334.52
-6UFF,6uff,NG,domestic,provider registers the artist in Nigeria,N,21,529496.87
-9ice,9ice,NG,domestic,provider registers the artist in Nigeria,N,31,420585.23
-A-Q,a-q,NG,domestic,provider registers the artist in Nigeria,N,31,54607.01
-AQT,aqt,US,diaspora_candidate,provider registers the artist in US,Y,8,13521.2
-ARTSALGHUL,artsalghul,NG,domestic,provider registers the artist in Nigeria,N,6,62018.81
-Abass Akande Obesere,abass-akande-obesere,,unknown,provider holds no country for this artist,Y,29,1749.45
-Abbey Ojomu,abbey-ojomu,NG,domestic,provider registers the artist in Nigeria,N,22,156734.71
-Abdu Boda,abdu-boda,NG,domestic,provider registers the artist in Nigeria,N,30,1476.09
-Abdul D One,abdul-d-one,NG,domestic,provider registers the artist in Nigeria,N,25,90081.49
-Abefe,abefe,NG,domestic,provider registers the artist in Nigeria,N,10,143618.35
-Abiodun,abiodun,DE,diaspora_candidate,provider registers the artist in DE,Y,30,1478.98
-Abiodun Koya,abiodun-koya,NG,domestic,provider registers the artist in Nigeria,N,16,20.54
-Abubakar Sani,abubakar-sani,,unknown,provider holds no country for this artist,Y,31,2127.26
-AcebergTM,acebergtm,NG,domestic,provider registers the artist in Nigeria,N,25,24545.61
-Ada Ehi,ada-ehi,NG,domestic,provider registers the artist in Nigeria,N,26,3009554.72
-Adam A. Zango,adam-a.-zango,NG,domestic,provider registers the artist in Nigeria,N,30,6917.46
-Adedoyin Oseni,adedoyin-oseni,NG,domestic,provider registers the artist in Nigeria,N,17,774.47
-Adekunle Gold,adekunle-gold,NG,domestic,provider registers the artist in Nigeria,N,31,4165320.26
-Adewale Ayuba,adewale-ayuba,NG,domestic,provider registers the artist in Nigeria,N,31,131073.78
-Ado Gwanja,ado-gwanja,NG,domestic,provider registers the artist in Nigeria,N,31,73.67
-Adé Bantu,adé-bantu,NG,domestic,provider registers the artist in Nigeria,N,20,7.33
-Afrikan Boy,afrikan-boy,GB,diaspora_candidate,provider registers the artist in GB,Y,31,64307.24
-Agboola Shadare,agboola-shadare,US,diaspora_candidate,provider registers the artist in US,Y,30,1816.25
-Aisosa,aisosa,NG,domestic,provider registers the artist in Nigeria,N,20,495.06
-Ajebo Hustlers,ajebo-hustlers,NG,domestic,provider registers the artist in Nigeria,N,5,8.51
-Ajebutter22,ajebutter22,NG,domestic,provider registers the artist in Nigeria,N,31,498638.05
-Ajofé,ajofé,NG,domestic,provider registers the artist in Nigeria,N,22,7292.26
-Al Xapo,al-xapo,ZA,diaspora_candidate,provider registers the artist in ZA,Y,24,507887.44
-Ali Jita,ali-jita,NG,domestic,provider registers the artist in Nigeria,N,30,367959.24
-Alpha P,alpha-p,NG,domestic,provider registers the artist in Nigeria,N,29,222590.83
-Altims,altims,,unknown,provider holds no country for this artist,Y,22,715.24
+$tretto,$tretto,NG,domestic,provider registers the artist in Nigeria,N,26,377.45
+2Baba,2baba,NG,domestic,provider registers the artist in Nigeria,N,31,1339369.98
+6UFF,6uff,NG,domestic,provider registers the artist in Nigeria,N,21,486883.57
+9ice,9ice,NG,domestic,provider registers the artist in Nigeria,N,31,406603.46
+A-Q,a-q,NG,domestic,provider registers the artist in Nigeria,N,31,54419.15
+AQT,aqt,US,diaspora_candidate,provider registers the artist in US,Y,8,14368.97
+ARTSALGHUL,artsalghul,NG,domestic,provider registers the artist in Nigeria,N,6,48935.45
+Abass Akande Obesere,abass-akande-obesere,,unknown,provider holds no country for this artist,Y,29,1689.19
+Abbey Ojomu,abbey-ojomu,NG,domestic,provider registers the artist in Nigeria,N,22,152814.21
+Abdu Boda,abdu-boda,NG,domestic,provider registers the artist in Nigeria,N,30,1435.4
+Abdul D One,abdul-d-one,NG,domestic,provider registers the artist in Nigeria,N,25,89787.84
+Abefe,abefe,NG,domestic,provider registers the artist in Nigeria,N,10,126268.51
+Abiodun,abiodun,DE,diaspora_candidate,provider registers the artist in DE,Y,30,1635.64
+Abiodun Koya,abiodun-koya,NG,domestic,provider registers the artist in Nigeria,N,16,20.6
+Abubakar Sani,abubakar-sani,,unknown,provider holds no country for this artist,Y,31,1993.96
+AcebergTM,acebergtm,NG,domestic,provider registers the artist in Nigeria,N,25,25916.17
+Ada Ehi,ada-ehi,NG,domestic,provider registers the artist in Nigeria,N,26,3000085.26
+Adam A. Zango,adam-a.-zango,NG,domestic,provider registers the artist in Nigeria,N,30,6631.42
+Adedoyin Oseni,adedoyin-oseni,NG,domestic,provider registers the artist in Nigeria,N,17,819.97
+Adekunle Gold,adekunle-gold,NG,domestic,provider registers the artist in Nigeria,N,31,4136526.49
+Adewale Ayuba,adewale-ayuba,NG,domestic,provider registers the artist in Nigeria,N,31,131954.04
+Ado Gwanja,ado-gwanja,NG,domestic,provider registers the artist in Nigeria,N,31,72.35
+Adé Bantu,adé-bantu,NG,domestic,provider registers the artist in Nigeria,N,20,7.26
+Afrikan Boy,afrikan-boy,GB,diaspora_candidate,provider registers the artist in GB,Y,31,64164.37
+Agboola Shadare,agboola-shadare,US,diaspora_candidate,provider registers the artist in US,Y,30,1841.02
+Aisosa,aisosa,NG,domestic,provider registers the artist in Nigeria,N,20,539.03
+Ajebo Hustlers,ajebo-hustlers,NG,domestic,provider registers the artist in Nigeria,N,5,12.65
+Ajebutter22,ajebutter22,NG,domestic,provider registers the artist in Nigeria,N,31,503473.9
+Ajofé,ajofé,NG,domestic,provider registers the artist in Nigeria,N,22,6631.52
+Al Xapo,al-xapo,ZA,diaspora_candidate,provider registers the artist in ZA,Y,24,423623.23
+Ali Jita,ali-jita,NG,domestic,provider registers the artist in Nigeria,N,30,367645.34
+Alpha P,alpha-p,NG,domestic,provider registers the artist in Nigeria,N,29,204657.36
+Altims,altims,,unknown,provider holds no country for this artist,Y,22,1701.75
 Al’ameen,al’ameen,,unknown,provider holds no country for this artist,Y,1,0.05
-Amaarae,amaarae,GH,diaspora_candidate,provider registers the artist in GH,Y,31,8484168.19
-Amarachi,amarachi,NG,domestic,provider registers the artist in Nigeria,N,30,25669.37
-Aminu Alan Waka,aminu-alan-waka,NG,domestic,provider registers the artist in Nigeria,N,20,3863.96
-Aminu Ladan,aminu-ladan,NG,domestic,provider registers the artist in Nigeria,N,30,111859.72
-Amma,amma,NG,domestic,provider registers the artist in Nigeria,N,5,82615.86
-Andre Vibez,andre-vibez,VN,diaspora_candidate,provider registers the artist in VN,Y,14,4704.96
-Anike,anike,US,diaspora_candidate,provider registers the artist in US,Y,30,608508.47
-Anyidons,anyidons,NG,domestic,provider registers the artist in Nigeria,N,28,74552.8
-Aramide,aramide,NG,domestic,provider registers the artist in Nigeria,N,31,23485.62
-Artquake,artquake,,unknown,provider holds no country for this artist,Y,30,164.03
-Asake,asake,NG,domestic,provider registers the artist in Nigeria,N,29,10729833.18
-Asuquomo,asuquomo,NG,domestic,provider registers the artist in Nigeria,N,29,1780.81
-Auta Mg Boy,auta-mg-boy,NG,domestic,provider registers the artist in Nigeria,N,23,459951.34
-Auta Waziri,auta-waziri,NG,domestic,provider registers the artist in Nigeria,N,25,124971.09
-Ayeloyun,ayeloyun,,unknown,provider holds no country for this artist,Y,9,312.16
-Ayinde Bakare,ayinde-bakare,,unknown,provider holds no country for this artist,Y,30,1998.42
-Ayinla Kollington,ayinla-kollington,,unknown,provider holds no country for this artist,Y,5,4.47
-Ayjay bobo,ayjay-bobo,NG,domestic,provider registers the artist in Nigeria,N,7,168712.84
-Ayo Maff,ayo-maff,NG,domestic,provider registers the artist in Nigeria,N,14,1185466.46
-Ayo Vincent,ayo-vincent,NG,domestic,provider registers the artist in Nigeria,N,26,3692.45
-Ayola,ayola,NG,domestic,provider registers the artist in Nigeria,N,26,2671.31
-Ayra Starr,ayra-starr,NG,domestic,provider registers the artist in Nigeria,N,23,21212971.67
-Azanti,azanti,NG,domestic,provider registers the artist in Nigeria,N,24,114370.69
-Aṣa,aṣa,FR,diaspora_candidate,provider registers the artist in FR,Y,31,935501.45
-B.O.C Madaki,b.o.c-madaki,,unknown,provider holds no country for this artist,Y,23,41915.56
-BBO,bbo,NG,domestic,provider registers the artist in Nigeria,N,26,215995.35
-BNXN,bnxn,NG,domestic,provider registers the artist in Nigeria,N,30,6424843.67
-Babatunde Olatunji,babatunde-olatunji,NG,domestic,provider registers the artist in Nigeria,N,31,26931.96
-BabyDaiz,babydaiz,ZA,diaspora_candidate,provider registers the artist in ZA,Y,24,368540.04
-Babyboy AV,babyboy-av,NG,domestic,provider registers the artist in Nigeria,N,20,1841840.34
-Babá Ken Okulolo,babá-ken-okulolo,,unknown,provider holds no country for this artist,Y,30,867.0
-Bad Boy Timz,bad-boy-timz,NG,domestic,provider registers the artist in Nigeria,N,29,657071.95
-Bala Miller,bala-miller,,unknown,provider holds no country for this artist,Y,30,2965.75
-Balloranking,balloranking,NG,domestic,provider registers the artist in Nigeria,N,24,509920.66
-Banky W.,banky-w.,NG,domestic,provider registers the artist in Nigeria,N,31,1006403.44
-Bantu,bantu,NG,domestic,provider registers the artist in Nigeria,N,31,443054.19
+Amaarae,amaarae,GH,diaspora_candidate,provider registers the artist in GH,Y,31,8510021.11
+Amarachi,amarachi,NG,domestic,provider registers the artist in Nigeria,N,30,25627.34
+Aminu Alan Waka,aminu-alan-waka,NG,domestic,provider registers the artist in Nigeria,N,20,3673.54
+Aminu Ladan,aminu-ladan,NG,domestic,provider registers the artist in Nigeria,N,30,111577.94
+Amma,amma,NG,domestic,provider registers the artist in Nigeria,N,5,69500.18
+Andre Vibez,andre-vibez,VN,diaspora_candidate,provider registers the artist in VN,Y,14,4941.82
+Anike,anike,US,diaspora_candidate,provider registers the artist in US,Y,30,612305.7
+Anyidons,anyidons,NG,domestic,provider registers the artist in Nigeria,N,28,72768.2
+Aramide,aramide,NG,domestic,provider registers the artist in Nigeria,N,31,21529.19
+Artquake,artquake,,unknown,provider holds no country for this artist,Y,30,177.94
+Asake,asake,NG,domestic,provider registers the artist in Nigeria,N,29,10580075.97
+Asuquomo,asuquomo,NG,domestic,provider registers the artist in Nigeria,N,29,1849.86
+Auta Mg Boy,auta-mg-boy,NG,domestic,provider registers the artist in Nigeria,N,23,459689.14
+Auta Waziri,auta-waziri,NG,domestic,provider registers the artist in Nigeria,N,25,124852.59
+Ayeloyun,ayeloyun,,unknown,provider holds no country for this artist,Y,9,258.06
+Ayinde Bakare,ayinde-bakare,,unknown,provider holds no country for this artist,Y,30,1067.32
+Ayinla Kollington,ayinla-kollington,,unknown,provider holds no country for this artist,Y,5,4.48
+Ayjay bobo,ayjay-bobo,NG,domestic,provider registers the artist in Nigeria,N,7,168704.45
+Ayo Maff,ayo-maff,NG,domestic,provider registers the artist in Nigeria,N,14,1168572.65
+Ayo Vincent,ayo-vincent,NG,domestic,provider registers the artist in Nigeria,N,26,3872.83
+Ayola,ayola,NG,domestic,provider registers the artist in Nigeria,N,26,2202.69
+Ayra Starr,ayra-starr,NG,domestic,provider registers the artist in Nigeria,N,23,21064373.03
+Azanti,azanti,NG,domestic,provider registers the artist in Nigeria,N,24,113956.35
+Aṣa,aṣa,FR,diaspora_candidate,provider registers the artist in FR,Y,31,930877.72
+B.O.C Madaki,b.o.c-madaki,,unknown,provider holds no country for this artist,Y,23,42498.97
+BBO,bbo,NG,domestic,provider registers the artist in Nigeria,N,26,201115.72
+BNXN,bnxn,NG,domestic,provider registers the artist in Nigeria,N,30,6322014.5
+Babatunde Olatunji,babatunde-olatunji,NG,domestic,provider registers the artist in Nigeria,N,31,26460.22
+BabyDaiz,babydaiz,ZA,diaspora_candidate,provider registers the artist in ZA,Y,24,367825.22
+Babyboy AV,babyboy-av,NG,domestic,provider registers the artist in Nigeria,N,20,1841714.42
+Babá Ken Okulolo,babá-ken-okulolo,,unknown,provider holds no country for this artist,Y,30,912.82
+Bad Boy Timz,bad-boy-timz,NG,domestic,provider registers the artist in Nigeria,N,29,642819.11
+Bala Miller,bala-miller,,unknown,provider holds no country for this artist,Y,30,2988.75
+Balloranking,balloranking,NG,domestic,provider registers the artist in Nigeria,N,24,488704.63
+Banky W.,banky-w.,NG,domestic,provider registers the artist in Nigeria,N,31,997904.84
+Bantu,bantu,NG,domestic,provider registers the artist in Nigeria,N,31,452780.16
 Barmani Choge,barmani-choge,,unknown,provider holds no country for this artist,Y,1,22.77
-Barry Jhay,barry-jhay,NG,domestic,provider registers the artist in Nigeria,N,31,308394.13
-Batile Alake,batile-alake,,unknown,provider holds no country for this artist,Y,30,1493.17
-Bayanni,bayanni,NG,domestic,provider registers the artist in Nigeria,N,17,2123841.94
-Beautiful Nubia,beautiful-nubia,NG,domestic,provider registers the artist in Nigeria,N,31,60585.78
-Bella Alubo,bella-alubo,NG,domestic,provider registers the artist in Nigeria,N,31,362540.22
-Bella Kay,bella-kay,AU,diaspora_candidate,provider registers the artist in AU,Y,5,2891534.39
-Bella Shmurda,bella-shmurda,NG,domestic,provider registers the artist in Nigeria,N,31,2402569.3
-Bello Sisqo,bello-sisqo,DE,diaspora_candidate,provider registers the artist in DE,Y,25,7481.88
-BenjiFlow,benjiflow,GB,diaspora_candidate,provider registers the artist in GB,Y,31,222172.5
-Benzoo,benzoo,,unknown,provider holds no country for this artist,Y,29,861400.09
-Bhadboi OML,bhadboi-oml,NG,domestic,provider registers the artist in Nigeria,N,22,377003.96
+Barry Jhay,barry-jhay,NG,domestic,provider registers the artist in Nigeria,N,31,302665.48
+Batile Alake,batile-alake,,unknown,provider holds no country for this artist,Y,30,1432.71
+Bayanni,bayanni,NG,domestic,provider registers the artist in Nigeria,N,17,2115995.53
+Beautiful Nubia,beautiful-nubia,NG,domestic,provider registers the artist in Nigeria,N,31,59657.79
+Bella Alubo,bella-alubo,NG,domestic,provider registers the artist in Nigeria,N,31,365455.39
+Bella Kay,bella-kay,AU,diaspora_candidate,provider registers the artist in AU,Y,5,2600859.01
+Bella Shmurda,bella-shmurda,NG,domestic,provider registers the artist in Nigeria,N,31,2354581.19
+Bello Sisqo,bello-sisqo,DE,diaspora_candidate,provider registers the artist in DE,Y,25,7438.61
+BenjiFlow,benjiflow,GB,diaspora_candidate,provider registers the artist in GB,Y,31,222291.82
+Benzoo,benzoo,,unknown,provider holds no country for this artist,Y,29,766858.29
+Bhadboi OML,bhadboi-oml,NG,domestic,provider registers the artist in Nigeria,N,22,362966.27
 Bhadboy OML,bhadboy-oml,,unknown,provider holds no country for this artist,Y,6,0.42
-Bidemi Olaoba,bidemi-olaoba,NG,domestic,provider registers the artist in Nigeria,N,30,191633.47
-Billar Stoner,billar-stoner,NG,domestic,provider registers the artist in Nigeria,N,6,811.41
-Blackface Naija,blackface-naija,NG,domestic,provider registers the artist in Nigeria,N,31,16.31
-Blackmagic,blackmagic,NG,domestic,provider registers the artist in Nigeria,N,31,279692.15
-Blaisebeatz,blaisebeatz,,unknown,provider holds no country for this artist,Y,6,92.88
-Blaqbonez,blaqbonez,NG,domestic,provider registers the artist in Nigeria,N,31,1815324.46
-Blessing Offor,blessing-offor,NG,domestic,provider registers the artist in Nigeria,N,30,1419671.66
-Bloody Civilian,bloody-civilian,NG,domestic,provider registers the artist in Nigeria,N,17,731170.12
-Bobby Benson,bobby-benson,NG,domestic,provider registers the artist in Nigeria,N,30,787.83
-Boi Chase,boi-chase,NG,domestic,provider registers the artist in Nigeria,N,16,57730.87
-Boj,boj,NG,domestic,provider registers the artist in Nigeria,N,31,1330805.62
-Bola Abimbola,bola-abimbola,NG,domestic,provider registers the artist in Nigeria,N,30,222.56
-Bola Are,bola-are,,unknown,provider holds no country for this artist,Y,11,95.16
-Bongos Ikwue,bongos-ikwue,NG,domestic,provider registers the artist in Nigeria,N,31,8302.63
-Boogey,boogey,NG,domestic,provider registers the artist in Nigeria,N,30,774.16
-Bouqui,bouqui,NG,domestic,provider registers the artist in Nigeria,N,30,1691.48
-Boy Muller,boy-muller,NG,domestic,provider registers the artist in Nigeria,N,14,270822.93
-Boy Spyce,boy-spyce,NG,domestic,provider registers the artist in Nigeria,N,20,871292.88
-BoyPee,boypee,NG,domestic,provider registers the artist in Nigeria,N,14,678927.12
-Boyskido,boyskido,NG,domestic,provider registers the artist in Nigeria,N,22,65269.6
-Bracket,bracket,NG,domestic,provider registers the artist in Nigeria,N,31,1137291.55
-Bright Chimezie,bright-chimezie,,unknown,provider holds no country for this artist,Y,31,24124.61
-Broda Shaggi,broda-shaggi,NG,domestic,provider registers the artist in Nigeria,N,31,514581.21
-Brown Joel,brown-joel,NG,domestic,provider registers the artist in Nigeria,N,29,726330.86
-Brymo,brymo,NG,domestic,provider registers the artist in Nigeria,N,31,389248.22
-Buchi,buchi,NG,domestic,provider registers the artist in Nigeria,N,31,57862.25
-Burna Boy,burna-boy,NG,domestic,provider registers the artist in Nigeria,N,31,42960525.66
-CDQ,cdq,NG,domestic,provider registers the artist in Nigeria,N,31,174555.16
-CKay,ckay,NG,domestic,provider registers the artist in Nigeria,N,31,22213149.53
-Candy Bleakz,candy-bleakz,NG,domestic,provider registers the artist in Nigeria,N,30,230035.23
-Celestine Ukwu,celestine-ukwu,NG,domestic,provider registers the artist in Nigeria,N,31,13354.82
-Champz,champz,NG,domestic,provider registers the artist in Nigeria,N,29,67976.23
-Charly Boy,charly-boy,NG,domestic,provider registers the artist in Nigeria,N,30,3674.64
-Chech,chech,NG,domestic,provider registers the artist in Nigeria,N,27,107643.06
-Chella,chella,BR,diaspora_candidate,provider registers the artist in BR,Y,16,4102.43
-Cheque,cheque,NG,domestic,provider registers the artist in Nigeria,N,29,741425.82
-Chidinma,chidinma,NG,domestic,provider registers the artist in Nigeria,N,31,1254636.63
-Chief Stephen Osita Osadebe,chief-stephen-osita-osadebe,NG,domestic,provider registers the artist in Nigeria,N,31,214825.48
-Chigozie Wisdom,chigozie-wisdom,NG,domestic,provider registers the artist in Nigeria,N,26,5249.49
-Chike,chike,NG,domestic,provider registers the artist in Nigeria,N,30,3384166.52
-Chinko Ekun,chinko-ekun,NG,domestic,provider registers the artist in Nigeria,N,31,83713.59
-Chinyere Udoma,chinyere-udoma,NG,domestic,provider registers the artist in Nigeria,N,31,3139.72
-Chioma Jesus,chioma-jesus,NG,domestic,provider registers the artist in Nigeria,N,29,206084.08
-Chopstix,chopstix,NG,domestic,provider registers the artist in Nigeria,N,31,31017.68
-Chris Ajilo,chris-ajilo,,unknown,provider holds no country for this artist,Y,30,732.08
-Chris Delvan Gwamna,chris-delvan-gwamna,NG,domestic,provider registers the artist in Nigeria,N,29,12720.0
-Christy Essien-Igbokwe,christy-essien-igbokwe,GB,diaspora_candidate,provider registers the artist in GB,Y,31,101706.09
-Christy Ogbah,christy-ogbah,,unknown,provider holds no country for this artist,Y,30,405.15
-Ciza,ciza,NG,domestic,provider registers the artist in Nigeria,N,29,508.67
-Classiq,classiq,NG,domestic,provider registers the artist in Nigeria,N,30,14095.54
-Cobhams Asuquo,cobhams-asuquo,NG,domestic,provider registers the artist in Nigeria,N,31,170287.09
-Comfort Omoge,comfort-omoge,,unknown,provider holds no country for this artist,Y,11,143.76
-Crayon,crayon,FR,diaspora_candidate,provider registers the artist in FR,Y,29,2221868.0
-Cruel Santino,cruel-santino,NG,domestic,provider registers the artist in Nigeria,N,30,909918.31
-CupidSzn,cupidszn,NG,domestic,provider registers the artist in Nigeria,N,11,317953.2
-Cynthia Morgan,cynthia-morgan,NG,domestic,provider registers the artist in Nigeria,N,31,89443.83
-D'Prince,d'prince,NG,domestic,provider registers the artist in Nigeria,N,30,97551.03
-D'banj,d'banj,NG,domestic,provider registers the artist in Nigeria,N,31,906627.49
-DETO BLACK,deto-black,NG,domestic,provider registers the artist in Nigeria,N,25,122564.96
-DJ 4Kerty,dj-4kerty,NG,domestic,provider registers the artist in Nigeria,N,31,228315.26
-DJ AB,dj-ab,NG,domestic,provider registers the artist in Nigeria,N,30,1279.01
-DJ Baddo,dj-baddo,NG,domestic,provider registers the artist in Nigeria,N,31,28670.95
-DJ Bally,dj-bally,,unknown,provider holds no country for this artist,Y,20,1.88
-DJ Big N,dj-big-n,NG,domestic,provider registers the artist in Nigeria,N,31,145903.67
-DJ Caise,dj-caise,,unknown,provider holds no country for this artist,Y,30,230.15
-DJ Coublon,dj-coublon,NG,domestic,provider registers the artist in Nigeria,N,30,10429.54
-DJ Cuppy,dj-cuppy,,unknown,provider holds no country for this artist,Y,4,12.05
-DJ Enimoney,dj-enimoney,NG,domestic,provider registers the artist in Nigeria,N,31,69844.13
-DJ Kaywise,dj-kaywise,NG,domestic,provider registers the artist in Nigeria,N,31,181556.83
-DJ Neptune,dj-neptune,NG,domestic,provider registers the artist in Nigeria,N,31,1409442.42
-DJ Shawn,dj-shawn,NG,domestic,provider registers the artist in Nigeria,N,24,13482.54
-DJ Spinall,dj-spinall,NG,domestic,provider registers the artist in Nigeria,N,30,239500.77
-DJ Switch,dj-switch,ZA,diaspora_candidate,provider registers the artist in ZA,Y,31,43479.11
-DJ Tunez,dj-tunez,NG,domestic,provider registers the artist in Nigeria,N,2,18322.34
-DJ Xclusive,dj-xclusive,NG,domestic,provider registers the artist in Nigeria,N,31,153270.98
-DOTTi The Deity,dotti-the-deity,NG,domestic,provider registers the artist in Nigeria,N,18,71078.37
-DRB Lasgidi,drb-lasgidi,NG,domestic,provider registers the artist in Nigeria,N,31,238796.4
-Da Emperor,da-emperor,NG,domestic,provider registers the artist in Nigeria,N,30,306.5
-Da Grin,da-grin,NG,domestic,provider registers the artist in Nigeria,N,30,2101.1
-Daddy Fresh,daddy-fresh,NG,domestic,provider registers the artist in Nigeria,N,29,110.41
-Daddy Showkey,daddy-showkey,NG,domestic,provider registers the artist in Nigeria,N,31,7328.58
-Daecolm,daecolm,GB,diaspora_candidate,provider registers the artist in GB,Y,30,6280970.71
-Dami Oniru,dami-oniru,NG,domestic,provider registers the artist in Nigeria,N,31,36518.08
-Dammy Krane,dammy-krane,NG,domestic,provider registers the artist in Nigeria,N,31,43741.66
-Dan Maraya,dan-maraya,NG,domestic,provider registers the artist in Nigeria,N,30,271.54
-Dan Maraya Jos,dan-maraya-jos,,unknown,provider holds no country for this artist,Y,11,211.68
-Dan Musa,dan-musa,,unknown,provider holds no country for this artist,Y,18,4588.77
-Dandizzy,dandizzy,NG,domestic,provider registers the artist in Nigeria,N,31,137103.74
-Dapo Torimiro,dapo-torimiro,,unknown,provider holds no country for this artist,Y,26,111.8
-Darey,darey,NG,domestic,provider registers the artist in Nigeria,N,31,183193.25
-Dareysteel,dareysteel,ES,diaspora_candidate,provider registers the artist in ES,Y,31,222.5
-Darkoo,darkoo,GB,diaspora_candidate,provider registers the artist in GB,Y,30,5778059.78
-Dauda Kahutu Rarara,dauda-kahutu-rarara,NG,domestic,provider registers the artist in Nigeria,N,26,273602.83
-Davido,davido,NG,domestic,provider registers the artist in Nigeria,N,30,18832180.06
-Davolee,davolee,NG,domestic,provider registers the artist in Nigeria,N,30,112130.3
-Dede Mabiaku,dede-mabiaku,NG,domestic,provider registers the artist in Nigeria,N,17,0.37
-Deena Ade,deena-ade,NG,domestic,provider registers the artist in Nigeria,N,30,2889.27
-Deezell,deezell,US,diaspora_candidate,provider registers the artist in US,Y,31,53013.25
-Dekumzy,dekumzy,NG,domestic,provider registers the artist in Nigeria,N,30,27264.5
-Dele Ojo,dele-ojo,US,diaspora_candidate,provider registers the artist in US,Y,30,2782.53
-Dele Taiwo,dele-taiwo,,unknown,provider holds no country for this artist,Y,30,459.85
-Dencia,dencia,CM,diaspora_candidate,provider registers the artist in CM,Y,31,3447.28
-Deobi,deobi,NG,domestic,provider registers the artist in Nigeria,N,11,50799.06
-Di'Ja,di'ja,NG,domestic,provider registers the artist in Nigeria,N,31,89174.2
-Dice Ailes,dice-ailes,NG,domestic,provider registers the artist in Nigeria,N,31,286862.92
-Dizzy K Falola,dizzy-k-falola,GB,diaspora_candidate,provider registers the artist in GB,Y,30,10955.62
-Don Jazzy,don-jazzy,NG,domestic,provider registers the artist in Nigeria,N,31,333121.53
-Douyé,douyé,US,diaspora_candidate,provider registers the artist in US,Y,30,501.56
-Dr Roy,dr-roy,,unknown,provider holds no country for this artist,Y,21,5451.02
-Dr SID,dr-sid,NG,domestic,provider registers the artist in Nigeria,N,31,235517.56
-Dr Sir Warrior,dr-sir-warrior,NG,domestic,provider registers the artist in Nigeria,N,31,36982.56
-Dr. Alban,dr.-alban,NG,domestic,provider registers the artist in Nigeria,N,31,8376142.33
-Dremo,dremo,NG,domestic,provider registers the artist in Nigeria,N,31,217986.15
-Duncan Mighty,duncan-mighty,NG,domestic,provider registers the artist in Nigeria,N,31,414204.4
-Dunsin Oyekan,dunsin-oyekan,NG,domestic,provider registers the artist in Nigeria,N,31,1861082.3
-ELMAH,elmah,NG,domestic,provider registers the artist in Nigeria,N,12,106876.48
-Eben,eben,NG,domestic,provider registers the artist in Nigeria,N,31,1034429.08
-Ebenezer Obey,ebenezer-obey,NG,domestic,provider registers the artist in Nigeria,N,31,3355.26
-Ebuka Songs,ebuka-songs,NG,domestic,provider registers the artist in Nigeria,N,15,790401.03
-Echezonachukwu Nduka,echezonachukwu-nduka,NG,domestic,provider registers the artist in Nigeria,N,26,572.82
-Ecool,ecool,NG,domestic,provider registers the artist in Nigeria,N,27,228354.37
-Eddy Wata,eddy-wata,NG,domestic,provider registers the artist in Nigeria,N,31,133539.84
-EdoMan,edoman,NG,domestic,provider registers the artist in Nigeria,N,5,83369.56
-EeQue,eeque,ZA,diaspora_candidate,provider registers the artist in ZA,Y,26,695674.66
-Eedris Abdulkareem,eedris-abdulkareem,NG,domestic,provider registers the artist in Nigeria,N,30,54899.3
-Ejyk Nwamba,ejyk-nwamba,NG,domestic,provider registers the artist in Nigeria,N,22,137685.86
-Eldee,eldee,NG,domestic,provider registers the artist in Nigeria,N,31,53988.79
-Elestee,elestee,KR,diaspora_candidate,provider registers the artist in KR,Y,10,54472.65
-Ema Onigah,ema-onigah,NG,domestic,provider registers the artist in Nigeria,N,24,84258.33
-Emma Nyra,emma-nyra,US,diaspora_candidate,provider registers the artist in US,Y,31,25724.49
-EmmaOMG,emmaomg,NG,domestic,provider registers the artist in Nigeria,N,31,649317.06
-Emmanuel Iren,emmanuel-iren,NG,domestic,provider registers the artist in Nigeria,N,21,320373.19
-Emmkoo,emmkoo,NG,domestic,provider registers the artist in Nigeria,N,23,5188244.81
-Emmy Gee,emmy-gee,NG,domestic,provider registers the artist in Nigeria,N,31,10612.63
-Erigga,erigga,NG,domestic,provider registers the artist in Nigeria,N,31,459319.71
-Eskeez,eskeez,,unknown,provider holds no country for this artist,Y,21,2851.62
-Eso Dike,eso-dike,US,diaspora_candidate,provider registers the artist in US,Y,26,5.87
-Eva Alordiah,eva-alordiah,NG,domestic,provider registers the artist in Nigeria,N,31,58766.45
-Evado,evado,NG,domestic,provider registers the artist in Nigeria,N,22,107200.23
-Evi Edna Ogholi,evi-edna-ogholi,NG,domestic,provider registers the artist in Nigeria,N,31,22332.16
-FOLA,fola,NG,domestic,provider registers the artist in Nigeria,N,30,1261908.09
-Falz,falz,NG,domestic,provider registers the artist in Nigeria,N,31,1488874.0
-Famous Pluto,famous-pluto,NG,domestic,provider registers the artist in Nigeria,N,8,696665.17
-Fatai Rolling Dollar,fatai-rolling-dollar,NG,domestic,provider registers the artist in Nigeria,N,31,19006.79
-Fave,fave,FR,diaspora_candidate,provider registers the artist in FR,Y,27,2587225.75
-Faze,faze,NG,domestic,provider registers the artist in Nigeria,N,31,31098.95
-Feezy,feezy,NG,domestic,provider registers the artist in Nigeria,N,26,16641.83
-Fela Kuti,fela-kuti,NG,domestic,provider registers the artist in Nigeria,N,31,1117489.87
-Fela Sowande,fela-sowande,,unknown,provider holds no country for this artist,Y,30,23496.5
-Femi Kuti,femi-kuti,GB,diaspora_candidate,provider registers the artist in GB,Y,31,397185.71
-Femi Leye,femi-leye,NG,domestic,provider registers the artist in Nigeria,N,31,2210.0
-Femi Temowo,femi-temowo,GB,diaspora_candidate,provider registers the artist in GB,Y,31,2585.0
-Fido,fido,EG,diaspora_candidate,provider registers the artist in EG,Y,8,987253.81
-Fiokee,fiokee,NG,domestic,provider registers the artist in Nigeria,N,31,202938.2
-Fireboy DML,fireboy-dml,NG,domestic,provider registers the artist in Nigeria,N,31,14554700.63
-FirstKlaz,firstklaz,NG,domestic,provider registers the artist in Nigeria,N,25,149636.35
-Fitzy West,fitzy-west,NG,domestic,provider registers the artist in Nigeria,N,26,11055.82
-Flavour,flavour,NG,domestic,provider registers the artist in Nigeria,N,31,7170813.84
-Flossing,flossing,US,diaspora_candidate,provider registers the artist in US,Y,22,1699.02
-Folabi Nuel,folabi-nuel,NG,domestic,provider registers the artist in Nigeria,N,31,162944.62
-Frank Edwards,frank-edwards,NG,domestic,provider registers the artist in Nigeria,N,31,878405.73
-GMK,gmk,NG,domestic,provider registers the artist in Nigeria,N,30,7743.73
-Gabriel Afolayan,gabriel-afolayan,NG,domestic,provider registers the artist in Nigeria,N,31,9501.41
-Gaise Baba,gaise-baba,NG,domestic,provider registers the artist in Nigeria,N,29,731677.69
-Garzali Miko,garzali-miko,NG,domestic,provider registers the artist in Nigeria,N,25,134983.92
-General Pype,general-pype,NG,domestic,provider registers the artist in Nigeria,N,31,14028.1
-Ghost,ghost,SE,diaspora_candidate,provider registers the artist in SE,Y,31,16202945.29
-Goldie Harvey,goldie-harvey,,unknown,provider holds no country for this artist,Y,30,1660.06
-GoodGirl LA,goodgirl-la,NG,domestic,provider registers the artist in Nigeria,N,31,148429.24
-Goya Menor,goya-menor,NG,domestic,provider registers the artist in Nigeria,N,22,742534.17
-Greatman Takit,greatman-takit,NG,domestic,provider registers the artist in Nigeria,N,25,313154.09
-Guchi,guchi,NG,domestic,provider registers the artist in Nigeria,N,29,1005337.38
-Hamisu Breaker,hamisu-breaker,NG,domestic,provider registers the artist in Nigeria,N,29,552296.4
-Happi,happi,GB,diaspora_candidate,provider registers the artist in GB,Y,30,572280.78
-HarrySong,harrysong,NG,domestic,provider registers the artist in Nigeria,N,31,232600.69
-Haruna Ishola,haruna-ishola,NG,domestic,provider registers the artist in Nigeria,N,31,2576.88
-Hauwa Yarfulani,hauwa-yarfulani,,unknown,provider holds no country for this artist,Y,18,242.11
-Hotkeed,hotkeed,CA,diaspora_candidate,provider registers the artist in CA,Y,29,592275.51
-Hotyce,hotyce,NG,domestic,provider registers the artist in Nigeria,N,31,2270.03
-Humblesmith,humblesmith,NG,domestic,provider registers the artist in Nigeria,N,31,116617.17
-Hurlarstringz,hurlarstringz,,unknown,provider holds no country for this artist,Y,2,0.22
-Hyce,hyce,NG,domestic,provider registers the artist in Nigeria,N,24,627498.06
-I.K. Dairo,i.k.-dairo,,unknown,provider holds no country for this artist,Y,31,6820.62
-Ice Prince,ice-prince,NG,domestic,provider registers the artist in Nigeria,N,31,1414035.26
-Idahams,idahams,NG,domestic,provider registers the artist in Nigeria,N,30,190776.83
-Ifi Ude,ifi-ude,PL,diaspora_candidate,provider registers the artist in PL,Y,31,26376.45
-Ifé,ifé,JP,diaspora_candidate,provider registers the artist in JP,Y,31,54192.59
-Ikechukwu,ikechukwu,NG,domestic,provider registers the artist in Nigeria,N,31,17603.56
-IllRymz,illrymz,NG,domestic,provider registers the artist in Nigeria,N,30,6.23
-Illbliss,illbliss,NG,domestic,provider registers the artist in Nigeria,N,31,147783.51
-Isah Ayagi,isah-ayagi,NG,domestic,provider registers the artist in Nigeria,N,25,85222.13
-Iseoluwa Abidemi,iseoluwa-abidemi,,unknown,provider holds no country for this artist,Y,28,10.42
-Iyanya,iyanya,NG,domestic,provider registers the artist in Nigeria,N,31,2124191.38
-J. Martins,j.-martins,NG,domestic,provider registers the artist in Nigeria,N,31,607756.77
-JJC Skillz,jjc-skillz,,unknown,provider holds no country for this artist,Y,9,0.68
-JNR ELDER,jnr-elder,NG,domestic,provider registers the artist in Nigeria,N,6,56853.57
-Jahdiel,jahdiel,NG,domestic,provider registers the artist in Nigeria,N,31,11087.04
-Jamopyper,jamopyper,NG,domestic,provider registers the artist in Nigeria,N,28,89187.5
-Jasën Blu,jasën-blu,NG,domestic,provider registers the artist in Nigeria,N,29,385.72
-JaySynths,jaysynths,NG,domestic,provider registers the artist in Nigeria,N,23,10919.28
-Jaywon,jaywon,NG,domestic,provider registers the artist in Nigeria,N,31,80897.04
-Jeremiah Gyang,jeremiah-gyang,NG,domestic,provider registers the artist in Nigeria,N,31,12057.88
-Jesse Jagz,jesse-jagz,NG,domestic,provider registers the artist in Nigeria,N,31,78149.48
-Jesse King,jesse-king,NG,domestic,provider registers the artist in Nigeria,N,26,125.72
-Jigsaw,jigsaw,TH,diaspora_candidate,provider registers the artist in TH,Y,23,146310.78
-Jinmi Abduls,jinmi-abduls,NG,domestic,provider registers the artist in Nigeria,N,31,70116.02
-JoBlaq,joblaq,NG,domestic,provider registers the artist in Nigeria,N,10,90930.44
-Joe El,joe-el,NG,domestic,provider registers the artist in Nigeria,N,30,13139.8
-Joe Praize,joe-praize,,unknown,provider holds no country for this artist,Y,31,73946.08
-Joeboy,joeboy,NG,domestic,provider registers the artist in Nigeria,N,31,6321973.46
-John Okafor,john-okafor,,unknown,provider holds no country for this artist,Y,5,329.07
-Johnny Crown,johnny-crown,US,diaspora_candidate,provider registers the artist in US,Y,30,3926.11
-Johnny Drille,johnny-drille,NG,domestic,provider registers the artist in Nigeria,N,31,1535144.68
-Josiah Ransome-Kuti,josiah-ransome-kuti,NG,domestic,provider registers the artist in Nigeria,N,30,19.78
-Judikay,judikay,NG,domestic,provider registers the artist in Nigeria,N,30,546188.96
-Jumabee,jumabee,NG,domestic,provider registers the artist in Nigeria,N,31,15857.09
-Juno,juno,NG,domestic,provider registers the artist in Nigeria,N,14,86141.11
-Justina Lee Brown,justina-lee-brown,CH,diaspora_candidate,provider registers the artist in CH,Y,30,7238.84
-K1 De Ultimate,k1-de-ultimate,NG,domestic,provider registers the artist in Nigeria,N,31,299411.05
-KC Presh,kc-presh,,unknown,provider holds no country for this artist,Y,30,1483.16
-KDDO,kddo,NG,domestic,provider registers the artist in Nigeria,N,30,305988.94
-KWAM 1,kwam-1,,unknown,provider holds no country for this artist,Y,31,23255.11
-Kawu Dan Sarki,kawu-dan-sarki,NG,domestic,provider registers the artist in Nigeria,N,20,168196.3
-KayArchonn,kayarchonn,US,diaspora_candidate,provider registers the artist in US,Y,6,285501.54
-Kcee,kcee,NG,domestic,provider registers the artist in Nigeria,N,31,1114905.95
-Kefee,kefee,,unknown,provider holds no country for this artist,Y,31,24711.32
-Kel-P,kel-p,NG,domestic,provider registers the artist in Nigeria,N,22,131434.9
+Bidemi Olaoba,bidemi-olaoba,NG,domestic,provider registers the artist in Nigeria,N,30,181050.09
+Billar Stoner,billar-stoner,NG,domestic,provider registers the artist in Nigeria,N,6,699.1
+Blackface Naija,blackface-naija,NG,domestic,provider registers the artist in Nigeria,N,31,16.19
+Blackmagic,blackmagic,NG,domestic,provider registers the artist in Nigeria,N,31,277471.0
+Blaisebeatz,blaisebeatz,,unknown,provider holds no country for this artist,Y,6,93.97
+Blaqbonez,blaqbonez,NG,domestic,provider registers the artist in Nigeria,N,31,1776846.13
+Blessing Offor,blessing-offor,NG,domestic,provider registers the artist in Nigeria,N,30,1342108.72
+Bloody Civilian,bloody-civilian,NG,domestic,provider registers the artist in Nigeria,N,16,725090.15
+Bobby Benson,bobby-benson,NG,domestic,provider registers the artist in Nigeria,N,30,826.08
+Boi Chase,boi-chase,NG,domestic,provider registers the artist in Nigeria,N,16,58147.24
+Boj,boj,NG,domestic,provider registers the artist in Nigeria,N,31,1325302.18
+Bola Abimbola,bola-abimbola,NG,domestic,provider registers the artist in Nigeria,N,30,207.62
+Bola Are,bola-are,,unknown,provider holds no country for this artist,Y,11,162.62
+Bongos Ikwue,bongos-ikwue,NG,domestic,provider registers the artist in Nigeria,N,31,8383.7
+Boogey,boogey,NG,domestic,provider registers the artist in Nigeria,N,30,735.41
+Bouqui,bouqui,NG,domestic,provider registers the artist in Nigeria,N,30,1681.5
+Boy Muller,boy-muller,NG,domestic,provider registers the artist in Nigeria,N,14,249128.93
+Boy Spyce,boy-spyce,NG,domestic,provider registers the artist in Nigeria,N,20,852027.34
+BoyPee,boypee,NG,domestic,provider registers the artist in Nigeria,N,14,656615.73
+Boyskido,boyskido,NG,domestic,provider registers the artist in Nigeria,N,22,64924.11
+Bracket,bracket,NG,domestic,provider registers the artist in Nigeria,N,31,1121574.52
+Bright Chimezie,bright-chimezie,,unknown,provider holds no country for this artist,Y,31,23017.27
+Broda Shaggi,broda-shaggi,NG,domestic,provider registers the artist in Nigeria,N,31,511664.28
+Brown Joel,brown-joel,NG,domestic,provider registers the artist in Nigeria,N,29,711403.41
+Brymo,brymo,NG,domestic,provider registers the artist in Nigeria,N,31,385260.37
+Buchi,buchi,NG,domestic,provider registers the artist in Nigeria,N,31,58034.32
+Burna Boy,burna-boy,NG,domestic,provider registers the artist in Nigeria,N,31,42132573.33
+CDQ,cdq,NG,domestic,provider registers the artist in Nigeria,N,31,173183.85
+CKay,ckay,NG,domestic,provider registers the artist in Nigeria,N,31,22084859.65
+Candy Bleakz,candy-bleakz,NG,domestic,provider registers the artist in Nigeria,N,30,224772.15
+Celestine Ukwu,celestine-ukwu,NG,domestic,provider registers the artist in Nigeria,N,31,13272.05
+Champz,champz,NG,domestic,provider registers the artist in Nigeria,N,29,78546.76
+Charly Boy,charly-boy,NG,domestic,provider registers the artist in Nigeria,N,30,3625.65
+Chech,chech,NG,domestic,provider registers the artist in Nigeria,N,27,85932.32
+Chella,chella,BR,diaspora_candidate,provider registers the artist in BR,Y,16,4177.06
+Cheque,cheque,NG,domestic,provider registers the artist in Nigeria,N,29,731400.09
+Chidinma,chidinma,NG,domestic,provider registers the artist in Nigeria,N,31,1251738.29
+Chief Stephen Osita Osadebe,chief-stephen-osita-osadebe,NG,domestic,provider registers the artist in Nigeria,N,31,209451.51
+Chigozie Wisdom,chigozie-wisdom,NG,domestic,provider registers the artist in Nigeria,N,26,5251.93
+Chike,chike,NG,domestic,provider registers the artist in Nigeria,N,30,3342993.88
+Chinko Ekun,chinko-ekun,NG,domestic,provider registers the artist in Nigeria,N,31,81365.25
+Chinyere Udoma,chinyere-udoma,NG,domestic,provider registers the artist in Nigeria,N,31,3006.14
+Chioma Jesus,chioma-jesus,NG,domestic,provider registers the artist in Nigeria,N,29,203220.84
+Chopstix,chopstix,NG,domestic,provider registers the artist in Nigeria,N,31,29002.4
+Chris Ajilo,chris-ajilo,,unknown,provider holds no country for this artist,Y,30,729.97
+Chris Delvan Gwamna,chris-delvan-gwamna,NG,domestic,provider registers the artist in Nigeria,N,29,12327.79
+Christy Essien-Igbokwe,christy-essien-igbokwe,GB,diaspora_candidate,provider registers the artist in GB,Y,31,98710.53
+Christy Ogbah,christy-ogbah,,unknown,provider holds no country for this artist,Y,30,396.15
+Ciza,ciza,NG,domestic,provider registers the artist in Nigeria,N,29,596.65
+Classiq,classiq,NG,domestic,provider registers the artist in Nigeria,N,30,13531.29
+Cobhams Asuquo,cobhams-asuquo,NG,domestic,provider registers the artist in Nigeria,N,31,166128.83
+Comfort Omoge,comfort-omoge,,unknown,provider holds no country for this artist,Y,11,147.33
+Crayon,crayon,FR,diaspora_candidate,provider registers the artist in FR,Y,29,2166472.0
+Cruel Santino,cruel-santino,NG,domestic,provider registers the artist in Nigeria,N,30,893338.32
+CupidSzn,cupidszn,NG,domestic,provider registers the artist in Nigeria,N,11,307783.68
+Cynthia Morgan,cynthia-morgan,NG,domestic,provider registers the artist in Nigeria,N,31,88268.14
+D'Prince,d'prince,NG,domestic,provider registers the artist in Nigeria,N,30,97240.07
+D'banj,d'banj,NG,domestic,provider registers the artist in Nigeria,N,31,901206.38
+DETO BLACK,deto-black,NG,domestic,provider registers the artist in Nigeria,N,25,130955.8
+DJ 4Kerty,dj-4kerty,NG,domestic,provider registers the artist in Nigeria,N,31,218503.57
+DJ AB,dj-ab,NG,domestic,provider registers the artist in Nigeria,N,30,1262.41
+DJ Baddo,dj-baddo,NG,domestic,provider registers the artist in Nigeria,N,31,28290.25
+DJ Bally,dj-bally,,unknown,provider holds no country for this artist,Y,20,1.85
+DJ Big N,dj-big-n,NG,domestic,provider registers the artist in Nigeria,N,31,154147.12
+DJ Caise,dj-caise,,unknown,provider holds no country for this artist,Y,30,250.07
+DJ Coublon,dj-coublon,NG,domestic,provider registers the artist in Nigeria,N,30,11949.06
+DJ Cuppy,dj-cuppy,,unknown,provider holds no country for this artist,Y,4,20.08
+DJ Enimoney,dj-enimoney,NG,domestic,provider registers the artist in Nigeria,N,31,69378.47
+DJ Kaywise,dj-kaywise,NG,domestic,provider registers the artist in Nigeria,N,31,181091.95
+DJ Neptune,dj-neptune,NG,domestic,provider registers the artist in Nigeria,N,31,1387890.33
+DJ Shawn,dj-shawn,NG,domestic,provider registers the artist in Nigeria,N,24,13720.68
+DJ Spinall,dj-spinall,NG,domestic,provider registers the artist in Nigeria,N,30,239503.02
+DJ Switch,dj-switch,ZA,diaspora_candidate,provider registers the artist in ZA,Y,31,43115.37
+DJ Tunez,dj-tunez,NG,domestic,provider registers the artist in Nigeria,N,2,13999.82
+DJ Xclusive,dj-xclusive,NG,domestic,provider registers the artist in Nigeria,N,31,149371.83
+DOTTi The Deity,dotti-the-deity,NG,domestic,provider registers the artist in Nigeria,N,18,68157.95
+DRB Lasgidi,drb-lasgidi,NG,domestic,provider registers the artist in Nigeria,N,31,234915.83
+Da Emperor,da-emperor,NG,domestic,provider registers the artist in Nigeria,N,30,317.21
+Da Grin,da-grin,NG,domestic,provider registers the artist in Nigeria,N,30,2253.44
+Daddy Fresh,daddy-fresh,NG,domestic,provider registers the artist in Nigeria,N,29,99.43
+Daddy Showkey,daddy-showkey,NG,domestic,provider registers the artist in Nigeria,N,31,6998.59
+Daecolm,daecolm,GB,diaspora_candidate,provider registers the artist in GB,Y,30,6162729.57
+Dami Oniru,dami-oniru,NG,domestic,provider registers the artist in Nigeria,N,31,37475.3
+Dammy Krane,dammy-krane,NG,domestic,provider registers the artist in Nigeria,N,31,43359.28
+Dan Maraya,dan-maraya,NG,domestic,provider registers the artist in Nigeria,N,30,242.71
+Dan Maraya Jos,dan-maraya-jos,,unknown,provider holds no country for this artist,Y,11,199.37
+Dan Musa,dan-musa,,unknown,provider holds no country for this artist,Y,18,4427.24
+Dandizzy,dandizzy,NG,domestic,provider registers the artist in Nigeria,N,31,143735.73
+Dapo Torimiro,dapo-torimiro,,unknown,provider holds no country for this artist,Y,26,108.68
+Darey,darey,NG,domestic,provider registers the artist in Nigeria,N,31,183525.52
+Dareysteel,dareysteel,ES,diaspora_candidate,provider registers the artist in ES,Y,31,222.55
+Darkoo,darkoo,GB,diaspora_candidate,provider registers the artist in GB,Y,30,5677837.51
+Dauda Kahutu Rarara,dauda-kahutu-rarara,NG,domestic,provider registers the artist in Nigeria,N,26,273283.85
+Davido,davido,NG,domestic,provider registers the artist in Nigeria,N,30,18611803.09
+Davolee,davolee,NG,domestic,provider registers the artist in Nigeria,N,30,109833.8
+Dede Mabiaku,dede-mabiaku,NG,domestic,provider registers the artist in Nigeria,N,17,0.4
+Deena Ade,deena-ade,NG,domestic,provider registers the artist in Nigeria,N,30,2761.9
+Deezell,deezell,US,diaspora_candidate,provider registers the artist in US,Y,31,53001.58
+Dekumzy,dekumzy,NG,domestic,provider registers the artist in Nigeria,N,30,26389.9
+Dele Ojo,dele-ojo,US,diaspora_candidate,provider registers the artist in US,Y,30,2720.61
+Dele Taiwo,dele-taiwo,,unknown,provider holds no country for this artist,Y,30,358.61
+Dencia,dencia,CM,diaspora_candidate,provider registers the artist in CM,Y,31,3486.73
+Deobi,deobi,NG,domestic,provider registers the artist in Nigeria,N,11,50427.92
+Di'Ja,di'ja,NG,domestic,provider registers the artist in Nigeria,N,31,87601.52
+Dice Ailes,dice-ailes,NG,domestic,provider registers the artist in Nigeria,N,31,273463.35
+Dizzy K Falola,dizzy-k-falola,GB,diaspora_candidate,provider registers the artist in GB,Y,30,9737.52
+Don Jazzy,don-jazzy,NG,domestic,provider registers the artist in Nigeria,N,31,320379.72
+Douyé,douyé,US,diaspora_candidate,provider registers the artist in US,Y,30,551.62
+Dr Roy,dr-roy,,unknown,provider holds no country for this artist,Y,21,5032.85
+Dr SID,dr-sid,NG,domestic,provider registers the artist in Nigeria,N,31,231234.35
+Dr Sir Warrior,dr-sir-warrior,NG,domestic,provider registers the artist in Nigeria,N,31,36457.85
+Dr. Alban,dr.-alban,NG,domestic,provider registers the artist in Nigeria,N,31,8305381.65
+Dremo,dremo,NG,domestic,provider registers the artist in Nigeria,N,31,213981.35
+Duncan Mighty,duncan-mighty,NG,domestic,provider registers the artist in Nigeria,N,31,399028.39
+Dunsin Oyekan,dunsin-oyekan,NG,domestic,provider registers the artist in Nigeria,N,31,1847629.17
+ELMAH,elmah,NG,domestic,provider registers the artist in Nigeria,N,12,117452.9
+Eben,eben,NG,domestic,provider registers the artist in Nigeria,N,31,1031405.9
+Ebenezer Obey,ebenezer-obey,NG,domestic,provider registers the artist in Nigeria,N,31,3338.71
+Ebuka Songs,ebuka-songs,NG,domestic,provider registers the artist in Nigeria,N,15,787223.74
+Echezonachukwu Nduka,echezonachukwu-nduka,NG,domestic,provider registers the artist in Nigeria,N,26,595.7
+Ecool,ecool,NG,domestic,provider registers the artist in Nigeria,N,27,203484.6
+Eddy Wata,eddy-wata,NG,domestic,provider registers the artist in Nigeria,N,31,132541.42
+EdoMan,edoman,NG,domestic,provider registers the artist in Nigeria,N,5,70997.41
+EeQue,eeque,ZA,diaspora_candidate,provider registers the artist in ZA,Y,26,605550.53
+Eedris Abdulkareem,eedris-abdulkareem,NG,domestic,provider registers the artist in Nigeria,N,30,54379.57
+Ejyk Nwamba,ejyk-nwamba,NG,domestic,provider registers the artist in Nigeria,N,22,134444.42
+Eldee,eldee,NG,domestic,provider registers the artist in Nigeria,N,31,51264.99
+Elestee,elestee,KR,diaspora_candidate,provider registers the artist in KR,Y,10,40732.36
+Ema Onigah,ema-onigah,NG,domestic,provider registers the artist in Nigeria,N,24,70936.76
+Emma Nyra,emma-nyra,US,diaspora_candidate,provider registers the artist in US,Y,31,25541.28
+EmmaOMG,emmaomg,NG,domestic,provider registers the artist in Nigeria,N,31,638166.85
+Emmanuel Iren,emmanuel-iren,NG,domestic,provider registers the artist in Nigeria,N,21,319547.37
+Emmkoo,emmkoo,NG,domestic,provider registers the artist in Nigeria,N,23,5188206.43
+Emmy Gee,emmy-gee,NG,domestic,provider registers the artist in Nigeria,N,31,10680.75
+Erigga,erigga,NG,domestic,provider registers the artist in Nigeria,N,31,453475.14
+Eskeez,eskeez,,unknown,provider holds no country for this artist,Y,21,2897.52
+Eso Dike,eso-dike,US,diaspora_candidate,provider registers the artist in US,Y,26,180.02
+Eva Alordiah,eva-alordiah,NG,domestic,provider registers the artist in Nigeria,N,31,58721.64
+Evado,evado,NG,domestic,provider registers the artist in Nigeria,N,22,100687.25
+Evi Edna Ogholi,evi-edna-ogholi,NG,domestic,provider registers the artist in Nigeria,N,31,21972.71
+FOLA,fola,NG,domestic,provider registers the artist in Nigeria,N,30,1194097.55
+Falz,falz,NG,domestic,provider registers the artist in Nigeria,N,31,1463004.62
+Famous Pluto,famous-pluto,NG,domestic,provider registers the artist in Nigeria,N,8,656976.29
+Fatai Rolling Dollar,fatai-rolling-dollar,NG,domestic,provider registers the artist in Nigeria,N,31,18826.38
+Fave,fave,FR,diaspora_candidate,provider registers the artist in FR,Y,27,2460031.58
+Faze,faze,NG,domestic,provider registers the artist in Nigeria,N,31,30133.07
+Feezy,feezy,NG,domestic,provider registers the artist in Nigeria,N,26,15866.25
+Fela Kuti,fela-kuti,NG,domestic,provider registers the artist in Nigeria,N,31,1118030.43
+Fela Sowande,fela-sowande,,unknown,provider holds no country for this artist,Y,30,24915.97
+Femi Kuti,femi-kuti,GB,diaspora_candidate,provider registers the artist in GB,Y,31,395587.47
+Femi Leye,femi-leye,NG,domestic,provider registers the artist in Nigeria,N,31,2274.57
+Femi Temowo,femi-temowo,GB,diaspora_candidate,provider registers the artist in GB,Y,31,2692.0
+Fido,fido,EG,diaspora_candidate,provider registers the artist in EG,Y,8,999406.93
+Fiokee,fiokee,NG,domestic,provider registers the artist in Nigeria,N,31,201095.5
+Fireboy DML,fireboy-dml,NG,domestic,provider registers the artist in Nigeria,N,31,14397031.45
+FirstKlaz,firstklaz,NG,domestic,provider registers the artist in Nigeria,N,25,135620.36
+Fitzy West,fitzy-west,NG,domestic,provider registers the artist in Nigeria,N,26,10114.94
+Flavour,flavour,NG,domestic,provider registers the artist in Nigeria,N,31,7131291.92
+Flossing,flossing,US,diaspora_candidate,provider registers the artist in US,Y,22,1565.66
+Folabi Nuel,folabi-nuel,NG,domestic,provider registers the artist in Nigeria,N,31,164334.11
+Frank Edwards,frank-edwards,NG,domestic,provider registers the artist in Nigeria,N,31,876437.55
+GMK,gmk,NG,domestic,provider registers the artist in Nigeria,N,30,7854.47
+Gabriel Afolayan,gabriel-afolayan,NG,domestic,provider registers the artist in Nigeria,N,31,9490.29
+Gaise Baba,gaise-baba,NG,domestic,provider registers the artist in Nigeria,N,29,713704.87
+Garzali Miko,garzali-miko,NG,domestic,provider registers the artist in Nigeria,N,25,134889.01
+General Pype,general-pype,NG,domestic,provider registers the artist in Nigeria,N,31,13031.71
+Ghost,ghost,SE,diaspora_candidate,provider registers the artist in SE,Y,31,16084230.65
+Goldie Harvey,goldie-harvey,,unknown,provider holds no country for this artist,Y,30,1609.37
+GoodGirl LA,goodgirl-la,NG,domestic,provider registers the artist in Nigeria,N,31,142982.35
+Goya Menor,goya-menor,NG,domestic,provider registers the artist in Nigeria,N,22,738109.82
+Greatman Takit,greatman-takit,NG,domestic,provider registers the artist in Nigeria,N,25,300413.75
+Guchi,guchi,NG,domestic,provider registers the artist in Nigeria,N,29,987700.02
+Hamisu Breaker,hamisu-breaker,NG,domestic,provider registers the artist in Nigeria,N,29,551626.83
+Happi,happi,GB,diaspora_candidate,provider registers the artist in GB,Y,30,561486.94
+HarrySong,harrysong,NG,domestic,provider registers the artist in Nigeria,N,31,230011.79
+Haruna Ishola,haruna-ishola,NG,domestic,provider registers the artist in Nigeria,N,31,2659.09
+Hauwa Yarfulani,hauwa-yarfulani,,unknown,provider holds no country for this artist,Y,18,209.63
+Hotkeed,hotkeed,CA,diaspora_candidate,provider registers the artist in CA,Y,29,573513.3
+Hotyce,hotyce,NG,domestic,provider registers the artist in Nigeria,N,31,2373.17
+Humblesmith,humblesmith,NG,domestic,provider registers the artist in Nigeria,N,31,113935.72
+Hurlarstringz,hurlarstringz,,unknown,provider holds no country for this artist,Y,2,0.77
+Hyce,hyce,NG,domestic,provider registers the artist in Nigeria,N,24,613611.83
+I.K. Dairo,i.k.-dairo,,unknown,provider holds no country for this artist,Y,31,6788.09
+Ice Prince,ice-prince,NG,domestic,provider registers the artist in Nigeria,N,31,1392259.71
+Idahams,idahams,NG,domestic,provider registers the artist in Nigeria,N,30,192815.46
+Ifi Ude,ifi-ude,PL,diaspora_candidate,provider registers the artist in PL,Y,31,26441.59
+Ifé,ifé,JP,diaspora_candidate,provider registers the artist in JP,Y,31,51326.88
+Ikechukwu,ikechukwu,NG,domestic,provider registers the artist in Nigeria,N,31,16889.41
+IllRymz,illrymz,NG,domestic,provider registers the artist in Nigeria,N,30,5.88
+Illbliss,illbliss,NG,domestic,provider registers the artist in Nigeria,N,31,137474.16
+Isah Ayagi,isah-ayagi,NG,domestic,provider registers the artist in Nigeria,N,25,85307.63
+Iseoluwa Abidemi,iseoluwa-abidemi,,unknown,provider holds no country for this artist,Y,28,9.88
+Iyanya,iyanya,NG,domestic,provider registers the artist in Nigeria,N,31,2116193.65
+J. Martins,j.-martins,NG,domestic,provider registers the artist in Nigeria,N,31,600755.86
+JJC Skillz,jjc-skillz,,unknown,provider holds no country for this artist,Y,9,0.75
+JNR ELDER,jnr-elder,NG,domestic,provider registers the artist in Nigeria,N,6,54947.49
+Jahdiel,jahdiel,NG,domestic,provider registers the artist in Nigeria,N,31,10922.64
+Jamopyper,jamopyper,NG,domestic,provider registers the artist in Nigeria,N,28,84068.42
+Jasën Blu,jasën-blu,NG,domestic,provider registers the artist in Nigeria,N,29,389.94
+JaySynths,jaysynths,NG,domestic,provider registers the artist in Nigeria,N,23,11772.08
+Jaywon,jaywon,NG,domestic,provider registers the artist in Nigeria,N,31,79509.06
+Jeremiah Gyang,jeremiah-gyang,NG,domestic,provider registers the artist in Nigeria,N,31,11563.35
+Jesse Jagz,jesse-jagz,NG,domestic,provider registers the artist in Nigeria,N,31,78268.5
+Jesse King,jesse-king,NG,domestic,provider registers the artist in Nigeria,N,26,137.39
+Jigsaw,jigsaw,TH,diaspora_candidate,provider registers the artist in TH,Y,23,141886.4
+Jinmi Abduls,jinmi-abduls,NG,domestic,provider registers the artist in Nigeria,N,31,70325.7
+JoBlaq,joblaq,NG,domestic,provider registers the artist in Nigeria,N,10,91565.76
+Joe El,joe-el,NG,domestic,provider registers the artist in Nigeria,N,30,11505.23
+Joe Praize,joe-praize,,unknown,provider holds no country for this artist,Y,31,74001.8
+Joeboy,joeboy,NG,domestic,provider registers the artist in Nigeria,N,31,6264449.98
+John Okafor,john-okafor,,unknown,provider holds no country for this artist,Y,5,358.99
+Johnny Crown,johnny-crown,US,diaspora_candidate,provider registers the artist in US,Y,30,5449.1
+Johnny Drille,johnny-drille,NG,domestic,provider registers the artist in Nigeria,N,31,1541571.15
+Josiah Ransome-Kuti,josiah-ransome-kuti,NG,domestic,provider registers the artist in Nigeria,N,30,18.37
+Judikay,judikay,NG,domestic,provider registers the artist in Nigeria,N,30,528358.43
+Jumabee,jumabee,NG,domestic,provider registers the artist in Nigeria,N,31,16858.0
+Juno,juno,NG,domestic,provider registers the artist in Nigeria,N,14,84366.52
+Justina Lee Brown,justina-lee-brown,CH,diaspora_candidate,provider registers the artist in CH,Y,30,6233.01
+K1 De Ultimate,k1-de-ultimate,NG,domestic,provider registers the artist in Nigeria,N,31,290975.61
+KC Presh,kc-presh,,unknown,provider holds no country for this artist,Y,30,1351.58
+KDDO,kddo,NG,domestic,provider registers the artist in Nigeria,N,30,289239.3
+KWAM 1,kwam-1,,unknown,provider holds no country for this artist,Y,31,22561.05
+Kawu Dan Sarki,kawu-dan-sarki,NG,domestic,provider registers the artist in Nigeria,N,20,167920.5
+KayArchonn,kayarchonn,US,diaspora_candidate,provider registers the artist in US,Y,6,282572.18
+Kcee,kcee,NG,domestic,provider registers the artist in Nigeria,N,31,1096015.07
+Kefee,kefee,,unknown,provider holds no country for this artist,Y,31,23786.83
+Kel-P,kel-p,NG,domestic,provider registers the artist in Nigeria,N,22,119303.9
 Kelly Handsome,kelly-handsome,,unknown,provider holds no country for this artist,Y,29,84.98
-Kemena,kemena,NG,domestic,provider registers the artist in Nigeria,N,26,8095.98
-Kendickson,kendickson,NG,domestic,provider registers the artist in Nigeria,N,30,44409.07
-Kenny K'ore,kenny-k'ore,NG,domestic,provider registers the artist in Nigeria,N,31,3938.39
-Kenny Ogungbe,kenny-ogungbe,,unknown,provider holds no country for this artist,Y,29,10.75
-Ketchup,ketchup,NG,domestic,provider registers the artist in Nigeria,N,31,152150.26
-Kfmd,kfmd,NG,domestic,provider registers the artist in Nigeria,N,2,22012.95
-Khaid,khaid,NG,domestic,provider registers the artist in Nigeria,N,19,2331977.99
-Kheengz,kheengz,NG,domestic,provider registers the artist in Nigeria,N,30,5746.19
-Kibilou,kibilou,NG,domestic,provider registers the artist in Nigeria,N,17,80586.31
-Kida Kudz,kida-kudz,GB,diaspora_candidate,provider registers the artist in GB,Y,31,490667.88
-Kidd Carder,kidd-carder,NG,domestic,provider registers the artist in Nigeria,N,23,532316.56
-Killertunes,killertunes,NG,domestic,provider registers the artist in Nigeria,N,30,64014.44
-King Perryy,king-perryy,NG,domestic,provider registers the artist in Nigeria,N,31,435677.2
-King Steve Benjamin,king-steve-benjamin,NG,domestic,provider registers the artist in Nigeria,N,25,2948.25
-King Sunny Ade,king-sunny-ade,NG,domestic,provider registers the artist in Nigeria,N,31,152623.03
-King Wadada,king-wadada,NG,domestic,provider registers the artist in Nigeria,N,27,418.72
-Kizz Daniel,kizz-daniel,NG,domestic,provider registers the artist in Nigeria,N,31,10816064.94
-Koker,koker,NG,domestic,provider registers the artist in Nigeria,N,31,39292.44
-Kokoro,kokoro,GB,diaspora_candidate,provider registers the artist in GB,Y,29,1154292.06
-Kola Ogunkoya,kola-ogunkoya,US,diaspora_candidate,provider registers the artist in US,Y,30,2299.42
-Kollington Ayinla,kollington-ayinla,,unknown,provider holds no country for this artist,Y,30,485.9
-Korede Bello,korede-bello,NG,domestic,provider registers the artist in Nigeria,N,31,1571391.76
-Krexx Nv,krexx-nv,NG,domestic,provider registers the artist in Nigeria,N,9,2676.26
+Kemena,kemena,NG,domestic,provider registers the artist in Nigeria,N,26,8277.22
+Kendickson,kendickson,NG,domestic,provider registers the artist in Nigeria,N,30,42947.42
+Kenny K'ore,kenny-k'ore,NG,domestic,provider registers the artist in Nigeria,N,31,4013.14
+Kenny Ogungbe,kenny-ogungbe,,unknown,provider holds no country for this artist,Y,29,10.87
+Ketchup,ketchup,NG,domestic,provider registers the artist in Nigeria,N,31,151150.82
+Kfmd,kfmd,NG,domestic,provider registers the artist in Nigeria,N,2,20853.44
+Khaid,khaid,NG,domestic,provider registers the artist in Nigeria,N,19,2276325.79
+Kheengz,kheengz,NG,domestic,provider registers the artist in Nigeria,N,30,5668.03
+Kibilou,kibilou,NG,domestic,provider registers the artist in Nigeria,N,17,74629.34
+Kida Kudz,kida-kudz,GB,diaspora_candidate,provider registers the artist in GB,Y,31,502247.05
+Kidd Carder,kidd-carder,NG,domestic,provider registers the artist in Nigeria,N,23,476658.91
+Killertunes,killertunes,NG,domestic,provider registers the artist in Nigeria,N,30,60659.36
+King Perryy,king-perryy,NG,domestic,provider registers the artist in Nigeria,N,31,441051.71
+King Steve Benjamin,king-steve-benjamin,NG,domestic,provider registers the artist in Nigeria,N,25,2636.98
+King Sunny Ade,king-sunny-ade,NG,domestic,provider registers the artist in Nigeria,N,31,151898.62
+King Wadada,king-wadada,NG,domestic,provider registers the artist in Nigeria,N,27,417.97
+Kizz Daniel,kizz-daniel,NG,domestic,provider registers the artist in Nigeria,N,31,10710505.73
+Koker,koker,NG,domestic,provider registers the artist in Nigeria,N,31,37567.46
+Kokoro,kokoro,GB,diaspora_candidate,provider registers the artist in GB,Y,29,1157671.31
+Kola Ogunkoya,kola-ogunkoya,US,diaspora_candidate,provider registers the artist in US,Y,30,2236.23
+Kollington Ayinla,kollington-ayinla,,unknown,provider holds no country for this artist,Y,30,487.62
+Korede Bello,korede-bello,NG,domestic,provider registers the artist in Nigeria,N,31,1556865.64
+Krexx Nv,krexx-nv,NG,domestic,provider registers the artist in Nigeria,N,9,2601.66
 Kunle Ajayi,kunle-ajayi,,unknown,provider holds no country for this artist,Y,11,2.64
-Kunmie,kunmie,NG,domestic,provider registers the artist in Nigeria,N,26,849585.17
-Kvng Vinci,kvng-vinci,ZA,diaspora_candidate,provider registers the artist in ZA,Y,21,483965.38
-L.A.X,l.a.x,NG,domestic,provider registers the artist in Nigeria,N,31,2668444.05
-LADIPOE,ladipoe,NG,domestic,provider registers the artist in Nigeria,N,31,1216792.2
-LKT,lkt,NG,domestic,provider registers the artist in Nigeria,N,30,12775.49
-Lady Donli,lady-donli,NG,domestic,provider registers the artist in Nigeria,N,31,240796.29
-Lagbaja,lagbaja,NG,domestic,provider registers the artist in Nigeria,N,31,84058.7
-Lara George,lara-george,NG,domestic,provider registers the artist in Nigeria,N,31,394456.63
-Larry Gaaga,larry-gaaga,NG,domestic,provider registers the artist in Nigeria,N,31,1183381.41
-Lawrence Oyor,lawrence-oyor,NG,domestic,provider registers the artist in Nigeria,N,26,886524.85
-Laycon,laycon,NG,domestic,provider registers the artist in Nigeria,N,26,170295.66
-Lekaa Beats,lekaa-beats,GB,diaspora_candidate,provider registers the artist in GB,Y,30,340048.84
-Lemmy Jackson,lemmy-jackson,NL,diaspora_candidate,provider registers the artist in NL,Y,19,20.2
-Libianca,libianca,CM,diaspora_candidate,provider registers the artist in CM,Y,29,10347004.49
-Lifesize Teddy,lifesize-teddy,PT,diaspora_candidate,provider registers the artist in PT,Y,25,27957.82
-Lijadu Sisters,lijadu-sisters,NG,domestic,provider registers the artist in Nigeria,N,30,315215.9
-Lil Kesh,lil-kesh,NG,domestic,provider registers the artist in Nigeria,N,31,1005015.3
-Lilin Baba,lilin-baba,NG,domestic,provider registers the artist in Nigeria,N,25,257923.71
-Limoblaze,limoblaze,NG,domestic,provider registers the artist in Nigeria,N,31,1584852.14
-Lincoln,lincoln,US,diaspora_candidate,provider registers the artist in US,Y,30,1065575.12
-Lindsey Abudei,lindsey-abudei,NG,domestic,provider registers the artist in Nigeria,N,30,4298.48
-Little Simz,little-simz,GB,diaspora_candidate,provider registers the artist in GB,Y,31,6521729.3
-Liya,liya,NG,domestic,provider registers the artist in Nigeria,N,29,93821.36
-Llona,llona,NG,domestic,provider registers the artist in Nigeria,N,18,541961.73
-Lojay,lojay,NG,domestic,provider registers the artist in Nigeria,N,30,5473960.17
-Lola Rae,lola-rae,NG,domestic,provider registers the artist in Nigeria,N,31,42345.67
-London,london,,unknown,provider holds no country for this artist,Y,25,1134.06
-Loose Kaynon,loose-kaynon,NG,domestic,provider registers the artist in Nigeria,N,31,2919.74
-Lord of Ajasa,lord-of-ajasa,NG,domestic,provider registers the artist in Nigeria,N,31,16622.7
-Louddaaa,louddaaa,NG,domestic,provider registers the artist in Nigeria,N,6,2874.44
-Lyta,lyta,NG,domestic,provider registers the artist in Nigeria,N,31,294222.46
-M Trill,m-trill,NG,domestic,provider registers the artist in Nigeria,N,20,50.27
-M.I,m.i,GB,diaspora_candidate,provider registers the artist in GB,Y,31,86168.39
-M.I. Abaga,m.i.-abaga,NG,domestic,provider registers the artist in Nigeria,N,31,371057.66
-MC Galaxy,mc-galaxy,NG,domestic,provider registers the artist in Nigeria,N,31,278766.02
-MCskill ThaPreacha,mcskill-thapreacha,NG,domestic,provider registers the artist in Nigeria,N,30,181.8
-Made Kuti,made-kuti,NG,domestic,provider registers the artist in Nigeria,N,24,10753.68
-Magixx,magixx,NG,domestic,provider registers the artist in Nigeria,N,31,1640887.26
-Magníto,magníto,,unknown,provider holds no country for this artist,Y,31,186483.44
-Maintain,maintain,US,diaspora_candidate,provider registers the artist in US,Y,17,3804.57
-Mairo Ese,mairo-ese,NG,domestic,provider registers the artist in Nigeria,N,30,81886.44
-Majeeed,majeeed,GB,diaspora_candidate,provider registers the artist in GB,Y,26,752079.07
-Majek Fashek,majek-fashek,NG,domestic,provider registers the artist in Nigeria,N,31,58046.65
-Makayla Malaka,makayla-malaka,NG,domestic,provider registers the artist in Nigeria,N,26,10053.69
-Maleek Berry,maleek-berry,GB,diaspora_candidate,provider registers the artist in GB,Y,31,3327631.92
-Mamman Shata,mamman-shata,,unknown,provider holds no country for this artist,Y,29,1824.11
-Mannywellz,mannywellz,US,diaspora_candidate,provider registers the artist in US,Y,31,502372.9
-Marenikae,marenikae,NG,domestic,provider registers the artist in Nigeria,N,30,1451.54
-Marvy,marvy,AL,diaspora_candidate,provider registers the artist in AL,Y,21,1289.23
-Maryam Booth,maryam-booth,,unknown,provider holds no country for this artist,Y,4,220.69
-Masterkraft,masterkraft,NG,domestic,provider registers the artist in Nigeria,N,31,504831.79
-Mavo,mavo,GB,diaspora_candidate,provider registers the artist in GB,Y,29,1138495.1
-May D,may-d,NG,domestic,provider registers the artist in Nigeria,N,31,287671.45
-May7ven,may7ven,GB,diaspora_candidate,provider registers the artist in GB,Y,30,534.33
-Mayorkun,mayorkun,NG,domestic,provider registers the artist in Nigeria,N,31,2263306.35
-Mega 99,mega-99,NG,domestic,provider registers the artist in Nigeria,N,30,25379.67
-Mercy Chinwo,mercy-chinwo,NG,domestic,provider registers the artist in Nigeria,N,31,2153761.7
-Michael Ekeghasi,michael-ekeghasi,,unknown,provider holds no country for this artist,Y,22,4.1
-Midnight Crew,midnight-crew,NG,domestic,provider registers the artist in Nigeria,N,31,71363.2
-Mike Abdul,mike-abdul,NG,domestic,provider registers the artist in Nigeria,N,31,234839.51
-Mike Ejeagha,mike-ejeagha,,unknown,provider holds no country for this artist,Y,31,262.55
-Minister GUC,minister-guc,NG,domestic,provider registers the artist in Nigeria,N,24,543618.47
-Minz,minz,NG,domestic,provider registers the artist in Nigeria,N,31,878797.25
-Mo'Cheddah,mo'cheddah,NG,domestic,provider registers the artist in Nigeria,N,30,6206.17
-Mode 9,mode-9,,unknown,provider holds no country for this artist,Y,30,1694.84
-Modenine,modenine,NG,domestic,provider registers the artist in Nigeria,N,31,39961.17
-Modola,modola,IT,diaspora_candidate,provider registers the artist in IT,Y,7,20625.87
-Mohbad,mohbad,NG,domestic,provider registers the artist in Nigeria,N,30,1527362.74
-Momee Gombe,momee-gombe,NG,domestic,provider registers the artist in Nigeria,N,18,78511.16
-Monaky,monaky,NG,domestic,provider registers the artist in Nigeria,N,23,633464.0
-Monica Ogah,monica-ogah,NG,domestic,provider registers the artist in Nigeria,N,30,19127.61
-Monicazation,monicazation,US,diaspora_candidate,provider registers the artist in US,Y,29,526.56
-Monochrome,monochrome,NG,domestic,provider registers the artist in Nigeria,N,11,33774.69
-Morell,morell,NG,domestic,provider registers the artist in Nigeria,N,30,24222.94
-Morocco Maduka,morocco-maduka,NG,domestic,provider registers the artist in Nigeria,N,24,24.33
-Morravey,morravey,NG,domestic,provider registers the artist in Nigeria,N,12,230187.32
-Mosbeekhan,mosbeekhan,NG,domestic,provider registers the artist in Nigeria,N,14,873.14
-Moses Bliss,moses-bliss,NG,domestic,provider registers the artist in Nigeria,N,29,3354384.78
-Mr 2Kay,mr-2kay,NG,domestic,provider registers the artist in Nigeria,N,31,70301.59
-Mr Dutch,mr-dutch,ZA,diaspora_candidate,provider registers the artist in ZA,Y,30,84015.3
-Mr Eazi,mr-eazi,NG,domestic,provider registers the artist in Nigeria,N,31,10114272.18
-Mr M & Revelation,mr-m-&-revelation,NG,domestic,provider registers the artist in Nigeria,N,25,141632.59
-Mr Raw,mr-raw,NG,domestic,provider registers the artist in Nigeria,N,27,37890.25
-Mr Real,mr-real,NG,domestic,provider registers the artist in Nigeria,N,30,125109.68
-Mr. P,mr.-p,NG,domestic,provider registers the artist in Nigeria,N,30,695944.33
-Msquare,msquare,,unknown,provider holds no country for this artist,Y,20,6.95
-Muma Gee,muma-gee,NG,domestic,provider registers the artist in Nigeria,N,21,12.92
-Muna,muna,US,diaspora_candidate,provider registers the artist in US,Y,31,2646094.84
-Muri Thunder,muri-thunder,NG,domestic,provider registers the artist in Nigeria,N,15,59.45
-Murz,murz,CA,diaspora_candidate,provider registers the artist in CA,Y,30,757.26
-Musa Dankwairo,musa-dankwairo,NG,domestic,provider registers the artist in Nigeria,N,29,956.06
-Musicbwoy,musicbwoy,NG,domestic,provider registers the artist in Nigeria,N,28,163446.42
-Musta4a,musta4a,NG,domestic,provider registers the artist in Nigeria,N,26,10725.05
-Muyeez,muyeez,NG,domestic,provider registers the artist in Nigeria,N,10,586678.27
-Mz Kiss,mz-kiss,NG,domestic,provider registers the artist in Nigeria,N,30,1642.47
-NO11,no11,NG,domestic,provider registers the artist in Nigeria,N,16,289533.36
-Naeto C,naeto-c,NG,domestic,provider registers the artist in Nigeria,N,31,113196.26
-Naira Marley,naira-marley,NG,domestic,provider registers the artist in Nigeria,N,31,3049494.18
-Namenj,namenj,NG,domestic,provider registers the artist in Nigeria,N,27,73775.37
-Nathaniel Bassey,nathaniel-bassey,NG,domestic,provider registers the artist in Nigeria,N,31,3213245.13
-Nazifi Asnanic,nazifi-asnanic,NG,domestic,provider registers the artist in Nigeria,N,25,129964.93
-Nazir M. Ahmad,nazir-m.-ahmad,NG,domestic,provider registers the artist in Nigeria,N,31,8360.56
-Nazir Sarkin Waka,nazir-sarkin-waka,NG,domestic,provider registers the artist in Nigeria,N,20,184586.55
+Kunmie,kunmie,NG,domestic,provider registers the artist in Nigeria,N,26,809823.17
+Kvng Vinci,kvng-vinci,ZA,diaspora_candidate,provider registers the artist in ZA,Y,21,488225.53
+L.A.X,l.a.x,NG,domestic,provider registers the artist in Nigeria,N,31,2627117.32
+LADIPOE,ladipoe,NG,domestic,provider registers the artist in Nigeria,N,31,1186761.65
+LKT,lkt,NG,domestic,provider registers the artist in Nigeria,N,30,10481.49
+Lady Donli,lady-donli,NG,domestic,provider registers the artist in Nigeria,N,31,237163.46
+Lagbaja,lagbaja,NG,domestic,provider registers the artist in Nigeria,N,31,90294.22
+Lara George,lara-george,NG,domestic,provider registers the artist in Nigeria,N,31,388829.02
+Larry Gaaga,larry-gaaga,NG,domestic,provider registers the artist in Nigeria,N,31,1160963.24
+Lawrence Oyor,lawrence-oyor,NG,domestic,provider registers the artist in Nigeria,N,26,863844.19
+Laycon,laycon,NG,domestic,provider registers the artist in Nigeria,N,26,167576.25
+Lekaa Beats,lekaa-beats,GB,diaspora_candidate,provider registers the artist in GB,Y,30,337107.5
+Lemmy Jackson,lemmy-jackson,NL,diaspora_candidate,provider registers the artist in NL,Y,19,19.79
+Libianca,libianca,CM,diaspora_candidate,provider registers the artist in CM,Y,29,10155723.62
+Lifesize Teddy,lifesize-teddy,PT,diaspora_candidate,provider registers the artist in PT,Y,25,31439.1
+Lijadu Sisters,lijadu-sisters,NG,domestic,provider registers the artist in Nigeria,N,30,312727.68
+Lil Kesh,lil-kesh,NG,domestic,provider registers the artist in Nigeria,N,31,996519.4
+Lilin Baba,lilin-baba,NG,domestic,provider registers the artist in Nigeria,N,25,257299.43
+Limoblaze,limoblaze,NG,domestic,provider registers the artist in Nigeria,N,31,1588783.88
+Lincoln,lincoln,US,diaspora_candidate,provider registers the artist in US,Y,30,1068549.08
+Lindsey Abudei,lindsey-abudei,NG,domestic,provider registers the artist in Nigeria,N,30,4273.06
+Little Simz,little-simz,GB,diaspora_candidate,provider registers the artist in GB,Y,31,6368295.51
+Liya,liya,NG,domestic,provider registers the artist in Nigeria,N,29,95325.88
+Llona,llona,NG,domestic,provider registers the artist in Nigeria,N,18,506836.3
+Lojay,lojay,NG,domestic,provider registers the artist in Nigeria,N,30,5390487.01
+Lola Rae,lola-rae,NG,domestic,provider registers the artist in Nigeria,N,31,41618.46
+London,london,,unknown,provider holds no country for this artist,Y,25,1167.94
+Loose Kaynon,loose-kaynon,NG,domestic,provider registers the artist in Nigeria,N,31,3075.04
+Lord of Ajasa,lord-of-ajasa,NG,domestic,provider registers the artist in Nigeria,N,31,16135.71
+Louddaaa,louddaaa,NG,domestic,provider registers the artist in Nigeria,N,6,3061.78
+Lyta,lyta,NG,domestic,provider registers the artist in Nigeria,N,31,278764.83
+M Trill,m-trill,NG,domestic,provider registers the artist in Nigeria,N,20,42.91
+M.I,m.i,GB,diaspora_candidate,provider registers the artist in GB,Y,31,85455.49
+M.I. Abaga,m.i.-abaga,NG,domestic,provider registers the artist in Nigeria,N,31,362610.27
+MC Galaxy,mc-galaxy,NG,domestic,provider registers the artist in Nigeria,N,31,278623.74
+MCskill ThaPreacha,mcskill-thapreacha,NG,domestic,provider registers the artist in Nigeria,N,30,163.54
+Made Kuti,made-kuti,NG,domestic,provider registers the artist in Nigeria,N,24,11180.52
+Magixx,magixx,NG,domestic,provider registers the artist in Nigeria,N,31,1594243.43
+Magníto,magníto,,unknown,provider holds no country for this artist,Y,31,182005.0
+Maintain,maintain,US,diaspora_candidate,provider registers the artist in US,Y,17,3521.99
+Mairo Ese,mairo-ese,NG,domestic,provider registers the artist in Nigeria,N,30,80845.84
+Majeeed,majeeed,GB,diaspora_candidate,provider registers the artist in GB,Y,26,736923.0
+Majek Fashek,majek-fashek,NG,domestic,provider registers the artist in Nigeria,N,31,57389.71
+Makayla Malaka,makayla-malaka,NG,domestic,provider registers the artist in Nigeria,N,26,10344.42
+Maleek Berry,maleek-berry,GB,diaspora_candidate,provider registers the artist in GB,Y,31,3305295.77
+Mamman Shata,mamman-shata,,unknown,provider holds no country for this artist,Y,29,1803.88
+Mannywellz,mannywellz,US,diaspora_candidate,provider registers the artist in US,Y,31,494966.79
+Marenikae,marenikae,NG,domestic,provider registers the artist in Nigeria,N,30,1546.58
+Marvy,marvy,AL,diaspora_candidate,provider registers the artist in AL,Y,21,1342.64
+Maryam Booth,maryam-booth,,unknown,provider holds no country for this artist,Y,4,220.9
+Masterkraft,masterkraft,NG,domestic,provider registers the artist in Nigeria,N,31,499962.7
+Mavo,mavo,GB,diaspora_candidate,provider registers the artist in GB,Y,29,1055761.08
+May D,may-d,NG,domestic,provider registers the artist in Nigeria,N,31,277122.27
+May7ven,may7ven,GB,diaspora_candidate,provider registers the artist in GB,Y,30,523.02
+Mayorkun,mayorkun,NG,domestic,provider registers the artist in Nigeria,N,31,2180207.94
+Mega 99,mega-99,NG,domestic,provider registers the artist in Nigeria,N,30,25018.56
+Mercy Chinwo,mercy-chinwo,NG,domestic,provider registers the artist in Nigeria,N,31,2133130.16
+Michael Ekeghasi,michael-ekeghasi,,unknown,provider holds no country for this artist,Y,22,4.24
+Midnight Crew,midnight-crew,NG,domestic,provider registers the artist in Nigeria,N,31,70921.92
+Mike Abdul,mike-abdul,NG,domestic,provider registers the artist in Nigeria,N,31,229118.12
+Mike Ejeagha,mike-ejeagha,,unknown,provider holds no country for this artist,Y,31,214.08
+Minister GUC,minister-guc,NG,domestic,provider registers the artist in Nigeria,N,24,529085.55
+Minz,minz,NG,domestic,provider registers the artist in Nigeria,N,31,871994.54
+Mo'Cheddah,mo'cheddah,NG,domestic,provider registers the artist in Nigeria,N,30,5252.31
+Mode 9,mode-9,,unknown,provider holds no country for this artist,Y,30,1680.96
+Modenine,modenine,NG,domestic,provider registers the artist in Nigeria,N,31,42093.79
+Modola,modola,IT,diaspora_candidate,provider registers the artist in IT,Y,7,22367.43
+Mohbad,mohbad,NG,domestic,provider registers the artist in Nigeria,N,30,1481192.64
+Momee Gombe,momee-gombe,NG,domestic,provider registers the artist in Nigeria,N,18,78512.41
+Monaky,monaky,NG,domestic,provider registers the artist in Nigeria,N,23,612232.83
+Monica Ogah,monica-ogah,NG,domestic,provider registers the artist in Nigeria,N,30,18872.84
+Monicazation,monicazation,US,diaspora_candidate,provider registers the artist in US,Y,29,526.45
+Monochrome,monochrome,NG,domestic,provider registers the artist in Nigeria,N,11,31845.65
+Morell,morell,NG,domestic,provider registers the artist in Nigeria,N,30,24076.48
+Morocco Maduka,morocco-maduka,NG,domestic,provider registers the artist in Nigeria,N,24,24.27
+Morravey,morravey,NG,domestic,provider registers the artist in Nigeria,N,12,211507.18
+Mosbeekhan,mosbeekhan,NG,domestic,provider registers the artist in Nigeria,N,14,876.91
+Moses Bliss,moses-bliss,NG,domestic,provider registers the artist in Nigeria,N,29,3329366.35
+Mr 2Kay,mr-2kay,NG,domestic,provider registers the artist in Nigeria,N,31,69623.8
+Mr Dutch,mr-dutch,ZA,diaspora_candidate,provider registers the artist in ZA,Y,30,81783.03
+Mr Eazi,mr-eazi,NG,domestic,provider registers the artist in Nigeria,N,31,10065292.16
+Mr M & Revelation,mr-m-&-revelation,NG,domestic,provider registers the artist in Nigeria,N,25,137931.19
+Mr Raw,mr-raw,NG,domestic,provider registers the artist in Nigeria,N,27,36243.58
+Mr Real,mr-real,NG,domestic,provider registers the artist in Nigeria,N,30,123484.25
+Mr. P,mr.-p,NG,domestic,provider registers the artist in Nigeria,N,30,681107.6
+Msquare,msquare,,unknown,provider holds no country for this artist,Y,20,6.98
+Muma Gee,muma-gee,NG,domestic,provider registers the artist in Nigeria,N,21,13.58
+Muna,muna,US,diaspora_candidate,provider registers the artist in US,Y,31,2632844.16
+Muri Thunder,muri-thunder,NG,domestic,provider registers the artist in Nigeria,N,15,60.83
+Murz,murz,CA,diaspora_candidate,provider registers the artist in CA,Y,30,752.6
+Musa Dankwairo,musa-dankwairo,NG,domestic,provider registers the artist in Nigeria,N,29,977.41
+Musicbwoy,musicbwoy,NG,domestic,provider registers the artist in Nigeria,N,28,163479.98
+Musta4a,musta4a,NG,domestic,provider registers the artist in Nigeria,N,26,10255.41
+Muyeez,muyeez,NG,domestic,provider registers the artist in Nigeria,N,10,577875.68
+Mz Kiss,mz-kiss,NG,domestic,provider registers the artist in Nigeria,N,30,1663.18
+NO11,no11,NG,domestic,provider registers the artist in Nigeria,N,15,267208.5
+Naeto C,naeto-c,NG,domestic,provider registers the artist in Nigeria,N,31,110289.08
+Naira Marley,naira-marley,NG,domestic,provider registers the artist in Nigeria,N,31,3002662.42
+Namenj,namenj,NG,domestic,provider registers the artist in Nigeria,N,27,73089.53
+Nathaniel Bassey,nathaniel-bassey,NG,domestic,provider registers the artist in Nigeria,N,31,3195273.83
+Nazifi Asnanic,nazifi-asnanic,NG,domestic,provider registers the artist in Nigeria,N,25,129936.33
+Nazir M. Ahmad,nazir-m.-ahmad,NG,domestic,provider registers the artist in Nigeria,N,31,8085.38
+Nazir Sarkin Waka,nazir-sarkin-waka,NG,domestic,provider registers the artist in Nigeria,N,20,184197.28
 Naziru Sarkin Waka,naziru-sarkin-waka,,unknown,provider holds no country for this artist,Y,3,0.09
-Ndotz,ndotz,GB,diaspora_candidate,provider registers the artist in GB,Y,29,2900211.88
-Neeja,neeja,NG,domestic,provider registers the artist in Nigeria,N,14,270719.45
-Neeta,neeta,MY,diaspora_candidate,provider registers the artist in MY,Y,24,35291.39
-Nelly Uchendu,nelly-uchendu,NG,domestic,provider registers the artist in Nigeria,N,31,3356.92
-Neon Adejo,neon-adejo,US,diaspora_candidate,provider registers the artist in US,Y,31,320744.06
-NezaBoy,nezaboy,NG,domestic,provider registers the artist in Nigeria,N,17,1501.55
-Nicole Moudaber,nicole-moudaber,GB,diaspora_candidate,provider registers the artist in GB,Y,31,397198.5
-Nikki Laoye,nikki-laoye,NG,domestic,provider registers the artist in Nigeria,N,31,18937.5
-Nimix,nimix,ZA,diaspora_candidate,provider registers the artist in ZA,Y,31,15136.45
-Ninety,ninety,NG,domestic,provider registers the artist in Nigeria,N,29,24393.86
-Niniola,niniola,NG,domestic,provider registers the artist in Nigeria,N,31,900571.7
-Niphkeys,niphkeys,NG,domestic,provider registers the artist in Nigeria,N,24,314197.36
-Nissi,nissi,PR,diaspora_candidate,provider registers the artist in PR,Y,31,64956.08
-Niyola,niyola,NG,domestic,provider registers the artist in Nigeria,N,31,34841.04
-Nneka,nneka,DE,diaspora_candidate,provider registers the artist in DE,Y,31,747696.26
-Nonso Amadi,nonso-amadi,CA,diaspora_candidate,provider registers the artist in CA,Y,31,1007699.7
-Nonso Bassey,nonso-bassey,NG,domestic,provider registers the artist in Nigeria,N,30,2130.53
-Nosa,nosa,NG,domestic,provider registers the artist in Nigeria,N,30,160099.49
-Nura M Inuwa,nura-m-inuwa,NG,domestic,provider registers the artist in Nigeria,N,30,375575.53
-ODUMODUBLVCK,odumodublvck,NG,domestic,provider registers the artist in Nigeria,N,29,3161788.4
-OG Abbah,og-abbah,NG,domestic,provider registers the artist in Nigeria,N,8,77010.29
-OJB Jezreel,ojb-jezreel,,unknown,provider holds no country for this artist,Y,31,2375.34
-Oberz,oberz,NG,domestic,provider registers the artist in Nigeria,N,31,147406.29
-Obesere,obesere,NG,domestic,provider registers the artist in Nigeria,N,31,24820.24
-Obiwon,obiwon,,unknown,provider holds no country for this artist,Y,31,690.66
-Obongjayar,obongjayar,GB,diaspora_candidate,provider registers the artist in GB,Y,31,3223722.33
-Odeal,odeal,GB,diaspora_candidate,provider registers the artist in GB,Y,30,3244056.2
-Odunsi (The Engine),odunsi-(the-engine),NG,domestic,provider registers the artist in Nigeria,N,31,604469.85
-Oga Abdul,oga-abdul,NG,domestic,provider registers the artist in Nigeria,N,15,17525.0
-Okiemute,okiemute,NG,domestic,provider registers the artist in Nigeria,N,31,5573.87
-Ola Dips,ola-dips,,unknown,provider holds no country for this artist,Y,30,5830.54
-Oladapo,oladapo,NG,domestic,provider registers the artist in Nigeria,N,31,131884.25
-Olakira,olakira,NG,domestic,provider registers the artist in Nigeria,N,31,1703342.19
-Olamide,olamide,NG,domestic,provider registers the artist in Nigeria,N,31,6528915.83
-Oliver De Coque,oliver-de-coque,NG,domestic,provider registers the artist in Nigeria,N,31,49488.24
-Olly Sholotan,olly-sholotan,US,diaspora_candidate,provider registers the artist in US,Y,30,13904.29
-Olu Maintain,olu-maintain,NG,domestic,provider registers the artist in Nigeria,N,31,93322.39
-Olugbenga Adelekan,olugbenga-adelekan,GB,diaspora_candidate,provider registers the artist in GB,Y,30,25.32
-Oluwa Toyo,oluwa-toyo,GB,diaspora_candidate,provider registers the artist in GB,Y,8,1212.67
-Oluwatobi Oyero,oluwatobi-oyero,,unknown,provider holds no country for this artist,Y,4,0.37
-Omah Lay,omah-lay,NG,domestic,provider registers the artist in Nigeria,N,28,15352902.46
-Omawumi,omawumi,NG,domestic,provider registers the artist in Nigeria,N,31,119454.16
-Onos Ariyo,onos-ariyo,,unknown,provider holds no country for this artist,Y,30,23.16
-Onyeka Onwenu,onyeka-onwenu,NG,domestic,provider registers the artist in Nigeria,N,30,48729.07
-Orezi,orezi,NG,domestic,provider registers the artist in Nigeria,N,31,438331.44
-Oriental Brothers,oriental-brothers,,unknown,provider holds no country for this artist,Y,25,100.01
-Orits Wiliki,orits-wiliki,NG,domestic,provider registers the artist in Nigeria,N,24,324.64
-Orits Williki,orits-williki,,unknown,provider holds no country for this artist,Y,31,3122.56
-Oritsefemi,oritsefemi,NG,domestic,provider registers the artist in Nigeria,N,31,883.52
-Orlando Julius,orlando-julius,NG,domestic,provider registers the artist in Nigeria,N,31,136327.41
-Orlando Owoh,orlando-owoh,NG,domestic,provider registers the artist in Nigeria,N,17,103.39
-Oshara,oshara,,unknown,provider holds no country for this artist,Y,20,355.34
-Osinachi Nwachukwu,osinachi-nwachukwu,NG,domestic,provider registers the artist in Nigeria,N,26,7482.5
-Ossy Brown,ossy-brown,GB,diaspora_candidate,provider registers the artist in GB,Y,28,6534.79
-Oxlade,oxlade,NG,domestic,provider registers the artist in Nigeria,N,31,6823995.87
-P-Square,p-square,NG,domestic,provider registers the artist in Nigeria,N,31,4919045.44
-P.Priime,p.priime,NG,domestic,provider registers the artist in Nigeria,N,25,80374.3
-P2J,p2j,GB,diaspora_candidate,provider registers the artist in GB,Y,26,108696.68
-Pasuma,pasuma,NG,domestic,provider registers the artist in Nigeria,N,31,63237.74
-Patoranking,patoranking,NG,domestic,provider registers the artist in Nigeria,N,31,4453253.37
-Patrice Wilson,patrice-wilson,US,diaspora_candidate,provider registers the artist in US,Y,30,231.44
-Paul Play Dairo,paul-play-dairo,,unknown,provider holds no country for this artist,Y,31,26356.82
-Pawzz,pawzz,NG,domestic,provider registers the artist in Nigeria,N,15,3666.77
-Paybac Iboro,paybac-iboro,NG,domestic,provider registers the artist in Nigeria,N,29,2201.75
-Payper Corleone,payper-corleone,NG,domestic,provider registers the artist in Nigeria,N,31,174405.72
-Peacocks Guitar Band International,peacocks-guitar-band-international,,unknown,provider holds no country for this artist,Y,31,7458.78
-Pepenazi,pepenazi,NG,domestic,provider registers the artist in Nigeria,N,31,23970.67
-Peruzzi,peruzzi,NG,domestic,provider registers the artist in Nigeria,N,31,587946.01
-Peter King,peter-king,GB,diaspora_candidate,provider registers the artist in GB,Y,31,39538.67
-Peterson Okopi,peterson-okopi,NG,domestic,provider registers the artist in Nigeria,N,25,171826.1
-Phantom,phantom,US,diaspora_candidate,provider registers the artist in US,Y,30,272270.72
-Pheelz,pheelz,NG,domestic,provider registers the artist in Nigeria,N,30,3833710.33
-Phyno,phyno,NG,domestic,provider registers the artist in Nigeria,N,31,1893076.41
-Plantashun Boiz,plantashun-boiz,NG,domestic,provider registers the artist in Nigeria,N,31,17331.59
-Plutomania,plutomania,NG,domestic,provider registers the artist in Nigeria,N,2,7246.71
-Poco Lee,poco-lee,NG,domestic,provider registers the artist in Nigeria,N,28,576130.72
-Portable,portable,NG,domestic,provider registers the artist in Nigeria,N,5,166960.31
-Praiz,praiz,NG,domestic,provider registers the artist in Nigeria,N,31,425474.98
-Prettyboy D-O,prettyboy-d-o,NG,domestic,provider registers the artist in Nigeria,N,31,160713.63
-Preye Odede,preye-odede,NG,domestic,provider registers the artist in Nigeria,N,31,270897.55
-Prince Adekunle,prince-adekunle,NG,domestic,provider registers the artist in Nigeria,N,30,789.56
-Prince Mk Baagi,prince-mk-baagi,NG,domestic,provider registers the artist in Nigeria,N,17,82545.04
-Prince Nico Mbarga,prince-nico-mbarga,NG,domestic,provider registers the artist in Nigeria,N,31,3661.02
-Princess Peters,princess-peters,NG,domestic,provider registers the artist in Nigeria,N,26,26439.07
-Projexx,projexx,JM,diaspora_candidate,provider registers the artist in JM,Y,30,656440.19
-Prospa Ochimana,prospa-ochimana,NG,domestic,provider registers the artist in Nigeria,N,31,962735.45
-PsychoYp,psychoyp,NG,domestic,provider registers the artist in Nigeria,N,30,720.53
-Qdot,qdot,NG,domestic,provider registers the artist in Nigeria,N,31,302711.13
-Qing Madi,qing-madi,NG,domestic,provider registers the artist in Nigeria,N,16,1706616.09
-Ras Kimono,ras-kimono,NG,domestic,provider registers the artist in Nigeria,N,31,33222.8
-Reekado Banks,reekado-banks,NG,domestic,provider registers the artist in Nigeria,N,31,1985119.58
-Rema,rema,NG,domestic,provider registers the artist in Nigeria,N,31,37196147.87
-Remi Aluko,remi-aluko,,unknown,provider holds no country for this artist,Y,28,3767.12
-Reminisce,reminisce,NG,domestic,provider registers the artist in Nigeria,N,31,535955.66
-Rex Lawson,rex-lawson,GB,diaspora_candidate,provider registers the artist in GB,Y,30,3523.12
-Ric Hassani,ric-hassani,NG,domestic,provider registers the artist in Nigeria,N,31,1682344.34
-Ruby Gyang,ruby-gyang,NG,domestic,provider registers the artist in Nigeria,N,29,84.15
-Rude Boy,rude-boy,US,diaspora_candidate,provider registers the artist in US,Y,29,466105.3
-Ruger,ruger,NG,domestic,provider registers the artist in Nigeria,N,24,6746466.29
-Ruggedman,ruggedman,NG,domestic,provider registers the artist in Nigeria,N,31,8609.63
-Rumerh,rumerh,NG,domestic,provider registers the artist in Nigeria,N,10,6881.4
-Runtown,runtown,NG,domestic,provider registers the artist in Nigeria,N,31,3793394.2
-Rybeena,rybeena,NG,domestic,provider registers the artist in Nigeria,N,26,535595.85
-Rymzo,rymzo,,unknown,provider holds no country for this artist,Y,31,908.74
-S.N.E,s.n.e,ZA,diaspora_candidate,provider registers the artist in ZA,Y,23,588755.71
-S1ordie,s1ordie,US,diaspora_candidate,provider registers the artist in US,Y,14,17819.13
-SAMAD,samad,NG,domestic,provider registers the artist in Nigeria,N,29,268724.62
-SSSoundGawd,sssoundgawd,NG,domestic,provider registers the artist in Nigeria,N,6,274515.4
-Sade Adu,sade-adu,GB,diaspora_candidate,provider registers the artist in GB,Y,30,3628716.61
-Sadi Sidi Sharifai,sadi-sidi-sharifai,NG,domestic,provider registers the artist in Nigeria,N,25,859.32
-Sadiq Saleh,sadiq-saleh,NG,domestic,provider registers the artist in Nigeria,N,18,200554.13
-Sadiq Zazzabi,sadiq-zazzabi,NG,domestic,provider registers the artist in Nigeria,N,25,5297.36
-Saeon,saeon,,unknown,provider holds no country for this artist,Y,31,2712.76
-Saffron,saffron,,unknown,provider holds no country for this artist,Y,12,155.12
-Safin De Coque,safin-de-coque,NG,domestic,provider registers the artist in Nigeria,N,19,90.84
+Ndotz,ndotz,GB,diaspora_candidate,provider registers the artist in GB,Y,29,2920786.58
+Neeja,neeja,NG,domestic,provider registers the artist in Nigeria,N,14,265521.3
+Neeta,neeta,MY,diaspora_candidate,provider registers the artist in MY,Y,24,35760.91
+Nelly Uchendu,nelly-uchendu,NG,domestic,provider registers the artist in Nigeria,N,31,3205.53
+Neon Adejo,neon-adejo,US,diaspora_candidate,provider registers the artist in US,Y,31,310865.56
+NezaBoy,nezaboy,NG,domestic,provider registers the artist in Nigeria,N,17,1557.29
+Nicole Moudaber,nicole-moudaber,GB,diaspora_candidate,provider registers the artist in GB,Y,31,372259.39
+Nikki Laoye,nikki-laoye,NG,domestic,provider registers the artist in Nigeria,N,31,18368.25
+Nimix,nimix,ZA,diaspora_candidate,provider registers the artist in ZA,Y,31,14842.76
+Ninety,ninety,NG,domestic,provider registers the artist in Nigeria,N,29,22403.83
+Niniola,niniola,NG,domestic,provider registers the artist in Nigeria,N,31,886087.91
+Niphkeys,niphkeys,NG,domestic,provider registers the artist in Nigeria,N,24,303685.83
+Nissi,nissi,PR,diaspora_candidate,provider registers the artist in PR,Y,31,61520.58
+Niyola,niyola,NG,domestic,provider registers the artist in Nigeria,N,31,34272.34
+Nneka,nneka,DE,diaspora_candidate,provider registers the artist in DE,Y,31,745837.95
+Nonso Amadi,nonso-amadi,CA,diaspora_candidate,provider registers the artist in CA,Y,31,992763.1
+Nonso Bassey,nonso-bassey,NG,domestic,provider registers the artist in Nigeria,N,30,2208.41
+Nosa,nosa,NG,domestic,provider registers the artist in Nigeria,N,30,155311.24
+Nura M Inuwa,nura-m-inuwa,NG,domestic,provider registers the artist in Nigeria,N,30,375311.19
+ODUMODUBLVCK,odumodublvck,NG,domestic,provider registers the artist in Nigeria,N,29,3085875.25
+OG Abbah,og-abbah,NG,domestic,provider registers the artist in Nigeria,N,8,73303.32
+OJB Jezreel,ojb-jezreel,,unknown,provider holds no country for this artist,Y,31,2221.43
+Oberz,oberz,NG,domestic,provider registers the artist in Nigeria,N,31,127659.88
+Obesere,obesere,NG,domestic,provider registers the artist in Nigeria,N,31,24119.27
+Obiwon,obiwon,,unknown,provider holds no country for this artist,Y,31,696.31
+Obongjayar,obongjayar,GB,diaspora_candidate,provider registers the artist in GB,Y,31,3127458.03
+Odeal,odeal,GB,diaspora_candidate,provider registers the artist in GB,Y,30,3197784.6
+Odunsi (The Engine),odunsi-(the-engine),NG,domestic,provider registers the artist in Nigeria,N,31,598270.83
+Oga Abdul,oga-abdul,NG,domestic,provider registers the artist in Nigeria,N,15,17497.93
+Okiemute,okiemute,NG,domestic,provider registers the artist in Nigeria,N,31,7212.28
+Ola Dips,ola-dips,,unknown,provider holds no country for this artist,Y,30,5629.2
+Oladapo,oladapo,NG,domestic,provider registers the artist in Nigeria,N,31,123921.88
+Olakira,olakira,NG,domestic,provider registers the artist in Nigeria,N,31,1687892.38
+Olamide,olamide,NG,domestic,provider registers the artist in Nigeria,N,31,6432234.95
+Oliver De Coque,oliver-de-coque,NG,domestic,provider registers the artist in Nigeria,N,31,48144.26
+Olly Sholotan,olly-sholotan,US,diaspora_candidate,provider registers the artist in US,Y,30,14102.42
+Olu Maintain,olu-maintain,NG,domestic,provider registers the artist in Nigeria,N,31,91471.78
+Olugbenga Adelekan,olugbenga-adelekan,GB,diaspora_candidate,provider registers the artist in GB,Y,30,25.66
+Oluwa Toyo,oluwa-toyo,GB,diaspora_candidate,provider registers the artist in GB,Y,8,896.34
+Oluwatobi Oyero,oluwatobi-oyero,,unknown,provider holds no country for this artist,Y,4,0.43
+Omah Lay,omah-lay,NG,domestic,provider registers the artist in Nigeria,N,28,14976897.98
+Omawumi,omawumi,NG,domestic,provider registers the artist in Nigeria,N,31,118898.76
+Onos Ariyo,onos-ariyo,,unknown,provider holds no country for this artist,Y,30,23.45
+Onyeka Onwenu,onyeka-onwenu,NG,domestic,provider registers the artist in Nigeria,N,30,48641.75
+Orezi,orezi,NG,domestic,provider registers the artist in Nigeria,N,31,437100.46
+Oriental Brothers,oriental-brothers,,unknown,provider holds no country for this artist,Y,25,110.72
+Orits Wiliki,orits-wiliki,NG,domestic,provider registers the artist in Nigeria,N,23,325.92
+Orits Williki,orits-williki,,unknown,provider holds no country for this artist,Y,31,2995.22
+Oritsefemi,oritsefemi,NG,domestic,provider registers the artist in Nigeria,N,31,884.52
+Orlando Julius,orlando-julius,NG,domestic,provider registers the artist in Nigeria,N,31,138525.97
+Orlando Owoh,orlando-owoh,NG,domestic,provider registers the artist in Nigeria,N,17,118.01
+Oshara,oshara,,unknown,provider holds no country for this artist,Y,20,369.06
+Osinachi Nwachukwu,osinachi-nwachukwu,NG,domestic,provider registers the artist in Nigeria,N,26,7413.55
+Ossy Brown,ossy-brown,GB,diaspora_candidate,provider registers the artist in GB,Y,28,6674.67
+Oxlade,oxlade,NG,domestic,provider registers the artist in Nigeria,N,31,6696036.8
+P-Square,p-square,NG,domestic,provider registers the artist in Nigeria,N,31,4871954.15
+P.Priime,p.priime,NG,domestic,provider registers the artist in Nigeria,N,25,71507.51
+P2J,p2j,GB,diaspora_candidate,provider registers the artist in GB,Y,26,103892.57
+Pasuma,pasuma,NG,domestic,provider registers the artist in Nigeria,N,31,62042.8
+Patoranking,patoranking,NG,domestic,provider registers the artist in Nigeria,N,31,4401723.58
+Patrice Wilson,patrice-wilson,US,diaspora_candidate,provider registers the artist in US,Y,30,210.12
+Paul Play Dairo,paul-play-dairo,,unknown,provider holds no country for this artist,Y,31,25416.48
+Pawzz,pawzz,NG,domestic,provider registers the artist in Nigeria,N,15,4929.86
+Paybac Iboro,paybac-iboro,NG,domestic,provider registers the artist in Nigeria,N,29,2303.51
+Payper Corleone,payper-corleone,NG,domestic,provider registers the artist in Nigeria,N,31,171784.3
+Peacocks Guitar Band International,peacocks-guitar-band-international,,unknown,provider holds no country for this artist,Y,31,7237.71
+Pepenazi,pepenazi,NG,domestic,provider registers the artist in Nigeria,N,31,23678.98
+Peruzzi,peruzzi,NG,domestic,provider registers the artist in Nigeria,N,31,563878.72
+Peter King,peter-king,GB,diaspora_candidate,provider registers the artist in GB,Y,31,39675.71
+Peterson Okopi,peterson-okopi,NG,domestic,provider registers the artist in Nigeria,N,25,168259.76
+Phantom,phantom,US,diaspora_candidate,provider registers the artist in US,Y,30,261744.43
+Pheelz,pheelz,NG,domestic,provider registers the artist in Nigeria,N,30,3788538.54
+Phyno,phyno,NG,domestic,provider registers the artist in Nigeria,N,31,1871955.66
+Plantashun Boiz,plantashun-boiz,NG,domestic,provider registers the artist in Nigeria,N,31,16979.39
+Plutomania,plutomania,NG,domestic,provider registers the artist in Nigeria,N,2,12200.55
+Poco Lee,poco-lee,NG,domestic,provider registers the artist in Nigeria,N,28,543713.17
+Portable,portable,NG,domestic,provider registers the artist in Nigeria,N,5,164003.82
+Praiz,praiz,NG,domestic,provider registers the artist in Nigeria,N,31,417084.97
+Prettyboy D-O,prettyboy-d-o,NG,domestic,provider registers the artist in Nigeria,N,31,165213.56
+Preye Odede,preye-odede,NG,domestic,provider registers the artist in Nigeria,N,31,265976.4
+Prince Adekunle,prince-adekunle,NG,domestic,provider registers the artist in Nigeria,N,30,746.76
+Prince Mk Baagi,prince-mk-baagi,NG,domestic,provider registers the artist in Nigeria,N,17,78994.7
+Prince Nico Mbarga,prince-nico-mbarga,NG,domestic,provider registers the artist in Nigeria,N,31,3627.1
+Princess Peters,princess-peters,NG,domestic,provider registers the artist in Nigeria,N,26,26428.59
+Projexx,projexx,JM,diaspora_candidate,provider registers the artist in JM,Y,30,642506.1
+Prospa Ochimana,prospa-ochimana,NG,domestic,provider registers the artist in Nigeria,N,31,958280.18
+PsychoYp,psychoyp,NG,domestic,provider registers the artist in Nigeria,N,30,543.23
+Qdot,qdot,NG,domestic,provider registers the artist in Nigeria,N,31,297972.41
+Qing Madi,qing-madi,NG,domestic,provider registers the artist in Nigeria,N,16,1697868.39
+Ras Kimono,ras-kimono,NG,domestic,provider registers the artist in Nigeria,N,31,33061.39
+Reekado Banks,reekado-banks,NG,domestic,provider registers the artist in Nigeria,N,31,1963392.11
+Rema,rema,NG,domestic,provider registers the artist in Nigeria,N,31,36690962.96
+Remi Aluko,remi-aluko,,unknown,provider holds no country for this artist,Y,28,3632.57
+Reminisce,reminisce,NG,domestic,provider registers the artist in Nigeria,N,31,520162.89
+Rex Lawson,rex-lawson,GB,diaspora_candidate,provider registers the artist in GB,Y,30,4790.62
+Ric Hassani,ric-hassani,NG,domestic,provider registers the artist in Nigeria,N,31,1679899.47
+Ruby Gyang,ruby-gyang,NG,domestic,provider registers the artist in Nigeria,N,29,84.47
+Rude Boy,rude-boy,US,diaspora_candidate,provider registers the artist in US,Y,29,466690.93
+Ruger,ruger,NG,domestic,provider registers the artist in Nigeria,N,24,6631128.34
+Ruggedman,ruggedman,NG,domestic,provider registers the artist in Nigeria,N,31,8326.39
+Rumerh,rumerh,NG,domestic,provider registers the artist in Nigeria,N,10,6754.26
+Runtown,runtown,NG,domestic,provider registers the artist in Nigeria,N,31,3741918.87
+Rybeena,rybeena,NG,domestic,provider registers the artist in Nigeria,N,26,514839.2
+Rymzo,rymzo,,unknown,provider holds no country for this artist,Y,31,870.2
+S.N.E,s.n.e,ZA,diaspora_candidate,provider registers the artist in ZA,Y,23,528696.76
+S1ordie,s1ordie,US,diaspora_candidate,provider registers the artist in US,Y,14,17084.01
+SAMAD,samad,NG,domestic,provider registers the artist in Nigeria,N,29,245045.93
+SSSoundGawd,sssoundgawd,NG,domestic,provider registers the artist in Nigeria,N,6,224358.8
+Sade Adu,sade-adu,GB,diaspora_candidate,provider registers the artist in GB,Y,30,3631502.13
+Sadi Sidi Sharifai,sadi-sidi-sharifai,NG,domestic,provider registers the artist in Nigeria,N,25,835.79
+Sadiq Saleh,sadiq-saleh,NG,domestic,provider registers the artist in Nigeria,N,18,200335.72
+Sadiq Zazzabi,sadiq-zazzabi,NG,domestic,provider registers the artist in Nigeria,N,25,5282.99
+Saeon,saeon,,unknown,provider holds no country for this artist,Y,31,2836.22
+Saffron,saffron,,unknown,provider holds no country for this artist,Y,12,159.49
+Safin De Coque,safin-de-coque,NG,domestic,provider registers the artist in Nigeria,N,19,53.95
 Salawa Abeni,salawa-abeni,,unknown,provider holds no country for this artist,Y,1,0.02
-Salim Smart,salim-smart,NG,domestic,provider registers the artist in Nigeria,N,24,114321.64
-Sammie Okposo,sammie-okposo,NG,domestic,provider registers the artist in Nigeria,N,31,85524.44
-Samsong,samsong,NG,domestic,provider registers the artist in Nigeria,N,31,191448.79
-Sani Ahmad,sani-ahmad,NG,domestic,provider registers the artist in Nigeria,N,20,141832.42
-Sani Danja,sani-danja,NG,domestic,provider registers the artist in Nigeria,N,31,68051.6
-Saoty Arewa,saoty-arewa,NG,domestic,provider registers the artist in Nigeria,N,26,22826.0
-Sarz,sarz,NG,domestic,provider registers the artist in Nigeria,N,31,4414442.9
-Sasha P,sasha-p,NG,domestic,provider registers the artist in Nigeria,N,30,173.12
-Sauce Kid,sauce-kid,US,diaspora_candidate,provider registers the artist in US,Y,30,7522.06
-Sean Dampte,sean-dampte,GB,diaspora_candidate,provider registers the artist in GB,Y,30,86714.82
-Sean Tizzle,sean-tizzle,NG,domestic,provider registers the artist in Nigeria,N,31,295198.38
-Sefiu Alao Adekunle,sefiu-alao-adekunle,,unknown,provider holds no country for this artist,Y,18,299.59
-Segun Adewale,segun-adewale,NG,domestic,provider registers the artist in Nigeria,N,30,10142.07
-Segun Bucknor,segun-bucknor,NG,domestic,provider registers the artist in Nigeria,N,31,1269.5
-Seun Kuti,seun-kuti,NG,domestic,provider registers the artist in Nigeria,N,31,471397.19
-Sexy Steel,sexy-steel,,unknown,provider holds no country for this artist,Y,30,411.13
-Seyi Shay,seyi-shay,NG,domestic,provider registers the artist in Nigeria,N,31,417153.71
-Seyi Sodimu,seyi-sodimu,NG,domestic,provider registers the artist in Nigeria,N,30,5946.15
-Seyi Vibez,seyi-vibez,NG,domestic,provider registers the artist in Nigeria,N,29,2763054.12
-Shaffy Bello,shaffy-bello,,unknown,provider holds no country for this artist,Y,6,225.59
-Shaiboy,shaiboy,NG,domestic,provider registers the artist in Nigeria,N,26,16595.15
-Shallipopi,shallipopi,NG,domestic,provider registers the artist in Nigeria,N,16,3640825.06
-Shanga,shanga,CH,diaspora_candidate,provider registers the artist in CH,Y,31,7400.35
-Shank,shank,JP,diaspora_candidate,provider registers the artist in JP,Y,30,63958.67
-Shaybo,shaybo,GB,diaspora_candidate,provider registers the artist in GB,Y,29,401783.09
-Shaydee,shaydee,NG,domestic,provider registers the artist in Nigeria,N,31,4416.5
-Shekx,shekx,NG,domestic,provider registers the artist in Nigeria,N,16,3632.55
-Shina Peters,shina-peters,NG,domestic,provider registers the artist in Nigeria,N,25,9.45
-Shoday,shoday,NG,domestic,provider registers the artist in Nigeria,N,19,1116395.65
-Show Dem Camp,show-dem-camp,NG,domestic,provider registers the artist in Nigeria,N,31,600116.82
-Shugavybz,shugavybz,NG,domestic,provider registers the artist in Nigeria,N,25,5675.15
-Sikiru Ayinde Barrister,sikiru-ayinde-barrister,,unknown,provider holds no country for this artist,Y,14,26.81
-Simi,simi,NG,domestic,provider registers the artist in Nigeria,N,31,2181993.44
-Sinach,sinach,NG,domestic,provider registers the artist in Nigeria,N,31,4444835.19
-Sir Shina Peters,sir-shina-peters,NG,domestic,provider registers the artist in Nigeria,N,31,33869.57
-Skales,skales,NG,domestic,provider registers the artist in Nigeria,N,31,1818912.78
-Skepta,skepta,GB,diaspora_candidate,provider registers the artist in GB,Y,31,14835906.78
-Skiibii,skiibii,NG,domestic,provider registers the artist in Nigeria,N,31,1601003.79
-Slimcase,slimcase,NG,domestic,provider registers the artist in Nigeria,N,31,197287.63
-Slowdog,slowdog,NG,domestic,provider registers the artist in Nigeria,N,29,18404.65
-Small Doctor,small-doctor,NG,domestic,provider registers the artist in Nigeria,N,31,104709.31
-Smur Lee,smur-lee,NG,domestic,provider registers the artist in Nigeria,N,14,697010.62
-Snatcha,snatcha,GB,diaspora_candidate,provider registers the artist in GB,Y,31,2458.29
-Snazzy the Optimist,snazzy-the-optimist,NG,domestic,provider registers the artist in Nigeria,N,19,906.91
-Sogha Niger,sogha-niger,,unknown,provider holds no country for this artist,Y,15,3395.82
-Sola Allyson,sola-allyson,NG,domestic,provider registers the artist in Nigeria,N,31,334402.1
-Solidstar,solidstar,NG,domestic,provider registers the artist in Nigeria,N,31,249395.57
-Somadina,somadina,NG,domestic,provider registers the artist in Nigeria,N,30,16180.83
-Sonnie Badu,sonnie-badu,GH,diaspora_candidate,provider registers the artist in GH,Y,31,619516.72
-Sonny Okosun,sonny-okosun,NG,domestic,provider registers the artist in Nigeria,N,31,27502.78
-Sonny Okosuns,sonny-okosuns,,unknown,provider holds no country for this artist,Y,4,33.47
-Sound Sultan,sound-sultan,NG,domestic,provider registers the artist in Nigeria,N,31,84223.47
-Soundz,soundz,NG,domestic,provider registers the artist in Nigeria,N,28,850025.16
-Specikinging,specikinging,NG,domestic,provider registers the artist in Nigeria,N,29,10834.04
-Spellz,spellz,NG,domestic,provider registers the artist in Nigeria,N,30,353432.28
-Spinall,spinall,NG,domestic,provider registers the artist in Nigeria,N,30,2943557.62
-Spyro,spyro,NG,domestic,provider registers the artist in Nigeria,N,30,2232607.13
-St. Seií,st.-seií,NG,domestic,provider registers the artist in Nigeria,N,17,15220.17
-Starsamm,starsamm,NG,domestic,provider registers the artist in Nigeria,N,16,3662.56
-SteveHills,stevehills,NG,domestic,provider registers the artist in Nigeria,N,12,329336.98
-Straffitti,straffitti,NG,domestic,provider registers the artist in Nigeria,N,30,101501.71
-Styl-Plus,styl-plus,NG,domestic,provider registers the artist in Nigeria,N,31,232840.02
-Sunkanmi,sunkanmi,NG,domestic,provider registers the artist in Nigeria,N,31,9352.93
-Sunmisola Agbebi,sunmisola-agbebi,NG,domestic,provider registers the artist in Nigeria,N,19,1072451.67
-Sunny Ade,sunny-ade,,unknown,provider holds no country for this artist,Y,31,80.05
-Supernovamusician,supernovamusician,,unknown,provider holds no country for this artist,Y,20,401.31
-Superstar YB,superstar-yb,NG,domestic,provider registers the artist in Nigeria,N,25,28956.27
-Suté Iwar,suté-iwar,NG,domestic,provider registers the artist in Nigeria,N,26,34571.16
-Syemca,syemca,NG,domestic,provider registers the artist in Nigeria,N,25,128939.64
-T'neeya,t'neeya,CM,diaspora_candidate,provider registers the artist in CM,Y,31,29392.27
-T-Classic,t-classic,NG,domestic,provider registers the artist in Nigeria,N,31,129640.84
-T-Plux,t-plux,MY,diaspora_candidate,provider registers the artist in MY,Y,26,288.01
-T.I BLAZE,t.i-blaze,NG,domestic,provider registers the artist in Nigeria,N,20,774075.15
-TAR1Q,tar1q,NG,domestic,provider registers the artist in Nigeria,N,17,268484.42
-TUFF KING,tuff-king,NG,domestic,provider registers the artist in Nigeria,N,9,160239.37
-TY Bello,ty-bello,NG,domestic,provider registers the artist in Nigeria,N,31,626213.0
-Tamara Jones,tamara-jones,AU,diaspora_candidate,provider registers the artist in AU,Y,29,47.79
-Tay Iwar,tay-iwar,NG,domestic,provider registers the artist in Nigeria,N,30,962515.12
-Taye Currency,taye-currency,,unknown,provider holds no country for this artist,Y,14,2.11
+Salim Smart,salim-smart,NG,domestic,provider registers the artist in Nigeria,N,24,113871.69
+Sammie Okposo,sammie-okposo,NG,domestic,provider registers the artist in Nigeria,N,31,84088.81
+Samsong,samsong,NG,domestic,provider registers the artist in Nigeria,N,31,189726.99
+Sani Ahmad,sani-ahmad,NG,domestic,provider registers the artist in Nigeria,N,20,141769.08
+Sani Danja,sani-danja,NG,domestic,provider registers the artist in Nigeria,N,31,68043.92
+Saoty Arewa,saoty-arewa,NG,domestic,provider registers the artist in Nigeria,N,26,22278.43
+Sarz,sarz,NG,domestic,provider registers the artist in Nigeria,N,31,4256313.54
+Sasha P,sasha-p,NG,domestic,provider registers the artist in Nigeria,N,30,175.78
+Sauce Kid,sauce-kid,US,diaspora_candidate,provider registers the artist in US,Y,30,7400.37
+Sean Dampte,sean-dampte,GB,diaspora_candidate,provider registers the artist in GB,Y,30,90631.86
+Sean Tizzle,sean-tizzle,NG,domestic,provider registers the artist in Nigeria,N,31,285528.71
+Sefiu Alao Adekunle,sefiu-alao-adekunle,,unknown,provider holds no country for this artist,Y,18,304.02
+Segun Adewale,segun-adewale,NG,domestic,provider registers the artist in Nigeria,N,30,10711.51
+Segun Bucknor,segun-bucknor,NG,domestic,provider registers the artist in Nigeria,N,31,1256.98
+Seun Kuti,seun-kuti,NG,domestic,provider registers the artist in Nigeria,N,31,476635.7
+Sexy Steel,sexy-steel,,unknown,provider holds no country for this artist,Y,30,445.65
+Seyi Shay,seyi-shay,NG,domestic,provider registers the artist in Nigeria,N,31,411683.3
+Seyi Sodimu,seyi-sodimu,NG,domestic,provider registers the artist in Nigeria,N,30,5956.35
+Seyi Vibez,seyi-vibez,NG,domestic,provider registers the artist in Nigeria,N,29,2665631.24
+Shaffy Bello,shaffy-bello,,unknown,provider holds no country for this artist,Y,6,243.13
+Shaiboy,shaiboy,NG,domestic,provider registers the artist in Nigeria,N,26,16562.08
+Shallipopi,shallipopi,NG,domestic,provider registers the artist in Nigeria,N,16,3561767.71
+Shanga,shanga,CH,diaspora_candidate,provider registers the artist in CH,Y,31,7741.0
+Shank,shank,JP,diaspora_candidate,provider registers the artist in JP,Y,30,61696.83
+Shaybo,shaybo,GB,diaspora_candidate,provider registers the artist in GB,Y,29,407173.98
+Shaydee,shaydee,NG,domestic,provider registers the artist in Nigeria,N,31,4444.99
+Shekx,shekx,NG,domestic,provider registers the artist in Nigeria,N,16,3530.63
+Shina Peters,shina-peters,NG,domestic,provider registers the artist in Nigeria,N,25,9.5
+Shoday,shoday,NG,domestic,provider registers the artist in Nigeria,N,19,1064262.55
+Show Dem Camp,show-dem-camp,NG,domestic,provider registers the artist in Nigeria,N,31,608210.36
+Shugavybz,shugavybz,NG,domestic,provider registers the artist in Nigeria,N,25,5725.74
+Sikiru Ayinde Barrister,sikiru-ayinde-barrister,,unknown,provider holds no country for this artist,Y,14,26.32
+Simi,simi,NG,domestic,provider registers the artist in Nigeria,N,31,2159789.78
+Sinach,sinach,NG,domestic,provider registers the artist in Nigeria,N,31,4443532.39
+Sir Shina Peters,sir-shina-peters,NG,domestic,provider registers the artist in Nigeria,N,31,32185.86
+Skales,skales,NG,domestic,provider registers the artist in Nigeria,N,31,1761148.61
+Skepta,skepta,GB,diaspora_candidate,provider registers the artist in GB,Y,31,14538556.93
+Skiibii,skiibii,NG,domestic,provider registers the artist in Nigeria,N,31,1570501.31
+Slimcase,slimcase,NG,domestic,provider registers the artist in Nigeria,N,31,188444.12
+Slowdog,slowdog,NG,domestic,provider registers the artist in Nigeria,N,29,17616.28
+Small Doctor,small-doctor,NG,domestic,provider registers the artist in Nigeria,N,31,103425.51
+Smur Lee,smur-lee,NG,domestic,provider registers the artist in Nigeria,N,14,660795.85
+Snatcha,snatcha,GB,diaspora_candidate,provider registers the artist in GB,Y,31,2376.87
+Snazzy the Optimist,snazzy-the-optimist,NG,domestic,provider registers the artist in Nigeria,N,19,883.99
+Sogha Niger,sogha-niger,,unknown,provider holds no country for this artist,Y,15,3321.8
+Sola Allyson,sola-allyson,NG,domestic,provider registers the artist in Nigeria,N,31,327318.84
+Solidstar,solidstar,NG,domestic,provider registers the artist in Nigeria,N,31,247030.25
+Somadina,somadina,NG,domestic,provider registers the artist in Nigeria,N,30,15227.22
+Sonnie Badu,sonnie-badu,GH,diaspora_candidate,provider registers the artist in GH,Y,31,618531.57
+Sonny Okosun,sonny-okosun,NG,domestic,provider registers the artist in Nigeria,N,31,28279.55
+Sonny Okosuns,sonny-okosuns,,unknown,provider holds no country for this artist,Y,4,29.16
+Sound Sultan,sound-sultan,NG,domestic,provider registers the artist in Nigeria,N,31,83321.66
+Soundz,soundz,NG,domestic,provider registers the artist in Nigeria,N,28,856782.3
+Specikinging,specikinging,NG,domestic,provider registers the artist in Nigeria,N,29,10891.24
+Spellz,spellz,NG,domestic,provider registers the artist in Nigeria,N,30,352186.29
+Spinall,spinall,NG,domestic,provider registers the artist in Nigeria,N,30,2880138.18
+Spyro,spyro,NG,domestic,provider registers the artist in Nigeria,N,30,2218620.63
+St. Seií,st.-seií,NG,domestic,provider registers the artist in Nigeria,N,17,14323.5
+Starsamm,starsamm,NG,domestic,provider registers the artist in Nigeria,N,16,3585.3
+SteveHills,stevehills,NG,domestic,provider registers the artist in Nigeria,N,12,313019.31
+Straffitti,straffitti,NG,domestic,provider registers the artist in Nigeria,N,30,92478.77
+Styl-Plus,styl-plus,NG,domestic,provider registers the artist in Nigeria,N,31,218394.49
+Sunkanmi,sunkanmi,NG,domestic,provider registers the artist in Nigeria,N,31,7926.55
+Sunmisola Agbebi,sunmisola-agbebi,NG,domestic,provider registers the artist in Nigeria,N,19,1064663.7
+Sunny Ade,sunny-ade,,unknown,provider holds no country for this artist,Y,31,80.0
+Supernovamusician,supernovamusician,,unknown,provider holds no country for this artist,Y,20,504.21
+Superstar YB,superstar-yb,NG,domestic,provider registers the artist in Nigeria,N,25,26262.23
+Suté Iwar,suté-iwar,NG,domestic,provider registers the artist in Nigeria,N,26,35821.6
+Syemca,syemca,NG,domestic,provider registers the artist in Nigeria,N,25,123103.97
+T'neeya,t'neeya,CM,diaspora_candidate,provider registers the artist in CM,Y,31,26470.16
+T-Classic,t-classic,NG,domestic,provider registers the artist in Nigeria,N,31,125349.37
+T-Plux,t-plux,MY,diaspora_candidate,provider registers the artist in MY,Y,26,287.23
+T.I BLAZE,t.i-blaze,NG,domestic,provider registers the artist in Nigeria,N,20,749148.83
+TAR1Q,tar1q,NG,domestic,provider registers the artist in Nigeria,N,17,260912.29
+TUFF KING,tuff-king,NG,domestic,provider registers the artist in Nigeria,N,9,119376.88
+TY Bello,ty-bello,NG,domestic,provider registers the artist in Nigeria,N,31,620521.07
+Tamara Jones,tamara-jones,AU,diaspora_candidate,provider registers the artist in AU,Y,29,62.9
+Tay Iwar,tay-iwar,NG,domestic,provider registers the artist in Nigeria,N,30,947347.49
+Taye Currency,taye-currency,,unknown,provider holds no country for this artist,Y,14,2.0
 Taye Olusola,taye-olusola,,unknown,provider holds no country for this artist,Y,11,1.28
-TeeMirror,teemirror,NG,domestic,provider registers the artist in Nigeria,N,17,416.64
-Teezee,teezee,NG,domestic,provider registers the artist in Nigeria,N,30,329425.26
-Tekno,tekno,NG,domestic,provider registers the artist in Nigeria,N,31,5279335.26
-Tekno Miles,tekno-miles,NG,domestic,provider registers the artist in Nigeria,N,31,3451.97
-Temi DollFace,temi-dollface,NG,domestic,provider registers the artist in Nigeria,N,30,518.33
-Tempoe,tempoe,US,diaspora_candidate,provider registers the artist in US,Y,17,2760230.11
-Tems,tems,NG,domestic,provider registers the artist in Nigeria,N,30,25547585.57
-Teni,teni,NG,domestic,provider registers the artist in Nigeria,N,31,2472020.96
-Terri,terri,NG,domestic,provider registers the artist in Nigeria,N,30,310665.23
-Terry Apala,terry-apala,NG,domestic,provider registers the artist in Nigeria,N,31,228901.76
-Terry G,terry-g,NG,domestic,provider registers the artist in Nigeria,N,30,14337.2
-Testimony Jaga,testimony-jaga,NG,domestic,provider registers the artist in Nigeria,N,27,98844.68
-The Cavemen,the-cavemen,NZ,diaspora_candidate,provider registers the artist in NZ,Y,31,370820.3
-The Second Voice,the-second-voice,NG,domestic,provider registers the artist in Nigeria,N,3,526447.83
-Theophilus Sunday,theophilus-sunday,NG,domestic,provider registers the artist in Nigeria,N,10,250858.76
-Theresa Onuorah,theresa-onuorah,,unknown,provider holds no country for this artist,Y,25,97455.67
-Tiimie,tiimie,NG,domestic,provider registers the artist in Nigeria,N,15,234129.5
-Tijjani Gandu,tijjani-gandu,NG,domestic,provider registers the artist in Nigeria,N,11,1429.44
-Tim Godfrey,tim-godfrey,NG,domestic,provider registers the artist in Nigeria,N,31,1374229.58
-Timaya,timaya,NG,domestic,provider registers the artist in Nigeria,N,31,3018136.92
-Timi Dakolo,timi-dakolo,NG,domestic,provider registers the artist in Nigeria,N,31,253782.64
-Titom,titom,FR,diaspora_candidate,provider registers the artist in FR,Y,29,2142661.49
-Tiwa Savage,tiwa-savage,NG,domestic,provider registers the artist in Nigeria,N,31,5779856.56
-Tjan,tjan,NG,domestic,provider registers the artist in Nigeria,N,31,28066.05
-Tkeyz,tkeyz,NG,domestic,provider registers the artist in Nigeria,N,29,344669.05
-Tml Vibez,tml-vibez,NG,domestic,provider registers the artist in Nigeria,N,14,629673.96
-Tobi Ibitoye,tobi-ibitoye,NG,domestic,provider registers the artist in Nigeria,N,30,124165.42
-Toby Foyeh,toby-foyeh,GB,diaspora_candidate,provider registers the artist in GB,Y,30,9324.45
-Tolani,tolani,NG,domestic,provider registers the artist in Nigeria,N,30,74649.59
-Tolex,tolex,BR,diaspora_candidate,provider registers the artist in BR,Y,29,12851.46
-Tolibian,tolibian,NG,domestic,provider registers the artist in Nigeria,N,22,26751.22
-Tolu Obanro,tolu-obanro,NG,domestic,provider registers the artist in Nigeria,N,14,2833.84
-Tolü Makay,tolü-makay,IE,diaspora_candidate,provider registers the artist in IE,Y,30,27876.64
-Tomi Agape,tomi-agape,GB,diaspora_candidate,provider registers the artist in GB,Y,31,188561.73
-Tomi Favored,tomi-favored,US,diaspora_candidate,provider registers the artist in US,Y,30,33738.32
-Tomi Folayan,tomi-folayan,,unknown,provider holds no country for this artist,Y,17,797.88
-Tomi Thomas,tomi-thomas,US,diaspora_candidate,provider registers the artist in US,Y,31,64920.95
-Tony Allen,tony-allen,NG,domestic,provider registers the artist in Nigeria,N,31,751822.68
-Tony Tetuila,tony-tetuila,NG,domestic,provider registers the artist in Nigeria,N,31,41729.64
-Tonye Garrick,tonye-garrick,NG,domestic,provider registers the artist in Nigeria,N,29,619.79
-Tope Alabi,tope-alabi,NG,domestic,provider registers the artist in Nigeria,N,31,579144.02
-Tunde Jegede,tunde-jegede,GB,diaspora_candidate,provider registers the artist in GB,Y,31,84277.51
-Tunde King,tunde-king,NG,domestic,provider registers the artist in Nigeria,N,30,82.75
-Tunde Nightingale,tunde-nightingale,NG,domestic,provider registers the artist in Nigeria,N,10,135.03
-Tunji Oyelana,tunji-oyelana,NG,domestic,provider registers the artist in Nigeria,N,30,11585.99
-Töme,töme,JP,diaspora_candidate,provider registers the artist in JP,Y,15,12031.31
-Ugezu J. Ugezu,ugezu-j.-ugezu,,unknown,provider holds no country for this artist,Y,15,8.54
-Umar M Shareef,umar-m-shareef,NG,domestic,provider registers the artist in Nigeria,N,31,329729.43
-Umu Obiligbo,umu-obiligbo,NG,domestic,provider registers the artist in Nigeria,N,30,287015.46
-Vector,vector,NG,domestic,provider registers the artist in Nigeria,N,31,582966.07
-Vibez Inc,vibez-inc,NG,domestic,provider registers the artist in Nigeria,N,10,103352.66
-Victony,victony,NG,domestic,provider registers the artist in Nigeria,N,29,7410299.61
-Victor AD,victor-ad,NG,domestic,provider registers the artist in Nigeria,N,31,392565.43
-Victor Olaiya,victor-olaiya,NG,domestic,provider registers the artist in Nigeria,N,30,23578.56
-Victor Thompson,victor-thompson,NG,domestic,provider registers the artist in Nigeria,N,20,3267609.75
-Victoria Kimani,victoria-kimani,KE,diaspora_candidate,provider registers the artist in KE,Y,31,53209.82
-Victoria Orenze,victoria-orenze,NG,domestic,provider registers the artist in Nigeria,N,30,1095166.49
-Vudumane,vudumane,US,diaspora_candidate,provider registers the artist in US,Y,26,329981.72
-Waconzy,waconzy,NG,domestic,provider registers the artist in Nigeria,N,31,85600.76
-Waje,waje,NG,domestic,provider registers the artist in Nigeria,N,31,116450.07
-Wande Coal,wande-coal,NG,domestic,provider registers the artist in Nigeria,N,31,3178110.92
-Wani,wani,NG,domestic,provider registers the artist in Nigeria,N,30,80133.8
-Wasiu Alabi Pasuma,wasiu-alabi-pasuma,NG,domestic,provider registers the artist in Nigeria,N,30,3023.57
-Wavy the Creator,wavy-the-creator,NG,domestic,provider registers the artist in Nigeria,N,31,31196.72
-Weird MC,weird-mc,NG,domestic,provider registers the artist in Nigeria,N,30,11097.13
-William Onyeabor,william-onyeabor,NG,domestic,provider registers the artist in Nigeria,N,31,546557.53
-Wizard Chan,wizard-chan,NG,domestic,provider registers the artist in Nigeria,N,20,546833.91
-Wizkid,wizkid,NG,domestic,provider registers the artist in Nigeria,N,31,24381708.74
-WizzyPro,wizzypro,NG,domestic,provider registers the artist in Nigeria,N,30,831.91
-Wole Oni,wole-oni,,unknown,provider holds no country for this artist,Y,31,377.54
-Wolfacejoeyy,wolfacejoeyy,US,diaspora_candidate,provider registers the artist in US,Y,23,347543.71
-WurlD,wurld,US,diaspora_candidate,provider registers the artist in US,Y,31,798805.07
-Yadah,yadah,NG,domestic,provider registers the artist in Nigeria,N,26,270211.16
-Yarden,yarden,NG,domestic,provider registers the artist in Nigeria,N,29,892317.7
-Ycee,ycee,NG,domestic,provider registers the artist in Nigeria,N,31,1109651.41
-Yemi Alade,yemi-alade,NG,domestic,provider registers the artist in Nigeria,N,31,4162272.23
-Yemzzy,yemzzy,NG,domestic,provider registers the artist in Nigeria,N,25,67.75
-Yhemolee,yhemolee,NG,domestic,provider registers the artist in Nigeria,N,26,14554.07
-Yinka Ayefele,yinka-ayefele,NG,domestic,provider registers the artist in Nigeria,N,31,96818.08
-Yinka Davies,yinka-davies,NG,domestic,provider registers the artist in Nigeria,N,30,374.35
-Young Jonn,young-jonn,NG,domestic,provider registers the artist in Nigeria,N,30,3485209.8
-Yung6ix,yung6ix,NG,domestic,provider registers the artist in Nigeria,N,31,94672.48
-Yuppe,yuppe,ZA,diaspora_candidate,provider registers the artist in ZA,Y,21,1168954.9
-Yusuf Olatunji,yusuf-olatunji,,unknown,provider holds no country for this artist,Y,9,6.11
-Zaki Dan Yaya,zaki-dan-yaya,NG,domestic,provider registers the artist in Nigeria,N,20,53547.1
-Zaylevelten,zaylevelten,NG,domestic,provider registers the artist in Nigeria,N,11,207255.29
-Zayn Africa,zayn-africa,NG,domestic,provider registers the artist in Nigeria,N,25,27.57
-Zerrydl,zerrydl,NG,domestic,provider registers the artist in Nigeria,N,14,945711.87
-Zhus Jdo,zhus-jdo,NG,domestic,provider registers the artist in Nigeria,N,11,202198.67
-Zilla Oaks,zilla-oaks,NG,domestic,provider registers the artist in Nigeria,N,30,9204.36
-Zinoleesky,zinoleesky,NG,domestic,provider registers the artist in Nigeria,N,29,2105596.49
-Zlatan,zlatan,NG,domestic,provider registers the artist in Nigeria,N,31,1921433.22
-Zoro,zoro,NG,domestic,provider registers the artist in Nigeria,N,27,10175.55
-Zubi,zubi,CA,diaspora_candidate,provider registers the artist in CA,Y,29,1326351.64
-Zule Zoo,zule-zoo,NG,domestic,provider registers the artist in Nigeria,N,30,11926.72
-el Mafrex,el-mafrex,GB,diaspora_candidate,provider registers the artist in GB,Y,26,6518.97
-oSHAMO,oshamo,GB,diaspora_candidate,provider registers the artist in GB,Y,19,245971.53
-where.t.at,where.t.at,GB,diaspora_candidate,provider registers the artist in GB,Y,3,259726.24
+TeeMirror,teemirror,NG,domestic,provider registers the artist in Nigeria,N,17,498.61
+Teezee,teezee,NG,domestic,provider registers the artist in Nigeria,N,30,328850.66
+Tekno,tekno,NG,domestic,provider registers the artist in Nigeria,N,31,5228815.93
+Tekno Miles,tekno-miles,NG,domestic,provider registers the artist in Nigeria,N,31,3477.9
+Temi DollFace,temi-dollface,NG,domestic,provider registers the artist in Nigeria,N,30,518.65
+Tempoe,tempoe,US,diaspora_candidate,provider registers the artist in US,Y,17,2811305.3
+Tems,tems,NG,domestic,provider registers the artist in Nigeria,N,30,24678101.55
+Teni,teni,NG,domestic,provider registers the artist in Nigeria,N,31,2438650.92
+Terri,terri,NG,domestic,provider registers the artist in Nigeria,N,30,302160.51
+Terry Apala,terry-apala,NG,domestic,provider registers the artist in Nigeria,N,31,205422.91
+Terry G,terry-g,NG,domestic,provider registers the artist in Nigeria,N,30,15386.8
+Testimony Jaga,testimony-jaga,NG,domestic,provider registers the artist in Nigeria,N,27,95352.81
+The Cavemen,the-cavemen,NZ,diaspora_candidate,provider registers the artist in NZ,Y,31,379532.03
+The Second Voice,the-second-voice,NG,domestic,provider registers the artist in Nigeria,N,3,491676.3
+Theophilus Sunday,theophilus-sunday,NG,domestic,provider registers the artist in Nigeria,N,10,250833.16
+Theresa Onuorah,theresa-onuorah,,unknown,provider holds no country for this artist,Y,25,93456.11
+Tiimie,tiimie,NG,domestic,provider registers the artist in Nigeria,N,15,223301.77
+Tijjani Gandu,tijjani-gandu,NG,domestic,provider registers the artist in Nigeria,N,11,1425.76
+Tim Godfrey,tim-godfrey,NG,domestic,provider registers the artist in Nigeria,N,31,1366507.63
+Timaya,timaya,NG,domestic,provider registers the artist in Nigeria,N,31,2989080.96
+Timi Dakolo,timi-dakolo,NG,domestic,provider registers the artist in Nigeria,N,31,231201.66
+Titom,titom,FR,diaspora_candidate,provider registers the artist in FR,Y,29,2046437.2
+Tiwa Savage,tiwa-savage,NG,domestic,provider registers the artist in Nigeria,N,31,5634666.18
+Tjan,tjan,NG,domestic,provider registers the artist in Nigeria,N,31,26953.56
+Tkeyz,tkeyz,NG,domestic,provider registers the artist in Nigeria,N,29,332428.49
+Tml Vibez,tml-vibez,NG,domestic,provider registers the artist in Nigeria,N,14,606025.26
+Tobi Ibitoye,tobi-ibitoye,NG,domestic,provider registers the artist in Nigeria,N,30,123018.58
+Toby Foyeh,toby-foyeh,GB,diaspora_candidate,provider registers the artist in GB,Y,30,9410.1
+Tolani,tolani,NG,domestic,provider registers the artist in Nigeria,N,30,72132.59
+Tolex,tolex,BR,diaspora_candidate,provider registers the artist in BR,Y,29,13326.67
+Tolibian,tolibian,NG,domestic,provider registers the artist in Nigeria,N,22,26900.2
+Tolu Obanro,tolu-obanro,NG,domestic,provider registers the artist in Nigeria,N,14,2707.12
+Tolü Makay,tolü-makay,IE,diaspora_candidate,provider registers the artist in IE,Y,30,28323.48
+Tomi Agape,tomi-agape,GB,diaspora_candidate,provider registers the artist in GB,Y,31,184505.45
+Tomi Favored,tomi-favored,US,diaspora_candidate,provider registers the artist in US,Y,30,33556.0
+Tomi Folayan,tomi-folayan,,unknown,provider holds no country for this artist,Y,17,867.57
+Tomi Thomas,tomi-thomas,US,diaspora_candidate,provider registers the artist in US,Y,31,65263.15
+Tony Allen,tony-allen,NG,domestic,provider registers the artist in Nigeria,N,31,783414.74
+Tony Tetuila,tony-tetuila,NG,domestic,provider registers the artist in Nigeria,N,31,40426.03
+Tonye Garrick,tonye-garrick,NG,domestic,provider registers the artist in Nigeria,N,29,612.06
+Tope Alabi,tope-alabi,NG,domestic,provider registers the artist in Nigeria,N,31,573676.9
+Tunde Jegede,tunde-jegede,GB,diaspora_candidate,provider registers the artist in GB,Y,31,84338.23
+Tunde King,tunde-king,NG,domestic,provider registers the artist in Nigeria,N,30,78.47
+Tunde Nightingale,tunde-nightingale,NG,domestic,provider registers the artist in Nigeria,N,10,134.89
+Tunji Oyelana,tunji-oyelana,NG,domestic,provider registers the artist in Nigeria,N,30,11883.78
+Töme,töme,JP,diaspora_candidate,provider registers the artist in JP,Y,15,17336.81
+Ugezu J. Ugezu,ugezu-j.-ugezu,,unknown,provider holds no country for this artist,Y,15,7.78
+Umar M Shareef,umar-m-shareef,NG,domestic,provider registers the artist in Nigeria,N,31,329105.16
+Umu Obiligbo,umu-obiligbo,NG,domestic,provider registers the artist in Nigeria,N,30,274915.97
+Vector,vector,NG,domestic,provider registers the artist in Nigeria,N,31,559817.62
+Vibez Inc,vibez-inc,NG,domestic,provider registers the artist in Nigeria,N,10,114331.04
+Victony,victony,NG,domestic,provider registers the artist in Nigeria,N,29,7352934.26
+Victor AD,victor-ad,NG,domestic,provider registers the artist in Nigeria,N,31,384202.71
+Victor Olaiya,victor-olaiya,NG,domestic,provider registers the artist in Nigeria,N,30,23703.87
+Victor Thompson,victor-thompson,NG,domestic,provider registers the artist in Nigeria,N,20,3311771.01
+Victoria Kimani,victoria-kimani,KE,diaspora_candidate,provider registers the artist in KE,Y,31,54698.27
+Victoria Orenze,victoria-orenze,NG,domestic,provider registers the artist in Nigeria,N,30,1087451.62
+Vudumane,vudumane,US,diaspora_candidate,provider registers the artist in US,Y,26,324836.05
+Waconzy,waconzy,NG,domestic,provider registers the artist in Nigeria,N,31,83481.63
+Waje,waje,NG,domestic,provider registers the artist in Nigeria,N,31,115047.37
+Wande Coal,wande-coal,NG,domestic,provider registers the artist in Nigeria,N,31,3093813.08
+Wani,wani,NG,domestic,provider registers the artist in Nigeria,N,30,82357.05
+Wasiu Alabi Pasuma,wasiu-alabi-pasuma,NG,domestic,provider registers the artist in Nigeria,N,30,2965.95
+Wavy the Creator,wavy-the-creator,NG,domestic,provider registers the artist in Nigeria,N,31,29958.5
+Weird MC,weird-mc,NG,domestic,provider registers the artist in Nigeria,N,30,10830.86
+William Onyeabor,william-onyeabor,NG,domestic,provider registers the artist in Nigeria,N,31,552309.31
+Wizard Chan,wizard-chan,NG,domestic,provider registers the artist in Nigeria,N,20,529465.97
+Wizkid,wizkid,NG,domestic,provider registers the artist in Nigeria,N,31,24046358.57
+WizzyPro,wizzypro,NG,domestic,provider registers the artist in Nigeria,N,30,830.45
+Wole Oni,wole-oni,,unknown,provider holds no country for this artist,Y,31,382.81
+Wolfacejoeyy,wolfacejoeyy,US,diaspora_candidate,provider registers the artist in US,Y,23,345399.36
+WurlD,wurld,US,diaspora_candidate,provider registers the artist in US,Y,31,784060.16
+Yadah,yadah,NG,domestic,provider registers the artist in Nigeria,N,26,264772.6
+Yarden,yarden,NG,domestic,provider registers the artist in Nigeria,N,29,885311.86
+Ycee,ycee,NG,domestic,provider registers the artist in Nigeria,N,31,1099805.69
+Yemi Alade,yemi-alade,NG,domestic,provider registers the artist in Nigeria,N,31,4134620.21
+Yemzzy,yemzzy,NG,domestic,provider registers the artist in Nigeria,N,25,102.19
+Yhemolee,yhemolee,NG,domestic,provider registers the artist in Nigeria,N,26,14185.62
+Yinka Ayefele,yinka-ayefele,NG,domestic,provider registers the artist in Nigeria,N,31,97483.15
+Yinka Davies,yinka-davies,NG,domestic,provider registers the artist in Nigeria,N,30,350.48
+Young Jonn,young-jonn,NG,domestic,provider registers the artist in Nigeria,N,30,3357545.18
+Yung6ix,yung6ix,NG,domestic,provider registers the artist in Nigeria,N,31,92056.17
+Yuppe,yuppe,ZA,diaspora_candidate,provider registers the artist in ZA,Y,21,1090055.96
+Yusuf Olatunji,yusuf-olatunji,,unknown,provider holds no country for this artist,Y,9,5.01
+Zaki Dan Yaya,zaki-dan-yaya,NG,domestic,provider registers the artist in Nigeria,N,20,53088.07
+Zaylevelten,zaylevelten,NG,domestic,provider registers the artist in Nigeria,N,11,180211.05
+Zayn Africa,zayn-africa,NG,domestic,provider registers the artist in Nigeria,N,25,27.74
+Zerrydl,zerrydl,NG,domestic,provider registers the artist in Nigeria,N,14,919451.12
+Zhus Jdo,zhus-jdo,NG,domestic,provider registers the artist in Nigeria,N,11,177508.78
+Zilla Oaks,zilla-oaks,NG,domestic,provider registers the artist in Nigeria,N,30,9685.52
+Zinoleesky,zinoleesky,NG,domestic,provider registers the artist in Nigeria,N,29,2073910.31
+Zlatan,zlatan,NG,domestic,provider registers the artist in Nigeria,N,31,1874469.25
+Zoro,zoro,NG,domestic,provider registers the artist in Nigeria,N,27,10335.77
+Zubi,zubi,CA,diaspora_candidate,provider registers the artist in CA,Y,29,1318003.8
+Zule Zoo,zule-zoo,NG,domestic,provider registers the artist in Nigeria,N,30,10989.63
+el Mafrex,el-mafrex,GB,diaspora_candidate,provider registers the artist in GB,Y,26,6413.86
+oSHAMO,oshamo,GB,diaspora_candidate,provider registers the artist in GB,Y,19,230028.89
+where.t.at,where.t.at,GB,diaspora_candidate,provider registers the artist in GB,Y,3,233489.35

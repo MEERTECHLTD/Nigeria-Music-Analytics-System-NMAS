@@ -298,6 +298,50 @@ def main() -> int:
         sheet_from_csv(wb.create_sheet("By_Artist"), P / "Growth_By_Artist.csv")
     book("9_Growth_Projection.xlsx", proj)
 
+    # ---- workbooks answering the NBS response ------------------------------
+    book("10_Residency_And_GNI_Separation.xlsx", lambda wb: (
+        cover(wb, "10 — Residency and the GDP / GNI separation", [
+            "NBS asked that artists living abroad be provided separately, for use in "
+            "compiling Gross National Income, and kept out of the domestic production "
+            "account.",
+            "Classification is by ECONOMIC RESIDENCE, not nationality. Every artist "
+            "carries the evidence for its classification and a flag where NBS must "
+            "adjudicate.",
+            "The diaspora figures are an INPUT TO GNI compilation. They are not "
+            "themselves GNI; what enters GNI is a national-accounts determination "
+            "that belongs to NBS.",
+        ]),
+        sheet_from_csv(wb.create_sheet("Artist_Residency"), D / "Artist_Residency_Classification.csv"),
+        sheet_from_csv(wb.create_sheet("Domestic_Production"), D / "Domestic_Production_Account.csv"),
+        sheet_from_csv(wb.create_sheet("GNI_Diaspora"), D / "GNI_Diaspora_Account.csv")))
+
+    book("11_Revenue_And_Cost_By_Product.xlsx", lambda wb: (
+        cover(wb, "11 — Revenue and operating cost by product", [
+            "NBS asked for revenue and operating cost broken down by product, to "
+            "identify the driver of digital music.",
+            "IMPORTANT: no cost in this dataset is DIRECTLY attributable to a platform. "
+            "The cost card is measured per artist per quarter, not per platform. Every "
+            "cost is therefore shared and allocated on each platform's share of revenue; "
+            "the basis is printed on every row and direct cost is zero throughout "
+            "because it is genuinely zero, not because it was not computed.",
+            "'Other digital platforms' is an ASSUMPTION, not a measured platform. No "
+            "figure from Apple Music, Amazon, Boomplay, Audiomack or Tidal appears "
+            "anywhere in this submission.",
+        ]),
+        sheet_from_csv(wb.create_sheet("Revenue_And_Cost_By_Platform"), D / "Revenue_And_Cost_By_Platform.csv")))
+
+    book("12_National_Accounts_Aggregates.xlsx", lambda wb: (
+        cover(wb, "12 — National accounts aggregates", [
+            "Revenue is NOT value added. Output, intermediate consumption and gross "
+            "value added are separated so NBS can take the measure its framework needs.",
+            "Compensation of employees is left BLANK, not zero: the cost card contains "
+            "no labour component, so it is unmeasured rather than nil.",
+            "This treatment requires NBS confirmation against its own SNA "
+            "classification. The components are set out so NBS can classify them; the "
+            "answer has not been assumed.",
+        ]),
+        sheet_from_csv(wb.create_sheet("National_Accounts"), D / "National_Accounts_Aggregates.csv")))
+
     print("\ndelivery130 workbooks: %d artists, %d quarters, gross $%s"
           % (len(artists), len(periods), format(sum(gross.values()), ",.2f")))
     return 0

@@ -5,9 +5,9 @@
   "quarters": 31,
   "first_quarter": "Q1_2019",
   "last_quarter": "Q3_2026",
-  "revenue_rows": 3799,
-  "gross_streaming_revenue_usd": 476918406.15,
-  "files": 47,
+  "revenue_rows": 3798,
+  "gross_streaming_revenue_usd": 469833610.14,
+  "files": 57,
   "generators": [
     "build_delivery130.py",
     "build_delivery130_projection.py",

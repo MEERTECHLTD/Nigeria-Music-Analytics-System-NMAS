@@ -5,15 +5,15 @@
 
 | Headline | Value |
 |---|---:|
-| Gross streaming revenue (EST), all 31 quarters | $476,918,406 |
-| — of which Q3 2026, an INCOMPLETE quarter | $28,556,270 |
-| Gross streaming revenue, COMPLETE quarters only | $448,362,137 |
-| In naira, at 1,500/USD | ₦715,377,609,225 |
+| Gross streaming revenue (EST), all 31 quarters | $469,833,610 |
+| — of which Q3 2026, an INCOMPLETE quarter | $28,424,708 |
+| Gross streaming revenue, COMPLETE quarters only | $441,408,902 |
+| In naira, at 1,500/USD | ₦704,750,415,210 |
 | Artists | 129 |
 | Quarters | 31 |
-| Artist-quarter revenue rows | 3,799 |
+| Artist-quarter revenue rows | 3,798 |
 | Quarters with a measured export split | 23 of 31 |
-| Projected annual growth | 8.771% |
+| Projected annual growth | 8.192% |
 
 ## The cohort
 
@@ -62,7 +62,7 @@ $0.00, is at `_audit/reconciliation/first_submission_vs_delivery134.md`.
   quarter, not that nothing was exported. Before Q1 2021 no listener geography exists.
 - **Every row states its own basis.** `youtube_views_source` says whether YouTube
   volume was observed or estimated; `spotify_listeners_source` does the same for
-  Spotify. 1,876 of 3,799 rows carry observed YouTube volume, 919 are estimated, and 1,004
+  Spotify. 1,876 of 3,798 rows carry observed YouTube volume, 919 are estimated, and 1,003
   have no YouTube presence at all.
 - **Employment is national.** It is the whole Nigerian music sector from secondary
   sources. It is not a count of these artists' employees and is not scaled to them.

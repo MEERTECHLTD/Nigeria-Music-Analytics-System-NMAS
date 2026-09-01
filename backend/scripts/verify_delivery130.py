@@ -20,6 +20,7 @@ from openpyxl import load_workbook
 BACKEND = Path(__file__).resolve().parents[1]; ROOT = BACKEND.parent
 sys.path.insert(0, str(BACKEND))
 from nmas.cohort import counts                       # noqa: E402
+from nmas.fx import ngn_per_usd                      # noqa: E402
 PKG = ROOT / "delivery130"; D = PKG / "04_Datasets"; T = "=== PERIOD TOTAL ==="
 API = ROOT / "frontend/public/api/v1/nbs"
 csv.field_size_limit(10 ** 9)
@@ -44,6 +45,7 @@ def main() -> int:
     ps = [r for r in csv.DictReader((D / "Gross_Streaming_Revenue.csv").open(encoding="utf-8"))
           if r["artist_name"] == T]
     AUTH = sum(f(r["gross_streaming_revenue_usd"]) for r in rows)
+    NGN = sum(f(r["gross_streaming_revenue_ngn"]) for r in rows)
     periods = sorted({r["period"] for r in rows}, key=qk)
     artists = sorted({r["artist_name"] for r in rows})
     c = counts()
@@ -62,8 +64,9 @@ def main() -> int:
             lambda r: (f(r["spotify_revenue_usd"]) + f(r["youtube_revenue_usd"])
                        + f(r["deezer_revenue_usd"]) + f(r["other_platforms_revenue_usd"]),
                        f(r["gross_streaming_revenue_usd"])),
-        "gross_ngn = gross_usd x 1500":
-            lambda r: (f(r["gross_streaming_revenue_usd"]) * 1500, f(r["gross_streaming_revenue_ngn"])),
+        "gross_ngn = gross_usd x that quarter's own rate":
+            lambda r: (f(r["gross_streaming_revenue_usd"]) * ngn_per_usd(r["period"]),
+                       f(r["gross_streaming_revenue_ngn"])),
         "est_spotify_quarterly_streams = listeners x 3.5 x 3":
             lambda r: (round(f(r["spotify_monthly_listeners"]) * 3.5 * 3), f(r["est_spotify_quarterly_streams"])),
     }
@@ -135,6 +138,33 @@ def main() -> int:
         w.close()
     chk("Excel", "no cell stored as a formula", "0", str(nf), nf == 0)
 
+    # 3b NBS-response datasets
+    for name, key in (("Artist_Residency_Classification.csv", "artist_name"),
+                      ("Revenue_And_Cost_By_Platform.csv", "platform"),
+                      ("Domestic_Production_Account.csv", "period"),
+                      ("GNI_Diaspora_Account.csv", "period"),
+                      ("National_Accounts_Aggregates.csv", "period")):
+        pth = D / name
+        chk("NBS response", "%s present" % name, "exists", "yes" if pth.exists() else "MISSING", pth.exists())
+    if (D / "Revenue_And_Cost_By_Platform.csv").exists():
+        pl = list(csv.DictReader((D / "Revenue_And_Cost_By_Platform.csv").open(encoding="utf-8")))
+        pu = sum(f(r["revenue_usd"]) for r in pl)
+        chk("NBS response", "platform revenue sums to the headline", m(AUTH), m(pu), abs(pu - AUTH) < 0.05)
+        nodir = all(f(r["direct_cost_ngn"]) == 0 for r in pl)
+        chk("NBS response", "no cost claimed as directly platform-attributable", "0 direct",
+            "0 direct" if nodir else "some direct", nodir)
+        nobasis = [r for r in pl if not r["cost_allocation_basis"].strip()]
+        chk("NBS response", "every allocated cost states its basis", "0 blank", str(len(nobasis)), not nobasis)
+    if (D / "Domestic_Production_Account.csv").exists():
+        dm = list(csv.DictReader((D / "Domestic_Production_Account.csv").open(encoding="utf-8")))
+        gn = list(csv.DictReader((D / "GNI_Diaspora_Account.csv").open(encoding="utf-8")))
+        split = sum(f(r["gross_revenue_usd"]) for r in dm) + sum(f(r["gross_revenue_usd"]) for r in gn)
+        chk("NBS response", "domestic + diaspora within the headline", "<= %s" % m(AUTH),
+            m(split), split <= AUTH + 0.05)
+    hb = PKG / "02_Methodology" / "NBS_Statistical_Handbook.md"
+    chk("NBS response", "statistical handbook present", "exists",
+        "yes (%.0f KB)" % (hb.stat().st_size / 1024) if hb.exists() else "MISSING", hb.exists())
+
     # 4 structure
     missing = [d for d in FOLDERS if not (PKG / d).is_dir()]
     chk("Structure", "all 13 submission folders present", "13", str(13 - len(missing)), not missing)
@@ -155,7 +185,7 @@ def main() -> int:
     a("`delivery130/04_Datasets/Gross_Streaming_Revenue.csv`, excluding its 31")
     a("`=== PERIOD TOTAL ===` pseudo-rows.\n")
     a("**Authoritative gross streaming revenue: %s** (₦%s) over %d artists and %d quarters,"
-      % (m(AUTH), format(AUTH * 1500, ",.2f"), len(artists), len(periods)))
+      % (m(AUTH), format(NGN, ",.2f"), len(artists), len(periods)))
     a("across %s artist-quarter rows.\n" % format(len(rows), ","))
     a("> Summing that file **without** excluding the pseudo-rows gives %s — exactly double."
       % m(AUTH * 2))
@@ -172,8 +202,8 @@ def main() -> int:
     a("|---|---:|---:|---:|")
     for p in periods:
         n = len({r["artist_name"] for r in rows if r["period"] == p})
-        a("| %s | %d | %s | ₦%s |" % (p.replace("_", " "), n, m(byq[p]), format(byq[p] * 1500, ",.0f")))
-    a("| **Total** | **%d** | **%s** | **₦%s** |\n" % (len(artists), m(AUTH), format(AUTH * 1500, ",.0f")))
+        a("| %s | %d | %s | ₦%s |" % (p.replace("_", " "), n, m(byq[p]), format(byq[p] * ngn_per_usd(p), ",.0f")))
+    a("| **Total** | **%d** | **%s** | **₦%s** |\n" % (len(artists), m(AUTH), format(NGN, ",.0f")))
     a("## 5. Incomplete quarter disclosed\n")
     q3 = byq.get("Q3_2026", 0.0)
     a("Q3 2026 is an unfinished quarter — the revenue series end 2026-08-11 (45.7% of the quarter), the quarter closes")

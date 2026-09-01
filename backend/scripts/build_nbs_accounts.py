@@ -76,6 +76,7 @@ from nmas.assumptions import (  # noqa: E402
 # One artist, two frame rows, two provider UUIDs. Defined once in nmas.cohort
 # so the pipeline and the published console can never disagree on the count.
 from nmas.cohort import ALIASES  # noqa: E402
+from nmas.fx import ngn_per_usd, rate_basis  # noqa: E402
 
 
 def clean_counter_volume(points):
@@ -115,6 +116,11 @@ def clean_counter_volume(points):
             restated += 1
     return max(raw - excess, 0.0), restated
 
+
+#: Audience LEVELS that vary within a quarter and must be read month by month.
+#: A level is a stock: it is whatever it was on the day it was read, and using
+#: one reading for three months asserts it did not move.
+MONTHLY_LEVEL_VARS = {"Spotify_monthly_listeners_daily", "Deezer_fans_daily"}
 
 _QSTART = {1: 1, 2: 4, 3: 7, 4: 10}
 
@@ -168,7 +174,8 @@ def main() -> int:
     # levels use the quarter's last observation; YouTube views are cumulative so
     # the quarter's flow is last-first.
     lvl = defaultdict(dict)
-    series = defaultdict(list)      # (artist,quarter) -> {var: (first,last,fdate,ldate)}
+    series = defaultdict(list)
+    monthly = defaultdict(dict)      # (artist,quarter) -> {var: (first,last,fdate,ldate)}
     WANTED = {"Spotify_monthly_listeners_daily", "YouTube_channel_views_daily",
               "YouTube_subscribers_daily",
               "Deezer_fans_daily", "Spotify_domestic_listeners_daily",
@@ -246,6 +253,16 @@ def main() -> int:
                 # (last - first) but obvious in the increments.
                 if var == "YouTube_channel_views_daily":
                     series[key].append((date, value))
+                # Per-MONTH levels for the audience metrics. NBS asked whether the
+                # monthly listener count was being treated as constant across the
+                # quarter. It was: the quarter's LAST observation was multiplied by
+                # 3 months. Each month's own level is now kept so the quarter can be
+                # built from the three months that actually occurred.
+                if var in MONTHLY_LEVEL_VARS:
+                    mkey = (var, date[:7])
+                    mcell = monthly[key].setdefault(mkey, [value, date])
+                    if date >= mcell[1]:
+                        mcell[0], mcell[1] = value, date
 
     # ---- back-cast Spotify listeners before the provider's series starts ---
     # Spotify_monthly_listeners_daily begins 2019-05-16, so every Q1 2019 row
@@ -305,12 +322,33 @@ def main() -> int:
                   "gross_streaming_revenue_usd", "gross_streaming_revenue_ngn",
                   "domestic_share_observed", "domestic_revenue_usd", "export_revenue_usd",
                   "export_revenue_ngn", "split_basis", "split_classification",
-                  "youtube_views_source", "spotify_listeners_source"]
+                  "youtube_views_source", "spotify_listeners_source",
+                  "spotify_listeners_basis", "ngn_per_usd", "ngn_rate_basis"]
     rev_rows = []
     split_cov = defaultdict(lambda: defaultdict(int))
     for (name, quarter), vars_ in sorted(lvl.items(), key=lambda kv: (kv[0][0], qkey(kv[0][1]))):
-        listeners = vars_.get("Spotify_monthly_listeners_daily", [0, 0, "", ""])[1]
-        deezer = vars_.get("Deezer_fans_daily", [0, 0, "", ""])[1]
+        # Quarterly audience = the MEAN of the months actually observed, applied
+        # across the quarter's three months. Where all three months are present
+        # this is arithmetically identical to summing each month's own level,
+        #     mean(m1, m2, m3) x 3 == m1 + m2 + m3
+        # so the quarter is built from the months that happened rather than from
+        # one reading repeated three times. Where fewer months were observed
+        # those stand as the quarter's evidence, and the row records how many.
+        def month_mean(var):
+            got = [v[0] for k, v in sorted(monthly.get((name, quarter), {}).items())
+                   if k[0] == var]
+            return (sum(got) / len(got), len(got)) if got else (None, 0)
+
+        sp_mean, sp_months_n = month_mean("Spotify_monthly_listeners_daily")
+        dz_mean, dz_months_n = month_mean("Deezer_fans_daily")
+        # Rounded to a whole listener/fan BEFORE any revenue is derived from it.
+        # A monthly-listener count is a headcount; publishing a fractional mean
+        # and deriving revenue from the unrounded value left rows whose printed
+        # listener count could not reproduce their own printed revenue.
+        listeners = float(round(sp_mean)) if sp_mean is not None else \
+            float(round(vars_.get("Spotify_monthly_listeners_daily", [0, 0, "", ""])[1]))
+        deezer = float(round(dz_mean)) if dz_mean is not None else \
+            float(round(vars_.get("Deezer_fans_daily", [0, 0, "", ""])[1]))
         yt = vars_.get("YouTube_channel_views_daily")
         # Quarter delta of a cumulative counter, clamped at zero. The clamp is a
         # DELIBERATE conservative choice, registered in the assumptions register:
@@ -428,14 +466,20 @@ def main() -> int:
             "measured_platform_revenue_usd": round(measured, 2),
             "unmeasured_platform_uplift_usd": round(uplift, 2),
             "gross_streaming_revenue_usd": round(gross, 2),
-            "gross_streaming_revenue_ngn": round(gross * NAIRA_PER_USD, 2),
+            "gross_streaming_revenue_ngn": round(gross * ngn_per_usd(quarter), 2),
             "domestic_share_observed": round(share, 6) if share is not None else "",
             "domestic_revenue_usd": round(dom_rev, 2) if dom_rev is not None else "",
             "export_revenue_usd": round(exp_rev, 2) if exp_rev is not None else "",
-            "export_revenue_ngn": round(exp_rev * NAIRA_PER_USD, 2) if exp_rev is not None else "",
+            "export_revenue_ngn": round(exp_rev * ngn_per_usd(quarter), 2) if exp_rev is not None else "",
             "split_basis": basis,
             "split_classification": split_cls,
             "youtube_views_source": yt_source,
+            "spotify_listeners_basis": (
+                "mean of %d monthly level%s observed in the quarter"
+                % (sp_months_n, "" if sp_months_n == 1 else "s")
+                if sp_months_n else "no monthly level observed; quarter-end level used"),
+            "ngn_per_usd": ngn_per_usd(quarter),
+            "ngn_rate_basis": rate_basis(quarter),
             "spotify_listeners_source": (
                 "estimated: carried back from %s and deflated by observed growth "
                 "(EST; the provider series begins mid-Q2 2019)" % observed_q[0]
@@ -487,7 +531,7 @@ def main() -> int:
                 "artists": n, "unit_cost_ngn": unit,
                 "basis": "per artist per quarter x %d track(s)" % multiplier if multiplier > 1
                          else "per artist per quarter",
-                "cost_ngn": round(cost, 2), "cost_usd": round(cost / NAIRA_PER_USD, 2),
+                "cost_ngn": round(cost, 2), "cost_usd": round(cost / ngn_per_usd(quarter), 2),
             })
         acct_rows.append({
             "period_label": quarter, "account": book, "artists": n,
@@ -496,12 +540,12 @@ def main() -> int:
             "deezer_revenue_usd": round(a["deezer_revenue_usd"], 2),
             "unmeasured_platform_uplift_usd": round(a["unmeasured_platform_uplift_usd"], 2),
             "gross_streaming_revenue_usd": round(a["gross_streaming_revenue_usd"], 2),
-            "gross_streaming_revenue_ngn": round(a["gross_streaming_revenue_usd"] * NAIRA_PER_USD, 2),
+            "gross_streaming_revenue_ngn": round(a["gross_streaming_revenue_usd"] * ngn_per_usd(quarter), 2),
             "domestic_revenue_usd": round(a["domestic_revenue_usd"], 2) or "",
             "export_revenue_usd": round(a["export_revenue_usd"], 2) or "",
             "cost_total_ngn": round(total_cost, 2),
-            "cost_total_usd": round(total_cost / NAIRA_PER_USD, 2),
-            "net_ngn": round(a["gross_streaming_revenue_usd"] * NAIRA_PER_USD - total_cost, 2),
+            "cost_total_usd": round(total_cost / ngn_per_usd(quarter), 2),
+            "net_ngn": round(a["gross_streaming_revenue_usd"] * ngn_per_usd(quarter) - total_cost, 2),
         })
 
     with (OUT / "NBS_Accounts_Quarterly.csv").open("w", newline="", encoding="utf-8") as h:

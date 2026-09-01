@@ -4,7 +4,7 @@
 
     ln(revenue_t) = a + b*t + s2*Q2 + s3*Q3 + s4*Q4
 
-Log-linear because the series compounds: it runs from $1,872,809 to $28,565,229, and a
+Log-linear because the series compounds: it runs from $1,872,809 to $27,542,908, and a
 straight line on the level would fit the tail and ignore the base. Quarterly
 dummies because the seasonality is real and one-directional — Q1 is the
 weakest quarter in three separate years, after the December peak.
@@ -26,23 +26,23 @@ closes 2026-09-30, so it is an outturn in progress, not a data point.
 
 | Window | Period | Annual growth | R² |
 |---|---|---:|---:|
-| 8 quarters | Q3 2024 – Q2 2026 | +11.95% | 0.8524 |
-| 12 quarters **(used)** | Q3 2023 – Q2 2026 | +8.77% | 0.8871 |
-| 16 quarters | Q3 2022 – Q2 2026 | +9.56% | 0.8524 |
-| 20 quarters | Q3 2021 – Q2 2026 | +18.75% | 0.7877 |
-| 30 quarters | Q1 2019 – Q2 2026 | +41.78% | 0.8847 |
+| 8 quarters | Q3 2024 – Q2 2026 | +9.98% | 0.8561 |
+| 12 quarters **(used)** | Q3 2023 – Q2 2026 | +8.19% | 0.9121 |
+| 16 quarters | Q3 2022 – Q2 2026 | +10.32% | 0.8479 |
+| 20 quarters | Q3 2021 – Q2 2026 | +20.09% | 0.7736 |
+| 30 quarters | Q1 2019 – Q2 2026 | +42.26% | 0.8910 |
 
 ## Fit
 
 | Statistic | Value |
 |---|---:|
-| Quarterly growth rate | 2.12% |
-| Implied annual growth | 8.77% |
-| R² (log scale) | 0.8871 |
-| Residual sigma (log) | 0.0389 |
-| Q2 seasonal effect | +10.65% |
-| Q3 seasonal effect | +6.05% |
-| Q4 seasonal effect | +6.20% |
+| Quarterly growth rate | 1.99% |
+| Implied annual growth | 8.19% |
+| R² (log scale) | 0.9121 |
+| Residual sigma (log) | 0.0299 |
+| Q2 seasonal effect | +7.57% |
+| Q3 seasonal effect | +6.23% |
+| Q4 seasonal effect | +3.61% |
 
 Seasonal effects are relative to Q1, the base quarter.
 
@@ -50,14 +50,14 @@ Seasonal effects are relative to Q1, the base quarter.
 
 | Quarter | Projected USD | 95% lower | 95% upper |
 |---|---:|---:|---:|
-| Q4 2026 | $27,334,694 | $25,311,261 | $29,475,354 |
-| Q1 2027 | $26,286,826 | $24,340,961 | $28,345,424 |
-| Q2 2027 | $29,704,704 | $27,505,834 | $32,030,967 |
-| Q3 2027 | $29,074,294 | $26,922,089 | $31,351,188 |
-| Q4 2027 | $29,732,258 | $27,531,348 | $32,060,679 |
-| Q1 2028 | $28,592,480 | $26,475,941 | $30,831,641 |
-| Q2 2028 | $32,310,146 | $29,918,409 | $34,840,449 |
-| Q3 2028 | $31,624,441 | $29,283,463 | $34,101,044 |
+| Q4 2026 | $26,641,062 | $25,114,348 | $28,235,362 |
+| Q1 2027 | $26,224,069 | $24,721,252 | $27,793,415 |
+| Q2 2027 | $28,770,807 | $27,122,045 | $30,492,559 |
+| Q3 2027 | $28,976,807 | $27,316,239 | $30,710,887 |
+| Q4 2027 | $28,823,544 | $27,171,759 | $30,548,452 |
+| Q1 2028 | $28,372,390 | $26,746,460 | $30,070,300 |
+| Q2 2028 | $31,127,762 | $29,343,930 | $32,990,563 |
+| Q3 2028 | $31,350,637 | $29,554,033 | $33,226,776 |
 
 ## What this is not
 
