@@ -1,12 +1,12 @@
 # DELIVERY130 — Nigeria Music Analytics System
 ### Submission package for the National Bureau of Statistics
 
-**130 artists x 31 quarters, Q1 2019 – Q3 2026.** Generated 2026-08-28.
+**130 artists x 31 quarters, Q1 2019 – Q3 2026.** Generated 2026-08-31.
 
 | Headline | Value |
 |---|---:|
-| Gross streaming revenue (EST) | $476,964,216 |
-| In naira, at 1,500/USD | ₦715,446,324,540 |
+| Gross streaming revenue (EST) | $476,964,217 |
+| In naira, at 1,500/USD | ₦715,446,325,125 |
 | Artists | 130 |
 | Quarters | 31 |
 | Artist-quarter revenue rows | 3,826 |
@@ -32,7 +32,7 @@ delivery130/
   03_Excel_Deliveries/    1..9 workbooks, numbered as the first submission
   04_Datasets/            the CSVs, same columns as the first submission
   07_Quality_Checks/      Quality_Check_Report.md
-  08_Projection/          growth projection, model note and sensitivity
+  14_Growth_Projection/          growth projection, model note and sensitivity
 ```
 
 `Gross_Streaming_Revenue.csv` and `Gross_Export_Revenue.csv` reproduce the first

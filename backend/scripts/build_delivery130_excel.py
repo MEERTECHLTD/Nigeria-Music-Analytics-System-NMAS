@@ -49,6 +49,20 @@ def num(v):
         return None
 
 
+def as_text(ws, row_idx):
+    """
+    Force text cells to text.
+
+    openpyxl types any string beginning with '=' as a FORMULA. The period-total
+    marker '=== PERIOD TOTAL ===' therefore became a broken formula in 156 cells
+    across 6 workbooks: Excel renders it #NAME?, the marker is invisible, and a
+    reviewer summing the gross column silently double counts the quarter totals.
+    """
+    for c in ws[row_idx]:
+        if isinstance(c.value, str) and c.value.startswith("="):
+            c.data_type = "s"
+
+
 def style(ws, freeze=True):
     for c in ws[1]:
         if c.value is not None:
@@ -94,6 +108,7 @@ def sheet_from_csv(ws, path, keep=None):
         n = 0
         for row in rd:
             ws.append([num(row[i]) if num(row[i]) is not None else row[i] for i in idxs])
+            as_text(ws, ws.max_row)
             n += 1
     style(ws)
     return n
@@ -223,6 +238,7 @@ def main() -> int:
             ws.append([a] + [cell[a].get(p, None) for p in periods] + [round(sum(cell[a].values()), 2)])
         ws.append(["=== PERIOD TOTAL ==="] + [round(gross[p], 2) for p in periods]
                   + [round(sum(gross.values()), 2)])
+        as_text(ws, ws.max_row)
         style(ws)
     book("6_NMAS_Full_Artist_Data_Q1_2019_Q3_2026.xlsx", full)
 
@@ -275,7 +291,7 @@ def main() -> int:
             "The 95% bands are prediction intervals from the fitted residual spread. They "
             "express the model's uncertainty, not the risk that the model is the wrong shape.",
         ])
-        P = PKG / "08_Projection"
+        P = PKG / "14_Growth_Projection"
         sheet_from_csv(wb.create_sheet("Quarterly"), P / "Growth_Projection_Quarterly.csv")
         sheet_from_csv(wb.create_sheet("Annual"), P / "Growth_Projection_Annual.csv")
         sheet_from_csv(wb.create_sheet("Window_Sensitivity"), P / "Projection_Window_Sensitivity.csv")

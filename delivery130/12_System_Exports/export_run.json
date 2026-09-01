@@ -1,0 +1,18 @@
+{
+  "package": "delivery130",
+  "generated_utc": "2026-08-31",
+  "artists": 130,
+  "quarters": 31,
+  "first_quarter": "Q1_2019",
+  "last_quarter": "Q3_2026",
+  "revenue_rows": 3826,
+  "gross_streaming_revenue_usd": 476964216.75,
+  "files": 46,
+  "generators": [
+    "build_delivery130.py",
+    "build_delivery130_projection.py",
+    "build_delivery130_excel.py",
+    "build_delivery130_docs.py",
+    "build_delivery130_structure.py"
+  ]
+}

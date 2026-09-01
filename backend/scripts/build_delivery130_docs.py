@@ -55,10 +55,10 @@ def main() -> int:
     artists = sorted({r["artist_name"] for r in rows})
     measured_split = len({r["period"] for r in ex if r["gross_export_revenue_usd"] not in ("", None)})
 
-    proj = list(csv.DictReader((PKG / "08_Projection" / "Growth_Projection_Quarterly.csv")
+    proj = list(csv.DictReader((PKG / "14_Growth_Projection" / "Growth_Projection_Quarterly.csv")
                                .open(encoding="utf-8")))
     fut = [r for r in proj if r["basis"] == "projection"]
-    sens = list(csv.DictReader((PKG / "08_Projection" / "Projection_Window_Sensitivity.csv")
+    sens = list(csv.DictReader((PKG / "14_Growth_Projection" / "Projection_Window_Sensitivity.csv")
                                .open(encoding="utf-8")))
     used = [s for s in sens if s["used"] == "yes"][0]
 
@@ -96,7 +96,7 @@ def main() -> int:
     a("  03_Excel_Deliveries/    1..9 workbooks, numbered as the first submission")
     a("  04_Datasets/            the CSVs, same columns as the first submission")
     a("  07_Quality_Checks/      Quality_Check_Report.md")
-    a("  08_Projection/          growth projection, model note and sensitivity")
+    a("  14_Growth_Projection/          growth projection, model note and sensitivity")
     a("```\n")
     a("`Gross_Streaming_Revenue.csv` and `Gross_Export_Revenue.csv` reproduce the first")
     a("submission's `=== PERIOD TOTAL ===` pseudo-rows, so a reader who summed that file")

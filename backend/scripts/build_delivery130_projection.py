@@ -40,7 +40,7 @@ sys.path.insert(0, str(BACKEND))
 from nmas.assumptions import NAIRA_PER_USD  # noqa: E402
 
 D = ROOT / "delivery130" / "04_Datasets"
-OUTDIR = ROOT / "delivery130" / "08_Projection"
+OUTDIR = ROOT / "delivery130" / "14_Growth_Projection"
 TOTAL_ROW = "=== PERIOD TOTAL ==="
 INCOMPLETE = {"Q3_2026"}          # observations end 2026-08-16; quarter ends 09-30
 HORIZON = 8                        # quarters projected forward
@@ -188,7 +188,7 @@ def main() -> int:
                     "observed_usd": round(obs[p], 2),
                     "projected_usd": round(mid, 2), "lower_95_usd": round(lo, 2),
                     "upper_95_usd": round(hi, 2),
-                    "projected_ngn": round(mid * NAIRA_PER_USD, 2),
+                    "projected_ngn": round(round(mid, 2) * NAIRA_PER_USD, 2),
                     "artists_in_scope": len(artists[p]),
                     "classification": "OBS" if p not in INCOMPLETE else "PARTIAL"})
     last_t = idx(periods[-1])
@@ -200,7 +200,7 @@ def main() -> int:
         out.append({"period": lab, "basis": "projection", "observed_usd": "",
                     "projected_usd": round(mid, 2), "lower_95_usd": round(lo, 2),
                     "upper_95_usd": round(hi, 2),
-                    "projected_ngn": round(mid * NAIRA_PER_USD, 2),
+                    "projected_ngn": round(round(mid, 2) * NAIRA_PER_USD, 2),
                     "artists_in_scope": "", "classification": "EST"})
     with (OUTDIR / "Growth_Projection_Quarterly.csv").open("w", newline="", encoding="utf-8") as h:
         w = csv.DictWriter(h, fieldnames=cols)
@@ -314,7 +314,7 @@ def main() -> int:
     L.append("those constants scale both ends of the series equally.\n")
     (OUTDIR / "Projection_Method.md").write_text("\n".join(L), encoding="utf-8")
 
-    print("projection written to delivery130/08_Projection/")
+    print("projection written to delivery130/14_Growth_Projection/")
     print("  fit: %d complete quarters | quarterly growth %.2f%% | annual %.2f%% | R2 %.4f"
           % (len(fit_p), qoq * 100, yoy * 100, r2))
     print("  seasonality vs Q1: Q2 %+.1f%%  Q3 %+.1f%%  Q4 %+.1f%%"

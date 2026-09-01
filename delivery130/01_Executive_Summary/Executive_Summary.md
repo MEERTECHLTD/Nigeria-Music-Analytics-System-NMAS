@@ -5,7 +5,7 @@ Q1 2019 to Q3 2026.
 
 ## Gross streaming revenue
 
-**$476,964,216** (₦715,446,324,540) across the whole period.
+**$476,964,217** (₦715,446,325,125) across the whole period.
 
 | Year | Gross streaming revenue | Quarters |
 |---|---:|---:|

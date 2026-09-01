@@ -1,6 +1,6 @@
 # Data and Methodology Handbook
 
-**Nigerian Music Sector Statistics, Q1 2019 - Q3 2026** · generated 2026-08-28 by `backend/scripts/build_handbook.py`
+**Nigerian Music Sector Statistics, Q1 2019 - Q3 2026** · generated 2026-08-31 by `backend/scripts/build_handbook.py`
 
 Written so a reader who has never seen this project can reproduce its numbers, challenge its assumptions, and know exactly which figures are measured and which are not. This handbook is generated from the delivered artifacts; it cannot disagree with them.
 
@@ -38,7 +38,7 @@ NBS asked directly about the 3.5 streams-per-listener multiplier. The answer, st
 | YouTube channel views | **Consumption — observed plays** | quarter net change x$0.004 | 224,144,609 | 32.6% |
 | Deezer fans | **Follower count — NOT consumption** | x2.0 plays/fan/month x3 x$0.004 | 6,716,908 | 1.0% |
 | Unmeasured platform uplift | Assumed — NOT a platform | Spotify revenue x0.30 | 105,634,686 | 15.3% |
-| **Total gross streaming revenue** | `EST` throughout | | **688,611,823** | 100% |
+| **Total gross streaming revenue** | `EST` throughout | | **688,611,824** | 100% |
 
 **The Deezer conversion is a stated methodological weakness**: a follower count is not a play count, and converting followers to revenue rests on an assumed listening rate with no observational basis. At 1.0% of revenue it does not threaten the totals, but it is disclosed here rather than left to be discovered.
 
@@ -71,7 +71,7 @@ The single source of these values is `backend/nmas/assumptions.py`; the frontend
 |---|---:|---:|
 | plays/listener/month = 3.0 | $623,218,922 | -9.5% |
 | plays/listener/month = 3.5 | $688,611,823 | -0.0% |
-| plays/listener/month = 4.0 | $754,004,723 | +9.5% |
+| plays/listener/month = 4.0 | $754,004,724 | +9.5% |
 | uplift rate = 0.20 | $653,400,261 | -5.1% |
 | uplift rate = 0.30 | $688,611,823 | -0.0% |
 | uplift rate = 0.40 | $723,823,385 | +5.1% |
@@ -159,5 +159,5 @@ Not made: the 28 unresolved guard series (neither side provably defective — fl
 |---|---|---|
 | 1 | 2026-04 | Chartmetric-only delivery: 9 quarters, 131 artists, fixed 70/30 split |
 | 2 | 2026-08 | Two-provider series: 31 quarters, 752 artists, observed geography, Boomplay/Audiomack/radio, GNI separation |
-| 3 | 2026-08-28 | Audit pass: uplift corrected, plausibility guard, per-artist splits, D-15 aggregation fix, classification everywhere |
+| 3 | 2026-08-31 | Audit pass: uplift corrected, plausibility guard, per-artist splits, D-15 aggregation fix, classification everywhere |
 

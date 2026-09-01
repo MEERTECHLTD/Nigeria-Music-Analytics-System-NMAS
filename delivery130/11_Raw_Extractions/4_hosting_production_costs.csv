@@ -1,0 +1,156 @@
+period,cost_category,num_artists,total_cost_ngn,total_cost_usd,source
+Q1_2019,Studio Production,92,138000000,92000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2019,Digital Distribution,92,2760000,1840.0,Unit cost card (ASM) x artists observed in scope
+Q1_2019,Promotion & Marketing,92,46000000,30666.67,Unit cost card (ASM) x artists observed in scope
+Q1_2019,Web Hosting & CDN,92,4600000,3066.67,Unit cost card (ASM) x artists observed in scope
+Q1_2019,=== PERIOD TOTAL ===,92,191360000.0,127573.33,Aggregated
+Q2_2019,Studio Production,108,162000000,108000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2019,Digital Distribution,108,3240000,2160.0,Unit cost card (ASM) x artists observed in scope
+Q2_2019,Promotion & Marketing,108,54000000,36000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2019,Web Hosting & CDN,108,5400000,3600.0,Unit cost card (ASM) x artists observed in scope
+Q2_2019,=== PERIOD TOTAL ===,108,224640000.0,149760.0,Aggregated
+Q3_2019,Studio Production,117,175500000,117000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2019,Digital Distribution,117,3510000,2340.0,Unit cost card (ASM) x artists observed in scope
+Q3_2019,Promotion & Marketing,117,58500000,39000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2019,Web Hosting & CDN,117,5850000,3900.0,Unit cost card (ASM) x artists observed in scope
+Q3_2019,=== PERIOD TOTAL ===,117,243360000.0,162240.0,Aggregated
+Q4_2019,Studio Production,118,177000000,118000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2019,Digital Distribution,118,3540000,2360.0,Unit cost card (ASM) x artists observed in scope
+Q4_2019,Promotion & Marketing,118,59000000,39333.33,Unit cost card (ASM) x artists observed in scope
+Q4_2019,Web Hosting & CDN,118,5900000,3933.33,Unit cost card (ASM) x artists observed in scope
+Q4_2019,=== PERIOD TOTAL ===,118,245440000.0,163626.67,Aggregated
+Q1_2020,Studio Production,119,178500000,119000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2020,Digital Distribution,119,3570000,2380.0,Unit cost card (ASM) x artists observed in scope
+Q1_2020,Promotion & Marketing,119,59500000,39666.67,Unit cost card (ASM) x artists observed in scope
+Q1_2020,Web Hosting & CDN,119,5950000,3966.67,Unit cost card (ASM) x artists observed in scope
+Q1_2020,=== PERIOD TOTAL ===,119,247520000.0,165013.33,Aggregated
+Q2_2020,Studio Production,119,178500000,119000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2020,Digital Distribution,119,3570000,2380.0,Unit cost card (ASM) x artists observed in scope
+Q2_2020,Promotion & Marketing,119,59500000,39666.67,Unit cost card (ASM) x artists observed in scope
+Q2_2020,Web Hosting & CDN,119,5950000,3966.67,Unit cost card (ASM) x artists observed in scope
+Q2_2020,=== PERIOD TOTAL ===,119,247520000.0,165013.33,Aggregated
+Q3_2020,Studio Production,119,178500000,119000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2020,Digital Distribution,119,3570000,2380.0,Unit cost card (ASM) x artists observed in scope
+Q3_2020,Promotion & Marketing,119,59500000,39666.67,Unit cost card (ASM) x artists observed in scope
+Q3_2020,Web Hosting & CDN,119,5950000,3966.67,Unit cost card (ASM) x artists observed in scope
+Q3_2020,=== PERIOD TOTAL ===,119,247520000.0,165013.33,Aggregated
+Q4_2020,Studio Production,120,180000000,120000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2020,Digital Distribution,120,3600000,2400.0,Unit cost card (ASM) x artists observed in scope
+Q4_2020,Promotion & Marketing,120,60000000,40000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2020,Web Hosting & CDN,120,6000000,4000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2020,=== PERIOD TOTAL ===,120,249600000.0,166400.0,Aggregated
+Q1_2021,Studio Production,121,181500000,121000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2021,Digital Distribution,121,3630000,2420.0,Unit cost card (ASM) x artists observed in scope
+Q1_2021,Promotion & Marketing,121,60500000,40333.33,Unit cost card (ASM) x artists observed in scope
+Q1_2021,Web Hosting & CDN,121,6050000,4033.33,Unit cost card (ASM) x artists observed in scope
+Q1_2021,=== PERIOD TOTAL ===,121,251680000.0,167786.67,Aggregated
+Q2_2021,Studio Production,121,181500000,121000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2021,Digital Distribution,121,3630000,2420.0,Unit cost card (ASM) x artists observed in scope
+Q2_2021,Promotion & Marketing,121,60500000,40333.33,Unit cost card (ASM) x artists observed in scope
+Q2_2021,Web Hosting & CDN,121,6050000,4033.33,Unit cost card (ASM) x artists observed in scope
+Q2_2021,=== PERIOD TOTAL ===,121,251680000.0,167786.67,Aggregated
+Q3_2021,Studio Production,121,181500000,121000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2021,Digital Distribution,121,3630000,2420.0,Unit cost card (ASM) x artists observed in scope
+Q3_2021,Promotion & Marketing,121,60500000,40333.33,Unit cost card (ASM) x artists observed in scope
+Q3_2021,Web Hosting & CDN,121,6050000,4033.33,Unit cost card (ASM) x artists observed in scope
+Q3_2021,=== PERIOD TOTAL ===,121,251680000.0,167786.67,Aggregated
+Q4_2021,Studio Production,122,183000000,122000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2021,Digital Distribution,122,3660000,2440.0,Unit cost card (ASM) x artists observed in scope
+Q4_2021,Promotion & Marketing,122,61000000,40666.67,Unit cost card (ASM) x artists observed in scope
+Q4_2021,Web Hosting & CDN,122,6100000,4066.67,Unit cost card (ASM) x artists observed in scope
+Q4_2021,=== PERIOD TOTAL ===,122,253760000.0,169173.33,Aggregated
+Q1_2022,Studio Production,123,184500000,123000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2022,Digital Distribution,123,3690000,2460.0,Unit cost card (ASM) x artists observed in scope
+Q1_2022,Promotion & Marketing,123,61500000,41000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2022,Web Hosting & CDN,123,6150000,4100.0,Unit cost card (ASM) x artists observed in scope
+Q1_2022,=== PERIOD TOTAL ===,123,255840000.0,170560.0,Aggregated
+Q2_2022,Studio Production,123,184500000,123000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2022,Digital Distribution,123,3690000,2460.0,Unit cost card (ASM) x artists observed in scope
+Q2_2022,Promotion & Marketing,123,61500000,41000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2022,Web Hosting & CDN,123,6150000,4100.0,Unit cost card (ASM) x artists observed in scope
+Q2_2022,=== PERIOD TOTAL ===,123,255840000.0,170560.0,Aggregated
+Q3_2022,Studio Production,126,189000000,126000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2022,Digital Distribution,126,3780000,2520.0,Unit cost card (ASM) x artists observed in scope
+Q3_2022,Promotion & Marketing,126,63000000,42000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2022,Web Hosting & CDN,126,6300000,4200.0,Unit cost card (ASM) x artists observed in scope
+Q3_2022,=== PERIOD TOTAL ===,126,262080000.0,174720.0,Aggregated
+Q4_2022,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2022,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q4_2022,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q4_2022,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q4_2022,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated
+Q1_2023,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2023,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q1_2023,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q1_2023,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q1_2023,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated
+Q2_2023,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2023,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q2_2023,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q2_2023,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q2_2023,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated
+Q3_2023,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2023,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q3_2023,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q3_2023,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q3_2023,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated
+Q4_2023,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2023,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q4_2023,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q4_2023,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q4_2023,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated
+Q1_2024,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2024,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q1_2024,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q1_2024,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q1_2024,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated
+Q2_2024,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2024,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q2_2024,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q2_2024,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q2_2024,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated
+Q3_2024,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2024,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q3_2024,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q3_2024,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q3_2024,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated
+Q4_2024,Studio Production,129,193500000,129000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2024,Digital Distribution,129,3870000,2580.0,Unit cost card (ASM) x artists observed in scope
+Q4_2024,Promotion & Marketing,129,64500000,43000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2024,Web Hosting & CDN,129,6450000,4300.0,Unit cost card (ASM) x artists observed in scope
+Q4_2024,=== PERIOD TOTAL ===,129,268320000.0,178880.0,Aggregated
+Q1_2025,Studio Production,130,195000000,130000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2025,Digital Distribution,130,3900000,2600.0,Unit cost card (ASM) x artists observed in scope
+Q1_2025,Promotion & Marketing,130,65000000,43333.33,Unit cost card (ASM) x artists observed in scope
+Q1_2025,Web Hosting & CDN,130,6500000,4333.33,Unit cost card (ASM) x artists observed in scope
+Q1_2025,=== PERIOD TOTAL ===,130,270400000.0,180266.67,Aggregated
+Q2_2025,Studio Production,130,195000000,130000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2025,Digital Distribution,130,3900000,2600.0,Unit cost card (ASM) x artists observed in scope
+Q2_2025,Promotion & Marketing,130,65000000,43333.33,Unit cost card (ASM) x artists observed in scope
+Q2_2025,Web Hosting & CDN,130,6500000,4333.33,Unit cost card (ASM) x artists observed in scope
+Q2_2025,=== PERIOD TOTAL ===,130,270400000.0,180266.67,Aggregated
+Q3_2025,Studio Production,130,195000000,130000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2025,Digital Distribution,130,3900000,2600.0,Unit cost card (ASM) x artists observed in scope
+Q3_2025,Promotion & Marketing,130,65000000,43333.33,Unit cost card (ASM) x artists observed in scope
+Q3_2025,Web Hosting & CDN,130,6500000,4333.33,Unit cost card (ASM) x artists observed in scope
+Q3_2025,=== PERIOD TOTAL ===,130,270400000.0,180266.67,Aggregated
+Q4_2025,Studio Production,129,193500000,129000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2025,Digital Distribution,129,3870000,2580.0,Unit cost card (ASM) x artists observed in scope
+Q4_2025,Promotion & Marketing,129,64500000,43000.0,Unit cost card (ASM) x artists observed in scope
+Q4_2025,Web Hosting & CDN,129,6450000,4300.0,Unit cost card (ASM) x artists observed in scope
+Q4_2025,=== PERIOD TOTAL ===,129,268320000.0,178880.0,Aggregated
+Q1_2026,Studio Production,129,193500000,129000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2026,Digital Distribution,129,3870000,2580.0,Unit cost card (ASM) x artists observed in scope
+Q1_2026,Promotion & Marketing,129,64500000,43000.0,Unit cost card (ASM) x artists observed in scope
+Q1_2026,Web Hosting & CDN,129,6450000,4300.0,Unit cost card (ASM) x artists observed in scope
+Q1_2026,=== PERIOD TOTAL ===,129,268320000.0,178880.0,Aggregated
+Q2_2026,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q2_2026,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q2_2026,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q2_2026,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q2_2026,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated
+Q3_2026,Studio Production,128,192000000,128000.0,Unit cost card (ASM) x artists observed in scope
+Q3_2026,Digital Distribution,128,3840000,2560.0,Unit cost card (ASM) x artists observed in scope
+Q3_2026,Promotion & Marketing,128,64000000,42666.67,Unit cost card (ASM) x artists observed in scope
+Q3_2026,Web Hosting & CDN,128,6400000,4266.67,Unit cost card (ASM) x artists observed in scope
+Q3_2026,=== PERIOD TOTAL ===,128,266240000.0,177493.33,Aggregated

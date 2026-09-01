@@ -233,7 +233,10 @@ def main() -> int:
                 anchor_cell = lvl.get((name, first_q), {}).get(SPOT)
                 if not anchor_cell or anchor_cell[1] <= 0 or growth <= 0:
                     continue
-                level = anchor_cell[1] / (growth ** steps)
+                # Rounded to a whole listener: a monthly-listener count is a
+                # headcount, and publishing a fractional level meant the
+                # published integer could not reproduce the published revenue.
+                level = float(round(anchor_cell[1] / (growth ** steps)))
                 vars_[SPOT] = [level, level, "", ""]
                 imputed_listeners[(name, q)] = level
         if imputed_listeners:

@@ -84,7 +84,7 @@ def main() -> int:
     c = counts()
 
     for sub in ("01_Executive_Summary", "02_Methodology", "03_Excel_Deliveries",
-                "04_Datasets", "07_Quality_Checks", "08_Projection"):
+                "04_Datasets", "07_Quality_Checks", "14_Growth_Projection"):
         (OUT / sub).mkdir(parents=True, exist_ok=True)
     D = OUT / "04_Datasets"
 
@@ -130,7 +130,8 @@ def main() -> int:
                    "youtube_subscribers", "youtube_actual_views", "youtube_views_source",
                    "deezer_fans", "est_spotify_quarterly_streams", "spotify_revenue_usd",
                    "youtube_revenue_usd", "deezer_revenue_usd", "other_platforms_revenue_usd",
-                   "gross_streaming_revenue_usd", "gross_streaming_revenue_ngn", "source"]
+                   "gross_streaming_revenue_usd", "gross_streaming_revenue_ngn", "source",
+                   "spotify_listeners_source"]
     export_cols = ["period", "artist_name", "total_streaming_revenue_usd",
                    "nigeria_domestic_share_pct", "domestic_revenue_usd", "export_share_pct",
                    "gross_export_revenue_usd", "gross_export_revenue_ngn",
@@ -146,7 +147,11 @@ def main() -> int:
         st, ex = [], []
         for r in rs:
             a = r["artist_name"]
-            listeners = f0(r["spotify_monthly_listeners"])
+            # Round the LEVEL first, then derive from the rounded level, so every
+            # published figure reproduces from the published columns. Deriving
+            # from the unrounded value and publishing the rounded one left 6 rows
+            # whose revenue could not be recomputed from their own listener count.
+            listeners = float(round(f0(r["spotify_monthly_listeners"])))
             st.append({
                 "period": q, "artist_name": a,
                 "spotify_monthly_listeners": int(listeners),
@@ -160,9 +165,29 @@ def main() -> int:
                 "youtube_revenue_usd": round(f0(r["youtube_revenue_usd"]), 2),
                 "deezer_revenue_usd": round(f0(r["deezer_revenue_usd"]), 2),
                 "other_platforms_revenue_usd": round(f0(r["unmeasured_platform_uplift_usd"]), 2),
-                "gross_streaming_revenue_usd": round(f0(r["gross_streaming_revenue_usd"]), 2),
-                "gross_streaming_revenue_ngn": round(f0(r["gross_streaming_revenue_ngn"]), 2),
+                # Gross is the SUM OF THE PUBLISHED COMPONENTS, not the rounded
+                # canonical gross. Rounding each component to the cent and then
+                # publishing an independently-rounded total left 6 rows where the
+                # four parts did not add up to their own total (sum-of-rounded is
+                # not rounded-sum). The difference across the whole package is a
+                # few cents; a total that does not equal its own parts is a
+                # reconciliation failure a reviewer would raise immediately.
+                "gross_streaming_revenue_usd": round(
+                    round(f0(r["spotify_revenue_usd"]), 2)
+                    + round(f0(r["youtube_revenue_usd"]), 2)
+                    + round(f0(r["deezer_revenue_usd"]), 2)
+                    + round(f0(r["unmeasured_platform_uplift_usd"]), 2), 2),
+                # NGN from the ROUNDED USD actually published. Computing it from the
+                # unrounded value left 3,263 of 3,826 rows where usd x 1500 did not
+                # equal the published naira — immaterial in value (NGN 84.69 across
+                # a NGN 715bn base) but not reproducible, which is what matters here.
+                "gross_streaming_revenue_ngn": round(round(
+                    round(f0(r["spotify_revenue_usd"]), 2)
+                    + round(f0(r["youtube_revenue_usd"]), 2)
+                    + round(f0(r["deezer_revenue_usd"]), 2)
+                    + round(f0(r["unmeasured_platform_uplift_usd"]), 2), 2) * NAIRA_PER_USD, 2),
                 "source": SRC,
+                "spotify_listeners_source": (r.get("spotify_listeners_source") or ""),
             })
             dom_share = num(r["domestic_share_observed"])
             dom = num(r["domestic_revenue_usd"])
@@ -175,7 +200,7 @@ def main() -> int:
                 "domestic_revenue_usd": "" if dom is None else round(dom, 2),
                 "export_share_pct": "" if dom_share is None else round((1 - dom_share) * 100, 4),
                 "gross_export_revenue_usd": "" if exp is None else round(exp, 2),
-                "gross_export_revenue_ngn": "" if exn is None else round(exn, 2),
+                "gross_export_revenue_ngn": "" if exp is None else round(round(exp, 2) * NAIRA_PER_USD, 2),
                 "top_export_markets": markets(a, q),
                 "source": (r.get("split_basis") or "") + " | " + SRC,
             })

@@ -53,6 +53,28 @@ def main() -> int:
     rows = list(csv.DictReader(REV.open(encoding="utf-8")))
     if SCOPE == "cohort130":
         rows = [r for r in rows if r["artist_name"] in COHORT]
+        # The platform must serve EXACTLY what delivery130 publishes. The package
+        # rounds each component to the cent and derives gross and naira from those
+        # published figures, so that every number reproduces from its own columns.
+        # Reading the canonical unrounded values here left the platform 13 cents
+        # adrift of the delivery — small, but it made "the platform shows the
+        # delivery" untrue, which is the one thing this had to guarantee.
+        pub = {}
+        pub_path = ROOT / "delivery130" / "04_Datasets" / "Gross_Streaming_Revenue.csv"
+        if pub_path.exists():
+            for pr in csv.DictReader(pub_path.open(encoding="utf-8")):
+                if pr["artist_name"] != "=== PERIOD TOTAL ===":
+                    pub[(pr["artist_name"], pr["period"])] = pr
+            for r in rows:
+                q = pub.get((r["artist_name"], r["period_label"]))
+                if q:
+                    r["spotify_revenue_usd"] = q["spotify_revenue_usd"]
+                    r["youtube_revenue_usd"] = q["youtube_revenue_usd"]
+                    r["deezer_revenue_usd"] = q["deezer_revenue_usd"]
+                    r["unmeasured_platform_uplift_usd"] = q["other_platforms_revenue_usd"]
+                    r["gross_streaming_revenue_usd"] = q["gross_streaming_revenue_usd"]
+                    r["gross_streaming_revenue_ngn"] = q["gross_streaming_revenue_ngn"]
+                    r["spotify_monthly_listeners"] = q["spotify_monthly_listeners"]
     by_q = defaultdict(list)
     for r in rows:
         by_q[r["period_label"]].append(r)

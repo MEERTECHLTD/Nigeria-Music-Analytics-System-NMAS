@@ -22,7 +22,18 @@ _summary=json.loads((ROOT/"frontend/public/api/v1/nbs/summary.json").read_text()
 SCOPE=_summary.get("scope","all")
 COHORT={canonical(n) for n in master_list_names()}
 rev=[r for r in rev_all if r["artist_name"] in COHORT] if SCOPE=="cohort130" else rev_all
-print("scope: %s (%d of %d revenue rows)" % (SCOPE, len(rev), len(rev_all)))
+# In cohort scope the PUBLISHED package is the authority the platform must match.
+# delivery130 rounds each component to the cent and derives gross and naira from
+# those published figures so every number reproduces from its own columns; the
+# canonical file keeps full precision. Comparing the platform against canonical
+# would fail by a few cents for the right reason and the wrong cause.
+PUB=ROOT/"delivery130/04_Datasets/Gross_Streaming_Revenue.csv"
+if SCOPE=="cohort130" and PUB.exists():
+    rev=[dict(r, period_label=r["period"]) for r in csv.DictReader(PUB.open(encoding="utf-8"))
+         if r["artist_name"]!="=== PERIOD TOTAL ==="]
+    print("scope: %s (comparing platform against the PUBLISHED package, %d rows)" % (SCOPE, len(rev)))
+else:
+    print("scope: %s (%d of %d revenue rows)" % (SCOPE, len(rev), len(rev_all)))
 def s(rows,k): return sum(float(r[k] or 0) for r in rows if r.get(k))
 per=defaultdict(float)
 for r in rev: per[r["period_label"]]+=float(r["gross_streaming_revenue_usd"] or 0)
@@ -51,8 +62,16 @@ for row in sh.iter_rows(min_row=2,values_only=True):
 wb.close()
 # 4) per-quarter export vs summary
 per_e=defaultdict(float)
-for r in rev:
-    if r["export_revenue_usd"]: per_e[r["period_label"]]+=float(r["export_revenue_usd"])
+PUBEX=ROOT/"delivery130/04_Datasets/Gross_Export_Revenue.csv"
+if SCOPE=="cohort130" and PUBEX.exists():
+    # published package: the export figures live in their own file with the
+    # first submission's column names
+    for r in csv.DictReader(PUBEX.open(encoding="utf-8")):
+        if r["artist_name"]=="=== PERIOD TOTAL ===": continue
+        if r["gross_export_revenue_usd"]: per_e[r["period"]]+=float(r["gross_export_revenue_usd"])
+else:
+    for r in rev:
+        if r.get("export_revenue_usd"): per_e[r["period_label"]]+=float(r["export_revenue_usd"])
 for e in summary["export_revenue"]:
     api=e["gross_export_revenue_usd"]
     src=round(per_e.get(e["period"],0.0),2) if e["period"] in per_e else None
