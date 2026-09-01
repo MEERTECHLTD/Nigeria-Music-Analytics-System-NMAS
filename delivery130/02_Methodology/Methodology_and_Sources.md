@@ -2,7 +2,7 @@
 
 ## Population
 
-The first submission's artist list: 131 rows describing 130 artists (one artist is
+The first submission's artist list: 131 rows describing 129 artists (one artist is
 held twice under two provider UUIDs and is merged here).
 
 ## Revenue

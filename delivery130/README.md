@@ -1,24 +1,24 @@
 # DELIVERY130 — Nigeria Music Analytics System
 ### Submission package for the National Bureau of Statistics
 
-**130 artists x 31 quarters, Q1 2019 – Q3 2026.** Generated 2026-08-31.
+**129 artists x 31 quarters, Q1 2019 – Q3 2026.** Generated 2026-09-01.
 
 | Headline | Value |
 |---|---:|
-| Gross streaming revenue (EST) | $476,964,217 |
-| In naira, at 1,500/USD | ₦715,446,325,125 |
-| Artists | 130 |
+| Gross streaming revenue (EST) | $476,962,034 |
+| In naira, at 1,500/USD | ₦715,443,051,660 |
+| Artists | 129 |
 | Quarters | 31 |
-| Artist-quarter revenue rows | 3,826 |
+| Artist-quarter revenue rows | 3,799 |
 | Quarters with a measured export split | 23 of 31 |
 | Projected annual growth | 8.822% |
 
 ## The cohort
 
 These are the artists of the first submission. That submission's master list holds
-**131 rows** but describes **130 artists**: "Flavour" and "Flavour N'abania" are one
+**131 rows** but describes **129 artists**: "Flavour" and "Flavour N'abania" are one
 person carried under two provider UUIDs. This package counts people, so it carries
-130. No artist has been added to pad the list and none has been dropped.
+129. No artist has been added to pad the list and none has been dropped.
 
 ## Arrangement
 
@@ -53,7 +53,7 @@ $0.00, is at `_audit/reconciliation/first_submission_vs_delivery134.md`.
   quarter, not that nothing was exported. Before Q1 2021 no listener geography exists.
 - **Every row states its own basis.** `youtube_views_source` says whether YouTube
   volume was observed or estimated; `spotify_listeners_source` does the same for
-  Spotify. 1,875 of 3,826 rows carry observed YouTube volume, 920 are estimated, and 1,031
+  Spotify. 1,875 of 3,799 rows carry observed YouTube volume, 920 are estimated, and 1,004
   have no YouTube presence at all.
 - **Employment is national.** It is the whole Nigerian music sector from secondary
   sources. It is not a count of these artists' employees and is not scaled to them.

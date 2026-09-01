@@ -4,7 +4,7 @@
 
     ln(revenue_t) = a + b*t + s2*Q2 + s3*Q3 + s4*Q4
 
-Log-linear because the series compounds: it runs from $1,872,809 to $28,565,229, and a
+Log-linear because the series compounds: it runs from $1,872,809 to $28,565,092, and a
 straight line on the level would fit the tail and ignore the base. Quarterly
 dummies because the seasonality is real and one-directional — Q1 is the
 weakest quarter in three separate years, after the December peak.
@@ -50,14 +50,14 @@ Seasonal effects are relative to Q1, the base quarter.
 
 | Quarter | Projected USD | 95% lower | 95% upper |
 |---|---:|---:|---:|
-| Q4 2026 | $27,393,577 | $25,373,879 | $29,529,793 |
-| Q1 2027 | $26,311,305 | $24,371,402 | $28,363,123 |
-| Q2 2027 | $29,732,367 | $27,540,233 | $32,050,967 |
-| Q3 2027 | $29,115,007 | $26,968,390 | $31,385,463 |
-| Q4 2027 | $29,810,269 | $27,612,391 | $32,134,944 |
-| Q1 2028 | $28,632,518 | $26,521,474 | $30,865,349 |
-| Q2 2028 | $32,355,390 | $29,969,863 | $34,878,539 |
-| Q3 2028 | $31,683,565 | $29,347,571 | $34,154,324 |
+| Q4 2026 | $27,393,651 | $25,374,033 | $29,529,777 |
+| Q1 2027 | $26,311,375 | $24,371,549 | $28,363,106 |
+| Q2 2027 | $29,732,404 | $27,540,360 | $32,050,903 |
+| Q3 2027 | $29,115,154 | $26,968,617 | $31,385,521 |
+| Q4 2027 | $29,810,421 | $27,612,625 | $32,135,004 |
+| Q1 2028 | $28,632,662 | $26,521,697 | $30,865,405 |
+| Q2 2028 | $32,355,507 | $29,970,073 | $34,878,553 |
+| Q3 2028 | $31,683,801 | $29,347,889 | $34,154,468 |
 
 ## What this is not
 

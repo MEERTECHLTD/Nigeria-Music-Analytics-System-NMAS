@@ -1,6 +1,6 @@
-DELIVERY130 extraction summary — generated 2026-08-31
+DELIVERY130 extraction summary — generated 2026-09-01
 
-artists            : 130
+artists            : 129
 quarters           : 31 (Q1_2019 .. Q3_2026)
 daily observations : 4,243,988
 distinct variables : 59

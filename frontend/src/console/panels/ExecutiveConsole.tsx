@@ -330,7 +330,7 @@ function CoverageSection({ cov, rev }: { cov: Coverage; rev: Revenue }) {
           value={cov.distinct_artists}
           status="observed"
           unit="count"
-          footnote="Artist master list. The population frame holds 855; only these 131 rows — 130 distinct artists — were extracted."
+          footnote="Artist master list. The population frame holds 855; only these 131 rows — 129 distinct artists — were extracted."
           to="artists"
         />
         <Tile

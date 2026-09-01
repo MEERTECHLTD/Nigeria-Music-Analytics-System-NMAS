@@ -1,9 +1,9 @@
 // GENERATED FILE — do not edit. Source of truth: backend/nmas/cohort.py
 // Regenerate with: backend/scripts/generate_cohort_facts.py
-// Generated 2026-08-28T14:44:37.721870+00:00
+// Generated 2026-09-01T00:10:24.534468+00:00
 //
 // A row count and an artist count are different measurements. The first
-// submission's master list holds 131 rows describing 130 distinct artists:
+// submission's master list holds 131 rows describing 129 distinct artists:
 // one artist is carried twice under two provider UUIDs. The console imports
 // these so it can state each figure under its own name (GAP-033).
 
@@ -24,13 +24,13 @@ export interface DuplicateArtist {
 export const MASTER_LIST_ROWS = 131;
 
 /** Distinct artists those rows describe, after the documented merge. */
-export const DISTINCT_ARTISTS = 130;
+export const DISTINCT_ARTISTS = 129;
 
 /**
  * The artist count the SHIPPED cost model used. A historical fact about
  * delivered files: 131 x 13 variables x 8 quarters = 13,624 units. It is a row
  * count, so the delivered cost model charged one artist twice. Never
- * 'correct' this to 130 — that would misreport what was delivered.
+ * 'correct' this to 129 — that would misreport what was delivered.
  */
 export const COST_MODEL_N = 131;
 
@@ -38,7 +38,7 @@ export const COST_MODEL_N = 131;
 export const ARTIFACT_ARTIST_ROWS = 131;
 
 /** Distinct artists in that artifact. */
-export const ARTIFACT_DISTINCT_ARTISTS = 130;
+export const ARTIFACT_DISTINCT_ARTISTS = 129;
 
 /** Delivered artist-quarter revenue rows. */
 export const REVENUE_ROWS = 638;
@@ -54,6 +54,14 @@ export const DUPLICATE_ARTISTS: DuplicateArtist[] = [
     "canonicalProviderId": 56982,
     "revenueRows": 10,
     "duplicatedRevenueUsd": 3417762.76
+  },
+  {
+    "alias": "Odunsi",
+    "canonical": "Odunsi (The Engine)",
+    "aliasProviderId": 1439568,
+    "canonicalProviderId": 11587,
+    "revenueRows": 5,
+    "duplicatedRevenueUsd": 0
   }
 ];
 

@@ -270,7 +270,7 @@ def main() -> int:
 
     # ---- 5. aggregates, on the first submission's 8 columns ----------------
     acols = ["entity_name", "variable_name", "period_label", "aggregation_rule",
-             "aggregated_value", "first_value", "last_value", "obs_count"]
+             "aggregated_value", "min_value", "max_value", "obs_count"]
     n_a = 0
     with (D / "Quarterly_Aggregates_Full.csv").open("w", newline="", encoding="utf-8") as h:
         w = csv.DictWriter(h, fieldnames=acols)
@@ -283,7 +283,13 @@ def main() -> int:
                         "period_label": r["period_label"],
                         "aggregation_rule": r["aggregation_rule"],
                         "aggregated_value": r["variable_value"],
-                        "first_value": r["period_min"], "last_value": r["period_max"],
+                        # Named for what they are. The first submission called these
+                        # first_value/last_value, but the underlying columns are the
+                        # MIN and MAX of the quarter, not its chronologically first
+                        # and last observations. For a fluctuating level such as
+                        # monthly listeners those are different numbers, and the old
+                        # names asserted something the data does not support.
+                        "min_value": r["period_min"], "max_value": r["period_max"],
                         "obs_count": r["observations"]})
             n_a += 1
 

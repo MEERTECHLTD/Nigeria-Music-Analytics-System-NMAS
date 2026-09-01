@@ -43,4 +43,4 @@ Every published figure can be recomputed from the published columns:
 - `gross_streaming_revenue_usd` = the four above, summed
 - `gross_streaming_revenue_ngn` = `gross_streaming_revenue_usd` x 1500
 
-These identities hold on **all 3,826 rows** of `Gross_Streaming_Revenue.csv`. A reviewer needs nothing from this system to check them.
+These identities hold on **all 3,799 rows** of `Gross_Streaming_Revenue.csv`. A reviewer needs nothing from this system to check them.

@@ -1,4 +1,4 @@
-entity_name,variable_name,period_label,aggregation_rule,aggregated_value,first_value,last_value,obs_count
+entity_name,variable_name,period_label,aggregation_rule,aggregated_value,min_value,max_value,obs_count
 2Baba,Amazon_Music_followers_daily,Q1_2025,net_change,21.0,795.0,816.0,23
 2Baba,Amazon_Music_followers_daily,Q1_2026,net_change,35.0,893.0,928.0,20
 2Baba,Amazon_Music_followers_daily,Q2_2024,net_change,0.0,749.0,749.0,2
@@ -71470,275 +71470,275 @@ ODUMODUBLVCK,YouTube_total_listeners_daily,Q3_2025,last_value,295122.0,186552.0,
 ODUMODUBLVCK,YouTube_total_listeners_daily,Q3_2026,last_value,304942.0,283856.0,393787.0,42
 ODUMODUBLVCK,YouTube_total_listeners_daily,Q4_2024,last_value,188293.0,166837.0,247574.0,92
 ODUMODUBLVCK,YouTube_total_listeners_daily,Q4_2025,last_value,282504.0,258260.0,1103893.0,92
-Odunsi,Deezer_fans_daily,Q1_2020,net_change,1.0,8.0,9.0,80
-Odunsi,Deezer_fans_daily,Q1_2021,net_change,0.0,11.0,11.0,90
-Odunsi,Deezer_fans_daily,Q1_2022,net_change,0.0,13.0,13.0,87
-Odunsi,Deezer_fans_daily,Q1_2023,net_change,0.0,13.0,13.0,87
-Odunsi,Deezer_fans_daily,Q1_2024,net_change,0.0,13.0,13.0,88
-Odunsi,Deezer_fans_daily,Q1_2025,net_change,0.0,13.0,13.0,13
-Odunsi,Deezer_fans_daily,Q1_2026,net_change,0.0,13.0,13.0,14
-Odunsi,Deezer_fans_daily,Q2_2020,net_change,1.0,9.0,10.0,90
-Odunsi,Deezer_fans_daily,Q2_2021,net_change,0.0,11.0,11.0,91
-Odunsi,Deezer_fans_daily,Q2_2022,net_change,0.0,13.0,13.0,90
-Odunsi,Deezer_fans_daily,Q2_2023,net_change,0.0,13.0,13.0,89
-Odunsi,Deezer_fans_daily,Q2_2024,net_change,0.0,13.0,13.0,51
-Odunsi,Deezer_fans_daily,Q2_2025,net_change,0.0,13.0,13.0,13
-Odunsi,Deezer_fans_daily,Q2_2026,net_change,0.0,13.0,13.0,14
-Odunsi,Deezer_fans_daily,Q3_2020,net_change,1.0,10.0,11.0,91
-Odunsi,Deezer_fans_daily,Q3_2021,net_change,1.0,11.0,12.0,92
-Odunsi,Deezer_fans_daily,Q3_2022,net_change,0.0,13.0,13.0,92
-Odunsi,Deezer_fans_daily,Q3_2023,net_change,0.0,13.0,13.0,92
-Odunsi,Deezer_fans_daily,Q3_2024,net_change,0.0,13.0,13.0,34
-Odunsi,Deezer_fans_daily,Q3_2025,net_change,0.0,13.0,13.0,13
-Odunsi,Deezer_fans_daily,Q3_2026,net_change,0.0,13.0,13.0,6
-Odunsi,Deezer_fans_daily,Q4_2020,net_change,0.0,11.0,11.0,92
-Odunsi,Deezer_fans_daily,Q4_2021,net_change,1.0,12.0,13.0,90
-Odunsi,Deezer_fans_daily,Q4_2022,net_change,0.0,13.0,13.0,92
-Odunsi,Deezer_fans_daily,Q4_2023,net_change,0.0,13.0,13.0,92
-Odunsi,Deezer_fans_daily,Q4_2024,net_change,0.0,13.0,13.0,13
-Odunsi,Deezer_fans_daily,Q4_2025,net_change,0.0,13.0,13.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q1_2024,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q1_2025,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q1_2026,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q2_2020,last_value,1.0,1.0,1.0,1
-Odunsi,Playlist_Apple_Music_count_daily,Q2_2024,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q2_2025,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q2_2026,last_value,1.0,1.0,1.0,11
-Odunsi,Playlist_Apple_Music_count_daily,Q3_2023,last_value,1.0,1.0,1.0,2
-Odunsi,Playlist_Apple_Music_count_daily,Q3_2024,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q3_2025,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q3_2026,last_value,1.0,1.0,1.0,5
-Odunsi,Playlist_Apple_Music_count_daily,Q4_2023,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q4_2024,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_count_daily,Q4_2025,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q1_2024,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q1_2025,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q1_2026,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q2_2020,last_value,1.0,1.0,1.0,1
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q2_2024,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q2_2025,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q2_2026,last_value,1.0,1.0,1.0,11
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q3_2023,last_value,1.0,1.0,1.0,2
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q3_2024,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q3_2025,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q3_2026,last_value,1.0,1.0,1.0,5
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q4_2023,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q4_2024,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_count_daily,Q4_2025,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q1_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q1_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q1_2026,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q2_2020,last_value,0.0,0.0,0.0,1
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q2_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q2_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q2_2026,last_value,0.0,0.0,0.0,11
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q3_2023,last_value,0.0,0.0,0.0,2
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q3_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q3_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q3_2026,last_value,0.0,0.0,0.0,5
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q4_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q4_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_editorial_reach_daily,Q4_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q1_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q1_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q1_2026,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q2_2020,last_value,0.0,0.0,0.0,1
-Odunsi,Playlist_Apple_Music_reach_daily,Q2_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q2_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q2_2026,last_value,0.0,0.0,0.0,11
-Odunsi,Playlist_Apple_Music_reach_daily,Q3_2023,last_value,0.0,0.0,0.0,2
-Odunsi,Playlist_Apple_Music_reach_daily,Q3_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q3_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q3_2026,last_value,0.0,0.0,0.0,5
-Odunsi,Playlist_Apple_Music_reach_daily,Q4_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q4_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_Apple_Music_reach_daily,Q4_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_count_daily,Q1_2019,last_value,1.0,1.0,2.0,13
-Odunsi,Playlist_count_daily,Q1_2020,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_count_daily,Q1_2021,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_count_daily,Q1_2022,last_value,1.0,1.0,17.0,12
-Odunsi,Playlist_count_daily,Q1_2023,last_value,2.0,2.0,2.0,13
-Odunsi,Playlist_count_daily,Q1_2024,last_value,3.0,3.0,5.0,13
-Odunsi,Playlist_count_daily,Q1_2025,last_value,3.0,2.0,29.0,13
-Odunsi,Playlist_count_daily,Q1_2026,last_value,3.0,3.0,3.0,13
-Odunsi,Playlist_count_daily,Q2_2019,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_count_daily,Q2_2020,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_count_daily,Q2_2021,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_count_daily,Q2_2022,last_value,2.0,1.0,2.0,13
-Odunsi,Playlist_count_daily,Q2_2023,last_value,2.0,2.0,3.0,13
-Odunsi,Playlist_count_daily,Q2_2024,last_value,3.0,3.0,3.0,13
-Odunsi,Playlist_count_daily,Q2_2025,last_value,3.0,3.0,3.0,13
-Odunsi,Playlist_count_daily,Q2_2026,last_value,5.0,1.0,6.0,12
-Odunsi,Playlist_count_daily,Q3_2019,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_count_daily,Q3_2020,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_count_daily,Q3_2021,last_value,3.0,1.0,3.0,13
-Odunsi,Playlist_count_daily,Q3_2022,last_value,2.0,2.0,2.0,14
-Odunsi,Playlist_count_daily,Q3_2023,last_value,2.0,2.0,2.0,13
-Odunsi,Playlist_count_daily,Q3_2024,last_value,3.0,3.0,3.0,13
-Odunsi,Playlist_count_daily,Q3_2025,last_value,3.0,3.0,3.0,13
-Odunsi,Playlist_count_daily,Q3_2026,last_value,5.0,5.0,5.0,4
-Odunsi,Playlist_count_daily,Q4_2019,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_count_daily,Q4_2020,last_value,1.0,1.0,1.0,13
-Odunsi,Playlist_count_daily,Q4_2021,last_value,10.0,3.0,12.0,14
-Odunsi,Playlist_count_daily,Q4_2022,last_value,2.0,2.0,2.0,13
-Odunsi,Playlist_count_daily,Q4_2023,last_value,4.0,3.0,4.0,13
-Odunsi,Playlist_count_daily,Q4_2024,last_value,2.0,2.0,3.0,13
-Odunsi,Playlist_count_daily,Q4_2025,last_value,3.0,3.0,31.0,13
-Odunsi,Playlist_editorial_count_daily,Q1_2019,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q1_2020,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q1_2021,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q1_2022,last_value,0.0,0.0,0.0,12
-Odunsi,Playlist_editorial_count_daily,Q1_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q1_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q1_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q1_2026,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q2_2019,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q2_2020,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q2_2021,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q2_2022,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q2_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q2_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q2_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q2_2026,last_value,0.0,0.0,0.0,12
-Odunsi,Playlist_editorial_count_daily,Q3_2019,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q3_2020,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q3_2021,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q3_2022,last_value,0.0,0.0,0.0,14
-Odunsi,Playlist_editorial_count_daily,Q3_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q3_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q3_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q3_2026,last_value,0.0,0.0,0.0,4
-Odunsi,Playlist_editorial_count_daily,Q4_2019,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q4_2020,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q4_2021,last_value,0.0,0.0,0.0,14
-Odunsi,Playlist_editorial_count_daily,Q4_2022,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q4_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q4_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_count_daily,Q4_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q1_2019,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q1_2020,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q1_2021,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q1_2022,last_value,0.0,0.0,0.0,12
-Odunsi,Playlist_editorial_reach_daily,Q1_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q1_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q1_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q1_2026,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q2_2019,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q2_2020,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q2_2021,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q2_2022,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q2_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q2_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q2_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q2_2026,last_value,0.0,0.0,0.0,12
-Odunsi,Playlist_editorial_reach_daily,Q3_2019,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q3_2020,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q3_2021,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q3_2022,last_value,0.0,0.0,0.0,14
-Odunsi,Playlist_editorial_reach_daily,Q3_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q3_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q3_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q3_2026,last_value,0.0,0.0,0.0,4
-Odunsi,Playlist_editorial_reach_daily,Q4_2019,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q4_2020,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q4_2021,last_value,0.0,0.0,0.0,14
-Odunsi,Playlist_editorial_reach_daily,Q4_2022,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q4_2023,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q4_2024,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_editorial_reach_daily,Q4_2025,last_value,0.0,0.0,0.0,13
-Odunsi,Playlist_reach_daily,Q1_2019,last_value,3561.0,1277.0,3561.0,13
-Odunsi,Playlist_reach_daily,Q1_2020,last_value,6289.0,5675.0,6289.0,13
-Odunsi,Playlist_reach_daily,Q1_2021,last_value,8195.0,7625.0,8195.0,13
-Odunsi,Playlist_reach_daily,Q1_2022,last_value,335.0,335.0,7978.0,12
-Odunsi,Playlist_reach_daily,Q1_2023,last_value,380.0,380.0,380.0,13
-Odunsi,Playlist_reach_daily,Q1_2024,last_value,553.0,553.0,921.0,13
-Odunsi,Playlist_reach_daily,Q1_2025,last_value,96.0,82.0,11554.0,13
-Odunsi,Playlist_reach_daily,Q1_2026,last_value,117.0,117.0,120.0,13
-Odunsi,Playlist_reach_daily,Q2_2019,last_value,4242.0,3625.0,4242.0,13
-Odunsi,Playlist_reach_daily,Q2_2020,last_value,6865.0,6320.0,6865.0,13
-Odunsi,Playlist_reach_daily,Q2_2021,last_value,9810.0,8234.0,9810.0,13
-Odunsi,Playlist_reach_daily,Q2_2022,last_value,381.0,335.0,381.0,13
-Odunsi,Playlist_reach_daily,Q2_2023,last_value,423.0,380.0,514.0,13
-Odunsi,Playlist_reach_daily,Q2_2024,last_value,711.0,567.0,711.0,13
-Odunsi,Playlist_reach_daily,Q2_2025,last_value,103.0,98.0,103.0,13
-Odunsi,Playlist_reach_daily,Q2_2026,last_value,145.0,16.0,991.0,12
-Odunsi,Playlist_reach_daily,Q3_2019,last_value,5100.0,4285.0,5100.0,13
-Odunsi,Playlist_reach_daily,Q3_2020,last_value,7243.0,6889.0,7243.0,13
-Odunsi,Playlist_reach_daily,Q3_2021,last_value,10871.0,9895.0,10871.0,13
-Odunsi,Playlist_reach_daily,Q3_2022,last_value,381.0,381.0,381.0,14
-Odunsi,Playlist_reach_daily,Q3_2023,last_value,418.0,415.0,427.0,13
-Odunsi,Playlist_reach_daily,Q3_2024,last_value,790.0,719.0,790.0,13
-Odunsi,Playlist_reach_daily,Q3_2025,last_value,115.0,103.0,115.0,13
-Odunsi,Playlist_reach_daily,Q3_2026,last_value,146.0,145.0,146.0,4
-Odunsi,Playlist_reach_daily,Q4_2019,last_value,5640.0,5136.0,5640.0,13
-Odunsi,Playlist_reach_daily,Q4_2020,last_value,7593.0,7262.0,7593.0,13
-Odunsi,Playlist_reach_daily,Q4_2021,last_value,5618.0,5612.0,10887.0,14
-Odunsi,Playlist_reach_daily,Q4_2022,last_value,380.0,380.0,381.0,13
-Odunsi,Playlist_reach_daily,Q4_2023,last_value,756.0,568.0,756.0,13
-Odunsi,Playlist_reach_daily,Q4_2024,last_value,82.0,82.0,829.0,13
-Odunsi,Playlist_reach_daily,Q4_2025,last_value,117.0,114.0,11102.0,13
-Odunsi,Soundcharts_fanbase_score_daily,Q1_2025,last_value,73.0,71.0,76.0,25
-Odunsi,Soundcharts_fanbase_score_daily,Q1_2026,last_value,43.0,43.0,44.0,25
-Odunsi,Soundcharts_fanbase_score_daily,Q2_2025,last_value,84.0,0.0,84.0,26
-Odunsi,Soundcharts_fanbase_score_daily,Q2_2026,last_value,43.0,43.0,44.0,26
-Odunsi,Soundcharts_fanbase_score_daily,Q3_2025,last_value,79.0,79.0,84.0,26
-Odunsi,Soundcharts_fanbase_score_daily,Q3_2026,last_value,42.0,42.0,49.0,14
-Odunsi,Soundcharts_fanbase_score_daily,Q4_2024,last_value,76.0,69.0,1174.0,33
-Odunsi,Soundcharts_fanbase_score_daily,Q4_2025,last_value,45.0,44.0,83.0,26
-Odunsi,Soundcharts_score_daily,Q1_2025,last_value,342.0,342.0,427.0,25
-Odunsi,Soundcharts_score_daily,Q1_2026,last_value,22.0,15.0,22.0,25
-Odunsi,Soundcharts_score_daily,Q2_2025,last_value,255.0,0.0,334.0,26
-Odunsi,Soundcharts_score_daily,Q2_2026,last_value,22.0,22.0,22.0,26
-Odunsi,Soundcharts_score_daily,Q3_2025,last_value,231.0,231.0,266.0,26
-Odunsi,Soundcharts_score_daily,Q3_2026,last_value,21.0,21.0,24.0,14
-Odunsi,Soundcharts_score_daily,Q4_2024,last_value,419.0,402.0,7243.0,33
-Odunsi,Soundcharts_score_daily,Q4_2025,last_value,15.0,15.0,228.0,26
-Odunsi,Soundcharts_trending_score_daily,Q1_2025,last_value,477.0,477.0,602.0,25
-Odunsi,Soundcharts_trending_score_daily,Q1_2026,last_value,11.0,0.0,12.0,25
-Odunsi,Soundcharts_trending_score_daily,Q2_2025,last_value,341.0,0.0,464.0,26
-Odunsi,Soundcharts_trending_score_daily,Q2_2026,last_value,11.0,11.0,11.0,26
-Odunsi,Soundcharts_trending_score_daily,Q3_2025,last_value,307.0,307.0,357.0,26
-Odunsi,Soundcharts_trending_score_daily,Q3_2026,last_value,11.0,11.0,12.0,14
-Odunsi,Soundcharts_trending_score_daily,Q4_2024,last_value,591.0,569.0,10277.0,33
-Odunsi,Soundcharts_trending_score_daily,Q4_2025,last_value,0.0,0.0,303.0,26
-Odunsi,Spotify_followers_daily,Q1_2021,net_change,2.0,23.0,26.0,90
-Odunsi,Spotify_followers_daily,Q1_2022,net_change,3.0,33.0,36.0,83
-Odunsi,Spotify_followers_daily,Q1_2023,net_change,1.0,41.0,42.0,90
-Odunsi,Spotify_followers_daily,Q1_2024,net_change,2.0,0.0,45.0,83
-Odunsi,Spotify_followers_daily,Q1_2025,net_change,10.0,79.0,91.0,13
-Odunsi,Spotify_followers_daily,Q1_2026,net_change,1.0,145.0,147.0,13
-Odunsi,Spotify_followers_daily,Q2_2020,net_change,2.0,17.0,19.0,56
-Odunsi,Spotify_followers_daily,Q2_2021,net_change,2.0,26.0,28.0,91
-Odunsi,Spotify_followers_daily,Q2_2022,net_change,3.0,36.0,39.0,90
-Odunsi,Spotify_followers_daily,Q2_2023,net_change,0.0,42.0,42.0,87
-Odunsi,Spotify_followers_daily,Q2_2024,net_change,5.0,45.0,50.0,53
-Odunsi,Spotify_followers_daily,Q2_2025,net_change,49.0,96.0,145.0,13
-Odunsi,Spotify_followers_daily,Q2_2026,net_change,5.0,148.0,153.0,17
-Odunsi,Spotify_followers_daily,Q3_2020,net_change,3.0,20.0,25.0,92
-Odunsi,Spotify_followers_daily,Q3_2021,net_change,2.0,28.0,30.0,92
-Odunsi,Spotify_followers_daily,Q3_2022,net_change,0.0,39.0,40.0,88
-Odunsi,Spotify_followers_daily,Q3_2023,net_change,0.0,42.0,42.0,87
-Odunsi,Spotify_followers_daily,Q3_2024,net_change,2.0,50.0,52.0,33
-Odunsi,Spotify_followers_daily,Q3_2025,net_change,0.0,145.0,145.0,13
-Odunsi,Spotify_followers_daily,Q3_2026,net_change,2.0,153.0,155.0,9
-Odunsi,Spotify_followers_daily,Q4_2020,net_change,1.0,23.0,24.0,92
-Odunsi,Spotify_followers_daily,Q4_2021,net_change,2.0,30.0,32.0,87
-Odunsi,Spotify_followers_daily,Q4_2022,net_change,2.0,0.0,41.0,92
-Odunsi,Spotify_followers_daily,Q4_2023,net_change,1.0,42.0,43.0,90
-Odunsi,Spotify_followers_daily,Q4_2024,net_change,28.0,52.0,80.0,13
-Odunsi,Spotify_followers_daily,Q4_2025,net_change,2.0,144.0,146.0,13
-Odunsi,Spotify_popularity_daily,Q1_2021,last_value,0.0,0.0,4.0,24
-Odunsi,Spotify_popularity_daily,Q1_2025,last_value,4.0,4.0,5.0,3
-Odunsi,Spotify_popularity_daily,Q1_2026,last_value,4.0,3.0,4.0,33
-Odunsi,Spotify_popularity_daily,Q2_2020,last_value,12.0,12.0,12.0,1
-Odunsi,Spotify_popularity_daily,Q2_2021,last_value,0.0,0.0,0.0,44
-Odunsi,Spotify_popularity_daily,Q2_2025,last_value,5.0,5.0,5.0,2
-Odunsi,Spotify_popularity_daily,Q2_2026,last_value,5.0,3.0,5.0,90
-Odunsi,Spotify_popularity_daily,Q3_2020,last_value,6.0,6.0,11.0,13
-Odunsi,Spotify_popularity_daily,Q3_2025,last_value,5.0,5.0,5.0,2
-Odunsi,Spotify_popularity_daily,Q3_2026,last_value,5.0,5.0,5.0,42
-Odunsi,Spotify_popularity_daily,Q4_2020,last_value,5.0,5.0,6.0,8
-Odunsi,Spotify_popularity_daily,Q4_2025,last_value,3.0,3.0,5.0,3
+Odunsi (The Engine),Deezer_fans_daily,Q1_2020,net_change,1.0,8.0,9.0,80
+Odunsi (The Engine),Deezer_fans_daily,Q1_2021,net_change,0.0,11.0,11.0,90
+Odunsi (The Engine),Deezer_fans_daily,Q1_2022,net_change,0.0,13.0,13.0,87
+Odunsi (The Engine),Deezer_fans_daily,Q1_2023,net_change,0.0,13.0,13.0,87
+Odunsi (The Engine),Deezer_fans_daily,Q1_2024,net_change,0.0,13.0,13.0,88
+Odunsi (The Engine),Deezer_fans_daily,Q1_2025,net_change,0.0,13.0,13.0,13
+Odunsi (The Engine),Deezer_fans_daily,Q1_2026,net_change,0.0,13.0,13.0,14
+Odunsi (The Engine),Deezer_fans_daily,Q2_2020,net_change,1.0,9.0,10.0,90
+Odunsi (The Engine),Deezer_fans_daily,Q2_2021,net_change,0.0,11.0,11.0,91
+Odunsi (The Engine),Deezer_fans_daily,Q2_2022,net_change,0.0,13.0,13.0,90
+Odunsi (The Engine),Deezer_fans_daily,Q2_2023,net_change,0.0,13.0,13.0,89
+Odunsi (The Engine),Deezer_fans_daily,Q2_2024,net_change,0.0,13.0,13.0,51
+Odunsi (The Engine),Deezer_fans_daily,Q2_2025,net_change,0.0,13.0,13.0,13
+Odunsi (The Engine),Deezer_fans_daily,Q2_2026,net_change,0.0,13.0,13.0,14
+Odunsi (The Engine),Deezer_fans_daily,Q3_2020,net_change,1.0,10.0,11.0,91
+Odunsi (The Engine),Deezer_fans_daily,Q3_2021,net_change,1.0,11.0,12.0,92
+Odunsi (The Engine),Deezer_fans_daily,Q3_2022,net_change,0.0,13.0,13.0,92
+Odunsi (The Engine),Deezer_fans_daily,Q3_2023,net_change,0.0,13.0,13.0,92
+Odunsi (The Engine),Deezer_fans_daily,Q3_2024,net_change,0.0,13.0,13.0,34
+Odunsi (The Engine),Deezer_fans_daily,Q3_2025,net_change,0.0,13.0,13.0,13
+Odunsi (The Engine),Deezer_fans_daily,Q3_2026,net_change,0.0,13.0,13.0,6
+Odunsi (The Engine),Deezer_fans_daily,Q4_2020,net_change,0.0,11.0,11.0,92
+Odunsi (The Engine),Deezer_fans_daily,Q4_2021,net_change,1.0,12.0,13.0,90
+Odunsi (The Engine),Deezer_fans_daily,Q4_2022,net_change,0.0,13.0,13.0,92
+Odunsi (The Engine),Deezer_fans_daily,Q4_2023,net_change,0.0,13.0,13.0,92
+Odunsi (The Engine),Deezer_fans_daily,Q4_2024,net_change,0.0,13.0,13.0,13
+Odunsi (The Engine),Deezer_fans_daily,Q4_2025,net_change,0.0,13.0,13.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q1_2024,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q1_2025,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q1_2026,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q2_2020,last_value,1.0,1.0,1.0,1
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q2_2024,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q2_2025,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q2_2026,last_value,1.0,1.0,1.0,11
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q3_2023,last_value,1.0,1.0,1.0,2
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q3_2024,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q3_2025,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q3_2026,last_value,1.0,1.0,1.0,5
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q4_2023,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q4_2024,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_count_daily,Q4_2025,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q1_2024,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q1_2025,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q1_2026,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q2_2020,last_value,1.0,1.0,1.0,1
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q2_2024,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q2_2025,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q2_2026,last_value,1.0,1.0,1.0,11
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q3_2023,last_value,1.0,1.0,1.0,2
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q3_2024,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q3_2025,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q3_2026,last_value,1.0,1.0,1.0,5
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q4_2023,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q4_2024,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_count_daily,Q4_2025,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q1_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q1_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q1_2026,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q2_2020,last_value,0.0,0.0,0.0,1
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q2_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q2_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q2_2026,last_value,0.0,0.0,0.0,11
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q3_2023,last_value,0.0,0.0,0.0,2
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q3_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q3_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q3_2026,last_value,0.0,0.0,0.0,5
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q4_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q4_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_editorial_reach_daily,Q4_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q1_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q1_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q1_2026,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q2_2020,last_value,0.0,0.0,0.0,1
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q2_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q2_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q2_2026,last_value,0.0,0.0,0.0,11
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q3_2023,last_value,0.0,0.0,0.0,2
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q3_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q3_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q3_2026,last_value,0.0,0.0,0.0,5
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q4_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q4_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_Apple_Music_reach_daily,Q4_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_count_daily,Q1_2019,last_value,1.0,1.0,2.0,13
+Odunsi (The Engine),Playlist_count_daily,Q1_2020,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_count_daily,Q1_2021,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_count_daily,Q1_2022,last_value,1.0,1.0,17.0,12
+Odunsi (The Engine),Playlist_count_daily,Q1_2023,last_value,2.0,2.0,2.0,13
+Odunsi (The Engine),Playlist_count_daily,Q1_2024,last_value,3.0,3.0,5.0,13
+Odunsi (The Engine),Playlist_count_daily,Q1_2025,last_value,3.0,2.0,29.0,13
+Odunsi (The Engine),Playlist_count_daily,Q1_2026,last_value,3.0,3.0,3.0,13
+Odunsi (The Engine),Playlist_count_daily,Q2_2019,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_count_daily,Q2_2020,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_count_daily,Q2_2021,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_count_daily,Q2_2022,last_value,2.0,1.0,2.0,13
+Odunsi (The Engine),Playlist_count_daily,Q2_2023,last_value,2.0,2.0,3.0,13
+Odunsi (The Engine),Playlist_count_daily,Q2_2024,last_value,3.0,3.0,3.0,13
+Odunsi (The Engine),Playlist_count_daily,Q2_2025,last_value,3.0,3.0,3.0,13
+Odunsi (The Engine),Playlist_count_daily,Q2_2026,last_value,5.0,1.0,6.0,12
+Odunsi (The Engine),Playlist_count_daily,Q3_2019,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_count_daily,Q3_2020,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_count_daily,Q3_2021,last_value,3.0,1.0,3.0,13
+Odunsi (The Engine),Playlist_count_daily,Q3_2022,last_value,2.0,2.0,2.0,14
+Odunsi (The Engine),Playlist_count_daily,Q3_2023,last_value,2.0,2.0,2.0,13
+Odunsi (The Engine),Playlist_count_daily,Q3_2024,last_value,3.0,3.0,3.0,13
+Odunsi (The Engine),Playlist_count_daily,Q3_2025,last_value,3.0,3.0,3.0,13
+Odunsi (The Engine),Playlist_count_daily,Q3_2026,last_value,5.0,5.0,5.0,4
+Odunsi (The Engine),Playlist_count_daily,Q4_2019,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_count_daily,Q4_2020,last_value,1.0,1.0,1.0,13
+Odunsi (The Engine),Playlist_count_daily,Q4_2021,last_value,10.0,3.0,12.0,14
+Odunsi (The Engine),Playlist_count_daily,Q4_2022,last_value,2.0,2.0,2.0,13
+Odunsi (The Engine),Playlist_count_daily,Q4_2023,last_value,4.0,3.0,4.0,13
+Odunsi (The Engine),Playlist_count_daily,Q4_2024,last_value,2.0,2.0,3.0,13
+Odunsi (The Engine),Playlist_count_daily,Q4_2025,last_value,3.0,3.0,31.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q1_2019,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q1_2020,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q1_2021,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q1_2022,last_value,0.0,0.0,0.0,12
+Odunsi (The Engine),Playlist_editorial_count_daily,Q1_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q1_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q1_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q1_2026,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q2_2019,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q2_2020,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q2_2021,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q2_2022,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q2_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q2_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q2_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q2_2026,last_value,0.0,0.0,0.0,12
+Odunsi (The Engine),Playlist_editorial_count_daily,Q3_2019,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q3_2020,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q3_2021,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q3_2022,last_value,0.0,0.0,0.0,14
+Odunsi (The Engine),Playlist_editorial_count_daily,Q3_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q3_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q3_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q3_2026,last_value,0.0,0.0,0.0,4
+Odunsi (The Engine),Playlist_editorial_count_daily,Q4_2019,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q4_2020,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q4_2021,last_value,0.0,0.0,0.0,14
+Odunsi (The Engine),Playlist_editorial_count_daily,Q4_2022,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q4_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q4_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_count_daily,Q4_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q1_2019,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q1_2020,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q1_2021,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q1_2022,last_value,0.0,0.0,0.0,12
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q1_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q1_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q1_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q1_2026,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q2_2019,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q2_2020,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q2_2021,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q2_2022,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q2_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q2_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q2_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q2_2026,last_value,0.0,0.0,0.0,12
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q3_2019,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q3_2020,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q3_2021,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q3_2022,last_value,0.0,0.0,0.0,14
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q3_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q3_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q3_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q3_2026,last_value,0.0,0.0,0.0,4
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q4_2019,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q4_2020,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q4_2021,last_value,0.0,0.0,0.0,14
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q4_2022,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q4_2023,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q4_2024,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_editorial_reach_daily,Q4_2025,last_value,0.0,0.0,0.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q1_2019,last_value,3561.0,1277.0,3561.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q1_2020,last_value,6289.0,5675.0,6289.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q1_2021,last_value,8195.0,7625.0,8195.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q1_2022,last_value,335.0,335.0,7978.0,12
+Odunsi (The Engine),Playlist_reach_daily,Q1_2023,last_value,380.0,380.0,380.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q1_2024,last_value,553.0,553.0,921.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q1_2025,last_value,96.0,82.0,11554.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q1_2026,last_value,117.0,117.0,120.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q2_2019,last_value,4242.0,3625.0,4242.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q2_2020,last_value,6865.0,6320.0,6865.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q2_2021,last_value,9810.0,8234.0,9810.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q2_2022,last_value,381.0,335.0,381.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q2_2023,last_value,423.0,380.0,514.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q2_2024,last_value,711.0,567.0,711.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q2_2025,last_value,103.0,98.0,103.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q2_2026,last_value,145.0,16.0,991.0,12
+Odunsi (The Engine),Playlist_reach_daily,Q3_2019,last_value,5100.0,4285.0,5100.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q3_2020,last_value,7243.0,6889.0,7243.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q3_2021,last_value,10871.0,9895.0,10871.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q3_2022,last_value,381.0,381.0,381.0,14
+Odunsi (The Engine),Playlist_reach_daily,Q3_2023,last_value,418.0,415.0,427.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q3_2024,last_value,790.0,719.0,790.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q3_2025,last_value,115.0,103.0,115.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q3_2026,last_value,146.0,145.0,146.0,4
+Odunsi (The Engine),Playlist_reach_daily,Q4_2019,last_value,5640.0,5136.0,5640.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q4_2020,last_value,7593.0,7262.0,7593.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q4_2021,last_value,5618.0,5612.0,10887.0,14
+Odunsi (The Engine),Playlist_reach_daily,Q4_2022,last_value,380.0,380.0,381.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q4_2023,last_value,756.0,568.0,756.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q4_2024,last_value,82.0,82.0,829.0,13
+Odunsi (The Engine),Playlist_reach_daily,Q4_2025,last_value,117.0,114.0,11102.0,13
+Odunsi (The Engine),Soundcharts_fanbase_score_daily,Q1_2025,last_value,73.0,71.0,76.0,25
+Odunsi (The Engine),Soundcharts_fanbase_score_daily,Q1_2026,last_value,43.0,43.0,44.0,25
+Odunsi (The Engine),Soundcharts_fanbase_score_daily,Q2_2025,last_value,84.0,0.0,84.0,26
+Odunsi (The Engine),Soundcharts_fanbase_score_daily,Q2_2026,last_value,43.0,43.0,44.0,26
+Odunsi (The Engine),Soundcharts_fanbase_score_daily,Q3_2025,last_value,79.0,79.0,84.0,26
+Odunsi (The Engine),Soundcharts_fanbase_score_daily,Q3_2026,last_value,42.0,42.0,49.0,14
+Odunsi (The Engine),Soundcharts_fanbase_score_daily,Q4_2024,last_value,76.0,69.0,1174.0,33
+Odunsi (The Engine),Soundcharts_fanbase_score_daily,Q4_2025,last_value,45.0,44.0,83.0,26
+Odunsi (The Engine),Soundcharts_score_daily,Q1_2025,last_value,342.0,342.0,427.0,25
+Odunsi (The Engine),Soundcharts_score_daily,Q1_2026,last_value,22.0,15.0,22.0,25
+Odunsi (The Engine),Soundcharts_score_daily,Q2_2025,last_value,255.0,0.0,334.0,26
+Odunsi (The Engine),Soundcharts_score_daily,Q2_2026,last_value,22.0,22.0,22.0,26
+Odunsi (The Engine),Soundcharts_score_daily,Q3_2025,last_value,231.0,231.0,266.0,26
+Odunsi (The Engine),Soundcharts_score_daily,Q3_2026,last_value,21.0,21.0,24.0,14
+Odunsi (The Engine),Soundcharts_score_daily,Q4_2024,last_value,419.0,402.0,7243.0,33
+Odunsi (The Engine),Soundcharts_score_daily,Q4_2025,last_value,15.0,15.0,228.0,26
+Odunsi (The Engine),Soundcharts_trending_score_daily,Q1_2025,last_value,477.0,477.0,602.0,25
+Odunsi (The Engine),Soundcharts_trending_score_daily,Q1_2026,last_value,11.0,0.0,12.0,25
+Odunsi (The Engine),Soundcharts_trending_score_daily,Q2_2025,last_value,341.0,0.0,464.0,26
+Odunsi (The Engine),Soundcharts_trending_score_daily,Q2_2026,last_value,11.0,11.0,11.0,26
+Odunsi (The Engine),Soundcharts_trending_score_daily,Q3_2025,last_value,307.0,307.0,357.0,26
+Odunsi (The Engine),Soundcharts_trending_score_daily,Q3_2026,last_value,11.0,11.0,12.0,14
+Odunsi (The Engine),Soundcharts_trending_score_daily,Q4_2024,last_value,591.0,569.0,10277.0,33
+Odunsi (The Engine),Soundcharts_trending_score_daily,Q4_2025,last_value,0.0,0.0,303.0,26
+Odunsi (The Engine),Spotify_followers_daily,Q1_2021,net_change,2.0,23.0,26.0,90
+Odunsi (The Engine),Spotify_followers_daily,Q1_2022,net_change,3.0,33.0,36.0,83
+Odunsi (The Engine),Spotify_followers_daily,Q1_2023,net_change,1.0,41.0,42.0,90
+Odunsi (The Engine),Spotify_followers_daily,Q1_2024,net_change,2.0,0.0,45.0,83
+Odunsi (The Engine),Spotify_followers_daily,Q1_2025,net_change,10.0,79.0,91.0,13
+Odunsi (The Engine),Spotify_followers_daily,Q1_2026,net_change,1.0,145.0,147.0,13
+Odunsi (The Engine),Spotify_followers_daily,Q2_2020,net_change,2.0,17.0,19.0,56
+Odunsi (The Engine),Spotify_followers_daily,Q2_2021,net_change,2.0,26.0,28.0,91
+Odunsi (The Engine),Spotify_followers_daily,Q2_2022,net_change,3.0,36.0,39.0,90
+Odunsi (The Engine),Spotify_followers_daily,Q2_2023,net_change,0.0,42.0,42.0,87
+Odunsi (The Engine),Spotify_followers_daily,Q2_2024,net_change,5.0,45.0,50.0,53
+Odunsi (The Engine),Spotify_followers_daily,Q2_2025,net_change,49.0,96.0,145.0,13
+Odunsi (The Engine),Spotify_followers_daily,Q2_2026,net_change,5.0,148.0,153.0,17
+Odunsi (The Engine),Spotify_followers_daily,Q3_2020,net_change,3.0,20.0,25.0,92
+Odunsi (The Engine),Spotify_followers_daily,Q3_2021,net_change,2.0,28.0,30.0,92
+Odunsi (The Engine),Spotify_followers_daily,Q3_2022,net_change,0.0,39.0,40.0,88
+Odunsi (The Engine),Spotify_followers_daily,Q3_2023,net_change,0.0,42.0,42.0,87
+Odunsi (The Engine),Spotify_followers_daily,Q3_2024,net_change,2.0,50.0,52.0,33
+Odunsi (The Engine),Spotify_followers_daily,Q3_2025,net_change,0.0,145.0,145.0,13
+Odunsi (The Engine),Spotify_followers_daily,Q3_2026,net_change,2.0,153.0,155.0,9
+Odunsi (The Engine),Spotify_followers_daily,Q4_2020,net_change,1.0,23.0,24.0,92
+Odunsi (The Engine),Spotify_followers_daily,Q4_2021,net_change,2.0,30.0,32.0,87
+Odunsi (The Engine),Spotify_followers_daily,Q4_2022,net_change,2.0,0.0,41.0,92
+Odunsi (The Engine),Spotify_followers_daily,Q4_2023,net_change,1.0,42.0,43.0,90
+Odunsi (The Engine),Spotify_followers_daily,Q4_2024,net_change,28.0,52.0,80.0,13
+Odunsi (The Engine),Spotify_followers_daily,Q4_2025,net_change,2.0,144.0,146.0,13
+Odunsi (The Engine),Spotify_popularity_daily,Q1_2021,last_value,0.0,0.0,4.0,24
+Odunsi (The Engine),Spotify_popularity_daily,Q1_2025,last_value,4.0,4.0,5.0,3
+Odunsi (The Engine),Spotify_popularity_daily,Q1_2026,last_value,4.0,3.0,4.0,33
+Odunsi (The Engine),Spotify_popularity_daily,Q2_2020,last_value,12.0,12.0,12.0,1
+Odunsi (The Engine),Spotify_popularity_daily,Q2_2021,last_value,0.0,0.0,0.0,44
+Odunsi (The Engine),Spotify_popularity_daily,Q2_2025,last_value,5.0,5.0,5.0,2
+Odunsi (The Engine),Spotify_popularity_daily,Q2_2026,last_value,5.0,3.0,5.0,90
+Odunsi (The Engine),Spotify_popularity_daily,Q3_2020,last_value,6.0,6.0,11.0,13
+Odunsi (The Engine),Spotify_popularity_daily,Q3_2025,last_value,5.0,5.0,5.0,2
+Odunsi (The Engine),Spotify_popularity_daily,Q3_2026,last_value,5.0,5.0,5.0,42
+Odunsi (The Engine),Spotify_popularity_daily,Q4_2020,last_value,5.0,5.0,6.0,8
+Odunsi (The Engine),Spotify_popularity_daily,Q4_2025,last_value,3.0,3.0,5.0,3
 Odunsi (The Engine),Amazon_Music_followers_daily,Q1_2025,net_change,4.0,247.0,251.0,16
 Odunsi (The Engine),Amazon_Music_followers_daily,Q1_2026,net_change,13.0,292.0,305.0,15
 Odunsi (The Engine),Amazon_Music_followers_daily,Q2_2024,net_change,0.0,225.0,225.0,2

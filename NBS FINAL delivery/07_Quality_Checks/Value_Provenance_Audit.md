@@ -1,14 +1,14 @@
 # Value Provenance Audit
 
-Generated 2026-08-31T23:52:37.616397+00:00
+Generated 2026-09-01T00:14:10.056025+00:00
 
 Every number in the delivery, classified by whether it was measured.
 
 | Tier | Meaning | Values |
 |---|---|---:|
-| 1 OBSERVED | a provider returned it | 49,446,387 |
+| 1 OBSERVED | a provider returned it | 49,446,306 |
 | 2 AGGREGATED | arithmetic rollup of tier 1 | 619,389 |
-| 3 ESTIMATED | tier 1 x an assumed rate | 191,680 |
+| 3 ESTIMATED | tier 1 x an assumed rate | 191,410 |
 | 4 ASSUMED | constant, no measurement | 372 |
 
 **Tiers 1 and 2 are real values.** 13,184,460 daily observations and 36,204,423 geography rows were returned by a provider for a named artist on a named date, and the quarterly figures are arithmetic on those.

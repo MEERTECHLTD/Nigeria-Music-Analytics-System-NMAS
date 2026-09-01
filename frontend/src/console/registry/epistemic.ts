@@ -264,7 +264,7 @@ export const FIELDS: FieldSpec[] = [
       { op: 'baseline 1.3M', constantId: 'employment-direct' },
       { op: '× 1.02 per quarter', constantId: 'employment-growth' },
     ],
-    note: 'A national baseline compounded by a constant. Not attributable to the 130 artists.',
+    note: 'A national baseline compounded by a constant. Not attributable to the 129 artists.',
   },
   {
     field: 'male',

@@ -18,7 +18,7 @@ class of defect this audit exists to catch. Both counts are true, and each is
 correct only under its own label:
 
     MASTER_LIST_ROWS   131   rows in the delivered artist list
-    DISTINCT_ARTISTS   130   distinct artists those rows describe
+    DISTINCT_ARTISTS   129   distinct artists those rows describe
     COST_MODEL_N       131   the count the SHIPPED cost model actually used
 
 COST_MODEL_N is a historical fact about delivered files. It stays 131 because
@@ -42,7 +42,17 @@ ROOT = Path(__file__).resolve().parents[2]
 #: Alias -> canonical. One artist, two frame rows, two provider UUIDs.
 #: Adding a pair here changes every downstream count and the published console
 #: figure at once; that is the point of it living in one place.
-ALIASES: dict[str, str] = {"Flavour N'abania": "Flavour"}
+ALIASES: dict[str, str] = {
+    "Flavour N'abania": "Flavour",
+    # "Odunsi" (Chartmetric 1439568) is an EMPTY STUB for the artist carried as
+    # "Odunsi (The Engine)" (11587): 27 quarters, zero listeners, zero views,
+    # $7.99 of revenue in total, overlapping the real entity in every one of
+    # those quarters. Left separate it inflates the artist count by one and
+    # charges the flat cost model for a person who does not exist -- NGN
+    # 56,160,000 across the 27 affected quarters. Found by independent
+    # verification, not by the pipeline, which is why the guard below exists.
+    "Odunsi": "Odunsi (The Engine)",
+}
 
 #: The delivered artist list of the FIRST submission.
 MASTER_LIST = ROOT / "delivery" / "04_Datasets" / "Artist_Master_List.csv"

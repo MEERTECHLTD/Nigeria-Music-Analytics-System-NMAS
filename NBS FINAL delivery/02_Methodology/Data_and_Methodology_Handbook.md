@@ -1,6 +1,6 @@
 # Data and Methodology Handbook
 
-**Nigerian Music Sector Statistics, Q1 2019 - Q3 2026** · generated 2026-08-31 by `backend/scripts/build_handbook.py`
+**Nigerian Music Sector Statistics, Q1 2019 - Q3 2026** · generated 2026-09-01 by `backend/scripts/build_handbook.py`
 
 Written so a reader who has never seen this project can reproduce its numbers, challenge its assumptions, and know exactly which figures are measured and which are not. This handbook is generated from the delivered artifacts; it cannot disagree with them.
 
@@ -9,7 +9,7 @@ Written so a reader who has never seen this project can reproduce its numbers, c
 Quarterly statistics on Nigerian music-sector digital activity for incorporation into the national accounts on the 2019 base year: platform audience, streaming activity, estimated streaming revenue with a domestic/export split, radio airplay, operating cost, and the domestic-production versus Gross National Income (diaspora) account separation NBS requested.
 
 - **Time coverage**: 31 quarters, Q1_2019 to Q3_2026
-- **Artists**: 855 in the population frame; 752 resolved and fetched; 734 revenue-bearing (see section 8 — these are different populations and must not be compared)
+- **Artists**: 855 in the population frame; 752 resolved and fetched; 733 revenue-bearing (see section 8 — these are different populations and must not be compared)
 - **Geographic coverage**: global platform metrics; Nigerian domestic detail to city level; export destinations to country level (217 countries observed)
 - **Sources**: Chartmetric (archive floor 2024-01-01) and Soundcharts (2019+), merged under a documented precedence and plausibility rule; external secondary sources for employment and cost
 
@@ -36,9 +36,9 @@ NBS asked directly about the 3.5 streams-per-listener multiplier. The answer, st
 |---|---|---|---:|---:|
 | Spotify monthly listeners | Reach — distinct people, not plays | x3.5 plays/listener/month x3 x$0.004 | 352,115,619 | 51.1% |
 | YouTube channel views | **Consumption — observed plays** | quarter net change x$0.004 | 224,144,609 | 32.6% |
-| Deezer fans | **Follower count — NOT consumption** | x2.0 plays/fan/month x3 x$0.004 | 6,716,908 | 1.0% |
+| Deezer fans | **Follower count — NOT consumption** | x2.0 plays/fan/month x3 x$0.004 | 6,714,726 | 1.0% |
 | Unmeasured platform uplift | Assumed — NOT a platform | Spotify revenue x0.30 | 105,634,686 | 15.3% |
-| **Total gross streaming revenue** | `EST` throughout | | **688,611,824** | 100% |
+| **Total gross streaming revenue** | `EST` throughout | | **688,609,641** | 100% |
 
 **The Deezer conversion is a stated methodological weakness**: a follower count is not a play count, and converting followers to revenue rests on an assumed listening rate with no observational basis. At 1.0% of revenue it does not threaten the totals, but it is disclosed here rather than left to be discovered.
 
@@ -69,12 +69,12 @@ The single source of these values is `backend/nmas/assumptions.py`; the frontend
 
 | Assumption varied | Gross streaming revenue | vs published |
 |---|---:|---:|
-| plays/listener/month = 3.0 | $623,218,922 | -9.5% |
-| plays/listener/month = 3.5 | $688,611,823 | -0.0% |
-| plays/listener/month = 4.0 | $754,004,724 | +9.5% |
-| uplift rate = 0.20 | $653,400,261 | -5.1% |
-| uplift rate = 0.30 | $688,611,823 | -0.0% |
-| uplift rate = 0.40 | $723,823,385 | +5.1% |
+| plays/listener/month = 3.0 | $623,216,740 | -9.5% |
+| plays/listener/month = 3.5 | $688,609,641 | -0.0% |
+| plays/listener/month = 4.0 | $754,002,541 | +9.5% |
+| uplift rate = 0.20 | $653,398,079 | -5.1% |
+| uplift rate = 0.30 | $688,609,641 | -0.0% |
+| uplift rate = 0.40 | $723,821,203 | +5.1% |
 
 A reader should conclude: the quarter-to-quarter MOVEMENT of the series is driven by measured audience data; the LEVEL is proportional to assumed constants and moves about 10%% for every 0.5 change in the plays multiplier.
 
@@ -82,7 +82,7 @@ A reader should conclude: the quarter-to-quarter MOVEMENT of the series is drive
 
 Classification is exact per cell via the `split_classification` column:
 
-- **`OBS`** — the artist's OWN Nigerian share of listeners that quarter, from provider country geography. Coverage 76.6%-88.6% of revenue-bearing artists per quarter from Q1_2021.
+- **`OBS`** — the artist's OWN Nigerian share of listeners that quarter, from provider country geography. Coverage 76.7%-88.8% of revenue-bearing artists per quarter from Q1_2021.
 - **`ASM`** — the portfolio-wide quarterly ratio (itself `AGG`) applied to an artist without own geography. The ratio is real; its application to that artist is assumed.
 - **`UNK`** — Q4_2020 and earlier: the provider published no geography, so those eight quarters carry revenue with NO split. Blank, never zero.
 
@@ -142,7 +142,7 @@ Non-computable deltas are `UNK`, never zero: a single-observation quarter (a del
 |---|---:|---|
 | Frame | 855 | curated population frame |
 | Resolved + fetched | 752 | confident provider match; all fetched |
-| Revenue-bearing | 734 | at least one revenue metric in some quarter |
+| Revenue-bearing | 733 | at least one revenue metric in some quarter |
 | Revenue-bearing, single quarter | varies 270-728 | artists absent in a quarter are absent, not zero |
 
 Comparing figures across DIFFERENT populations produced a withdrawn finding during the audit (D-01, a 19.9-36.4%% "divergence" that was really 128 artists vs 734). Every comparison in this delivery states its population.
@@ -159,5 +159,5 @@ Not made: the 28 unresolved guard series (neither side provably defective — fl
 |---|---|---|
 | 1 | 2026-04 | Chartmetric-only delivery: 9 quarters, 131 artists, fixed 70/30 split |
 | 2 | 2026-08 | Two-provider series: 31 quarters, 752 artists, observed geography, Boomplay/Audiomack/radio, GNI separation |
-| 3 | 2026-08-31 | Audit pass: uplift corrected, plausibility guard, per-artist splits, D-15 aggregation fix, classification everywhere |
+| 3 | 2026-09-01 | Audit pass: uplift corrected, plausibility guard, per-artist splits, D-15 aggregation fix, classification everywhere |
 

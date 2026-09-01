@@ -373,7 +373,7 @@ export const GAPS: Gap[] = [
     status: 'INCONSISTENT',
     severity: 'minor',
     evidence:
-      'The master list holds 131 ROWS but 130 distinct artists — "Flavour" and "Flavour N\'abania" are one person under provider ids 56982 and 372062, each producing revenue in all five quarters. The summary reports 127; the cost model bills 131; per-period revenue counts are 128/128/128/127/127; the database export holds 65.',
+      'The master list holds 131 ROWS but 129 distinct artists. Two pairs are one person each: "Flavour"/"Flavour N\'abania" (ids 56982/372062) and "Odunsi"/"Odunsi (The Engine)" (ids 1439568/11587, the former an empty stub carrying $7.99 across 27 quarters). The summary reports 127; the cost model bills 131; per-period revenue counts are 128/128/128/127/127; the database export holds 65.',
     remedy: 'State every count under its own name — rows versus distinct artists — name the duplicate identity, and show the per-period count against the roster as a denominator. Counts are derived in generated/cohortFacts.ts so they cannot drift from the delivered files.',
   },
   {

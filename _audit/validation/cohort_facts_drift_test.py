@@ -88,6 +88,38 @@ for path in sorted(src.rglob("*.tsx")):
                         "render it as rows, or use DISTINCT_ARTISTS"
                         % (path.relative_to(ROOT), line))
 
+# ---- E. no STALE cohort-size headcount anywhere in live source ------------
+# Arms C and D police the literal 131. They did not catch "130 distinct artists"
+# left behind when a second duplicate entity (Odunsi) was merged and the count
+# became 129 -- the platform published "130 artists" beside an artist_count of
+# 129, contradicting itself inside one file. Any number in cohort range asserted
+# as an artist count must equal the derived count.
+stale = re.compile(r"\b(1[0-9]{2})\b[\s\-]*(?:distinct\s+)?artists\b")
+ok_counts = {c["distinct_artists"], c["master_list_rows"]}
+for path in sorted(src.rglob("*.ts")) + sorted(src.rglob("*.tsx")):
+    text = path.read_text(encoding="utf-8")
+    for i, line in enumerate(text.splitlines(), 1):
+        # Historical results that record what a PAST run reported are facts and
+        # must not be rewritten to today's count.
+        if ("roster rows" in line or "master-list rows" in line or "artist rows" in line
+                or "shippedResult" in line):
+            continue
+        for mm in stale.finditer(line):
+            n = int(mm.group(1))
+            if n not in ok_counts:
+                failures.append("E: %s:%d asserts \"%d artists\" but the derived count is %d"
+                                % (path.relative_to(ROOT), i, n, c["distinct_artists"]))
+for gen in (ROOT / "backend/scripts/generate_nbs_static_api.py",):
+    for i, line in enumerate(gen.read_text(encoding="utf-8").splitlines(), 1):
+        # A comment explaining a defect quotes the wrong value on purpose.
+        if line.lstrip().startswith("#"):
+            continue
+        for mm in stale.finditer(line):
+            n = int(mm.group(1))
+            if n not in ok_counts and "%d" not in line:
+                failures.append("E: %s:%d asserts \"%d artists\" but the derived count is %d"
+                                % (gen.relative_to(ROOT), i, n, c["distinct_artists"]))
+
 if failures:
     print("COHORT FACTS DRIFT TEST: FAIL")
     for f in failures:

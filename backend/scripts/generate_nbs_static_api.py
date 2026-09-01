@@ -27,7 +27,7 @@ sys.path.insert(0, str(BACKEND))
 from nmas.assumptions import NAIRA_PER_USD as NAIRA, STREAMS_PER_LISTENER_MONTH, UNMEASURED_UPLIFT_RATE  # noqa: E402
 from nmas.cohort import canonical, counts, master_list_names  # noqa: E402
 
-# SCOPE. The published platform is the 130-artist first-submission cohort, so
+# SCOPE. The published platform is the first-submission cohort, so
 # the dashboard reports the same population as delivery130 and the two can never
 # disagree. Pass --scope all to regenerate the full 752-artist portfolio into the
 # same paths; nothing about the portfolio data is deleted either way.
@@ -94,7 +94,11 @@ def main() -> int:
             "artist_name": r["artist_name"],
             "residency": r["residency"],
             "spotify_monthly_listeners": int(num(r, "spotify_monthly_listeners")),
-            "youtube_subscribers": 0,
+            # Was a hardcoded 0 on every row: a false zero published as data,
+            # while the package carries a real subscriber level on 2,617 of
+            # 3,826 rows. Served from the package.
+            "youtube_subscribers": int(float((pub.get((r["artist_name"], r["period_label"])) or {})
+                                             .get("youtube_subscribers") or 0)),
             "youtube_actual_views": int(num(r, "youtube_quarter_views")),
             "youtube_views_source": r.get("youtube_views_source", ""),
             "deezer_fans": int(num(r, "deezer_fans")),
@@ -134,7 +138,7 @@ def main() -> int:
     costs = []
     if SCOPE == "cohort130" and COHORT_COST.exists():
         # The portfolio cost file has no artist dimension and cannot be filtered:
-        # publishing it here would bill 130 artists for a 752-artist population.
+        # publishing it here would bill the cohort for a 752-artist population.
         # delivery130 recomputes the same card on this cohort's own counts.
         for r in csv.DictReader(COHORT_COST.open(encoding="utf-8")):
             if r["cost_category"].startswith("==="):
@@ -213,8 +217,11 @@ def main() -> int:
 
     summary = {
         "scope": SCOPE,
-        "scope_label": ("First-submission cohort — 130 artists" if SCOPE == "cohort130"
-                        else "All revenue-bearing artists"),
+        # Derived, never a literal: this label sat at "130 artists" beside an
+        # artist_count of 129 after a duplicate entity was merged, contradicting
+        # itself inside one file.
+        "scope_label": (("First-submission cohort — %d artists" % len({r["artist_name"] for r in rows}))
+                        if SCOPE == "cohort130" else "All revenue-bearing artists"),
         "periods": periods,
         "artist_count": len({r["artist_name"] for r in rows}),
         "streaming_revenue": [], "export_revenue": [], "costs": [], "employment": employment,

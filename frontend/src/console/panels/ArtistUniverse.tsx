@@ -1,7 +1,7 @@
 /**
  * PANEL 4 — Artist Universe
  *
- * The 131-row master list (130 distinct artists — one is held twice), joined to the 638 revenue
+ * The 131-row master list (129 distinct artists — two are held twice), joined to the 638 revenue
  * rows and to the 65-row entity-resolution audit.
  *
  * What this panel renders from artifacts:

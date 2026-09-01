@@ -1,6 +1,6 @@
 // GENERATED FILE — do not edit. Source of truth: backend/nmas/assumptions.py
 // Regenerate with: backend/scripts/generate_frontend_assumptions.py
-// Generated 2026-08-28T20:13:45.284690+00:00
+// Generated 2026-09-01T00:10:24.562777+00:00
 //
 // Every value here is an ASSUMPTION, not a measurement. The UI imports these
 // so it can never disagree with what the pipeline actually computed (D-11).

@@ -265,7 +265,7 @@ function Matrix({ data }: { data: Coverage }) {
 
       <Section
         title="Coverage matrix"
-        subtitle="Cell shade carries the share of the 131-row roster (130 distinct artists) observed in that quarter. Select any cell for its source, endpoint, call timestamp and record count."
+        subtitle="Cell shade carries the share of the 131-row roster (129 distinct artists) observed in that quarter. Select any cell for its source, endpoint, call timestamp and record count."
         actions={<EpistemicLegend only={['observed', 'estimated', 'assumed', 'unavailable']} />}
       >
         <div className="scroll-x">
